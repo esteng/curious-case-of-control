@@ -1,6 +1,5 @@
 
 import os
-import openai
 import requests
 import json 
 from typing import List, Dict
@@ -9,7 +8,7 @@ from tqdm import tqdm
 
 oai_api_key = open('oai_api.key').read().strip()
 hf_api_key = open('hf_api.key').read().strip()
-
+jurassic_api_key = open('jurassic_api.key').read().strip() 
 
 class Prompt:
     def __init__(self, 
@@ -21,7 +20,18 @@ class Prompt:
         self.context_sep = context_sep
 
 class T5Prompt(Prompt):
-    pass  
+    def __init__(self, 
+                 context: List[str], 
+                 prompt: str, 
+                 context_sep = "\n"): 
+        super().__init__(context,
+                         prompt,
+                         context_sep)
+
+    def __str__(self): 
+        context_str=self.context_sep.join(self.context) 
+        return f"question: {self.prompt} context: {context_str} </s>" 
+
 
 class GPTPrompt(Prompt):
     def __init__(self, 
@@ -36,57 +46,59 @@ class GPTPrompt(Prompt):
         context_str=self.context_sep.join(self.context) 
         return f"{context_str}{self.context_sep}{self.prompt}"
 
+class FixedPrompt:
+    def __init__(self):
+        self.prompt = None
 
-class Metric:
-    def __init__(self, class_lookups: Dict[str, List[str]]): 
-        self.class_lookups = class_lookups
-        self.assert_disjoint()
+    def __str__(self):
+        return str(self.prompt)
+class FixedGPTPrompt(FixedPrompt):
+    """
+    Fixed prompt for object and subject control 
+    """
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str):
+        super().__init__()
+        context = [f"""You will be given a context and a question. Answer the question with either "{name1}" or "{name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                    f"Question:  Who {past}, {name1} or {name2}?"]
+        prompt_text = "Answer: "
+        self.prompt = GPTPrompt(context, prompt_text)
+    
+class FixedPassiveGPTPrompt:
+    """
+    Fixed prompt for passives 
+    """
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str):
+        super().__init__()
+        context = [f"""You will be given a context and a question. Answer the question with either "{name1}" or "{name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                    f"Question:  Who {past}, {name1} or {name2}?"]
+        prompt_text = "Answer: "
+        self.prompt = GPTPrompt(context, prompt_text)
+    
+class FixedT5Prompt:
+    """
+    Fixed prompt for T5 questions, which are different from GPT and Jurassic
+    """
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str):
 
-    def assert_disjoint(self):
-        # make sure no overlapping keywords
-        for k1, keywords1 in self.class_lookups.items():
-            for k2, keywords2 in self.class_lookups.items():
-                if k1 == k2:
-                    continue
-                try:
-                    assert(len(set(keywords1) & set(keywords2)) == 0)
-                except AssertionError:
-                    print(f"Overlapping keywords between {k1} and {k2}: {set(keywords1) & set(keywords2)}")
-
-class StringMetric(Metric):
-    def __init__(self, class_lookups: Dict[str, List[str]]):
-        super().__init__(class_lookups)
-        self.classes = {k: [] for k in class_lookups.keys()}
-        self.classes['other'] = []
-
-    def __call__(self, text: str):
-        split_text = re.split("\s+", text.lower())
-        for k, keywords in self.class_lookups.items():
-            for kw in keywords:
-                if kw in split_text: 
-                    self.classes[k].append(text)
-                    return
-        self.classes['other'].append(text)
-
-    def get_metric(self):
-        counts = {k: len(v) for k,v in self.classes.items()}
-        return counts, self.classes
-
-class LogprobMetric(Metric):
-    def __init__(self, class_lookups: Dict[str, List[str]]):
-        super().__init__(class_lookups)
-        self.classes = {k: [] for k in class_lookups.keys()}
-
-    def __call__(self, logprobs_sequence: List[Dict]):
-        pass
-        #split_text = re.split("\s+", text)
-        #for k, keywords in self.class_lookups.items():
-        #    for kw in keywords:
-        #        if kw in split_text: 
-        #            self.classes[k].append(text)
-        #            return
-
-
+                    # print(text)
+        context = [f"{name1} {verb} {name2} {infinitive}."]
+        prompt_text = f"Who {past}?"
+        self.prompt = T5Prompt(context, prompt_text)
 
 def run_gpt_prompt(text, kwargs): 
     prompt = {
@@ -120,6 +132,18 @@ def run_gpt_prompt(text, kwargs):
     text = " ".join([x['choices'][0]['text'] for x in responses])
     return text 
 
+
+def run_ai21_prompt(text, kwargs):
+    json_prompt = {"prompt": text, "numResults": 1, "stopSequences": [".","\n"], "topKReturn": 0}
+    json_prompt.update(kwargs)
+    response = requests.post("https://api.ai21.com/studio/v1/j1-large/complete",
+        headers={f"Authorization": f"Bearer {jurassic_api_key}"},
+        json=json_prompt,
+    )
+    data = response.json()
+    #print(data)
+    return data['completions'][0]['data']['text']
+
 def run_t5_prompt(text, kwargs):
     API_URL = "https://api-inference.huggingface.co/models/valhalla/t5-base-qa-qg-hl"
     headers = {"Authorization": f"Bearer {hf_api_key}"}
@@ -129,9 +153,12 @@ def run_t5_prompt(text, kwargs):
         return response.json()
 
     output = query({
-        "inputs": "question: Is a doll wearing a blindfold easy to see, or hard to see? context: Answer the following question with \"easy\" or \"hard\"."
+        "inputs": text, 
     })
-    return output['generated_text']
+    try:
+        return output[0]['generated_text']
+    except KeyError:
+        return output 
 
 def run_experiment(run_fxn, text, replicants, metric, kwargs):
     responses = []
