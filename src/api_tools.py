@@ -1,10 +1,15 @@
 
+from json.decoder import JSONDecodeError
 import os
 import requests
 import json 
 from typing import List, Dict
 import re
 from tqdm import tqdm
+import pdb 
+
+import numpy as np
+np.random.seed(12)
 
 oai_api_key = open('oai_api.key').read().strip()
 hf_api_key = open('hf_api.key').read().strip()
@@ -61,14 +66,20 @@ class FixedGPTPrompt(FixedPrompt):
                  name2: str,
                  verb: str,
                  infinitive: str,
-                 past: str):
+                 past: str,
+                 swap_names: bool):
         super().__init__()
-        context = [f"""You will be given a context and a question. Answer the question with either "{name1}" or "{name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
-                    f"Question:  Who {past}, {name1} or {name2}?"]
+        if swap_names:
+            prompt_name1, prompt_name2 = name2, name1
+        else:
+            prompt_name1, prompt_name2 = name1, name2
+
+        context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                    f"Question:  Who {past}, {prompt_name1} or {prompt_name2}?"]
         prompt_text = "Answer: "
         self.prompt = GPTPrompt(context, prompt_text)
     
-class FixedPassiveGPTPrompt:
+class FixedPassiveGPTPrompt(FixedPrompt):
     """
     Fixed prompt for passives 
     """
@@ -77,14 +88,36 @@ class FixedPassiveGPTPrompt:
                  name2: str,
                  verb: str,
                  infinitive: str,
-                 past: str):
+                 past: str,
+                 swap_names: bool):
         super().__init__()
-        context = [f"""You will be given a context and a question. Answer the question with either "{name1}" or "{name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
-                    f"Question:  Who {past}, {name1} or {name2}?"]
+        if swap_names:
+            prompt_name1, prompt_name2 = name2, name1
+        else:
+            prompt_name1, prompt_name2 = name1, name2
+        context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                    f"Question:  Who {past}, {prompt_name1} or {prompt_name2}?"]
         prompt_text = "Answer: "
         self.prompt = GPTPrompt(context, prompt_text)
+
+class FixedPassiveT5Prompt(FixedPrompt):
+    """
+    fixed prompt for T5 passives 
+    """
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str,
+                 swap_names: bool):
+        super().__init__()
+        context = [f"{name1} was {verb} by {name2} {infinitive}."]
+        prompt_text = f"Who {past}?"
+        self.prompt = T5Prompt(context, prompt_text)
+
     
-class FixedT5Prompt:
+class FixedT5Prompt(FixedPrompt):
     """
     Fixed prompt for T5 questions, which are different from GPT and Jurassic
     """
@@ -93,9 +126,9 @@ class FixedT5Prompt:
                  name2: str,
                  verb: str,
                  infinitive: str,
-                 past: str):
-
-                    # print(text)
+                 past: str,
+                 swap_names: bool):
+        super().__init__()     
         context = [f"{name1} {verb} {name2} {infinitive}."]
         prompt_text = f"Who {past}?"
         self.prompt = T5Prompt(context, prompt_text)
@@ -142,7 +175,11 @@ def run_ai21_prompt(text, kwargs):
     )
     data = response.json()
     #print(data)
-    return data['completions'][0]['data']['text']
+    try:
+        return data['completions'][0]['data']['text']
+    except KeyError:
+        pdb.set_trace() 
+    
 
 def run_t5_prompt(text, kwargs):
     API_URL = "https://api-inference.huggingface.co/models/valhalla/t5-base-qa-qg-hl"
@@ -150,7 +187,11 @@ def run_t5_prompt(text, kwargs):
 
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
-        return response.json()
+        try:
+            return response.json()
+        except JSONDecodeError:
+            # print(f"response error {response}")
+            return {"response": response}
 
     output = query({
         "inputs": text, 
@@ -158,13 +199,21 @@ def run_t5_prompt(text, kwargs):
     try:
         return output[0]['generated_text']
     except KeyError:
+        # pdb.set_trace()
         return output 
 
 def run_experiment(run_fxn, text, replicants, metric, kwargs):
     responses = []
-    for i in tqdm(range(replicants)):
-        resp = run_fxn(text, kwargs)
-        metric(resp)
-        responses.append((text, resp))
+    if replicants > 1:
+        for i in tqdm(range(replicants)):
+            resp = run_fxn(text, kwargs)
+            metric(resp)
+            responses.append((text, resp))
+    else:
+        # don't do tqdm if only 1, it's annoying 
+        for i in range(replicants):
+            resp = run_fxn(text, kwargs)
+            metric(resp)
+            responses.append((text, resp))
     return metric, responses
 

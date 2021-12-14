@@ -1,0 +1,241 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,gpt3,subject-control,Tom,Mary,True,promised,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', 'Mary')"
+1,gpt3,subject-control,Tom,Mary,False,promised,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', 'Mary')"
+2,gpt3,subject-control,Tom,Mary,True,offered,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom offered Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom offered Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', 'Mary')"
+3,gpt3,subject-control,Tom,Mary,False,offered,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom offered Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom offered Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', 'Mary')"
+4,gpt3,subject-control,Tom,Mary,True,suggested,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom suggested Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', 'Mary')"
+5,gpt3,subject-control,Tom,Mary,False,suggested,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom suggested Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', 'Mary')"
+6,gpt3,subject-control,Tom,Mary,True,proposed,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom proposed Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', 'Mary')"
+7,gpt3,subject-control,Tom,Mary,False,proposed,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom proposed Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', 'Tom')"
+8,gpt3,subject-control,Bill,Mary,True,promised,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill promised Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill promised Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', 'Mary')"
+9,gpt3,subject-control,Bill,Mary,False,promised,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill promised Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill promised Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', 'Mary')"
+10,gpt3,subject-control,Bill,Mary,True,offered,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill offered Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill offered Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', 'Mary')"
+11,gpt3,subject-control,Bill,Mary,False,offered,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill offered Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill offered Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', 'Mary')"
+12,gpt3,subject-control,Bill,Mary,True,suggested,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill suggested Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', 'Mary')"
+13,gpt3,subject-control,Bill,Mary,False,suggested,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill suggested Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', 'Mary')"
+14,gpt3,subject-control,Bill,Mary,True,proposed,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill proposed Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', 'Mary')"
+15,gpt3,subject-control,Bill,Mary,False,proposed,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill proposed Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', 'Mary')"
+16,gpt3,subject-control,James,Mary,True,promised,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James promised Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James promised Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', 'Mary')"
+17,gpt3,subject-control,James,Mary,False,promised,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James promised Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James promised Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', 'Mary')"
+18,gpt3,subject-control,James,Mary,True,offered,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James offered Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James offered Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', 'Mary')"
+19,gpt3,subject-control,James,Mary,False,offered,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James offered Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James offered Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', 'Mary')"
+20,gpt3,subject-control,James,Mary,True,suggested,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James suggested Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', 'Mary')"
+21,gpt3,subject-control,James,Mary,False,suggested,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James suggested Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James suggested Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', 'Mary')"
+22,gpt3,subject-control,James,Mary,True,proposed,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James proposed Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', 'Mary')"
+23,gpt3,subject-control,James,Mary,False,proposed,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James proposed Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James proposed Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', 'Mary')"
+24,gpt3,subject-control,Tom,Sally,True,promised,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom promised Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom promised Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', 'Tom')"
+25,gpt3,subject-control,Tom,Sally,False,promised,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom promised Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom promised Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', 'Tom')"
+26,gpt3,subject-control,Tom,Sally,True,offered,to be her editor,Tom,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom offered Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom offered Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', 'S')"
+27,gpt3,subject-control,Tom,Sally,False,offered,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom offered Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom offered Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', 'Tom')"
+28,gpt3,subject-control,Tom,Sally,True,suggested,to be her editor,Tom,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom suggested Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', 'S')"
+29,gpt3,subject-control,Tom,Sally,False,suggested,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom suggested Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', 'Tom')"
+30,gpt3,subject-control,Tom,Sally,True,proposed,to be her editor,Tom,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom proposed Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', 'S')"
+31,gpt3,subject-control,Tom,Sally,False,proposed,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom proposed Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', 'Tom')"
+32,gpt3,subject-control,Bill,Sally,True,promised,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill promised Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill promised Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', 'Bill')"
+33,gpt3,subject-control,Bill,Sally,False,promised,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill promised Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill promised Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', 'Bill')"
+34,gpt3,subject-control,Bill,Sally,True,offered,to be her editor,Bill,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill offered Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill offered Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', 'S')"
+35,gpt3,subject-control,Bill,Sally,False,offered,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill offered Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill offered Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', 'Bill')"
+36,gpt3,subject-control,Bill,Sally,True,suggested,to be her editor,Bill,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill suggested Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', 'S')"
+37,gpt3,subject-control,Bill,Sally,False,suggested,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill suggested Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', 'Bill')"
+38,gpt3,subject-control,Bill,Sally,True,proposed,to be her editor,Bill,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill proposed Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', 'S')"
+39,gpt3,subject-control,Bill,Sally,False,proposed,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill proposed Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', 'Bill')"
+40,gpt3,subject-control,James,Sally,True,promised,to be her editor,James,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James promised Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James promised Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', 'S')"
+41,gpt3,subject-control,James,Sally,False,promised,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James promised Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James promised Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', 'James')"
+42,gpt3,subject-control,James,Sally,True,offered,to be her editor,James,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James offered Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James offered Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', 'S')"
+43,gpt3,subject-control,James,Sally,False,offered,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James offered Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James offered Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', 'James')"
+44,gpt3,subject-control,James,Sally,True,suggested,to be her editor,James,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James suggested Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', 'S')"
+45,gpt3,subject-control,James,Sally,False,suggested,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James suggested Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James suggested Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', 'James')"
+46,gpt3,subject-control,James,Sally,True,proposed,to be her editor,James,other,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James proposed Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', 'S')"
+47,gpt3,subject-control,James,Sally,False,proposed,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James proposed Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James proposed Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', 'James')"

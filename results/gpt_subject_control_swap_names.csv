@@ -1,0 +1,251 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,gpt3,subject-control,Tom,Mary,True,promised,to leave,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to leave.
+
+Question:  Who left, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to leave.\n\nQuestion:  Who left, Mary or Tom?\nAnswer: ', 'Mary')"
+1,gpt3,subject-control,Tom,Mary,False,promised,to leave,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to leave.
+
+Question:  Who left, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to leave.\n\nQuestion:  Who left, Tom or Mary?\nAnswer: ', 'Mary')"
+2,gpt3,subject-control,Tom,Mary,True,promised,to call home,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to call home.
+
+Question:  Who called home, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to call home.\n\nQuestion:  Who called home, Mary or Tom?\nAnswer: ', 'Mary')"
+3,gpt3,subject-control,Tom,Mary,False,promised,to call home,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to call home.
+
+Question:  Who called home, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to call home.\n\nQuestion:  Who called home, Tom or Mary?\nAnswer: ', 'Tom')"
+4,gpt3,subject-control,Tom,Mary,True,promised,to reply,Tom,other,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to reply.
+
+Question:  Who replied, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to reply.\n\nQuestion:  Who replied, Mary or Tom?\nAnswer: ', '\n')"
+5,gpt3,subject-control,Tom,Mary,False,promised,to reply,Tom,other,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to reply.
+
+Question:  Who replied, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to reply.\n\nQuestion:  Who replied, Tom or Mary?\nAnswer: ', '\n')"
+6,gpt3,subject-control,Tom,Mary,True,promised,to wipe the counter,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to wipe the counter.
+
+Question:  Who wiped the counter, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to wipe the counter.\n\nQuestion:  Who wiped the counter, Mary or Tom?\nAnswer: ', 'Mary')"
+7,gpt3,subject-control,Tom,Mary,False,promised,to wipe the counter,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to wipe the counter.
+
+Question:  Who wiped the counter, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to wipe the counter.\n\nQuestion:  Who wiped the counter, Tom or Mary?\nAnswer: ', 'Tom')"
+8,gpt3,subject-control,Tom,Mary,True,promised,to dance,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to dance.
+
+Question:  Who danced, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to dance.\n\nQuestion:  Who danced, Mary or Tom?\nAnswer: ', 'Mary')"
+9,gpt3,subject-control,Tom,Mary,False,promised,to dance,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to dance.
+
+Question:  Who danced, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to dance.\n\nQuestion:  Who danced, Tom or Mary?\nAnswer: ', 'Tom')"
+10,gpt3,subject-control,Tom,Bill,True,promised,to leave,Tom,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".
+Context: Tom promised Bill to leave.
+
+Question:  Who left, Bill or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".\nContext: Tom promised Bill to leave.\n\nQuestion:  Who left, Bill or Tom?\nAnswer: ', 'Bill')"
+11,gpt3,subject-control,Tom,Bill,False,promised,to leave,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".
+Context: Tom promised Bill to leave.
+
+Question:  Who left, Tom or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".\nContext: Tom promised Bill to leave.\n\nQuestion:  Who left, Tom or Bill?\nAnswer: ', 'Tom')"
+12,gpt3,subject-control,Tom,Bill,True,promised,to call home,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".
+Context: Tom promised Bill to call home.
+
+Question:  Who called home, Bill or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".\nContext: Tom promised Bill to call home.\n\nQuestion:  Who called home, Bill or Tom?\nAnswer: ', 'Tom')"
+13,gpt3,subject-control,Tom,Bill,False,promised,to call home,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".
+Context: Tom promised Bill to call home.
+
+Question:  Who called home, Tom or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".\nContext: Tom promised Bill to call home.\n\nQuestion:  Who called home, Tom or Bill?\nAnswer: ', 'Tom')"
+14,gpt3,subject-control,Tom,Bill,True,promised,to reply,Tom,other,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".
+Context: Tom promised Bill to reply.
+
+Question:  Who replied, Bill or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".\nContext: Tom promised Bill to reply.\n\nQuestion:  Who replied, Bill or Tom?\nAnswer: ', '\n')"
+15,gpt3,subject-control,Tom,Bill,False,promised,to reply,Tom,other,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".
+Context: Tom promised Bill to reply.
+
+Question:  Who replied, Tom or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".\nContext: Tom promised Bill to reply.\n\nQuestion:  Who replied, Tom or Bill?\nAnswer: ', '\n')"
+16,gpt3,subject-control,Tom,Bill,True,promised,to wipe the counter,Tom,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".
+Context: Tom promised Bill to wipe the counter.
+
+Question:  Who wiped the counter, Bill or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".\nContext: Tom promised Bill to wipe the counter.\n\nQuestion:  Who wiped the counter, Bill or Tom?\nAnswer: ', 'Bill')"
+17,gpt3,subject-control,Tom,Bill,False,promised,to wipe the counter,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".
+Context: Tom promised Bill to wipe the counter.
+
+Question:  Who wiped the counter, Tom or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".\nContext: Tom promised Bill to wipe the counter.\n\nQuestion:  Who wiped the counter, Tom or Bill?\nAnswer: ', 'Tom')"
+18,gpt3,subject-control,Tom,Bill,True,promised,to dance,Tom,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".
+Context: Tom promised Bill to dance.
+
+Question:  Who danced, Bill or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Tom"".\nContext: Tom promised Bill to dance.\n\nQuestion:  Who danced, Bill or Tom?\nAnswer: ', 'Bill')"
+19,gpt3,subject-control,Tom,Bill,False,promised,to dance,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".
+Context: Tom promised Bill to dance.
+
+Question:  Who danced, Tom or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Bill"".\nContext: Tom promised Bill to dance.\n\nQuestion:  Who danced, Tom or Bill?\nAnswer: ', 'Tom')"
+20,gpt3,subject-control,Mary,Bill,True,promised,to leave,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Mary promised Bill to leave.
+
+Question:  Who left, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Mary promised Bill to leave.\n\nQuestion:  Who left, Bill or Mary?\nAnswer: ', 'Mary')"
+21,gpt3,subject-control,Mary,Bill,False,promised,to leave,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Mary promised Bill to leave.
+
+Question:  Who left, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Mary promised Bill to leave.\n\nQuestion:  Who left, Mary or Bill?\nAnswer: ', 'Mary')"
+22,gpt3,subject-control,Mary,Bill,True,promised,to call home,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Mary promised Bill to call home.
+
+Question:  Who called home, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Mary promised Bill to call home.\n\nQuestion:  Who called home, Bill or Mary?\nAnswer: ', 'Mary')"
+23,gpt3,subject-control,Mary,Bill,False,promised,to call home,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Mary promised Bill to call home.
+
+Question:  Who called home, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Mary promised Bill to call home.\n\nQuestion:  Who called home, Mary or Bill?\nAnswer: ', 'Mary')"
+24,gpt3,subject-control,Mary,Bill,True,promised,to reply,Mary,other,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Mary promised Bill to reply.
+
+Question:  Who replied, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Mary promised Bill to reply.\n\nQuestion:  Who replied, Bill or Mary?\nAnswer: ', '\n')"
+25,gpt3,subject-control,Mary,Bill,False,promised,to reply,Mary,other,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Mary promised Bill to reply.
+
+Question:  Who replied, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Mary promised Bill to reply.\n\nQuestion:  Who replied, Mary or Bill?\nAnswer: ', '\n')"
+26,gpt3,subject-control,Mary,Bill,True,promised,to wipe the counter,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Mary promised Bill to wipe the counter.
+
+Question:  Who wiped the counter, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Mary promised Bill to wipe the counter.\n\nQuestion:  Who wiped the counter, Bill or Mary?\nAnswer: ', 'Mary')"
+27,gpt3,subject-control,Mary,Bill,False,promised,to wipe the counter,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Mary promised Bill to wipe the counter.
+
+Question:  Who wiped the counter, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Mary promised Bill to wipe the counter.\n\nQuestion:  Who wiped the counter, Mary or Bill?\nAnswer: ', 'Mary')"
+28,gpt3,subject-control,Mary,Bill,True,promised,to dance,Mary,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Mary promised Bill to dance.
+
+Question:  Who danced, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Mary promised Bill to dance.\n\nQuestion:  Who danced, Bill or Mary?\nAnswer: ', 'Bill')"
+29,gpt3,subject-control,Mary,Bill,False,promised,to dance,Mary,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Mary promised Bill to dance.
+
+Question:  Who danced, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Mary promised Bill to dance.\n\nQuestion:  Who danced, Mary or Bill?\nAnswer: ', 'Mary')"
+30,gpt3,subject-control,Ellen,Mary,True,promised,to leave,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".
+Context: Ellen promised Mary to leave.
+
+Question:  Who left, Mary or Ellen?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".\nContext: Ellen promised Mary to leave.\n\nQuestion:  Who left, Mary or Ellen?\nAnswer: ', 'Mary')"
+31,gpt3,subject-control,Ellen,Mary,False,promised,to leave,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".
+Context: Ellen promised Mary to leave.
+
+Question:  Who left, Ellen or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".\nContext: Ellen promised Mary to leave.\n\nQuestion:  Who left, Ellen or Mary?\nAnswer: ', 'Mary')"
+32,gpt3,subject-control,Ellen,Mary,True,promised,to call home,Ellen,other,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".
+Context: Ellen promised Mary to call home.
+
+Question:  Who called home, Mary or Ellen?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".\nContext: Ellen promised Mary to call home.\n\nQuestion:  Who called home, Mary or Ellen?\nAnswer: ', '\n')"
+33,gpt3,subject-control,Ellen,Mary,False,promised,to call home,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".
+Context: Ellen promised Mary to call home.
+
+Question:  Who called home, Ellen or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".\nContext: Ellen promised Mary to call home.\n\nQuestion:  Who called home, Ellen or Mary?\nAnswer: ', 'Mary')"
+34,gpt3,subject-control,Ellen,Mary,True,promised,to reply,Ellen,other,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".
+Context: Ellen promised Mary to reply.
+
+Question:  Who replied, Mary or Ellen?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".\nContext: Ellen promised Mary to reply.\n\nQuestion:  Who replied, Mary or Ellen?\nAnswer: ', '\n')"
+35,gpt3,subject-control,Ellen,Mary,False,promised,to reply,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".
+Context: Ellen promised Mary to reply.
+
+Question:  Who replied, Ellen or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".\nContext: Ellen promised Mary to reply.\n\nQuestion:  Who replied, Ellen or Mary?\nAnswer: ', 'Mary')"
+36,gpt3,subject-control,Ellen,Mary,True,promised,to wipe the counter,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".
+Context: Ellen promised Mary to wipe the counter.
+
+Question:  Who wiped the counter, Mary or Ellen?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".\nContext: Ellen promised Mary to wipe the counter.\n\nQuestion:  Who wiped the counter, Mary or Ellen?\nAnswer: ', 'Mary')"
+37,gpt3,subject-control,Ellen,Mary,False,promised,to wipe the counter,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".
+Context: Ellen promised Mary to wipe the counter.
+
+Question:  Who wiped the counter, Ellen or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".\nContext: Ellen promised Mary to wipe the counter.\n\nQuestion:  Who wiped the counter, Ellen or Mary?\nAnswer: ', 'Mary')"
+38,gpt3,subject-control,Ellen,Mary,True,promised,to dance,Ellen,other,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".
+Context: Ellen promised Mary to dance.
+
+Question:  Who danced, Mary or Ellen?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Ellen"".\nContext: Ellen promised Mary to dance.\n\nQuestion:  Who danced, Mary or Ellen?\nAnswer: ', '\n')"
+39,gpt3,subject-control,Ellen,Mary,False,promised,to dance,Ellen,Mary,"You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".
+Context: Ellen promised Mary to dance.
+
+Question:  Who danced, Ellen or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Ellen"" or ""Mary"".\nContext: Ellen promised Mary to dance.\n\nQuestion:  Who danced, Ellen or Mary?\nAnswer: ', 'Mary')"
+40,gpt3,subject-control,Morgan,Jaime,True,promised,to leave,Morgan,other,"You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".
+Context: Morgan promised Jaime to leave.
+
+Question:  Who left, Jaime or Morgan?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".\nContext: Morgan promised Jaime to leave.\n\nQuestion:  Who left, Jaime or Morgan?\nAnswer: ', 'Ja')"
+41,gpt3,subject-control,Morgan,Jaime,False,promised,to leave,Morgan,Morgan,"You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".
+Context: Morgan promised Jaime to leave.
+
+Question:  Who left, Morgan or Jaime?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".\nContext: Morgan promised Jaime to leave.\n\nQuestion:  Who left, Morgan or Jaime?\nAnswer: ', 'Morgan')"
+42,gpt3,subject-control,Morgan,Jaime,True,promised,to call home,Morgan,other,"You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".
+Context: Morgan promised Jaime to call home.
+
+Question:  Who called home, Jaime or Morgan?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".\nContext: Morgan promised Jaime to call home.\n\nQuestion:  Who called home, Jaime or Morgan?\nAnswer: ', 'Ja')"
+43,gpt3,subject-control,Morgan,Jaime,False,promised,to call home,Morgan,other,"You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".
+Context: Morgan promised Jaime to call home.
+
+Question:  Who called home, Morgan or Jaime?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".\nContext: Morgan promised Jaime to call home.\n\nQuestion:  Who called home, Morgan or Jaime?\nAnswer: ', '\n')"
+44,gpt3,subject-control,Morgan,Jaime,True,promised,to reply,Morgan,other,"You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".
+Context: Morgan promised Jaime to reply.
+
+Question:  Who replied, Jaime or Morgan?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".\nContext: Morgan promised Jaime to reply.\n\nQuestion:  Who replied, Jaime or Morgan?\nAnswer: ', 'Ja')"
+45,gpt3,subject-control,Morgan,Jaime,False,promised,to reply,Morgan,Morgan,"You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".
+Context: Morgan promised Jaime to reply.
+
+Question:  Who replied, Morgan or Jaime?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".\nContext: Morgan promised Jaime to reply.\n\nQuestion:  Who replied, Morgan or Jaime?\nAnswer: ', 'Morgan')"
+46,gpt3,subject-control,Morgan,Jaime,True,promised,to wipe the counter,Morgan,other,"You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".
+Context: Morgan promised Jaime to wipe the counter.
+
+Question:  Who wiped the counter, Jaime or Morgan?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".\nContext: Morgan promised Jaime to wipe the counter.\n\nQuestion:  Who wiped the counter, Jaime or Morgan?\nAnswer: ', 'Ja')"
+47,gpt3,subject-control,Morgan,Jaime,False,promised,to wipe the counter,Morgan,Morgan,"You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".
+Context: Morgan promised Jaime to wipe the counter.
+
+Question:  Who wiped the counter, Morgan or Jaime?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".\nContext: Morgan promised Jaime to wipe the counter.\n\nQuestion:  Who wiped the counter, Morgan or Jaime?\nAnswer: ', 'Morgan')"
+48,gpt3,subject-control,Morgan,Jaime,True,promised,to dance,Morgan,other,"You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".
+Context: Morgan promised Jaime to dance.
+
+Question:  Who danced, Jaime or Morgan?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Jaime"" or ""Morgan"".\nContext: Morgan promised Jaime to dance.\n\nQuestion:  Who danced, Jaime or Morgan?\nAnswer: ', 'Ja')"
+49,gpt3,subject-control,Morgan,Jaime,False,promised,to dance,Morgan,Morgan,"You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".
+Context: Morgan promised Jaime to dance.
+
+Question:  Who danced, Morgan or Jaime?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Morgan"" or ""Jaime"".\nContext: Morgan promised Jaime to dance.\n\nQuestion:  Who danced, Morgan or Jaime?\nAnswer: ', 'Morgan')"

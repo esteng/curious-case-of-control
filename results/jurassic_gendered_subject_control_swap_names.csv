@@ -1,0 +1,241 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,jurassic,subject-control,Tom,Mary,True,promised,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom promised Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom promised Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', ' Tom was')"
+1,jurassic,subject-control,Tom,Mary,False,promised,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom promised Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom promised Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', ' Tom\n')"
+2,jurassic,subject-control,Tom,Mary,True,offered,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom offered Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom offered Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', ' Mary\n')"
+3,jurassic,subject-control,Tom,Mary,False,offered,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom offered Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom offered Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', ' Tom\n')"
+4,jurassic,subject-control,Tom,Mary,True,suggested,to be her editor,Tom,other,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom suggested Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', ' Mary.')"
+5,jurassic,subject-control,Tom,Mary,False,suggested,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom suggested Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', ' Tom\n')"
+6,jurassic,subject-control,Tom,Mary,True,proposed,to be her editor,Tom,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".
+Context: Tom proposed Mary to be her editor.
+
+Question:  Who was the editor, Mary or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Tom"".\nContext: Tom proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Tom?\nAnswer: ', ' Mary\n')"
+7,jurassic,subject-control,Tom,Mary,False,proposed,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".
+Context: Tom proposed Mary to be her editor.
+
+Question:  Who was the editor, Tom or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Mary"".\nContext: Tom proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Tom or Mary?\nAnswer: ', ' Tom\n')"
+8,jurassic,subject-control,Bill,Mary,True,promised,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill promised Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill promised Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', ' Mary\n')"
+9,jurassic,subject-control,Bill,Mary,False,promised,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill promised Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill promised Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', ' Bill\n')"
+10,jurassic,subject-control,Bill,Mary,True,offered,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill offered Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill offered Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', ' Mary\n')"
+11,jurassic,subject-control,Bill,Mary,False,offered,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill offered Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill offered Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', ' Bill\n')"
+12,jurassic,subject-control,Bill,Mary,True,suggested,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill suggested Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', ' Mary\n')"
+13,jurassic,subject-control,Bill,Mary,False,suggested,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill suggested Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', ' Bill\n')"
+14,jurassic,subject-control,Bill,Mary,True,proposed,to be her editor,Bill,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".
+Context: Bill proposed Mary to be her editor.
+
+Question:  Who was the editor, Mary or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""Bill"".\nContext: Bill proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or Bill?\nAnswer: ', ' Mary\n')"
+15,jurassic,subject-control,Bill,Mary,False,proposed,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".
+Context: Bill proposed Mary to be her editor.
+
+Question:  Who was the editor, Bill or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Mary"".\nContext: Bill proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Bill or Mary?\nAnswer: ', ' Bill\n')"
+16,jurassic,subject-control,James,Mary,True,promised,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James promised Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James promised Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', ' James was')"
+17,jurassic,subject-control,James,Mary,False,promised,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James promised Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James promised Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', ' James\n')"
+18,jurassic,subject-control,James,Mary,True,offered,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James offered Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James offered Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', ' Mary\n')"
+19,jurassic,subject-control,James,Mary,False,offered,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James offered Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James offered Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', ' James\n')"
+20,jurassic,subject-control,James,Mary,True,suggested,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James suggested Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James suggested Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', ' Mary\n')"
+21,jurassic,subject-control,James,Mary,False,suggested,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James suggested Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James suggested Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', ' James\n')"
+22,jurassic,subject-control,James,Mary,True,proposed,to be her editor,James,Mary,"You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".
+Context: James proposed Mary to be her editor.
+
+Question:  Who was the editor, Mary or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Mary"" or ""James"".\nContext: James proposed Mary to be her editor.\n\nQuestion:  Who was the editor, Mary or James?\nAnswer: ', ' Mary\n')"
+23,jurassic,subject-control,James,Mary,False,proposed,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".
+Context: James proposed Mary to be her editor.
+
+Question:  Who was the editor, James or Mary?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Mary"".\nContext: James proposed Mary to be her editor.\n\nQuestion:  Who was the editor, James or Mary?\nAnswer: ', ' James\n')"
+24,jurassic,subject-control,Tom,Sally,True,promised,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom promised Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom promised Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', ' Tom was')"
+25,jurassic,subject-control,Tom,Sally,False,promised,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom promised Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom promised Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', ' Tom\n')"
+26,jurassic,subject-control,Tom,Sally,True,offered,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom offered Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom offered Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', ' Tom was')"
+27,jurassic,subject-control,Tom,Sally,False,offered,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom offered Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom offered Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', ' Tom\n')"
+28,jurassic,subject-control,Tom,Sally,True,suggested,to be her editor,Tom,Sally,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom suggested Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', ' Sally\n')"
+29,jurassic,subject-control,Tom,Sally,False,suggested,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom suggested Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', ' Tom\n')"
+30,jurassic,subject-control,Tom,Sally,True,proposed,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".
+Context: Tom proposed Sally to be her editor.
+
+Question:  Who was the editor, Sally or Tom?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Tom"".\nContext: Tom proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Tom?\nAnswer: ', ' Tom proposed')"
+31,jurassic,subject-control,Tom,Sally,False,proposed,to be her editor,Tom,Tom,"You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".
+Context: Tom proposed Sally to be her editor.
+
+Question:  Who was the editor, Tom or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Tom"" or ""Sally"".\nContext: Tom proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Tom or Sally?\nAnswer: ', ' Tom\n')"
+32,jurassic,subject-control,Bill,Sally,True,promised,to be her editor,Bill,Sally,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill promised Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill promised Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', ' Sally\n')"
+33,jurassic,subject-control,Bill,Sally,False,promised,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill promised Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill promised Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', ' Bill\n')"
+34,jurassic,subject-control,Bill,Sally,True,offered,to be her editor,Bill,Sally,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill offered Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill offered Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', ' Sally\n')"
+35,jurassic,subject-control,Bill,Sally,False,offered,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill offered Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill offered Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', ' Bill\n')"
+36,jurassic,subject-control,Bill,Sally,True,suggested,to be her editor,Bill,Sally,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill suggested Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', ' Sally\n')"
+37,jurassic,subject-control,Bill,Sally,False,suggested,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill suggested Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', ' Bill\n')"
+38,jurassic,subject-control,Bill,Sally,True,proposed,to be her editor,Bill,Sally,"You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".
+Context: Bill proposed Sally to be her editor.
+
+Question:  Who was the editor, Sally or Bill?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""Bill"".\nContext: Bill proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or Bill?\nAnswer: ', ' Sally\n')"
+39,jurassic,subject-control,Bill,Sally,False,proposed,to be her editor,Bill,Bill,"You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".
+Context: Bill proposed Sally to be her editor.
+
+Question:  Who was the editor, Bill or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Bill"" or ""Sally"".\nContext: Bill proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Bill or Sally?\nAnswer: ', ' Bill\n')"
+40,jurassic,subject-control,James,Sally,True,promised,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James promised Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James promised Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', ' James was')"
+41,jurassic,subject-control,James,Sally,False,promised,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James promised Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James promised Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', ' James\n')"
+42,jurassic,subject-control,James,Sally,True,offered,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James offered Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James offered Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', ' James was')"
+43,jurassic,subject-control,James,Sally,False,offered,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James offered Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James offered Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', ' James\n')"
+44,jurassic,subject-control,James,Sally,True,suggested,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James suggested Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James suggested Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', ' James was')"
+45,jurassic,subject-control,James,Sally,False,suggested,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James suggested Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James suggested Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', ' James was')"
+46,jurassic,subject-control,James,Sally,True,proposed,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".
+Context: James proposed Sally to be her editor.
+
+Question:  Who was the editor, Sally or James?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Sally"" or ""James"".\nContext: James proposed Sally to be her editor.\n\nQuestion:  Who was the editor, Sally or James?\nAnswer: ', ' James was')"
+47,jurassic,subject-control,James,Sally,False,proposed,to be her editor,James,James,"You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".
+Context: James proposed Sally to be her editor.
+
+Question:  Who was the editor, James or Sally?
+Answer: ","('You will be given a context and a question. Answer the question with either ""James"" or ""Sally"".\nContext: James proposed Sally to be her editor.\n\nQuestion:  Who was the editor, James or Sally?\nAnswer: ', ' James\n')"
