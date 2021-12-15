@@ -1,6 +1,7 @@
 import re 
 import itertools
 from collections import defaultdict
+import json
 
 import requests
 from bs4 import BeautifulSoup
@@ -76,13 +77,14 @@ if __name__ == "__main__":
 
     top_names = top_2_male + top_2_female + top_2_neutral
 
-    combos = list(set(itertools.product(top_names, repeat=2)))
+    combos_2 = list(set(itertools.product(top_names, repeat=2)))
     # combos = list(itertools.product(top_2_male, top_2_female)) + list(itertools.product(top_2_male, top_2_neutral)) + list(itertools.product(top_2_male, top_2_male)) + \
             #  list(itertools.product(top_2_female, top_2_female)) + list(itertools.product(top_2_neutral, top_2_neutral))
     # combos = list(set(combos))
-    combos = [x for x in combos if x[0] != x[1]]
-    combos = sorted(combos)
+    combos_2 = [x for x in combos_2 if x[0] != x[1]]
+    combos_2 = sorted(combos_2)
     
     
-    print(combos)
+    with open("../data/names_top_2.json", 'w') as f1:
+        json.dump(combos_2, f1, indent=4)
 

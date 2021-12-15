@@ -2,6 +2,7 @@ from typing import Dict, List
 import re
 import pdb 
 
+import pandas as pd 
 class Metric:
     def __init__(self, class_lookups: Dict[str, List[str]]): 
         self.class_lookups = class_lookups
@@ -58,10 +59,20 @@ class LogprobMetric(Metric):
 
 def get_accuracy(df): 
     if len(df) == 0:
-        return -1, 0
+        return -1, 0, -1, 0
     total_correct = df[df['true'] == df['pred']]
     total_acc = len(total_correct)/len(df)
-    return total_acc, len(df) 
+
+    # ignoring "other"
+    df_no_other = df[df['pred'] != 'other']
+    if len(df_no_other) == 0:
+        total_acc_no_other = -1 
+    else:
+        total_correct_no_other = df_no_other[df_no_other['true'] == df_no_other['pred']]
+        total_acc_no_other = len(total_correct_no_other)/len(df_no_other)
+
+
+    return total_acc, len(df), total_acc_no_other, len(df_no_other)
 
 def accuracy_report(df):
     total_acc = get_accuracy(df)
@@ -72,8 +83,14 @@ def accuracy_report(df):
     acc_by_name = {}
     for name1 in all_name1s:
         for name2 in all_name2s:
+            # don't repeat, it'll be same 
+            if f"{name1},{name2}" in acc_by_name.keys() or f"{name2},{name1}" in acc_by_name.keys():
+                continue
+
             df_by_name1_name2 = df[(df['name1'] == name1) & (df['name2'] == name2)]
-            acc_name1_name2 = get_accuracy(df_by_name1_name2)
+            df_by_name2_name1 = df[(df['name2'] == name1) & (df['name1'] == name2)]
+            full_name_df = pd.concat([df_by_name1_name2, df_by_name2_name1])
+            acc_name1_name2 = get_accuracy(full_name_df)
             acc_by_name[f"{name1},{name2}"] = acc_name1_name2 
 
     all_actions = set(df['action'])
