@@ -3,7 +3,7 @@ from json.decoder import JSONDecodeError
 import os
 import requests
 import json 
-from typing import List, Dict
+from typing import List, Dict, Tuple
 import re
 from tqdm import tqdm
 import pdb 
@@ -67,16 +67,18 @@ class FixedGPTPrompt(FixedPrompt):
                  verb: str,
                  infinitive: str,
                  past: str,
-                 swap_names: bool):
+                 swap_names: bool,
+                 qa_words: Tuple[str] = ("Question", "Answer")):
         super().__init__()
+        question_word, answer_word = qa_words
         if swap_names:
             prompt_name1, prompt_name2 = name2, name1
         else:
             prompt_name1, prompt_name2 = name1, name2
 
         context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
-                    f"Question:  Who {past}, {prompt_name1} or {prompt_name2}?"]
-        prompt_text = "Answer: "
+                    f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
     
 class FixedPassiveGPTPrompt(FixedPrompt):
@@ -89,15 +91,17 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                  verb: str,
                  infinitive: str,
                  past: str,
-                 swap_names: bool):
+                 swap_names: bool,
+                 qa_words: Tuple[str] = ("Question", "Answer")):
         super().__init__()
+        question_word, answer_word = qa_words
         if swap_names:
             prompt_name1, prompt_name2 = name2, name1
         else:
             prompt_name1, prompt_name2 = name1, name2
         context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
-                    f"Question:  Who {past}, {prompt_name1} or {prompt_name2}?"]
-        prompt_text = "Answer: "
+                    f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
 
 class FixedPassiveT5Prompt(FixedPrompt):
@@ -110,7 +114,7 @@ class FixedPassiveT5Prompt(FixedPrompt):
                  verb: str,
                  infinitive: str,
                  past: str,
-                 swap_names: bool):
+                 qa_words: Tuple[str] = None):
         super().__init__()
         context = [f"{name1} was {verb} by {name2} {infinitive}."]
         prompt_text = f"Who {past}?"
@@ -127,7 +131,8 @@ class FixedT5Prompt(FixedPrompt):
                  verb: str,
                  infinitive: str,
                  past: str,
-                 swap_names: bool):
+                 swap_names: bool,
+                 qa_words: Tuple[str] = None):
         super().__init__()     
         context = [f"{name1} {verb} {name2} {infinitive}."]
         prompt_text = f"Who {past}?"

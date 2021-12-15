@@ -58,7 +58,7 @@ class LogprobMetric(Metric):
 
 def get_accuracy(df): 
     if len(df) == 0:
-        return -1
+        return -1, 0
     total_correct = df[df['true'] == df['pred']]
     total_acc = len(total_correct)/len(df)
     return total_acc, len(df) 
@@ -97,9 +97,13 @@ def accuracy_report(df):
 
     dicts = [acc_by_name, acc_by_action, acc_by_verb, acc_by_action_by_verb]
     for i, d in enumerate(dicts):
-        new_d = {k:v for k,v in d.items() if v > -1}
+        new_d = {k:v for k,v in d.items() if v[0] > -1}
         dicts[i] = new_d
 
     acc_by_name, acc_by_action, acc_by_verb, acc_by_action_by_verb = dicts
-    return total_acc, acc_by_name, acc_by_action, acc_by_verb, acc_by_action_by_verb
+    return {"total": total_acc, 
+            "acc_by_name": acc_by_name, 
+            "acc_by_action": acc_by_action, 
+            "acc_by_verb": acc_by_verb, 
+            "acc_by_action_by_verb": acc_by_action_by_verb} 
     

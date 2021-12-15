@@ -32,7 +32,7 @@ class Experiment:
             df = df.append(line, ignore_index=True)
         return df
 
-    def run(self, names, correct_name_idx, verbs, actions, do_swap=True):
+    def run(self, names, correct_name_idx, verbs, actions, do_swap=True, qa_pair = ("Question", "Answer")):
         results_list = []
         num_run_in_time = 0
         start_time = time.time()
@@ -47,7 +47,7 @@ class Experiment:
             for verb in verbs:
                 for inf, past in actions:
                     for swap_names in swap_names_choices:
-                        prompt = self.prompt(n1, n2, verb, inf, past, swap_names = swap_names)
+                        prompt = self.prompt(n1, n2, verb, inf, past, swap_names = swap_names, qa_words=qa_pair)
                         replicants = 1
                         text = str(prompt)
                         metric = StringMetric(lookup) 
