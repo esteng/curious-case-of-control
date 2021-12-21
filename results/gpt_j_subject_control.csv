@@ -1,0 +1,751 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,gpt_j,subject-control,Avery,Casey,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to come.
+
+Question:  Who came, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to come.\n\nQuestion:  Who came, Avery or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to come.\n\nQuestion:  Who came, Avery or Casey?\nAnswer:  Avery\n\nContext: Casey promised Avery')"
+1,gpt_j,subject-control,Avery,Casey,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to go.
+
+Question:  Who went, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to go.\n\nQuestion:  Who went, Avery or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to go.\n\nQuestion:  Who went, Avery or Casey?\nAnswer:  Avery\n\nContext: Casey promised Avery')"
+2,gpt_j,subject-control,Avery,Casey,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to read.
+
+Question:  Who read, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to read.\n\nQuestion:  Who read, Avery or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to read.\n\nQuestion:  Who read, Avery or Casey?\nAnswer:  Avery\n\nA:\n\nThe')"
+3,gpt_j,subject-control,Avery,Casey,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to run.
+
+Question:  Who ran, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to run.\n\nQuestion:  Who ran, Avery or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to run.\n\nQuestion:  Who ran, Avery or Casey?\nAnswer:  Casey\n\nContext: Avery promised Casey')"
+4,gpt_j,subject-control,Avery,Casey,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to call.
+
+Question:  Who called, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to call.\n\nQuestion:  Who called, Avery or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to call.\n\nQuestion:  Who called, Avery or Casey?\nAnswer:  Casey\n\nContext: Avery promised Casey')"
+5,gpt_j,subject-control,Avery,Joseph,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to come.
+
+Question:  Who came, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to come.\n\nQuestion:  Who came, Avery or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to come.\n\nQuestion:  Who came, Avery or Joseph?\nAnswer:  Joseph\n\nContext: Avery promised Joseph to')"
+6,gpt_j,subject-control,Avery,Joseph,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to go.
+
+Question:  Who went, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to go.\n\nQuestion:  Who went, Avery or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to go.\n\nQuestion:  Who went, Avery or Joseph?\nAnswer:  Joseph.\n\nContext: Avery promised Joseph')"
+7,gpt_j,subject-control,Avery,Joseph,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to read.
+
+Question:  Who read, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to read.\n\nQuestion:  Who read, Avery or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to read.\n\nQuestion:  Who read, Avery or Joseph?\nAnswer:  Joseph\n\nContext: Avery promised Joseph to')"
+8,gpt_j,subject-control,Avery,Joseph,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to run.
+
+Question:  Who ran, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to run.\n\nQuestion:  Who ran, Avery or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to run.\n\nQuestion:  Who ran, Avery or Joseph?\nAnswer:  Joseph\n\nContext: Avery promised Joseph to')"
+9,gpt_j,subject-control,Avery,Joseph,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to call.
+
+Question:  Who called, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to call.\n\nQuestion:  Who called, Avery or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to call.\n\nQuestion:  Who called, Avery or Joseph?\nAnswer:  Joseph\n\nContext: Avery promised Joseph to')"
+10,gpt_j,subject-control,Avery,Nicole,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to come.
+
+Question:  Who came, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to come.\n\nQuestion:  Who came, Avery or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to come.\n\nQuestion:  Who came, Avery or Nicole?\nAnswer:  Avery\n\nContext: Avery promised Nicole')"
+11,gpt_j,subject-control,Avery,Nicole,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to go.
+
+Question:  Who went, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to go.\n\nQuestion:  Who went, Avery or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to go.\n\nQuestion:  Who went, Avery or Nicole?\nAnswer:  Avery\n\nA:\n\nThe')"
+12,gpt_j,subject-control,Avery,Nicole,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to read.
+
+Question:  Who read, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to read.\n\nQuestion:  Who read, Avery or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to read.\n\nQuestion:  Who read, Avery or Nicole?\nAnswer:  Avery\n\nA:\n\nI')"
+13,gpt_j,subject-control,Avery,Nicole,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to run.
+
+Question:  Who ran, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to run.\n\nQuestion:  Who ran, Avery or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to run.\n\nQuestion:  Who ran, Avery or Nicole?\nAnswer:  Avery\n\nA:\n\nThe')"
+14,gpt_j,subject-control,Avery,Nicole,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to call.
+
+Question:  Who called, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to call.\n\nQuestion:  Who called, Avery or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to call.\n\nQuestion:  Who called, Avery or Nicole?\nAnswer:  Avery\n\nA:\n\nThe')"
+15,gpt_j,subject-control,Avery,Stephanie,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to come.
+
+Question:  Who came, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to come.\n\nQuestion:  Who came, Avery or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to come.\n\nQuestion:  Who came, Avery or Stephanie?\nAnswer:  Stephanie\n\nContext: Avery promised')"
+16,gpt_j,subject-control,Avery,Stephanie,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to go.
+
+Question:  Who went, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to go.\n\nQuestion:  Who went, Avery or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to go.\n\nQuestion:  Who went, Avery or Stephanie?\nAnswer:  Avery\n\nContext: Avery promised')"
+17,gpt_j,subject-control,Avery,Stephanie,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to read.
+
+Question:  Who read, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to read.\n\nQuestion:  Who read, Avery or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to read.\n\nQuestion:  Who read, Avery or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+18,gpt_j,subject-control,Avery,Stephanie,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to run.
+
+Question:  Who ran, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to run.\n\nQuestion:  Who ran, Avery or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to run.\n\nQuestion:  Who ran, Avery or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+19,gpt_j,subject-control,Avery,Stephanie,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to call.
+
+Question:  Who called, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to call.\n\nQuestion:  Who called, Avery or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to call.\n\nQuestion:  Who called, Avery or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+20,gpt_j,subject-control,Avery,William,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to come.
+
+Question:  Who came, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to come.\n\nQuestion:  Who came, Avery or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to come.\n\nQuestion:  Who came, Avery or William?\nAnswer:  Avery\n\nContext: Avery promised William to')"
+21,gpt_j,subject-control,Avery,William,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to go.
+
+Question:  Who went, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to go.\n\nQuestion:  Who went, Avery or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to go.\n\nQuestion:  Who went, Avery or William?\nAnswer:  Avery.\n\nContext: Avery promised William')"
+22,gpt_j,subject-control,Avery,William,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to read.
+
+Question:  Who read, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to read.\n\nQuestion:  Who read, Avery or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to read.\n\nQuestion:  Who read, Avery or William?\nAnswer:  Avery\n\nContext: Avery promised William to')"
+23,gpt_j,subject-control,Avery,William,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to run.
+
+Question:  Who ran, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to run.\n\nQuestion:  Who ran, Avery or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to run.\n\nQuestion:  Who ran, Avery or William?\nAnswer:  Avery\n\nContext: Avery promised William to')"
+24,gpt_j,subject-control,Avery,William,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to call.
+
+Question:  Who called, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to call.\n\nQuestion:  Who called, Avery or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to call.\n\nQuestion:  Who called, Avery or William?\nAnswer:  Avery\n\nContext: Avery promised William to')"
+25,gpt_j,subject-control,Casey,Avery,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to come.
+
+Question:  Who came, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to come.\n\nQuestion:  Who came, Casey or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to come.\n\nQuestion:  Who came, Casey or Avery?\nAnswer:  Casey\n\nContext: Casey promised Avery')"
+26,gpt_j,subject-control,Casey,Avery,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to go.
+
+Question:  Who went, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to go.\n\nQuestion:  Who went, Casey or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to go.\n\nQuestion:  Who went, Casey or Avery?\nAnswer:  Casey\n\nContext: Casey promised Avery')"
+27,gpt_j,subject-control,Casey,Avery,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to read.
+
+Question:  Who read, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to read.\n\nQuestion:  Who read, Casey or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to read.\n\nQuestion:  Who read, Casey or Avery?\nAnswer:  Casey\n\nCasey read.\n')"
+28,gpt_j,subject-control,Casey,Avery,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to run.
+
+Question:  Who ran, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to run.\n\nQuestion:  Who ran, Casey or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to run.\n\nQuestion:  Who ran, Casey or Avery?\nAnswer:  Casey\n\nCasey ran.\n')"
+29,gpt_j,subject-control,Casey,Avery,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to call.
+
+Question:  Who called, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to call.\n\nQuestion:  Who called, Casey or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to call.\n\nQuestion:  Who called, Casey or Avery?\nAnswer:  Casey\n\nContext: Casey promised Avery')"
+30,gpt_j,subject-control,Casey,Joseph,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to come.
+
+Question:  Who came, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to come.\n\nQuestion:  Who came, Casey or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to come.\n\nQuestion:  Who came, Casey or Joseph?\nAnswer:  Casey.\n\nContext: Casey promised Joseph')"
+31,gpt_j,subject-control,Casey,Joseph,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to go.
+
+Question:  Who went, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to go.\n\nQuestion:  Who went, Casey or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to go.\n\nQuestion:  Who went, Casey or Joseph?\nAnswer:  Casey.\n\nContext: Casey promised Joseph')"
+32,gpt_j,subject-control,Casey,Joseph,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to read.
+
+Question:  Who read, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to read.\n\nQuestion:  Who read, Casey or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to read.\n\nQuestion:  Who read, Casey or Joseph?\nAnswer:  Casey\n\nContext: Casey promised Joseph to')"
+33,gpt_j,subject-control,Casey,Joseph,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to run.
+
+Question:  Who ran, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to run.\n\nQuestion:  Who ran, Casey or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to run.\n\nQuestion:  Who ran, Casey or Joseph?\nAnswer:  Casey\n\nContext: Casey promised Joseph to')"
+34,gpt_j,subject-control,Casey,Joseph,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to call.
+
+Question:  Who called, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to call.\n\nQuestion:  Who called, Casey or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to call.\n\nQuestion:  Who called, Casey or Joseph?\nAnswer:  Casey\n\nContext: Casey promised Joseph to')"
+35,gpt_j,subject-control,Casey,Nicole,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to come.
+
+Question:  Who came, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to come.\n\nQuestion:  Who came, Casey or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to come.\n\nQuestion:  Who came, Casey or Nicole?\nAnswer:  Casey came.\n\nContext: Casey')"
+36,gpt_j,subject-control,Casey,Nicole,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to go.
+
+Question:  Who went, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to go.\n\nQuestion:  Who went, Casey or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to go.\n\nQuestion:  Who went, Casey or Nicole?\nAnswer:  Casey.\n\nContext: Casey promised')"
+37,gpt_j,subject-control,Casey,Nicole,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to read.
+
+Question:  Who read, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to read.\n\nQuestion:  Who read, Casey or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to read.\n\nQuestion:  Who read, Casey or Nicole?\nAnswer:  Casey\n\nCasey read.\n')"
+38,gpt_j,subject-control,Casey,Nicole,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to run.
+
+Question:  Who ran, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to run.\n\nQuestion:  Who ran, Casey or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to run.\n\nQuestion:  Who ran, Casey or Nicole?\nAnswer:  Casey\n\nContext: Casey promised Nicole')"
+39,gpt_j,subject-control,Casey,Nicole,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to call.
+
+Question:  Who called, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to call.\n\nQuestion:  Who called, Casey or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to call.\n\nQuestion:  Who called, Casey or Nicole?\nAnswer:  Casey\n\nContext: Casey promised Nicole')"
+40,gpt_j,subject-control,Casey,Stephanie,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to come.
+
+Question:  Who came, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to come.\n\nQuestion:  Who came, Casey or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to come.\n\nQuestion:  Who came, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Casey promised')"
+41,gpt_j,subject-control,Casey,Stephanie,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to go.
+
+Question:  Who went, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to go.\n\nQuestion:  Who went, Casey or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to go.\n\nQuestion:  Who went, Casey or Stephanie?\nAnswer:  Stephanie.\n\nA:\n')"
+42,gpt_j,subject-control,Casey,Stephanie,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to read.
+
+Question:  Who read, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to read.\n\nQuestion:  Who read, Casey or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to read.\n\nQuestion:  Who read, Casey or Stephanie?\nAnswer:  Stephanie\n\nCasey and Stephanie')"
+43,gpt_j,subject-control,Casey,Stephanie,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to run.
+
+Question:  Who ran, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to run.\n\nQuestion:  Who ran, Casey or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to run.\n\nQuestion:  Who ran, Casey or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+44,gpt_j,subject-control,Casey,Stephanie,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to call.
+
+Question:  Who called, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to call.\n\nQuestion:  Who called, Casey or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to call.\n\nQuestion:  Who called, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Casey promised')"
+45,gpt_j,subject-control,Casey,William,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to come.
+
+Question:  Who came, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to come.\n\nQuestion:  Who came, Casey or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to come.\n\nQuestion:  Who came, Casey or William?\nAnswer:  Casey came.\n\nContext: Casey promised')"
+46,gpt_j,subject-control,Casey,William,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to go.
+
+Question:  Who went, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to go.\n\nQuestion:  Who went, Casey or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to go.\n\nQuestion:  Who went, Casey or William?\nAnswer:  Casey.\n\nContext: Casey promised William')"
+47,gpt_j,subject-control,Casey,William,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to read.
+
+Question:  Who read, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to read.\n\nQuestion:  Who read, Casey or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to read.\n\nQuestion:  Who read, Casey or William?\nAnswer:  Casey\n\nContext: Casey promised William to')"
+48,gpt_j,subject-control,Casey,William,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to run.
+
+Question:  Who ran, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to run.\n\nQuestion:  Who ran, Casey or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to run.\n\nQuestion:  Who ran, Casey or William?\nAnswer:  Casey ran.\n\nContext: Casey promised')"
+49,gpt_j,subject-control,Casey,William,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to call.
+
+Question:  Who called, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to call.\n\nQuestion:  Who called, Casey or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to call.\n\nQuestion:  Who called, Casey or William?\nAnswer:  Casey\n\nContext: Casey promised William to')"
+50,gpt_j,subject-control,Joseph,Avery,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to come.
+
+Question:  Who came, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to come.\n\nQuestion:  Who came, Joseph or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to come.\n\nQuestion:  Who came, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph promised Avery to')"
+51,gpt_j,subject-control,Joseph,Avery,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to go.
+
+Question:  Who went, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to go.\n\nQuestion:  Who went, Joseph or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to go.\n\nQuestion:  Who went, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph promised Avery to')"
+52,gpt_j,subject-control,Joseph,Avery,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to read.
+
+Question:  Who read, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to read.\n\nQuestion:  Who read, Joseph or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to read.\n\nQuestion:  Who read, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph promised Avery to')"
+53,gpt_j,subject-control,Joseph,Avery,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to run.
+
+Question:  Who ran, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to run.\n\nQuestion:  Who ran, Joseph or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to run.\n\nQuestion:  Who ran, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph promised Avery to')"
+54,gpt_j,subject-control,Joseph,Avery,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to call.
+
+Question:  Who called, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to call.\n\nQuestion:  Who called, Joseph or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to call.\n\nQuestion:  Who called, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph promised Avery to')"
+55,gpt_j,subject-control,Joseph,Casey,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to come.
+
+Question:  Who came, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to come.\n\nQuestion:  Who came, Joseph or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to come.\n\nQuestion:  Who came, Joseph or Casey?\nAnswer:  Joseph came.\n\nContext: Joseph promised')"
+56,gpt_j,subject-control,Joseph,Casey,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to go.
+
+Question:  Who went, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to go.\n\nQuestion:  Who went, Joseph or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to go.\n\nQuestion:  Who went, Joseph or Casey?\nAnswer:  Joseph.\n\nContext: Joseph promised Casey')"
+57,gpt_j,subject-control,Joseph,Casey,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to read.
+
+Question:  Who read, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to read.\n\nQuestion:  Who read, Joseph or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to read.\n\nQuestion:  Who read, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph promised Casey to')"
+58,gpt_j,subject-control,Joseph,Casey,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to run.
+
+Question:  Who ran, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to run.\n\nQuestion:  Who ran, Joseph or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to run.\n\nQuestion:  Who ran, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph promised Casey to')"
+59,gpt_j,subject-control,Joseph,Casey,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to call.
+
+Question:  Who called, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to call.\n\nQuestion:  Who called, Joseph or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to call.\n\nQuestion:  Who called, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph promised Casey to')"
+60,gpt_j,subject-control,Joseph,Nicole,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to come.
+
+Question:  Who came, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to come.\n\nQuestion:  Who came, Joseph or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to come.\n\nQuestion:  Who came, Joseph or Nicole?\nAnswer:  Joseph came.\n\nContext: Joseph promised')"
+61,gpt_j,subject-control,Joseph,Nicole,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to go.
+
+Question:  Who went, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to go.\n\nQuestion:  Who went, Joseph or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to go.\n\nQuestion:  Who went, Joseph or Nicole?\nAnswer:  Joseph\n\nContext: Joseph promised Nicole to')"
+62,gpt_j,subject-control,Joseph,Nicole,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to read.
+
+Question:  Who read, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to read.\n\nQuestion:  Who read, Joseph or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to read.\n\nQuestion:  Who read, Joseph or Nicole?\nAnswer:  Joseph\n\nContext: Joseph promised Nicole to')"
+63,gpt_j,subject-control,Joseph,Nicole,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to run.
+
+Question:  Who ran, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to run.\n\nQuestion:  Who ran, Joseph or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to run.\n\nQuestion:  Who ran, Joseph or Nicole?\nAnswer:  Joseph ran.\n\nContext: Joseph promised')"
+64,gpt_j,subject-control,Joseph,Nicole,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to call.
+
+Question:  Who called, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to call.\n\nQuestion:  Who called, Joseph or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to call.\n\nQuestion:  Who called, Joseph or Nicole?\nAnswer:  Joseph\n\nContext: Joseph promised Nicole to')"
+65,gpt_j,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to come.
+
+Question:  Who came, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to come.\n\nQuestion:  Who came, Joseph or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to come.\n\nQuestion:  Who came, Joseph or Stephanie?\nAnswer:  Joseph came.\n\nContext: Joseph')"
+66,gpt_j,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to go.
+
+Question:  Who went, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to go.\n\nQuestion:  Who went, Joseph or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to go.\n\nQuestion:  Who went, Joseph or Stephanie?\nAnswer:  Joseph.\n\nContext: Joseph promised')"
+67,gpt_j,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to read.
+
+Question:  Who read, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to read.\n\nQuestion:  Who read, Joseph or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to read.\n\nQuestion:  Who read, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph promised Stephanie')"
+68,gpt_j,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to run.
+
+Question:  Who ran, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to run.\n\nQuestion:  Who ran, Joseph or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to run.\n\nQuestion:  Who ran, Joseph or Stephanie?\nAnswer:  Joseph ran.\n\nContext: Joseph')"
+69,gpt_j,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to call.
+
+Question:  Who called, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to call.\n\nQuestion:  Who called, Joseph or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to call.\n\nQuestion:  Who called, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph promised Stephanie')"
+70,gpt_j,subject-control,Joseph,William,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to come.
+
+Question:  Who came, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to come.\n\nQuestion:  Who came, Joseph or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to come.\n\nQuestion:  Who came, Joseph or William?\nAnswer:  Joseph came.\n\nContext: Joseph promised William')"
+71,gpt_j,subject-control,Joseph,William,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to go.
+
+Question:  Who went, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to go.\n\nQuestion:  Who went, Joseph or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to go.\n\nQuestion:  Who went, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph promised William to go')"
+72,gpt_j,subject-control,Joseph,William,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to read.
+
+Question:  Who read, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to read.\n\nQuestion:  Who read, Joseph or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to read.\n\nQuestion:  Who read, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph promised William to read')"
+73,gpt_j,subject-control,Joseph,William,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to run.
+
+Question:  Who ran, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to run.\n\nQuestion:  Who ran, Joseph or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to run.\n\nQuestion:  Who ran, Joseph or William?\nAnswer:  Joseph ran.\n\nContext: Joseph promised William')"
+74,gpt_j,subject-control,Joseph,William,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to call.
+
+Question:  Who called, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to call.\n\nQuestion:  Who called, Joseph or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to call.\n\nQuestion:  Who called, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph promised William to call')"
+75,gpt_j,subject-control,Nicole,Avery,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to come.
+
+Question:  Who came, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to come.\n\nQuestion:  Who came, Nicole or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to come.\n\nQuestion:  Who came, Nicole or Avery?\nAnswer:  Avery\n\nA:\n\nThe')"
+76,gpt_j,subject-control,Nicole,Avery,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to go.
+
+Question:  Who went, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to go.\n\nQuestion:  Who went, Nicole or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to go.\n\nQuestion:  Who went, Nicole or Avery?\nAnswer:  Avery.\n\nA:\n\n')"
+77,gpt_j,subject-control,Nicole,Avery,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to read.
+
+Question:  Who read, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to read.\n\nQuestion:  Who read, Nicole or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to read.\n\nQuestion:  Who read, Nicole or Avery?\nAnswer:  Avery\n\nA:\n\nI')"
+78,gpt_j,subject-control,Nicole,Avery,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to run.
+
+Question:  Who ran, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to run.\n\nQuestion:  Who ran, Nicole or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to run.\n\nQuestion:  Who ran, Nicole or Avery?\nAnswer:  Avery\n\nA:\n\nThe')"
+79,gpt_j,subject-control,Nicole,Avery,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to call.
+
+Question:  Who called, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to call.\n\nQuestion:  Who called, Nicole or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to call.\n\nQuestion:  Who called, Nicole or Avery?\nAnswer:  Avery\n\nA:\n\nThe')"
+80,gpt_j,subject-control,Nicole,Casey,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to come.
+
+Question:  Who came, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to come.\n\nQuestion:  Who came, Nicole or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to come.\n\nQuestion:  Who came, Nicole or Casey?\nAnswer:  Casey\n\nContext: Casey promised Nicole')"
+81,gpt_j,subject-control,Nicole,Casey,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to go.
+
+Question:  Who went, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to go.\n\nQuestion:  Who went, Nicole or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to go.\n\nQuestion:  Who went, Nicole or Casey?\nAnswer:  Casey.\n\nA:\n\n')"
+82,gpt_j,subject-control,Nicole,Casey,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to read.
+
+Question:  Who read, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to read.\n\nQuestion:  Who read, Nicole or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to read.\n\nQuestion:  Who read, Nicole or Casey?\nAnswer:  Casey\n\nA:\n\nI')"
+83,gpt_j,subject-control,Nicole,Casey,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to run.
+
+Question:  Who ran, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to run.\n\nQuestion:  Who ran, Nicole or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to run.\n\nQuestion:  Who ran, Nicole or Casey?\nAnswer:  Casey\n\nA:\n\nThe')"
+84,gpt_j,subject-control,Nicole,Casey,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to call.
+
+Question:  Who called, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to call.\n\nQuestion:  Who called, Nicole or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to call.\n\nQuestion:  Who called, Nicole or Casey?\nAnswer:  Casey\n\nContext: Casey promised Nicole')"
+85,gpt_j,subject-control,Nicole,Joseph,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to come.
+
+Question:  Who came, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to come.\n\nQuestion:  Who came, Nicole or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to come.\n\nQuestion:  Who came, Nicole or Joseph?\nAnswer:  Joseph came.\n\nContext: Nicole promised')"
+86,gpt_j,subject-control,Nicole,Joseph,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to go.
+
+Question:  Who went, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to go.\n\nQuestion:  Who went, Nicole or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to go.\n\nQuestion:  Who went, Nicole or Joseph?\nAnswer:  Joseph.\n\nA:\n\nThe')"
+87,gpt_j,subject-control,Nicole,Joseph,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to read.
+
+Question:  Who read, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to read.\n\nQuestion:  Who read, Nicole or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to read.\n\nQuestion:  Who read, Nicole or Joseph?\nAnswer:  Joseph\n\nA:\n\nThe answer')"
+88,gpt_j,subject-control,Nicole,Joseph,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to run.
+
+Question:  Who ran, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to run.\n\nQuestion:  Who ran, Nicole or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to run.\n\nQuestion:  Who ran, Nicole or Joseph?\nAnswer:  Nicole ran.\n\nA:\n\n')"
+89,gpt_j,subject-control,Nicole,Joseph,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to call.
+
+Question:  Who called, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to call.\n\nQuestion:  Who called, Nicole or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to call.\n\nQuestion:  Who called, Nicole or Joseph?\nAnswer:  Joseph\n\nContext: Nicole promised Joseph to')"
+90,gpt_j,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to come.
+
+Question:  Who came, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to come.\n\nQuestion:  Who came, Nicole or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to come.\n\nQuestion:  Who came, Nicole or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+91,gpt_j,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to go.
+
+Question:  Who went, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to go.\n\nQuestion:  Who went, Nicole or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to go.\n\nQuestion:  Who went, Nicole or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+92,gpt_j,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to read.
+
+Question:  Who read, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to read.\n\nQuestion:  Who read, Nicole or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to read.\n\nQuestion:  Who read, Nicole or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+93,gpt_j,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to run.
+
+Question:  Who ran, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to run.\n\nQuestion:  Who ran, Nicole or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to run.\n\nQuestion:  Who ran, Nicole or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+94,gpt_j,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to call.
+
+Question:  Who called, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to call.\n\nQuestion:  Who called, Nicole or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to call.\n\nQuestion:  Who called, Nicole or Stephanie?\nAnswer:  Stephanie\n\nA:\n\n')"
+95,gpt_j,subject-control,Nicole,William,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to come.
+
+Question:  Who came, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to come.\n\nQuestion:  Who came, Nicole or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to come.\n\nQuestion:  Who came, Nicole or William?\nAnswer:  Nicole came.\n\nContext: Nicole promised')"
+96,gpt_j,subject-control,Nicole,William,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to go.
+
+Question:  Who went, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to go.\n\nQuestion:  Who went, Nicole or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to go.\n\nQuestion:  Who went, Nicole or William?\nAnswer:  Nicole\n\nContext: Nicole promised William to')"
+97,gpt_j,subject-control,Nicole,William,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to read.
+
+Question:  Who read, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to read.\n\nQuestion:  Who read, Nicole or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to read.\n\nQuestion:  Who read, Nicole or William?\nAnswer:  Nicole\n\nContext: Nicole promised William to')"
+98,gpt_j,subject-control,Nicole,William,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to run.
+
+Question:  Who ran, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to run.\n\nQuestion:  Who ran, Nicole or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to run.\n\nQuestion:  Who ran, Nicole or William?\nAnswer:  Nicole ran.\n\nContext: Nicole promised')"
+99,gpt_j,subject-control,Nicole,William,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to call.
+
+Question:  Who called, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to call.\n\nQuestion:  Who called, Nicole or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to call.\n\nQuestion:  Who called, Nicole or William?\nAnswer:  Nicole\n\nContext: Nicole promised William to')"
+100,gpt_j,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to come.
+
+Question:  Who came, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to come.\n\nQuestion:  Who came, Stephanie or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to come.\n\nQuestion:  Who came, Stephanie or Avery?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+101,gpt_j,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to go.
+
+Question:  Who went, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to go.\n\nQuestion:  Who went, Stephanie or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to go.\n\nQuestion:  Who went, Stephanie or Avery?\nAnswer:  Stephanie\n\nA:\n\n')"
+102,gpt_j,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to read.
+
+Question:  Who read, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to read.\n\nQuestion:  Who read, Stephanie or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to read.\n\nQuestion:  Who read, Stephanie or Avery?\nAnswer:  Stephanie\n\nA:\n\n')"
+103,gpt_j,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to run.
+
+Question:  Who ran, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to run.\n\nQuestion:  Who ran, Stephanie or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to run.\n\nQuestion:  Who ran, Stephanie or Avery?\nAnswer:  Stephanie\n\nA:\n\n')"
+104,gpt_j,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to call.
+
+Question:  Who called, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to call.\n\nQuestion:  Who called, Stephanie or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to call.\n\nQuestion:  Who called, Stephanie or Avery?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+105,gpt_j,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to come.
+
+Question:  Who came, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to come.\n\nQuestion:  Who came, Stephanie or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to come.\n\nQuestion:  Who came, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+106,gpt_j,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to go.
+
+Question:  Who went, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to go.\n\nQuestion:  Who went, Stephanie or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to go.\n\nQuestion:  Who went, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+107,gpt_j,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to read.
+
+Question:  Who read, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to read.\n\nQuestion:  Who read, Stephanie or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to read.\n\nQuestion:  Who read, Stephanie or Casey?\nAnswer:  Stephanie\n\nA:\n\n')"
+108,gpt_j,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to run.
+
+Question:  Who ran, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to run.\n\nQuestion:  Who ran, Stephanie or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to run.\n\nQuestion:  Who ran, Stephanie or Casey?\nAnswer:  Stephanie\n\nA:\n\n')"
+109,gpt_j,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to call.
+
+Question:  Who called, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to call.\n\nQuestion:  Who called, Stephanie or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to call.\n\nQuestion:  Who called, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+110,gpt_j,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to come.
+
+Question:  Who came, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to come.\n\nQuestion:  Who came, Stephanie or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to come.\n\nQuestion:  Who came, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie promised Joseph')"
+111,gpt_j,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to go.
+
+Question:  Who went, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to go.\n\nQuestion:  Who went, Stephanie or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to go.\n\nQuestion:  Who went, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie promised Joseph')"
+112,gpt_j,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to read.
+
+Question:  Who read, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to read.\n\nQuestion:  Who read, Stephanie or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to read.\n\nQuestion:  Who read, Stephanie or Joseph?\nAnswer:  Stephanie\n\nA:\n\nStep')"
+113,gpt_j,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to run.
+
+Question:  Who ran, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to run.\n\nQuestion:  Who ran, Stephanie or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to run.\n\nQuestion:  Who ran, Stephanie or Joseph?\nAnswer:  Stephanie\n\nA:\n\nStep')"
+114,gpt_j,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to call.
+
+Question:  Who called, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to call.\n\nQuestion:  Who called, Stephanie or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to call.\n\nQuestion:  Who called, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie promised Joseph')"
+115,gpt_j,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to come.
+
+Question:  Who came, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to come.\n\nQuestion:  Who came, Stephanie or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to come.\n\nQuestion:  Who came, Stephanie or Nicole?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+116,gpt_j,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to go.
+
+Question:  Who went, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to go.\n\nQuestion:  Who went, Stephanie or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to go.\n\nQuestion:  Who went, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\n')"
+117,gpt_j,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to read.
+
+Question:  Who read, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to read.\n\nQuestion:  Who read, Stephanie or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to read.\n\nQuestion:  Who read, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\n')"
+118,gpt_j,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to run.
+
+Question:  Who ran, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to run.\n\nQuestion:  Who ran, Stephanie or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to run.\n\nQuestion:  Who ran, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\n')"
+119,gpt_j,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to call.
+
+Question:  Who called, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to call.\n\nQuestion:  Who called, Stephanie or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to call.\n\nQuestion:  Who called, Stephanie or Nicole?\nAnswer:  Stephanie\n\nContext: Stephanie promised')"
+120,gpt_j,subject-control,Stephanie,William,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to come.
+
+Question:  Who came, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to come.\n\nQuestion:  Who came, Stephanie or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to come.\n\nQuestion:  Who came, Stephanie or William?\nAnswer:  Stephanie\n\nContext: Stephanie promised William')"
+121,gpt_j,subject-control,Stephanie,William,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to go.
+
+Question:  Who went, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to go.\n\nQuestion:  Who went, Stephanie or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to go.\n\nQuestion:  Who went, Stephanie or William?\nAnswer:  Stephanie\n\nContext: Stephanie promised William')"
+122,gpt_j,subject-control,Stephanie,William,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to read.
+
+Question:  Who read, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to read.\n\nQuestion:  Who read, Stephanie or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to read.\n\nQuestion:  Who read, Stephanie or William?\nAnswer:  Stephanie\n\nA:\n\nThe')"
+123,gpt_j,subject-control,Stephanie,William,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to run.
+
+Question:  Who ran, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to run.\n\nQuestion:  Who ran, Stephanie or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to run.\n\nQuestion:  Who ran, Stephanie or William?\nAnswer:  Stephanie\n\nContext: Stephanie promised William')"
+124,gpt_j,subject-control,Stephanie,William,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to call.
+
+Question:  Who called, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to call.\n\nQuestion:  Who called, Stephanie or William?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to call.\n\nQuestion:  Who called, Stephanie or William?\nAnswer:  Stephanie\n\nContext: Stephanie promised William')"
+125,gpt_j,subject-control,William,Avery,False,promised,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to come.
+
+Question:  Who came, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to come.\n\nQuestion:  Who came, William or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to come.\n\nQuestion:  Who came, William or Avery?\nAnswer:  William\n\nContext: William promised Avery to')"
+126,gpt_j,subject-control,William,Avery,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to go.
+
+Question:  Who went, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to go.\n\nQuestion:  Who went, William or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to go.\n\nQuestion:  Who went, William or Avery?\nAnswer:  William\n\nContext: William promised Avery to')"
+127,gpt_j,subject-control,William,Avery,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to read.
+
+Question:  Who read, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to read.\n\nQuestion:  Who read, William or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to read.\n\nQuestion:  Who read, William or Avery?\nAnswer:  William\n\nContext: Avery promised William to')"
+128,gpt_j,subject-control,William,Avery,False,promised,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to run.
+
+Question:  Who ran, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to run.\n\nQuestion:  Who ran, William or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to run.\n\nQuestion:  Who ran, William or Avery?\nAnswer:  Avery\n\nContext: William promised Avery to')"
+129,gpt_j,subject-control,William,Avery,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to call.
+
+Question:  Who called, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to call.\n\nQuestion:  Who called, William or Avery?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to call.\n\nQuestion:  Who called, William or Avery?\nAnswer:  Avery\n\nContext: William promised Avery to')"
+130,gpt_j,subject-control,William,Casey,False,promised,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to come.
+
+Question:  Who came, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to come.\n\nQuestion:  Who came, William or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to come.\n\nQuestion:  Who came, William or Casey?\nAnswer:  William\n\nContext: Casey promised William to')"
+131,gpt_j,subject-control,William,Casey,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to go.
+
+Question:  Who went, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to go.\n\nQuestion:  Who went, William or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to go.\n\nQuestion:  Who went, William or Casey?\nAnswer:  William\n\nContext: Casey promised William to')"
+132,gpt_j,subject-control,William,Casey,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to read.
+
+Question:  Who read, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to read.\n\nQuestion:  Who read, William or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to read.\n\nQuestion:  Who read, William or Casey?\nAnswer:  Casey\n\nContext: Casey promised William to')"
+133,gpt_j,subject-control,William,Casey,False,promised,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to run.
+
+Question:  Who ran, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to run.\n\nQuestion:  Who ran, William or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to run.\n\nQuestion:  Who ran, William or Casey?\nAnswer:  Casey ran.\n\nContext: Casey promised')"
+134,gpt_j,subject-control,William,Casey,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to call.
+
+Question:  Who called, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to call.\n\nQuestion:  Who called, William or Casey?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to call.\n\nQuestion:  Who called, William or Casey?\nAnswer:  Casey\n\nContext: Casey promised William to')"
+135,gpt_j,subject-control,William,Joseph,False,promised,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to come.
+
+Question:  Who came, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to come.\n\nQuestion:  Who came, William or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to come.\n\nQuestion:  Who came, William or Joseph?\nAnswer:  William\n\nContext: Joseph promised William to come')"
+136,gpt_j,subject-control,William,Joseph,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to go.
+
+Question:  Who went, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to go.\n\nQuestion:  Who went, William or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to go.\n\nQuestion:  Who went, William or Joseph?\nAnswer:  William\n\nContext: Joseph promised William to go')"
+137,gpt_j,subject-control,William,Joseph,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to read.
+
+Question:  Who read, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to read.\n\nQuestion:  Who read, William or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to read.\n\nQuestion:  Who read, William or Joseph?\nAnswer:  William\n\nContext: Joseph promised William to read')"
+138,gpt_j,subject-control,William,Joseph,False,promised,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to run.
+
+Question:  Who ran, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to run.\n\nQuestion:  Who ran, William or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to run.\n\nQuestion:  Who ran, William or Joseph?\nAnswer:  William\n\nContext: Joseph promised William to run')"
+139,gpt_j,subject-control,William,Joseph,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to call.
+
+Question:  Who called, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to call.\n\nQuestion:  Who called, William or Joseph?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to call.\n\nQuestion:  Who called, William or Joseph?\nAnswer:  William\n\nContext: Joseph promised William to call')"
+140,gpt_j,subject-control,William,Nicole,False,promised,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to come.
+
+Question:  Who came, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to come.\n\nQuestion:  Who came, William or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to come.\n\nQuestion:  Who came, William or Nicole?\nAnswer:  William\n\nContext: William promised Nicole to')"
+141,gpt_j,subject-control,William,Nicole,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to go.
+
+Question:  Who went, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to go.\n\nQuestion:  Who went, William or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to go.\n\nQuestion:  Who went, William or Nicole?\nAnswer:  William\n\nContext: William promised Nicole to')"
+142,gpt_j,subject-control,William,Nicole,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to read.
+
+Question:  Who read, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to read.\n\nQuestion:  Who read, William or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to read.\n\nQuestion:  Who read, William or Nicole?\nAnswer:  William\n\nContext: William promised Nicole to')"
+143,gpt_j,subject-control,William,Nicole,False,promised,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to run.
+
+Question:  Who ran, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to run.\n\nQuestion:  Who ran, William or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to run.\n\nQuestion:  Who ran, William or Nicole?\nAnswer:  William\n\nContext: William promised Nicole to')"
+144,gpt_j,subject-control,William,Nicole,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to call.
+
+Question:  Who called, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to call.\n\nQuestion:  Who called, William or Nicole?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to call.\n\nQuestion:  Who called, William or Nicole?\nAnswer:  William\n\nContext: Nicole promised William to')"
+145,gpt_j,subject-control,William,Stephanie,False,promised,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to come.
+
+Question:  Who came, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to come.\n\nQuestion:  Who came, William or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to come.\n\nQuestion:  Who came, William or Stephanie?\nAnswer:  William came.\n\nContext: William')"
+146,gpt_j,subject-control,William,Stephanie,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to go.
+
+Question:  Who went, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to go.\n\nQuestion:  Who went, William or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to go.\n\nQuestion:  Who went, William or Stephanie?\nAnswer:  William\n\nContext: William promised Stephanie')"
+147,gpt_j,subject-control,William,Stephanie,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to read.
+
+Question:  Who read, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to read.\n\nQuestion:  Who read, William or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to read.\n\nQuestion:  Who read, William or Stephanie?\nAnswer:  William\n\nContext: Stephanie promised William')"
+148,gpt_j,subject-control,William,Stephanie,False,promised,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to run.
+
+Question:  Who ran, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to run.\n\nQuestion:  Who ran, William or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to run.\n\nQuestion:  Who ran, William or Stephanie?\nAnswer:  William ran.\n\nContext: William')"
+149,gpt_j,subject-control,William,Stephanie,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to call.
+
+Question:  Who called, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to call.\n\nQuestion:  Who called, William or Stephanie?\nAnswer: ', 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to call.\n\nQuestion:  Who called, William or Stephanie?\nAnswer:  Stephanie\n\nContext: William promised Stephanie')"
