@@ -29,6 +29,7 @@ class StringMetric(Metric):
         if type(text) is not str:
             self.classes['other'].append("Error")
         else:
+            text = text.split("\n")[0]
             split_text = re.split("\s+", text.lower())
             for k, keywords in self.class_lookups.items():
                 for kw in keywords:
