@@ -114,6 +114,7 @@ class FixedPassiveT5Prompt(FixedPrompt):
                  verb: str,
                  infinitive: str,
                  past: str,
+                 swap_names: bool,
                  qa_words: Tuple[str] = None):
         super().__init__()
         context = [f"{name1} was {verb} by {name2} {infinitive}."]
