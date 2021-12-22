@@ -26,11 +26,11 @@ from hf_tools.hf import HuggingfaceRunFxn
 import os
 os.environ['TRANSFORMERS_CACHE'] = "/brtx/601-nvme1/estengel/.cache"
 
-wrapper_fxn = HuggingfaceRunFxn("EleutherAI/gpt-j-6B", device="cuda:0", constrained=False)
+wrapper_fxn = HuggingfaceRunFxn("EleutherAI/gpt-j-6B", device="cpu", constrained=False)
 
 gpt_j_object_control_experiment  = Experiment("gpt_j", "object-control", FixedGPTPrompt, wrapper_fxn, 1, None)
 
-gpt_j_object_control_experiment.run(names, correct_index, verbs, actions, do_swap = False, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
+gpt_j_object_control_experiment.run(names, correct_index, verbs, actions, do_swap = True, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
 
 gpt_j_df = gpt_j_object_control_experiment.format_results()
 

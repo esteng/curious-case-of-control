@@ -55,7 +55,14 @@ class Experiment:
     def recompute(self, nicknames):
         for i, res_line in enumerate(self.results):
             response = res_line['response']
-            response = response.split("Answer: \',")[1]
+            try:
+                response = response.split("Answer: \',")[1]
+            except IndexError:
+                response = re.sub("\(","[", response)
+                response = re.sub("\)","]", response)
+                response = re.sub("'",'"', response)
+                response = json.loads(response)
+                response = response[1]
             pred_name = re.sub("[()']", "", response).strip()
             true_name = res_line['true']
             n1, n2 = res_line['name1'], res_line['name2']

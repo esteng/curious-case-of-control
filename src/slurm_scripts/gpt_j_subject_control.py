@@ -17,7 +17,7 @@ import pathlib
 main_dir = pathlib.Path("/home/estengel/child-lm")
 
 names = json.load(open(main_dir.joinpath("data/names_top_2.json")))
-verbs = ["told", "ordered", "called upon", "reminded", "urged", "asked", "persuaded", "convinced", "forced", "pushed"]
+verbs = ["promised"]
 actions = json.load(open(main_dir.joinpath("data/verbs.json")))
 correct_index = 0
 nicknames = json.load(open(main_dir.joinpath("data/nicknames.json")))
@@ -28,14 +28,14 @@ os.environ['TRANSFORMERS_CACHE'] = "/brtx/601-nvme1/estengel/.cache"
 
 wrapper_fxn = HuggingfaceRunFxn("EleutherAI/gpt-j-6B", device="cpu", constrained=False)
 
-passive_gpt_j_object_control_experiment  = Experiment("gpt_j", "object-control-passive", FixedPassiveGPTPrompt, wrapper_fxn, 1, None)
+gpt_j_subject_control_experiment  = Experiment("gpt_j", "subject-control", FixedGPTPrompt, wrapper_fxn, 1, None)
 
-passive_gpt_j_object_control_experiment.run(names, correct_index, verbs, actions, do_swap = True, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
+gpt_j_subject_control_experiment.run(names, correct_index, verbs, actions, do_swap = True, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
 
-passive_gpt_j_df = passive_gpt_j_object_control_experiment.format_results()
+gpt_j_df = gpt_j_subject_control_experiment.format_results()
 
-passive_gpt_j_df.to_csv(main_dir.joinpath("results/gpt_j_passive_object_control.csv"))
+gpt_j_df.to_csv(main_dir.joinpath("results/gpt_j_subject_control.csv"))
 
-accuracy_report(passive_gpt_j_df)
+accuracy_report(gpt_j_df)
 
 
