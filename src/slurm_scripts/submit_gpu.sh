@@ -4,4 +4,4 @@
 #SBATCH -p brtx6
 #SBATCH --gpus=1
 
-python -u ${SCRIPT}
+python -u run_experiment.py --cfg ${CONFIG}
