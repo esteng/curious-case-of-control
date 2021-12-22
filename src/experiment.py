@@ -75,7 +75,7 @@ class Experiment:
                       n2: [x.lower() for x in nicknames[n2]]}
         return lookup 
 
-    def run(self, names, correct_name_idx, verbs, actions, do_swap=True, qa_pair = ("Question", "Answer"), overwrite=False, nicknames = None, rate_limit_delay = 60):
+    def run(self, names, correct_name_idx, verbs, actions, do_swap=True, qa_pair = ("Question", "Answer"), overwrite=False, nicknames = None, rate_limit_delay = 60, rate_limit_count=55):
         results_list = []
         num_run_in_time = 0
         start_time = time.time()
@@ -123,7 +123,7 @@ class Experiment:
                             num_run_in_time += 1
 
                             end_time = time.time()
-                            if rate_limit_delay is not None and num_run_in_time > 55:
+                            if rate_limit_delay is not None and num_run_in_time > rate_limit_count:
                                 # need to pause to not get kicked off 
                                 num_seconds_run = end_time - start_time 
                                 time_to_sleep = rate_limit_delay - num_seconds_run

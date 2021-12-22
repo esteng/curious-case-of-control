@@ -171,6 +171,19 @@ def run_gpt_prompt(text, kwargs):
     text = " ".join([x['choices'][0]['text'] for x in responses])
     return text 
 
+def run_ai21_jumbo_prompt(text, kwargs):
+    json_prompt = {"prompt": text, "numResults": 1, "stopSequences": [".","\n"], "topKReturn": 0}
+    json_prompt.update(kwargs)
+    response = requests.post("https://api.ai21.com/studio/v1/j1-jumbo/complete",
+        headers={f"Authorization": f"Bearer {jurassic_api_key}"},
+        json=json_prompt,
+    )
+    data = response.json()
+    #print(data)
+    try:
+        return data['completions'][0]['data']['text']
+    except KeyError:
+        pdb.set_trace() 
 
 def run_ai21_prompt(text, kwargs):
     json_prompt = {"prompt": text, "numResults": 1, "stopSequences": [".","\n"], "topKReturn": 0}
