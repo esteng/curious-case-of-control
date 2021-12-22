@@ -29,7 +29,9 @@ class StringMetric(Metric):
         if type(text) is not str:
             self.classes['other'].append("Error")
         else:
-            text = text.split("\n")[0]
+            text = self.extract_answer_string(text, self.classes.keys())
+            # text = text.split("\n")[0]
+            # print(text)
             split_text = re.split("\s+", text.lower())
             for k, keywords in self.class_lookups.items():
                 for kw in keywords:
@@ -43,6 +45,34 @@ class StringMetric(Metric):
         all_counts = sum(counts.values())
         accuracy = counts[true_class]/all_counts 
         return accuracy, counts, self.classes
+
+    def extract_answer_string(self, text, names):
+        # Rule 1: if the answer is just one word, return that 
+        words = re.split("\s+", text)
+        if len(words) == 1:
+            return words[0] 
+
+        # Rule 2: if "Answer: NAME" appears in the text, extract that 
+        name_str = [f"({n})" for n in names]
+        name_str = "|".join(name_str)
+        answer_text = re.findall(f"Answer:\s+({name_str})", text) 
+        answer_text = [y  for x in answer_text for y in x]
+        answer_text = list(set(answer_text))
+        answer_text = [x for x in answer_text if x != '']
+        if len(answer_text) == 1:
+            # print(text)
+            # print(answer_text)
+            return answer_text[0]
+        elif len(answer_text) == 2:
+            # tiebreaker: what do you do if both are answered 
+            return "other"
+        else:
+            pass 
+        
+        # Rule 3: if there are multiple lines, return the first line 
+        lines = re.split("\n+", text)
+        return lines[0]
+    
 
 class LogprobMetric(Metric):
     def __init__(self, class_lookups: Dict[str, List[str]]):

@@ -26,16 +26,16 @@ from hf_tools.hf import HuggingfaceRunFxn
 import os
 os.environ['TRANSFORMERS_CACHE'] = "/brtx/601-nvme1/estengel/.cache"
 
-wrapper_fxn = HuggingfaceRunFxn("EleutherAI/gpt-j-6B", device="cpu", constrained=False)
+wrapper_fxn = HuggingfaceRunFxn("bigscience/T0pp", device="cpu", constrained=False)
 
-passive_gpt_j_object_control_experiment  = Experiment("gpt_j", "object-control-passive", FixedPassiveGPTPrompt, wrapper_fxn, 1, None)
+passive_t0_object_control_experiment  = Experiment("t0", "object-control-passive", FixedPassiveGPTPrompt, wrapper_fxn, 1, None)
 
-passive_gpt_j_object_control_experiment.run(names, correct_index, verbs, actions, do_swap = True, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
+passive_t0_object_control_experiment.run(names, correct_index, verbs, actions, do_swap = True, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
 
-passive_gpt_j_df = passive_gpt_j_object_control_experiment.format_results()
+passive_t0_df = passive_t0_object_control_experiment.format_results()
 
-passive_gpt_j_df.to_csv(main_dir.joinpath("results/gpt_j_passive_object_control.csv"))
+passive_t0_df.to_csv(main_dir.joinpath("results/t0_passive_object_control.csv"))
 
-accuracy_report(passive_gpt_j_df)
+accuracy_report(passive_t0_df)
 
 
