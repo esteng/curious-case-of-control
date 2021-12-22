@@ -64,7 +64,7 @@ def main(args):
     experiment  = Experiment(args.model_name, exp_name, choose_prompt(args.prompt_name), wrapper_fxn, 1, None)
     experiment.run(names, correct_index, verbs, actions, do_swap = True, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
     df = experiment.format_results()
-    df.to_csv(main_dir.joinpath(f"results/{args.model_name}{passive_name}_{str_exp_name}.csv"))
+    df.to_csv(main_dir.joinpath(f"{args.out_dir}/{args.model_name}{passive_name}_{str_exp_name}.csv"))
 
 if __name__ == "__main__":
     parser = ArgumentParser()
@@ -79,6 +79,7 @@ if __name__ == "__main__":
     parser.add_argument("--names-file", type=str, default="names_top_2.json")
     parser.add_argument("--action-file", default="verbs.json")
     parser.add_argument("--nicknames-file", default="nicknames.json")
+    parser.add_argument("--out-dir", default="results", type=str) 
     args = parser.parse_args()
 
     main(args)

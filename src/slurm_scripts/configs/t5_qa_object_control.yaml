@@ -1,9 +1,9 @@
-hf_model_name: "EleutherAI/gpt-neo-1.3B"
-model_name: "gpt_neo_1.3b"
-prompt_name: "gpt-passive"
+hf_model_name: "valhalla/t5-base-qa-qg-hl" 
+model_name: "t5"
+prompt_name: "t5"
 device: "cuda:0"
 subject_control: False
-passive: True
+passive: False
 names_file: "names_top_2.json"
 action_file: "verbs.json"
 nicknames_file: "nicknames.json"
