@@ -55,7 +55,7 @@ class StringMetric(Metric):
         # Rule 2: if "Answer: NAME" appears in the text, extract that 
         name_str = [f"({n})" for n in names]
         name_str = "|".join(name_str)
-        answer_text = re.findall(f"Answer:\s+({name_str})", text) 
+        answer_text = re.findall(f"Answer:\s+({name_str})", text, flags=re.IGNORECASE) 
         answer_text = [y  for x in answer_text for y in x]
         answer_text = list(set(answer_text))
         answer_text = [x for x in answer_text if x != '']
@@ -124,6 +124,14 @@ def accuracy_report(df):
             acc_name1_name2 = get_accuracy(full_name_df)
             acc_by_name[f"{name1},{name2}"] = acc_name1_name2 
 
+    acc_by_first_name = {}
+    for name1 in all_name1s:
+        for name2 in all_name2s:
+            df_by_name1_name2 = df[(df['name1'] == name1) & (df['name2'] == name2)]
+            acc_name1_name2 = get_accuracy(df_by_name1_name2)
+            acc_by_first_name[f"{name1},{name2}"] = acc_name1_name2 
+
+
     all_actions = set(df['action'])
     acc_by_action = {}
     for action in all_actions:
@@ -151,6 +159,7 @@ def accuracy_report(df):
     acc_by_name, acc_by_action, acc_by_verb, acc_by_action_by_verb = dicts
     return {"total": total_acc, 
             "acc_by_name": acc_by_name, 
+            "acc_by_first_name": acc_by_first_name,
             "acc_by_action": acc_by_action, 
             "acc_by_verb": acc_by_verb, 
             "acc_by_action_by_verb": acc_by_action_by_verb} 
