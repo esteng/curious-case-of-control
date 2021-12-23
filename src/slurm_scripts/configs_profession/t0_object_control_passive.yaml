@@ -1,0 +1,9 @@
+hf_model_name: "bigscience/T0pp" 
+model_name: "t0" 
+prompt_name: "gpt-passive"
+device: "cpu"
+subject_control: False
+passive: True
+names_file: "professions.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames_professions.json"

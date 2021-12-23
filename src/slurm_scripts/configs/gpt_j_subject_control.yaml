@@ -1,0 +1,9 @@
+hf_model_name: "EleutherAI/gpt-j"
+model_name: "gpt_j"
+prompt_name: "gpt"
+device: "cpu" 
+subject_control: True
+passive: False
+names_file: "names_top_2.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames.json"
