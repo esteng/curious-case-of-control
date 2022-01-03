@@ -111,6 +111,14 @@ def accuracy_report(df):
     all_name1s = set(df['name1'])
     all_name2s = set(df['name2'])
 
+    acc_by_swap = {}
+    for swap_val in [True, False]:
+        if swap_val not in df['swap_names']:
+            swap_val = str(swap_val)
+        df_by_swap_val = df[df['swap_names'] == swap_val]
+        acc_by_swap_val = get_accuracy(df_by_swap_val)
+        acc_by_swap[swap_val] = acc_by_swap_val
+
     acc_by_name = {}
     for name1 in all_name1s:
         for name2 in all_name2s:
@@ -157,7 +165,8 @@ def accuracy_report(df):
         dicts[i] = new_d
 
     acc_by_name, acc_by_action, acc_by_verb, acc_by_action_by_verb = dicts
-    return {"total": total_acc, 
+    return {"total": total_acc,
+            "acc_by_swap": acc_by_swap,  
             "acc_by_name": acc_by_name, 
             "acc_by_first_name": acc_by_first_name,
             "acc_by_action": acc_by_action, 
