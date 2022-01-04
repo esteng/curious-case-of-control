@@ -57,6 +57,7 @@ class FixedPrompt:
 
     def __str__(self):
         return str(self.prompt)
+
 class FixedGPTPrompt(FixedPrompt):
     """
     Fixed prompt for object and subject control 
@@ -80,6 +81,30 @@ class FixedGPTPrompt(FixedPrompt):
                     f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
         prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
+
+class FixedGPTPromptNoName(FixedPrompt):
+    """
+    Fixed prompt for object and subject control 
+    """
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str,
+                 swap_names: bool,
+                 qa_words: Tuple[str] = ("Question", "Answer")):
+        super().__init__()
+        question_word, answer_word = qa_words
+        if swap_names:
+            prompt_name1, prompt_name2 = name2, name1
+        else:
+            prompt_name1, prompt_name2 = name1, name2
+
+        context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                    f"{question_word}:  Who {past}?"]
+        prompt_text = f"{answer_word}: "
+        self.prompt = GPTPrompt(context, prompt_text)
     
 class FixedPassiveGPTPrompt(FixedPrompt):
     """
@@ -101,6 +126,29 @@ class FixedPassiveGPTPrompt(FixedPrompt):
             prompt_name1, prompt_name2 = name1, name2
         context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
                     f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        prompt_text = f"{answer_word}: "
+        self.prompt = GPTPrompt(context, prompt_text)
+
+class FixedPassiveGPTPromptNoName(FixedPrompt):
+    """
+    Fixed prompt for passives 
+    """
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str,
+                 swap_names: bool,
+                 qa_words: Tuple[str] = ("Question", "Answer")):
+        super().__init__()
+        question_word, answer_word = qa_words
+        if swap_names:
+            prompt_name1, prompt_name2 = name2, name1
+        else:
+            prompt_name1, prompt_name2 = name1, name2
+        context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                    f"{question_word}:  Who {past}?"]
         prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
 

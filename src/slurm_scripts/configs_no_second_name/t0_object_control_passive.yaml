@@ -4,7 +4,6 @@ prompt_name: "gpt-passive"
 device: "cpu"
 subject_control: False
 passive: True
-names_file: "professions.json"
+names_file: "names_top_2.json"
 action_file: "verbs.json"
-nicknames_file: "nicknames_professions.json"
-out_dir: "results_profession"
+nicknames_file: "nicknames.json"

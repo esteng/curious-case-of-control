@@ -1,4 +1,4 @@
-hf_model_name: "EleutherAI/gpt-j"
+hf_model_name: "EleutherAI/gpt-j-6B"
 model_name: "gpt_j"
 prompt_name: "gpt-passive"
 device: "cpu" 
@@ -7,3 +7,4 @@ passive: True
 names_file: "professions.json"
 action_file: "verbs.json"
 nicknames_file: "nicknames_professions.json"
+out_dir: "results_profession" 
