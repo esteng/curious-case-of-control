@@ -72,6 +72,7 @@ class FixedGPTPrompt(FixedPrompt):
                  infinitive: str,
                  past: str,
                  swap_names: bool,
+                 prompt_hacking: bool = False,
                  qa_words: Tuple[str] = ("Question", "Answer")):
         super().__init__()
         question_word, answer_word = qa_words
@@ -80,8 +81,16 @@ class FixedGPTPrompt(FixedPrompt):
         else:
             prompt_name1, prompt_name2 = name1, name2
 
-        context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
-                    f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        if not prompt_hacking: 
+            context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                        f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        else: 
+            context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                        f"{question_word}: Who {past} someone {infinitive}, {prompt_name1} or {prompt_name2}?",
+                        f"{answer_word}: {name1}",
+                        f"{question_word}: Who was {past} {infinitive}, {prompt_name1} or {prompt_name2}?",
+                        f"{answer_word}: {name2}",
+                        f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
         prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
 
@@ -120,6 +129,7 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                  infinitive: str,
                  past: str,
                  swap_names: bool,
+                 prompt_hacking: bool = False, 
                  qa_words: Tuple[str] = ("Question", "Answer")):
         super().__init__()
         question_word, answer_word = qa_words
@@ -127,8 +137,17 @@ class FixedPassiveGPTPrompt(FixedPrompt):
             prompt_name1, prompt_name2 = name2, name1
         else:
             prompt_name1, prompt_name2 = name1, name2
-        context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
-                    f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        
+        if not prompt_hacking: 
+            context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                        f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
+        else:
+            context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                        f"{question_word}: Who {past} someone {infinitive}, {prompt_name1} or {prompt_name2}?",
+                        f"{answer_word}: {name1}",
+                        f"{question_word}: Who was {past} {infinitive}, {prompt_name1} or {prompt_name2}?",
+                        f"{answer_word}: {name2}",
+                        f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
         prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
 

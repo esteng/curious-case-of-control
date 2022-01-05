@@ -82,7 +82,7 @@ class Experiment:
                       n2: [x.lower() for x in nicknames[n2]]}
         return lookup 
 
-    def run(self, names, correct_name_idx, verbs, actions, do_swap=True, qa_pair = ("Question", "Answer"), overwrite=False, nicknames = None, rate_limit_delay = 60, rate_limit_count=55):
+    def run(self, names, correct_name_idx, verbs, actions, do_swap=True, qa_pair = ("Question", "Answer"), prompt_hacking = False, overwrite=False, nicknames = None, rate_limit_delay = 60, rate_limit_count=55):
         results_list = []
         num_run_in_time = 0
         start_time = time.time()
@@ -97,7 +97,7 @@ class Experiment:
             for verb in verbs:
                 for inf, past in actions:
                     for swap_names in swap_names_choices:
-                        prompt = self.prompt(n1, n2, verb, inf, past, swap_names = swap_names, qa_words=qa_pair)
+                        prompt = self.prompt(n1, n2, verb, inf, past, swap_names = swap_names, qa_words=qa_pair, prompt_hacking=prompt_hacking)
                         text = str(prompt)
                         already_done, done_idx = self.check_results(text)
 
