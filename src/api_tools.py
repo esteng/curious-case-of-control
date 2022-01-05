@@ -9,11 +9,14 @@ from tqdm import tqdm
 import pdb 
 
 import numpy as np
+import pathlib 
 np.random.seed(12)
 
-oai_api_key = open('oai_api.key').read().strip()
-hf_api_key = open('hf_api.key').read().strip()
-jurassic_api_key = open('jurassic_api.key').read().strip() 
+path_to_file = pathlib.Path(__file__).absolute() 
+
+oai_api_key = open(path_to_file.parent.joinpath('oai_api.key')).read().strip()
+hf_api_key = open(path_to_file.parent.joinpath('hf_api.key')).read().strip()
+jurassic_api_key = open(path_to_file.parent.joinpath('jurassic_api.key')).read().strip() 
 
 class Prompt:
     def __init__(self, 

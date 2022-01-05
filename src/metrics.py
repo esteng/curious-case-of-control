@@ -88,9 +88,54 @@ class LogprobMetric(Metric):
         #            self.classes[k].append(text)
         #            return
 
-def get_accuracy(df): 
+def process_to_ignore(df, thresh_perc = 0.9):
+    # pre-process DF to remove whole names where the model just picks the first name in the instructions 
+    all_name1s = set(df['name1'])
+    all_name2s = set(df['name2']) 
+    df['swap_names'] = df['swap_names'].astype("bool")
+    remove_names = []
+    for n1 in all_name1s:
+        for n2 in all_name2s:
+            if n1 == n2:
+                continue
+            sub_df = df[(df['name1'] == n1) & (df['name2'] == n2)]
+           
+            # print(f"subdf {len(sub_df)}")
+            swap_val_true, swap_val_false = True, False
+
+            sub_df_swap = sub_df[sub_df['swap_names'] == swap_val_true]
+            sub_df_no_swap = sub_df[sub_df['swap_names'] != swap_val_true]
+
+            pred_with_swap = sub_df_swap['pred']
+            pred_no_swap = sub_df_no_swap['pred']
+
+            thresh = int(thresh_perc * len(sub_df_swap))
+            # if more than 90% (or whatever thresh_perc is set to) of the examples are just 
+            # the name in a certain position (first or second) then ignore than name pair
+            if (pred_with_swap.eq(n2).sum() > thresh and pred_no_swap.eq(n1).sum() > thresh) or \
+               (pred_with_swap.eq(n1).sum() > thresh and pred_no_swap.eq(n2).sum() > thresh) :
+                # print(f"removing {n1},{n2}")
+                remove_names.append((n1,n2))
+                remove_names.append((n2,n1))
+
+    # print(f"before: {len(df)}")
+    for n1, n2 in remove_names:
+        df = df[(df['name1'] != n1) | (df['name2'] != n2)]
+    # print(f"after: {len(df)}")
+    return df
+
+
+def get_accuracy(df, ignore_first_only = False): 
     if len(df) == 0:
         return -1, 0, -1, 0
+    if ignore_first_only:
+        # print(f"df before: {len(df)}")
+        df = process_to_ignore(df)
+        if len(df) == 0:
+            return -1, 0, -1, 0
+        # print(f"df after: {len(df)}")
+
+
     total_correct = df[df['true'] == df['pred']]
     total_acc = len(total_correct)/len(df)
 
@@ -102,12 +147,14 @@ def get_accuracy(df):
         total_correct_no_other = df_no_other[df_no_other['true'] == df_no_other['pred']]
         total_acc_no_other = len(total_correct_no_other)/len(df_no_other)
 
-
+    # print(total_acc, total_acc_no_other)
     return total_acc, len(df), total_acc_no_other, len(df_no_other)
 
-def accuracy_report(df):
-    total_acc = get_accuracy(df)
+def accuracy_report(df, ignore_first_only=False, total_only = False):
+    total_acc = get_accuracy(df, ignore_first_only=ignore_first_only)
 
+    if total_only:
+        return {"total": total_acc}
     all_name1s = set(df['name1'])
     all_name2s = set(df['name2'])
 
@@ -116,7 +163,7 @@ def accuracy_report(df):
         if swap_val not in df['swap_names']:
             swap_val = str(swap_val)
         df_by_swap_val = df[df['swap_names'] == swap_val]
-        acc_by_swap_val = get_accuracy(df_by_swap_val)
+        acc_by_swap_val = get_accuracy(df_by_swap_val, ignore_first_only=ignore_first_only)
         acc_by_swap[swap_val] = acc_by_swap_val
 
     acc_by_name = {}
@@ -129,14 +176,14 @@ def accuracy_report(df):
             df_by_name1_name2 = df[(df['name1'] == name1) & (df['name2'] == name2)]
             df_by_name2_name1 = df[(df['name2'] == name1) & (df['name1'] == name2)]
             full_name_df = pd.concat([df_by_name1_name2, df_by_name2_name1])
-            acc_name1_name2 = get_accuracy(full_name_df)
+            acc_name1_name2 = get_accuracy(full_name_df, ignore_first_only=ignore_first_only)
             acc_by_name[f"{name1},{name2}"] = acc_name1_name2 
 
     acc_by_first_name = {}
     for name1 in all_name1s:
         for name2 in all_name2s:
             df_by_name1_name2 = df[(df['name1'] == name1) & (df['name2'] == name2)]
-            acc_name1_name2 = get_accuracy(df_by_name1_name2)
+            acc_name1_name2 = get_accuracy(df_by_name1_name2, ignore_first_only=ignore_first_only)
             acc_by_first_name[f"{name1},{name2}"] = acc_name1_name2 
 
 
@@ -144,20 +191,20 @@ def accuracy_report(df):
     acc_by_action = {}
     for action in all_actions:
         df_by_action = df[df['action'] == action]
-        acc_by_action[action] = get_accuracy(df_by_action)
+        acc_by_action[action] = get_accuracy(df_by_action, ignore_first_only=ignore_first_only)
 
     acc_by_verb = {}
     all_verbs = set(df['verb'])
     for verb in all_verbs:
         df_by_verb  = df[df['verb'] == verb]
-        acc_by_verb[verb] = get_accuracy(df_by_verb)
+        acc_by_verb[verb] = get_accuracy(df_by_verb, ignore_first_only=ignore_first_only)
 
     acc_by_action_by_verb = {}
 
     for action in all_actions:
         for verb in all_verbs:
             df_by_action_by_verb  = df[(df['action'] == action) & (df['verb'] == verb)]
-            acc_by_action_by_verb[f"{action},{verb}"] = get_accuracy(df_by_action_by_verb)
+            acc_by_action_by_verb[f"{action},{verb}"] = get_accuracy(df_by_action_by_verb, ignore_first_only=ignore_first_only)
 
     dicts = [acc_by_name, acc_by_action, acc_by_verb, acc_by_action_by_verb]
     for i, d in enumerate(dicts):
