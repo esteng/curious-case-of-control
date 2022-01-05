@@ -1,25 +1,43 @@
 import re
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
 from transformers import T5Tokenizer, T5ForConditionalGeneration 
+from transformers import pipeline
 import pdb 
-
+import os 
 import time 
-
+import deepspeed
+from parallelformers import parallelize
+import torch
 
 class HuggingfaceRunFxn:
-    def __init__(self, model_name, constrained = False, device="cpu"): 
+    def __init__(self, model_name, constrained = False, device="cpu", max_len=100): 
+
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.tokenizer.padding_side = "left" 
         self.tokenizer.pad_token = self.tokenizer.eos_token
-
         try:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         except:
             self.model = AutoModelForCausalLM.from_pretrained(model_name, max_length=100)
-
         self.device = device 
-        self.model.to(device)
+        
         self.constrained = constrained
+
+        if device == "multi": 
+            # world_size = int(os.getenv('WORLD_SIZE', '1'))
+            # ds_engine = deepspeed.init_inference(self.model,
+            #                      mp_size=world_size,
+            #                      dtype=torch.float,
+            #                      checkpoint=None,
+            #                      replace_method='auto')
+            # self.model = ds_engine.moduleA
+
+            parallelize(self.model, num_gpus=2, fp16=True, verbose='detail')
+        else:
+            self.model.to(device)
+        
+        self.max_len = max_len
+            
 
     def get_names(self, text): 
         # get names from the prompt 
@@ -27,9 +45,15 @@ class HuggingfaceRunFxn:
         return n1, n2
 
     def __call__(self, text, kwargs):
-        input_ids = self.tokenizer(text, return_tensors='pt').input_ids
-        input_ids = input_ids.to(self.device)
-        outputs =  self.model.generate(input_ids)
+        # if self.generator is None: 
+        if self.device != "multi": 
+            input_ids = self.tokenizer(text, return_tensors='pt').input_ids
+            input_ids = input_ids.to(self.device)
+            outputs =  self.model.generate(input_ids)
+        else:
+            input_ids = self.tokenizer(text, return_tensors='pt')
+            outputs =  self.model.generate(**input_ids)
+
         if not self.constrained:
             output_text = self.tokenizer.decode(outputs[0].to("cpu"), skip_special_tokens=True)
         else:
@@ -37,13 +61,43 @@ class HuggingfaceRunFxn:
             pdb.set_trace() 
 
 
+        # else:
+        #     output_text = self.generator(text, do_sample=True, min_length=1, max_length=self.max_len)
+
         return output_text 
 
 
 
 
 if __name__ == "__main__":
-    fxn = HuggingfaceRunFxn("valhalla/t5-base-qa-qg-hl")
+#     fxn = HuggingfaceRunFxn("valhalla/t5-base-qa-qg-hl")
+
+#     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
+# Context: Avery was convinced by Joseph to go.
+
+# Question:  Who went, Avery or Joseph?
+# Answer: """
+
+#     t0 = time.time()
+#     print(fxn(prompt))
+#     t1 = time.time()
+#     print(f"on CPU took: {t1 - t0}")
+
+
+#     fxn = HuggingfaceRunFxn("valhalla/t5-base-qa-qg-hl", device="cuda:0")
+
+#     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
+# Context: Avery was convinced by Joseph to go.
+
+# Question:  Who went, Avery or Joseph?
+# Answer: """
+
+#     t0 = time.time()
+#     print(fxn(prompt))
+#     t1 = time.time()
+#     print(f"on GPU took: {t1 - t0}")
+
+    fxn = HuggingfaceRunFxn("EleutherAI/gpt-neo-2.7B", device='multi')
 
     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
 Context: Avery was convinced by Joseph to go.
@@ -52,12 +106,12 @@ Question:  Who went, Avery or Joseph?
 Answer: """
 
     t0 = time.time()
-    print(fxn(prompt))
+    print(fxn(prompt, None))
     t1 = time.time()
-    print(f"on CPU took: {t1 - t0}")
+    print(f"on 2 GPU took: {t1 - t0}")
 
 
-    fxn = HuggingfaceRunFxn("valhalla/t5-base-qa-qg-hl", device="cuda:0")
+    fxn = HuggingfaceRunFxn("EleutherAI/gpt-neo-2.7B", device='cpu')
 
     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
 Context: Avery was convinced by Joseph to go.
@@ -66,6 +120,6 @@ Question:  Who went, Avery or Joseph?
 Answer: """
 
     t0 = time.time()
-    print(fxn(prompt))
+    print(fxn(prompt, None))
     t1 = time.time()
-    print(f"on GPU took: {t1 - t0}")
+    print(f"on cputook: {t1 - t0}")
