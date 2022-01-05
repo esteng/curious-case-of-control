@@ -75,8 +75,13 @@ class FixedGPTPrompt(FixedPrompt):
                  prompt_hacking: bool = False,
                  just_prompt_agent: bool = False,
                  just_prompt_patient: bool = False,
-                 qa_words: Tuple[str] = ("Question", "Answer")):
+                 qa_words: Tuple[str] = ("Question", "Answer"),
+                 sent_or_context: str = "context"):
         super().__init__()
+        sent_or_context_upper = [c for c in sent_or_context]
+        sent_or_context_upper[0] =  sent_or_context_upper[0].upper()
+        sent_or_context_upper = "".join(sent_or_context_upper)
+
         question_word, answer_word = qa_words
         if swap_names:
             prompt_name1, prompt_name2 = name2, name1
@@ -88,17 +93,17 @@ class FixedGPTPrompt(FixedPrompt):
                 raise AssertionError("Can't have both just_prompt_agent and just_prompt_patient")
 
             if just_prompt_agent: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} by {name2} {infinitive}.\n""",
-                                f"{question_word}: Who {verb}, {prompt_name1} or {prompt_name2}?"]
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
+                                f"{question_word}: Who {verb} someone {infinitive}?"]
             elif just_prompt_patient: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} by {name2} {infinitive}.\n""",
-                                f"{question_word}: Who was {verb}, {prompt_name1} or {prompt_name2}?"]
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
+                                f"{question_word}: Who was {verb} {infinitive}?"]
         else:
             if not prompt_hacking: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
                             f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
             else: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} {verb} {name2} {infinitive}.\n""",
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
                             f"{question_word}: Who {verb}, {prompt_name1} or {prompt_name2}?",
                             f"{answer_word}: {name1}",
                             f"{question_word}: Who was {verb}, {prompt_name1} or {prompt_name2}?",
@@ -121,9 +126,14 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                  prompt_hacking: bool = False, 
                  just_prompt_agent: bool = False,
                  just_prompt_patient: bool = False,
-                 qa_words: Tuple[str] = ("Question", "Answer")):
+                 qa_words: Tuple[str] = ("Question", "Answer"),
+                 sent_or_context: str = "context"):
         super().__init__()
         question_word, answer_word = qa_words
+        sent_or_context_upper = [c for c in sent_or_context]
+        sent_or_context_upper[0] =  sent_or_context_upper[0].upper()
+        sent_or_context_upper = "".join(sent_or_context_upper)
+
         if swap_names:
             prompt_name1, prompt_name2 = name2, name1
         else:
@@ -134,17 +144,17 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                 raise AssertionError("Can't have both just_prompt_agent and just_prompt_patient")
 
             if just_prompt_agent: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
                                 f"{question_word}: Who {verb}, {prompt_name1} or {prompt_name2}?"]
             elif just_prompt_patient: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
                                 f"{question_word}: Who was {verb}, {prompt_name1} or {prompt_name2}?"]
         else:
             if not prompt_hacking: 
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
                             f"{question_word}:  Who {past}, {prompt_name1} or {prompt_name2}?"]
             else:
-                context = [f"""You will be given a context and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\nContext: {name1} was {verb} by {name2} {infinitive}.\n""",
+                context = [f"""You will be given a {sent_or_context} and a question. Answer the question with either "{prompt_name1}" or "{prompt_name2}".\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
                             f"{question_word}: Who {verb}, {prompt_name1} or {prompt_name2}?",
                             f"{answer_word}: {name1}",
                             f"{question_word}: Who was {verb}, {prompt_name1} or {prompt_name2}?",

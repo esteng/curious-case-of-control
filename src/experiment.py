@@ -93,6 +93,7 @@ class Experiment:
             prompt_hacking = False, 
             just_prompt_agent = False, 
             just_prompt_patient = False, 
+            sent_or_context = "context", 
             overwrite=False, 
             nicknames = None, 
             rate_limit_delay = 60, 
@@ -117,9 +118,10 @@ class Experiment:
                                              past, 
                                              swap_names = swap_names, 
                                              qa_words=qa_pair, 
+                                             sent_or_context=sent_or_context,
                                              prompt_hacking=prompt_hacking,
                                              just_prompt_agent=just_prompt_agent,
-                                             just_prompt_patien=just_prompt_patient)
+                                             just_prompt_patient=just_prompt_patient)
                         text = str(prompt)
                         already_done, done_idx = self.check_results(text)
 

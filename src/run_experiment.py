@@ -75,7 +75,8 @@ def main(args):
                    do_swap = True, 
                    prompt_hacking = args.prompt_hacking, 
                    just_prompt_agent = args.just_prompt_agent,  
-                   just_prompt_patient = args.just_prompt_patient,  
+                   just_prompt_patient = args.just_prompt_patient, 
+                   sent_or_context = args.sent_or_context,  
                    nicknames=nicknames, 
                    rate_limit_delay=None, 
                    overwrite=True)
@@ -95,6 +96,7 @@ if __name__ == "__main__":
     parser.add_argument("--prompt-hacking", action="store_true")
     parser.add_argument("--just-prompt-agent", action="store_true")
     parser.add_argument("--just-prompt-patient", action="store_true")
+    parser.add_argument("--sent-or-context", type=str, default="context")
     parser.add_argument("--passive", action="store_true")
     parser.add_argument("--names-file", type=str, default="names_top_2.json")
     parser.add_argument("--action-file", default="verbs.json")
