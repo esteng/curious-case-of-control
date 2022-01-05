@@ -11,10 +11,11 @@ class HuggingfaceRunFxn:
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.tokenizer.padding_side = "left" 
         self.tokenizer.pad_token = self.tokenizer.eos_token
+
         try:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         except:
-            self.model = AutoModelForCausalLM.from_pretrained(model_name, max_length=57)
+            self.model = AutoModelForCausalLM.from_pretrained(model_name, max_length=100)
 
         self.device = device 
         self.model.to(device)
