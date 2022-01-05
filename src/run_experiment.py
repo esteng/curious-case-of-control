@@ -68,7 +68,18 @@ def main(args):
 
     wrapper_fxn = HuggingfaceRunFxn(args.hf_model_name, device=args.device, constrained=False)
     experiment  = Experiment(args.model_name, exp_name, choose_prompt(args.prompt_name), wrapper_fxn, 1, None)
-    experiment.run(names, correct_index, verbs, actions, do_swap = True, prompt_hacking = args.prompt_hacking, nicknames=nicknames, rate_limit_delay=None, overwrite=True)
+    experiment.run(names, 
+                   correct_index, 
+                   verbs, 
+                   actions, 
+                   do_swap = True, 
+                   prompt_hacking = args.prompt_hacking, 
+                   just_prompt_agent = args.just_prompt_agent,  
+                   just_prompt_patient = args.just_prompt_patient,  
+                   nicknames=nicknames, 
+                   rate_limit_delay=None, 
+                   overwrite=True)
+
     df = experiment.format_results()
     df.to_csv(main_dir.joinpath(f"{args.out_dir}/{args.model_name}{passive_name}_{str_exp_name}.csv"))
 
@@ -82,6 +93,8 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cpu")
     parser.add_argument("--subject-control", action="store_true")
     parser.add_argument("--prompt-hacking", action="store_true")
+    parser.add_argument("--just-prompt-agent", action="store_true")
+    parser.add_argument("--just-prompt-patient", action="store_true")
     parser.add_argument("--passive", action="store_true")
     parser.add_argument("--names-file", type=str, default="names_top_2.json")
     parser.add_argument("--action-file", default="verbs.json")

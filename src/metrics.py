@@ -3,6 +3,9 @@ import re
 import pdb 
 
 import pandas as pd 
+
+VERB_LOOKUP = {"to come": "came", "to go": "went", "to read": "read", "to run": "ran", "to call": "called"}
+
 class Metric:
     def __init__(self, class_lookups: Dict[str, List[str]]): 
         self.class_lookups = class_lookups
@@ -25,11 +28,11 @@ class StringMetric(Metric):
         self.classes = {k: [] for k in class_lookups.keys()}
         self.classes['other'] = []
 
-    def __call__(self, text: str):
+    def __call__(self, text: str, verb: str = None):
         if type(text) is not str:
             self.classes['other'].append("Error")
         else:
-            text = self.extract_answer_string(text, self.classes.keys())
+            text = self.extract_answer_string(text, self.classes.keys(), verb=verb)
             # text = text.split("\n")[0]
             # print(text)
             split_text = re.split("\s+", text.lower())
@@ -46,26 +49,37 @@ class StringMetric(Metric):
         accuracy = counts[true_class]/all_counts 
         return accuracy, counts, self.classes
 
-    def extract_answer_string(self, text, names):
+    def extract_answer_string(self, text, names, verb=None):
+        # Rule 0: if prompt text appears in output, remove prompt text by extracting just one question
+        # comes up in prompt hacking experiments 
+        if verb is not None:
+            verb = VERB_LOOKUP[verb]
+            question_gex = fr"Question:\s+Who\s+{verb},\s+\w+\s+or\s+\w+\?[\s\\n]*Answer:\s+(\w+)"
+            answer  = re.search(question_gex, text)
+            if answer is not None: 
+                return answer.group(1)
+
+
         # Rule 1: if the answer is just one word, return that 
         words = re.split("\s+", text)
         if len(words) == 1:
             return words[0] 
 
-        # Rule 2: if "Answer: NAME" appears in the text, extract that 
+        # Rule 2: if "Answer: NAME" appears in the text, extract the first occurrence of that 
         name_str = [f"({n})" for n in names]
         name_str = "|".join(name_str)
         answer_text = re.findall(f"Answer:\s+({name_str})", text, flags=re.IGNORECASE) 
         answer_text = [y  for x in answer_text for y in x]
-        answer_text = list(set(answer_text))
-        answer_text = [x for x in answer_text if x != '']
-        if len(answer_text) == 1:
+        answer_text_set = list(set(answer_text))
+        answer_text_set = [x for x in answer_text_set if x != '']
+        if len(answer_text_set) == 1:
             # print(text)
             # print(answer_text)
+            return answer_text_set[0]
+        elif len(answer_text_set) > 1:
+            # tiebreaker: what do you do if both are answered
+            # return the first one  
             return answer_text[0]
-        elif len(answer_text) == 2:
-            # tiebreaker: what do you do if both are answered 
-            return "other"
         else:
             pass 
         
