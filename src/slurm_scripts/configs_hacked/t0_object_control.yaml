@@ -1,7 +1,7 @@
 hf_model_name: "bigscience/T0pp" 
 model_name: "t0" 
 prompt_name: "gpt"
-device: "cpu" 
+device: "multi-2" 
 subject_control: False
 passive: False
 names_file: "names_top_2.json"

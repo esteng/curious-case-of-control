@@ -19,20 +19,16 @@ class HuggingfaceRunFxn:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         except:
             self.model = AutoModelForCausalLM.from_pretrained(model_name, max_length=100)
-        self.device = device 
         
         self.constrained = constrained
 
-        if device == "multi": 
-            # world_size = int(os.getenv('WORLD_SIZE', '1'))
-            # ds_engine = deepspeed.init_inference(self.model,
-            #                      mp_size=world_size,
-            #                      dtype=torch.float,
-            #                      checkpoint=None,
-            #                      replace_method='auto')
-            # self.model = ds_engine.moduleA
+        if device.startswith("multi"): 
+            device, n_gpus = device.split("-")
+            n_gpus = int(n_gpus)
+        self.device = device 
 
-            parallelize(self.model, num_gpus=2, fp16=True, verbose='detail')
+        if device == "multi": 
+            parallelize(self.model, num_gpus=n_gpus, fp16=True, verbose='detail')
         else:
             self.model.to(device)
         
@@ -97,7 +93,7 @@ if __name__ == "__main__":
 #     t1 = time.time()
 #     print(f"on GPU took: {t1 - t0}")
 
-    fxn = HuggingfaceRunFxn("EleutherAI/gpt-neo-2.7B", device='multi')
+    fxn = HuggingfaceRunFxn("EleutherAI/gpt-j-6B", device='multi-2')
 
     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
 Context: Avery was convinced by Joseph to go.
@@ -111,15 +107,28 @@ Answer: """
     print(f"on 2 GPU took: {t1 - t0}")
 
 
-    fxn = HuggingfaceRunFxn("EleutherAI/gpt-neo-2.7B", device='cpu')
+#     fxn = HuggingfaceRunFxn("EleutherAI/gpt-neo-2.7B", device='multi-3')
 
-    prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
-Context: Avery was convinced by Joseph to go.
+#     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
+# Context: Avery was convinced by Joseph to go.
 
-Question:  Who went, Avery or Joseph?
-Answer: """
+# Question:  Who went, Avery or Joseph?
+# Answer: """
 
-    t0 = time.time()
-    print(fxn(prompt, None))
-    t1 = time.time()
-    print(f"on cputook: {t1 - t0}")
+#     t0 = time.time()
+#     print(fxn(prompt, None))
+#     t1 = time.time()
+#     print(f"on 3 GPU took: {t1 - t0}")
+
+#     fxn = HuggingfaceRunFxn("EleutherAI/gpt-neo-2.7B", device='cpu')
+
+#     prompt = """You will be given a context and a question. Answer the question with either "Avery" or "Joseph".
+# Context: Avery was convinced by Joseph to go.
+
+# Question:  Who went, Avery or Joseph?
+# Answer: """
+
+#     t0 = time.time()
+#     print(fxn(prompt, None))
+#     t1 = time.time()
+#     print(f"on cputook: {t1 - t0}")

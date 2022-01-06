@@ -1,5 +1,5 @@
-hf_model_name: "EleutherAI/gpt-j-6B" 
-model_name: "gpt_j"
+hf_model_name: "bigscience/T0pp" 
+model_name: "t0" 
 prompt_name: "gpt"
 device: "multi-2" 
 subject_control: False
@@ -7,6 +7,6 @@ passive: False
 names_file: "names_top_2.json"
 action_file: "verbs.json"
 nicknames_file: "nicknames.json"
-out_dir: "results_just_prompt_agent" 
+out_dir: "results_just_prompt_patient" 
 
-just_prompt_agent: True
+just_prompt_patient: True

@@ -4,7 +4,7 @@ import pdb
 
 import pandas as pd 
 
-VERB_LOOKUP = {"to come": "came", "to go": "went", "to read": "read", "to run": "ran", "to call": "called"}
+ACTION_LOOKUP = {"to come": "came", "to go": "went", "to read": "read", "to run": "ran", "to call": "called"}
 
 class Metric:
     def __init__(self, class_lookups: Dict[str, List[str]]): 
@@ -49,12 +49,18 @@ class StringMetric(Metric):
         accuracy = counts[true_class]/all_counts 
         return accuracy, counts, self.classes
 
-    def extract_answer_string(self, text, names, verb=None):
+    def extract_answer_string(self, text, names, action=None, verb=None):
         # Rule 0: if prompt text appears in output, remove prompt text by extracting just one question
         # comes up in prompt hacking experiments 
+        assert(verb is None or action is None)
         if verb is not None:
-            verb = VERB_LOOKUP[verb]
             question_gex = fr"Question:\s+Who\s+{verb},\s+\w+\s+or\s+\w+\?[\s\\n]*Answer:\s+(\w+)"
+            answer  = re.search(question_gex, text)
+            if answer is not None: 
+                return answer.group(1)
+        if action is not None:
+            action = ACTION_LOOKUP[action]
+            question_gex = fr"Question:\s+Who\s+{action},\s+\w+\s+or\s+\w+\?[\s\\n]*Answer:\s+(\w+)"
             answer  = re.search(question_gex, text)
             if answer is not None: 
                 return answer.group(1)
