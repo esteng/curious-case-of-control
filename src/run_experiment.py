@@ -12,9 +12,7 @@ from jsonargparse import ArgumentParser, ActionConfigFile
 
 from experiment import Experiment
 from api_tools import (FixedGPTPrompt, 
-                       FixedGPTPromptNoName,
                        FixedPassiveGPTPrompt, 
-                       FixedPassiveGPTPromptNoName, 
                        FixedT5Prompt, 
                        FixedPassiveT5Prompt, 
                        run_ai21_prompt, 
@@ -28,12 +26,8 @@ from hf_tools.hf import HuggingfaceRunFxn
 def choose_prompt(name):
     if name == "gpt-passive":
         return FixedPassiveGPTPrompt
-    elif name == "gpt-passive-no-name":
-        return FixedPassiveGPTPromptNoName
     elif name == "gpt": 
         return FixedGPTPrompt
-    elif name == "gpt-no-name": 
-        return FixedGPTPromptNoName
     elif name == "t5":
         return FixedT5Prompt
     elif name == "t5-passive": 

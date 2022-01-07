@@ -7,6 +7,6 @@ passive: False
 names_file: "names_top_2.json"
 action_file: "verbs.json"
 nicknames_file: "nicknames.json"
-out_dir: "results_just_prompt_patient" 
+out_dir: "short_instructions/results_just_prompt_patient" 
 sent_or_context: "sentence"
 just_prompt_patient: True

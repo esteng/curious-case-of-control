@@ -1,10 +1,10 @@
 hf_model_name: "bigscience/T0pp"
 model_name: "t0"
 prompt_name: "gpt"
-device: "cpu" 
+device: "multi-2" 
 subject_control: True
 passive: False
 names_file: "names_top_2.json"
 action_file: "verbs.json"
 nicknames_file: "nicknames.json"
-out_dir: "results"
+out_dir: "short_instructions/results"
