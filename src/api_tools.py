@@ -74,7 +74,7 @@ class FixedPrompt:
 
         question_word, answer_word = qa_words
 
-        if passive:
+        if not passive:
             context = f"{name1} {verb} {name2} {infinitive}."
             hack_name1, hack_name2 = name1, name2
         else:
@@ -181,7 +181,7 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                          just_prompt_patient=just_prompt_patient,
                          qa_words=qa_words,
                          sent_or_context=sent_or_context,
-                         passive=False)
+                         passive=True)
 
 class FixedPassiveT5Prompt(FixedPrompt):
     """

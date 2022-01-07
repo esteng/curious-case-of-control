@@ -28,13 +28,24 @@ class HuggingfaceRunFxn:
         self.device = device 
 
         if device == "multi": 
-            parallelize(self.model, num_gpus=n_gpus, fp16=True, verbose='detail')
-        else:
-            self.model.to(device)
-        
+            # parallelize(self.model, num_gpus=n_gpus, fp16=True, verbose='detail')
+            # local_rank = int(os.getenv('LOCAL_RANK', '0'))
+            # world_size = int(os.getenv('WORLD_SIZE', '1'))
+            # generator = pipeline('text-generation', model=model_name,
+                                #   device=local_rank)
+            # ds_engine = deepspeed.init_inference(self.model,
+            #                                            mp_size=2,
+            #                                            dtype=torch.float,
+            #                                            checkpoint=None,
+            #                                            replace_method='auto')
+            # self.model = ds_engine.module
+            self.model = self.model.half()
+            device = "cuda:0"
+
+        # else:
+        self.model.to(device)
         self.max_len = max_len
             
-
     def get_names(self, text): 
         # get names from the prompt 
         n1, n2 = re.findall("Answer the question with either \"(\w+)\" or \"(\w+)\"", text)[0]
@@ -42,13 +53,16 @@ class HuggingfaceRunFxn:
 
     def __call__(self, text, kwargs):
         # if self.generator is None: 
+        input_ids = self.tokenizer(text, return_tensors='pt').input_ids
         if self.device != "multi": 
-            input_ids = self.tokenizer(text, return_tensors='pt').input_ids
             input_ids = input_ids.to(self.device)
-            outputs =  self.model.generate(input_ids)
         else:
-            input_ids = self.tokenizer(text, return_tensors='pt')
-            outputs =  self.model.generate(**input_ids)
+            input_ids = input_ids.to("cuda") 
+        outputs =  self.model.generate(input_ids)
+            # outputs = self.generator(text, do_sample=False, min_length = 1, max_length = self.max_len)
+        # else:
+        #     input_ids = self.tokenizer(text, return_tensors='pt')
+        #     outputs =  self.model.generate(**input_ids)
 
         if not self.constrained:
             output_text = self.tokenizer.decode(outputs[0].to("cpu"), skip_special_tokens=True)
