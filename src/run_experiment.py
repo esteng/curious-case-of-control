@@ -67,6 +67,7 @@ def main(args):
                    verbs, 
                    actions, 
                    do_swap = True, 
+                   long_instruction=args.long_instruction,
                    prompt_hacking = args.prompt_hacking, 
                    just_prompt_agent = args.just_prompt_agent,  
                    just_prompt_patient = args.just_prompt_patient, 
@@ -90,6 +91,7 @@ if __name__ == "__main__":
     parser.add_argument("--prompt-hacking", action="store_true")
     parser.add_argument("--just-prompt-agent", action="store_true")
     parser.add_argument("--just-prompt-patient", action="store_true")
+    parser.add_argument("--long-instruction", action="store_true")
     parser.add_argument("--sent-or-context", type=str, default="context")
     parser.add_argument("--passive", action="store_true")
     parser.add_argument("--names-file", type=str, default="names_top_2.json")

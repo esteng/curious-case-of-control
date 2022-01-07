@@ -61,6 +61,7 @@ class FixedPrompt:
                  infinitive: str,
                  past: str,
                  swap_names: bool,
+                 long_instructions: bool = False,
                  prompt_hacking: bool = False,
                  just_prompt_agent: bool = False,
                  just_prompt_patient: bool = False,
@@ -74,6 +75,19 @@ class FixedPrompt:
 
         question_word, answer_word = qa_words
 
+        if long_instructions:
+            do_swap = np.random.choice([True, False])
+            if do_swap and swap_names:
+                prompt_name1, prompt_name2 = name2, name1
+            else:
+                prompt_name1, prompt_name2 = name1, name2
+            long_instructions_str = f" Answer the question with either \"{prompt_name1}\" or \"{prompt_name2}\"."
+            or_clause = f", {prompt_name1} or {prompt_name2}"
+
+        else:
+            long_instructions_str = ""
+            or_clause = ""
+
         if not passive:
             context = f"{name1} {verb} {name2} {infinitive}."
             hack_name1, hack_name2 = name1, name2
@@ -82,41 +96,41 @@ class FixedPrompt:
             hack_name1, hack_name2 = name2, name1
 
         if verb == "promised": 
-            patient_question = f"Who was {verb} something?"
+            patient_question = f"Who was {verb} something{or_clause}"
         else:
-            patient_question = f"Who was {verb} {infinitive}?"
-        agent_question = f"Who {verb} someone {infinitive}"
+            patient_question = f"Who was {verb} {infinitive}{or_clause}"
+        agent_question = f"Who {verb} someone {infinitive}{or_clause}"
 
         if just_prompt_agent or just_prompt_patient:
             if just_prompt_patient and just_prompt_agent:
                 raise AssertionError("Can't have both just_prompt_agent and just_prompt_patient")
 
             if just_prompt_agent: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                context = [f"""You will be given a {sent_or_context} and a question.{long_instructions_str}\n{sent_or_context_upper}: {context}\n""",
                                 f"{question_word}: {agent_question}?"]
             elif just_prompt_patient: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                context = [f"""You will be given a {sent_or_context} and a question.{long_instructions_str}\n{sent_or_context_upper}: {context}\n""",
                                 f"{question_word}: {patient_question}?"]
         else:
             if not prompt_hacking: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
-                            f"{question_word}:  Who {past}?"]
+                context = [f"""You will be given a {sent_or_context} and a question.{long_instructions_str}\n{sent_or_context_upper}: {context}\n""",
+                            f"{question_word}: Who {past}{or_clause}?"]
             else: 
                 agent_first = np.random.choice([True, False])
                 if agent_first:
-                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                    context = [f"""You will be given a {sent_or_context} and a question.{long_instructions_str}\n{sent_or_context_upper}: {context}\n""",
                                 f"{question_word}: {agent_question}?",
                                 f"{answer_word}: {hack_name1}",
                                 f"{question_word}: {patient_question}?",
                                 f"{answer_word}: {hack_name2}",
-                                f"{question_word}:  Who {past}?"]
+                                f"{question_word}: Who {past}{or_clause}?"]
                 else:
-                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
-                                f"{question_word}: {patient_question}?",
+                    context = [f"""You will be given a {sent_or_context} and a question.{long_instructions_str}\n{sent_or_context_upper}: {context}\n""",
+                                f"{question_word}: {patient_question}{or_clause}?",
                                 f"{answer_word}: {hack_name2}",
-                                f"{question_word}: {agent_question}?",
+                                f"{question_word}: {agent_question}{or_clause}?",
                                 f"{answer_word}: {hack_name1}",
-                                f"{question_word}:  Who {past}?"]
+                                f"{question_word}: Who {past}{or_clause}?"]
         prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
 
@@ -134,6 +148,7 @@ class FixedGPTPrompt(FixedPrompt):
                  infinitive: str,
                  past: str,
                  swap_names: bool,
+                 long_instructions: bool = False,
                  prompt_hacking: bool = False,
                  just_prompt_agent: bool = False,
                  just_prompt_patient: bool = False,
@@ -145,6 +160,7 @@ class FixedGPTPrompt(FixedPrompt):
                          infinitive=infinitive,
                          past=past,
                          swap_names=swap_names,
+                         long_instructions=long_instructions,
                          prompt_hacking=prompt_hacking,
                          just_prompt_agent=just_prompt_agent,
                          just_prompt_patient=just_prompt_patient,
@@ -164,6 +180,7 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                  infinitive: str,
                  past: str,
                  swap_names: bool,
+                 long_instructions: bool = False,
                  prompt_hacking: bool = False, 
                  just_prompt_agent: bool = False,
                  just_prompt_patient: bool = False,
@@ -176,6 +193,7 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                          infinitive=infinitive,
                          past=past,
                          swap_names=swap_names,
+                         long_instructions=long_instructions,
                          prompt_hacking=prompt_hacking,
                          just_prompt_agent=just_prompt_agent,
                          just_prompt_patient=just_prompt_patient,
