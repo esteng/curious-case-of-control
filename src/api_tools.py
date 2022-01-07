@@ -54,8 +54,71 @@ class GPTPrompt(Prompt):
         return f"{context_str}{self.context_sep}{self.prompt}"
 
 class FixedPrompt:
-    def __init__(self):
-        self.prompt = None
+    def __init__(self,
+                 name1: str,
+                 name2: str,
+                 verb: str,
+                 infinitive: str,
+                 past: str,
+                 swap_names: bool,
+                 prompt_hacking: bool = False,
+                 just_prompt_agent: bool = False,
+                 just_prompt_patient: bool = False,
+                 qa_words: Tuple[str] = ("Question", "Answer"),
+                 sent_or_context: str = "context",
+                 passive: bool = False):
+
+        sent_or_context_upper = [c for c in sent_or_context]
+        sent_or_context_upper[0] =  sent_or_context_upper[0].upper()
+        sent_or_context_upper = "".join(sent_or_context_upper)
+
+        question_word, answer_word = qa_words
+
+        if passive:
+            context = f"{name1} {verb} {name2} {infinitive}."
+            hack_name1, hack_name2 = name1, name2
+        else:
+            context = f"{name1} was {verb} by {name2} {infinitive}."
+            hack_name1, hack_name2 = name2, name1
+
+        if verb == "promised": 
+            patient_question = f"Who was {verb} something?"
+        else:
+            patient_question = f"Who was {verb} {infinitive}?"
+        agent_question = f"Who {verb} someone {infinitive}"
+
+        if just_prompt_agent or just_prompt_patient:
+            if just_prompt_patient and just_prompt_agent:
+                raise AssertionError("Can't have both just_prompt_agent and just_prompt_patient")
+
+            if just_prompt_agent: 
+                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                                f"{question_word}: {agent_question}?"]
+            elif just_prompt_patient: 
+                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                                f"{question_word}: {patient_question}?"]
+        else:
+            if not prompt_hacking: 
+                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                            f"{question_word}:  Who {past}?"]
+            else: 
+                agent_first = np.random.choice([True, False])
+                if agent_first:
+                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                                f"{question_word}: {agent_question}?",
+                                f"{answer_word}: {hack_name1}",
+                                f"{question_word}: {patient_question}?",
+                                f"{answer_word}: {hack_name2}",
+                                f"{question_word}:  Who {past}?"]
+                else:
+                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {context}\n""",
+                                f"{question_word}: {patient_question}?",
+                                f"{answer_word}: {hack_name2}",
+                                f"{question_word}: {agent_question}?",
+                                f"{answer_word}: {hack_name1}",
+                                f"{question_word}:  Who {past}?"]
+        prompt_text = f"{answer_word}: "
+        self.prompt = GPTPrompt(context, prompt_text)
 
     def __str__(self):
         return str(self.prompt)
@@ -76,45 +139,19 @@ class FixedGPTPrompt(FixedPrompt):
                  just_prompt_patient: bool = False,
                  qa_words: Tuple[str] = ("Question", "Answer"),
                  sent_or_context: str = "context"):
-        super().__init__()
-        sent_or_context_upper = [c for c in sent_or_context]
-        sent_or_context_upper[0] =  sent_or_context_upper[0].upper()
-        sent_or_context_upper = "".join(sent_or_context_upper)
-
-        question_word, answer_word = qa_words
-
-        if just_prompt_agent or just_prompt_patient:
-            if just_prompt_patient and just_prompt_agent:
-                raise AssertionError("Can't have both just_prompt_agent and just_prompt_patient")
-
-            if just_prompt_agent: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
-                                f"{question_word}: Who {verb} someone {infinitive}?"]
-            elif just_prompt_patient: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
-                                f"{question_word}: Who was {verb} {infinitive}?"]
-        else:
-            if not prompt_hacking: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
-                            f"{question_word}:  Who {past}?"]
-            else: 
-                agent_first = np.random.choice([True, False])
-                if agent_first:
-                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
-                                f"{question_word}: Who {verb}?",
-                                f"{answer_word}: {name1}",
-                                f"{question_word}: Who was {verb}?",
-                                f"{answer_word}: {name2}",
-                                f"{question_word}:  Who {past}?"]
-                else:
-                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} {verb} {name2} {infinitive}.\n""",
-                                f"{question_word}: Who was {verb}?",
-                                f"{answer_word}: {name2}",
-                                f"{question_word}: Who {verb}?",
-                                f"{answer_word}: {name1}",
-                                f"{question_word}:  Who {past}?"]
-        prompt_text = f"{answer_word}: "
-        self.prompt = GPTPrompt(context, prompt_text)
+        super().__init__(name1=name1,
+                         name2=name2,
+                         verb=verb,
+                         infinitive=infinitive,
+                         past=past,
+                         swap_names=swap_names,
+                         prompt_hacking=prompt_hacking,
+                         just_prompt_agent=just_prompt_agent,
+                         just_prompt_patient=just_prompt_patient,
+                         qa_words=qa_words,
+                         sent_or_context=sent_or_context,
+                         passive=False)
+        
     
 class FixedPassiveGPTPrompt(FixedPrompt):
     """
@@ -132,45 +169,19 @@ class FixedPassiveGPTPrompt(FixedPrompt):
                  just_prompt_patient: bool = False,
                  qa_words: Tuple[str] = ("Question", "Answer"),
                  sent_or_context: str = "context"):
-        super().__init__()
-        question_word, answer_word = qa_words
-        sent_or_context_upper = [c for c in sent_or_context]
-        sent_or_context_upper[0] =  sent_or_context_upper[0].upper()
-        sent_or_context_upper = "".join(sent_or_context_upper)
 
-        if just_prompt_agent or just_prompt_patient:
-            if just_prompt_patient and just_prompt_agent:
-                raise AssertionError("Can't have both just_prompt_agent and just_prompt_patient")
-
-            if just_prompt_agent: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
-                                f"{question_word}: Who {verb} someone {infinitive}?"]
-            elif just_prompt_patient: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
-                                f"{question_word}: Who was {verb} {infinitive}?"]
-        else:
-            if not prompt_hacking: 
-                context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
-                            f"{question_word}:  Who {past}?"]
-            else:
-                agent_first = np.random.choice([True, False])
-                if agent_first:
-                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
-                                f"{question_word}: Who {verb} someone {infinitive}?",
-                                f"{answer_word}: {name1}",
-                                f"{question_word}: Who was {verb} {infinitive}?",
-                                f"{answer_word}: {name2}",
-                                f"{question_word}:  Who {past}?"]
-                else:
-                    context = [f"""You will be given a {sent_or_context} and a question.\n{sent_or_context_upper}: {name1} was {verb} by {name2} {infinitive}.\n""",
-                                f"{question_word}: Who was {verb} {infinitive}?",
-                                f"{answer_word}: {name2}",
-                                f"{question_word}: Who {verb} someone {infinitive}?",
-                                f"{answer_word}: {name1}",
-                                f"{question_word}:  Who {past}?"]
-        prompt_text = f"{answer_word}: "
-        self.prompt = GPTPrompt(context, prompt_text)
-
+         super().__init__(name1=name1,
+                         name2=name2,
+                         verb=verb,
+                         infinitive=infinitive,
+                         past=past,
+                         swap_names=swap_names,
+                         prompt_hacking=prompt_hacking,
+                         just_prompt_agent=just_prompt_agent,
+                         just_prompt_patient=just_prompt_patient,
+                         qa_words=qa_words,
+                         sent_or_context=sent_or_context,
+                         passive=False)
 
 class FixedPassiveT5Prompt(FixedPrompt):
     """

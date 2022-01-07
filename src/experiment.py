@@ -52,9 +52,23 @@ class Experiment:
                 return True, i
         return False, -1
 
-    def recompute(self, nicknames):
+    def recompute(self, nicknames, use_action: bool = False, use_verb: bool = False, correct_idx = None):
         for i, res_line in enumerate(self.results):
-            action = res_line['action']
+            if correct_idx is not None:
+                # overwrite correct
+                if correct_idx == 0:
+                    true_ans = res_line["name1"]
+                elif correct_idx == 1: 
+                    true_ans = res_line["name2"]
+                else:
+                    raise AssertionError(f"you can't use correct_idx={correct_idx}")
+                self.results[i]['true'] = true_ans
+
+            action, verb = None, None
+            if use_action: 
+                action = res_line['action']
+            if use_verb:
+                verb = res_line['verb']
             response = res_line['response']
             try:
                 response = response.split("Answer: \',")[1]
@@ -69,7 +83,7 @@ class Experiment:
             n1, n2 = res_line['name1'], res_line['name2']
             lookup = self.make_lookup(n1, n2, nicknames)
             metric = StringMetric(lookup)
-            metric(pred_name, verb=action)
+            metric(pred_name, action=action, verb=verb)
             acc, count, __ = metric.get_metric(true_name)
             pred = [k for k,v in count.items() if v > 0][0]
             self.results[i]['pred'] = pred

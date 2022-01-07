@@ -28,11 +28,11 @@ class StringMetric(Metric):
         self.classes = {k: [] for k in class_lookups.keys()}
         self.classes['other'] = []
 
-    def __call__(self, text: str, verb: str = None):
+    def __call__(self, text: str, action: str = None, verb: str = None):
         if type(text) is not str:
             self.classes['other'].append("Error")
         else:
-            text = self.extract_answer_string(text, self.classes.keys(), verb=verb)
+            text = self.extract_answer_string(text, self.classes.keys(), action=action, verb=verb)
             # text = text.split("\n")[0]
             # print(text)
             split_text = re.split("\s+", text.lower())
@@ -89,9 +89,11 @@ class StringMetric(Metric):
         else:
             pass 
         
-        # Rule 3: if there are multiple lines, return the first line 
-        lines = re.split("\n+", text)
-        return lines[0]
+        # Rule 3: if there are multiple lines, return the first line; only apply if not doing prompt hacking 
+        if verb is None and action is None:
+            lines = re.split("\n+", text)
+            return lines[0]
+        return "other"
     
 
 class LogprobMetric(Metric):
