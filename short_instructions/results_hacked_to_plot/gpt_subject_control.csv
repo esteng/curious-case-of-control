@@ -1,0 +1,1351 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,gpt3,subject-control,Avery,Casey,False,promised,to come,Avery,other,"You will be given a context and a question.
+Context: Avery promised Casey to come.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to come?
+Answer: Avery
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to come.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion:  Who came?\nAnswer: ', 'Question')",0.0
+1,gpt3,subject-control,Avery,Casey,False,promised,to go,Avery,other,"You will be given a context and a question.
+Context: Avery promised Casey to go.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to go?
+Answer: Avery
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to go.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', 'Question')",1.0
+2,gpt3,subject-control,Avery,Casey,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised Casey to read.
+
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who was promised something??
+Answer: Casey
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', '\n')",2.0
+3,gpt3,subject-control,Avery,Casey,False,promised,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Casey to run.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to run?
+Answer: Avery
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to run.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', 'A')",3.0
+4,gpt3,subject-control,Avery,Casey,False,promised,to call,Avery,other,"You will be given a context and a question.
+Context: Avery promised Casey to call.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to call?
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to call.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', '\n')",4.0
+5,gpt3,subject-control,Avery,Joseph,False,promised,to come,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to come.
+
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', 'Question')",5.0
+6,gpt3,subject-control,Avery,Joseph,False,promised,to go,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to go.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to go?
+Answer: Avery
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to go.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', 'Question')",6.0
+7,gpt3,subject-control,Avery,Joseph,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to read.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to read?
+Answer: Avery
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to read.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', 'Question')",7.0
+8,gpt3,subject-control,Avery,Joseph,False,promised,to run,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to run.\n\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', '\n')",8.0
+9,gpt3,subject-control,Avery,Joseph,False,promised,to call,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to call.
+
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to call.\n\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', '\n')",9.0
+10,gpt3,subject-control,Avery,Nicole,False,promised,to come,Avery,other,"You will be given a context and a question.
+Context: Avery promised Nicole to come.
+
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', '\n')",10.0
+11,gpt3,subject-control,Avery,Nicole,False,promised,to go,Avery,other,"You will be given a context and a question.
+Context: Avery promised Nicole to go.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to go?
+Answer: Avery
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to go.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', 'Question')",11.0
+12,gpt3,subject-control,Avery,Nicole,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', '\n')",12.0
+13,gpt3,subject-control,Avery,Nicole,False,promised,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Nicole to run.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to run?
+Answer: Avery
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to run.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', 'A')",13.0
+14,gpt3,subject-control,Avery,Nicole,False,promised,to call,Avery,other,"You will be given a context and a question.
+Context: Avery promised Nicole to call.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to call.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', '\n')",14.0
+15,gpt3,subject-control,Avery,Stephanie,False,promised,to come,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to come.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to come?
+Answer: Avery
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to come.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion:  Who came?\nAnswer: ', 'Question')",15.0
+16,gpt3,subject-control,Avery,Stephanie,False,promised,to go,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: Avery
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', '\n')",16.0
+17,gpt3,subject-control,Avery,Stephanie,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to read.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Avery
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', '\n')",17.0
+18,gpt3,subject-control,Avery,Stephanie,False,promised,to run,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to run.
+
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to run.\n\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', '\n')",18.0
+19,gpt3,subject-control,Avery,Stephanie,False,promised,to call,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to call.
+
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to call.\n\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', '\n')",19.0
+20,gpt3,subject-control,Avery,William,False,promised,to come,Avery,other,"You will be given a context and a question.
+Context: Avery promised William to come.
+
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who was promised something??
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', '\n')",20.0
+21,gpt3,subject-control,Avery,William,False,promised,to go,Avery,other,"You will be given a context and a question.
+Context: Avery promised William to go.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to go?
+Answer: Avery
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to go.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', 'Question')",21.0
+22,gpt3,subject-control,Avery,William,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised William to read.
+
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who was promised something??
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', '\n')",22.0
+23,gpt3,subject-control,Avery,William,False,promised,to run,Avery,other,"You will be given a context and a question.
+Context: Avery promised William to run.
+
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who was promised something??
+Answer: William
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to run.\n\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', '\n')",23.0
+24,gpt3,subject-control,Avery,William,False,promised,to call,Avery,other,"You will be given a context and a question.
+Context: Avery promised William to call.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to call?
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to call.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', 'Question')",24.0
+25,gpt3,subject-control,Casey,Avery,False,promised,to come,Casey,other,"You will be given a context and a question.
+Context: Casey promised Avery to come.
+
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who was promised something??
+Answer: Avery
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to come.\n\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who came?\nAnswer: ', '\n')",25.0
+26,gpt3,subject-control,Casey,Avery,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to go.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to go?
+Answer: Casey
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to go.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', 'Case')",26.0
+27,gpt3,subject-control,Casey,Avery,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Avery to read.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to read?
+Answer: Casey
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to read.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', '\n')",27.0
+28,gpt3,subject-control,Casey,Avery,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised Avery to run.
+
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who was promised something??
+Answer: Avery
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to run.\n\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', '\n')",28.0
+29,gpt3,subject-control,Casey,Avery,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who was promised something??
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', '\n')",29.0
+30,gpt3,subject-control,Casey,Joseph,False,promised,to come,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to come.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to come?
+Answer: Casey
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to come.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', 'Question')",30.0
+31,gpt3,subject-control,Casey,Joseph,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to go.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to go?
+Answer: Casey
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to go.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', 'Question')",31.0
+32,gpt3,subject-control,Casey,Joseph,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to read.
+
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', '\n')",32.0
+33,gpt3,subject-control,Casey,Joseph,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to run.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to run?
+Answer: Casey
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to run.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', 'Case')",33.0
+34,gpt3,subject-control,Casey,Joseph,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to call.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to call?
+Answer: Casey
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to call.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', '\n')",34.0
+35,gpt3,subject-control,Casey,Nicole,False,promised,to come,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to come.
+
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to come.\n\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', '\n')",35.0
+36,gpt3,subject-control,Casey,Nicole,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', '\n')",36.0
+37,gpt3,subject-control,Casey,Nicole,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', '\n')",37.0
+38,gpt3,subject-control,Casey,Nicole,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to run.
+
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to run.\n\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', '\n')",38.0
+39,gpt3,subject-control,Casey,Nicole,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to call.
+
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', '\n')",39.0
+40,gpt3,subject-control,Casey,Stephanie,False,promised,to come,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to come.
+
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to come.\n\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', '\n')",40.0
+41,gpt3,subject-control,Casey,Stephanie,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', '\n')",41.0
+42,gpt3,subject-control,Casey,Stephanie,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to read.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Casey
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', '\n')",42.0
+43,gpt3,subject-control,Casey,Stephanie,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to run.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to run?
+Answer: Casey
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to run.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', '\n')",43.0
+44,gpt3,subject-control,Casey,Stephanie,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to call.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to call?
+Answer: Casey
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to call.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', '\n')",44.0
+45,gpt3,subject-control,Casey,William,False,promised,to come,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to come.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to come?
+Answer: Casey
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to come.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', '\n')",45.0
+46,gpt3,subject-control,Casey,William,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to go.
+
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who was promised something??
+Answer: William
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who went?\nAnswer: ', '\n')",46.0
+47,gpt3,subject-control,Casey,William,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to read.
+
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who was promised something??
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', '\n')",47.0
+48,gpt3,subject-control,Casey,William,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to run.
+
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who was promised something??
+Answer: William
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to run.\n\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', '\n')",48.0
+49,gpt3,subject-control,Casey,William,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to call.
+
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who was promised something??
+Answer: William
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who called?\nAnswer: ', '\n')",49.0
+50,gpt3,subject-control,Joseph,Avery,False,promised,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Avery to come.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to come?
+Answer: Joseph
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', 'Question')",50.0
+51,gpt3,subject-control,Joseph,Avery,False,promised,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Avery to go.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to go?
+Answer: Joseph
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to go.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', 'Question')",51.0
+52,gpt3,subject-control,Joseph,Avery,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Avery to read.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to read?
+Answer: Joseph
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to read.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', 'Question')",52.0
+53,gpt3,subject-control,Joseph,Avery,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Avery to run.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to run?
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to run.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', 'Question')",53.0
+54,gpt3,subject-control,Joseph,Avery,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', 'Question')",54.0
+55,gpt3,subject-control,Joseph,Casey,False,promised,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to come.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to come?
+Answer: Joseph
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to come.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', 'Question')",55.0
+56,gpt3,subject-control,Joseph,Casey,False,promised,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to go.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to go?
+Answer: Joseph
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to go.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', 'Question')",56.0
+57,gpt3,subject-control,Joseph,Casey,False,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Casey to read.
+
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Casey
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', 'Joseph')",57.0
+58,gpt3,subject-control,Joseph,Casey,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to run.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to run?
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to run.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', 'Question')",58.0
+59,gpt3,subject-control,Joseph,Casey,False,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Casey to call.
+
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Casey
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to call.\n\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', 'Joseph')",59.0
+60,gpt3,subject-control,Joseph,Nicole,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Nicole to come.
+
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', 'Joseph')",60.0
+61,gpt3,subject-control,Joseph,Nicole,False,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to go.\n\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', 'Joseph')",61.0
+62,gpt3,subject-control,Joseph,Nicole,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', 'Question')",62.0
+63,gpt3,subject-control,Joseph,Nicole,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to run.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to run?
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to run.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', 'Question')",63.0
+64,gpt3,subject-control,Joseph,Nicole,False,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Nicole to call.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: Joseph
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to call.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', 'Joseph')",64.0
+65,gpt3,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to come.
+
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', 'Joseph')",65.0
+66,gpt3,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to go.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to go?
+Answer: Joseph
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to go.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', 'Joseph')",66.0
+67,gpt3,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Stephanie to read.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Joseph
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', 'Question')",67.0
+68,gpt3,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to run.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to run?
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to run.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', 'Joseph')",68.0
+69,gpt3,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to call.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to call?
+Answer: Joseph
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to call.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', 'Joseph')",69.0
+70,gpt3,subject-control,Joseph,William,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to come.
+
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who was promised something??
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', 'Joseph')",70.0
+71,gpt3,subject-control,Joseph,William,False,promised,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised William to go.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to go?
+Answer: Joseph
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to go.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', 'Question')",71.0
+72,gpt3,subject-control,Joseph,William,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised William to read.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to read?
+Answer: Joseph
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to read.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', 'Question')",72.0
+73,gpt3,subject-control,Joseph,William,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised William to run.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to run?
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to run.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', 'Question')",73.0
+74,gpt3,subject-control,Joseph,William,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised William to call.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to call?
+Answer: Joseph
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to call.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', 'Question')",74.0
+75,gpt3,subject-control,Nicole,Avery,False,promised,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Avery to come.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to come?
+Answer: Nicole
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', '\n')",75.0
+76,gpt3,subject-control,Nicole,Avery,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Avery to go.
+
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Avery
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to go.\n\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', '\n')",76.0
+77,gpt3,subject-control,Nicole,Avery,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Avery to read.
+
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Avery
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to read.\n\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', '\n')",77.0
+78,gpt3,subject-control,Nicole,Avery,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Avery to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Avery
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', '\n')",78.0
+79,gpt3,subject-control,Nicole,Avery,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', '\n')",79.0
+80,gpt3,subject-control,Nicole,Casey,False,promised,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to come.
+
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Casey
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to come.\n\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', '\n')",80.0
+81,gpt3,subject-control,Nicole,Casey,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to go.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to go?
+Answer: Nicole
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to go.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', '\n')",81.0
+82,gpt3,subject-control,Nicole,Casey,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to read.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to read?
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to read.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', '\n')",82.0
+83,gpt3,subject-control,Nicole,Casey,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Casey
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', '\n')",83.0
+84,gpt3,subject-control,Nicole,Casey,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to call.
+
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Casey
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to call.\n\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', '\n')",84.0
+85,gpt3,subject-control,Nicole,Joseph,False,promised,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to come.
+
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to come.\n\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', '\n')",85.0
+86,gpt3,subject-control,Nicole,Joseph,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to go.
+
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to go.\n\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', '\n')",86.0
+87,gpt3,subject-control,Nicole,Joseph,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to read.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to read?
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to read.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', '\n')",87.0
+88,gpt3,subject-control,Nicole,Joseph,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', '\n')",88.0
+89,gpt3,subject-control,Nicole,Joseph,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to call.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to call?
+Answer: Nicole
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to call.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', 'Nic')",89.0
+90,gpt3,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to come.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to come?
+Answer: Nicole
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to come.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', '\n')",90.0
+91,gpt3,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', '\n')",91.0
+92,gpt3,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to read.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', '\n')",92.0
+93,gpt3,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', '\n')",93.0
+94,gpt3,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to call.
+
+Question: Who was promised something??
+Answer: Stephanie
+Question: Who promised someone to call?
+Answer: Nicole
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to call.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', '\n')",94.0
+95,gpt3,subject-control,Nicole,William,False,promised,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to come.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to come?
+Answer: Nicole
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to come.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', '\n')",95.0
+96,gpt3,subject-control,Nicole,William,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to go.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to go?
+Answer: Nicole
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to go.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', '\n')",96.0
+97,gpt3,subject-control,Nicole,William,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to read.
+
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who was promised something??
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', '\n')",97.0
+98,gpt3,subject-control,Nicole,William,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to run.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to run?
+Answer: Nicole
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to run.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', '\n')",98.0
+99,gpt3,subject-control,Nicole,William,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to call.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to call?
+Answer: Nicole
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to call.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', '\n')",99.0
+100,gpt3,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to come.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to come?
+Answer: Stephanie
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', 'Step')",100.0
+101,gpt3,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to go.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to go?
+Answer: Stephanie
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to go.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', 'Step')",101.0
+102,gpt3,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Avery to read.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to read?
+Answer: Stephanie
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to read.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', '\n')",102.0
+103,gpt3,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to run.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to run?
+Answer: Stephanie
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to run.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', 'Step')",103.0
+104,gpt3,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Avery
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', 'Step')",104.0
+105,gpt3,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to come.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to come?
+Answer: Stephanie
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to come.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', 'Step')",105.0
+106,gpt3,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to go.
+
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Casey
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to go.\n\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', 'Step')",106.0
+107,gpt3,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Casey to read.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to read?
+Answer: Stephanie
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to read.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', '\n')",107.0
+108,gpt3,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to run.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to run?
+Answer: Stephanie
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to run.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', 'Step')",108.0
+109,gpt3,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to call.
+
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Casey
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to call.\n\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', 'Step')",109.0
+110,gpt3,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to come.
+
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to come.\n\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', 'Step')",110.0
+111,gpt3,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to go.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to go?
+Answer: Stephanie
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to go.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', 'Step')",111.0
+112,gpt3,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to read.
+
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to read.\n\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', 'Step')",112.0
+113,gpt3,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to run.\n\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', 'Step')",113.0
+114,gpt3,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to call.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to call?
+Answer: Stephanie
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to call.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', 'Step')",114.0
+115,gpt3,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to come.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to come?
+Answer: Stephanie
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to come.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', 'Step')",115.0
+116,gpt3,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to go.\n\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', 'Step')",116.0
+117,gpt3,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', '\n')",117.0
+118,gpt3,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to run.
+
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to run.\n\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', '\n')",118.0
+119,gpt3,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to call.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: Stephanie
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to call.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', 'Step')",119.0
+120,gpt3,subject-control,Stephanie,William,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to come.
+
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', 'Step')",120.0
+121,gpt3,subject-control,Stephanie,William,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to go.
+
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: William
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to go.\n\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who went?\nAnswer: ', 'Step')",121.0
+122,gpt3,subject-control,Stephanie,William,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to read.
+
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', 'Step')",122.0
+123,gpt3,subject-control,Stephanie,William,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to run.
+
+Question: Who was promised something??
+Answer: William
+Question: Who promised someone to run?
+Answer: Stephanie
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to run.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', 'Step')",123.0
+124,gpt3,subject-control,Stephanie,William,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to call.
+
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who was promised something??
+Answer: William
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to call.\n\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who called?\nAnswer: ', 'Step')",124.0
+125,gpt3,subject-control,William,Avery,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Avery to come.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to come?
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', '\n')",125.0
+126,gpt3,subject-control,William,Avery,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Avery to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something??
+Answer: Avery
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', 'Question')",126.0
+127,gpt3,subject-control,William,Avery,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Avery to read.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to read?
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to read.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion:  Who read?\nAnswer: ', '\n')",127.0
+128,gpt3,subject-control,William,Avery,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Avery to run.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to run?
+Answer: William
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to run.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', '\n')",128.0
+129,gpt3,subject-control,William,Avery,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Avery to call.
+
+Question: Who was promised something??
+Answer: Avery
+Question: Who promised someone to call?
+Answer: William
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to call.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion:  Who called?\nAnswer: ', '\n')",129.0
+130,gpt3,subject-control,William,Casey,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Casey to come.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to come?
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to come.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', '\n')",130.0
+131,gpt3,subject-control,William,Casey,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Casey to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something??
+Answer: Casey
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', '\n')",131.0
+132,gpt3,subject-control,William,Casey,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Casey to read.
+
+Question: Who promised someone to read?
+Answer: William
+Question: Who was promised something??
+Answer: Casey
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', '\n')",132.0
+133,gpt3,subject-control,William,Casey,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Casey to run.
+
+Question: Who promised someone to run?
+Answer: William
+Question: Who was promised something??
+Answer: Casey
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to run.\n\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', '\n')",133.0
+134,gpt3,subject-control,William,Casey,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Casey to call.
+
+Question: Who was promised something??
+Answer: Casey
+Question: Who promised someone to call?
+Answer: William
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to call.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion:  Who called?\nAnswer: ', '\n')",134.0
+135,gpt3,subject-control,William,Joseph,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Joseph to come.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to come?
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to come.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', 'Question')",135.0
+136,gpt3,subject-control,William,Joseph,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Joseph to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', '\n')",136.0
+137,gpt3,subject-control,William,Joseph,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Joseph to read.
+
+Question: Who was promised something??
+Answer: Joseph
+Question: Who promised someone to read?
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to read.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion:  Who read?\nAnswer: ', '\n')",137.0
+138,gpt3,subject-control,William,Joseph,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: William
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to run.\n\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', '\n')",138.0
+139,gpt3,subject-control,William,Joseph,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Joseph to call.
+
+Question: Who promised someone to call?
+Answer: William
+Question: Who was promised something??
+Answer: Joseph
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to call.\n\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', '\n')",139.0
+140,gpt3,subject-control,William,Nicole,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Nicole to come.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to come?
+Answer: William
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to come.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', '\n')",140.0
+141,gpt3,subject-control,William,Nicole,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something??
+Answer: Nicole
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', '\n')",141.0
+142,gpt3,subject-control,William,Nicole,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Nicole to read.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to read?
+Answer: William
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to read.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion:  Who read?\nAnswer: ', '\n')",142.0
+143,gpt3,subject-control,William,Nicole,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Nicole to run.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to run?
+Answer: William
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to run.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', '\n')",143.0
+144,gpt3,subject-control,William,Nicole,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Nicole to call.
+
+Question: Who was promised something??
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: William
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to call.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion:  Who called?\nAnswer: ', '\n')",144.0
+145,gpt3,subject-control,William,Stephanie,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to come.
+
+Question: Who promised someone to come?
+Answer: William
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to come.\n\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', '\n')",145.0
+146,gpt3,subject-control,William,Stephanie,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', '\n')",146.0
+147,gpt3,subject-control,William,Stephanie,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to read.
+
+Question: Who promised someone to read?
+Answer: William
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to read.\n\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', '\n')",147.0
+148,gpt3,subject-control,William,Stephanie,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to run.
+
+Question: Who promised someone to run?
+Answer: William
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to run.\n\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', '\n')",148.0
+149,gpt3,subject-control,William,Stephanie,False,promised,to call,William,William,"You will be given a context and a question.
+Context: William promised Stephanie to call.
+
+Question: Who promised someone to call?
+Answer: William
+Question: Who was promised something??
+Answer: Stephanie
+Question:  Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to call.\n\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', 'William')",149.0
