@@ -126,15 +126,16 @@ class FixedPrompt:
                                 f"{question_word}: Who {past}{or_clause}?"]
                 else:
                     context = [f"""You will be given a {sent_or_context} and a question.{long_instructions_str}\n{sent_or_context_upper}: {context}\n""",
-                                f"{question_word}: {patient_question}{or_clause}?",
+                                f"{question_word}: {patient_question}?",
                                 f"{answer_word}: {hack_name2}",
-                                f"{question_word}: {agent_question}{or_clause}?",
+                                f"{question_word}: {agent_question}?",
                                 f"{answer_word}: {hack_name1}",
                                 f"{question_word}: Who {past}{or_clause}?"]
         prompt_text = f"{answer_word}: "
         self.prompt = GPTPrompt(context, prompt_text)
 
     def __str__(self):
+        # print(str(self.prompt))
         return str(self.prompt)
 
 class FixedGPTPrompt(FixedPrompt):

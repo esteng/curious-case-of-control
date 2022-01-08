@@ -104,7 +104,7 @@ class Experiment:
             actions, 
             do_swap=True, 
             qa_pair = ("Question", "Answer"), 
-            long_instruction = long_instruction,
+            long_instruction = False,
             prompt_hacking = False, 
             just_prompt_agent = False, 
             just_prompt_patient = False, 
@@ -134,7 +134,7 @@ class Experiment:
                                              swap_names = swap_names, 
                                              qa_words=qa_pair, 
                                              sent_or_context=sent_or_context,
-                                             long_instruction=long_instruction,
+                                             long_instructions=long_instruction,
                                              prompt_hacking=prompt_hacking,
                                              just_prompt_agent=just_prompt_agent,
                                              just_prompt_patient=just_prompt_patient)
