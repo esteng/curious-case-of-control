@@ -1,5 +1,5 @@
 ,model,exp_type,prompt,pred,true,response
-0,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+0,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""It is the marrying off of young girls to older men often close relatives that enfurates me .""
 Question: In the event ""enfurates"", does the state of the participant ""marrying"" change?
 Answer: 
@@ -32,25 +32,25 @@ Question: In the event ""remember"", does the state of the participant ""I"" cha
 Answer: 
 Yes
 Sentence: ""I am a very happy person.""
-Question: In the event ""happy"", does the state of the participant ""I"" change?
+Question: In the event ""person"", does the state of the participant ""I"" change?
 Answer: 
 Yes
 Sentence: ""I am a very happy person.""
-Question: In the event ""happy"", does the state of the participant ""I"" change?
+Question: In the event ""person"", does the state of the participant ""I"" change?
 Answer: 
 Yes
 Sentence: ""I am a very happy person.""
-Question: In the event ""happy"", does the state of the participant ""I"" change?
+Question: In the event ""person"", does the state of the participant ""I"" change?
 Answer: 
 Yes
 Sentence: ""I am a very happy person.""
-Question: In the event ""happy"", does the state of the participant ""I"" change?
+Question: In the event ""person"", does the state of the participant ""I"" change?
 Answer: 
 Yes
 Sentence: ""I am a very happy person.""
-Question: In the event ""happy"", does the state of the participant ""I"" change?
+Question: In the event ""person"", does the state of the participant ""I"" change?
 Answer"
-1,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+1,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The bombings implicated Muslims , and exacerbated regional tensions which the Bush regime and its friends wearing the brass in the Philippine military sought to exploit .""
 Question: In the event ""implicated"", does the state of the participant ""bombings"" change?
 Answer: 
@@ -82,22 +82,21 @@ Sentence: ""they fixed my garage doors in literally less than an hour.""
 Question: In the event ""fixed"", does the state of the participant ""doors"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him, I thought he was a ghost.""
-Question: In the event ""thought"", does the state of the participant ""him"" change?
+Sentence: ""The new president, who was elected in a landslide, has promised to end the war.""
+Question: In the event ""was elected"", does the state of the participant ""president"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him, I thought he was a ghost.""
-Question: In the event ""thought"", does the state of the participant ""ghost"" change?
+Sentence: ""The new president, who was elected in a landslide, has promised to end the war.""
+Question: In the event ""was elected"", does the state of the participant ""president"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him, I thought he was a ghost.""
-Question: In the event ""thought"", does the state of the participant ""ghost"" change?
+Sentence: ""The new president, who was elected in a landslide, has promised to end the war.""
+Question: In the event ""was elected"", does the state of the participant ""president"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him, I thought he was a ghost.""
-Question: In the event ""thought"", does the state of the participant ""ghost"" change?
-Answer"
-2,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The new president, who was elected in a landslide, has promised to end the war.""
+Question:"
+2,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Bangs said the agency has established viable wolf packs in the northern Rockies , as required by federal regulations .""
 Question: In the event ""said"", does the state of the participant ""Bangs"" change?
 Answer: 
@@ -129,24 +128,21 @@ Sentence: ""It is the marrying off of young girls to older men often close relat
 Question: In the event ""enfurates"", does the state of the participant ""marrying"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed about the new car was the color. ""
-Question: In the event ""color"", does the state of the participant ""new car"" change?
+Sentence: ""The new law will allow the state to charge a fee for the use of the land.""
+Question: In the event ""use"", does the state of the participant ""land"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed about the new car was the color.""
-Question: In the event ""color"", does the state of the participant ""new car"" change?
+Sentence: ""The new law will allow the state to charge a fee for the use of the land.""
+Question: In the event ""use"", does the state of the participant ""land"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed about the new car was the color.""
-Question: In the event ""color"", does the state of the participant ""new car"" change?
+Sentence: ""The new law will allow the state to charge a fee for the use of the land.""
+Question: In the event ""use"", does the state of the participant ""land"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed about the new car was the color.""
-Question: In the event ""color"", does the state of the participant ""new car"" change?
-Answer: 
-No
-Sentence: ""The first thing"
-3,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The new law will allow the state to charge a fee for the use of the land.""
+Question: In the event ""use"", does the state of the participant ""land"" change"
+3,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Al - Sharq al - Awsat reports that a key eyewitness in the trial of Saddam Hussein for a 1982 massacre at Dujail has died .""
 Question: In the event ""died"", does the state of the participant ""eyewitness"" change?
 Answer: 
@@ -178,16 +174,17 @@ Sentence: ""Dr. Obina told me that his office closed at noon and that I should c
 Question: In the event ""closed"", does the state of the participant ""office"" change?
 Answer: 
 Yes
-Sentence: ""I'm not a fan of the new ""fad"", but I'm not a fan of the old ""fad"" either.""
-Question: In the event ""fad"", does the state of the participant ""I"" change?
+Sentence: ""I'm not sure if I'm ready to go to the party, but I'm definitely ready to go to the beach.""
+Question: In the event ""ready"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I'm not a fan of the new ""fad"", but I'm not a fan of the old ""fad"" either.""
-Question: In the event ""fad"", does the state of the participant ""I"" change?
+Sentence: ""I'm not sure if I'm ready to go to the party, but I'm definitely ready to go to the beach.""
+Question: In the event ""ready"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I'm not a fan of the new ""fad"", but I'm not a fan of the old ""f"
-4,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I'm not sure if I'm ready to go to the party, but I'm definitely ready to go to the beach.""
+Question: In"
+4,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""By the late 1990s , Iraq had no nuclear or biological weapons program , and had destroyed its chemical weapons stockpiles .""
 Question: In the event ""destroyed"", does the state of the participant ""stockpiles"" change?
 Answer: 
@@ -219,26 +216,29 @@ Sentence: ""You have two screws that attach the sight to the wang.""
 Question: In the event ""have"", does the state of the participant ""You"" change?
 Answer: 
 No
-Sentence: ""The first time I saw him, I thought he was a ghost.""
-Question: In the event ""thought"", does the state of the participant ""You"" change?
+Sentence: ""The man was a real jerk.""
+Question: In the event ""was"", does the state of the participant ""man"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what I'm doing here.""
-Question: In the event ""doing"", does the state of the participant ""You"" change?
+Yes
+Sentence: ""The man was a real jerk.""
+Question: In the event ""was"", does the state of the participant ""man"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what I'm doing here.""
-Question: In the event ""doing"", does the state of the participant ""You"" change?
+Yes
+Sentence: ""The man was a real jerk.""
+Question: In the event ""was"", does the state of the participant ""man"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what I'm doing here.""
-Question: In the event ""doing"", does the state of the participant ""You"" change?
+Yes
+Sentence: ""The man was a real jerk.""
+Question: In the event ""was"", does the state of the participant ""man"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what I'm doing here.""
-Question: In the event ""doing"", does the state of the participant ""You"" change?
-Answer"
-5,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The man was a real jerk.""
+Question: In the event ""was"", does the state of the participant ""man"" change?
+Answer: 
+Yes
+Sentence: ""The man was a real jerk.""
+Question:"
+5,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
 Question: In the event ""exceed"", does the state of the participant ""rise"" change?
 Answer: 
@@ -270,21 +270,21 @@ Sentence: ""Previous reviewers said they were pushy and I can understand that, b
 Question: In the event ""understand"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""The first thing I noticed was the smell of the coffee, which was very strong.""
-Question: In the event ""strong"", does the state of the participant ""I"" change?
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question: In the event ""faster"", does the state of the participant ""the Arctic"" change?
 Answer: 
 Yes
-Sentence: ""The first thing I noticed was the smell of the coffee, which was very strong.""
-Question: In the event ""strong"", does the state of the participant ""I"" change?
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question: In the event ""faster"", does the state of the participant ""the Arctic"" change?
 Answer: 
 Yes
-Sentence: ""The first thing I noticed was the smell of the coffee, which was very strong.""
-Question: In the event ""strong"", does the state of the participant ""I"" change?
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question: In the event ""faster"", does the state of the participant ""the Arctic"" change?
 Answer: 
 Yes
-Sentence: ""The first thing I noticed was the smell of the coffee, which was very strong.""
-Question: In the"
-6,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question:"
+6,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free .""
 Question: In the event ""have"", does the state of the participant ""opportunity"" change?
 Answer: 
@@ -299,7 +299,7 @@ Answer:
 Yes
 Sentence: ""The web site is""
 Question: In the event ""is"", does the state of the participant ""site"" change?
-Answer: ",other,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
 Question: In the event ""have"", does the state of the participant ""opportunity"" change?
 Answer: 
@@ -316,28 +316,28 @@ Sentence: ""The web site is""
 Question: In the event ""is"", does the state of the participant ""site"" change?
 Answer: 
 Yes
-Sentence: ""The web site is a very good site.""
+Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
+Question: In the event ""have"", does the state of the participant ""opportunity"" change?
+Answer: 
+No
+Sentence: ""they use them to look prickly.. would you try to eat a cactus [ if u had no knife ] i know i would nt.""
+Question: In the event ""eat"", does the state of the participant ""cactus"" change?
+Answer: 
+Yes
+Sentence: ""They kill people.""
+Question: In the event ""kill"", does the state of the participant ""people"" change?
+Answer: 
+Yes
+Sentence: ""The web site is""
 Question: In the event ""is"", does the state of the participant ""site"" change?
 Answer: 
 Yes
-Sentence: ""The web site is a very good site.""
-Question: In the event ""is"", does the state of the participant ""site"" change?
-Answer: 
-Yes
-Sentence: ""The web site is a very good site.""
-Question: In the event ""is"", does the state of the participant ""site"" change?
-Answer: 
-Yes
-Sentence: ""The web site is a very good site.""
-Question: In the event ""is"", does the state of the participant ""site"" change?
-Answer: 
-Yes
-Sentence: ""The web site is a very good site.""
-Question: In the event ""is"", does the state of the participant ""site"" change?
-Answer: 
-Yes
-Sentence: ""The web"
-7,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+
+A:
+
+The answer is no.
+The verb ""have"" is a copula, which means that"
+7,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""He eats all of his grain but it just takes him a while to get it chewed because of the lack of muscle in his jaws .""
 Question: In the event ""eats"", does the state of the participant ""all"" change?
 Answer: 
@@ -369,18 +369,17 @@ Sentence: ""I believe he must have waited among the gorse bushes through which t
 Question: In the event ""struck"", does the state of the participant ""him"" change?
 Answer: 
 No
-Sentence: ""I am not sure what I am doing here, but I am sure that I am not doing it right.""
-Question: In the event ""doing"", does the state of the participant ""right"" change?
+Sentence: ""He was a man of few words, and I was not surprised to find that he had no words to say to me.""
+Question: In the event ""few"", does the state of the participant ""words"" change?
 Answer: 
 No
-Sentence: ""I am not sure what I am doing here, but I am sure that I am not doing it right.""
-Question: In the event ""doing"", does the state of the participant ""right"" change?
+Sentence: ""He was a man of few words, and I was not surprised to find that he had no words to say to me.""
+Question: In the event ""few"", does the state of the participant ""words"" change?
 Answer: 
 No
-Sentence: ""I am not sure what I am doing here, but I am sure that I am not doing it right.""
-Question: In the event ""doing"", does the state of the participant ""right"" change?
-Answer:"
-8,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""He was a man of few words, and I was not surprised to find that he had no words to say to me.""
+Question: In the event ""few"", does the state of the"
+8,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""A state Senate committee is set today to start serving 16 subpoenas on electricity producers and officials who manage California 's energy grid to determine whether they acted in concert to manipulate energy prices .""
 Question: In the event ""serving"", does the state of the participant ""subpoenas"" change?
 Answer: 
@@ -412,19 +411,17 @@ Sentence: ""It is the marrying off of young girls to older men often close relat
 Question: In the event ""enfurates"", does the state of the participant ""marrying"" change?
 Answer: 
 No
-Sentence: ""The state of California's energy crisis is a crisis of the heart, "" he said.""
-Question: In the event ""heart"", does the state of the participant ""crisis"" change?
+Sentence: ""The US government has been accused of using the same tactics as the tobacco industry to cover up the dangers of smoking.""
+Question: In the event ""tactics"", does the state of the participant ""US government"" change?
 Answer: 
 No
-Sentence: ""The state of California's energy crisis is a crisis of the heart, "" he said.""
-Question: In the event ""heart"", does the state of the participant ""crisis"" change?
+Sentence: ""The US government has been accused of using the same tactics as the tobacco industry to cover up the dangers of smoking.""
+Question: In the event ""tactics"", does the state of the participant ""US government"" change?
 Answer: 
 No
-Sentence: ""The state of California's energy crisis is a crisis of the heart, "" he said.""
-Question: In the event ""heart"", does the state of the participant ""crisis"" change?
-Answer: 
-No"
-9,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The US government has been accused of using the same tactics as the tobacco industry to cover up the dangers of smoking.""
+Question: In the event ""tactics"","
+9,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""We need to change the Prod Description fro the LME Product .""
 Question: In the event ""change"", does the state of the participant ""Description"" change?
 Answer: 
@@ -456,24 +453,24 @@ Sentence: ""This draft reflects the changes we discussed during our call the oth
 Question: In the event ""reflects"", does the state of the participant ""changes"" change?
 Answer: 
 No
-Sentence: ""I have a meeting with the CEO at 10:00 am tomorrow.""
-Question: In the event ""meeting"", does the state of the participant ""CEO"" change?
+Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
+Question: In the event ""gathering"", does the state of the participant ""pleadings"" change?
 Answer: 
 No
-Sentence: ""I have a meeting with the CEO at 10:00 am tomorrow.""
-Question: In the event ""meeting"", does the state of the participant ""CEO"" change?
+Sentence: ""This draft reflects the changes we discussed during our call the other day.""
+Question: In the event ""reflects"", does the state of the participant ""changes"" change?
 Answer: 
 No
-Sentence: ""I have a meeting with the CEO at 10:00 am tomorrow.""
-Question: In the event ""meeting"", does the state of the participant ""CEO"" change?
+Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
+Question: In the event ""gathering"", does the state of the participant ""pleadings"" change?
 Answer: 
 No
-Sentence: ""I have a meeting with the CEO at 10:00 am tomorrow.""
-Question: In the event ""meeting"", does the state of the participant ""CEO"" change?
+Sentence: ""This draft reflects the changes we discussed during our call the other day.""
+Question: In the event ""reflects"", does the state of the participant ""changes"" change?
 Answer: 
 No
-Sentence: ""I have a meeting with the CEO at 10:00 am tomorrow."""
-10,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I have my paralegal gathering the pleadings"
+10,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The initial reservoir reports estimate reserves of 80 - 120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003 .""
 Question: In the event ""estimate"", does the state of the participant ""they"" change?
 Answer: 
@@ -505,16 +502,17 @@ Sentence: ""A pattern of arrests and seizures indicate that arms are brought by 
 Question: In the event ""indicate"", does the state of the participant ""pattern"" change?
 Answer: 
 No
-Sentence: ""The initial reservoir reports estimate reserves of 80 - 120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003.""
-Question: In the event ""estimate"", does the state of the participant ""they"" change?
+Sentence: ""The United States has been a major supplier of weapons to the LTTE since the early 1980s.""
+Question: In the event ""supplier"", does the state of the participant ""The United States"" change?
 Answer: 
 No
-Sentence: ""Yazid Sufaat provided Moussaoui with a letter indicating that he was a marketing representative for Infocus Technologies and allegedly provided him $ 35,000.""
-Question: In the event ""provided"", does the state of the participant ""$"" change?
+Sentence: ""The United States has been a major supplier of weapons to the LTTE since the early 1980s.""
+Question: In the event ""supplier"", does the state of the participant ""The United States"" change?
 Answer: 
 No
-Sentence: ""You have two screws that attach the sight to the"
-11,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The United States has been a major supplier of weapons to the LTTE since the early 1980s.""
+Question: In the event ""supplier"", does"
+11,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""By the late 1990s , Iraq had no nuclear or biological weapons program , and had destroyed its chemical weapons stockpiles .""
 Question: In the event ""had"", does the state of the participant ""program"" change?
 Answer: 
@@ -545,21 +543,21 @@ No
 Sentence: ""Another problem is that sometimes bad eggs will fungus and the fungus will spread out and kill all the eggs.""
 Question: In the event ""fungus"", does the state of the participant ""eggs"" change?
 Answer: 
-No
-Sentence: ""I guess they figured me for an easy mark, and tried to explain that my car wouldn't pass unless I replaced a hose.""
-Question: In the event ""replacement"", does the state of the participant ""I"" change?
+Yes
+Sentence: ""I had to get a new car, and I had to get a new car because my old car was a lemon.""
+Question: In the event ""lemon"", does the state of the participant ""car"" change?
 Answer: 
 No
-Sentence: ""Another problem is that sometimes bad eggs will fungus and the fungus will spread out and kill all the eggs.""
-Question: In the event ""fungus"", does the state of the participant ""eggs"" change?
+Sentence: ""I had to get a new car, and I had to get a new car because my old car was a lemon.""
+Question: In the event ""lemon"", does the state of the participant ""car"" change?
 Answer: 
 No
-Sentence: ""I guess they figured me for an easy mark, and tried to explain that my car wouldn't pass unless I replaced a hose.""
-Question: In the event ""replacement"", does the state of the participant ""I"" change?
+Sentence: ""I had to get a new car, and I had to get a new car because my old car was a lemon.""
+Question: In the event ""lemon"", does the state of the participant ""car"" change?
 Answer: 
 No
-"
-12,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I"
+12,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""'' It was the first time that Bush totally focused on the Taliban threat rather than Al Qaeda with the Pakistanis , '' says a Western diplomat .""
 Question: In the event ""focused"", does the state of the participant ""Bush"" change?
 Answer: 
@@ -591,20 +589,21 @@ Sentence: ""No water needed ( as with tablets or capsules )""
 Question: In the event ""needed"", does the state of the participant ""water"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw a woman with a baby in her arms was when I was in the army.""
-Question: In the event ""saw"", does the state of the participant ""woman"" change?
+Sentence: ""The first time I saw him was when he was in the hospital after the accident.""
+Question: In the event ""accident"", does the state of the participant ""him"" change?
 Answer: 
 Yes
-Sentence: ""I was in the army for three years and I never saw a woman with a baby in her arms.""
-Question: In the event ""saw"", does the state of the participant ""baby"" change?
+Sentence: ""The first time I saw him was when he was in the hospital after the accident.""
+Question: In the event ""accident"", does the state of the participant ""him"" change?
 Answer: 
 Yes
-Sentence: ""I was in the army for three years and I never saw a woman with a baby in her arms.""
-Question: In the event ""saw"", does the state of the participant ""woman"" change?
+Sentence: ""The first time I saw him was when he was in the hospital after the accident.""
+Question: In the event ""accident"", does the state of the participant ""him"" change?
 Answer: 
 Yes
-Sentence: ""I was in the army for three years and I never saw a woman with a baby in"
-13,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The first time I saw him was when he was in the hospital after the accident.""
+Question: In the event ""accident"","
+13,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I work for a large retail company recently expanding our operations into Canada and had to travel to ensure all of our computer network equipment was installed properly and on time .""
 Question: In the event ""work"", does the state of the participant ""I"" change?
 Answer: 
@@ -636,19 +635,17 @@ Sentence: ""The bear dwarfed the 6 - foot - 1 Mr. Parenteau, knocking him to the
 Question: In the event ""dwarfed"", does the state of the participant ""Parenteau"" change?
 Answer: 
 Yes
-Sentence: ""The bear then began to eat the man's face, his hands and his arms.""
-Question: In the event ""began"", does the state of the participant ""began"" change?
+Sentence: ""The bear's claws ripped into the man's face, tearing off his nose and part of his cheek, he said.""
+Question: In the event ""ripped"", does the state of the participant ""man"" change?
 Answer: 
 Yes
-Sentence: ""The bear then began to eat the man's face, his hands and his arms.""
-Question: In the event ""began"", does the state of the participant ""began"" change?
+Sentence: ""The bear's claws ripped into the man's face, tearing off his nose and part of his cheek, he said.""
+Question: In the event ""ripped"", does the state of the participant ""man"" change?
 Answer: 
 Yes
-Sentence: ""The bear then began to eat the man's face, his hands and his arms.""
-Question: In the event ""began"", does the state of the participant ""began"" change?
-Answer: 
-"
-14,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The bear's claws ripped into the man's face, tearing off his nose and part of his cheek, he said.""
+Question: In the"
+14,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Lo and behold , they replaced the screen ( which had to be ordered ) yesterday and did n't charge me a dime .""
 Question: In the event ""charge"", does the state of the participant ""me"" change?
 Answer: 
@@ -679,22 +676,22 @@ Yes
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
 Question: In the event ""have"", does the state of the participant ""opportunity"" change?
 Answer: 
-Yes
+No
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
-Question: In the event ""pick up"", does the state of the participant ""6 year old"" change?
+Question: In the event ""have"", does the state of the participant ""opportunity"" change?
 Answer: 
-Yes
+No
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
-Question: In the event ""pick up"", does the state of the participant ""6 year old"" change?
+Question: In the event ""have"", does the state of the participant ""opportunity"" change?
 Answer: 
-Yes
+No
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
-Question: In the event ""pick up"", does the state of the participant ""6 year old"" change?
+Question: In the event ""have"", does the state of the participant ""opportunity"" change?
 Answer: 
-Yes
+No
 Sentence: ""I have the opportunity to pick up a super nice 6 year old for free.""
-Question: In the event ""pick up"", does the"
-15,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Question: In the event ""have"", does the state of the participant"
+15,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""It is our belief that this compensation plan will produce some of the largest checks in network marketing history .""
 Question: In the event ""produce"", does the state of the participant ""some"" change?
 Answer: 
@@ -725,22 +722,25 @@ No
 Sentence: ""The missile's manufacturers state that one or two missiles could cripple a destroyer, and five missiles could sink a 20,000 ton ship.""
 Question: In the event ""cripple"", does the state of the participant ""missiles"" change?
 Answer: 
-No
-Sentence: ""The company's sales have increased by more than 50 percent.""
-Question: In the event ""increase"", does the state of the participant ""sales"" change?
+Yes
+Sentence: ""The new law will require all drivers to wear seat belts.""
+Question: In the event ""require"", does the state of the participant ""drivers"" change?
 Answer: 
 No
-Sentence: ""The company's sales have increased by more than 50 percent.""
-Question: In the event ""increase"", does the state of the participant ""increase"" change?
+Sentence: ""The new law will require all drivers to wear seat belts.""
+Question: In the event ""require"", does the state of the participant ""drivers"" change?
 Answer: 
 No
-Sentence: ""The company's sales have increased by more than 50 percent.""
-Question: In the event ""increase"", does the state of the participant ""increase"" change?
+Sentence: ""The new law will require all drivers to wear seat belts.""
+Question: In the event ""require"", does the state of the participant ""drivers"" change?
 Answer: 
 No
-Sentence: ""The company's sales have increased by more than 50 percent.""
-Question: In the event ""increase"", does the state of the participant ""increase"""
-16,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The new law will require all drivers to wear seat belts.""
+Question: In the event ""require"", does the state of the participant ""drivers"" change?
+Answer: 
+No
+Sentence:"
+16,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""They said that we were to be charged for this room regardless because we did not cancel within the 72 hours .""
 Question: In the event ""said"", does the state of the participant ""They"" change?
 Answer: 
@@ -772,21 +772,22 @@ Sentence: """" The governor believes it was the defining moment, when what was a
 Question: In the event ""turned"", does the state of the participant ""what"" change?
 Answer: 
 No
-Sentence: ""The president of the United States has been in office for less than a year.""
-Question: In the event ""has"", does the state of the participant ""president"" change?
+Sentence: ""The company said it was not aware of any problems with the system.""
+Question: In the event ""said"", does the state of the participant ""company"" change?
 Answer: 
 No
-Sentence: ""The president of the United States has been in office for less than a year.""
-Question: In the event ""has"", does the state of the participant ""president"" change?
+Sentence: ""The company said it was not aware of any problems with the system.""
+Question: In the event ""said"", does the state of the participant ""company"" change?
 Answer: 
 No
-Sentence: ""The president of the United States has been in office for less than a year.""
-Question: In the event ""has"", does the state of the participant ""president"" change?
+Sentence: ""The company said it was not aware of any problems with the system.""
+Question: In the event ""said"", does the state of the participant ""company"" change?
 Answer: 
 No
-Sentence: ""The president of the United States has been in office for less than a year.""
-Question: In the event ""has"", does the state of the participant"
-17,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The company said it was not aware of any problems with the system.""
+Question: In the event ""said"", does the state of the participant ""company"" change?
+Answer:"
+17,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: """" They ( ISO management ) did what any independent system operator would do . """"
 Question: In the event ""did"", does the state of the participant ""They"" change?
 Answer: 
@@ -818,21 +819,21 @@ Sentence: ""A woman walks into an Israeli restaurant in mid-day, eats, observes 
 Question: In the event ""eating"", does the state of the participant ""lunch"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed about the new car was that it had a lot of chrome.""
-Question: In the event ""have"", does the state of the participant ""chrome"" change?
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question: In the event ""faster"", does the state of the participant ""Arctic"" change?
 Answer: 
-No
-Sentence: ""The first thing I noticed about the new car was that it had a lot of chrome.""
-Question: In the event ""have"", does the state of the participant ""chrome"" change?
+Yes
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question: In the event ""faster"", does the state of the participant ""Arctic"" change?
 Answer: 
-No
-Sentence: ""The first thing I noticed about the new car was that it had a lot of chrome.""
-Question: In the event ""have"", does the state of the participant ""chrome"" change?
+Yes
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question: In the event ""faster"", does the state of the participant ""Arctic"" change?
 Answer: 
-No
-Sentence: ""The first thing I noticed about the new car was that it had a lot of chrome.""
-"
-18,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The report said that the Arctic is warming faster than the rest of the world.""
+Question:"
+18,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""On August 21st , 2009 I ordered furniture from Hickory Furniture Mart and contracted for HDS to deliver it .""
 Question: In the event ""ordered"", does the state of the participant ""furniture"" change?
 Answer: 
@@ -864,20 +865,22 @@ Sentence: ""What I know is that I have a close friend who's aunt disappeared in 
 Question: In the event ""disappeared"", does the state of the participant ""aunt"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what I'm doing here, but I'm sure it's not what I want to do.""
-Question: In the event ""what"", does the state of the participant ""want"" change?
+Sentence: ""I have a friend who's aunt disappeared in New Orleans.""
+Question: In the event ""disappeared"", does the state of the participant ""friend"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what I'm doing here, but I'm sure it's not what I want to do.""
-Question: In the event ""what"", does the state of the participant ""want"" change?
+Sentence: ""I have a friend who's aunt disappeared in New Orleans.""
+Question: In the event ""disappeared"", does the state of the participant ""friend"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what I'm doing here, but I'm sure it's not what I want to do.""
-Question: In the event ""what"", does the state of the participant ""want"" change?
+Sentence: ""I have a friend who's aunt disappeared in New Orleans.""
+Question: In the event ""disappeared"", does the state of the participant ""friend"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what I'm doing here"
-19,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a friend who's aunt disappeared in New Orleans.""
+Question: In the event ""disappeared"", does the state of the participant ""friend"" change?
+Answer"
+19,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: """" It was about how he could humiliate her the most , "" prosecutor Dean Mandros said in closing arguments .""
 Question: In the event ""said"", does the state of the participant ""Mandros"" change?
 Answer: 
@@ -909,20 +912,21 @@ Sentence: ""Al - Sharq al - Awsat reports that a key eyewitness in the trial of 
 Question: In the event ""died"", does the state of the participant ""eyewitness"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. government has been accused of using torture to extract information from detainees in Iraq.""
-Question: In the event ""torture"", does the state of the participant ""U.S. government"" change?
+Sentence: ""The jury will be given a copy of the indictment and the evidence against the defendant.""
+Question: In the event ""given"", does the state of the participant ""jury"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. government has been accused of using torture to extract information from detainees in Iraq.""
-Question: In the event ""torture"", does the state of the participant ""U.S. government"" change?
+Sentence: ""The jury will be given a copy of the indictment and the evidence against the defendant.""
+Question: In the event ""given"", does the state of the participant ""jury"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. government has been accused of using torture to extract information from detainees in Iraq.""
-Question: In the event ""torture"", does the state of the participant ""U.S. government"" change?
+Sentence: ""The jury will be given a copy of the indictment and the evidence against the defendant.""
+Question: In the event ""given"", does the state of the participant ""jury"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. government has"
-20,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The jury will be given a copy of the indictment and the evidence against the defendant.""
+Question: In the event ""given"", does the state of the participant ""jury"
+20,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The missile 's manufacturers state that one or two missiles could cripple a destroyer , and five missiles could sink a 20,000 ton ship .""
 Question: In the event ""sink"", does the state of the participant ""ship"" change?
 Answer: 
@@ -954,24 +958,17 @@ Sentence: ""I have one yellow girl and a green and yellow boy.""
 Question: In the event ""have"", does the state of the participant ""girl"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw her, she was wearing a red dress.""
-Question: In the event ""saw"", does the state of the participant ""dress"" change?
+Sentence: ""The U.S. Navy has announced that it will be sending a team of experts to the site of the accident to investigate the cause of the accident.""
+Question: In the event ""announce"", does the state of the participant ""Navy"" change?
 Answer: 
-Yes
-Sentence: ""I saw the man in the red suit.""
-Question: In the event ""saw"", does the state of the participant ""suit"" change?
+No
+Sentence: ""The U.S. Navy has announced that it will be sending a team of experts to the site of the accident to investigate the cause of the accident.""
+Question: In the event ""announce"", does the state of the participant ""Navy"" change?
 Answer: 
-Yes
-Sentence: ""I saw the man in the red suit.""
-Question: In the event ""saw"", does the state of the participant ""man"" change?
-Answer: 
-Yes
-Sentence: ""I saw the man in the red suit.""
-Question: In the event ""saw"", does the state of the participant ""man"" change?
-Answer: 
-Yes
-Sentence: ""I saw the man in"
-21,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+Sentence: ""The U.S. Navy has announced that it will be sending a team of experts to the site of the accident to investigate the cause of the accident.""
+Question: In the event ""announce"", does"
+21,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Final authority over lifting the cap rested with the federal government .""
 Question: In the event ""lifting"", does the state of the participant ""cap"" change?
 Answer: 
@@ -1002,25 +999,14 @@ Yes
 Sentence: ""The rapid victory during the first Gulf War cemented this perception.""
 Question: In the event ""cemented"", does the state of the participant ""perception"" change?
 Answer: 
-Yes
-Sentence: ""The rapid victory during the first Gulf War cemented this perception.""
-Question: In the event ""cement"", does the state of the participant ""perception"" change?
-Answer: 
-Yes
-Sentence: ""The rapid victory during the first Gulf War cemented this perception.""
-Question: In the event ""cement"", does the state of the participant ""perception"" change?
-Answer: 
-Yes
-Sentence: ""The rapid victory during the first Gulf War cemented this perception.""
-Question: In the event ""cement"", does the state of the participant ""perception"" change?
-Answer: 
-Yes
-Sentence: ""The rapid victory during the first Gulf War cemented this perception.""
-Question: In the event ""cement"", does the state of the participant ""perception"" change?
-Answer: 
-Yes
-Sentence: """
-22,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+
+A:
+
+Yes, the state of the participant changes.
+The sentence is a conditional sentence. The condition is ""if the cap is lifted"". The cap is lifted, so the condition is true.
+The sentence is a conditional sentence, so the condition is a clause. The clause is ""if the cap is lifted"". The clause is a noun phrase. The noun phrase is ""the cap"". The noun phrase is a subject of the clause. The subject is the cap. The subject is the participant. The subject is the same as the participant. The participant is the same as the cap. The cap is the same as the participant. The participant is the same as the cap. The cap is the same as the participant. The participant is the same as the cap. The cap is the same as the participant. The participant is the same as the cap. The cap is the same as the participant. The participant"
+22,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""they fixed my garage doors in literally less than an hour .""
 Question: In the event ""fixed"", does the state of the participant ""doors"" change?
 Answer: 
@@ -1051,25 +1037,26 @@ No
 Sentence: """" Their screams changed, "" Dr. Fortier said.""
 Question: In the event ""changed"", does the state of the participant ""screams"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what to do, "" my mom said.""
-Question: In the event ""said"", does the state of the participant ""I'm not sure what to do"" change?
+Yes
+Sentence: ""The doctor said, "" I think you have a broken leg.""
+Question: In the event ""said"", does the state of the participant ""doctor"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what to do, "" my mom said.""
-Question: In the event ""said"", does the state of the participant ""I'm not sure what to do"" change?
+Yes
+Sentence: ""The doctor said, "" I think you have a broken leg.""
+Question: In the event ""said"", does the state of the participant ""doctor"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what to do, "" my mom said.""
-Question: In the event ""said"", does the state of the participant ""I'm not sure what to do"" change?
+Yes
+Sentence: ""The doctor said, "" I think you have a broken leg.""
+Question: In the event ""said"", does the state of the participant ""doctor"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what to do, "" my mom said.""
-Question: In the event ""said"", does the state of the participant ""I'm not sure what to do"" change?
+Yes
+Sentence: ""The doctor said, "" I think you have a broken leg.""
+Question: In the event ""said"", does the state of the participant ""doctor"" change?
 Answer: 
-No
-Sentence"
-23,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The doctor said, "" I think you have a broken leg.""
+Question: In the event ""said"","
+23,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The intruders slit the screen of the window .""
 Question: In the event ""slit"", does the state of the participant ""intruders"" change?
 Answer: 
@@ -1101,20 +1088,43 @@ Sentence: ""I was told to take my coffee to go if I wanted to finish it.""
 Question: In the event ""finish"", does the state of the participant ""it"" change?
 Answer: 
 No
-Sentence: ""The company is a leader in the field of high-speed Internet access and is the largest provider of high-speed Internet access in the United States. """"
-Question: In the event ""leader"", does the state of the participant ""company"" change?
-Answer: 
-No
-Sentence: ""The company is a leader in the field of high-speed Internet access and is the largest provider of high-speed Internet access in the United States. """"
-Question: In the event ""leader"", does the state of the participant ""field"" change?
-Answer: 
-No
-Sentence: ""The company is a leader in the field of high-speed Internet access and is the largest provider of high-speed Internet access in the United States. """"
-Question: In the event ""leader"", does the state of the participant ""field"" change?
-Answer: 
-No
-Sentence: ""The company is a leader in the field of high-"
-24,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+
+A:
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit the screen of the window.
+
+The intruders slit"
+24,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""By the late 1990s , Iraq had no nuclear or biological weapons program , and had destroyed its chemical weapons stockpiles .""
 Question: In the event ""had"", does the state of the participant ""program"" change?
 Answer: 
@@ -1146,21 +1156,20 @@ Sentence: ""In 1594 PEREZ wrote & published a book under the assumed name of "" 
 Question: In the event ""wrote"", does the state of the participant ""book"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw you was in the summer of '95. """"
-Question: In the event ""saw"", does the state of the participant ""you"" change?
+Sentence: ""The first time I saw the movie, I was so impressed that I bought the DVD and watched it again and again.""
+Question: In the event ""saw"", does the state of the participant ""movie"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw you was in the summer of '95. """"
-Question: In the event ""saw"", does the state of the participant ""you"" change?
+Sentence: ""The first time I saw the movie, I was so impressed that I bought the DVD and watched it again and again.""
+Question: In the event ""saw"", does the state of the participant ""movie"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw you was in the summer of '95. """"
-Question: In the event ""saw"", does the state of the participant ""you"" change?
+Sentence: ""The first time I saw the movie, I was so impressed that I bought the DVD and watched it again and again.""
+Question: In the event ""saw"", does the state of the participant ""movie"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw you was in the summer of '95. """"
-Question: In the event ""saw"", does the"
-25,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence:"
+25,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
 Question: In the event ""exceed"", does the state of the participant ""rise"" change?
 Answer: 
@@ -1192,21 +1201,20 @@ Sentence: ""Orders for the deal to go ahead were given by the US Department of D
 Question: In the event ""given"", does the state of the participant ""Orders"" change?
 Answer: 
 No
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department of Defense"" change?
+Sentence: ""The bear was a large, black, grizzly bear, and it was a very scary sight.""
+Question: In the event ""sight"", does the state of the participant ""bear"" change?
 Answer: 
 No
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department of Defense"" change?
+Sentence: ""The bear was a large, black, grizzly bear, and it was a very scary sight.""
+Question: In the event ""sight"", does the state of the participant ""bear"" change?
 Answer: 
 No
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department of Defense"" change?
+Sentence: ""The bear was a large, black, grizzly bear, and it was a very scary sight.""
+Question: In the event ""sight"", does the state of the participant ""bear"" change?
 Answer: 
 No
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event"
-26,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+"
+26,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""First room had used tissues next to the bed and I requested it be rectified .""
 Question: In the event ""rectified"", does the state of the participant ""it"" change?
 Answer: 
@@ -1238,12 +1246,17 @@ Sentence: ""I use Miracle Cloth, they're fantastic, just don't use fabric soften
 Question: In the event ""ruins"", does the state of the participant ""ability"" change?
 Answer: 
 Yes
-Sentence: ""I have a friend who is a professional photographer, he's a great photographer, but he's a little bit of a perfectionist.""
-Question: In the event ""perfectionist"", does the state of the participant ""friend"" change?
+Sentence: ""I'm not sure if I'm going to be able to get a job, but I'm going to try.""
+Question: In the event ""try"", does the state of the participant ""job"" change?
 Answer: 
 Yes
-Sentence: ""I'm a little bit of a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a perfectionist, I'm a"
-27,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I'm going to try to get a job, but I'm not sure if I'm going to be able to get a job.""
+Question: In the event ""job"", does the state of the participant ""try"" change?
+Answer: 
+Yes
+Sentence: ""I'm going to try to get a job, but I'm not sure if I'm going to be able to get a job.""
+Question: In the event ""able"", does the state of"
+27,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Mine learned to "" go to the bathroom "" only in their cages and loved to ride on my shoulder or hang out in my hoodie pouch .""
 Question: In the event ""learned"", does the state of the participant ""Mine"" change?
 Answer: 
@@ -1275,21 +1288,21 @@ Sentence: ""Despite the name, this entity appears to be a MTM company.""
 Question: In the event ""appears"", does the state of the participant ""entity"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what to do with this, but I'll try to find out.""
-Question: In the event ""find"", does the state of the participant ""I"" change?
+Sentence: ""I am not sure if I am going to be able to make it to the wedding Sunday.""
+Question: In the event ""make"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what to do with this, but I'll try to find out.""
-Question: In the event ""find"", does the state of the participant ""I"" change?
+Sentence: ""I am not sure if I am going to be able to make it to the wedding Sunday.""
+Question: In the event ""make"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what to do with this, but I'll try to find out.""
-Question: In the event ""find"", does the state of the participant ""I"" change?
+Sentence: ""I am not sure if I am going to be able to make it to the wedding Sunday.""
+Question: In the event ""make"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure what to do with this, but I'll try to find out.""
-Question: In the event ""find"","
-28,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I am not sure if I am going to be able to make it to the wedding Sunday.""
+Question: In the"
+28,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The days start to shorten & it gets even wetter , windier & colder .""
 Question: In the event ""start"", does the state of the participant ""days"" change?
 Answer: 
@@ -1321,20 +1334,16 @@ Sentence: ""A Yellowstone wolf was found dead, hit by a car, on a Colorado highw
 Question: In the event ""found"", does the state of the participant ""wolf"" change?
 Answer: 
 No
-Sentence: ""The first time I saw you, I was in a coma.""
-Question: In the event ""saw"", does the state of the participant ""I"" change?
+Sentence: ""The days start to shorten & it gets even wetter, windier & colder.""
+Question: In the event ""start"", does the state of the participant ""days"" change?
 Answer: 
 No
-Sentence: ""I'm going to take a shower, then I'm going to go to bed.""
-Question: In the event ""take"", does the state of the participant ""I"" change?
+Sentence: ""http://i.imgur.com/S2MD2.jpg http://i.imgur.com/T2zff.jpg http://i.imgur.com/Xytex.jpg I took some photos of my model girlfriend with my Nikon D7000 ( see links above ).""
+Question: In the event ""took"", does the state of the participant ""I"" change?
 Answer: 
 No
-Sentence: ""I'm going to take a shower, then I'm going to go to bed.""
-Question: In the event ""go"", does the state of the participant ""I"" change?
-Answer: 
-No
-Sentence: ""I'm going to take a shower,"
-29,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""YOU have to spend the time training"
+29,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Dr Greenwalt fixed my neck from a snowboard injury and was way more effective that a regular doctor .""
 Question: In the event ""fixed"", does the state of the participant ""neck"" change?
 Answer: 
@@ -1366,16 +1375,17 @@ Sentence: ""This entity was created in 2000 for the acquistion of WarpSpeed Comm
 Question: In the event ""created"", does the state of the participant ""entity"" change?
 Answer: 
 Yes
-Sentence: ""The company was created in 2000 for the acquisition of WarpSpeed Communications ( now Enron WarpSpeed Services, Inc. 83N ), and then dissolved upon completion of merger.""
-Question: In the event ""dissolved"", does the state of the participant ""company"" change?
+Sentence: ""The first time I saw the movie was in the theater and I was so impressed that I went back to see it again and again.""
+Question: In the event ""saw"", does the state of the participant ""movie"" change?
 Answer: 
 Yes
-Sentence: ""The company was created in 2000 for the acquisition of WarpSpeed Communications ( now Enron WarpSpeed Services, Inc. 83N ), and then dissolved upon completion of merger.""
-Question: In the event ""merged"", does the state of the participant ""company"" change?
+Sentence: ""The first time I saw the movie was in the theater and I was so impressed that I went back to see it again and again.""
+Question: In the event ""saw"", does the state of the participant ""movie"" change?
 Answer: 
 Yes
-Sentence: ""The company was created in 2000 for the acquisition of Warp"
-30,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The first time I saw the movie was in the theater and I was so impressed that I went back to see it again and again.""
+Question:"
+30,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I hope you have a great summer .""
 Question: In the event ""hope"", does the state of the participant ""I"" change?
 Answer: 
@@ -1407,28 +1417,24 @@ Sentence: ""I tamed them in 4 days.""
 Question: In the event ""tamed"", does the state of the participant ""them"" change?
 Answer: 
 No
-Sentence: ""I tamed them in 4 days.""
-Question: In the event ""tamed"", does the state of the participant ""I"" change?
+Sentence: ""I hope you have a great summer.""
+Question: In the event ""hope"", does the state of the participant ""you"" change?
+Answer: 
+No
+Sentence: ""You all remember the Iraqi Minister of Information, Mr. Mouhamad Said al - Sahaf and his press conferences when the US forces were already inside Baghdad.""
+Question: In the event ""remember"", does the state of the participant ""Minister"" change?
+Answer: 
+No
+Sentence: ""I think they have the largest collection for Chandeliers Chicago.""
+Question: In the event ""think"", does the state of the participant ""I"" change?
 Answer: 
 No
 Sentence: ""I tamed them in 4 days.""
-Question: In the event ""tamed"", does the state of the participant ""I"" change?
+Question: In the event ""tamed"", does the state of the participant ""them"" change?
 Answer: 
 No
-Sentence: ""I tamed them in 4 days.""
-Question: In the event ""tamed"", does the state of the participant ""I"" change?
-Answer: 
-No
-Sentence: ""I tamed them in 4 days.""
-Question: In the event ""tamed"", does the state of the participant ""I"" change?
-Answer: 
-No
-Sentence: ""I tamed them in 4 days.""
-Question: In the event ""tamed"", does the state of the participant ""I"" change?
-Answer: 
-No
-"
-31,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you have a great summer."""
+31,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt , friendly and informative service .""
 Question: In the event ""appreciated"", does the state of the participant ""we"" change?
 Answer: 
@@ -1459,18 +1465,19 @@ No
 Sentence: ""Plus, I work with Janet a lot so she may get some comfort from that, instead of having a lawyer she hasn't dealt with initial it.""
 Question: In the event ""dealt"", does the state of the participant ""she"" change?
 Answer: 
-No
-Sentence: ""I have a lot of respect for the people who work at the company, and I have a lot of respect for the people who work at the company.""
-Question: In the event ""respect"", does the state of the participant ""people"" change?
+Yes
+Sentence: ""The Agel compensation plan includes the principles that ensure that promise can be fulfilled for those who work at it.""
+Question: In the event ""fulfilled"", does the state of the participant ""promise"" change?
 Answer: 
 No
-Sentence: ""I have a lot of respect for the people who work at the company, and I have a lot of respect for the people who work at the company.""
-Question: In the event ""respect"", does the state of the participant ""I"" change?
+Sentence: ""Plus, I work with Janet a lot so she may get some comfort from that, instead of having a lawyer she hasn't dealt with initial it.""
+Question: In the event ""dealt"", does the state of the participant ""she"" change?
 Answer: 
-No
-Sentence: ""I have a lot of respect for the people who work at the company, and I have a lot of respect for the people who work at the company.""
-Question: In the event ""respect"
-32,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The Agel compensation plan includes the principles that ensure that promise can be fulfilled for those who work at it.""
+Question: In the event ""fulfilled"", does the state of the participant ""promise"" change?
+"
+32,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""There is considerable evidence that it is developing both a long - range missile force and a range of weapons of mass destruction .""
 Question: In the event ""developing"", does the state of the participant ""force"" change?
 Answer: 
@@ -1501,23 +1508,22 @@ No
 Sentence: ""But just this week a peddle broke.""
 Question: In the event ""broke"", does the state of the participant ""peddle"" change?
 Answer: 
-No
-Sentence: ""The first time I saw you, I thought you were a man.""
-Question: In the event ""thought"", does the state of the participant ""man"" change?
+Yes
+Sentence: ""The new president of the United States is a man of great integrity.""
+Question: In the event ""integrity"", does the state of the participant ""man"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""mean"", does the state of the participant ""you"" change?
+Yes
+Sentence: ""The new president of the United States is a man of great integrity.""
+Question: In the event ""integrity"", does the state of the participant ""president"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""mean"", does the state of the participant ""you"" change?
+Yes
+Sentence: ""The new president of the United States is a man of great integrity.""
+Question: In the event ""integrity"", does the state of the participant ""president"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""mean"", does the state of the participant ""you"" change?
-Answer: "
-33,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The new president of the United States is a man of great integrity.""
+Question: In the event ""integrity"
+33,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""( Participants pledged to raise at least $ 100,000 by bundling together cheques of up to $ 1,000 from friends and family .""
 Question: In the event ""raise"", does the state of the participant ""$"" change?
 Answer: 
@@ -1548,21 +1554,29 @@ No
 Sentence: ""I have two cats, and at first they hissed at each other because cats are very territorial, but now they do fight and play.""
 Question: In the event ""have"", does the state of the participant ""I"" change?
 Answer: 
-No
-Sentence: ""I have two cats, and at first they hissed at each other because cats are very territorial, but now they do fight and play.""
-Question: In the event ""have"", does the state of the participant ""I"" change?
+Yes
+Sentence: ""The cat is a domestic cat.""
+Question: In the event ""is"", does the state of the participant ""cat"" change?
 Answer: 
 Yes
-Sentence: ""I have two cats, and at first they hissed at each other because cats are very territorial, but now they do fight and play.""
-Question: In the event ""have"", does the state of the participant ""I"" change?
+Sentence: ""The cat is a domestic cat.""
+Question: In the event ""is"", does the state of the participant ""cat"" change?
 Answer: 
 Yes
-Sentence: ""I have two cats, and at first they hissed at each other because cats are very territorial, but now they do fight and play.""
-Question: In the event ""have"", does the state of the participant ""I"" change?
+Sentence: ""The cat is a domestic cat.""
+Question: In the event ""is"", does the state of the participant ""cat"" change?
 Answer: 
 Yes
-Sentence: ""I have two cats, and at first they hissed at each other because cats are"
-34,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The cat is a domestic cat.""
+Question: In the event ""is"", does the state of the participant ""cat"" change?
+Answer: 
+Yes
+Sentence: ""The cat is a domestic cat.""
+Question: In the event ""is"", does the state of the participant ""cat"" change?
+Answer: 
+Yes
+Sentence: ""The cat is a"
+34,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I wanted to follow up with you regarding the creation and approval of ISDA Confirmations for the following equity trades that I understand Laurel had discussed with you previously .""
 Question: In the event ""understand"", does the state of the participant ""I"" change?
 Answer: 
@@ -1595,23 +1609,23 @@ Question: In the event ""is"", does the state of the participant ""site"" change
 Answer: 
 Yes
 Sentence: ""The web site is""
-Question: In the event ""is"", does the state of the participant ""web site"" change?
+Question: In the event ""is"", does the state of the participant ""site"" change?
 Answer: 
 Yes
 Sentence: ""The web site is""
-Question: In the event ""is"", does the state of the participant ""web site"" change?
+Question: In the event ""is"", does the state of the participant ""site"" change?
 Answer: 
 Yes
 Sentence: ""The web site is""
-Question: In the event ""is"", does the state of the participant ""web site"" change?
+Question: In the event ""is"", does the state of the participant ""site"" change?
 Answer: 
 Yes
 Sentence: ""The web site is""
-Question: In the event ""is"", does the state of the participant ""web site"" change?
+Question: In the event ""is"", does the state of the participant ""site"" change?
 Answer: 
 Yes
-"
-35,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: """
+35,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""From the moment you enter the restaurant , you know you are some place special .""
 Question: In the event ""know"", does the state of the participant ""you"" change?
 Answer: 
@@ -1643,24 +1657,20 @@ Sentence: """" Their screams changed, "" Dr. Fortier said.""
 Question: In the event ""changed"", does the state of the participant ""screams"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him, I thought he was a ghost.""
-Question: In the event ""thought"", does the state of the participant ""I"" change?
+Sentence: ""The first time I saw him, he was a little boy, & I was a little girl.""
+Question: In the event ""little boy"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I was so happy, I could have cried.""
-Question: In the event ""could have"", does the state of the participant ""I"" change?
+Sentence: ""The first time I saw him, he was a little boy, & I was a little girl.""
+Question: In the event ""little boy"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I was so happy, I could have cried.""
-Question: In the event ""could have"", does the state of the participant ""I"" change?
+Sentence: ""The first time I saw him, he was a little boy, & I was a little girl.""
+Question: In the event ""little boy"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I was so happy, I could have cried.""
-Question: In the event ""could have"", does the state of the participant ""I"" change?
-Answer: 
-Yes
-Sentence: ""I was so happy"
-36,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The first time I saw him, he was a little boy, & I was a little girl"
+36,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The initial reservoir reports estimate reserves of 80 - 120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003 .""
 Question: In the event ""estimate"", does the state of the participant ""they"" change?
 Answer: 
@@ -1692,20 +1702,20 @@ Sentence: ""One thought is to have just the agenda as a couple topics and then l
 Question: In the event ""is"", does the state of the participant ""thought"" change?
 Answer: 
 Yes
-Sentence: ""The first question is, what is the most important thing that you can do to help the world?""
-Question: In the event ""is"", does the state of the participant ""question"" change?
+Sentence: ""The first question is to ask the participants to identify the most important issue that they would like to discuss.""
+Question: In the event ""ask"", does the state of the participant ""identify"" change?
 Answer: 
 Yes
-Sentence: ""The second question is, what is the most important thing that you can do to help the world?""
-Question: In the event ""is"", does the state of the participant ""question"" change?
+Sentence: ""The second question is to ask the participants to identify the most important issue that they would like to discuss.""
+Question: In the event ""ask"", does the state of the participant ""identify"" change?
 Answer: 
 Yes
-Sentence: ""The third question is, what is the most important thing that you can do to help the world?""
-Question: In the event ""is"", does the state of the participant ""question"" change?
+Sentence: ""The third question is to ask the participants to identify the most important issue that they would like to discuss.""
+Question: In the event ""ask"", does the state of the participant ""identify"" change?
 Answer: 
 Yes
-Sentence: ""The fourth question is, what is the most"
-37,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The fourth question"
+37,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The bombings implicated Muslims , and exacerbated regional tensions which the Bush regime and its friends wearing the brass in the Philippine military sought to exploit .""
 Question: In the event ""implicated"", does the state of the participant ""bombings"" change?
 Answer: 
@@ -1737,17 +1747,17 @@ Sentence: ""'' It was the first time that Bush totally focused on the Taliban th
 Question: In the event ""focused"", does the state of the participant ""Bush"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. military has been accused of killing civilians in Afghanistan, and of using torture.""
-Question: In the event ""accused"", does the state of the participant ""U.S. military"" change?
+Sentence: ""The US has also been accused of using the Taliban as a proxy force to fight the war in Afghanistan.""
+Question: In the event ""proxy force"", does the state of the participant ""US"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. military has been accused of killing civilians in Afghanistan, and of using torture.""
-Question: In the event ""accused"", does the state of the participant ""U.S. military"" change?
+Sentence: ""The US has also been accused of using the Taliban as a proxy force to fight the war in Afghanistan.""
+Question: In the event ""proxy force"", does the state of the participant ""US"" change?
 Answer: 
 Yes
-Sentence: ""The U.S. military has been accused of killing civilians in Afghanistan, and of using torture.""
-Question: In the event ""accused"", does the state"
-38,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The US has also been accused of using the Taliban as a proxy force to fight the war in Afghanistan.""
+Question: In the event ""proxy force"", does the state of the participant ""US"
+38,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""( '' We have three generations of martyrs : grandmothers , mothers , daughters . '' )""
 Question: In the event ""have"", does the state of the participant ""We"" change?
 Answer: 
@@ -1780,20 +1790,20 @@ Question: In the event ""hope"", does the state of the participant ""I"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""do"", does the state of the participant ""I"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""do"", does the state of the participant ""you"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""do"", does the state of the participant ""you"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""do"", does the state of the participant"
-39,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Question: In the event ""hope"", does the"
+39,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I have my paralegal gathering the pleadings Enron requested .""
 Question: In the event ""requested"", does the state of the participant ""Enron"" change?
 Answer: 
@@ -1825,20 +1835,20 @@ Sentence: ""A pattern of arrests and seizures indicate that arms are brought by 
 Question: In the event ""indicate"", does the state of the participant ""pattern"" change?
 Answer: 
 Yes
-Sentence: ""The government of the United States has been unable to provide any evidence that the LTTE has been involved in the attack on the Indian Parliament.""
-Question: In the event ""has been"", does the state of the participant ""government"" change?
+Sentence: ""The new president of the United States, George W. Bush, has been elected by a majority of the voters.""
+Question: In the event ""voters"", does the state of the participant ""The new president of the United States"" change?
 Answer: 
 Yes
-Sentence: ""The government of the United States has been unable to provide any evidence that the LTTE has been involved in the attack on the Indian Parliament.""
-Question: In the event ""has been"", does the state of the participant ""government"" change?
+Sentence: ""The new president of the United States, George W. Bush, has been elected by a majority of the voters.""
+Question: In the event ""voters"", does the state of the participant ""The new president of the United States"" change?
 Answer: 
 Yes
-Sentence: ""The government of the United States has been unable to provide any evidence that the LTTE has been involved in the attack on the Indian Parliament.""
-Question: In the event ""has been"", does the state of the participant ""government"" change?
+Sentence: ""The new president of the United States, George W. Bush, has been elected by a majority of the voters.""
+Question: In the event ""voters"", does the state of the participant ""The new president of the United States"" change?
 Answer: 
 Yes
-Sentence: ""The government of"
-40,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: """
+40,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""My car broke down and roadside towed my vehicle to Sussman Kia .""
 Question: In the event ""broke"", does the state of the participant ""car"" change?
 Answer: 
@@ -1870,21 +1880,20 @@ Sentence: ""Spring festivities include the ever - popular St Patrick's Festival.
 Question: In the event ""include"", does the state of the participant ""festivities"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him was when he was a baby.""
-Question: In the event ""first"", does the state of the participant ""baby"" change?
+Sentence: ""The new law will allow the state to seize and sell the property of people who have been convicted of a crime.""
+Question: In the event ""convicted"", does the state of the participant ""people"" change?
 Answer: 
 Yes
-Sentence: ""I was in the middle of a conversation with my friend when I heard a loud noise.""
-Question: In the event ""middle"", does the state of the participant ""noise"" change?
+Sentence: ""The new law will allow the state to seize and sell the property of people who have been convicted of a crime.""
+Question: In the event ""convicted"", does the state of the participant ""people"" change?
 Answer: 
 Yes
-Sentence: ""I was in the middle of a conversation with my friend when I heard a loud noise.""
-Question: In the event ""conversation"", does the state of the participant ""friend"" change?
+Sentence: ""The new law will allow the state to seize and sell the property of people who have been convicted of a crime.""
+Question: In the event ""convicted"", does the state of the participant ""people"" change?
 Answer: 
 Yes
-Sentence: ""I was in the middle of a conversation with my friend when I heard a loud noise.""
-Question: In the event ""conversation"", does the state"
-41,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The new law will allow the state to seize and sell the"
+41,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The bombings implicated Muslims , and exacerbated regional tensions which the Bush regime and its friends wearing the brass in the Philippine military sought to exploit .""
 Question: In the event ""implicated"", does the state of the participant ""bombings"" change?
 Answer: 
@@ -1915,22 +1924,22 @@ Yes
 Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
 Question: In the event ""requested"", does the state of the participant ""Enron"" change?
 Answer: 
-Yes
-Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
-Question: In the event ""gathering"", does the state of the participant ""paralegal"" change?
+No
+Sentence: ""The President has been a Dictator since the day he was elected.""
+Question: In the event ""elected"", does the state of the participant ""President"" change?
 Answer: 
 Yes
-Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
-Question: In the event ""gathering"", does the state of the participant ""paralegal"" change?
+Sentence: ""The President has been a Dictator since the day he was elected.""
+Question: In the event ""elected"", does the state of the participant ""President"" change?
 Answer: 
 Yes
-Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
-Question: In the event ""gathering"", does the state of the participant ""paralegal"" change?
+Sentence: ""The President has been a Dictator since the day he was elected.""
+Question: In the event ""elected"", does the state of the participant ""President"" change?
 Answer: 
 Yes
-Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
-Question: In the"
-42,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The President has been a Dictator since the day he was elected.""
+Question: In the event ""elected"", does"
+42,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Attached is my draft of a request for rehearing .""
 Question: In the event ""Attached"", does the state of the participant ""draft"" change?
 Answer: 
@@ -1962,17 +1971,21 @@ Sentence: """" Should the Arctic Ocean become ice - free in summer, it is likely
 Question: In the event ""driven"", does the state of the participant ""bears"" change?
 Answer: 
 Yes
-Sentence: ""The report also found that the Arctic Ocean is warming at a rate of about 0.2 degrees per decade, and that the rate of warming is accelerating.""
-Question: In the event ""accelerating"", does the state of the participant ""bears"" change?
+Sentence: ""The report concluded that the Arctic Ocean should not become ice - free in summer.""
+Question: In the event ""become"", does the state of the participant ""ice"" change?
 Answer: 
-Yes
-Sentence: ""The report also found that the Arctic Ocean is warming at a rate of about 0.2 degrees per decade, and that the rate of warming is accelerating.""
-Question: In the event ""accelerating"", does the state of the participant ""bears"" change?
+No
+Sentence: ""The report concluded that the Arctic Ocean should not become ice - free in summer.""
+Question: In the event ""become"", does the state of the participant ""ice"" change?
 Answer: 
-Yes
-Sentence: ""The report also found that the Arctic Ocean is warming at a rate of about 0.2 degrees per decade, and that the rate of warming is accelerating.""
-Question: In the event ""accelerating"", does the state of"
-43,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+Sentence: ""The report concluded that the Arctic Ocean should not become ice - free in summer.""
+Question: In the event ""become"", does the state of the participant ""ice"" change?
+Answer: 
+No
+Sentence: ""The report concluded that the Arctic Ocean should not become ice - free in summer.""
+Question: In the event ""become"", does the state of the participant"
+43,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""My family and I thank you !!!!!!!!!!""
 Question: In the event ""thank"", does the state of the participant ""you"" change?
 Answer: 
@@ -2004,22 +2017,24 @@ Sentence: ""Across the board, the American military is stretched to the breaking
 Question: In the event ""stretched"", does the state of the participant ""military"" change?
 Answer: 
 Yes
-Sentence: ""I am a very busy person and I have a lot of things to do.""
-Question: In the event ""busy"", does the state of the participant ""I"" change?
+Sentence: ""I was told to take my coffee to go if I wanted to finish it.""
+Question: In the event ""finish"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I am a very busy person and I have a lot of things to do.""
-Question: In the event ""a lot"", does the state of the participant ""things"" change?
+Sentence: ""Across the board, the American military is stretched to the breaking point.""
+Question: In the event ""stretched"", does the state of the participant ""military"" change?
 Answer: 
 Yes
-Sentence: ""I am a very busy person and I have a lot of things to do.""
-Question: In the event ""a lot"", does the state of the participant ""I"" change?
+Sentence: ""I was told to take my coffee to go if I wanted to finish it.""
+Question: In the event ""finish"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I am a very busy person and I have a lot of things to do.""
-Question: In the event ""a lot"", does the state of the participant ""I"" change?
-Answer: "
-44,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""Across the board, the American military is stretched to the breaking point.""
+Question: In the event ""stretched"", does the state of the participant ""military"" change?
+Answer: 
+Yes
+Sentence:"
+44,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""He said it was the same tire , and verified this , after checking both the actual tire on my car and my service papers from earlier in the week .""
 Question: In the event ""said"", does the state of the participant ""He"" change?
 Answer: 
@@ -2051,21 +2066,25 @@ Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous an
 Question: In the event ""appears"", does the state of the participant ""hijacker"" change?
 Answer: 
 Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
-Question: In the event ""appears"", does the state of the participant ""appears"" change?
+Sentence: ""The police said the man was a known drug dealer.""
+Question: In the event ""said"", does the state of the participant ""man"" change?
 Answer: 
 Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
-Question: In the event ""appears"", does the state of the participant ""appears"" change?
+Sentence: ""The police said the man was a known drug dealer.""
+Question: In the event ""said"", does the state of the participant ""man"" change?
 Answer: 
 Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
-Question: In the event ""appears"", does the state of the participant ""appears"" change?
+Sentence: ""The police said the man was a known drug dealer.""
+Question: In the event ""said"", does the state of the participant ""man"" change?
 Answer: 
 Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
+Sentence: ""The police said the man was a known drug dealer.""
+Question: In the event ""said"", does the state of the participant ""man"" change?
+Answer: 
+Yes
+Sentence: ""The police said the man was a known drug dealer.""
 Question: In the event"
-45,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+45,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: """" Should the Arctic Ocean become ice - free in summer , it is likely that polar bears and some seal species would be driven toward extinction , "" the report concluded .""
 Question: In the event ""driven"", does the state of the participant ""bears"" change?
 Answer: 
@@ -2097,20 +2116,17 @@ Sentence: ""We took our beloved kitty to him and it came back dead.""
 Question: In the event ""took"", does the state of the participant ""kitty"" change?
 Answer: 
 No
-Sentence: ""The U.S. government has been accused of using the Patriot Act to spy on its citizens.""
-Question: In the event ""spy"", does the state of the participant ""government"" change?
+Sentence: ""The report concluded that the Arctic Ocean should become ice - free in summer, it is likely that polar bears and some seal species would be driven toward extinction.""
+Question: In the event ""driven"", does the state of the participant ""report"" change?
 Answer: 
 No
-Sentence: ""The U.S. government has been accused of using the Patriot Act to spy on its citizens.""
-Question: In the event ""spy"", does the state of the participant ""government"" change?
+Sentence: ""The report concluded that the Arctic Ocean should become ice - free in summer, it is likely that polar bears and some seal species would be driven toward extinction.""
+Question: In the event ""driven"", does the state of the participant ""report"" change?
 Answer: 
 No
-Sentence: ""The U.S. government has been accused of using the Patriot Act to spy on its citizens.""
-Question: In the event ""spy"", does the state of the participant ""government"" change?
-Answer: 
-No
-Sentence: ""The U.S. government has been accused of using the Patriot Act to"
-46,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The report concluded that the Arctic Ocean should become ice - free in summer, it is likely that polar bears and some seal species would be driven toward extinction.""
+Question: In the event ""driven"", does the state of the participant """
+46,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Liquidweb.com Rocks !!!""
 Question: In the event ""Rocks"", does the state of the participant ""Liquidweb.com"" change?
 Answer: 
@@ -2141,21 +2157,22 @@ No
 Sentence: """" There is always the possibility they could jam us up, make us look like we are not numero uno, "" Pike said.""
 Question: In the event ""said"", does the state of the participant ""Pike"" change?
 Answer: 
-No
-Sentence: ""The pilot was able to land the plane safely and the passengers were able to disembark safely. ""
-Question: In the event ""land"", does the state of the participant ""plane"" change?
+Yes
+Sentence: ""The first time I saw him, I thought he was a little bit of a jerk.""
+Question: In the event ""thought"", does the state of the participant ""Pike"" change?
 Answer: 
 No
-Sentence: ""The pilot was able to land the plane safely and the passengers were able to disembark safely. ""
-Question: In the event ""land"", does the state of the participant ""Pike"" change?
+Sentence: ""I was a little bit of a jerk, but I was a good pilot.""
+Question: In the event ""was"", does the state of the participant ""Pike"" change?
 Answer: 
-No
-Sentence: ""The pilot was able to land the plane safely and the passengers were able to disembark safely. ""
-Question: In the event ""land"", does the state of the participant ""Pike"" change?
+Yes
+Sentence: ""I was a little bit of a jerk, but I was a good pilot.""
+Question: In the event ""was"", does the state of the participant ""Pike"" change?
 Answer: 
-No
-Sentence: ""The pilot was able to land the plane safely and the passengers were able to disembark"
-47,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""I was a little bit of a jerk, but I was a good pilot.""
+Question: In the event"
+47,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
 Question: In the event ""exceed"", does the state of the participant ""rises"" change?
 Answer: 
@@ -2187,22 +2204,25 @@ Sentence: ""Across the board, the American military is stretched to the breaking
 Question: In the event ""stretched"", does the state of the participant ""military"" change?
 Answer: 
 No
-Sentence: ""The only way to get a good night's sleep is to get up early.""
-Question: In the event ""get"", does the state of the participant ""sleep"" change?
+Sentence: ""The IPN report agreed that the temperature rises in the Arctic will substantially exceed the global rise.""
+Question: In the event ""substantially exceed"", does the state of the participant ""rises"" change?
+Answer: 
+Yes
+Sentence: ""I swear that he might have twisted it off had I understood what it would mean to Garcia.""
+Question: In the event ""twisted"", does the state of the participant ""he"" change?
 Answer: 
 No
-Sentence: ""The only way to get a good night's sleep is to get up early.""
-Question: In the event ""get"", does the state of the participant ""sleep"" change?
+Sentence: ""Is there any other way to communicate or do your friends only understand text.""
+Question: In the event ""understand"", does the state of the participant ""text"" change?
 Answer: 
 No
-Sentence: ""The only way to get a good night's sleep is to get up early.""
-Question: In the event ""get"", does the state of the participant ""sleep"" change?
-Answer: 
-No
-Sentence: ""The only way to get a good night's sleep is to get up early.""
-Question: In the event ""get"", does the state of the participant ""sleep"" change?
-Answer:"
-48,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is no"
+48,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I expect that many of the displaced people ( those affluent and those not ) will remain in the places they were evacuated to .""
 Question: In the event ""evacuated"", does the state of the participant ""they"" change?
 Answer: 
@@ -2234,17 +2254,27 @@ Sentence: ""The ACIA -- with participation by the United States, Canada, Denmark
 Question: In the event ""begun"", does the state of the participant ""ACIA"" change?
 Answer: 
 No
-Sentence: ""The ACIA is a non-profit organization that is dedicated to the preservation of the environment and the protection of the natural resources of the world.""
-Question: In the event ""preserve"", does the state of the participant ""ACIA"" change?
+Sentence: ""The ACIA -- with participation by the United States, Canada, Denmark, Finland, Iceland, Norway, the Russian Federation and Sweden -- was begun in 2000.""
+Question: In the event ""begun"", does the state of the participant ""ACIA"" change?
 Answer: 
-No
-Sentence: ""The ACIA is a non-profit organization that is dedicated to the preservation of the environment and the protection of the natural resources of the world.""
-Question: In the event ""preserve"", does the state of the participant ""the ACIA"" change?
-Answer: 
-No
-Sentence: ""The ACIA is a non-profit organization that is dedicated to the preservation of the environment and the protection of the natural resources of the world.""
-Question: In the event ""preserve"", does the state of the participant """
-49,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+
+A:
+
+Yes, the state of the participant changes.
+
+They seem to be just that : rumors.
+
+They seem to be just that: rumors.
+
+You have to pay CASH ONLY before they start unloading track on your destination.
+
+You have to pay CASH ONLY before they start unloading track on your destination.
+
+The ACIA -- with participation by the United States, Canada, Denmark, Finland, Iceland, Norway, the Russian Federation and Sweden -- was begun in 2000.
+
+"
+49,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""He said it was the same tire , and verified this , after checking both the actual tire on my car and my service papers from earlier in the week .""
 Question: In the event ""said"", does the state of the participant ""He"" change?
 Answer: 
@@ -2294,7 +2324,7 @@ Answer:
 Yes
 Sentence: ""I had to wait for my waitress.""
 Question"
-50,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+50,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: """" Across the United States , the northern edge of species ' range is expanding , "" she said .""
 Question: In the event ""expanding"", does the state of the participant ""edge"" change?
 Answer: 
@@ -2327,23 +2357,23 @@ Question: In the event ""hope"", does the state of the participant ""I"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""change"", does the state of the participant ""I"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""change"", does the state of the participant ""I"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""change"", does the state of the participant ""I"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
 Sentence: ""I hope you don't change your mind about going to the wedding Sunday.""
-Question: In the event ""change"", does the state of the participant ""I"" change?
+Question: In the event ""hope"", does the state of the participant ""you"" change?
 Answer: 
 No
-Sentence: ""I hope you don't change your mind"
-51,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you do n"
+51,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan .""
 Question: In the event ""appears"", does the state of the participant ""hijacker"" change?
 Answer: 
@@ -2374,23 +2404,18 @@ No
 Sentence: ""James Bateman came the day I called and fixed the problem quickly and efficiently.""
 Question: In the event ""fixed"", does the state of the participant ""problem"" change?
 Answer: 
-No
-Sentence: ""The first thing I did was to call the police and report the incident.""
-Question: In the event ""reported"", does the state of the participant ""police"" change?
+Yes
+Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
+Question: In the event ""appears"", does the state of the participant ""hijacker"" change?
 Answer: 
 No
-Sentence: ""I was very angry and I was very upset.""
-Question: In the event ""was"", does the state of the participant ""I"" change?
+Sentence: ""Even Zawahiri's attorney in 1999 said that Bin Laden and Zawahiri were likely to resort to the biological and chemical agents they possessed given the extradition pressure senior Al Qaeda leaders faced.""
+Question: In the event ""faced"", does the state of the participant ""leaders"" change?
 Answer: 
-No
-Sentence: ""I was very angry and I was very upset.""
-Question: In the event ""was"", does the state of the participant ""I"" change?
-Answer: 
-No
-Sentence: ""I was very angry and I was very upset.""
-Question: In the event ""was"", does the state of the participant ""I"" change?
-Answer:"
-52,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""( '' We have three generations of martyrs : grandmothers, mothers, daughters. '' )""
+Question: In the event ""have"", does the state of the participant """
+52,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""they use them to look prickly .. would you try to eat a cactus [ if u had no knife ] i know i would nt .""
 Question: In the event ""eat"", does the state of the participant ""cactus"" change?
 Answer: 
@@ -2422,24 +2447,24 @@ Sentence: ""I HAD TO WAIT FOR MY WAITRESS.""
 Question: In the event ""HAD"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I HAD TO WAIT FOR MY WAITRESS.""
-Question: In the event ""WAIT"", does the state of the participant ""I"" change?
+Sentence: ""I'M NOT SURE IF I LIKE IT OR NOT.""
+Question: In the event ""like"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I HAD TO WAIT FOR MY WAITRESS.""
-Question: In the event ""WAIT"", does the state of the participant ""I"" change?
+Sentence: ""I'M NOT SURE IF I LIKE IT OR NOT.""
+Question: In the event ""like"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I HAD TO WAIT FOR MY WAITRESS.""
-Question: In the event ""WAIT"", does the state of the participant ""I"" change?
+Sentence: ""I'M NOT SURE IF I LIKE IT OR NOT.""
+Question: In the event ""like"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-Sentence: ""I HAD TO WAIT FOR MY WAITRESS.""
-Question: In the event ""WAIT"", does the state of the participant ""I"" change?
+Sentence: ""I'M NOT SURE IF I LIKE IT OR NOT.""
+Question: In the event ""like"", does the state of the participant ""it"" change?
 Answer: 
 Yes
-"
-53,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: """
+53,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""My family and I thank you !!!!!!!!!!""
 Question: In the event ""thank"", does the state of the participant ""you"" change?
 Answer: 
@@ -2470,29 +2495,26 @@ No
 Sentence: ""We all enjoy buying a snack when visiting a town or attraction while on holiday.""
 Question: In the event ""enjoy"", does the state of the participant ""We"" change?
 Answer: 
-No
-Sentence: ""I am a very good cook.""
-Question: In the event ""cook"", does the state of the participant ""I"" change?
+Yes
+Sentence: ""I am a very good cook, "" she said.
+Question: In the event ""said"", does the state of the participant ""she"" change?
 Answer: 
 No
-Sentence: ""I am a very good cook.""
-Question: In the event ""cook"", does the state of the participant ""you"" change?
+Sentence: ""I am a very good cook, "" she said.
+Question: In the event ""said"", does the state of the participant ""she"" change?
 Answer: 
 Yes
-Sentence: ""I am a very good cook.""
-Question: In the event ""cook"", does the state of the participant ""I"" change?
-Answer: 
-No
-Sentence: ""I am a very good cook.""
-Question: In the event ""cook"", does the state of the participant ""you"" change?
+Sentence: ""I am a very good cook, "" she said.
+Question: In the event ""said"", does the state of the participant ""she"" change?
 Answer: 
 Yes
-Sentence: ""I am a very good cook.""
-Question: In the event ""cook"", does the state of the participant ""I"" change?
+Sentence: ""I am a very good cook, "" she said.
+Question: In the event ""said"", does the state of the participant ""she"" change?
 Answer: 
-No
-Sentence: ""I am a very good cook"
-54,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""I am a very good cook, "" she said.
+Question: In the event ""said"", does the state of the participant ""she"
+54,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: """" Should the Arctic Ocean become ice - free in summer , it is likely that polar bears and some seal species would be driven toward extinction , "" the report concluded .""
 Question: In the event ""driven"", does the state of the participant ""bears"" change?
 Answer: 
@@ -2524,16 +2546,16 @@ Sentence: ""Louisiana's Governor Blanco urged residents to spend Wednesday in pr
 Question: In the event ""assured"", does the state of the participant ""them"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him was when he was a baby and he was born with a caul of hair on his head. ""
-Question: In the event ""born"", does the state of the participant ""him"" change?
+Sentence: ""The report concluded that the Arctic Ocean should become ice - free in summer, it is likely that polar bears and some seal species would be driven toward extinction, "" the report concluded.""
+Question: In the event ""driven"", does the state of the participant ""report"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him was when he was a baby and he was born with a caul of hair on his head.""
-Question: In the event ""caul of hair"", does the state of the participant ""hair"" change?
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""painted"", does the state of the participant ""RAPHAEL"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw him was when he was a baby and he was born with a caul of hair on"
-55,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+"
+55,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I like to imagine the thought processes going on in W 's head if he were to actually read the letter , but it is hard to picture him actually reading this letter .""
 Question: In the event ""imagine"", does the state of the participant ""processes"" change?
 Answer: 
@@ -2566,7 +2588,7 @@ Question: In the event ""raised"", does the state of the participant ""Shepherd"
 Answer: 
 Yes
 Sentence: ""I have a 9 month old German Shepherd that I raised from a puppy.""
-Question: In the event ""raised"", does the state of the participant ""dog"" change?
+Question: In the event ""raised"", does the state of the participant ""puppy"" change?
 Answer: 
 Yes
 Sentence: ""I have a 9 month old German Shepherd that I raised from a puppy.""
@@ -2574,11 +2596,11 @@ Question: In the event ""raised"", does the state of the participant ""puppy"" c
 Answer: 
 Yes
 Sentence: ""I have a 9 month old German Shepherd that I raised from a puppy.""
-Question: In the event ""raised"", does the state of the participant ""dog"" change?
+Question: In the event ""raised"", does the state of the participant ""puppy"" change?
 Answer: 
 Yes
-Sentence: ""I have a 9 month old German Shepherd that I raised from"
-56,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a 9 month old German Shepherd"
+56,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Andreas Bechtolsheim built a microcomputer ; Vinod Khosla recruited him and Scott McNealy to manufacture computers based on it , and Bill Joy to develop a UNIX - based OS for the computer .""
 Question: In the event ""built"", does the state of the participant ""microcomputer"" change?
 Answer: 
@@ -2593,7 +2615,7 @@ Answer:
 No
 Sentence: ""The main reason I wrote this post is to ask anyone reading this if they know of some way I can help put a stop to this Cat Holocaust .""
 Question: In the event ""wrote"", does the state of the participant ""post"" change?
-Answer: ",other,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""Andreas Bechtolsheim built a microcomputer ; Vinod Khosla recruited him and Scott McNealy to manufacture computers based on it, and Bill Joy to develop a UNIX - based OS for the computer.""
 Question: In the event ""built"", does the state of the participant ""microcomputer"" change?
 Answer: 
@@ -2610,16 +2632,24 @@ Sentence: ""The main reason I wrote this post is to ask anyone reading this if t
 Question: In the event ""wrote"", does the state of the participant ""post"" change?
 Answer: 
 Yes
-Sentence: ""The main reason I wrote this post is to ask anyone reading this if they know of some way I can help put a stop to this Cat Holocaust.""
-Question: In the event ""wrote"", does the state of the participant ""Cat Holocaust"" change?
-Answer: 
-Yes
-Sentence: ""The main reason I wrote this post is to ask anyone reading this if they know of some way I can help put a stop to this Cat Holocaust.""
-Question: In the event ""wrote"", does the state of the participant ""Cat Holocaust"" change?
-Answer: 
-Yes
-Sentence: ""The main reason I wrote this"
-57,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+
+A:
+
+Yes, the state of the participant changes.
+The sentence is a complex sentence, and the answer is yes because the state of the participant changes in each of the clauses.
+
+A:
+
+Yes, the state of the participant changes.
+The sentence is a complex sentence, and the answer is yes because the state of the participant changes in each of the clauses.
+
+A:
+
+Yes, the state of the participant changes.
+The sentence is a complex sentence, and the answer is yes because the state of the participant changes in each of the clauses.
+
+"
+57,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The last I checked , the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians .""
 Question: In the event ""have"", does the state of the participant ""way"" change?
 Answer: 
@@ -2651,18 +2681,17 @@ Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous an
 Question: In the event ""appears"", does the state of the participant ""hijacker"" change?
 Answer: 
 Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
-Question: In the event ""appears"", does the state of the participant ""appears"" change?
+Sentence: ""The last I checked, the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians.""
+Question: In the event ""have"", does the state of the participant ""way"" change?
+Answer: 
+No
+Sentence: ""He eats all of his grain but it just takes him a while to get it chewed because of the lack of muscle in his jaws.""
+Question: In the event ""eats"", does the state of the participant ""all"" change?
 Answer: 
 Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
-Question: In the event ""appears"", does the state of the participant ""appears"" change?
-Answer: 
-Yes
-Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
-Question: In the event ""appears"", does the state of the participant ""appears"" change?
-Answer:"
-58,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""At the time, guardsmen were required to accumulate a minimum of 50 points to meet their yearly obligation.""
+Question: In the"
+58,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""That means making yourself known ; that means networking .""
 Question: In the event ""means"", does the state of the participant ""That"" change?
 Answer: 
@@ -2695,23 +2724,23 @@ Question: In the event ""ordered"", does the state of the participant ""I"" chan
 Answer: 
 Yes
 Sentence: ""I ordered 1000 postcards, we normally order 5000 or more.""
-Question: In the event ""ordered"", does the state of the participant ""we"" change?
+Question: In the event ""we"", does the state of the participant ""normally"" change?
 Answer: 
 Yes
 Sentence: ""I ordered 1000 postcards, we normally order 5000 or more.""
-Question: In the event ""ordered"", does the state of the participant ""I"" change?
+Question: In the event ""or"", does the state of the participant ""order"" change?
 Answer: 
 Yes
 Sentence: ""I ordered 1000 postcards, we normally order 5000 or more.""
-Question: In the event ""ordered"", does the state of the participant ""we"" change?
+Question: In the event ""or"", does the state of the participant ""order"" change?
 Answer: 
 Yes
 Sentence: ""I ordered 1000 postcards, we normally order 5000 or more.""
-Question: In the event ""ordered"", does the state of the participant ""I"" change?
+Question: In the event ""or"", does the state of the participant ""order"" change?
 Answer: 
 Yes
-Sentence: ""I ordered 1000 postcards, we normally order 5000 or more"
-59,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I ordered 1000 postcards, we normally order 5000 or"
+59,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Enclosed is a worksheet for Ineos Acrylics .""
 Question: In the event ""Enclosed"", does the state of the participant ""worksheet"" change?
 Answer: 
@@ -2743,21 +2772,20 @@ Sentence: ""The 99 - tonne cache of AK47s was to have been secretly flown out fr
 Question: In the event ""was"", does the state of the participant ""cache"" change?
 Answer: 
 No
-Sentence: ""The US has been accused of using chemical weapons in Iraq.""
-Question: In the event ""has"", does the state of the participant ""US"" change?
+Sentence: ""The new government has been formed and the new Prime Minister is to be announced in the next few days.""
+Question: In the event ""announced"", does the state of the participant ""Prime Minister"" change?
 Answer: 
 No
-Sentence: ""The US has been accused of using chemical weapons in Iraq.""
-Question: In the event ""was"", does the state of the participant ""accused"" change?
+Sentence: ""The new government has been formed and the new Prime Minister is to be announced in the next few days.""
+Question: In the event ""announced"", does the state of the participant ""Prime Minister"" change?
 Answer: 
 No
-Sentence: ""The US has been accused of using chemical weapons in Iraq.""
-Question: In the event ""was"", does the state of the participant ""accused"" change?
+Sentence: ""The new government has been formed and the new Prime Minister is to be announced in the next few days.""
+Question: In the event ""announced"", does the state of the participant ""Prime Minister"" change?
 Answer: 
 No
-Sentence: ""The US has been accused of using chemical weapons in Iraq.""
-Question: In the event ""accused"", does the state of the participant ""US"" change"
-60,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The new government has"
+60,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan .""
 Question: In the event ""appears"", does the state of the participant ""hijacker"" change?
 Answer: 
@@ -2790,15 +2818,15 @@ Question: In the event ""have"", does the state of the participant ""way"" chang
 Answer: 
 No
 Sentence: ""The last I checked, the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians.""
-Question: In the event ""have"", does the state of the participant ""Christians"" change?
+Question: In the event ""have"", does the state of the participant ""way"" change?
 Answer: 
 No
 Sentence: ""The last I checked, the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians.""
-Question: In the event ""Christians"", does the state of the participant ""Satanists"" change?
+Question: In the event ""have"", does the state of the participant ""way"" change?
 Answer: 
 No
-Sentence: ""The last I checked, the Satanists have"
-61,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The last I checked, the Satanists have a long way to"
+61,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The difference is when the cat hisses , that means they are annoyed and they want the other cat to go away .""
 Question: In the event ""is"", does the state of the participant ""difference"" change?
 Answer: 
@@ -2830,17 +2858,18 @@ Sentence: ""The mass murder happening right now in Sudan, where the Arab Moslem 
 Question: In the event ""massacring"", does the state of the participant ""citizens"" change?
 Answer: 
 No
+Sentence: ""The difference is when the cat hisses, that means they are annoyed and they want the other cat to go away.""
+Question: In the event ""is"", does the state of the participant ""difference"" change?
+Answer: 
+Yes
 Sentence: ""The next day i took it to 2 auto shops and they both told me the same thing, engine is junk.""
 Question: In the event ""took"", does the state of the participant ""i"" change?
 Answer: 
-No
+Yes
 Sentence: ""Bangs said the agency has established viable wolf packs in the northern Rockies, as required by federal regulations.""
 Question: In the event ""said"", does the state of the participant ""Bangs"" change?
-Answer: 
-No
-Sentence: ""The mass murder happening right now in Sudan, where the Arab Moslem regime is massacring its black Christian citizens, has nothing to do with Israel.""
-Question: In the event ""massacring"", does the state of the participant ""citizens"
-62,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Answer: "
+62,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The ACIA found Arctic winter temperatures have increased 4 degrees to 7 degrees Fahrenheit in the last 50 years and should go up about twice that much in the next 100 years .""
 Question: In the event ""increased"", does the state of the participant ""temperatures"" change?
 Answer: 
@@ -2872,24 +2901,21 @@ Sentence: ""They fixed the queso!""
 Question: In the event ""fixed"", does the state of the participant ""queso"" change?
 Answer: 
 Yes
-Sentence: ""I'm going to the store to get some more milk.""
-Question: In the event ""get"", does the state of the participant ""milk"" change?
+Sentence: ""The ACIA found Arctic winter temperatures have increased 4 degrees to 7 degrees Fahrenheit in the last 50 years and should go up about twice that much in the next 100 years.""
+Question: In the event ""increased"", does the state of the participant ""temperatures"" change?
 Answer: 
-Yes
-Sentence: ""I'm going to the store to get some more milk.""
-Question: In the event ""get"", does the state of the participant ""milk"" change?
+No
+Sentence: ""I think I gained three pounds in my week long cruise.""
+Question: In the event ""gained"", does the state of the participant ""I"" change?
 Answer: 
-Yes
-Sentence: ""I'm going to the store to get some more milk.""
-Question: In the event ""get"", does the state of the participant ""milk"" change?
+No
+Sentence: ""First room had used tissues next to the bed and I requested it be rectified.""
+Question: In the event ""rectified"", does the state of the participant ""it"" change?
 Answer: 
-Yes
-Sentence: ""I'm going to the store to get some more milk.""
-Question: In the event ""get"", does the state of the participant ""milk"" change?
-Answer: 
-Yes
-Sentence: ""I'm going to the store to"
-63,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+Sentence: ""They fixed the queso!""
+Question: In the event ""fixed"", does the state of the"
+63,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""These changes are occurring across all species , Parmesan told UPI 's Climate .""
 Question: In the event ""told"", does the state of the participant ""Parmesan"" change?
 Answer: 
@@ -2920,9 +2946,21 @@ No
 Sentence: ""I use Miracle Cloth, they're fantastic, just don't use fabric softener or dryer sheets when cleaning them, it ruins their "" grabbing "" ability.""
 Question: In the event ""ruins"", does the state of the participant ""ability"" change?
 Answer: 
-No
-Sentence: ""The new version of the software is called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New Version of the Software is Called ""The New"
-64,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""I'm going to be in the area for a few days, so I 'll be in touch with you soon.""
+Question: In the event ""soon"", does the state of the participant ""you"" change?
+Answer: 
+Yes
+Sentence: ""I'm going to be in the area for a few days, so I 'll be in touch with you soon.""
+Question: In the event ""soon"", does the state of the participant ""you"" change?
+Answer: 
+Yes
+Sentence: ""I'm going to be in the area for a few days, so I 'll be in touch with you soon.""
+Question: In the event ""soon"", does the state of the participant ""you"" change?
+Answer: 
+Yes
+"
+64,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Another great business bites the dust !""
 Question: In the event ""bites"", does the state of the participant ""business"" change?
 Answer: 
@@ -2954,21 +2992,19 @@ Sentence: ""I had the morelias enchiladas.""
 Question: In the event ""had"", does the state of the participant ""enchiladas"" change?
 Answer: 
 Yes
-Sentence: ""I had the morelias enchiladas.""
-Question: In the event ""enchiladas"", does the state of the participant ""morelias"" change?
+Sentence: ""The recent elections in Iraq were dominated by an amalgam of religiously fundamentalist Shi'ite organizations, principally the Dawa Party and the Supreme Council for Islamic Revolution in Iraq ( SCIRI ).""
+Question: In the event ""dominated"", does the state of the participant ""elections"" change?
+Answer: 
+Yes
+Sentence: ""He eats all of his grain but it just takes him a while to get it chewed because of the lack of muscle in his jaws.""
+Question: In the event ""eats"", does the state of the participant ""all"" change?
 Answer: 
 Yes
 Sentence: ""I had the morelias enchiladas.""
-Question: In the event ""enchiladas"", does the state of the participant ""morelias"" change?
+Question: In the event ""had"", does the state of the participant ""enchiladas"" change?
 Answer: 
-Yes
-Sentence: ""I had the morelias enchiladas.""
-Question: In the event ""enchiladas"", does the state of the participant ""morelias"" change?
-Answer: 
-Yes
-Sentence: ""I had the morelias enchiladas.""
-Question: In the event ""enchiladas"", does the state of the"
-65,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+"
+65,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The price of crude oil on the international market hit a record $ 70.85 a barrel due to the vulnerability of oil and gas fields in the Gulf of Mexico .""
 Question: In the event ""hit"", does the state of the participant ""$"" change?
 Answer: 
@@ -3000,17 +3036,16 @@ Sentence: ""The German Expressionist movement was destroyed as a result.""
 Question: In the event ""destroyed"", does the state of the participant ""movement"" change?
 Answer: 
 Yes
-Sentence: ""The first of the three major oil discoveries in the Gulf of Mexico was made in the late 1960s.""
-Question: In the event ""discovery"", does the state of the participant ""oil"" change?
+Sentence: ""The first known use of the word ""coup"" was in the year 1650 when the English Parliament overthrew the monarchy of King Charles I.""
+Question: In the event ""coup"", does the state of the participant ""c"" change?
 Answer: 
 Yes
-Sentence: ""The first of the three major oil discoveries in the Gulf of Mexico was made in the late 1960s.""
-Question: In the event ""discovery"", does the state of the participant ""oil"" change?
+Sentence: ""The first known use of the word ""coup"" was in the year 1650 when the English Parliament overthrew the monarchy of King Charles I.""
+Question: In the event ""coup"", does the state of the participant ""o"" change?
 Answer: 
 Yes
-Sentence: ""The first of the three major oil discoveries in the Gulf of Mexico was made in the late 1960s.""
-Question: In the event ""discovery"
-66,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The first known use of the word ""coup"" was"
+66,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The mass murder happening right now in Sudan , where the Arab Moslem regime is massacring its black Christian citizens , has nothing to do with Israel .""
 Question: In the event ""massacring"", does the state of the participant ""citizens"" change?
 Answer: 
@@ -3042,25 +3077,21 @@ Sentence: ""As a result, your finances improve - and your newfound confidence co
 Question: In the event ""improve"", does the state of the participant ""finances"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure I can do this.""
-Question: In the event ""can"", does the state of the participant ""do"" change?
+Sentence: ""The mass murder happening right now in Sudan, where the Arab Moslem regime is massacring its black Christian citizens, has nothing to do with Israel.""
+Question: In the event ""massacre"", does the state of the participant ""regime"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure I can do this.""
-Question: In the event ""do"", does the state of the participant ""this"" change?
+Sentence: ""I think he could've done more to assuage my concerns by giving me concrete facts.""
+Question: In the event ""assuage"", does the state of the participant ""concerns"" change?
 Answer: 
 Yes
-Sentence: ""I'm not sure I can do this.""
-Question: In the event ""this"", does the state of the participant ""can"" change?
+Sentence: ""We heard nothing.""
+Question: In the event ""heard"", does the state of the participant ""nothing"" change?
 Answer: 
-Yes
-Sentence: ""I'm not sure I can do this.""
-Question: In the event ""can"", does the state of the participant ""this"" change?
-Answer: 
-Yes
-Sentence: ""I'm not sure I can do this.""
-Question: In the event ""this"", does"
-67,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+Sentence: ""As a result, your finances improve - and your newfound confidence could attract new love into your life.""
+Question: In the event"
+67,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""You all remember the Iraqi Minister of Information , Mr. Mouhamad Said al - Sahaf and his press conferences when the US forces were already inside Baghdad .""
 Question: In the event ""remember"", does the state of the participant ""Minister"" change?
 Answer: 
@@ -3091,19 +3122,18 @@ No
 Sentence: ""China and Japan, and the world at large, have more dollar reserves than they require.""
 Question: In the event ""require"", does the state of the participant ""they"" change?
 Answer: 
-No
-Sentence: ""The US has been the world's largest creditor for the past two decades.""
-Question: In the event ""creditor"", does the state of the participant ""they"" change?
+Yes
+Sentence: ""The US has been the world's largest importer of oil for the last three years.""
+Question: In the event ""importer"", does the state of the participant ""US"" change?
 Answer: 
-No
-Sentence: ""The US has been the world's largest creditor for the past two decades.""
-Question: In the event ""creditor"", does the state of the participant ""they"" change?
+Yes
+Sentence: ""The US has been the world's largest importer of oil for the last three years.""
+Question: In the event ""importer"", does the state of the participant ""US"" change?
 Answer: 
-No
-Sentence: ""The US has been the world's largest creditor for the past two decades.""
-Question: In the event ""creditor"", does the state of the participant ""they"" change?
-Answer: "
-68,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The US has been the world's largest importer of oil for the last three years.""
+Question: In the event ""importer"", does the state of the participant"
+68,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Damage estimates of more than $ 25 bn suggest it could be the US insurance industry 's most expensive natural disaster ever .""
 Question: In the event ""suggest"", does the state of the participant ""estimates"" change?
 Answer: 
@@ -3135,25 +3165,24 @@ Sentence: ""They want a program that will be a success, "" Johnson - Freese said
 Question: In the event ""said"", does the state of the participant ""Freese"" change?
 Answer: 
 Yes
-Sentence: ""The company is a leader in the field of ""
-Question: In the event ""field"", does the state of the participant ""leader"" change?
-Answer: 
-No
-Sentence: ""The company is a leader in the field of ""
-Question: In the event ""field"", does the state of the participant ""leader"" change?
+Sentence: ""The company is also looking at the possibility of a new product line.""
+Question: In the event ""looking"", does the state of the participant ""company"" change?
 Answer: 
 Yes
-Sentence: ""The company is a leader in the field of ""
-Question: In the event ""field"", does the state of the participant ""leader"" change?
+Sentence: ""The company is also looking at the possibility of a new product line.""
+Question: In the event ""looking"", does the state of the participant ""company"" change?
 Answer: 
 Yes
-Sentence: ""The company is a leader in the field of ""
-Question: In the event ""field"", does the state of the participant ""leader"" change?
+Sentence: ""The company is also looking at the possibility of a new product line.""
+Question: In the event ""looking"", does the state of the participant ""company"" change?
 Answer: 
 Yes
-Sentence: ""The company is a leader in the field of ""
-Question: In"
-69,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The company is also looking at the possibility of a new product line.""
+Question: In the event ""looking"", does the state of the participant ""company"" change?
+Answer: 
+Yes
+Sentence"
+69,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Dessert was ... hmmm , that 's interesting , I do n't even remember dessert .""
 Question: In the event ""remember"", does the state of the participant ""I"" change?
 Answer: 
@@ -3184,18 +3213,18 @@ Yes
 Sentence: ""I told Paul that you called him yesterday so abruptly because you didn't want to waste his time while you got tests done for arthritis.""
 Question: In the event ""told"", does the state of the participant ""I"" change?
 Answer: 
-No
-Sentence: ""I told Paul that you called him yesterday so abruptly because you didn't want to waste his time while you got tests done for arthritis.""
-Question: In the event ""called"", does the state of the participant ""Paul"" change?
-Answer: 
-No
+Yes
 Sentence: ""I told Paul that you called him yesterday so abruptly because you didn't want to waste his time while you got tests done for arthritis.""
 Question: In the event ""told"", does the state of the participant ""Paul"" change?
 Answer: 
-No
+Yes
 Sentence: ""I told Paul that you called him yesterday so abruptly because you didn't want to waste his time while you got tests done for arthritis.""
-Question: In the event ""called"", does the state of the participant """
-70,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Question: In the event ""told"", does the state of the participant ""Paul"" change?
+Answer: 
+Yes
+Sentence: ""I told Paul that you called him yesterday so abruptly because you didn't want to waste his time while you got tests done for arthritis.""
+Question: In the event ""told"", does the state of the participant """
+70,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Al - Sharq al - Awsat reports that a key eyewitness in the trial of Saddam Hussein for a 1982 massacre at Dujail has died .""
 Question: In the event ""died"", does the state of the participant ""eyewitness"" change?
 Answer: 
@@ -3227,20 +3256,20 @@ Sentence: ""We all enjoy buying a snack when visiting a town or attraction while
 Question: In the event ""enjoy"", does the state of the participant ""We"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed was the smell of the sea and the freshness of the air.""
-Question: In the event ""first"", does the state of the participant ""smell"" change?
+Sentence: ""The new government has been in power for a month and has not yet announced any major policy changes""
+Question: In the event ""major policy changes"", does the state of the participant ""government"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed was the smell of the sea and the freshness of the air.""
-Question: In the event ""first"", does the state of the participant ""freshness"" change?
+Sentence: ""The new government has been in power for a month and has not yet announced any major policy changes""
+Question: In the event ""major policy changes"", does the state of the participant ""government"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed was the smell of the sea and the freshness of the air.""
-Question: In the event ""first"", does the state of the participant ""sea"" change?
+Sentence: ""The new government has been in power for a month and has not yet announced any major policy changes""
+Question: In the event ""major policy changes"", does the state of the participant ""government"" change?
 Answer: 
 No
-Sentence: ""The first thing I noticed"
-71,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence"
+71,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""You all remember the Iraqi Minister of Information , Mr. Mouhamad Said al - Sahaf and his press conferences when the US forces were already inside Baghdad .""
 Question: In the event ""remember"", does the state of the participant ""Minister"" change?
 Answer: 
@@ -3271,18 +3300,17 @@ No
 Sentence: """" Nobody thinks that there will be a lot of oil and gas in this part of the world, "" he said.""
 Question: In the event ""said"", does the state of the participant ""he"" change?
 Answer: 
-No
-Sentence: ""The US forces are now in Baghdad, and the Iraqi government is in a state of shock.""
-Question: In the event ""shock"", does the state of the participant ""government"" change?
+Yes
+Sentence: ""The US forces are now in Baghdad, and the Iraqi Minister of Information, Mr. Mouhamad Said al - Sahaf, is in the US.""
+Question: In the event ""is"", does the state of the participant ""Minister"" change?
 Answer: 
 Yes
-Sentence: ""The US forces are now in Baghdad, and the Iraqi government is in a state of shock.""
-Question: In the event ""shock"", does the state of the participant ""US forces"" change?
+Sentence: ""The US forces are now in Baghdad, and the Iraqi Minister of Information, Mr. Mouhamad Said al - Sahaf, is in the US.""
+Question: In the event ""is"", does the state of the participant ""Minister"" change?
 Answer: 
 Yes
-Sentence: ""The US forces are now in Baghdad, and the Iraqi government is in a state of shock.""
-Question: In the event ""shock"", does the state of the participant ""Iraqi government"""
-72,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The US forces are now in Baghdad, and the Iraqi Minister of Information"
+72,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Bradley 's record of 300 phenophases found that even prior to 1999 , spring was arriving in higher latitudes several weeks earlier than in the earlier years of her data .""
 Question: In the event ""arriving"", does the state of the participant ""spring"" change?
 Answer: 
@@ -3314,16 +3342,20 @@ Sentence: ""The pictures are broadcast at a rate of about 60 Hz, which is how fa
 Question: In the event ""broadcast"", does the state of the participant ""pictures"" change?
 Answer: 
 No
-Sentence: ""The pictures are broadcast at a rate of about 60 Hz, which is how fast they need to move for us to see them as a moving, flawless picture.""
-Question: In the event ""broadcast"", does the state of the participant ""perfection"" change?
+Sentence: ""The new system will be able to handle the increased load of the new system.""
+Question: In the event ""increased"", does the state of the participant ""load"" change?
 Answer: 
 No
-Sentence: ""The pictures are broadcast at a rate of about 60 Hz, which is how fast they need to move for us to see them as a moving, flawless picture.""
-Question: In the event ""broadcast"", does the state of the participant ""perfection"" change?
+Sentence: ""The new system will be able to handle the increased load of the new system.""
+Question: In the event ""increased"", does the state of the participant ""load"" change?
 Answer: 
 No
-Sentence: ""The pictures are broadcast at a rate of about 60 Hz, which"
-73,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The new system will be able to handle the increased load of the new system.""
+Question: In the event ""increased"", does the state of the participant ""load"" change?
+Answer: 
+No
+Sentence:"
+73,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I have my paralegal gathering the pleadings Enron requested .""
 Question: In the event ""requested"", does the state of the participant ""Enron"" change?
 Answer: 
@@ -3355,25 +3387,20 @@ Sentence: ""Orders for the deal to go ahead were given by the US Department of D
 Question: In the event ""given"", does the state of the participant ""Orders"" change?
 Answer: 
 Yes
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department"" change?
+Sentence: ""The U.S. Department of Defense has ordered the U.S. Navy to stop using the term ""nuclear powered aircraft carrier"".""
+Question: In the event ""ordered"", does the state of the participant ""Navy"" change?
 Answer: 
 Yes
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department"" change?
+Sentence: ""The U.S. Department of Defense has ordered the U.S. Navy to stop using the term ""nuclear powered aircraft carrier"".""
+Question: In the event ""ordered"", does the state of the participant ""Navy"" change?
 Answer: 
 Yes
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department"" change?
+Sentence: ""The U.S. Department of Defense has ordered the U.S. Navy to stop using the term ""nuclear powered aircraft carrier"".""
+Question: In the event ""ordered"", does the state of the participant ""Navy"" change?
 Answer: 
 Yes
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"", does the state of the participant ""Department"" change?
-Answer: 
-Yes
-Sentence: ""The deal was approved by the US Department of Defense.""
-Question: In the event ""approved"","
-74,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""The U.S. Department of Defense"
+74,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The good news is that all of this is temporary , because the evolution of international law has always adapted itself to reality .""
 Question: In the event ""adapted"", does the state of the participant ""evolution"" change?
 Answer: 
@@ -3414,7 +3441,7 @@ Question: In the event ""growing"", does the state of the participant ""Thou"" c
 Answer: 
 Yes
 Sentence: ""Andreas Bechtolsheim built a microcomputer ; Vinod Khosla"
-75,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+75,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The mind becomes strong and sharp .""
 Question: In the event ""becomes"", does the state of the participant ""mind"" change?
 Answer: 
@@ -3446,28 +3473,27 @@ Sentence: ""Attached is the revised draft paper that reflects our conference cal
 Question: In the event ""Attached"", does the state of the participant ""paper"" change?
 Answer: 
 Yes
-Sentence: ""The revised draft paper is attached.""
-Question: In the event ""is"", does the state of the participant ""attached"" change?
+Sentence: ""The mind becomes strong and sharp.""
+Question: In the event ""becomes"", does the state of the participant ""mind"" change?
 Answer: 
-Yes
-Sentence: ""The revised draft paper is attached.""
-Question: In the event ""is"", does the state of the participant ""attached"" change?
+No
+Sentence: ""Every student of political science debates how you prevent an anti-democratic force from winning a democratic election and abolishing democracy.""
+Question: In the event ""winning"", does the state of the participant ""election"" change?
 Answer: 
-Yes
-Sentence: ""The revised draft paper is attached.""
-Question: In the event ""is"", does the state of the participant ""attached"" change?
+No
+Sentence: ""After the split Dow Stock there are 120 shares.""
+Question: In the event ""are"", does the state of the participant ""shares"" change?
 Answer: 
-Yes
-Sentence: ""The revised draft paper is attached.""
-Question: In the event ""is"", does the state of the participant ""attached"" change?
+No
+Sentence: ""Attached is the revised draft paper that reflects our conference call with Bob Fagan earlier this week.""
+Question: In the event ""Attached"", does the state of the participant ""paper"" change?
 Answer: 
-Yes
-Sentence: ""The revised draft paper is attached.""
-Question: In the event ""is"", does the state of the participant ""attached"" change?
-Answer: 
-Yes
-Sentence: ""The"
-76,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+
+A:
+
+Yes, the state of the participant"
+76,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I 've listed .""
 Question: In the event ""listed"", does the state of the participant ""I"" change?
 Answer: 
@@ -3499,8 +3525,17 @@ Sentence: ""It boggles the mind that ANYONE can take at face value Bush's claims
 Question: In the event ""boggles"", does the state of the participant ""mind"" change?
 Answer: 
 No
-Sentence: ""I've been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a christian who's been a christian for over 30 years and I've never seen a"
-77,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I'm not sure if I'm going to be able to make it to the meeting, but I 'll try to get there as soon as I can.""
+Question: In the event ""make"", does the state of the participant ""I"" change?
+Answer: 
+No
+Sentence: ""I'm not sure if I'm going to be able to make it to the meeting, but I 'll try to get there as soon as I can.""
+Question: In the event ""make"", does the state of the participant ""I"" change?
+Answer: 
+No
+Sentence: ""I'm not sure if I'm going to be able to make it to the meeting, but I 'll try to get there as soon as I can.""
+Question: In the event ""make"", does the state of the"
+77,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""We need to change the Prod Description fro the LME Product .""
 Question: In the event ""change"", does the state of the participant ""Description"" change?
 Answer: 
@@ -3531,25 +3566,25 @@ Yes
 Sentence: ""Yes, I say.""
 Question: In the event ""say"", does the state of the participant ""I"" change?
 Answer: 
-No
-Sentence: ""I am not a man of words, but I am a man of deeds.""
-Question: In the event ""deeds"", does the state of the participant ""man"" change?
+Yes
+Sentence: ""I am not a man of words, but I will tell you what I think.""
+Question: In the event ""think"", does the state of the participant ""I"" change?
 Answer: 
-No
-Sentence: ""I am not a man of words, but I am a man of deeds.""
-Question: In the event ""deeds"", does the state of the participant ""man"" change?
+Yes
+Sentence: ""I am not a man of words, but I will tell you what I think.""
+Question: In the event ""think"", does the state of the participant ""I"" change?
 Answer: 
-No
-Sentence: ""I am not a man of words, but I am a man of deeds.""
-Question: In the event ""deeds"", does the state of the participant ""man"" change?
+Yes
+Sentence: ""I am not a man of words, but I will tell you what I think.""
+Question: In the event ""think"", does the state of the participant ""I"" change?
 Answer: 
-No
-Sentence: ""I am not a man of words, but I am a man of deeds.""
-Question: In the event ""deeds"", does the state of the participant ""man"" change?
+Yes
+Sentence: ""I am not a man of words, but I will tell you what I think.""
+Question: In the event ""think"", does the state of the participant ""I"" change?
 Answer: 
-No
+Yes
 Sentence: ""I am not a man"
-78,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+78,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""That means making yourself known ; that means networking .""
 Question: In the event ""means"", does the state of the participant ""That"" change?
 Answer: 
@@ -3581,17 +3616,17 @@ Sentence: """" Should the Arctic Ocean become ice - free in summer, it is likely
 Question: In the event ""driven"", does the state of the participant ""bears"" change?
 Answer: 
 Yes
-Sentence: ""I'm not a fan of the new "" iPhone "", but I'm glad it's here, "" he said.""
-Question: In the event ""is"", does the state of the participant ""iPhone"" change?
+Sentence: ""The report concluded that the Arctic Ocean could become ice - free in summer, and that polar bears and some seal species would be driven toward extinction.""
+Question: In the event ""concluded"", does the state of the participant ""report"" change?
 Answer: 
-No
-Sentence: ""I'm not a fan of the new "" iPhone "", but I'm glad it's here, "" he said.""
-Question: In the event ""is"", does the state of the participant ""iPhone"" change?
+Yes
+Sentence: ""The report concluded that the Arctic Ocean could become ice - free in summer, and that polar bears and some seal species would be driven toward extinction.""
+Question: In the event ""concluded"", does the state of the participant ""report"" change?
 Answer: 
-No
-Sentence: ""I'm not a fan of the new "" iPhone "", but I'm glad it's here, "" he said.""
-Question: In the event ""is"", does the state of the participant ""iPhone"
-79,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The report concluded that the Arctic Ocean could become ice - free in summer, and that polar bears and some seal species would be driven toward extinction.""
+Question: In the event ""concluded"
+79,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I MAKE MONEY NOT DEAL WITH BROKERS "" Wow , can you believe in today s tough times this dealership would be looking for any way to move vehicles .""
 Question: In the event ""MAKE"", does the state of the participant ""I"" change?
 Answer: 
@@ -3623,23 +3658,20 @@ Sentence: ""They interviewed me, gave me tests in the software I included on my 
 Question: In the event ""interviewed"", does the state of the participant ""They"" change?
 Answer: 
 Yes
-Sentence: ""I have been working for the company for over 10 years.""
-Question: In the event ""worked"", does the state of the participant ""company"" change?
+Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
+Question: In the event ""requested"", does the state of the participant ""Enron"" change?
 Answer: 
 No
-Sentence: ""I have been working for the company for over 10 years.""
-Question: In the event ""have"", does the state of the participant ""company"" change?
+Sentence: ""They interviewed me, gave me tests in the software I included on my resume, and placed me in a position that I kept for several years.""
+Question: In the event ""interviewed"", does the state of the participant ""They"" change?
 Answer: 
 Yes
-Sentence: ""I have been working for the company for over 10 years.""
-Question: In the event ""have"", does the state of the participant ""company"" change?
+Sentence: ""I have my paralegal gathering the pleadings Enron requested.""
+Question: In the event ""requested"", does the state of the participant ""Enron"" change?
 Answer: 
-Yes
-Sentence: ""I have been working for the company for over 10 years.""
-Question: In the event ""have"", does the state of the participant ""company"" change?
-Answer: 
-Yes"
-80,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+No
+Sentence: ""They interviewed me, gave me tests in the software I"
+80,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""they use them to look prickly .. would you try to eat a cactus [ if u had no knife ] i know i would nt .""
 Question: In the event ""eat"", does the state of the participant ""cactus"" change?
 Answer: 
@@ -3671,20 +3703,20 @@ Sentence: ""I work for a large retail company recently expanding our operations 
 Question: In the event ""work"", does the state of the participant ""I"" change?
 Answer: 
 Yes
-Sentence: ""I have a friend who's aunt disappeared in New Orleans.""
-Question: In the event ""disappeared"", does the state of the participant ""aunt"" change?
+Sentence: ""I have a friend who's father is a doctor and he's been to the hospital a lot lately.""
+Question: In the event ""father"", does the state of the participant ""friend"" change?
 Answer: 
 Yes
-Sentence: ""I had the morelias enchiladas.""
-Question: In the event ""had"", does the state of the participant ""enchiladas"" change?
+Sentence: ""I have a friend who's father is a doctor and he's been to the hospital a lot lately.""
+Question: In the event ""father"", does the state of the participant ""friend"" change?
 Answer: 
 Yes
-Sentence: ""I work for a large retail company recently expanding our operations into Canada and had to travel to ensure all of our computer network equipment was installed properly and on time.""
-Question: In the event ""work"", does the state of the participant ""I"" change?
+Sentence: ""I have a friend who's father is a doctor and he's been to the hospital a lot lately.""
+Question: In the event ""father"", does the state of the participant ""friend"" change?
 Answer: 
 Yes
-Sentence: ""I have a friend who's aunt disappeared in New Orleans."""
-81,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a friend who's father is"
+81,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""All he had to do for a complete victory was allow the military to go into Laos and Cambodia and finish off the shattered Communist forces .""
 Question: In the event ""allow"", does the state of the participant ""military"" change?
 Answer: 
@@ -3716,21 +3748,24 @@ Sentence: ""They said they were "" unable to tell me until they ordered my dress
 Question: In the event ""ordered"", does the state of the participant ""dress"" change?
 Answer: 
 Yes
-Sentence: ""I was told that the "" Oracle "" was the most powerful database in the world.""
-Question: In the event ""powerful"", does the state of the participant ""database"" change?
+Sentence: ""The first thing I did was to go to the bathroom and wash my face "".""
+Question: In the event ""wash"", does the state of the participant ""face"" change?
 Answer: 
 Yes
-Sentence: ""I was told that the "" Oracle "" was the most powerful database in the world.""
-Question: In the event ""powerful"", does the state of the participant ""database"" change?
+Sentence: ""I was so excited I could hardly sleep "".""
+Question: In the event ""sleep"", does the state of the participant ""excited"" change?
 Answer: 
 Yes
-Sentence: ""I was told that the "" Oracle "" was the most powerful database in the world.""
-Question: In the event ""powerful"", does the state of the participant ""database"" change?
+Sentence: ""I was so excited I could hardly sleep "".""
+Question: In the event ""sleep"", does the state of the participant ""excited"" change?
 Answer: 
 Yes
-Sentence: ""I was told that the "" Oracle "" was the most powerful database in the world.""
-Question: In the event ""powerful"", does the state of the participant ""database"""
-82,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I was so excited I could hardly sleep "".""
+Question: In the event ""sleep"", does the state of the participant ""excited"" change?
+Answer: 
+Yes
+Sentence: ""I was so excited I"
+82,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The difference is when the cat hisses , that means they are annoyed and they want the other cat to go away .""
 Question: In the event ""is"", does the state of the participant ""difference"" change?
 Answer: 
@@ -3762,20 +3797,20 @@ Sentence: ""A Yellowstone wolf was found dead, hit by a car, on a Colorado highw
 Question: In the event ""found"", does the state of the participant ""wolf"" change?
 Answer: 
 Yes
-Sentence: ""The wolf was found dead, hit by a car, on a Colorado highway last year, several hundred miles from home.""
-Question: In the event ""hit"", does the state of the participant ""car"" change?
+Sentence: ""The difference is when the cat hisses, that means they are annoyed and they want the other cat to go away.""
+Question: In the event ""is"", does the state of the participant ""difference"" change?
+Answer: 
+No
+Sentence: ""Another problem is that sometimes bad eggs will fungus and the fungus will spread out and kill all the eggs.""
+Question: In the event ""is"", does the state of the participant ""problem"" change?
+Answer: 
+No
+Sentence: ""There is nothing wrong with a REAL negotiation, but nothing particularly helpful about generating one that s just for show.""
+Question: In the event ""generating"", does the state of the participant ""one"" change?
 Answer: 
 Yes
-Sentence: ""The wolf was found dead, hit by a car, on a Colorado highway last year, several hundred miles from home.""
-Question: In the event ""hit"", does the state of the participant ""car"" change?
-Answer: 
-Yes
-Sentence: ""The wolf was found dead, hit by a car, on a Colorado highway last year, several hundred miles from home.""
-Question: In the event ""hit"", does the state of the participant ""car"" change?
-Answer: 
-Yes
-Sentence: ""The"
-83,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""A Yellowstone wolf was"
+83,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""The Texas Education Reform Caucus is made up of business leaders , educators , and elected officials dedicated to finding common sense approaches to improving education in Texas .""
 Question: In the event ""improving"", does the state of the participant ""education"" change?
 Answer: 
@@ -3806,17 +3841,21 @@ Yes
 Sentence: ""Dr. Obina told me that his office closed at noon and that I should call him on Monday.""
 Question: In the event ""closed"", does the state of the participant ""office"" change?
 Answer: 
-Yes
-Sentence: ""The first time I saw the movie was in the theater and I was so impressed with the way the movie was shot that I went to the theater again the next day and saw it again.""
-Question: In the event ""was"", does the state of the participant ""theater"" change?
+No
+Sentence: ""The Texas Education Reform Caucus is made up of business leaders, educators, and elected officials dedicated to finding common sense approaches to improving education in Texas.""
+Question: In the event ""improving"", does the state of the participant ""education"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw the movie was in the theater and I was so impressed with the way the movie was shot that I went to the theater again the next day and saw it again.""
-Question: In the event ""was"", does the state of the participant ""theater"" change?
+Sentence: ""We understand that the pipe fitters are also planning to picket the Lake Worth, Florida project as well.""
+Question: In the event ""planning"", does the state of the participant ""fitters"" change?
+Answer: 
+No
+Sentence: ""The millions who died in the Iran - Iraq war had nothing to do with Israel.""
+Question: In the event ""died"", does the state of the participant ""millions"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw the movie was in the theater and I was so impressed with the way the movie was shot that I went"
-84,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: """
+84,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""I work for a large retail company recently expanding our operations into Canada and had to travel to ensure all of our computer network equipment was installed properly and on time .""
 Question: In the event ""expanding"", does the state of the participant ""operations"" change?
 Answer: 
@@ -3847,22 +3886,21 @@ No
 Sentence: ""San Francisco was settled in the 19th and 20th century by mainly European immigrants except for some Asian workers who were manual laborers.""
 Question: In the event ""settled"", does the state of the participant ""Francisco"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""not sure"", does the state of the participant ""I"" change?
+Yes
+Sentence: ""The first of the two was the first of the two to be born in the United States.""
+Question: In the event ""born"", does the state of the participant ""first"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""not sure"", does the state of the participant ""I"" change?
+Yes
+Sentence: ""The first of the two was the first of the two to be born in the United States.""
+Question: In the event ""born"", does the state of the participant ""first"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""not sure"", does the state of the participant ""I"" change?
+Yes
+Sentence: ""The first of the two was the first of the two to be born in the United States.""
+Question: In the event ""born"", does the state of the participant ""first"" change?
 Answer: 
-No
-Sentence: ""I'm not sure what you mean by that.""
-Question: In the event ""not sure"", does the state of the participant ""I"" change?"
-85,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Yes
+Sentence: ""The first of the two was the"
+85,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""We took our beloved kitty to him and it came back dead .""
 Question: In the event ""took"", does the state of the participant ""kitty"" change?
 Answer: 
@@ -3894,8 +3932,16 @@ Sentence: ""I use Miracle Cloth, they're fantastic, just don't use fabric soften
 Question: In the event ""ruins"", does the state of the participant ""ability"" change?
 Answer: 
 Yes
-Sentence: ""I'm going to the store, I'm going to buy a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a new car, I'm going to get a"
-86,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I'm not sure if I'm ready to go to the dentist, I've never had a cavity before, but I'm sure it's not going to be fun.""
+Question: In the event ""fun"", does the state of the participant ""dentist"" change?
+Answer: 
+Yes
+Sentence: ""I'm not sure if I'm ready to go to the dentist, I've never had a cavity before, but I'm sure it's not going to be fun.""
+Question: In the event ""fun"", does the state of the participant ""dentist"" change?
+Answer: 
+Yes
+Sentence: ""I'm not sure if I'm ready to go to the dentist, I've never had"
+86,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: """" It was about how he could humiliate her the most , "" prosecutor Dean Mandros said in closing arguments .""
 Question: In the event ""said"", does the state of the participant ""Mandros"" change?
 Answer: 
@@ -3934,14 +3980,14 @@ Yes
 Sentence: ""What followed the next day is considered by the governor and Dunn to be the pivotal moment of the energy crisis.""
 Question: In the event ""followed"", does the state of the participant ""What"" change?
 Answer: 
-Yes
+No
 Sentence: ""I think they have the largest collection for Chandeliers Chicago.""
-Question: In the event ""has"", does the state of the participant ""I"" change?
+Question: In the event ""think"", does the state of the participant ""I"" change?
 Answer: 
 Yes
 Sentence: ""The new Centre has 4 studios planned and now boasts the largest single dance floor area in Kingston upon Hull.""
 Question: In the event """
-87,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+87,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Brass has an even higher melting point than bronze and I would think your charcoal just does n't get hot enough .""
 Question: In the event ""has"", does the state of the participant ""point"" change?
 Answer: 
@@ -3973,20 +4019,21 @@ Sentence: ""At the time, guardsmen were required to accumulate a minimum of 50 p
 Question: In the event ""accumulate"", does the state of the participant ""minimum"" change?
 Answer: 
 Yes
-Sentence: ""The first time I saw the movie, I thought it was a great movie.""
-Question: In the event ""thought"", does the state of the participant ""great"" change?
-Answer: 
-No
-Sentence: ""I have a lot of respect for the man, but I don't think he is the right person to be president.""
-Question: In the event ""right"", does the state of the participant ""man"" change?
+Sentence: ""I have been told that the new product is a great improvement over the old one.""
+Question: In the event ""great"", does the state of the participant ""improvement"" change?
 Answer: 
 Yes
-Sentence: ""I have a lot of respect for the man, but I don't think he is the right person to be president.""
-Question: In the event ""man"", does the state of the participant ""right"" change?
+Sentence: ""I have been told that the new product is a great improvement over the old one.""
+Question: In the event ""great"", does the state of the participant ""improvement"" change?
 Answer: 
 Yes
-Sentence: ""I have a lot of respect for the man, but I don't think he is"
-88,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+Sentence: ""I have been told that the new product is a great improvement over the old one.""
+Question: In the event ""great"", does the state of the participant ""improvement"" change?
+Answer: 
+Yes
+Sentence: ""I have been told that the new product is a great improvement over the old one.""
+Question: In the event ""great"", does"
+88,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""YOU have to spend the time training .""
 Question: In the event ""have"", does the state of the participant ""YOU"" change?
 Answer: 
@@ -4018,25 +4065,20 @@ Sentence: ""Liquidweb.com Rocks!!!""
 Question: In the event ""Rocks"", does the state of the participant ""Liquidweb.com"" change?
 Answer: 
 Yes
-Sentence: ""The best way to learn is to teach.""
-Question: In the event ""teach"", does the state of the participant ""the best way to learn"" change?
-Answer: 
-Yes
-Sentence: ""The best way to learn is to teach.""
-Question: In the event ""teach"", does the state of the participant ""the best way to learn"" change?
-Answer: 
-Yes
-Sentence: ""The best way to learn is to teach.""
-Question: In the event ""teach"", does the state of the participant ""the best way to learn"" change?
-Answer: 
-Yes
-Sentence: ""The best way to learn is to teach.""
-Question: In the event ""teach"", does the state of the participant ""the best way to learn"" change?
-Answer: 
-Yes
-Sentence: ""The best way to learn is to teach.""
-Question: In the event ""teach"", does the state of the participant ""the best way to learn"" change"
-89,gpt_neo_2.7b,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
+
+A:
+
+Yes, the state of the participant changes.
+The verb ""have"" is a copular verb, which means that it is used to express the state of the subject.
+The verb ""become"" is a verb of change, and the subject of the verb is the state of the subject.
+The verb ""is"" is a verb of identity, and the subject of the verb is the state of the subject.
+The verb ""is"" is a verb of identity, and the subject of the verb is the state of the subject.
+The verb ""is"" is a verb of identity, and the subject of the verb is the state of the subject.
+The verb ""is"" is a verb of identity, and the subject of the verb is the state of the subject.
+The verb ""is"" is a verb of identity, and the subject of the verb is the state of the subject.
+The verb ""is"" is a verb of identity, and the subject of the verb is the state of the subject.
+"
+89,gpt_j,change_of_state_prefix_3,"Answer this yes-no question about the following sentence.
 Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt , friendly and informative service .""
 Question: In the event ""appreciated"", does the state of the participant ""we"" change?
 Answer: 
@@ -4069,20 +4111,20 @@ Question: In the event ""see"", does the state of the participant ""merit"" chan
 Answer: 
 Yes
 Sentence: ""I see the merit in flowing with duality.""
-Question: In the event ""flowing with"", does the state of the participant ""merit"" change?
+Question: In the event ""see"", does the state of the participant ""merit"" change?
 Answer: 
 Yes
 Sentence: ""I see the merit in flowing with duality.""
-Question: In the event ""flowing with"", does the state of the participant ""merit"" change?
+Question: In the event ""see"", does the state of the participant ""merit"" change?
 Answer: 
 Yes
 Sentence: ""I see the merit in flowing with duality.""
-Question: In the event ""flowing with"", does the state of the participant ""merit"" change?
+Question: In the event ""see"", does the state of the participant ""merit"" change?
 Answer: 
 Yes
 Sentence: ""I see the merit in flowing with duality.""
-Question: In the event ""flowing with"", does the state of the participant ""merit"" change?
+Question: In the event ""see"", does the state of the participant ""merit"" change?
 Answer: 
 Yes
 Sentence: ""I see the merit in flowing with duality.""
-Question: In the event """
+Question: In the event ""see"", does the state of the participant"
