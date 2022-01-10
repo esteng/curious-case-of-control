@@ -213,10 +213,41 @@ class FixedPassiveT5Prompt(FixedPrompt):
                  infinitive: str,
                  past: str,
                  swap_names: bool,
-                 qa_words: Tuple[str] = None):
-        super().__init__()
+                 qa_words: Tuple[str] = None,
+                 long_instructions: bool = False,
+                 prompt_hacking: bool = False,
+                 just_prompt_agent: bool = False,
+                 just_prompt_patient: bool = False,
+                 sent_or_context: str = "context"):
+        super().__init__(name1=name1,
+                         name2=name2,
+                         verb=verb,
+                         infinitive=infinitive,
+                         past=past,
+                         swap_names=swap_names,
+                         long_instructions=long_instructions,
+                         prompt_hacking=prompt_hacking,
+                         just_prompt_agent=just_prompt_agent,
+                         just_prompt_patient=just_prompt_patient,
+                         qa_words=qa_words,
+                         sent_or_context=sent_or_context,
+                         passive=True)
+
+        if verb == "promised": 
+            patient_question = f"Who was {verb} something?"
+        else:
+            patient_question = f"Who was {verb} {infinitive}?"
+        agent_question = f"Who {verb} someone {infinitive}?"
+
         context = [f"{name1} was {verb} by {name2} {infinitive}."]
-        prompt_text = f"Who {past}?"
+        if not just_prompt_agent and not just_prompt_patient:
+            prompt_text = f"Who {past}?"
+        elif just_prompt_agent:
+            prompt_text = agent_question
+        elif just_prompt_patient: 
+            prompt_text = patient_question
+        else:
+            pass
         self.prompt = T5Prompt(context, prompt_text)  
 class FixedT5Prompt(FixedPrompt):
     """
@@ -229,11 +260,43 @@ class FixedT5Prompt(FixedPrompt):
                  infinitive: str,
                  past: str,
                  swap_names: bool,
-                 qa_words: Tuple[str] = None):
-        super().__init__()     
+                 qa_words: Tuple[str] = None,
+                 long_instructions: bool = False,
+                 prompt_hacking: bool = False,
+                 just_prompt_agent: bool = False,
+                 just_prompt_patient: bool = False,
+                 sent_or_context: str = "context"):
+
+        super().__init__(name1=name1,
+                        name2=name2,
+                        verb=verb,
+                        infinitive=infinitive,
+                        past=past,
+                        swap_names=swap_names,
+                        long_instructions=long_instructions,
+                        prompt_hacking=prompt_hacking,
+                        just_prompt_agent=just_prompt_agent,
+                        just_prompt_patient=just_prompt_patient,
+                        qa_words=qa_words,
+                        sent_or_context=sent_or_context,
+                        passive=True)
+
+        if verb == "promised": 
+            patient_question = f"Who was {verb} something?"
+        else:
+            patient_question = f"Who was {verb} {infinitive}?"
+        agent_question = f"Who {verb} someone {infinitive}?"
+
         context = [f"{name1} {verb} {name2} {infinitive}."]
-        prompt_text = f"Who {past}?"
-        self.prompt = T5Prompt(context, prompt_text)
+        if not just_prompt_agent and not just_prompt_patient:
+            prompt_text = f"Who {past}?"
+        elif just_prompt_agent:
+            prompt_text = agent_question
+        elif just_prompt_patient: 
+            prompt_text = patient_question
+        else:
+            pass
+        self.prompt = T5Prompt(context, prompt_text) 
 
 def run_gpt_prompt(text, kwargs): 
     prompt = {
