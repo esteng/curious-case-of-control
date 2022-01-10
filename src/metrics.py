@@ -69,7 +69,10 @@ class StringMetric(Metric):
         # Rule 1: if the answer is just one word, return that 
         words = re.split("\s+", text)
         if len(words) == 1:
-            return words[0] 
+            word = words[0]
+            # remove punct
+            word = re.sub("[()\.]", "", word)
+            return word
 
         # Rule 2: if "Answer: NAME" appears in the text, extract the first occurrence of that 
         name_str = [f"({n})" for n in names]

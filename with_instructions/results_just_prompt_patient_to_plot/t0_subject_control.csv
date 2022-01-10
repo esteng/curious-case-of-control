@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,t0,subject-control,Avery,Casey,True,promised,to come,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to come.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to come.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Casey')",0.0
+1,t0,subject-control,Avery,Casey,False,promised,to come,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to come.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to come.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Casey')",1.0
+2,t0,subject-control,Avery,Casey,True,promised,to go,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery promised Casey to go.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Avery promised Casey to go.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Casey')",2.0
+3,t0,subject-control,Avery,Casey,False,promised,to go,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to go.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to go.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Casey')",3.0
+4,t0,subject-control,Avery,Casey,True,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to read.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to read.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Avery')",4.0
+5,t0,subject-control,Avery,Casey,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to read.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to read.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Avery')",5.0
+6,t0,subject-control,Avery,Casey,True,promised,to run,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to run.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to run.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Casey')",6.0
+7,t0,subject-control,Avery,Casey,False,promised,to run,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to run.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to run.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Casey')",7.0
+8,t0,subject-control,Avery,Casey,True,promised,to call,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery promised Casey to call.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Avery promised Casey to call.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Casey')",8.0
+9,t0,subject-control,Avery,Casey,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to call.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery promised Casey to call.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Avery')",9.0
+10,t0,subject-control,Avery,Joseph,True,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery promised Joseph to come.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery promised Joseph to come.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",10.0
+11,t0,subject-control,Avery,Joseph,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to come.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to come.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",11.0
+12,t0,subject-control,Avery,Joseph,True,promised,to go,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery promised Joseph to go.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery promised Joseph to go.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Joseph')",12.0
+13,t0,subject-control,Avery,Joseph,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to go.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to go.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",13.0
+14,t0,subject-control,Avery,Joseph,True,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to read.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to read.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",14.0
+15,t0,subject-control,Avery,Joseph,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to read.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to read.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",15.0
+16,t0,subject-control,Avery,Joseph,True,promised,to run,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery promised Joseph to run.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery promised Joseph to run.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Joseph')",16.0
+17,t0,subject-control,Avery,Joseph,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to run.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to run.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",17.0
+18,t0,subject-control,Avery,Joseph,True,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery promised Joseph to call.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery promised Joseph to call.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",18.0
+19,t0,subject-control,Avery,Joseph,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to call.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery promised Joseph to call.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",19.0
+20,t0,subject-control,Avery,Nicole,True,promised,to come,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery promised Nicole to come.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Avery promised Nicole to come.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Nicole')",20.0
+21,t0,subject-control,Avery,Nicole,False,promised,to come,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to come.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to come.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Nicole')",21.0
+22,t0,subject-control,Avery,Nicole,True,promised,to go,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery promised Nicole to go.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Avery promised Nicole to go.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Nicole')",22.0
+23,t0,subject-control,Avery,Nicole,False,promised,to go,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to go.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to go.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Nicole')",23.0
+24,t0,subject-control,Avery,Nicole,True,promised,to read,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to read.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to read.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Nicole')",24.0
+25,t0,subject-control,Avery,Nicole,False,promised,to read,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to read.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to read.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Nicole')",25.0
+26,t0,subject-control,Avery,Nicole,True,promised,to run,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to run.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to run.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Nicole')",26.0
+27,t0,subject-control,Avery,Nicole,False,promised,to run,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to run.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to run.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Nicole')",27.0
+28,t0,subject-control,Avery,Nicole,True,promised,to call,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery promised Nicole to call.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Avery promised Nicole to call.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Nicole')",28.0
+29,t0,subject-control,Avery,Nicole,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to call.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery promised Nicole to call.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Avery')",29.0
+30,t0,subject-control,Avery,Stephanie,True,promised,to come,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to come.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to come.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Stephanie')",30.0
+31,t0,subject-control,Avery,Stephanie,False,promised,to come,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to come.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to come.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Stephanie')",31.0
+32,t0,subject-control,Avery,Stephanie,True,promised,to go,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery promised Stephanie to go.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Avery promised Stephanie to go.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Stephanie')",32.0
+33,t0,subject-control,Avery,Stephanie,False,promised,to go,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to go.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to go.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Stephanie')",33.0
+34,t0,subject-control,Avery,Stephanie,True,promised,to read,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to read.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to read.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Stephanie')",34.0
+35,t0,subject-control,Avery,Stephanie,False,promised,to read,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to read.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to read.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Stephanie')",35.0
+36,t0,subject-control,Avery,Stephanie,True,promised,to run,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery promised Stephanie to run.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Avery promised Stephanie to run.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Stephanie')",36.0
+37,t0,subject-control,Avery,Stephanie,False,promised,to run,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to run.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to run.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Stephanie')",37.0
+38,t0,subject-control,Avery,Stephanie,True,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery promised Stephanie to call.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Avery promised Stephanie to call.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",38.0
+39,t0,subject-control,Avery,Stephanie,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to call.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery promised Stephanie to call.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Avery')",39.0
+40,t0,subject-control,Avery,William,True,promised,to come,Avery,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery promised William to come.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: Avery promised William to come.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",40.0
+41,t0,subject-control,Avery,William,False,promised,to come,Avery,William,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to come.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to come.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'William')",41.0
+42,t0,subject-control,Avery,William,True,promised,to go,Avery,William,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to go.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to go.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'William')",42.0
+43,t0,subject-control,Avery,William,False,promised,to go,Avery,William,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to go.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to go.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'William')",43.0
+44,t0,subject-control,Avery,William,True,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to read.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to read.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'Avery')",44.0
+45,t0,subject-control,Avery,William,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to read.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to read.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'Avery')",45.0
+46,t0,subject-control,Avery,William,True,promised,to run,Avery,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery promised William to run.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: Avery promised William to run.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",46.0
+47,t0,subject-control,Avery,William,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to run.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to run.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'Avery')",47.0
+48,t0,subject-control,Avery,William,True,promised,to call,Avery,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery promised William to call.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: Avery promised William to call.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",48.0
+49,t0,subject-control,Avery,William,False,promised,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to call.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery promised William to call.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'Avery')",49.0
+50,t0,subject-control,Casey,Avery,True,promised,to come,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to come.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to come.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",50.0
+51,t0,subject-control,Casey,Avery,False,promised,to come,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to come.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to come.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",51.0
+52,t0,subject-control,Casey,Avery,True,promised,to go,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to go.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to go.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",52.0
+53,t0,subject-control,Casey,Avery,False,promised,to go,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to go.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to go.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",53.0
+54,t0,subject-control,Casey,Avery,True,promised,to read,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey promised Avery to read.
+
+Question: Who was promised something, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Casey promised Avery to read.\n\nQuestion: Who was promised something, Avery or Casey?\nAnswer: ', 'Avery')",54.0
+55,t0,subject-control,Casey,Avery,False,promised,to read,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to read.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to read.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",55.0
+56,t0,subject-control,Casey,Avery,True,promised,to run,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to run.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to run.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",56.0
+57,t0,subject-control,Casey,Avery,False,promised,to run,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to run.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to run.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Avery')",57.0
+58,t0,subject-control,Casey,Avery,True,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to call.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to call.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Casey')",58.0
+59,t0,subject-control,Casey,Avery,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to call.
+
+Question: Who was promised something, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey promised Avery to call.\n\nQuestion: Who was promised something, Casey or Avery?\nAnswer: ', 'Casey')",59.0
+60,t0,subject-control,Casey,Joseph,True,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey promised Joseph to come.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Casey promised Joseph to come.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",60.0
+61,t0,subject-control,Casey,Joseph,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to come.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to come.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",61.0
+62,t0,subject-control,Casey,Joseph,True,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey promised Joseph to go.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Casey promised Joseph to go.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",62.0
+63,t0,subject-control,Casey,Joseph,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to go.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to go.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",63.0
+64,t0,subject-control,Casey,Joseph,True,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to read.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to read.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",64.0
+65,t0,subject-control,Casey,Joseph,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to read.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to read.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",65.0
+66,t0,subject-control,Casey,Joseph,True,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to run.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to run.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",66.0
+67,t0,subject-control,Casey,Joseph,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to run.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to run.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",67.0
+68,t0,subject-control,Casey,Joseph,True,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to call.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to call.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",68.0
+69,t0,subject-control,Casey,Joseph,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to call.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey promised Joseph to call.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",69.0
+70,t0,subject-control,Casey,Nicole,True,promised,to come,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey promised Nicole to come.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Casey promised Nicole to come.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Nicole')",70.0
+71,t0,subject-control,Casey,Nicole,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to come.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to come.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",71.0
+72,t0,subject-control,Casey,Nicole,True,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to go.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to go.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",72.0
+73,t0,subject-control,Casey,Nicole,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to go.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to go.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",73.0
+74,t0,subject-control,Casey,Nicole,True,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to read.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to read.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",74.0
+75,t0,subject-control,Casey,Nicole,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to read.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to read.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",75.0
+76,t0,subject-control,Casey,Nicole,True,promised,to run,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey promised Nicole to run.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Casey promised Nicole to run.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Nicole')",76.0
+77,t0,subject-control,Casey,Nicole,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to run.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to run.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",77.0
+78,t0,subject-control,Casey,Nicole,True,promised,to call,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey promised Nicole to call.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Casey promised Nicole to call.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Nicole')",78.0
+79,t0,subject-control,Casey,Nicole,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to call.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey promised Nicole to call.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",79.0
+80,t0,subject-control,Casey,Stephanie,True,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey promised Stephanie to come.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey promised Stephanie to come.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",80.0
+81,t0,subject-control,Casey,Stephanie,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to come.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to come.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",81.0
+82,t0,subject-control,Casey,Stephanie,True,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to go.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to go.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",82.0
+83,t0,subject-control,Casey,Stephanie,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to go.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to go.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",83.0
+84,t0,subject-control,Casey,Stephanie,True,promised,to read,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey promised Stephanie to read.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey promised Stephanie to read.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Stephanie')",84.0
+85,t0,subject-control,Casey,Stephanie,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to read.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to read.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",85.0
+86,t0,subject-control,Casey,Stephanie,True,promised,to run,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey promised Stephanie to run.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey promised Stephanie to run.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Stephanie')",86.0
+87,t0,subject-control,Casey,Stephanie,False,promised,to run,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to run.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to run.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Stephanie')",87.0
+88,t0,subject-control,Casey,Stephanie,True,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey promised Stephanie to call.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey promised Stephanie to call.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",88.0
+89,t0,subject-control,Casey,Stephanie,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to call.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey promised Stephanie to call.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",89.0
+90,t0,subject-control,Casey,William,True,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to come.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to come.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",90.0
+91,t0,subject-control,Casey,William,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to come.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to come.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",91.0
+92,t0,subject-control,Casey,William,True,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to go.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to go.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",92.0
+93,t0,subject-control,Casey,William,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to go.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to go.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",93.0
+94,t0,subject-control,Casey,William,True,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to read.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to read.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",94.0
+95,t0,subject-control,Casey,William,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to read.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to read.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",95.0
+96,t0,subject-control,Casey,William,True,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to run.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to run.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",96.0
+97,t0,subject-control,Casey,William,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to run.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to run.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",97.0
+98,t0,subject-control,Casey,William,True,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to call.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to call.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",98.0
+99,t0,subject-control,Casey,William,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to call.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey promised William to call.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",99.0
+100,t0,subject-control,Joseph,Avery,True,promised,to come,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to come.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to come.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",100.0
+101,t0,subject-control,Joseph,Avery,False,promised,to come,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to come.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to come.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",101.0
+102,t0,subject-control,Joseph,Avery,True,promised,to go,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to go.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to go.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",102.0
+103,t0,subject-control,Joseph,Avery,False,promised,to go,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to go.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to go.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",103.0
+104,t0,subject-control,Joseph,Avery,True,promised,to read,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Joseph promised Avery to read.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Joseph promised Avery to read.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",104.0
+105,t0,subject-control,Joseph,Avery,False,promised,to read,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to read.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to read.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",105.0
+106,t0,subject-control,Joseph,Avery,True,promised,to run,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Joseph promised Avery to run.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Joseph promised Avery to run.\n\nQuestion: Who was promised something, Avery or Joseph?\nAnswer: ', 'Avery')",106.0
+107,t0,subject-control,Joseph,Avery,False,promised,to run,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to run.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to run.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",107.0
+108,t0,subject-control,Joseph,Avery,True,promised,to call,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to call.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to call.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",108.0
+109,t0,subject-control,Joseph,Avery,False,promised,to call,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to call.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph promised Avery to call.\n\nQuestion: Who was promised something, Joseph or Avery?\nAnswer: ', 'Avery')",109.0
+110,t0,subject-control,Joseph,Casey,True,promised,to come,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph promised Casey to come.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph promised Casey to come.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",110.0
+111,t0,subject-control,Joseph,Casey,False,promised,to come,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to come.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to come.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",111.0
+112,t0,subject-control,Joseph,Casey,True,promised,to go,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph promised Casey to go.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph promised Casey to go.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",112.0
+113,t0,subject-control,Joseph,Casey,False,promised,to go,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to go.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to go.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",113.0
+114,t0,subject-control,Joseph,Casey,True,promised,to read,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to read.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to read.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",114.0
+115,t0,subject-control,Joseph,Casey,False,promised,to read,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to read.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to read.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",115.0
+116,t0,subject-control,Joseph,Casey,True,promised,to run,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph promised Casey to run.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph promised Casey to run.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",116.0
+117,t0,subject-control,Joseph,Casey,False,promised,to run,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to run.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to run.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",117.0
+118,t0,subject-control,Joseph,Casey,True,promised,to call,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph promised Casey to call.
+
+Question: Who was promised something, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph promised Casey to call.\n\nQuestion: Who was promised something, Casey or Joseph?\nAnswer: ', 'Casey')",118.0
+119,t0,subject-control,Joseph,Casey,False,promised,to call,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to call.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph promised Casey to call.\n\nQuestion: Who was promised something, Joseph or Casey?\nAnswer: ', 'Casey')",119.0
+120,t0,subject-control,Joseph,Nicole,True,promised,to come,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Joseph promised Nicole to come.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Joseph promised Nicole to come.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",120.0
+121,t0,subject-control,Joseph,Nicole,False,promised,to come,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to come.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to come.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",121.0
+122,t0,subject-control,Joseph,Nicole,True,promised,to go,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Joseph promised Nicole to go.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Joseph promised Nicole to go.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",122.0
+123,t0,subject-control,Joseph,Nicole,False,promised,to go,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to go.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to go.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",123.0
+124,t0,subject-control,Joseph,Nicole,True,promised,to read,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Joseph promised Nicole to read.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Joseph promised Nicole to read.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",124.0
+125,t0,subject-control,Joseph,Nicole,False,promised,to read,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to read.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to read.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",125.0
+126,t0,subject-control,Joseph,Nicole,True,promised,to run,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Joseph promised Nicole to run.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Joseph promised Nicole to run.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",126.0
+127,t0,subject-control,Joseph,Nicole,False,promised,to run,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to run.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to run.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",127.0
+128,t0,subject-control,Joseph,Nicole,True,promised,to call,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to call.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to call.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",128.0
+129,t0,subject-control,Joseph,Nicole,False,promised,to call,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to call.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph promised Nicole to call.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",129.0
+130,t0,subject-control,Joseph,Stephanie,True,promised,to come,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to come.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to come.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",130.0
+131,t0,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to come.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to come.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",131.0
+132,t0,subject-control,Joseph,Stephanie,True,promised,to go,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Joseph promised Stephanie to go.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Joseph promised Stephanie to go.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",132.0
+133,t0,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to go.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to go.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",133.0
+134,t0,subject-control,Joseph,Stephanie,True,promised,to read,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to read.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to read.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",134.0
+135,t0,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to read.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to read.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",135.0
+136,t0,subject-control,Joseph,Stephanie,True,promised,to run,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Joseph promised Stephanie to run.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Joseph promised Stephanie to run.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",136.0
+137,t0,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to run.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to run.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",137.0
+138,t0,subject-control,Joseph,Stephanie,True,promised,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Joseph promised Stephanie to call.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Joseph promised Stephanie to call.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",138.0
+139,t0,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to call.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph promised Stephanie to call.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",139.0
+140,t0,subject-control,Joseph,William,True,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to come.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to come.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",140.0
+141,t0,subject-control,Joseph,William,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to come.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to come.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",141.0
+142,t0,subject-control,Joseph,William,True,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to go.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to go.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",142.0
+143,t0,subject-control,Joseph,William,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to go.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to go.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",143.0
+144,t0,subject-control,Joseph,William,True,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to read.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to read.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",144.0
+145,t0,subject-control,Joseph,William,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to read.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to read.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",145.0
+146,t0,subject-control,Joseph,William,True,promised,to run,Joseph,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph promised William to run.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: Joseph promised William to run.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",146.0
+147,t0,subject-control,Joseph,William,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to run.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to run.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",147.0
+148,t0,subject-control,Joseph,William,True,promised,to call,Joseph,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph promised William to call.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: Joseph promised William to call.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",148.0
+149,t0,subject-control,Joseph,William,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to call.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph promised William to call.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",149.0
+150,t0,subject-control,Nicole,Avery,True,promised,to come,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole promised Avery to come.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Nicole promised Avery to come.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Avery')",150.0
+151,t0,subject-control,Nicole,Avery,False,promised,to come,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to come.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to come.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Avery')",151.0
+152,t0,subject-control,Nicole,Avery,True,promised,to go,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole promised Avery to go.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Nicole promised Avery to go.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Avery')",152.0
+153,t0,subject-control,Nicole,Avery,False,promised,to go,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to go.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to go.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Avery')",153.0
+154,t0,subject-control,Nicole,Avery,True,promised,to read,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to read.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to read.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Avery')",154.0
+155,t0,subject-control,Nicole,Avery,False,promised,to read,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to read.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to read.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Avery')",155.0
+156,t0,subject-control,Nicole,Avery,True,promised,to run,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole promised Avery to run.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Nicole promised Avery to run.\n\nQuestion: Who was promised something, Avery or Nicole?\nAnswer: ', 'Avery')",156.0
+157,t0,subject-control,Nicole,Avery,False,promised,to run,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to run.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to run.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Avery')",157.0
+158,t0,subject-control,Nicole,Avery,True,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to call.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to call.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Nicole')",158.0
+159,t0,subject-control,Nicole,Avery,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to call.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole promised Avery to call.\n\nQuestion: Who was promised something, Nicole or Avery?\nAnswer: ', 'Nicole')",159.0
+160,t0,subject-control,Nicole,Casey,True,promised,to come,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole promised Casey to come.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Nicole promised Casey to come.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",160.0
+161,t0,subject-control,Nicole,Casey,False,promised,to come,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to come.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to come.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Casey')",161.0
+162,t0,subject-control,Nicole,Casey,True,promised,to go,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole promised Casey to go.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Nicole promised Casey to go.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",162.0
+163,t0,subject-control,Nicole,Casey,False,promised,to go,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to go.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to go.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Casey')",163.0
+164,t0,subject-control,Nicole,Casey,True,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole promised Casey to read.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Nicole promised Casey to read.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Nicole promised Casey to read')",164.0
+165,t0,subject-control,Nicole,Casey,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to read.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to read.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Nicole')",165.0
+166,t0,subject-control,Nicole,Casey,True,promised,to run,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole promised Casey to run.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Nicole promised Casey to run.\n\nQuestion: Who was promised something, Casey or Nicole?\nAnswer: ', 'Casey')",166.0
+167,t0,subject-control,Nicole,Casey,False,promised,to run,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to run.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to run.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Casey')",167.0
+168,t0,subject-control,Nicole,Casey,True,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to call.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to call.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Nicole')",168.0
+169,t0,subject-control,Nicole,Casey,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to call.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole promised Casey to call.\n\nQuestion: Who was promised something, Nicole or Casey?\nAnswer: ', 'Nicole')",169.0
+170,t0,subject-control,Nicole,Joseph,True,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Nicole promised Joseph to come.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Nicole promised Joseph to come.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",170.0
+171,t0,subject-control,Nicole,Joseph,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to come.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to come.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",171.0
+172,t0,subject-control,Nicole,Joseph,True,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to go.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to go.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",172.0
+173,t0,subject-control,Nicole,Joseph,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to go.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to go.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",173.0
+174,t0,subject-control,Nicole,Joseph,True,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Nicole promised Joseph to read.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Nicole promised Joseph to read.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",174.0
+175,t0,subject-control,Nicole,Joseph,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to read.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to read.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",175.0
+176,t0,subject-control,Nicole,Joseph,True,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Nicole promised Joseph to run.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Nicole promised Joseph to run.\n\nQuestion: Who was promised something, Joseph or Nicole?\nAnswer: ', 'Nicole')",176.0
+177,t0,subject-control,Nicole,Joseph,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to run.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to run.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",177.0
+178,t0,subject-control,Nicole,Joseph,True,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to call.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to call.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",178.0
+179,t0,subject-control,Nicole,Joseph,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to call.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole promised Joseph to call.\n\nQuestion: Who was promised something, Nicole or Joseph?\nAnswer: ', 'Nicole')",179.0
+180,t0,subject-control,Nicole,Stephanie,True,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to come.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to come.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",180.0
+181,t0,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to come.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to come.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",181.0
+182,t0,subject-control,Nicole,Stephanie,True,promised,to go,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to go.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to go.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Stephanie')",182.0
+183,t0,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to go.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to go.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Stephanie')",183.0
+184,t0,subject-control,Nicole,Stephanie,True,promised,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole promised Stephanie to read.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Nicole promised Stephanie to read.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Stephanie')",184.0
+185,t0,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to read.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to read.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Stephanie')",185.0
+186,t0,subject-control,Nicole,Stephanie,True,promised,to run,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to run.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to run.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Stephanie')",186.0
+187,t0,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to run.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to run.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Stephanie')",187.0
+188,t0,subject-control,Nicole,Stephanie,True,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to call.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to call.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",188.0
+189,t0,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to call.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole promised Stephanie to call.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",189.0
+190,t0,subject-control,Nicole,William,True,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to come.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to come.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",190.0
+191,t0,subject-control,Nicole,William,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to come.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to come.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",191.0
+192,t0,subject-control,Nicole,William,True,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole promised William to go.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: Nicole promised William to go.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole promised William to a')",192.0
+193,t0,subject-control,Nicole,William,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to go.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to go.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",193.0
+194,t0,subject-control,Nicole,William,True,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole promised William to read.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: Nicole promised William to read.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",194.0
+195,t0,subject-control,Nicole,William,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to read.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to read.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",195.0
+196,t0,subject-control,Nicole,William,True,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole promised William to run.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: Nicole promised William to run.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",196.0
+197,t0,subject-control,Nicole,William,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to run.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to run.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",197.0
+198,t0,subject-control,Nicole,William,True,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole promised William to call.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: Nicole promised William to call.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",198.0
+199,t0,subject-control,Nicole,William,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to call.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole promised William to call.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",199.0
+200,t0,subject-control,Stephanie,Avery,True,promised,to come,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie promised Avery to come.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Stephanie promised Avery to come.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Avery')",200.0
+201,t0,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to come.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to come.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",201.0
+202,t0,subject-control,Stephanie,Avery,True,promised,to go,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to go.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to go.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",202.0
+203,t0,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to go.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to go.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",203.0
+204,t0,subject-control,Stephanie,Avery,True,promised,to read,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to read.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to read.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",204.0
+205,t0,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to read.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to read.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",205.0
+206,t0,subject-control,Stephanie,Avery,True,promised,to run,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie promised Avery to run.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Stephanie promised Avery to run.\n\nQuestion: Who was promised something, Avery or Stephanie?\nAnswer: ', 'Avery')",206.0
+207,t0,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to run.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to run.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",207.0
+208,t0,subject-control,Stephanie,Avery,True,promised,to call,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to call.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to call.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",208.0
+209,t0,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to call.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie promised Avery to call.\n\nQuestion: Who was promised something, Stephanie or Avery?\nAnswer: ', 'Avery')",209.0
+210,t0,subject-control,Stephanie,Casey,True,promised,to come,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie promised Casey to come.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Stephanie promised Casey to come.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",210.0
+211,t0,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to come.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to come.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",211.0
+212,t0,subject-control,Stephanie,Casey,True,promised,to go,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to go.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to go.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",212.0
+213,t0,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to go.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to go.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",213.0
+214,t0,subject-control,Stephanie,Casey,True,promised,to read,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to read.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to read.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",214.0
+215,t0,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to read.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to read.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",215.0
+216,t0,subject-control,Stephanie,Casey,True,promised,to run,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie promised Casey to run.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Stephanie promised Casey to run.\n\nQuestion: Who was promised something, Casey or Stephanie?\nAnswer: ', 'Casey')",216.0
+217,t0,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to run.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to run.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",217.0
+218,t0,subject-control,Stephanie,Casey,True,promised,to call,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to call.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to call.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",218.0
+219,t0,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to call.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie promised Casey to call.\n\nQuestion: Who was promised something, Stephanie or Casey?\nAnswer: ', 'Casey')",219.0
+220,t0,subject-control,Stephanie,Joseph,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie promised Joseph to come.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie promised Joseph to come.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",220.0
+221,t0,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to come.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to come.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",221.0
+222,t0,subject-control,Stephanie,Joseph,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie promised Joseph to go.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie promised Joseph to go.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",222.0
+223,t0,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to go.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to go.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",223.0
+224,t0,subject-control,Stephanie,Joseph,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie promised Joseph to read.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie promised Joseph to read.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",224.0
+225,t0,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to read.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to read.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",225.0
+226,t0,subject-control,Stephanie,Joseph,True,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie promised Joseph to run.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie promised Joseph to run.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",226.0
+227,t0,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to run.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to run.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",227.0
+228,t0,subject-control,Stephanie,Joseph,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie promised Joseph to call.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie promised Joseph to call.\n\nQuestion: Who was promised something, Joseph or Stephanie?\nAnswer: ', 'Stephanie')",228.0
+229,t0,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to call.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie promised Joseph to call.\n\nQuestion: Who was promised something, Stephanie or Joseph?\nAnswer: ', 'Stephanie')",229.0
+230,t0,subject-control,Stephanie,Nicole,True,promised,to come,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie promised Nicole to come.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie promised Nicole to come.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",230.0
+231,t0,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to come.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to come.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Nicole')",231.0
+232,t0,subject-control,Stephanie,Nicole,True,promised,to go,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie promised Nicole to go.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie promised Nicole to go.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",232.0
+233,t0,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to go.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to go.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Nicole')",233.0
+234,t0,subject-control,Stephanie,Nicole,True,promised,to read,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to read.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to read.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Nicole')",234.0
+235,t0,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to read.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to read.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Nicole')",235.0
+236,t0,subject-control,Stephanie,Nicole,True,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to run.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to run.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Stephanie')",236.0
+237,t0,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to run.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to run.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Stephanie')",237.0
+238,t0,subject-control,Stephanie,Nicole,True,promised,to call,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie promised Nicole to call.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie promised Nicole to call.\n\nQuestion: Who was promised something, Nicole or Stephanie?\nAnswer: ', 'Nicole')",238.0
+239,t0,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to call.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie promised Nicole to call.\n\nQuestion: Who was promised something, Stephanie or Nicole?\nAnswer: ', 'Stephanie')",239.0
+240,t0,subject-control,Stephanie,William,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to come.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to come.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",240.0
+241,t0,subject-control,Stephanie,William,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to come.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to come.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",241.0
+242,t0,subject-control,Stephanie,William,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to go.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to go.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",242.0
+243,t0,subject-control,Stephanie,William,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to go.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to go.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",243.0
+244,t0,subject-control,Stephanie,William,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to read.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to read.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",244.0
+245,t0,subject-control,Stephanie,William,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to read.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to read.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",245.0
+246,t0,subject-control,Stephanie,William,True,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to run.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to run.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",246.0
+247,t0,subject-control,Stephanie,William,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to run.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to run.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",247.0
+248,t0,subject-control,Stephanie,William,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to call.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to call.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",248.0
+249,t0,subject-control,Stephanie,William,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to call.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie promised William to call.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",249.0
+250,t0,subject-control,William,Avery,True,promised,to come,William,Avery,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to come.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to come.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'Avery')",250.0
+251,t0,subject-control,William,Avery,False,promised,to come,William,Avery,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to come.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to come.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'Avery')",251.0
+252,t0,subject-control,William,Avery,True,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to go.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to go.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",252.0
+253,t0,subject-control,William,Avery,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to go.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to go.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",253.0
+254,t0,subject-control,William,Avery,True,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to read.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to read.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",254.0
+255,t0,subject-control,William,Avery,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to read.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to read.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",255.0
+256,t0,subject-control,William,Avery,True,promised,to run,William,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William promised Avery to run.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: William promised Avery to run.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'Avery')",256.0
+257,t0,subject-control,William,Avery,False,promised,to run,William,Avery,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to run.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to run.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'Avery')",257.0
+258,t0,subject-control,William,Avery,True,promised,to call,William,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William promised Avery to call.
+
+Question: Who was promised something, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: William promised Avery to call.\n\nQuestion: Who was promised something, Avery or William?\nAnswer: ', 'Avery')",258.0
+259,t0,subject-control,William,Avery,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to call.
+
+Question: Who was promised something, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William promised Avery to call.\n\nQuestion: Who was promised something, William or Avery?\nAnswer: ', 'William')",259.0
+260,t0,subject-control,William,Casey,True,promised,to come,William,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William promised Casey to come.
+
+Question: Who was promised something, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: William promised Casey to come.\n\nQuestion: Who was promised something, Casey or William?\nAnswer: ', 'Casey')",260.0
+261,t0,subject-control,William,Casey,False,promised,to come,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to come.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to come.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",261.0
+262,t0,subject-control,William,Casey,True,promised,to go,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to go.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to go.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",262.0
+263,t0,subject-control,William,Casey,False,promised,to go,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to go.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to go.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",263.0
+264,t0,subject-control,William,Casey,True,promised,to read,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to read.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to read.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",264.0
+265,t0,subject-control,William,Casey,False,promised,to read,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to read.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to read.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",265.0
+266,t0,subject-control,William,Casey,True,promised,to run,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to run.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to run.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",266.0
+267,t0,subject-control,William,Casey,False,promised,to run,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to run.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to run.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'Casey')",267.0
+268,t0,subject-control,William,Casey,True,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to call.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to call.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'William')",268.0
+269,t0,subject-control,William,Casey,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to call.
+
+Question: Who was promised something, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William promised Casey to call.\n\nQuestion: Who was promised something, William or Casey?\nAnswer: ', 'William')",269.0
+270,t0,subject-control,William,Joseph,True,promised,to come,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William promised Joseph to come.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William promised Joseph to come.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",270.0
+271,t0,subject-control,William,Joseph,False,promised,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to come.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to come.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",271.0
+272,t0,subject-control,William,Joseph,True,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to go.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to go.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",272.0
+273,t0,subject-control,William,Joseph,False,promised,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to go.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to go.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",273.0
+274,t0,subject-control,William,Joseph,True,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to read.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to read.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",274.0
+275,t0,subject-control,William,Joseph,False,promised,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to read.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to read.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",275.0
+276,t0,subject-control,William,Joseph,True,promised,to run,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William promised Joseph to run.
+
+Question: Who was promised something, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William promised Joseph to run.\n\nQuestion: Who was promised something, Joseph or William?\nAnswer: ', 'Joseph')",276.0
+277,t0,subject-control,William,Joseph,False,promised,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to run.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to run.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",277.0
+278,t0,subject-control,William,Joseph,True,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to call.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to call.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",278.0
+279,t0,subject-control,William,Joseph,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to call.
+
+Question: Who was promised something, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William promised Joseph to call.\n\nQuestion: Who was promised something, William or Joseph?\nAnswer: ', 'William')",279.0
+280,t0,subject-control,William,Nicole,True,promised,to come,William,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William promised Nicole to come.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William promised Nicole to come.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",280.0
+281,t0,subject-control,William,Nicole,False,promised,to come,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to come.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to come.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",281.0
+282,t0,subject-control,William,Nicole,True,promised,to go,William,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William promised Nicole to go.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William promised Nicole to go.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",282.0
+283,t0,subject-control,William,Nicole,False,promised,to go,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to go.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to go.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",283.0
+284,t0,subject-control,William,Nicole,True,promised,to read,William,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William promised Nicole to read.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William promised Nicole to read.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",284.0
+285,t0,subject-control,William,Nicole,False,promised,to read,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to read.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to read.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",285.0
+286,t0,subject-control,William,Nicole,True,promised,to run,William,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William promised Nicole to run.
+
+Question: Who was promised something, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William promised Nicole to run.\n\nQuestion: Who was promised something, Nicole or William?\nAnswer: ', 'Nicole')",286.0
+287,t0,subject-control,William,Nicole,False,promised,to run,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to run.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to run.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'Nicole')",287.0
+288,t0,subject-control,William,Nicole,True,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to call.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to call.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'William')",288.0
+289,t0,subject-control,William,Nicole,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to call.
+
+Question: Who was promised something, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William promised Nicole to call.\n\nQuestion: Who was promised something, William or Nicole?\nAnswer: ', 'William')",289.0
+290,t0,subject-control,William,Stephanie,True,promised,to come,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to come.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to come.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",290.0
+291,t0,subject-control,William,Stephanie,False,promised,to come,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to come.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to come.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",291.0
+292,t0,subject-control,William,Stephanie,True,promised,to go,William,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William promised Stephanie to go.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William promised Stephanie to go.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",292.0
+293,t0,subject-control,William,Stephanie,False,promised,to go,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to go.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to go.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",293.0
+294,t0,subject-control,William,Stephanie,True,promised,to read,William,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William promised Stephanie to read.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William promised Stephanie to read.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",294.0
+295,t0,subject-control,William,Stephanie,False,promised,to read,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to read.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to read.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",295.0
+296,t0,subject-control,William,Stephanie,True,promised,to run,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to run.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to run.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",296.0
+297,t0,subject-control,William,Stephanie,False,promised,to run,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to run.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to run.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",297.0
+298,t0,subject-control,William,Stephanie,True,promised,to call,William,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William promised Stephanie to call.
+
+Question: Who was promised something, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William promised Stephanie to call.\n\nQuestion: Who was promised something, Stephanie or William?\nAnswer: ', 'Stephanie')",298.0
+299,t0,subject-control,William,Stephanie,False,promised,to call,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to call.
+
+Question: Who was promised something, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William promised Stephanie to call.\n\nQuestion: Who was promised something, William or Stephanie?\nAnswer: ', 'Stephanie')",299.0
