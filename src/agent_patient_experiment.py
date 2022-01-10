@@ -8,7 +8,7 @@ import pandas as pd
 from tqdm import tqdm 
 
 from api_tools import FixedGPTPrompt, run_experiment
-from metrics import StringMetric
+from metrics import StringMetric, AgentPatientStringMetric
 from experiment import Experiment
 
 class AgentPatientExperiment(Experiment):
@@ -75,10 +75,10 @@ class AgentPatientExperiment(Experiment):
         for prompt_dict in tqdm(prompt_data):
             prompt = prompt_dict['prompt'] 
             true_value = prompt_dict['correct_value']
-            metric = StringMetric(lookup) 
+            metric = AgentPatientStringMetric(lookup) 
             metric, responses = run_experiment(self.experiment_fxn, prompt, replicants, metric, self.kwargs) 
             for resp in responses:
-                inner_metric = StringMetric(lookup) 
+                inner_metric = AgentPatientStringMetric(lookup) 
                 inner_metric(resp[1])
                 acc, count, __ = inner_metric.get_metric(true_value)
                 pred = [k for k,v in count.items() if v > 0][0]

@@ -146,6 +146,54 @@ def process_to_ignore(df, thresh_perc = 0.9):
     # print(f"after: {len(df)}")
     return df
 
+class AgentPatientStringMetric(StringMetric):
+    def __init__(self, class_lookups: Dict[str, List[str]]):
+        super().__init__(class_lookups)
+
+    def __call__(self, text: str): 
+        if type(text) is not str:
+            self.classes['other'].append("Error")
+        else:
+            text = self.extract_answer_string(text)
+            split_text = re.split("\s+", text.lower())
+            for k, keywords in self.class_lookups.items():
+                for kw in keywords:
+                    if kw in split_text: 
+                        self.classes[k].append(text)
+                        return
+            self.classes['other'].append(text)
+
+    def extract_answer_string(self, text):
+        # Rule 1: if the answer is just one word, return that 
+        words = re.split("\s+", text)
+        if len(words) == 1:
+            return words[0] 
+
+        # Rule 2: if the string "[Tt]he answer is X" appears, extract that
+        ans_gex = re.compile(r"[tT]he answer is ((yes)|(no))", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            return answer_text.group(1)
+
+        # Rule 3: if "The state of the participant is changed" appears return yes
+        ans_gex = re.compile(r"the state of the participant is changed", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            return "Yes"
+
+        # Rule 4: if "The state of the participant is not changed" appears return yes
+        ans_gex = re.compile(r"the state of the participant is not changed", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            return "No"
+
+        # Rule 5: look for ^((Yes)|(No))
+        ans_gex = re.compile(r"^((Yes)|(No))", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            return answer_text.group(1)
+
+        return "other"
 
 def get_accuracy(df, ignore_first_only = False): 
     if len(df) == 0:
