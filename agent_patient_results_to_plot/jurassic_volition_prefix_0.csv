@@ -1,0 +1,401 @@
+,model,exp_type,prompt,pred,true,response,Unnamed: 0
+0,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""'' President Musharraf promised to help us and cooperate with us on curbing terrorist activity by the Taliban , '' says Karzai .""
+Question: In the event ""curbing"", does the participant ""activity"" act with volition?
+Answer: ",No,No,(No),0.0
+1,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""named"", does the participant ""Holinshed"" act with volition?
+Answer: ",other,No,(A) No,1.0
+2,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" Should the Arctic Ocean become ice - free in summer , it is likely that polar bears and some seal species would be driven toward extinction , "" the report concluded .""
+Question: In the event ""driven"", does the participant ""bears"" act with volition?
+Answer: ",No,No,(A) No,2.0
+3,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They were from all accounts marginalized and not listened to .""
+Question: In the event ""marginalized"", does the participant ""They"" act with volition?
+Answer: ",Yes,No,(Yes),3.0
+4,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""NASA has some PR hurdles to overcome in the future .""
+Question: In the event ""has"", does the participant ""hurdles"" act with volition?
+Answer: ",Yes,No,(Yes),4.0
+5,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""And they deliver !""
+Question: In the event ""deliver"", does the participant ""they"" act with volition?
+Answer: ",Yes,Yes,(Yes),5.0
+6,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Denial of the status of marriage to those who would freely accept its responsibilities creates legal and economic inequities and social injustice .""
+Question: In the event ""creates"", does the participant ""inequities"" act with volition?
+Answer: ",No,No,(No),6.0
+7,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Either I suck at my own style or Janice is a genius .""
+Question: In the event ""suck"", does the participant ""I"" act with volition?
+Answer: ",Yes,No,(Yes),7.0
+8,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I thought the UK was completely devoid of good NYC style pizza .""
+Question: In the event ""thought"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),8.0
+9,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But if -- there 's a painting on the wall in the Oval Office that shows a horseman charging up a steep cliff , and there are at least two other horsemen following .""
+Question: In the event ""shows"", does the participant ""horseman"" act with volition?
+Answer: ",Yes,No,(Yes),9.0
+10,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""There is a painting on my wall in the Oval -- first of all , I do n't know .""
+Question: In the event ""is"", does the participant ""painting"" act with volition?
+Answer: ",Yes,No,(Yes),10.0
+11,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""A NATO spokesman said : "" There 's no tracking mechanism to ensure they do n't fall into the wrong hands .""
+Question: In the event ""fall"", does the participant ""they"" act with volition?
+Answer: ",other,No,"(A) No, ""they"" is passive",11.0
+12,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""they all need love and attn , food , proper surroundings etc .""
+Question: In the event ""need"", does the participant ""they"" act with volition?
+Answer: ",No,No,(No),12.0
+13,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" I hope that industry , if put to the test , can do better [ than the government ] , but I do not expect it , "" Griffin added .""
+Question: In the event ""expect"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"(1) Yes, because ""I"" is the subject",13.0
+14,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My cat had a seizure yesterday and was ill .""
+Question: In the event ""had"", does the participant ""cat"" act with volition?
+Answer: ",Yes,No,(Yes),14.0
+15,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""1575 Leonardo beats Ruy Lopez in Madrid .""
+Question: In the event ""beats"", does the participant ""Leonardo"" act with volition?
+Answer: ",Yes,Yes,(Yes),15.0
+16,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I think they may even be better than the pair I have been using this past year !""
+Question: In the event ""think"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),16.0
+17,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a concern that the Enron optionality bug could bite us on the backside with that one .""
+Question: In the event ""have"", does the participant ""concern"" act with volition?
+Answer: ",Yes,No,(Yes),17.0
+18,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I extend my hand to each of you in true friendship , and honor .""
+Question: In the event ""extend"", does the participant ""hand"" act with volition?
+Answer: ",Yes,No,(Yes),18.0
+19,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But he suffers the severe effects of the aftermath , and we are all suffering along with him now , since he is the most powerful man in the world .""
+Question: In the event ""suffers"", does the participant ""he"" act with volition?
+Answer: ",Yes,No,(Yes),19.0
+20,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Two vaunted economists - one a Nobel Prize winner and the other a nationally renowned budget expert - have analyzed the data at hand and put a price tag on the Iraq occupation .""
+Question: In the event ""have"", does the participant ""economists"" act with volition?
+Answer: ",No,Yes,(No),20.0
+21,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have two cats , and at first they hissed at each other because cats are very territorial , but now they do fight and play .""
+Question: In the event ""have"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),21.0
+22,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You have two adjustment screws for up and down and right to left positions .""
+Question: In the event ""have"", does the participant ""You"" act with volition?
+Answer: ",Yes,Yes,(Yes),22.0
+23,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .""
+Question: In the event ""received"", does the participant ""treatment"" act with volition?
+Answer: ",No,No,(No),23.0
+24,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We had a large party , about fifty people or so , and yet everything was served quickly and we all had a wonderful time .""
+Question: In the event ""had"", does the participant ""We"" act with volition?
+Answer: ",Yes,Yes,(Yes),24.0
+25,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a new born daughter and she helped me with a lot .""
+Question: In the event ""have"", does the participant ""daughter"" act with volition?
+Answer: ",Yes,No,(Yes),25.0
+26,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They have a credit card minimum .""
+Question: In the event ""have"", does the participant ""They"" act with volition?
+Answer: ",Yes,Yes,(Yes),26.0
+27,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I purchased a 2 - year old certified pre-owned BMW from this dealership .""
+Question: In the event ""purchased"", does the participant ""BMW"" act with volition?
+Answer: ",Yes,No,(Yes),27.0
+28,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I had a sampler of IPA , Brawler , Love Stout & ESA .""
+Question: In the event ""had"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),28.0
+29,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Attached is a forecast for the rest of the summer for the X ( NWP and PGT ) .""
+Question: In the event ""Attached"", does the participant ""forecast"" act with volition?
+Answer: ",Yes,No,(Yes),29.0
+30,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The night I drove back home , I found that the rear window has some leakage .""
+Question: In the event ""drove"", does the participant ""I"" act with volition?
+Answer: ",No,Yes,(No),30.0
+31,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I ended up paying much more .""
+Question: In the event ""paying"", does the participant ""more"" act with volition?
+Answer: ",Yes,No,(Yes),31.0
+32,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Any of the tip - top places have great ice - cream , get them to mix it up .""
+Question: In the event ""have"", does the participant ""cream"" act with volition?
+Answer: ",Yes,No,(Yes),32.0
+33,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I did the work myself for $ 50 .""
+Question: In the event ""did"", does the participant ""work"" act with volition?
+Answer: ",No,No,(No),33.0
+34,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""they fixed my garage doors in literally less than an hour .""
+Question: In the event ""fixed"", does the participant ""they"" act with volition?
+Answer: ",Yes,Yes,(Yes),34.0
+35,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The future president joined the Guard in May 1968 .""
+Question: In the event ""joined"", does the participant ""Guard"" act with volition?
+Answer: ",No,Yes,(No),35.0
+36,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They love leaf or romaine lettuce and tomatos , celery , cucumbers , carrots .""
+Question: In the event ""love"", does the participant ""lettuce"" act with volition?
+Answer: ",No,No,(No),36.0
+37,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a parakeet named Cookie . :P""
+Question: In the event ""have"", does the participant ""parakeet"" act with volition?
+Answer: ",Yes,No,(Yes),37.0
+38,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Mark Elliott tells me that you drafted some trader guidelines ( physical and financial ) for the London traders .""
+Question: In the event ""drafted"", does the participant ""you"" act with volition?
+Answer: ",Yes,Yes,(Yes),38.0
+39,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My vet told me when a dog is vomiting a lot , it could be a sign of obstruction .""
+Question: In the event ""told"", does the participant ""me"" act with volition?
+Answer: ",Yes,Yes,(Yes),39.0
+40,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I think he could 've done more to assuage my concerns by giving me concrete facts .""
+Question: In the event ""think"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),40.0
+41,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The Leads who are responsible for Associates are as follows :""
+Question: In the event ""are"", does the participant ""Leads"" act with volition?
+Answer: ",No,Yes,(No),41.0
+42,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I enjoyed the animations and wanted to share them with my friends .""
+Question: In the event ""enjoyed"", does the participant ""I"" act with volition?
+Answer: ",No,Yes,(No),42.0
+43,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""According to the Citizenship and Immigration Canada web site at http://www.cic.gc.ca/english/immigrate/skilled/assess/index.asp , it states "" Note : you must meet the minimum requirements for your application to be eligible for processing . """"
+Question: In the event ""meet"", does the participant ""requirements"" act with volition?
+Answer: ",Yes,No,"(A) Yes, ""meet"" is volitional",43.0
+44,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" They 're just pushing them aside , "" he said .""
+Question: In the event ""said"", does the participant ""he"" act with volition?
+Answer: ",No,Yes,(No),44.0
+45,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I wanted to be very blonde and instead he pulled my root color throughout my whole hair which is a gross mousey brown .""
+Question: In the event ""wanted"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),45.0
+46,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You need a background in law enforcement .""
+Question: In the event ""need"", does the participant ""background"" act with volition?
+Answer: ",Yes,No,(Yes),46.0
+47,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The biggest LTTE maritime disaster was reported in the now - defunct Asiaweek in 2001 .""
+Question: In the event ""reported"", does the participant ""disaster"" act with volition?
+Answer: ",No,No,(No),47.0
+48,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""His press release following the hearing renewed the call for "" refunds . """"
+Question: In the event ""renewed"", does the participant ""call"" act with volition?
+Answer: ",No,No,(No),48.0
+49,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We tried 4 different style of donuts , they were all the same when it came to quality .""
+Question: In the event ""tried"", does the participant ""We"" act with volition?
+Answer: ",Yes,Yes,(Yes),49.0
+50,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The dramatic increase in radiation - induced thyroid cancers in children and adolescents in Belarus , Russia , and Ukraine , which have been observed since 1991 , continues to this day .""
+Question: In the event ""continues"", does the participant ""increase"" act with volition?
+Answer: ",No,No,"(A) No, because ""continues"" is a passive verb",50.0
+51,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""None of them did , and most importantly , the winning bidders did not .""
+Question: In the event ""did"", does the participant ""None"" act with volition?
+Answer: ",No,Yes,(No),51.0
+52,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Al - Sharq al - Awsat reports that a key eyewitness in the trial of Saddam Hussein for a 1982 massacre at Dujail has died .""
+Question: In the event ""died"", does the participant ""eyewitness"" act with volition?
+Answer: ",No,No,(No),52.0
+53,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I saw a site that charges $ 0.70 per mile .""
+Question: In the event ""saw"", does the participant ""site"" act with volition?
+Answer: ",Yes,No,(Yes),53.0
+54,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I like to imagine the thought processes going on in W 's head if he were to actually read the letter , but it is hard to picture him actually reading this letter .""
+Question: In the event ""picture"", does the participant ""him"" act with volition?
+Answer: ",Yes,No,(Yes),54.0
+55,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I need suggestions for San Francisco restaurants with good food and good catering service .?""
+Question: In the event ""need"", does the participant ""suggestions"" act with volition?
+Answer: ",other,No,Suggestion is volitional,55.0
+56,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I had my wedding luncheon at this BJ s restaurant , and it was one of the best choices that I made .""
+Question: In the event ""had"", does the participant ""luncheon"" act with volition?
+Answer: ",No,No,(No),56.0
+57,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""It 's located in the huge HONKA Log Homes building , by Walmart off of Evergreen Parkway .""
+Question: In the event ""located"", does the participant ""It"" act with volition?
+Answer: ",Yes,No,"(Yes) ""It"" acts with volition",57.0
+58,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The latter usually consider human beings a threat but the polar bear considers humans a snack , experts said .""
+Question: In the event ""consider"", does the participant ""beings"" act with volition?
+Answer: ",No,No,(No),58.0
+59,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""It is this circle that makes sure that women remain inferior , that democracy is unthinkable and that exposure to the outside world is minimal .""
+Question: In the event ""remain"", does the participant ""women"" act with volition?
+Answer: ",No,No,(No),59.0
+60,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The Commission said it had no legal grounds for such an exclusion .""
+Question: In the event ""said"", does the participant ""Commission"" act with volition?
+Answer: ",No,Yes,(No),60.0
+61,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The classes cover all age and skill ranges , with BALLROOM , LATIN , SEQUENCE , STREET , DISCO , LINE DANCING , BALLET , TAP & JAZZ .""
+Question: In the event ""cover"", does the participant ""ranges"" act with volition?
+Answer: ",No,No,"(No) ""cover"" is a passive verb",61.0
+62,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Allawi 's aged cousin and the man 's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped .""
+Question: In the event ""behead"", does the participant ""them"" act with volition?
+Answer: ",No,No,(No),62.0
+63,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I melt brass and cast it http://www.mikegigi.com/castgobl.htm""
+Question: In the event ""melt"", does the participant ""brass"" act with volition?
+Answer: ",No,No,(No),63.0
+64,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !""
+Question: In the event ""fixed"", does the participant ""it"" act with volition?
+Answer: ",Yes,No,(Yes),64.0
+65,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I ordered 1000 postcards , we normally order 5000 or more .""
+Question: In the event ""order"", does the participant ""we"" act with volition?
+Answer: ",Yes,Yes,(Yes),65.0
+66,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They have the best prices locally and good customer service .""
+Question: In the event ""have"", does the participant ""prices"" act with volition?
+Answer: ",Yes,No,(Yes),66.0
+67,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I HAD TO ASK THE GIRL WHO BROUGHT MY FOOD AND SHE NEVER CAME BACK TO LET ME KNOW .""
+Question: In the event ""BROUGHT"", does the participant ""WHO"" act with volition?
+Answer: ",Yes,Yes,(Yes),67.0
+68,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Nina Chahine , 19 , who with her family was among the named plaintiffs in the lawsuit , said her wedding in the southern city of Tyre was set for July 13 .""
+Question: In the event ""said"", does the participant ""Chahine"" act with volition?
+Answer: ",No,Yes,(No),68.0
+69,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""EVERYTHING IN HERE SEEMS TO AMAZE ME !!!""
+Question: In the event ""SEEMS"", does the participant ""EVERYTHING"" act with volition?
+Answer: ",No,No,(No),69.0
+70,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""All of the doors tend to look alike and having ' something ' on your door helps you and your kids find your room easier .""
+Question: In the event ""tend"", does the participant ""All"" act with volition?
+Answer: ",Yes,No,"(Yes) ""All"" acts with volition",70.0
+71,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The name was derived from the founder 's name Dr. Michael Cowpland .""
+Question: In the event ""derived"", does the participant ""name"" act with volition?
+Answer: ",other,No,"Derived means ""come from""",71.0
+72,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""From then on , the Beatles began to get involved in false religions and to preach them to the world .""
+Question: In the event ""began"", does the participant ""Beatles"" act with volition?
+Answer: ",No,Yes,(No),72.0
+73,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i knew someone in college who had one and i loved it .""
+Question: In the event ""knew"", does the participant ""i"" act with volition?
+Answer: ",Yes,Yes,(Yes),73.0
+74,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have 5 sisters and so including my mom ... he is the only guy in a house of six females .""
+Question: In the event ""have"", does the participant ""sisters"" act with volition?
+Answer: ",Yes,No,(Yes),74.0
+75,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Prices for electricity jumped from an average of $ 249 a megawatt to $ 700 a megawatt within three days , ISO records show .""
+Question: In the event ""jumped"", does the participant ""Prices"" act with volition?
+Answer: ",Yes,No,(Yes),75.0
+76,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I left you a voice mail on Friday .""
+Question: In the event ""left"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),76.0
+77,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He described Allawi 's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors .""
+Question: In the event ""dismissed"", does the participant ""government"" act with volition?
+Answer: ",No,No,(No),77.0
+78,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The referenced TAGG # was entered as a ' New Counterparty ' , can you please let me know what counterparty this is so we can correctly assess the counterparty exposure .""
+Question: In the event ""assess"", does the participant ""exposure"" act with volition?
+Answer: ",No,No,(No),78.0
+79,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Climate : Humans fuss , animals adjust""
+Question: In the event ""fuss"", does the participant ""Humans"" act with volition?
+Answer: ",No,Yes,(No),79.0
+80,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Linda Robertson says they should be charged to Jim Steffes ' cost center , etc .""
+Question: In the event ""charged"", does the participant ""they"" act with volition?
+Answer: ",Yes,No,(Yes),80.0
+81,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I thought that I had gained my cockatiel 's trust , but now he 's not coming to me when I open his cage .""
+Question: In the event ""open"", does the participant ""I"" act with volition?
+Answer: ",No,Yes,(No),81.0
+82,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The last wolf was killed in Yellowstone National Park in 1943 .""
+Question: In the event ""killed"", does the participant ""wolf"" act with volition?
+Answer: ",Yes,No,(Yes),82.0
+83,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" The governor believes it was the defining moment , when what was a mounting problem turned into an instant crisis , "" Maviglio said .""
+Question: In the event ""said"", does the participant ""Maviglio"" act with volition?
+Answer: ",No,Yes,(No),83.0
+84,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The city mayor said rescuers were unable to retrieve the dead .""
+Question: In the event ""said"", does the participant ""mayor"" act with volition?
+Answer: ",Yes,Yes,(Yes),84.0
+85,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""She forwarded the Sommer letter to Stan and discussed it with him .""
+Question: In the event ""forwarded"", does the participant ""letter"" act with volition?
+Answer: ",Yes,No,(Yes),85.0
+86,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I started this page to help with my boredom .""
+Question: In the event ""started"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),86.0
+87,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""THE DAILY STAR publishes this commentary in agreement with Agence Global""
+Question: In the event ""publishes"", does the participant ""STAR"" act with volition?
+Answer: ",No,Yes,(No),87.0
+88,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I recommend buying a single unlimited Europass and travelling anywhere in the EU your heart desires .""
+Question: In the event ""recommend"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),88.0
+89,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""In addition , is there someone who could consider the correlation between US CPI and the $ / euro exchange rate .""
+Question: In the event ""consider"", does the participant ""someone"" act with volition?
+Answer: ",Yes,Yes,(Yes),89.0
+90,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" The governor believes it was the defining moment , when what was a mounting problem turned into an instant crisis , "" Maviglio said .""
+Question: In the event ""believes"", does the participant ""governor"" act with volition?
+Answer: ",Yes,Yes,(Yes),90.0
+91,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I expect to send them out to you sometime tomorrow .""
+Question: In the event ""expect"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),91.0
+92,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" Success comes before work "" only in the dictionary""
+Question: In the event ""comes"", does the participant ""Success"" act with volition?
+Answer: ",No,No,"(A) No, because ""comes"" is a passive verb",92.0
+93,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Lee Huber made the same request last year and we gave her the chair ( she only wanted one , however ) .""
+Question: In the event ""made"", does the participant ""Huber"" act with volition?
+Answer: ",Yes,Yes,(Yes),93.0
+94,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The last I checked , the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians .""
+Question: In the event ""have"", does the participant ""way"" act with volition?
+Answer: ",Yes,No,(Yes),94.0
+95,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But today , I got a boy and realized that he is HUGE !""
+Question: In the event ""got"", does the participant ""boy"" act with volition?
+Answer: ",Yes,No,(Yes),95.0
+96,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I called the "" 207 "" number and listened to the same recording loop 3 times before I gave up .""
+Question: In the event ""called"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,(Yes),96.0
+97,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Once upon a time ( in 2001 , to be specific ) , the Coca - Cola corporation built a bottling plant in a small and remote Indian village in the state of Kerala .""
+Question: In the event ""built"", does the participant ""corporation"" act with volition?
+Answer: ",No,Yes,(No),97.0
+98,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""sorry , i left lou off of the message .""
+Question: In the event ""left"", does the participant ""i"" act with volition?
+Answer: ",No,No,(No),98.0
+99,jurassic-large,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""A lack of organisation , coupled with the distain for its customers , makes this the worst rental agency I have used .""
+Question: In the event ""makes"", does the participant ""this"" act with volition?
+Answer: ",No,No,(No),99.0

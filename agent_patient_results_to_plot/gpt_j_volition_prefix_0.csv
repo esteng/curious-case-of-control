@@ -1,5 +1,5 @@
 ,model,exp_type,prompt,pred,true,response,Unnamed: 0
-0,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+0,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""'' President Musharraf promised to help us and cooperate with us on curbing terrorist activity by the Taliban , '' says Karzai .""
 Question: In the event ""curbing"", does the participant ""activity"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -9,19 +9,21 @@ Answer:
 
 A:
 
-The answer is yes.
-The word ""activity"" is a noun, and the verb ""act"" is a verb.
-",0.0
-1,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""to cooperate"" is intransitive, so the sentence is not grammatical.
+The verb ""to cooperate""",0.0
+1,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
 Question: In the event ""named"", does the participant ""Holinshed"" act with volition?
-Answer: ",other,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
 Question: In the event ""named"", does the participant ""Holinshed"" act with volition?
-Answer: 
+Answer: __________
 
-The mysterious RAPHAEL Holinshed was named for the mysterious Ne",1.0
-2,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A:
+
+The answer is no.
+The word",1.0
+2,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: """" Should the Arctic Ocean become ice - free in summer , it is likely that polar bears and some seal species would be driven toward extinction , "" the report concluded .""
 Question: In the event ""driven"", does the participant ""bears"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -31,9 +33,9 @@ Answer:
 
 A:
 
-The answer is yes.
-The Arctic Ocean is a vast ocean, and the ice is a thin layer",2.0
-3,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is grammatically correct, but it is not a complete sentence.
+The subject of the sentence",2.0
+3,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""They were from all accounts marginalized and not listened to .""
 Question: In the event ""marginalized"", does the participant ""They"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -43,25 +45,24 @@ Answer:
 
 A:
 
-The word ""marginalized"" is a noun, and the word ""not listened to"" is a verb. 
-The verb ""to listen"" is a transitive verb, and the verb """,3.0
-4,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The word marginalized means ""to be made to feel or act as if one is not important or significant"".
+The word marginalized means ""to be made to feel or act as",3.0
+4,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""NASA has some PR hurdles to overcome in the future .""
 Question: In the event ""has"", does the participant ""hurdles"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""NASA has some PR hurdles to overcome in the future.""
 Question: In the event ""has"", does the participant ""hurdles"" act with volition?
 Answer: 
 
-The participant ""hurdles"" act with volition.
-
 A:
 
-The participant ""hurdles"" act with volition.
-
-The participant ""hurdles"" act with volition.
-",4.0
-5,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb has is intransitive, and the subject is NASA.
+The verb hurdles is transitive, and the subject is the object of the verb.
+The subject",4.0
+5,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""And they deliver !""
 Question: In the event ""deliver"", does the participant ""they"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -69,15 +70,13 @@ Sentence: ""And they deliver!""
 Question: In the event ""deliver"", does the participant ""they"" act with volition?
 Answer: 
 
-Yes, they deliver.
-No, they don't.
-
 A:
 
 The answer is yes.
-The verb ""deliver"" is a transitive verb. It means ""to deliver something to someone"".
-The verb ""they"" is",5.0
-6,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""deliver"" is intransitive, so it does not require a subject.
+The subject of the sentence is ""they"", which is a pronoun.
+The pronoun ""they"" can be",5.0
+6,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Denial of the status of marriage to those who would freely accept its responsibilities creates legal and economic inequities and social injustice .""
 Question: In the event ""creates"", does the participant ""inequities"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -87,9 +86,9 @@ Answer:
 
 A:
 
-The word ""creates"" is a noun, and the word ""inequities"" is a verb. 
-The word",6.0
-7,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is grammatically correct, but it is not a complete sentence. 
+The subject of the sentence is ""Denial",6.0
+7,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Either I suck at my own style or Janice is a genius .""
 Question: In the event ""suck"", does the participant ""I"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -97,15 +96,13 @@ Sentence: ""Either I suck at my own style or Janice is a genius.""
 Question: In the event ""suck"", does the participant ""I"" act with volition?
 Answer: 
 
-I suck at my own style.
-Janice is a genius.
-
 A:
 
-I suck at my own style.
-
-I suck at my own style is a statement.  It is not",7.0
-8,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a conditional sentence.
+The conditional sentence is a sentence that has a conditional clause.
+The conditional clause is a clause that is conditional on the truth",7.0
+8,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I thought the UK was completely devoid of good NYC style pizza .""
 Question: In the event ""thought"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -113,14 +110,13 @@ Sentence: ""I thought the UK was completely devoid of good NYC style pizza.""
 Question: In the event ""thought"", does the participant ""I"" act with volition?
 Answer: 
 
-I thought the UK was completely devoid of good NYC style pizza.
-
 A:
 
-I thought the UK was completely devoid of good NYC style pizza.
-
-I thought the UK was completely devoid of good NYC style",8.0
-9,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a statement of fact.
+The speaker is the subject of the sentence.
+The speaker is the one who thinks the UK is devoid of good NYC style pizza",8.0
+9,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""But if -- there 's a painting on the wall in the Oval Office that shows a horseman charging up a steep cliff , and there are at least two other horsemen following .""
 Question: In the event ""shows"", does the participant ""horseman"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -130,20 +126,23 @@ Answer:
 
 A:
 
-The word ""horseman"" is a noun, not a verb.  It",9.0
-10,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""shows"" is a transitive verb",9.0
+10,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""There is a painting on my wall in the Oval -- first of all , I do n't know .""
 Question: In the event ""is"", does the participant ""painting"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""There is a painting on my wall in the Oval -- first of all, I don't know.""
 Question: In the event ""is"", does the participant ""painting"" act with volition?
 Answer: 
 
-The painting is on my wall in the Oval.
-The painting is on my wall in the Oval.
-The painting is on my wall in the Oval.
-The painting is",10.0
-11,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A:
+
+The answer is no.
+The sentence is a question about the painting.
+The painting is not a participant in the sentence.
+The painting is not a",10.0
+11,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""A NATO spokesman said : "" There 's no tracking mechanism to ensure they do n't fall into the wrong hands .""
 Question: In the event ""fall"", does the participant ""they"" act with volition?
 Answer: ",other,No,"Answer this yes-no question about the following sentence.
@@ -155,25 +154,25 @@ A:
 
 The sentence is ambiguous. 
 
-There is no tracking mechanism to ensure they do not fall into the wrong hands.
+""There's no tracking mechanism to ensure they don't fall into the wrong hands.""
 
-The sentence is ambiguous",11.0
-12,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The subject of",11.0
+12,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""they all need love and attn , food , proper surroundings etc .""
 Question: In the event ""need"", does the participant ""they"" act with volition?
-Answer: ",other,No,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
 Sentence: ""they all need love and attn, food, proper surroundings etc.""
 Question: In the event ""need"", does the participant ""they"" act with volition?
 Answer: 
 
-""they all need love and attn, food, proper surroundings etc.""
-
 A:
 
-The sentence is ambiguous. 
-
-""they all need love and attn, food, proper surroundings etc.""",12.0
-13,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a conditional sentence.
+The subject of the sentence is ""they all"".
+The verb is ""need"".
+The predicate is ""love and attn",12.0
+13,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: """" I hope that industry , if put to the test , can do better [ than the government ] , but I do not expect it , "" Griffin added .""
 Question: In the event ""expect"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -183,8 +182,9 @@ Answer:
 
 A:
 
-I hope that industry, if put to the test, can do better [ than the government ], but I",13.0
-14,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is a conditional sentence.
+The conditional is formed by the conjunction ""if"" and the main clause",13.0
+14,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""My cat had a seizure yesterday and was ill .""
 Question: In the event ""had"", does the participant ""cat"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -192,27 +192,25 @@ Sentence: ""My cat had a seizure yesterday and was ill.""
 Question: In the event ""had"", does the participant ""cat"" act with volition?
 Answer: 
 
-""My cat had a seizure yesterday and was ill.""
-
 A:
 
 The answer is yes.
-The sentence is a declarative sentence, and the verb ""had"" is a transitive verb.
-The verb """,14.0
-15,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The cat is the subject of the sentence, and the cat is the agent of the verb ""had"".
+The cat is the agent of the verb ""had"" because the cat is the",14.0
+15,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""1575 Leonardo beats Ruy Lopez in Madrid .""
 Question: In the event ""beats"", does the participant ""Leonardo"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""1575 Leonardo beats Ruy Lopez in Madrid.""
 Question: In the event ""beats"", does the participant ""Leonardo"" act with volition?
 Answer: 
 
 A:
 
-The answer is yes.
-The verb ""beats"" is a transitive verb. It means ""to beat"" or ""to beat"".
-The verb ""beat"" is a dative verb. It",15.0
-16,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb ""beat"" is intransitive, and therefore the subject of the sentence is the object of the verb.
+The subject of the sentence is ""Leonardo"", and",15.0
+16,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I think they may even be better than the pair I have been using this past year !""
 Question: In the event ""think"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -220,14 +218,14 @@ Sentence: ""I think they may even be better than the pair I have been using this
 Question: In the event ""think"", does the participant ""I"" act with volition?
 Answer: 
 
-Yes, the participant ""I"" acts with volition.
-
 A:
 
 I think they may even be better than the pair I have been using this past year!
 
-I",16.0
-17,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+This is a conditional sentence. 
+
+I think they may even be",16.0
+17,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I have a concern that the Enron optionality bug could bite us on the backside with that one .""
 Question: In the event ""have"", does the participant ""concern"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -235,14 +233,11 @@ Sentence: ""I have a concern that the Enron optionality bug could bite us on the
 Question: In the event ""have"", does the participant ""concern"" act with volition?
 Answer: 
 
-The participant ""concern"" acts with volition.
-
 A:
 
-The participant ""concern"" acts with volition.
-
-Yes, it does.",17.0
-18,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""have"" is a perfect tense, and the verb ""concern"" is a present tense. 
+The sentence is in the past tense",17.0
+18,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I extend my hand to each of you in true friendship , and honor .""
 Question: In the event ""extend"", does the participant ""hand"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -252,9 +247,10 @@ Answer:
 
 A:
 
-The verb extend is a transitive verb. It means to extend, to extend the hand.
-The verb hand is a dative verb. It means to hold, to hold the hand",18.0
-19,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb extend is intransitive, so the subject hand is not acting.
+The verb extend is a transitive verb, so the subject hand is acting.
+The verb extend is",18.0
+19,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""But he suffers the severe effects of the aftermath , and we are all suffering along with him now , since he is the most powerful man in the world .""
 Question: In the event ""suffers"", does the participant ""he"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -264,23 +260,22 @@ Answer:
 
 A:
 
-The sentence is ambiguous. 
-
-But he suffers the severe effects of the aftermath, and we are all",19.0
-20,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb suffers is intransitive, and the subject is the person who is",19.0
+20,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Two vaunted economists - one a Nobel Prize winner and the other a nationally renowned budget expert - have analyzed the data at hand and put a price tag on the Iraq occupation .""
 Question: In the event ""have"", does the participant ""economists"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""Two vaunted economists - one a Nobel Prize winner and the other a nationally renowned budget expert - have analyzed the data at hand and put a price tag on the Iraq occupation.""
 Question: In the event ""have"", does the participant ""economists"" act with volition?
-Answer:  Yes, they do.
+Answer: 
 
 A:
 
-The sentence is ambiguous. 
-
-Two vaunted economists -",20.0
-21,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The two economists are acting with volition.
+The two",20.0
+21,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I have two cats , and at first they hissed at each other because cats are very territorial , but now they do fight and play .""
 Question: In the event ""have"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -288,10 +283,12 @@ Sentence: ""I have two cats, and at first they hissed at each other because cats
 Question: In the event ""have"", does the participant ""I"" act with volition?
 Answer: 
 
-I have two cats, and at first they hissed at each other because cats are very territorial, but now they do fight and play.
+A:
 
-",21.0
-22,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a simple declarative sentence.
+The subject is ""I"" and the predicate",21.0
+22,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""You have two adjustment screws for up and down and right to left positions .""
 Question: In the event ""have"", does the participant ""You"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -302,10 +299,10 @@ Answer:
 A:
 
 The answer is yes.
-The sentence is a question, and the answer is yes.
-The sentence is a question, and the answer is yes.
-The sentence is a question, and",22.0
-23,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The participant ""You"" is the subject of the sentence.
+The verb ""have"" is a transitive verb.
+The subject of a transitive verb is",22.0
+23,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .""
 Question: In the event ""received"", does the participant ""treatment"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -315,12 +312,9 @@ Answer:
 
 A:
 
-The word ""received"" is a noun, so it is a verb.
-
-A:
-
-The word ""received"" is a",23.0
-24,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""receive"" is intransitive, and the subject of the sentence is ""cities"".",23.0
+24,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""We had a large party , about fifty people or so , and yet everything was served quickly and we all had a wonderful time .""
 Question: In the event ""had"", does the participant ""We"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -328,12 +322,12 @@ Sentence: ""We had a large party, about fifty people or so, and yet everything w
 Question: In the event ""had"", does the participant ""We"" act with volition?
 Answer: 
 
-We had a large party, about fifty people or so, and yet everything was served quickly and we all had a wonderful time.
-
 A:
 
-",24.0
-25,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a simple past tense sentence.
+The past tense is used to describe an action that happened in",24.0
+25,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I have a new born daughter and she helped me with a lot .""
 Question: In the event ""have"", does the participant ""daughter"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -341,29 +335,27 @@ Sentence: ""I have a new born daughter and she helped me with a lot.""
 Question: In the event ""have"", does the participant ""daughter"" act with volition?
 Answer: 
 
-I have a new born daughter and she helped me with a lot.
-
 A:
 
-I have a new born daughter and she helped me with a lot.
-
-The verb ""help"" is a trans",25.0
-26,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The daughter is a person, and she is a person who has a will.
+The daughter is a person who has a will.
+The daughter has a will.",25.0
+26,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""They have a credit card minimum .""
 Question: In the event ""have"", does the participant ""They"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""They have a credit card minimum.""
 Question: In the event ""have"", does the participant ""They"" act with volition?
 Answer: 
 
 A:
 
-The answer is yes.
-The participant is the subject of the sentence.
-The verb ""have"" is a transitive verb.
-The subject is the person who is the subject of the sentence.
-The verb ""have""",26.0
-27,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb ""have"" is a copular verb, which means that it is used to express the subject of a sentence.
+In this case, the subject is ""They"".
+The verb ""have",26.0
+27,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I purchased a 2 - year old certified pre-owned BMW from this dealership .""
 Question: In the event ""purchased"", does the participant ""BMW"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -371,13 +363,12 @@ Sentence: ""I purchased a 2 - year old certified pre-owned BMW from this dealers
 Question: In the event ""purchased"", does the participant ""BMW"" act with volition?
 Answer: 
 
-Yes, the participant ""BMW"" acts with volition.
-
 A:
 
 The answer is yes.
-The verb ""purchase"" is a transitive verb. It means",27.0
-28,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""purchase"" is intransitive, so it does not require a direct object.
+The verb ""purchase"" is a",27.0
+28,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I had a sampler of IPA , Brawler , Love Stout & ESA .""
 Question: In the event ""had"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -387,25 +378,23 @@ Answer:
 
 A:
 
-I think the answer is yes.
-The sentence is a question, and the answer is yes.
-The sentence is a question, and the answer is yes.
-The sentence is a",28.0
-29,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""had"" is a perfect tense, and the perfect tense is used to express an action that was completed in the past.
+The perfect tense is",28.0
+29,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Attached is a forecast for the rest of the summer for the X ( NWP and PGT ) .""
 Question: In the event ""Attached"", does the participant ""forecast"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
 Sentence: ""Attached is a forecast for the rest of the summer for the X ( NWP and PGT ).""
 Question: In the event ""Attached"", does the participant ""forecast"" act with volition?
 Answer: 
-Yes, the participant ""forecasts"" act with volition.
 
 A:
 
-Yes, the participant ""forecasts"" act with volition.
-
-The",29.0
-30,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb forecast is intransitive, so it does not take an object.
+The verb forecast is a transitive",29.0
+30,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The night I drove back home , I found that the rear window has some leakage .""
 Question: In the event ""drove"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -413,31 +402,26 @@ Sentence: ""The night I drove back home, I found that the rear window has some l
 Question: In the event ""drove"", does the participant ""I"" act with volition?
 Answer: 
 
-The night I drove back home, I found that the rear window has some leakage.
-
 A:
 
+The night I drove back home, I found that the rear window has some leakage.
+
 The night I drove back home, I found that the rear window has some leakage.",30.0
-31,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+31,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I ended up paying much more .""
 Question: In the event ""paying"", does the participant ""more"" act with volition?
-Answer: ",other,No,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
 Sentence: ""I ended up paying much more.""
 Question: In the event ""paying"", does the participant ""more"" act with volition?
 Answer: 
 
 A:
 
-Yes, the participant ""more"" acts with volition.
-
-A:
-
-Yes, the participant ""more"" acts with volition.
-
-The participant ""more"" acts with volition.
-
-The participant """,31.0
-32,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""pay"" is a transitive verb, which means that it requires an object. 
+The object of the verb ""pay"" is ""much more"".
+The object of the verb """,31.0
+32,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Any of the tip - top places have great ice - cream , get them to mix it up .""
 Question: In the event ""have"", does the participant ""cream"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -447,12 +431,12 @@ Answer:
 
 A:
 
-Yes, the participant ""cream"" acts with volition.
+The sentence is ungrammatical. 
 
-The participant ""cream"" acts with volition.
+Any of the tip - top places have great ice - cream, get them to mix it up.
 
-The participant ""cream"" acts with vol",32.0
-33,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb",32.0
+33,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I did the work myself for $ 50 .""
 Question: In the event ""did"", does the participant ""work"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -460,13 +444,12 @@ Sentence: ""I did the work myself for $ 50.""
 Question: In the event ""did"", does the participant ""work"" act with volition?
 Answer: 
 
-""I did the work myself for $ 50.""
-
 A:
 
-The word ""work"" is a noun, and the verb ""work"" is a verb. 
-The verb ""work"" is a verb, and the noun",33.0
-34,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""work"" is intransitive, and the subject of the sentence is ""I"".
+The verb ""work"" is intransitive, and the subject of the sentence is """,33.0
+34,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""they fixed my garage doors in literally less than an hour .""
 Question: In the event ""fixed"", does the participant ""they"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -477,10 +460,9 @@ Answer:
 A:
 
 The answer is yes.
-The verb fix is a transitive verb. It means to fix something.
-The verb fix is used to describe the action of fixing something.
-The verb fix is used to",34.0
-35,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""fix"" is intransitive, meaning that it does not take an object.
+The verb ""fix"" is a transitive verb, meaning that it takes an",34.0
+35,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The future president joined the Guard in May 1968 .""
 Question: In the event ""joined"", does the participant ""Guard"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -490,28 +472,26 @@ Answer:
 
 A:
 
-The answer is yes.
-The sentence is ambiguous.  The sentence could be interpreted as:
+The future president joined the Guard in May 1968.
 
 The future president joined the Guard in May 1968.
 
-or
+The future president joined the Guard in May 1968.
 
 The future president joined the Guard in May",35.0
-36,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+36,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""They love leaf or romaine lettuce and tomatos , celery , cucumbers , carrots .""
 Question: In the event ""love"", does the participant ""lettuce"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""They love leaf or romaine lettuce and tomatos, celery, cucumbers, carrots.""
 Question: In the event ""love"", does the participant ""lettuce"" act with volition?
 Answer: 
 
 A:
 
-Yes, they love leaf or romaine lettuce and tomatos, celery, cucumbers, carrots.
-
-The word ""love"" is a noun, and the",36.0
-37,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb ""love"" is a transitive verb, which means that it requires an object.  The object of the verb ""love""",36.0
+37,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I have a parakeet named Cookie . :P""
 Question: In the event ""have"", does the participant ""parakeet"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -519,14 +499,12 @@ Sentence: ""I have a parakeet named Cookie. :P""
 Question: In the event ""have"", does the participant ""parakeet"" act with volition?
 Answer: 
 
-Yes, the participant parakeet acts with volition.
-
 A:
 
-Yes, the participant parakeet acts with volition.
+I have a parakeet named Cookie. :P
 
-The participant parakeet is a noun. It is a",37.0
-38,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+This is a sentence that is grammatically correct, but it is not a complete sentence. It is missing a subject and a verb.",37.0
+38,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Mark Elliott tells me that you drafted some trader guidelines ( physical and financial ) for the London traders .""
 Question: In the event ""drafted"", does the participant ""you"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -534,13 +512,12 @@ Sentence: ""Mark Elliott tells me that you drafted some trader guidelines ( phys
 Question: In the event ""drafted"", does the participant ""you"" act with volition?
 Answer: 
 
-Mark Elliott tells me that you drafted some trader guidelines ( physical and financial ) for the London traders.
-
 A:
 
-The sentence is correct.
-The question is whether the",38.0
-39,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""draft"" is intransitive, so it does not require an object.
+The verb ""tell"" is transitive",38.0
+39,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""My vet told me when a dog is vomiting a lot , it could be a sign of obstruction .""
 Question: In the event ""told"", does the participant ""me"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -551,10 +528,10 @@ Answer:
 A:
 
 The answer is yes.
-The question is whether the participant ""me"" acts with volition.
-The answer is yes.
-The question is whether the participant """,39.0
-40,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is a statement of fact. 
+The speaker is the vet.
+The vet is telling the dog's owner that the dog",39.0
+40,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I think he could 've done more to assuage my concerns by giving me concrete facts .""
 Question: In the event ""think"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -562,22 +539,19 @@ Sentence: ""I think he could've done more to assuage my concerns by giving me co
 Question: In the event ""think"", does the participant ""I"" act with volition?
 Answer: 
 
-I think he could have done more to assuage my concerns by giving me concrete facts.
-
 A:
 
-I think he could have done more to assuage my concerns",40.0
-41,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a question, and the question is about the speaker's opinion.
+The speaker is the subject of the sentence, and the",40.0
+41,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The Leads who are responsible for Associates are as follows :""
 Question: In the event ""are"", does the participant ""Leads"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""The Leads who are responsible for Associates are as follows :""
 Question: In the event ""are"", does the participant ""Leads"" act with volition?
-Answer: 
-
-The Leads who are responsible for Associates are as follows :
-                               ",41.0
-42,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+Answer:                                               ",41.0
+42,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I enjoyed the animations and wanted to share them with my friends .""
 Question: In the event ""enjoyed"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -585,12 +559,15 @@ Sentence: ""I enjoyed the animations and wanted to share them with my friends.""
 Question: In the event ""enjoyed"", does the participant ""I"" act with volition?
 Answer: 
 
-I enjoyed the animations and wanted to share them with my friends.
-I enjoyed the animations and wanted to share them with my friends.
-I enjoyed the animations and wanted to share them with my friends.
+A:
 
-",42.0
-43,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a simple declarative sentence.
+The subject is I.
+The verb is enjoyed.
+The object is the animations.
+The sentence is",42.0
+43,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""According to the Citizenship and Immigration Canada web site at http://www.cic.gc.ca/english/immigrate/skilled/assess/index.asp , it states "" Note : you must meet the minimum requirements for your application to be eligible for processing . """"
 Question: In the event ""meet"", does the participant ""requirements"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -598,21 +575,21 @@ Sentence: ""According to the Citizenship and Immigration Canada web site at http
 Question: In the event ""meet"", does the participant ""requirements"" act with volition?
 Answer: 
 
-""",43.0
-44,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A",43.0
+44,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: """" They 're just pushing them aside , "" he said .""
 Question: In the event ""said"", does the participant ""he"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: """" They're just pushing them aside, "" he said.""
 Question: In the event ""said"", does the participant ""he"" act with volition?
 Answer: 
 
 A:
 
-The question is not about volition, but about the action of the speaker.
-The sentence is not about the speaker, but about the action of the speaker.
-The speaker is the person who is saying",44.0
-45,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is a question, and the answer is no.
+The subject of the sentence is ""they"", and the verb is ""are"".  The subject is not acting with volition.
+The subject",44.0
+45,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I wanted to be very blonde and instead he pulled my root color throughout my whole hair which is a gross mousey brown .""
 Question: In the event ""wanted"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -620,34 +597,27 @@ Sentence: ""I wanted to be very blonde and instead he pulled my root color throu
 Question: In the event ""wanted"", does the participant ""I"" act with volition?
 Answer: 
 
-I wanted to be very blonde and instead he pulled my root color throughout my whole hair which is a gross mousey brown.
-
 A:
 
-I",45.0
-46,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a simple statement of fact. 
+The speaker wants to be blonde.
+The speaker is",45.0
+46,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""You need a background in law enforcement .""
 Question: In the event ""need"", does the participant ""background"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""You need a background in law enforcement.""
 Question: In the event ""need"", does the participant ""background"" act with volition?
 Answer: 
 
 A:
 
-Background is a noun, not a verb. 
-
-Background is a noun.
-
-Background is a noun.
-
-Background is a noun.
-
-Background is a noun.
-
-Background is a noun.
+The answer is no.
+The verb ""need"" is a modal verb, which means that it expresses a necessity.
+The verb ""need"" is a modal verb, which means that it expresses a necessity.
 ",46.0
-47,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+47,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The biggest LTTE maritime disaster was reported in the now - defunct Asiaweek in 2001 .""
 Question: In the event ""reported"", does the participant ""disaster"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -655,25 +625,24 @@ Sentence: ""The biggest LTTE maritime disaster was reported in the now - defunct
 Question: In the event ""reported"", does the participant ""disaster"" act with volition?
 Answer: 
 
-The biggest LTTE maritime disaster was reported in the now - defunct Asiaweek in 2001.
-
 A:
 
-The answer is yes.
-The word ""disaster"" is a noun",47.0
-48,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The biggest LTTE maritime disaster was reported in the now - defunct Asiaweek in 2001.
+
+The biggest LTTE maritime disaster was reported in the now - defunct Asiaweek",47.0
+48,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""His press release following the hearing renewed the call for "" refunds . """"
 Question: In the event ""renewed"", does the participant ""call"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
 Sentence: ""His press release following the hearing renewed the call for "" refunds. """"
 Question: In the event ""renewed"", does the participant ""call"" act with volition?
-Answer: 
+Answer: __________
 
 A:
 
-The word ""renewed"" is a noun, and the verb ""call"" is a verb. 
-The verb ""call"" is a verb, and the noun ""renew",48.0
-49,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""call"" is intransitive, so it does not take an object. 
+The verb ""renew"" is transitive, so it does take an object",48.0
+49,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""We tried 4 different style of donuts , they were all the same when it came to quality .""
 Question: In the event ""tried"", does the participant ""We"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -681,14 +650,14 @@ Sentence: ""We tried 4 different style of donuts, they were all the same when it
 Question: In the event ""tried"", does the participant ""We"" act with volition?
 Answer: 
 
-We tried 4 different style of donuts, they were all the same when it came to quality.
-
 A:
 
 The sentence is ambiguous. 
 
-We tried 4",49.0
-50,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+We tried 4 different style of donuts, they were all the same when it came to quality.
+
+The first part",49.0
+50,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The dramatic increase in radiation - induced thyroid cancers in children and adolescents in Belarus , Russia , and Ukraine , which have been observed since 1991 , continues to this day .""
 Question: In the event ""continues"", does the participant ""increase"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -698,35 +667,36 @@ Answer:
 
 A:
 
-The word ""increase"" is not used in the sense of ""increase in quantity""",50.0
-51,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The word ""continues"" is a verb, and the verb",50.0
+51,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""None of them did , and most importantly , the winning bidders did not .""
 Question: In the event ""did"", does the participant ""None"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""None of them did, and most importantly, the winning bidders did not.""
 Question: In the event ""did"", does the participant ""None"" act with volition?
 Answer: 
 
 A:
 
-The answer is yes.
-The participant ""None"" acts with volition.
-The participant ""None"" does not act with volition.
-The participant ""None"" does not",51.0
-52,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb ""did"" is a copula, and it is used to express the relationship between the subject and the predicate.
+The subject of the sentence",51.0
+52,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Al - Sharq al - Awsat reports that a key eyewitness in the trial of Saddam Hussein for a 1982 massacre at Dujail has died .""
 Question: In the event ""died"", does the participant ""eyewitness"" act with volition?
-Answer: ",other,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""Al - Sharq al - Awsat reports that a key eyewitness in the trial of Saddam Hussein for a 1982 massacre at Dujail has died.""
 Question: In the event ""died"", does the participant ""eyewitness"" act with volition?
 Answer: 
 
-The participant ""eyewitness"" is not a volitional act.
-
 A:
 
-The participant ""eyewitness"" is",52.0
-53,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb ""die"" is intransitive. 
+
+The intrans",52.0
+53,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I saw a site that charges $ 0.70 per mile .""
 Question: In the event ""saw"", does the participant ""site"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -736,9 +706,10 @@ Answer:
 
 A:
 
-The word ""site"" is a noun, and the verb ""site"" is a verb. 
-The verb ""site"" is a verb, and the noun ""site"" is a noun. ",53.0
-54,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+I think the answer is yes.
+The verb ""saw"" is intransitive, so it doesn't have a subject.
+The subject of the sentence is the site, which is a noun phrase",53.0
+54,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I like to imagine the thought processes going on in W 's head if he were to actually read the letter , but it is hard to picture him actually reading this letter .""
 Question: In the event ""picture"", does the participant ""him"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -748,9 +719,10 @@ Answer:
 
 A:
 
-I think the answer is yes.
-The sentence is a question, and the answer is yes",54.0
-55,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a conditional sentence.
+The conditional is a sentence",54.0
+55,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I need suggestions for San Francisco restaurants with good food and good catering service .?""
 Question: In the event ""need"", does the participant ""suggestions"" act with volition?
 Answer: ",other,No,"Answer this yes-no question about the following sentence.
@@ -758,14 +730,14 @@ Sentence: ""I need suggestions for San Francisco restaurants with good food and 
 Question: In the event ""need"", does the participant ""suggestions"" act with volition?
 Answer: 
 
-""I need suggestions for San Francisco restaurants with good food and good catering service.?""
-
 A:
 
-I think the question is asking for a yes-no question. 
+I need suggestions for San Francisco restaurants with good food and good catering service.?
 
-In the",55.0
-56,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+This is a request for suggestions. 
+
+I need suggestions for San Francisco restaurants with good",55.0
+56,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I had my wedding luncheon at this BJ s restaurant , and it was one of the best choices that I made .""
 Question: In the event ""had"", does the participant ""luncheon"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -776,9 +748,8 @@ Answer:
 A:
 
 The answer is yes.
-The word ""luncheon"" is a noun, and it is used to refer to a meal.
-",56.0
-57,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""had"" is a perfect tense, and the perfect tense is used to express an action that was",56.0
+57,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""It 's located in the huge HONKA Log Homes building , by Walmart off of Evergreen Parkway .""
 Question: In the event ""located"", does the participant ""It"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -789,10 +760,9 @@ Answer:
 A:
 
 The answer is yes.
-The verb ""located"" is a transitive verb. It is used to describe the location of something.
-
-It",57.0
-58,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is a simple sentence, and the subject is the pronoun ""It"".
+The subject of a simple sentence is always",57.0
+58,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The latter usually consider human beings a threat but the polar bear considers humans a snack , experts said .""
 Question: In the event ""consider"", does the participant ""beings"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -800,14 +770,12 @@ Sentence: ""The latter usually consider human beings a threat but the polar bear
 Question: In the event ""consider"", does the participant ""beings"" act with volition?
 Answer: 
 
-The polar bear considers humans a snack, experts said.
-
 A:
 
-The polar bear considers humans a snack, experts said.
+The latter usually consider human beings a threat but the polar bear considers humans a snack, experts said.
 
-The polar bear considers humans a snack",58.0
-59,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The latter usually consider human beings a threat but the polar",58.0
+59,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""It is this circle that makes sure that women remain inferior , that democracy is unthinkable and that exposure to the outside world is minimal .""
 Question: In the event ""remain"", does the participant ""women"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -817,10 +785,9 @@ Answer:
 
 A:
 
-The sentence is ambiguous. 
-
-It is this circle that makes sure that women remain inferior, that democracy is unthinkable and that exposure",59.0
-60,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is grammatically correct, but it is not a complete sentence.
+The subject of the sentence is ""It is this circle",59.0
+60,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The Commission said it had no legal grounds for such an exclusion .""
 Question: In the event ""said"", does the participant ""Commission"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -828,25 +795,26 @@ Sentence: ""The Commission said it had no legal grounds for such an exclusion.""
 Question: In the event ""said"", does the participant ""Commission"" act with volition?
 Answer: 
 
-The Commission said it had no legal grounds for such an exclusion.
-
 A:
 
 The Commission said it had no legal grounds for such an exclusion.
 
+The Commission said it had no legal grounds for such an exclusion.
+
 The Commission said it had no legal grounds for such an",60.0
-61,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+61,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The classes cover all age and skill ranges , with BALLROOM , LATIN , SEQUENCE , STREET , DISCO , LINE DANCING , BALLET , TAP & JAZZ .""
 Question: In the event ""cover"", does the participant ""ranges"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""The classes cover all age and skill ranges, with BALLROOM, LATIN, SEQUENCE, STREET, DISCO, LINE DANCING, BALLET, TAP & JAZZ.""
 Question: In the event ""cover"", does the participant ""ranges"" act with volition?
 Answer: 
 
 A:
 
-The word ""cover"" is a noun, and",61.0
-62,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb cover is",61.0
+62,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Allawi 's aged cousin and the man 's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped .""
 Question: In the event ""behead"", does the participant ""them"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -854,41 +822,38 @@ Sentence: ""Allawi's aged cousin and the man's wife and daughter - in - law were
 Question: In the event ""behead"", does the participant ""them"" act with volition?
 Answer: 
 
-The answer is yes.
-
 A:
 
 The answer is yes.
-
-",62.0
-63,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""behead"" is intr",62.0
+63,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I melt brass and cast it http://www.mikegigi.com/castgobl.htm""
 Question: In the event ""melt"", does the participant ""brass"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",other,No,"Answer this yes-no question about the following sentence.
 Sentence: ""I melt brass and cast it http://www.mikegigi.com/castgobl.htm""
 Question: In the event ""melt"", does the participant ""brass"" act with volition?
 Answer: 
+
 Yes, the participant ""brass"" acts with volition.
+No, the participant ""brass"" acts with no volition.
 
 A:
-
-The answer is yes.
-The sentence is a question, and the answer",63.0
-64,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+",63.0
+64,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !""
 Question: In the event ""fixed"", does the participant ""it"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90!""
 Question: In the event ""fixed"", does the participant ""it"" act with volition?
 Answer: 
 
 Yes, the participant ""it"" acts with volition.
+No, the participant ""it"" acts with no volition.
 
 A:
 
-The answer is yes.
-The verb ""act"" is used to describe the action of",64.0
-65,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is No",64.0
+65,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I ordered 1000 postcards , we normally order 5000 or more .""
 Question: In the event ""order"", does the participant ""we"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -896,16 +861,12 @@ Sentence: ""I ordered 1000 postcards, we normally order 5000 or more.""
 Question: In the event ""order"", does the participant ""we"" act with volition?
 Answer: 
 
-Yes, the participant ""we"" acts with volition.
-
 A:
 
-Yes, the participant ""we"" acts with volition.
-
-The participant ""we"" is the speaker.
-
-In the",65.0
-66,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""order"" is intransitive, so it does not require a direct object.
+The subject of the sentence is ""we"", so the sentence is about """,65.0
+66,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""They have the best prices locally and good customer service .""
 Question: In the event ""have"", does the participant ""prices"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -913,68 +874,66 @@ Sentence: ""They have the best prices locally and good customer service.""
 Question: In the event ""have"", does the participant ""prices"" act with volition?
 Answer: 
 
-The participant ""prices"" acts with volition.
-
 A:
 
-The participant ""prices"" acts with volition.
-
-The participant ""prices"" acts with volition.
-
-The participant """,66.0
-67,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is grammatically correct, but it is not a complete sentence.
+The subject of the sentence is ""They"", and the verb is ""have"".
+The subject and the verb must agree in number",66.0
+67,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I HAD TO ASK THE GIRL WHO BROUGHT MY FOOD AND SHE NEVER CAME BACK TO LET ME KNOW .""
 Question: In the event ""BROUGHT"", does the participant ""WHO"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""I HAD TO ASK THE GIRL WHO BROUGHT MY FOOD AND SHE NEVER CAME BACK TO LET ME KNOW.""
 Question: In the event ""BROUGHT"", does the participant ""WHO"" act with volition?
 Answer: 
 
 A:
 
-The answer is yes.
-The question is whether the participant ""WHO"" acts with volition.
-The",67.0
-68,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The verb ""bring"" is intransitive, and the subject of the sentence",67.0
+68,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Nina Chahine , 19 , who with her family was among the named plaintiffs in the lawsuit , said her wedding in the southern city of Tyre was set for July 13 .""
 Question: In the event ""said"", does the participant ""Chahine"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""Nina Chahine, 19, who with her family was among the named plaintiffs in the lawsuit, said her wedding in the southern city of Tyre was set for July 13.""
 Question: In the event ""said"", does the participant ""Chahine"" act with volition?
-Answer: 
+Answer: __________
 
 A:
 
-The answer is yes.
-The sentence is a question, and the answer",68.0
-69,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is in the passive voice, so the subject of the",68.0
+69,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""EVERYTHING IN HERE SEEMS TO AMAZE ME !!!""
 Question: In the event ""SEEMS"", does the participant ""EVERYTHING"" act with volition?
-Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""EVERYTHING IN HERE SEEMS TO AMAZE ME!!!""
 Question: In the event ""SEEMS"", does the participant ""EVERYTHING"" act with volition?
 Answer: 
 
-Yes, the participant ""EVERYTHING"" acts with volition.
+A:
+
+The answer is no.
+The verb ""seems"" is a modal verb, and modal verbs are not volitional.
 
 A:
 
-Yes, the participant ""EVERYTHING"" acts with volition.
-
-The participant",69.0
-70,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb """,69.0
+70,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""All of the doors tend to look alike and having ' something ' on your door helps you and your kids find your room easier .""
 Question: In the event ""tend"", does the participant ""All"" act with volition?
-Answer: ",other,No,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"Answer this yes-no question about the following sentence.
 Sentence: ""All of the doors tend to look alike and having'something'on your door helps you and your kids find your room easier.""
 Question: In the event ""tend"", does the participant ""All"" act with volition?
 Answer: 
 
-All of the doors tend to look alike and having ""something"" on your door helps you and your kids find your room easier.
-
 A:
-",70.0
-71,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+
+The answer is no.
+The verb ""tend"" is a non-volitional verb.
+
+tend
+  VER",70.0
+71,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The name was derived from the founder 's name Dr. Michael Cowpland .""
 Question: In the event ""derived"", does the participant ""name"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -982,13 +941,14 @@ Sentence: ""The name was derived from the founder's name Dr. Michael Cowpland.""
 Question: In the event ""derived"", does the participant ""name"" act with volition?
 Answer: 
 
-The name was derived from the founder's name Dr. Michael Cowpland.
-
 A:
 
 The name was derived from the founder's name Dr. Michael Cowpland.
-",71.0
-72,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+
+The name was derived from the founder's name Dr. Michael Cowpland.
+
+The",71.0
+72,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""From then on , the Beatles began to get involved in false religions and to preach them to the world .""
 Question: In the event ""began"", does the participant ""Beatles"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -999,9 +959,8 @@ Answer:
 A:
 
 The answer is yes.
-The Beatles were involved in the creation of the false religions of the world.
-The Beatles were involved in the creation of the",72.0
-73,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""began"" is a perfect tense, and the perfect tense is used to describe an action that has been completed",72.0
+73,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""i knew someone in college who had one and i loved it .""
 Question: In the event ""knew"", does the participant ""i"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1011,11 +970,13 @@ Answer:
 
 A:
 
-I think the answer is yes.
-The sentence is a question, and the answer is yes.
-The verb ""know"" is a question, and the answer is yes.
-The verb """,73.0
-74,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""to know"" is a volitional verb.
+
+I know that you are going to the party.
+
+The subject of the sentence is ""I",73.0
+74,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I have 5 sisters and so including my mom ... he is the only guy in a house of six females .""
 Question: In the event ""have"", does the participant ""sisters"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1023,10 +984,11 @@ Sentence: ""I have 5 sisters and so including my mom... he is the only guy in a 
 Question: In the event ""have"", does the participant ""sisters"" act with volition?
 Answer: 
 
-""I have 5 sisters and so including my mom... he is the only guy in a house of six females.""
+A:
 
-In the event ""have"", does the participant """,74.0
-75,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is not idiomatic because it is not a complete sentence. ",74.0
+75,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Prices for electricity jumped from an average of $ 249 a megawatt to $ 700 a megawatt within three days , ISO records show .""
 Question: In the event ""jumped"", does the participant ""Prices"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1036,10 +998,10 @@ Answer:
 
 A:
 
-The sentence is ambiguous. 
-
-Prices for electricity jumped from an average of $ 249 a megaw",75.0
-76,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is not grammatically correct.
+The subject of the sentence is ""Prices"".
+The verb",75.0
+76,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I left you a voice mail on Friday .""
 Question: In the event ""left"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1049,16 +1011,11 @@ Answer:
 
 A:
 
-I left you a voice mail on Friday.
-
-I left you a voice mail on Friday.
-
-I left you a voice mail on Friday.
-
-I left you a voice mail on Friday.
-
-I",76.0
-77,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""leave"" is intransitive, so it does not require an object.
+The verb ""leave"" is a transitive verb, so it requires an object.
+The object",76.0
+77,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""He described Allawi 's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors .""
 Question: In the event ""dismissed"", does the participant ""government"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1068,8 +1025,10 @@ Answer:
 
 A:
 
-The word ""dismissed"" is a noun, not a verb. It is used to describe",77.0
-78,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is a bit ambiguous. 
+
+He described Allawi's face as that of a f",77.0
+78,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The referenced TAGG # was entered as a ' New Counterparty ' , can you please let me know what counterparty this is so we can correctly assess the counterparty exposure .""
 Question: In the event ""assess"", does the participant ""exposure"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1077,23 +1036,25 @@ Sentence: ""The referenced TAGG # was entered as a'New Counterparty ', can you p
 Question: In the event ""assess"", does the participant ""exposure"" act with volition?
 Answer: 
 
-The referenced TAGG # was entered as a'New Counterparty ', can you please let me",78.0
-79,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A:
+
+The answer is yes.
+The participant is the one who assesses the counter",78.0
+79,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Climate : Humans fuss , animals adjust""
 Question: In the event ""fuss"", does the participant ""Humans"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""Climate : Humans fuss, animals adjust""
 Question: In the event ""fuss"", does the participant ""Humans"" act with volition?
 Answer: 
 
-Yes, humans do act with volition.
-No, animals do not act with volition.
-
 A:
 
-The answer is yes.
-The question is a bit ambiguous.  The sentence is ambiguous because it is not",79.0
-80,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The sentence is a metaphor.
+The word ""fuss"" is a metaphor for the word ""adjust"".
+The word ""humans"" is a metaphor for the word ""animals"".",79.0
+80,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Linda Robertson says they should be charged to Jim Steffes ' cost center , etc .""
 Question: In the event ""charged"", does the participant ""they"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1101,14 +1062,13 @@ Sentence: ""Linda Robertson says they should be charged to Jim Steffes'cost cent
 Question: In the event ""charged"", does the participant ""they"" act with volition?
 Answer: 
 
-Yes, the participant ""they"" acts with volition.
-
 A:
 
-The sentence is ambiguous. 
-
-""Linda Robertson says they should be charged to Jim Steff",80.0
-81,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The sentence is a question, and the question is about the volition of the subject.
+The subject is Linda Robertson.
+The subject is",80.0
+81,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I thought that I had gained my cockatiel 's trust , but now he 's not coming to me when I open his cage .""
 Question: In the event ""open"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1118,10 +1078,11 @@ Answer:
 
 A:
 
-I think the answer is yes.
-The sentence is saying that the participant ""I"" is acting with volition.
+The answer is yes.
+The sentence is a simple conditional sentence.
+The subject of the sentence is ""I"".
 ",81.0
-82,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+82,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The last wolf was killed in Yellowstone National Park in 1943 .""
 Question: In the event ""killed"", does the participant ""wolf"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1129,11 +1090,16 @@ Sentence: ""The last wolf was killed in Yellowstone National Park in 1943.""
 Question: In the event ""killed"", does the participant ""wolf"" act with volition?
 Answer: 
 
+A:
+
 The last wolf was killed in Yellowstone National Park in 1943.
+
 The last wolf was killed in Yellowstone National Park in 1943.
+
 The last wolf was killed in Yellowstone National Park in 1943.
-The last wolf was killed in Yellowstone",82.0
-83,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+
+",82.0
+83,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: """" The governor believes it was the defining moment , when what was a mounting problem turned into an instant crisis , "" Maviglio said .""
 Question: In the event ""said"", does the participant ""Maviglio"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1143,9 +1109,10 @@ Answer:
 
 A:
 
-The answer is yes.
-The governor believes it was the defining moment, when what was a mounting problem turned into",83.0
-84,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The governor believes it was the defining moment, when what was a mounting problem turned into an instant crisis,
+
+",83.0
+84,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The city mayor said rescuers were unable to retrieve the dead .""
 Question: In the event ""said"", does the participant ""mayor"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1153,14 +1120,13 @@ Sentence: ""The city mayor said rescuers were unable to retrieve the dead.""
 Question: In the event ""said"", does the participant ""mayor"" act with volition?
 Answer: 
 
-The mayor said rescuers were unable to retrieve the dead.
-
 A:
 
-The mayor said rescuers were unable to retrieve the dead.
-
-The mayor said rescuers were unable to retrieve the dead.",84.0
-85,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The mayor is not acting with volition. 
+The mayor is not a person. 
+The mayor is not a thing. 
+The mayor is not a thing that is said. ",84.0
+85,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""She forwarded the Sommer letter to Stan and discussed it with him .""
 Question: In the event ""forwarded"", does the participant ""letter"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1170,12 +1136,9 @@ Answer:
 
 A:
 
-The sentence is ambiguous. 
-
-She forwarded the Sommer letter to Stan and discussed it with him.
-
-The sentence is ambiguous because the word ""forwarded"" is not clear.",85.0
-86,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""forward"" is intransitive, so the subject of the sentence is ""She"".
+The verb ""discuss"" is transitive, so the subject of the sentence is """,85.0
+86,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I started this page to help with my boredom .""
 Question: In the event ""started"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1183,30 +1146,22 @@ Sentence: ""I started this page to help with my boredom.""
 Question: In the event ""started"", does the participant ""I"" act with volition?
 Answer: 
 
-I started this page to help with my boredom.
-I started this page to help with my boredom.
-I started this page to help with my boredom.
-I started this page to help with my boredom.
-
 A:
-",86.0
-87,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+
+The answer is yes.
+The verb ""started"" is a transitive verb. 
+
+Transitive verbs are verbs that require an object.
+
+The object of the verb ""started"" is the page.",86.0
+87,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""THE DAILY STAR publishes this commentary in agreement with Agence Global""
 Question: In the event ""publishes"", does the participant ""STAR"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""THE DAILY STAR publishes this commentary in agreement with Agence Global""
 Question: In the event ""publishes"", does the participant ""STAR"" act with volition?
-Answer: 
-
-The DAILY STAR is a newspaper.
-The DAILY STAR is a newspaper.
-The DAILY STAR is a newspaper.
-The DAILY STAR is a newspaper.
-
-A:
-
-The DA",87.0
-88,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+Answer:                                              ",87.0
+88,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I recommend buying a single unlimited Europass and travelling anywhere in the EU your heart desires .""
 Question: In the event ""recommend"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1214,12 +1169,15 @@ Sentence: ""I recommend buying a single unlimited Europass and travelling anywhe
 Question: In the event ""recommend"", does the participant ""I"" act with volition?
 Answer: 
 
-I recommend buying a single unlimited Europass and travelling anywhere in the EU your heart desires.
-
 A:
 
-I recommend buying a single unlimited Europass and travelling anywhere in the EU your",88.0
-89,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is yes.
+The verb ""recommend"" is a transitive verb.
+
+Transitive verbs are verbs that take an object.
+
+The object of",88.0
+89,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""In addition , is there someone who could consider the correlation between US CPI and the $ / euro exchange rate .""
 Question: In the event ""consider"", does the participant ""someone"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1227,12 +1185,15 @@ Sentence: ""In addition, is there someone who could consider the correlation bet
 Question: In the event ""consider"", does the participant ""someone"" act with volition?
 Answer: 
 
-In the event ""consider"", does the participant ""someone"" act with volition?
-
 A:
 
-In the event ""consider"", does the participant ""someone"" act",89.0
-90,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+Consider is a verb that means to think about something. 
+
+Consider the weather.
+Consider the weather.
+
+Consider is a verb that means to",89.0
+90,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: """" The governor believes it was the defining moment , when what was a mounting problem turned into an instant crisis , "" Maviglio said .""
 Question: In the event ""believes"", does the participant ""governor"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1242,8 +1203,10 @@ Answer:
 
 A:
 
-The governor believes it was the defining moment, when what was a mounting problem turned into an instant crisis, "" Mav",90.0
-91,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The governor believes it was the defining moment, when what was a mounting problem turned into an instant crisis,
+
+The",90.0
+91,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I expect to send them out to you sometime tomorrow .""
 Question: In the event ""expect"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1251,14 +1214,17 @@ Sentence: ""I expect to send them out to you sometime tomorrow.""
 Question: In the event ""expect"", does the participant ""I"" act with volition?
 Answer: 
 
-I expect to send them out to you sometime tomorrow.
+A:
+
+The answer is yes.
+The verb ""expect"" is a volitional verb.
 
 A:
 
-I expect to send them out to you sometime tomorrow.
+Yes, the verb ""expect"" is a volitional verb.
 
-The verb ""expect"" is a present participle, and the verb """,91.0
-92,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A:",91.0
+92,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: """" Success comes before work "" only in the dictionary""
 Question: In the event ""comes"", does the participant ""Success"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1266,13 +1232,12 @@ Sentence: """" Success comes before work "" only in the dictionary""
 Question: In the event ""comes"", does the participant ""Success"" act with volition?
 Answer: 
 
-""Success"" is a noun, and ""comes"" is a verb.
-""Success"" is a noun, and ""comes"" is a verb.
-
 A:
 
-The verb comes is a noun, and the noun """,92.0
-93,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is grammatically correct, but it is not a complete sentence.
+The subject of the sentence is ""Success"", and the verb is ""comes"".
+The subject and the verb must be in the same sentence",92.0
+93,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Lee Huber made the same request last year and we gave her the chair ( she only wanted one , however ) .""
 Question: In the event ""made"", does the participant ""Huber"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1280,12 +1245,11 @@ Sentence: ""Lee Huber made the same request last year and we gave her the chair 
 Question: In the event ""made"", does the participant ""Huber"" act with volition?
 Answer: 
 
-Huber made the same request last year and we gave her the chair ( she only wanted one, however ).
-
 A:
 
-The answer is yes",93.0
-94,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The verb ""make"" is intransitive, so the subject of the sentence is ""Lee Huber"".
+The verb ""make"" is",93.0
+94,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""The last I checked , the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians .""
 Question: In the event ""have"", does the participant ""way"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1293,8 +1257,10 @@ Sentence: ""The last I checked, the Satanists have a long way to go to catch up 
 Question: In the event ""have"", does the participant ""way"" act with volition?
 Answer: 
 
-The last I checked, the Satanists have a long way to go to catch up with the death and destruction dealt out",94.0
-95,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A:
+
+The last I checked, the Satanists have a long way to go to catch up with the death",94.0
+95,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""But today , I got a boy and realized that he is HUGE !""
 Question: In the event ""got"", does the participant ""boy"" act with volition?
 Answer: ",other,No,"Answer this yes-no question about the following sentence.
@@ -1302,27 +1268,27 @@ Sentence: ""But today, I got a boy and realized that he is HUGE!""
 Question: In the event ""got"", does the participant ""boy"" act with volition?
 Answer: 
 
-""But today, I got a boy and realized that he is HUGE!""
-
-In the event ""got"", does the participant ""boy"" act with volition?
-
 A:
 
-The answer",95.0
-96,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The boy is a passive object of the verb ""got"". 
+
+But today, I got a boy and realized that he is HUGE!
+
+The boy is not acting with volition",95.0
+96,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""I called the "" 207 "" number and listened to the same recording loop 3 times before I gave up .""
 Question: In the event ""called"", does the participant ""I"" act with volition?
-Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
+Answer: ",No,Yes,"Answer this yes-no question about the following sentence.
 Sentence: ""I called the "" 207 "" number and listened to the same recording loop 3 times before I gave up.""
 Question: In the event ""called"", does the participant ""I"" act with volition?
-Answer: 
-
-Yes, the participant ""I"" acts with volition.
+Answer: __________
 
 A:
 
-I call the ""207"" number and listened to the same recording loop 3 times before I gave",96.0
-97,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The answer is no.
+The subject of the sentence is ""I"", and the verb is ""called"". 
+The subject is not acting with vol",96.0
+97,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""Once upon a time ( in 2001 , to be specific ) , the Coca - Cola corporation built a bottling plant in a small and remote Indian village in the state of Kerala .""
 Question: In the event ""built"", does the participant ""corporation"" act with volition?
 Answer: ",Yes,Yes,"Answer this yes-no question about the following sentence.
@@ -1330,9 +1296,10 @@ Sentence: ""Once upon a time ( in 2001, to be specific ), the Coca - Cola corpor
 Question: In the event ""built"", does the participant ""corporation"" act with volition?
 Answer: 
 
-""Once upon a time"" is a past participle.
-""in a small and remote",97.0
-98,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+A:
+
+The Coca-Cola company built a bottling plant in a small and remote",97.0
+98,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""sorry , i left lou off of the message .""
 Question: In the event ""left"", does the participant ""i"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1340,14 +1307,13 @@ Sentence: ""sorry, i left lou off of the message.""
 Question: In the event ""left"", does the participant ""i"" act with volition?
 Answer: 
 
-""i"" acts with volition.
-
 A:
 
 The answer is yes.
-The verb ""to act"" is a transitive verb. It means ""to do something"".
-The verb ""to leave"" is a",98.0
-99,gpt_neo_1.3b,volition_prefix_0,"Answer this yes-no question about the following sentence.
+The sentence is a question about the past.
+The past is not a fixed state of affairs. It is a state of affairs that is no longer true.
+The past is not a",98.0
+99,gpt_j,volition_prefix_0,"Answer this yes-no question about the following sentence.
 Sentence: ""A lack of organisation , coupled with the distain for its customers , makes this the worst rental agency I have used .""
 Question: In the event ""makes"", does the participant ""this"" act with volition?
 Answer: ",Yes,No,"Answer this yes-no question about the following sentence.
@@ -1357,5 +1323,6 @@ Answer:
 
 A:
 
-The word ""this"" is a pronoun, so it is not a verb.
-The verb ""makes"" is a transitive verb, so it",99.0
+The sentence is a passive construction.
+
+A lack of organisation, coupled with the distain for its customers, makes this the worst rental agency I",99.0
