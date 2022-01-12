@@ -83,10 +83,12 @@ class Experiment:
             n1, n2 = res_line['name1'], res_line['name2']
             lookup = self.make_lookup(n1, n2, nicknames)
             metric = StringMetric(lookup)
-            metric(pred_name, action=action, verb=verb)
+            prompt=res_line['prompt']
+            metric(pred_name, action=action, verb=verb, prompt=prompt)
             acc, count, __ = metric.get_metric(true_name)
             pred = [k for k,v in count.items() if v > 0][0]
             self.results[i]['pred'] = pred
+            self.results[i]['response'] = response
 
 
     def make_lookup(self, n1, n2, nicknames=None):

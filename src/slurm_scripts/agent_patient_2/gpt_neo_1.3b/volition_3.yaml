@@ -1,0 +1,6 @@
+hf_model_name: "EleutherAI/gpt-neo-1.3B"
+model_name: "gpt_neo_1.3b"
+prompt_file: "volition_2_prefix_3.json"
+device: "cuda:0"
+out_dir: "agent_patient_results_2/" 
+max_len: 400
