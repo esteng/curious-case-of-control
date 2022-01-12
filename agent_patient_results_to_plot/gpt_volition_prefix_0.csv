@@ -1,582 +1,553 @@
 ,model,exp_type,prompt,pred,true,response,Unnamed: 0
 0,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""the guy came on time and did n't take any breaks , he went straight to work and finished the job efficiently and promptly !""
-Question: In the event ""finished"", does the participant ""job"" act on purpose?
+Sentence: """" ... there is no companion quite so devoted , so communicative , so loving and so mesmerizing as a rat . """"
+Question: In the event ""is"", does the participant ""companion"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer :     No . 
- Answer :     Yes . 
- Answer :",0.0
+ The  sentence  is  about  a  rat .  The  rat  is  a  companion .  The  rat  is",0.0
 1,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""A pattern of arrests and seizures indicate that arms are brought by the LTTE from Laos , Cambodia and Thailand into Chittagong , from where they are transported northward by land to Bhutan .""
-Question: In the event ""transported"", does the participant ""they"" act on purpose?
+Sentence: ""He showed me the car I was interested in and we took a test drive .""
+Question: In the event ""showed"", does the participant ""car"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  about  the  same  event . 
- Sent ence :  "" A  pattern",1.0
+ Now ,  let 's  look  at  the  same  sentence  with  the  word  "" sh owed """,1.0
 2,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They fixed the queso !""
-Question: In the event ""fixed"", does the participant ""They"" act on purpose?
+Sentence: ""I knew a cat that died in its sleep aged 21 .""
+Question: In the event ""knew"", does the participant ""cat"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",2.0
+3,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i handle him every few days .""
+Question: In the event ""handle"", does the participant ""i"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  The  next  question  is  about  the  following  sentence . 
- Sent ence :  "" They  fixed",2.0
-3,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Mark Elliott tells me that you drafted some trader guidelines ( physical and financial ) for the London traders .""
-Question: In the event ""tells"", does the participant ""Elliott"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,3.0
+ Sent ence :  "" i  handle",3.0
 4,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The millions who died in the Iran - Iraq war had nothing to do with Israel .""
-Question: In the event ""died"", does the participant ""millions"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer :     No . 
- Answer :     Yes . 
- Answer :",4.0
+Sentence: ""The information contained herein is based on sources that we believe to be reliable , but we do not represent that it is accurate or complete .""
+Question: In the event ""based"", does the participant ""information"" act with volition?
+Answer: ",No,No,"No . 
+ Question :  In  the  event  "" based "",  does  the  participant  "" information ""  act  with",4.0
 5,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""According to the Citizenship and Immigration Canada web site at http://www.cic.gc.ca/english/immigrate/skilled/assess/index.asp , it states "" Note : you must meet the minimum requirements for your application to be eligible for processing . """"
-Question: In the event ""meet"", does the participant ""requirements"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" meet "",  does  the  participant  "" requ irements ""  act",5.0
+Sentence: ""I wanted you all to have a look at what we believe is the final draft .""
+Question: In the event ""believe"", does the participant ""we"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" bel ieve "",  does  the  participant  "" we ""  act",5.0
 6,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Bangs said these animals are not equipped to survive in the wild , however , and they all almost certainly have died .""
-Question: In the event ""died"", does the participant ""they"" act on purpose?
+Sentence: ""Debbie said , it is going to be hard on me to sale my old dodge truck .""
+Question: In the event ""sale"", does the participant ""truck"" act with volition?
 Answer: ",Yes,No,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
  Sent ence :  """,6.0
 7,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I think it is mine but I forgot to write it in the blue FX book ( I only wrote it in my red book ) .""
-Question: In the event ""wrote"", does the participant ""I"" act on purpose?
+Sentence: ""Imperial Hubris makes the case that lots of people in the CIA and counter-terrorism divisions elsewhere in the US government knew all about Bin Laden and the threat he posed .""
+Question: In the event ""posed"", does the participant ""he"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,7.0
+ Now ,  let 's  try  a  question  about  a  sentence  that  has  a  passive  verb .",7.0
 8,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" There have no business being there unless they are undermining Pakistan , '' says a Pakistani official .""
-Question: In the event ""undermining"", does the participant ""Pakistan"" act on purpose?
+Sentence: ""I have a concern that the Enron optionality bug could bite us on the backside with that one .""
+Question: In the event ""bite"", does the participant ""us"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """"",8.0
+ Question :  In  the  event  "" bite "",  does  the  participant  "" us ""  act  with",8.0
 9,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They need to update the locker rooms ASAP .""
-Question: In the event ""update"", does the participant ""rooms"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" update "",  does  the  participant  "" lock er  rooms """,9.0
+Sentence: ""Just remember to make sure the mother is properly caring for the baby .""
+Question: In the event ""caring"", does the participant ""mother"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" c aring "",  does  the  participant  "" baby ""  act",9.0
 10,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""India 's Andaman and Nicobar Islands comprise more than 500 islands lying 1,000 kilometers east of Sri Lanka in the Bay of Bengal .""
-Question: In the event ""comprise"", does the participant ""Islands"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,10.0
+Sentence: ""They told me to bring it back after 5000 miles .""
+Question: In the event ""told"", does the participant ""They"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",10.0
 11,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Robinson said the emergency order allowed the ISO to secure refunds should overcharges for electricity be proven to federal officials .""
-Question: In the event ""said"", does the participant ""Robinson"" act on purpose?
+Sentence: ""The plain fact is that a few members of IT are pushing this initiative , but they lack commercial sponsorship .""
+Question: In the event ""pushing"", does the participant ""members"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,11.0
+ Question :  In  the  event  "" p ushing "",  does  the  participant  "" members ""  act",11.0
 12,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""One of the Wesley boys wrote the hymn .""
-Question: In the event ""wrote"", does the participant ""One"" act on purpose?
+Sentence: ""I took the original piece of metal and rigged it to make due since I had to complete the job .""
+Question: In the event ""took"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",12.0
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  the  word  "" had",12.0
 13,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""My nails looked great for the better part of 2 weeks !""
-Question: In the event ""looked"", does the participant ""nails"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,13.0
+Sentence: ""They LOVE to climb .""
+Question: In the event ""LOVE"", does the participant ""They"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",13.0
 14,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""You need to check out the French Indochina War ( 1946 - 1954 ) not the Vietnam War ( 1957 - 1975 ) .""
-Question: In the event ""check"", does the participant ""War"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,14.0
-15,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I have the following suggestion for our company .""
-Question: In the event ""have"", does the participant ""suggestion"" act on purpose?
+Sentence: ""I have no complaints about the service I received .""
+Question: In the event ""have"", does the participant ""complaints"" act with volition?
 Answer: ",Yes,No,"Yes . 
  The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",15.0
-16,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They came on time and completed their work quickly .""
-Question: In the event ""came"", does the participant ""They"" act on purpose?
+ Sent",14.0
+15,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" They can freely write anything they like about our prophet , but if one raises doubts about the Holocaust he is either fined or sent to prison , "" he added .""
+Question: In the event ""raises"", does the participant ""one"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" one "",  does  the  participant  "" one ""  act  with",15.0
+16,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The last wolf was killed in Yellowstone National Park in 1943 .""
+Question: In the event ""killed"", does the participant ""wolf"" act with volition?
+Answer: ",Yes,No,"Yes . 
  The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
  Sent",16.0
 17,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Nervous people make mistakes , so I suppose there will be a wave of succesfull arab attacks .""
-Question: In the event ""make"", does the participant ""mistakes"" act on purpose?
-Answer: ",Yes,No,"Yes . 
+Sentence: ""Your teacher knows what goes on in your community and wants to keep her job .""
+Question: In the event ""knows"", does the participant ""teacher"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
  Now ,  answer  this  yes - no  question  about  the  following  sentence . 
  Sent ence",17.0
 18,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The dramatic increase in radiation - induced thyroid cancers in children and adolescents in Belarus , Russia , and Ukraine , which have been observed since 1991 , continues to this day .""
-Question: In the event ""continues"", does the participant ""increase"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  sentence  is  about  the  dramatic  increase  in  radiation - induced  thyroid  cancers  in  children  and",18.0
+Sentence: ""The civilized world believes in democracy , the rule of law , including international law , human rights , free speech and free press , among other liberties .""
+Question: In the event ""believes"", does the participant ""world"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ The  participant  "" world ""  is  a  collective  noun ,  and  it  is  acting  with  vol",18.0
 19,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""You said you liked her and she accepted it as a truth and perhaps as a compliment , but it does not mean she fancies you or wants to pair off with you .""
-Question: In the event ""accepted"", does the participant ""she"" act on purpose?
+Sentence: ""Disney cruises offer 24 - hour room services , and the crews are ready to serve you the way you like .""
+Question: In the event ""offer"", does the participant ""cruises"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer :     No . 
- Answer :     Yes . 
- Answer :",19.0
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",19.0
 20,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Guerrillas threatened to assassinate Prime Minister Iyad Allawi and Minister of Defense Hazem Shaalan in retaliation for the attack .""
-Question: In the event ""assassinate"", does the participant ""Allawi"" act on purpose?
+Sentence: ""I had my wedding luncheon at this BJ s restaurant , and it was one of the best choices that I made .""
+Question: In the event ""had"", does the participant ""luncheon"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer :     No . 
- Answer :     Yes . 
- Answer :",20.0
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,20.0
 21,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""i have a 1 and a half year old male neutered cat and a new 2 month old spayed female kitten .""
-Question: In the event ""have"", does the participant ""cat"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,21.0
+Sentence: ""After 9/11 , Yazid Sufaat traveled to Afghanistan and Pakistan to work for the Taliban Medical Brigade and to continue his work with anthrax .""
+Question: In the event ""traveled"", does the participant ""Sufaat"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",21.0
 22,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Attached is PG&E 's Gas Accord II ( GA II ) Settlement Proposal .""
-Question: In the event ""Attached"", does the participant ""Proposal"" act on purpose?
+Sentence: ""Family owned and operated makes sure the atmosphere is relaxed and the food home - cooked with style .""
+Question: In the event ""cooked"", does the participant ""food"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  a  bit  more  complex . 
- Sent ence :  "" Att ached",22.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",22.0
 23,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""i use UTH's on all of my burrowing snakes .""
-Question: In the event ""use"", does the participant ""i"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,23.0
+Sentence: ""Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .""
+Question: In the event ""received"", does the participant ""treatment"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" en joy ed "",  does  the  participant  "" c ities",23.0
 24,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" ... there is no companion quite so devoted , so communicative , so loving and so mesmerizing as a rat . """"
-Question: In the event ""is"", does the participant ""companion"" act on purpose?
+Sentence: ""He thinks he will deceive people in this way , so that the real McCartney will not be perceived .""
+Question: In the event ""deceive"", does the participant ""people"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" is "",  does  the  participant  "" compan ion ""  act",24.0
+ Question :  In  the  event  "" de ceive "",  does  the  participant  "" people ""  act",24.0
 25,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The money funds their travel , explosives , hideouts and permanent search for soft vulnerable targets .""
-Question: In the event ""funds"", does the participant ""money"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  money  funds  their  travel ,  explosives ,  hide outs  and  permanent  search  for  soft  vulnerable",25.0
+Sentence: ""He and his master dragged me to my room and held judgment upon me as a convicted traitress .""
+Question: In the event ""dragged"", does the participant ""He"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" dr agged "",  does  the  participant  "" master ""  act",25.0
 26,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""rumor has feb 05 on the calender .""
-Question: In the event ""has"", does the participant ""rumor"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,26.0
+Sentence: ""I saw this place and it looked like the HOLY GRAIL .""
+Question: In the event ""saw"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",26.0
 27,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Do n't get me wrong I want to go , but for 2 days -_- I mean seriously .""
-Question: In the event ""mean"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Question :  In  the  event  "" get "",  does  the  participant  "" I ""  act  on",27.0
-28,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Some board members pushed to have Winter removed , but there were concerns such action would lead to more chaos , the governor 's spokesman Maviglio said .""
-Question: In the event ""removed"", does the participant ""Winter"" act on purpose?
+Sentence: ""They picked my car up in Yarmouth and towed to Bath for a great price .""
+Question: In the event ""picked"", does the participant ""car"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  from  a  news  article . 
- Sent ence :  "" The  governor",28.0
+ Question :  In  the  event  "" t owed "",  does  the  participant  "" car ""  act",27.0
+28,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Well , they have a variety of sports that they play like basketball , soccer , etc .""
+Question: In the event ""have"", does the participant ""variety"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" var iety ""  act",28.0
 29,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""That sounds like a BS excuse from ECS , but it that 's what they are saying , let me know and we can figure out a solution .""
-Question: In the event ""figure"", does the participant ""we"" act on purpose?
+Sentence: ""I bought about half of the furniture I own from this place .""
+Question: In the event ""bought"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Question :  In  the  event  "" figure "",  does  the  participant  "" we ""  act  on",29.0
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,29.0
 30,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""i think Miramar was a famous goat trainer or something .""
-Question: In the event ""think"", does the participant ""i"" act on purpose?
+Sentence: ""They wish to launch on Sept. 1 - meaning we will need to be sending mailings sometime around mid-August .""
+Question: In the event ""wish"", does the participant ""They"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
  Sent ence :  """,30.0
 31,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""i want something cheap east to take care of and something to hopefully fit in my room""
-Question: In the event ""want"", does the participant ""something"" act on purpose?
+Sentence: ""I have extensive experience as a technical leader in the design and development of modeling and simulation software products , mostly for the oil and gas pipeline industry .""
+Question: In the event ""have"", does the participant ""experience"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" want "",  does  the  participant  "" something ""  act  on",31.0
+ Question :  In  the  event  "" have "",  does  the  participant  "" exper ience ""  act",31.0
 32,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Pioneers take a pledge to remain tee - total and at the hight of the organization popularity , had an estimated two million members even filling Croke Park on the 25th anniversary .""
-Question: In the event ""take"", does the participant ""Pioneers"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",32.0
+Sentence: ""I believe he must have waited among the gorse bushes through which the path winds and struck him down as he passed .""
+Question: In the event ""struck"", does the participant ""him"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  try  a  different  question . 
+ Question :  In  the  event  """,32.0
 33,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""He said the main aim of the subpoenas will be to determine whether collusion occurred to "" fix "" prices , which would violate federal trade laws .""
-Question: In the event ""violate"", does the participant ""laws"" act on purpose?
+Sentence: ""Just today I bought a medium rat for my beloved Ball Python Salazar ( name after Harry Potter ) .""
+Question: In the event ""bought"", does the participant ""rat"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",33.0
+ Question :  In  the  event  "" b ought "",  does  the  participant  "" rat ""  act",33.0
 34,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I hope you have found this information helpful .""
-Question: In the event ""hope"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,34.0
-35,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I wanted to be very blonde and instead he pulled my root color throughout my whole hair which is a gross mousey brown .""
-Question: In the event ""wanted"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,35.0
-36,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I suggest a "" blind draw "" on the teams , best ball not scramble on the golf , and as for the wager , no emails from the losing team for one week !""
-Question: In the event ""suggest"", does the participant ""draw"" act on purpose?
+Sentence: """" My first thought was to push it away , "" he said .""
+Question: In the event ""push"", does the participant ""it"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  word  "" suggest ""  is  a  verb .  It  is  a  trans itive  verb .",36.0
-37,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""There are special regions uniquely and imposingly designed for the children .""
-Question: In the event ""are"", does the participant ""regions"" act on purpose?
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",34.0
+35,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The work was completed within one week , and everything was cleaned up on completion .""
+Question: In the event ""completed"", does the participant ""work"" act with volition?
 Answer: ",Yes,No,"Yes . 
  The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",37.0
+ Sent",35.0
+36,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He added that around 1,100 cartoons were submitted by participants from more than 60 countries and that more than 200 are on show .""
+Question: In the event ""added"", does the participant ""He"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  from  the  same  article . 
+ "" The  exhibition ,  which  runs",36.0
+37,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Abdel Rahman 's son was captured in Quetta , Pakistan in mid-February 2003 .""
+Question: In the event ""captured"", does the participant ""son"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  bit  more  complex . 
+ Sent ence :  "" The  United",37.0
 38,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""After 9/11 , Yazid Sufaat traveled to Afghanistan and Pakistan to work for the Taliban Medical Brigade and to continue his work with anthrax .""
-Question: In the event ""traveled"", does the participant ""Sufaat"" act on purpose?
+Sentence: ""I know you are very worried , but getting her to the vet is the best thing you can do for her .""
+Question: In the event ""know"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
  Sent ence :  """,38.0
 39,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I listed all of our ( sometimes mine vs. my wife 's favorites and priorities ) .""
-Question: In the event ""listed"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
+Sentence: ""I found this on a bulletin board and decided to try it : I do n't care about the useless pre-fabricated crap this message usually says .""
+Question: In the event ""found"", does the participant ""this"" act with volition?
+Answer: ",Yes,No,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
  Sent ence :  """,39.0
 40,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I called in my order and upon arriving to pick it up , they got my order confused with someone else s .""
-Question: In the event ""called"", does the participant ""I"" act on purpose?
+Sentence: ""They said it was "" plugs and wires "" and quoted me $ 330 to do the work , including parts .""
+Question: In the event ""quoted"", does the participant ""me"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,40.0
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  the  word  "" qu",40.0
 41,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Yes , I say .""
-Question: In the event ""say"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- The  answer  is  "" yes ""  because  the  sentence  is  a  command .  The  participant  """,41.0
-42,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The office refused my requests to see what they got from BC / BS .""
-Question: In the event ""refused"", does the participant ""office"" act on purpose?
+Sentence: ""They had a room with a $ 99 rate , which I booked .""
+Question: In the event ""booked"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  Now ,  answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence",42.0
+ Sent ence",41.0
+42,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a new born daughter and she helped me with a lot .""
+Question: In the event ""have"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,42.0
 43,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" The bear gave chase and I gave chase , "" he said .""
-Question: In the event ""said"", does the participant ""he"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """"",43.0
+Sentence: ""I knew a cat that died in its sleep aged 21 .""
+Question: In the event ""died"", does the participant ""cat"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",43.0
 44,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They have unbeatable price in town and deliver on time .""
-Question: In the event ""have"", does the participant ""price"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,44.0
+Sentence: """" Terry said he made that filing in the interest of Californians , but I find that argument has no basis in fact . ''""
+Question: In the event ""said"", does the participant ""Terry"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",44.0
 45,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Ben made another announcement on March 28 , 2005 :""
-Question: In the event ""made"", does the participant ""Ben"" act on purpose?
+Sentence: ""They showed some kids on TV , and they were quite taken with it .""
+Question: In the event ""showed"", does the participant ""They"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- The  following  sentence  is  a  bit  more  complex . 
- Sent ence :  "" The  government",45.0
+ Now ,  let 's  try  a  different  question . 
+ Question :  In  the  event  """,45.0
 46,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The islamists sent letter bombs in January 1997 to newspaper offices in New York City and Washington , D.C. .""
-Question: In the event ""sent"", does the participant ""bombs"" act on purpose?
+Sentence: ""It is our belief that this compensation plan will produce some of the largest checks in network marketing history .""
+Question: In the event ""produce"", does the participant ""plan"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,46.0
+ The  participant  "" pl ans ""  to  produce  the  checks . 
+ The  participant  "" pl",46.0
 47,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The next day , the federal commission killed the new pricing plan .""
-Question: In the event ""killed"", does the participant ""plan"" act on purpose?
+Sentence: ""My car broke down and roadside towed my vehicle to Sussman Kia .""
+Question: In the event ""broke"", does the participant ""car"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,47.0
+ Question :  In  the  event  "" bro ke "",  does  the  participant  "" car ""  act",47.0
 48,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Mark Anderson says that even though Bondad gas flowed , the price was Non-Bondad .""
-Question: In the event ""says"", does the participant ""Anderson"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,48.0
+Sentence: ""They have the best prices locally and good customer service .""
+Question: In the event ""have"", does the participant ""prices"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" pr ices ""  act",48.0
 49,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""From the delectable Antipasto Misto to the Spaghetti alla Barese and the Parmigiana and ending with gelato , all was mouth watering .""
-Question: In the event ""watering"", does the participant ""all"" act on purpose?
+Sentence: ""The storm threatened oil installations in the Gulf of Mexico where about one - quarter of US oil operations are based .""
+Question: In the event ""threatened"", does the participant ""installations"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  a  bit  more  complex . 
- Sent ence :  "" The  de",49.0
-50,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .""
-Question: In the event ""received"", does the participant ""treatment"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" en joy ed "",  does  the  participant  "" c ities",50.0
-51,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""My family loves coming to Endo Sushi . They are very nice , it is never crowded , and the food is wonderful , very delicious and fresh !""
-Question: In the event ""loves"", does the participant ""family"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",51.0
-52,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I wish that I had n't done this .""
-Question: In the event ""wish"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",52.0
-53,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""'' It was the first time that Bush totally focused on the Taliban threat rather than Al Qaeda with the Pakistanis , '' says a Western diplomat .""
-Question: In the event ""focused"", does the participant ""Bush"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,53.0
-54,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""He earned 137 points in 1970 - 1971 .""
-Question: In the event ""earned"", does the participant ""He"" act on purpose?
+ Sent ence :  """,49.0
+50,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They interviewed me , gave me tests in the software I included on my resume , and placed me in a position that I kept for several years .""
+Question: In the event ""included"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",54.0
+ Sent",50.0
+51,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Bush asked for permission to go to Alabama to work on a Senate campaign .""
+Question: In the event ""asked"", does the participant ""Bush"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",51.0
+52,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""A sender purporting to be islamist sent cyanide in both early 2002 and early 2003 in New Zealand and ingredients of nerve gas in Belgium in 2003 .""
+Question: In the event ""sent"", does the participant ""cyanide"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" sent "",  does  the  participant  "" ing redients  of  nerve",52.0
+53,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i have a baby eastern king snake .""
+Question: In the event ""have"", does the participant ""snake"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" baby  eastern  king  snake",53.0
+54,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You take a boat across the river , then spend a day biking , eating at a local restaurant , buying souvenirs and doing other things that are geared towards tourists .""
+Question: In the event ""buying"", does the participant ""souvenirs"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" eating "",  does  the  participant  "" rest aur ant """,54.0
 55,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I 've listed .""
-Question: In the event ""listed"", does the participant ""I"" act on purpose?
+Sentence: ""Cj and company did all that we ask and 10 times more .""
+Question: In the event ""did"", does the participant ""Cj"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
  Sent ence :  """,55.0
 56,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The thing about The Script is they do not sound that Irish , I was surprised to hear they were from Dublin .""
-Question: In the event ""is"", does the participant ""thing"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" is "",  does  the  participant  "" thing ""  act  on",56.0
+Sentence: ""okay .... I have a dog and my mother is really really terrified of hamsters .""
+Question: In the event ""have"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" I ""  act  with",56.0
 57,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We love Little Farmer""
-Question: In the event ""love"", does the participant ""Farmer"" act on purpose?
+Sentence: ""I had my horse transported from CA to WA and he came on this big , open stock trailer .""
+Question: In the event ""transported"", does the participant ""horse"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  the  word  "" trans",57.0
+58,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They want a program that will be a success , "" Johnson - Freese said .""
+Question: In the event ""said"", does the participant ""Freese"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",58.0
+59,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I ended up buying a birthday card and would probably come back for more .""
+Question: In the event ""buying"", does the participant ""card"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" bu ying "",  does  the  participant  "" card ""  act",59.0
+60,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
+Question: In the event ""involving"", does the participant ""children"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  from  the  same  article . 
+ "" Bern ard  said  he  was",60.0
+61,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Pound for pound , mountain lions eat more game and more livestock than wolves .""
+Question: In the event ""eat"", does the participant ""game"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",61.0
+62,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" There have no business being there unless they are undermining Pakistan , '' says a Pakistani official .""
+Question: In the event ""undermining"", does the participant ""Pakistan"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" under mining "",  does  the  participant  "" Pakistan ""  act",62.0
+63,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""His one - day mission vaulted his communist homeland into the elite circle of spacefaring nations - Russia and the United States - that can launch and sustain humans in space .""
+Question: In the event ""vaulted"", does the participant ""mission"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  from  a  recent  article  in  the  New  York  Times . 
+ """,63.0
+64,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My wife has a slight impediment in her speech .""
+Question: In the event ""has"", does the participant ""impediment"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  about  a  wife  who  has  a  slight  imped iment  in  her  speech .",64.0
+65,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""In a highly significant move Afghan Pashtun tribes along the Pakistan border warned the Taliban in Quetta and Chaman that if they try and disrupt the elections , they would be resisted .""
+Question: In the event ""disrupt"", does the participant ""elections"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  from  a  news  report . 
+ "" The  Taliban  have  been  fighting",65.0
+66,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But there are strong hints in the country that a new Indo - Sri Lanka defense deal could be in the making .""
+Question: In the event ""are"", does the participant ""hints"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  from  a  news  article . 
+ "" The  government  has  been  accused",66.0
+67,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The other stylists around me kept pressuring me saying he 's so wonderful , you 're going to love your hair .""
+Question: In the event ""pressuring"", does the participant ""me"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" press uring "",  does  the  participant  "" me ""  act",67.0
+68,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The confidante and right - hand man of Dr. Ayman Zawahiri admitted that Zawahiri succeeded in obtaining anthrax and intended to use it against US targets .""
+Question: In the event ""obtaining"", does the participant ""anthrax"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  participant  "" anth rax ""  acts  with  vol ition . 
+ The  participant  "" anth",68.0
+69,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I 've listed .""
+Question: In the event ""listed"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" listed "",  does  the  participant  "" I ""  act  with",69.0
+70,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We believe it addresses many of the issues and concerns you have raised in the workshops .""
+Question: In the event ""raised"", does the participant ""you"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",70.0
+71,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I sent this to Mary last week .""
+Question: In the event ""sent"", does the participant ""this"" act with volition?
 Answer: ",Yes,No,"Yes . 
  The  following  sentence  is  a  bit  more  complex . 
- Sent ence :  "" We  love",57.0
-58,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I knew what it was and told the guy that it was n't a fps .""
-Question: In the event ""knew"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,58.0
-59,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They indicated they could use Steve 's help face to face at some point .""
-Question: In the event ""indicated"", does the participant ""They"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,59.0
-60,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""the guy came on time and did n't take any breaks , he went straight to work and finished the job efficiently and promptly !""
-Question: In the event ""came"", does the participant ""guy"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  look  at  the  same  sentence  with  the  neg ation  word  "" not",60.0
-61,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I moved to Creekside Apartments in August 2008 with a 6 - month lease and have just extended it for another 13 months !""
-Question: In the event ""extended"", does the participant ""it"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",61.0
-62,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They want to use LTS to tie into NASA 's vision for Space Exploration , and seem pleased that the White House is moving in that direction .""
-Question: In the event ""want"", does the participant ""They"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,62.0
-63,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""JUNO AND OPEN I LOVE YOU GUYS !!!!!!!!!!!!!!""
-Question: In the event ""LOVE"", does the participant ""YOU"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  following  is  a  list  of  the  most  common  words  in  the  English  language . 
-",63.0
-64,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Musk , which is scraped from their genitals once a day for as long as they can surv ive , makes the scent of perfume last a bit longer after each application .""
-Question: In the event ""makes"", does the participant ""Musk"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Now ,  answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence",64.0
-65,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Doug and I met with the Chairman of PUCT and have had subsequent conversations .""
-Question: In the event ""met"", does the participant ""Doug"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,65.0
-66,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""A pattern of arrests and seizures indicate that arms are brought by the LTTE from Laos , Cambodia and Thailand into Chittagong , from where they are transported northward by land to Bhutan .""
-Question: In the event ""brought"", does the participant ""arms"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,66.0
-67,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""YOU GET WHAT YOU PAY FOR !!!""
-Question: In the event ""PAY"", does the participant ""YOU"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- The  sentence  is  a  command .  The  subject  is  "" YOU "".  The  verb  is  """,67.0
-68,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""His family loves him .""
-Question: In the event ""loves"", does the participant ""family"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  look  at  the  same  sentence  with  a  different  verb . 
- Sent",68.0
-69,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" We believe the action we took addressed a severe concern , '' Robinson said .""
-Question: In the event ""said"", does the participant ""Robinson"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """"",69.0
-70,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The civilized world believes in democracy , the rule of law , including international law , human rights , free speech and free press , among other liberties .""
-Question: In the event ""believes"", does the participant ""world"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- The  participant  "" world ""  acts  on  purpose . 
- The  participant  "" world ""  acts",70.0
-71,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They wanted to brainwash them and control them . ''""
-Question: In the event ""brainwash"", does the participant ""them"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" brain wash "",  does  the  participant  "" them ""  act",71.0
+ Sent ence :  "" I  sent",71.0
 72,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I enjoyed my tour and i am looking for adventure tour and India heritage tours for valuable .""
-Question: In the event ""enjoyed"", does the participant ""tour"" act on purpose?
+Sentence: ""We have and will have children of our own , grandchildren too .""
+Question: In the event ""have"", does the participant ""children"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,72.0
+ Question :  In  the  event  "" have "",  does  the  participant  "" children ""  act  with",72.0
 73,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I revised the language based on our discussions and added the language concerning interest which we had both previously approved .""
-Question: In the event ""revised"", does the participant ""I"" act on purpose?
+Sentence: ""As such , we have a CPA , Larry Lewis , working with us to audit and set up transition files .""
+Question: In the event ""have"", does the participant ""we"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,73.0
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",73.0
 74,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I assume you mean the crazy horse memorial .""
-Question: In the event ""mean"", does the participant ""you"" act on purpose?
+Sentence: ""I wanted to try someplace new again .""
+Question: In the event ""wanted"", does the participant ""I"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,74.0
+ The  following  sentence  is  a  bit  more  complex . 
+ Sent ence :  "" I  wanted",74.0
 75,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The name was derived from the founder 's name Dr. Michael Cowpland .""
-Question: In the event ""derived"", does the participant ""name"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" derived "",  does  the  participant  "" name ""  act  on",75.0
+Sentence: ""I thought that I had gained my cockatiel 's trust , but now he 's not coming to me when I open his cage .""
+Question: In the event ""open"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,75.0
 76,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I asked her who she worked with and she just told me ti was the sales manager .""
-Question: In the event ""asked"", does the participant ""I"" act on purpose?
+Sentence: ""Yeah you got ta burn it .. that s the only way""
+Question: In the event ""got"", does the participant ""you"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,76.0
+ Question :  In  the  event  "" got "",  does  the  participant  "" you ""  act  with",76.0
 77,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They LOVE to climb .""
-Question: In the event ""LOVE"", does the participant ""They"" act on purpose?
+Sentence: ""They asked us things that we would have never have thought of , and took extra time to meet with us when we needed it before the wedding .""
+Question: In the event ""asked"", does the participant ""They"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",77.0
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  the  word  "" were",77.0
 78,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Yesterday evening , the Posada story was featured in the public television news show in Germany ( ARD , Tagesthemen ) .""
-Question: In the event ""featured"", does the participant ""ARD"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer :     No . 
- Answer :     Yes . 
- Answer :",78.0
+Sentence: ""I believe the message you forwarded to me belongs to the Mark Taylor at EI ( based in London ) .""
+Question: In the event ""forwarded"", does the participant ""you"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,78.0
 79,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Prices for electricity jumped from an average of $ 249 a megawatt to $ 700 a megawatt within three days , ISO records show .""
-Question: In the event ""jumped"", does the participant ""Prices"" act on purpose?
+Sentence: ""Denial of the status of marriage to those who would freely accept its responsibilities creates legal and economic inequities and social injustice .""
+Question: In the event ""creates"", does the participant ""inequities"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,79.0
+ Question :  In  the  event  "" creat es "",  does  the  participant  "" ine qu ities",79.0
 80,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We need to change the lock and place posted signs at the gate .""
-Question: In the event ""place"", does the participant ""signs"" act on purpose?
+Sentence: ""I enjoyed my tour and i am looking for adventure tour and India heritage tours for valuable .""
+Question: In the event ""enjoyed"", does the participant ""tour"" act with volition?
 Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",80.0
-81,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I have no complaints about the service I received .""
-Question: In the event ""have"", does the participant ""complaints"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",81.0
-82,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Guerrillas near Hawijah launched an attack that left 6 dead , including 4 Iraqi soldiers .""
-Question: In the event ""launched"", does the participant ""Guerrillas"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
  Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,82.0
+ Sent ence :  """,80.0
+81,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Xinhua reports that a wide range of Iraqi political forces on Tuesday condemned Sharon 's murder of Sheikh Ahmed Yassin , a religious leader of Hamas , the day before .""
+Question: In the event ""condemned"", does the participant ""murder"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",81.0
+82,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""On my panel , Loretta Lynch asked Reliant and Duke to supply her with the details of the contracts they cut to sell their power forward to marketers .""
+Question: In the event ""cut"", does the participant ""they"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  is  gram matically  ambiguous .",82.0
 83,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Requests like that were n't unusual , says retired Col. William Campenni , who flew with Bush in 1970 and 1971 .""
-Question: In the event ""says"", does the participant ""Campenni"" act on purpose?
+Sentence: ""The initial reservoir reports estimate reserves of 80 - 120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003 .""
+Question: In the event ""estimate"", does the participant ""reports"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" est imate "",  does  the  participant  "" res erves """,83.0
+84,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Saddam killed every month more people than all those who died from suicide murders since the Coalition occupation of Iraq .""
+Question: In the event ""died"", does the participant ""those"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" d ied "",  does  the  participant  "" those ""  act",84.0
+85,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The United States goes into a war zone and evacuates a bunch of U.S. citizens ( most of whom were "" dual - citizens "" ) .""
+Question: In the event ""goes"", does the participant ""States"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  the  word  "" go",85.0
+86,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""In discussion with Dave , we thought it would be good to put this together in a format of questions and answers .""
+Question: In the event ""thought"", does the participant ""we"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" thought "",  does  the  participant  "" we ""  act  with",86.0
+87,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""( The heat increases their "" production "" of musk . )""
+Question: In the event ""increases"", does the participant ""heat"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  about  the  heat ,  and  the  heat  is  the  subject  of  the  sentence",87.0
+88,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I love how it really depends on how good a horse your horse really is , not how talented he is .""
+Question: In the event ""love"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" love "",  does  the  participant  "" I ""  act  with",88.0
+89,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Tangipahoa Parish sheriff 's deputy Christopher Blair Labat , 24 , was booked Tuesday on one count of aggravated rape and one count of crime against nature .""
+Question: In the event ""booked"", does the participant ""Labat"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  is  not  about  a  person",89.0
+90,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Sanctuary serves delicious , somewhat healthy food in a great restaurant / fast food style .""
+Question: In the event ""serves"", does the participant ""food"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  bit  more  complex . 
+ Sent ence :  "" The  government",90.0
+91,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I had no problem with my delivery .""
+Question: In the event ""had"", does the participant ""I"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",91.0
+92,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""At the same time , an Iranian Opposition Group released what they call proof of a covert nuclear weapons program .""
+Question: In the event ""released"", does the participant ""Group"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  is  not  about  a  human",92.0
+93,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Several candidates were assassinated and targeted these last two weeks , others have been forced under threats to withdraw and to follow the example of the Islamic party .""
+Question: In the event ""assassinated"", does the participant ""candidates"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Answer :     No . 
+ Answer :     Yes . 
+ Answer :",93.0
+94,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My boyfriend and I were woken up in the middle of the night at our campsite by drunken kids who 'd arrived around 1:00 am and were drinking at the springs .""
+Question: In the event ""woken"", does the participant ""boyfriend"" act with volition?
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,94.0
+95,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But in fall of 1999 , Gen. Pervez Musharraf made a coup against Nawaz Sharif .""
+Question: In the event ""made"", does the participant ""Musharraf"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  is  not  about  an  event",95.0
+96,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They have unbeatable price in town and deliver on time .""
+Question: In the event ""have"", does the participant ""They"" act with volition?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" They ""  act  with",96.0
+97,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Al Qaeda members and sympathizers feel that the FBI 's involvement in countries like Egypt , Saudi Arabia , Pakistan , Indonesia , and the Philippines interferes with the sovereignty of those countries .""
+Question: In the event ""feel"", does the participant ""members"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
  Answer :     No . 
  Answer :     Yes . 
- Answer :",83.0
-84,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We had an inside cabin and it is what I would recommend .""
-Question: In the event ""had"", does the participant ""cabin"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,84.0
-85,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I think it was in the Lincoln Square area but do n't quote me on that .""
-Question: In the event ""think"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,85.0
-86,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Xinhua alleged that "" Many of the Iraqis , who suffer the American occupation of Iraq , relate their case with that of the Palestinian people , under the Israeli occupation . """"
-Question: In the event ""relate"", does the participant ""Many"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,86.0
-87,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""She had her cards memorized as well as everyone else s ( when you play you 'll see why you can know everyone else s hands ! ) .""
-Question: In the event ""play"", does the participant ""you"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- The  sentence  is  a  bit  confusing ,  but  the  participant  "" you ""  is  acting  on",87.0
-88,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" He left a message for everyone to see ... maybe to God himself . """"
-Question: In the event ""left"", does the participant ""He"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",88.0
-89,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I doubt you will get a sensible answer in the "" TRAVEL "" section .""
-Question: In the event ""doubt"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,89.0
-90,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I expected to pay for this service , but imagine my surprise when I received a bill for MORE than what I paid to have the original return prepared .""
-Question: In the event ""paid"", does the participant ""I"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,90.0
-91,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Some refused to leave , but so many were unable to .""
-Question: In the event ""refused"", does the participant ""Some"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,91.0
-92,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""During his time in the Guard , George Bush flew the F - 102 Delta Dagger fighter - interceptor .""
-Question: In the event ""flew"", does the participant ""Bush"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Now ,  let 's  try  a  question  about  the  following  sentence . 
- Sent ence :",92.0
-93,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Attached are the draft Schedule to the ISDA Master Agreement , together with Paragraph 13 to the ISDA Credit Support Annex .""
-Question: In the event ""Attached"", does the participant ""Schedule"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  word  "" att ached ""  is  a  pre position .  It  is  a  word  that",93.0
-94,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Denial of the status of marriage to those who would freely accept its responsibilities creates legal and economic inequities and social injustice .""
-Question: In the event ""creates"", does the participant ""inequities"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",94.0
-95,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""In a bulletin , the FBI noted that the surveillance might relate to a plot to disperse a chemical or biological weapon .""
-Question: In the event ""noted"", does the participant ""FBI"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,95.0
-96,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Last week , Federal District Judge Lynn Hughes in Huston , Texas , threw out Wilson 's two - decades old conviction .""
-Question: In the event ""threw"", does the participant ""Hughes"" act on purpose?
-Answer: ",Yes,Yes,"Yes . 
- Now ,  answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence",96.0
-97,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt , friendly and informative service .""
-Question: In the event ""removed"", does the participant ""nest"" act on purpose?
-Answer: ",Yes,No,"Yes . 
- The  sentence  is  about  a  was p  nest .  The  subject  is  "" Joe "".  The",97.0
+ Answer :",97.0
 98,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The Americans detected the attempt to infiltrate the urban areas and were already redeploying troops from the rural areas .""
-Question: In the event ""detected"", does the participant ""attempt"" act on purpose?
+Sentence: ""Last June , an international initiative led by Japan to persuade the LTTE to come back to the negotiating table failed despite an aid package offer of US$ 4.5 billion .""
+Question: In the event ""failed"", does the participant ""initiative"" act with volition?
 Answer: ",Yes,No,"Yes . 
- Answer  this  yes - no  question  about  the  following  sentence . 
- Sent ence :  """,98.0
+ The  following  sentence  is  from  the  same  article . 
+ "" The  Sri  Lank an  government",98.0
 99,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I think you may be adhering to it too faithfully .""
-Question: In the event ""adhering"", does the participant ""you"" act on purpose?
+Sentence: ""Each provincial government has a website that lists the process for that Province so depending upon where you were born you can google it .""
+Question: In the event ""google"", does the participant ""you"" act with volition?
 Answer: ",Yes,Yes,"Yes . 
- The  participant  "" you ""  is  the  subject  of  the  sentence ,  and  the  verb  """,99.0
+ Question :  In  the  event  "" google "",  does  the  participant  "" you ""  act  with",99.0
