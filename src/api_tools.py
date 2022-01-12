@@ -326,7 +326,6 @@ def run_gpt_prompt(text, kwargs):
         resp = read_response(line) 
         if resp is not None:
             responses.append(resp) 
-
     text = " ".join([x['choices'][0]['text'] for x in responses])
     return text 
 

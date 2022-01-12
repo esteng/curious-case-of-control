@@ -18,7 +18,7 @@ class HuggingfaceRunFxn:
         try:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         except:
-            self.model = AutoModelForCausalLM.from_pretrained(model_name, max_length=100)
+            self.model = AutoModelForCausalLM.from_pretrained(model_name, max_length=max_len)
         
         self.constrained = constrained
 

@@ -1,6 +1,7 @@
 from typing import Dict, List
 import re
 import pdb 
+import pylev
 
 import pandas as pd 
 
@@ -28,7 +29,9 @@ class StringMetric(Metric):
         self.classes = {k: [] for k in class_lookups.keys()}
         self.classes['other'] = []
 
-    def __call__(self, text: str, action: str = None, verb: str = None):
+    def __call__(self, text: str, action: str = None, verb: str = None, prompt: str = None):
+        if prompt is not None:
+            text = self.remove_prompt(text, prompt)
         if type(text) is not str:
             self.classes['other'].append("Error")
         else:
@@ -42,6 +45,31 @@ class StringMetric(Metric):
                         self.classes[k].append(text)
                         return
             self.classes['other'].append(text)
+
+    def remove_prompt(self, text, prompt):
+        # remove the prompt from the text, in cases where the model repeats the prompt before answering 
+        first_p_chars = text[0:len(prompt)]
+
+        if len(first_p_chars) == 0:
+            return text
+
+        distance = pylev.levenshtein(first_p_chars, prompt)
+        # if less than 10% difference 
+        if distance / len(first_p_chars) < 0.1:
+            prompt_lines = prompt.split("\n")
+            text_lines = text.split("\n")
+            if len(text_lines)> len(prompt_lines):
+                # print(f"removing ") 
+                # print("PROMPT=========")
+                # print(prompt)
+                # print("TEXT===========")
+                # print(text)
+                text_lines = text_lines[len(prompt_lines)-1:]
+                text = "\n".join(text_lines)
+                # print("AFTER============")
+                # print(text)
+                # sys.exit()
+        return text
 
     def get_metric(self, true_class):
         counts = {k: len(v) for k,v in self.classes.items()}
@@ -153,11 +181,11 @@ class AgentPatientStringMetric(StringMetric):
     def __init__(self, class_lookups: Dict[str, List[str]]):
         super().__init__(class_lookups)
 
-    def __call__(self, text: str): 
+    def __call__(self, text: str, prompt: str = None): 
         if type(text) is not str:
             self.classes['other'].append("Error")
         else:
-            text = self.extract_answer_string(text)
+            text = self.extract_answer_string(text, prompt)
             split_text = re.split("\s+", text.lower())
             for k, keywords in self.class_lookups.items():
                 for kw in keywords:
@@ -166,26 +194,55 @@ class AgentPatientStringMetric(StringMetric):
                         return
             self.classes['other'].append(text)
 
-    def extract_answer_string(self, text):
+
+    def extract_answer_string(self, text, prompt=None):
+        if prompt is not None:
+            text = self.remove_prompt(text, prompt)
+
         # Rule 1: if the answer is just one word, return that 
         words = re.split("\s+", text)
         if len(words) == 1:
-            return words[0] 
+            # print(words[0])
+            word = re.sub(r"[\(\)]", "", words[0])
+            # word = words[0]
+            # print(f"returning word {word}")
+            return word
 
         # Rule 2: if the string "[Tt]he answer is X" appears, extract that
         ans_gex = re.compile(r"[tT]he answer is ((yes)|(no))", flags=re.IGNORECASE)
         answer_text = ans_gex.search(text)
         if answer_text is not None:
+            # even if there is more than one, take first 
             return answer_text.group(1)
 
         # Rule 3: if "The state of the participant is changed" appears return yes
-        ans_gex = re.compile(r"the state of the participant is changed", flags=re.IGNORECASE)
+        ans_gex = re.compile(r"the state of the participant[\w \"]* is changed", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            # print(f"returning because the state is : {answer_text.group(0)}")
+            return "Yes"
+
+        # Rule 4: if "The state of the participant is not changed" appears return yes
+        ans_gex = re.compile(r"the state of the participant[\w \"]is not changed", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            # print(f"returning because the state is : {answer_text.group(0)}")
+            return "No"
+
+        # Rule 3: if "changes in state" appears return yes
+        ans_gex = re.compile(r"changes in state", flags=re.IGNORECASE)
         answer_text = ans_gex.search(text)
         if answer_text is not None:
             return "Yes"
 
-        # Rule 4: if "The state of the participant is not changed" appears return yes
-        ans_gex = re.compile(r"the state of the participant is not changed", flags=re.IGNORECASE)
+        # Rule 3: if "changes in state" appears return yes
+        ans_gex = re.compile(r"the state of [\w\s\"]+does change( in state)?\.", flags=re.IGNORECASE)
+        answer_text = ans_gex.search(text)
+        if answer_text is not None:
+            return "Yes"
+
+        # Rule 3: if "doesn't change in state" appears return no
+        ans_gex = re.compile(r"((doesn't)|(does n[o\']t)) change( in state)?", flags=re.IGNORECASE)
         answer_text = ans_gex.search(text)
         if answer_text is not None:
             return "No"
@@ -194,7 +251,29 @@ class AgentPatientStringMetric(StringMetric):
         ans_gex = re.compile(r"^((Yes)|(No))", flags=re.IGNORECASE)
         answer_text = ans_gex.search(text)
         if answer_text is not None:
+            # print(f"because it starts with {answer_text.group(1)}")
             return answer_text.group(1)
+
+        # Rule 6: look for ((Yes)|(No))
+        # ans_gex = re.compile(r"((Yes)|(No))", flags=re.IGNORECASE)
+        # # remove "yes-no" so that repeated instructions don't count
+        # text = re.sub("yes-no", "", text)
+        # answer_text = ans_gex.search(text)
+        # if answer_text is not None:
+        #     counts = {"yes":0, "no": 0}
+        #     for gidx in range(len(answer_text.group())):
+        #         t = answer_text.group(gidx).lower()
+        #         counts[t] += 1
+        #     print(f"returning because ys or no in text \n{text}")
+        #     return answer_text.group(1)
+            # if counts['yes'] == counts['no']:
+            #     return "other"
+            # if counts['yes'] > counts['no']:
+            #     return "Yes"
+            # if counts['yes'] < counts['no']:
+            #     return "No"
+
+            # return answer_text.group(1)
 
         return "other"
 

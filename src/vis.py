@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np 
 
 from experiment import Experiment
+from agent_patient_experiment import AgentPatientExperiment
 from metrics import accuracy_report
 
 def get_palette(): 
@@ -92,7 +93,40 @@ def recompute(csvs,
             exp  = Experiment(name, exp_name, prompt, wrapper_fxn, 1, None)
             filename = pathlib.Path(csv).name
             exp.recover(csv)
+            # print(csv)
             exp.recompute(nicknames, use_action=use_action, use_verb=use_verb, correct_idx=correct_idx)
+            df = exp.format_results()
+            report = accuracy_report(df, total_only=True)
+            accuracy_reports[name] = report['total']
+            try:
+                df.to_csv(f"../{results_path}/{filename}")
+            except FileNotFoundError:
+                print(f"FileNotFound: ../{results_path}/{filename}")
+        except FileNotFoundError:
+            print(f"FileNotFound: {csv}")
+        
+    return accuracy_reports
+
+def recompute_agent_patient(csvs, 
+                            prompt_files,
+                            names, 
+                            results_path = "agent_patient_results_to_plot"): 
+    prompt=None
+    wrapper_fxn=None
+    accuracy_reports = {}
+
+    for csv, name, prompt_file in zip(csvs, names, prompt_files): 
+        try:
+            exp  = AgentPatientExperiment(name, "", prompt, wrapper_fxn, 1, None)
+            filename = pathlib.Path(csv).name
+            exp.recover(csv)
+            with open(prompt_file) as f1:
+                prompt_data = json.load(f1)
+            assert(len(exp.results) == len(prompt_data))
+
+
+            # exp.recompute(prompt_data)
+            exp.recompute() 
             df = exp.format_results()
             report = accuracy_report(df, total_only=True)
             accuracy_reports[name] = report['total']
