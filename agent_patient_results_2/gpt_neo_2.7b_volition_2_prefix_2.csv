@@ -1,0 +1,3391 @@
+,model,exp_type,prompt,pred,true,response
+0,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""At least one expert believes China 's intentions might include a surprise attempt to circle the moon with astronauts before NASA 's planned lunar return .""
+Question: In the event ""include"", does the participant ""intentions"" act on purpose?
+Answer: Yes
+Sentence: ""They sell feed and milk bottles at the front and I recommend you buy lots .""
+Question: In the event ""buy"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""Following on the heels of Ben 's annoucement yesterday , I thought I 'd post that I have joined Google as well .""
+Question: In the event ""post"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""At least one expert believes China's intentions might include a surprise attempt to circle the moon with astronauts before NASA's planned lunar return.""
+Question: In the event ""include"", does the participant ""intentions"" act on purpose?
+Answer: Yes
+Sentence: ""They sell feed and milk bottles at the front and I recommend you buy lots.""
+Question: In the event ""buy"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""Following on the heels of Ben's annoucement yesterday, I thought I 'd post that I have joined Google as well.""
+Question: In the event ""post"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+""At least one expert believes China's intentions might include a surprise attempt to circle the moon with astronauts before NASA's planned lunar return.""
+
+or
+
+""They sell feed and milk bottles at the front and I recommend you buy lots.""
+
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks for a yes/no answer. The second sentence is a statement because it is a statement of fact.
+The first sentence is a question because it asks"
+1,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I 've listed .""
+Question: In the event ""listed"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I enjoyed the animations and wanted to share them with my friends .""
+Question: In the event ""share"", does the participant ""them"" act on purpose?
+Answer: No
+Sentence: ""I use propane with a blower and a burner I built http://www.mikegigi.com/meltmetl.htm and http://www.mikegigi.com/firehole.htm""
+Question: In the event ""built"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I've listed.""
+Question: In the event ""listed"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I enjoyed the animations and wanted to share them with my friends.""
+Question: In the event ""share"", does the participant ""them"" act on purpose?
+Answer: No
+Sentence: ""I use propane with a blower and a burner I built http://www.mikegigi.com/meltmetl.htm and http://www.mikegigi.com/firehole.htm""
+Question: In the event ""built"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I've listed.
+
+The sentence is a complete sentence. It is not a fragment. It is not a sentence fragment. It is not a sentence with a missing word. It is not a sentence with a missing word and a missing punctuation mark. It is not a sentence with a missing word and a missing punctuation mark and a missing word. It is not a sentence with"
+2,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" My first thought was to push it away , "" he said .""
+Question: In the event ""push"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""I ended up paying much more .""
+Question: In the event ""paying"", does the participant ""more"" act on purpose?
+Answer: No
+Sentence: ""The Pew researchers tried to transcend the economic argument .""
+Question: In the event ""tried"", does the participant ""researchers"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: """" My first thought was to push it away, "" he said.""
+Question: In the event ""push"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""I ended up paying much more.""
+Question: In the event ""paying"", does the participant ""more"" act on purpose?
+Answer: No
+Sentence: ""The Pew researchers tried to transcend the economic argument.""
+Question: In the event ""tried"", does the participant ""researchers"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+My first thought was to push it away, but then I ended up paying much more.
+
+or
+
+My first thought was to push it away, but then I ended up paying much more.
+
+The first sentence is a simple statement of fact. The second sentence is a statement of opinion.
+The first sentence is a simple statement of fact. The second sentence is a statement of opinion.
+The first sentence is a simple statement of fact. The second sentence is a statement of opinion.
+The first sentence is a simple statement of fact. The second sentence is a statement of opinion.
+The first sentence is a simple statement of fact. The second sentence is a statement of opinion.
+The first sentence is"
+3,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""My first three children were born in Southern Ontario cities .""
+Question: In the event ""born"", does the participant ""children"" act on purpose?
+Answer: No
+Sentence: ""Musk , which is scraped from their genitals once a day for as long as they can surv ive , makes the scent of perfume last a bit longer after each application .""
+Question: In the event ""makes"", does the participant ""Musk"" act on purpose?
+Answer: No
+Sentence: ""Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism !""
+Question: In the event ""provided"", does the participant ""Tolchin"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""My first three children were born in Southern Ontario cities.""
+Question: In the event ""born"", does the participant ""children"" act on purpose?
+Answer: No
+Sentence: ""Musk, which is scraped from their genitals once a day for as long as they can surv ive, makes the scent of perfume last a bit longer after each application.""
+Question: In the event ""makes"", does the participant ""Musk"" act on purpose?
+Answer: No
+Sentence: ""Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism!""
+Question: In the event ""provided"", does the participant ""Tolchin"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The answer is yes because the word ""born"" is a verb.
+The answer is yes because the word ""made"" is a verb.
+The answer is yes because the word ""last"" is a verb.
+The answer is yes because the word ""a bit longer"" is a verb.
+The answer is yes because the word ""a bit longer"" is a verb.
+The answer is yes because the word ""a bit longer"" is a verb.
+The answer is yes because the word ""a bit longer"" is a verb.
+The answer is yes because the word ""a"
+4,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I met him last week at the meeting of the Science and Industry Advance with Mathematics society at the University of Houston .""
+Question: In the event ""met"", does the participant ""him"" act on purpose?
+Answer: Yes
+Sentence: ""Half of the 300 phenophases Leopold tracked showed a response consistent with warming .""
+Question: In the event ""tracked"", does the participant ""Leopold"" act on purpose?
+Answer: Yes
+Sentence: ""The islamists sent letter bombs in January 1997 to newspaper offices in New York City and Washington , D.C. .""
+Question: In the event ""sent"", does the participant ""bombs"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I met him last week at the meeting of the Science and Industry Advance with Mathematics society at the University of Houston.""
+Question: In the event ""met"", does the participant ""him"" act on purpose?
+Answer: Yes
+Sentence: ""Half of the 300 phenophases Leopold tracked showed a response consistent with warming.""
+Question: In the event ""tracked"", does the participant ""Leopold"" act on purpose?
+Answer: Yes
+Sentence: ""The islamists sent letter bombs in January 1997 to newspaper offices in New York City and Washington, D.C..""
+Question: In the event ""sent"", does the participant ""bombs"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+I met him last week at the meeting of the Science and Industry Advance with Mathematics society at the University of Houston.
+
+or
+
+I met him last week at the meeting of the Science and Industry Advance with Mathematics society at the University of Houston.
+
+The first sentence is ambiguous because it could be interpreted as either:
+
+I met him last week at the meeting of the Science and Industry Advance with Mathematics society at the University of Houston.
+
+or
+
+I met him last week at the meeting of the Science and Industry Advance with"
+5,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""In a bulletin , the FBI noted that the surveillance might relate to a plot to disperse a chemical or biological weapon .""
+Question: In the event ""noted"", does the participant ""FBI"" act on purpose?
+Answer: Yes
+Sentence: ""The German Expressionist movement was destroyed as a result .""
+Question: In the event ""destroyed"", does the participant ""movement"" act on purpose?
+Answer: No
+Sentence: ""He says , I have to have an exact ADDRESS .""
+Question: In the event ""says"", does the participant ""He"" act on purpose?
+Answer: 
+",other,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""In a bulletin, the FBI noted that the surveillance might relate to a plot to disperse a chemical or biological weapon.""
+Question: In the event ""noted"", does the participant ""FBI"" act on purpose?
+Answer: Yes
+Sentence: ""The German Expressionist movement was destroyed as a result.""
+Question: In the event ""destroyed"", does the participant ""movement"" act on purpose?
+Answer: No
+Sentence: ""He says, I have to have an exact ADDRESS.""
+Question: In the event ""says"", does the participant ""He"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer to the thirteenth question is yes.
+The answer to the fourteenth question is no.
+The answer to"
+6,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" We wish them a successful return of their astronauts . """"
+Question: In the event ""wish"", does the participant ""them"" act on purpose?
+Answer: No
+Sentence: ""the guy came on time and did n't take any breaks , he went straight to work and finished the job efficiently and promptly !""
+Question: In the event ""came"", does the participant ""guy"" act on purpose?
+Answer: Yes
+Sentence: ""The staff get to know regulars and do their job very well .""
+Question: In the event ""get"", does the participant ""staff"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: """" We wish them a successful return of their astronauts. """"
+Question: In the event ""wish"", does the participant ""them"" act on purpose?
+Answer: No
+Sentence: ""the guy came on time and didn't take any breaks, he went straight to work and finished the job efficiently and promptly!""
+Question: In the event ""came"", does the participant ""guy"" act on purpose?
+Answer: Yes
+Sentence: ""The staff get to know regulars and do their job very well.""
+Question: In the event ""get"", does the participant ""staff"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is gram"
+7,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""We love our new roof !""
+Question: In the event ""love"", does the participant ""roof"" act on purpose?
+Answer: No
+Sentence: ""Everything we ordered was prepared to perfection , and was presented perfectly .""
+Question: In the event ""ordered"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""NiMo released an additional RFP for peaking supplies for this winter , I believe Phil should have or be getting that RFP .""
+Question: In the event ""peaking"", does the participant ""supplies"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""We love our new roof!""
+Question: In the event ""love"", does the participant ""roof"" act on purpose?
+Answer: No
+Sentence: ""Everything we ordered was prepared to perfection, and was presented perfectly.""
+Question: In the event ""ordered"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""NiMo released an additional RFP for peaking supplies for this winter, I believe Phil should have or be getting that RFP.""
+Question: In the event ""peaking"", does the participant ""supplies"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer to the thirteenth question is yes.
+The answer to the fourteenth question is no.
+The answer to the"
+8,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Sussexs have soft feathers .""
+Question: In the event ""have"", does the participant ""feathers"" act on purpose?
+Answer: No
+Sentence: ""The next day , the federal commission killed the new pricing plan .""
+Question: In the event ""killed"", does the participant ""plan"" act on purpose?
+Answer: No
+Sentence: ""My boyfriend has one and when she 's hungry she attacks the pinkie right away .""
+Question: In the event ""has"", does the participant ""boyfriend"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Sussexs have soft feathers.""
+Question: In the event ""have"", does the participant ""feathers"" act on purpose?
+Answer: No
+Sentence: ""The next day, the federal commission killed the new pricing plan.""
+Question: In the event ""killed"", does the participant ""plan"" act on purpose?
+Answer: No
+Sentence: ""My boyfriend has one and when she's hungry she attacks the pinkie right away.""
+Question: In the event ""has"", does the participant ""boyfriend"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""have"", does the participant ""feathers"" act on purpose?
+
+The answer is yes because the verb ""have"" is a transitive verb.
+The sentence is:
+
+In the event ""killed"", does the participant ""plan"" act on purpose?
+
+The answer is yes because the verb ""kill"" is a transitive verb.
+The sentence is:
+
+In the event ""has"", does the participant ""boyfriend"" act on purpose?
+
+The answer is yes because the verb ""has"" is a transitive verb.
+The sentence is:
+
+In the event ""has"", does the participant ""boyfriend"" act on purpose?
+
+The"
+9,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I found this on a bulletin board and decided to try it : I do n't care about the useless pre-fabricated crap this message usually says .""
+Question: In the event ""found"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I love it for discounted beauty items and household appliances .""
+Question: In the event ""love"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""The confidante and right - hand man of Dr. Ayman Zawahiri admitted that Zawahiri succeeded in obtaining anthrax and intended to use it against US targets .""
+Question: In the event ""obtaining"", does the participant ""anthrax"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I found this on a bulletin board and decided to try it : I don't care about the useless pre-fabricated crap this message usually says.""
+Question: In the event ""found"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I love it for discounted beauty items and household appliances.""
+Question: In the event ""love"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""The confidante and right - hand man of Dr. Ayman Zawahiri admitted that Zawahiri succeeded in obtaining anthrax and intended to use it against US targets.""
+Question: In the event ""obtaining"", does the participant ""anthrax"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+I found this on a bulletin board and decided to try it.
+
+The verb ""found"" is a transitive verb.  It takes an object.  The object is the bulletin board.  The bulletin board is the subject of the sentence.  The bulletin board is the object of the verb ""to try"".  The bulletin board is the direct object of the verb ""to try"".  The bulletin board is the indirect object of the verb ""to try"".  The bulletin board is the direct object of the"
+10,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""At one point they told me the dog had been fixed , the next day it had n't .""
+Question: In the event ""fixed"", does the participant ""dog"" act on purpose?
+Answer: No
+Sentence: ""You said you liked her and she accepted it as a truth and perhaps as a compliment , but it does not mean she fancies you or wants to pair off with you .""
+Question: In the event ""said"", does the participant ""You"" act on purpose?
+Answer: Yes
+Sentence: ""i know you remember the bet .""
+Question: In the event ""remember"", does the participant ""you"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""At one point they told me the dog had been fixed, the next day it hadn't.""
+Question: In the event ""fixed"", does the participant ""dog"" act on purpose?
+Answer: No
+Sentence: ""You said you liked her and she accepted it as a truth and perhaps as a compliment, but it does not mean she fancies you or wants to pair off with you.""
+Question: In the event ""said"", does the participant ""You"" act on purpose?
+Answer: Yes
+Sentence: ""i know you remember the bet.""
+Question: In the event ""remember"", does the participant ""you"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer to the thirteenth question is yes.
+The answer to"
+11,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I moved to Creekside Apartments in August 2008 with a 6 - month lease and have just extended it for another 13 months !""
+Question: In the event ""extended"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""I called over the weekend due to clogged kitchen sink .""
+Question: In the event ""called"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Xinhua alleged that "" Many of the Iraqis , who suffer the American occupation of Iraq , relate their case with that of the Palestinian people , under the Israeli occupation . """"
+Question: In the event ""relate"", does the participant ""Many"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I moved to Creekside Apartments in August 2008 with a 6 - month lease and have just extended it for another 13 months!""
+Question: In the event ""extended"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""I called over the weekend due to clogged kitchen sink.""
+Question: In the event ""called"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Xinhua alleged that "" Many of the Iraqis, who suffer the American occupation of Iraq, relate their case with that of the Palestinian people, under the Israeli occupation. """"
+Question: In the event ""relate"", does the participant ""Many"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event extended, does the participant ""it"" act on purpose?
+
+The answer is yes because ""it"" is the subject of the sentence.
+The sentence is:
+
+In the event called, does the participant ""I"" act on purpose?
+
+The answer is yes because ""I"" is the subject of the sentence.
+The sentence is:
+
+In the event relate, does the participant ""Many"" act on purpose?
+
+The answer is yes because ""Many"" is the subject of the sentence."
+12,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The storm threatened oil installations in the Gulf of Mexico where about one - quarter of US oil operations are based .""
+Question: In the event ""threatened"", does the participant ""installations"" act on purpose?
+Answer: No
+Sentence: ""But the menu had standard stuff that one would get at a Belgian Tavern .""
+Question: In the event ""had"", does the participant ""menu"" act on purpose?
+Answer: No
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""painted"", does the participant ""who"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""The storm threatened oil installations in the Gulf of Mexico where about one - quarter of US oil operations are based.""
+Question: In the event ""threatened"", does the participant ""installations"" act on purpose?
+Answer: No
+Sentence: ""But the menu had standard stuff that one would get at a Belgian Tavern.""
+Question: In the event ""had"", does the participant ""menu"" act on purpose?
+Answer: No
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""painted"", does the participant ""who"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event threatened, does the participant installations act on purpose?
+
+The answer is yes because the sentence is about the action of the participants.
+The sentence is:
+
+In the event had, does the participant menu act on purpose?
+
+The answer is yes because the sentence is about the action of the participants.
+The sentence is:
+
+In the event painted, does the participant who paint act on purpose?
+
+The answer is yes because the sentence is about the action of the participants.
+"
+13,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""For weeks , reporters scoured Alabama in search of pilots or anyone who might have remembered seeing Mr. Bush at the time he was serving in the National Guard there .""
+Question: In the event ""scoured"", does the participant ""Alabama"" act on purpose?
+Answer: No
+Sentence: ""I like to imagine the thought processes going on in W 's head if he were to actually read the letter , but it is hard to picture him actually reading this letter .""
+Question: In the event ""picture"", does the participant ""him"" act on purpose?
+Answer: No
+Sentence: ""Just today I bought a medium rat for my beloved Ball Python Salazar ( name after Harry Potter ) .""
+Question: In the event ""bought"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""For weeks, reporters scoured Alabama in search of pilots or anyone who might have remembered seeing Mr. Bush at the time he was serving in the National Guard there.""
+Question: In the event ""scoured"", does the participant ""Alabama"" act on purpose?
+Answer: No
+Sentence: ""I like to imagine the thought processes going on in W's head if he were to actually read the letter, but it is hard to picture him actually reading this letter.""
+Question: In the event ""picture"", does the participant ""him"" act on purpose?
+Answer: No
+Sentence: ""Just today I bought a medium rat for my beloved Ball Python Salazar ( name after Harry Potter ).""
+Question: In the event ""bought"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+""For weeks, reporters scoured Alabama in search of pilots or anyone who might have remembered seeing Mr. Bush at the time he was serving in the National Guard there.""
+
+or
+
+""For weeks, reporters scoured Alabama in search of anyone who might have remembered seeing Mr. Bush at the time he was serving in the National Guard there.""
+
+The first sentence is a question. The second sentence is a statement.
+The first"
+14,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""My vet told me when a dog is vomiting a lot , it could be a sign of obstruction .""
+Question: In the event ""vomiting"", does the participant ""dog"" act on purpose?
+Answer: No
+Sentence: ""I thought it would pass until he started to vomit blood and would nt drink any water .""
+Question: In the event ""started"", does the participant ""he"" act on purpose?
+Answer: No
+Sentence: ""He described Allawi 's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors .""
+Question: In the event ""described"", does the participant ""face"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""My vet told me when a dog is vomiting a lot, it could be a sign of obstruction.""
+Question: In the event ""vomiting"", does the participant ""dog"" act on purpose?
+Answer: No
+Sentence: ""I thought it would pass until he started to vomit blood and would nt drink any water.""
+Question: In the event ""started"", does the participant ""he"" act on purpose?
+Answer: No
+Sentence: ""He described Allawi's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors.""
+Question: In the event ""described"", does the participant ""face"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence"
+15,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I took him to the Animal Hospital and they ran blood work and everything came back normal .""
+Question: In the event ""ran"", does the participant ""they"" act on purpose?
+Answer: Yes
+Sentence: ""The Ten Degree Channel divides the Andamans , which are the larger and more heavily populated northern islands , from the 20 or so Nicobar Islands in the south .""
+Question: In the event ""divides"", does the participant ""Channel"" act on purpose?
+Answer: No
+Sentence: ""We oppose the use of sacred texts and religious traditions to deny legal equity to same - gender couples .""
+Question: In the event ""deny"", does the participant ""equity"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I took him to the Animal Hospital and they ran blood work and everything came back normal.""
+Question: In the event ""ran"", does the participant ""they"" act on purpose?
+Answer: Yes
+Sentence: ""The Ten Degree Channel divides the Andamans, which are the larger and more heavily populated northern islands, from the 20 or so Nicobar Islands in the south.""
+Question: In the event ""divides"", does the participant ""Channel"" act on purpose?
+Answer: No
+Sentence: ""We oppose the use of sacred texts and religious traditions to deny legal equity to same - gender couples.""
+Question: In the event ""deny"", does the participant ""equity"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement. The third sentence is a question.
+The first sentence is a question because it asks ""In the event that ran, does the participant 'they' act on purpose?""
+The second sentence is a statement because it asks ""In the event that divided, does the participant 'Channel' act on purpose?""
+The third sentence is a question because it asks ""In the event that deny, does the participant 'equity' act on purpose?""
+The answer is yes to all three questions.
+
+A:
+
+"
+16,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The crop dusters were to be part of a "" second wave . """"
+Question: In the event ""were"", does the participant ""dusters"" act on purpose?
+Answer: No
+Sentence: ""I was amazed at the spiel they delivered .""
+Question: In the event ""delivered"", does the participant ""they"" act on purpose?
+Answer: Yes
+Sentence: ""Sooners rule .""
+Question: In the event ""rule"", does the participant ""Sooners"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""The crop dusters were to be part of a "" second wave. """"
+Question: In the event ""were"", does the participant ""dusters"" act on purpose?
+Answer: No
+Sentence: ""I was amazed at the spiel they delivered.""
+Question: In the event ""delivered"", does the participant ""they"" act on purpose?
+Answer: Yes
+Sentence: ""Sooners rule.""
+Question: In the event ""rule"", does the participant ""Sooners"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""were"", does the participant ""dusters"" act on purpose?
+
+The answer is yes because ""dusters"" is a participial phrase that modifies ""were"".
+
+In the event ""were"", does the participant ""dusters"" act on purpose?
+
+The answer is yes because ""dusters"" is a participial phrase that modifies ""act on purpose"".
+
+In the event ""delivered"", does the participant ""they"" act on purpose?
+
+The answer is yes because ""they"" is a noun phrase that modifies ""act on purpose"".
+
+In the event ""rule"", does the participant ""Sooners"" act on purpose?
+
+The answer is yes because ""Sooners"" is a"
+17,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Yet people seem willing -- even eager -- to accommodate mountain lions , despite the risks .""
+Question: In the event ""accommodate"", does the participant ""lions"" act on purpose?
+Answer: No
+Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan .""
+Question: In the event ""contracted"", does the participant ""anthrax"" act on purpose?
+Answer: No
+Sentence: ""Sanctuary serves delicious , somewhat healthy food in a great restaurant / fast food style .""
+Question: In the event ""serves"", does the participant ""food"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Yet people seem willing -- even eager -- to accommodate mountain lions, despite the risks.""
+Question: In the event ""accommodate"", does the participant ""lions"" act on purpose?
+Answer: No
+Sentence: ""The hijacker Ahmed Alhaznawi appears to have contracted cutaneous anthrax in Afghanistan.""
+Question: In the event ""contracted"", does the participant ""anthrax"" act on purpose?
+Answer: No
+Sentence: ""Sanctuary serves delicious, somewhat healthy food in a great restaurant / fast food style.""
+Question: In the event ""serves"", does the participant ""food"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The word ""yet"" is a conjunction. It is used to introduce a list of things that are still to be considered.
+The word ""people"" is a noun phrase. It is used to introduce a list of people.
+The word ""seem"" is a conjunction. It is used to introduce a list of things that are not yet considered.
+The word ""lions"" is a noun phrase. It is used to introduce a list of things that are not yet considered.
+The word ""seem"" is a conjunction. It is used to introduce a list of things that are not yet considered.
+The word ""hijacker"
+18,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I think it was in the Lincoln Square area but do n't quote me on that .""
+Question: In the event ""think"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""i have stronger will than you think .""
+Question: In the event ""have"", does the participant ""will"" act on purpose?
+Answer: No
+Sentence: ""I knew what it was and told the guy that it was n't a fps .""
+Question: In the event ""knew"", does the participant ""I"" act on purpose?
+Answer: 
+",other,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I think it was in the Lincoln Square area but don't quote me on that.""
+Question: In the event ""think"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""i have stronger will than you think.""
+Question: In the event ""have"", does the participant ""will"" act on purpose?
+Answer: No
+Sentence: ""I knew what it was and told the guy that it wasn't a fps.""
+Question: In the event ""knew"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer to the thirteenth question is yes.
+The answer to the fourteenth question is no.
+The answer to the fifteenth question is yes."
+19,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Several candidates were assassinated and targeted these last two weeks , others have been forced under threats to withdraw and to follow the example of the Islamic party .""
+Question: In the event ""assassinated"", does the participant ""candidates"" act on purpose?
+Answer: No
+Sentence: ""Either I suck at my own style or Janice is a genius .""
+Question: In the event ""suck"", does the participant ""I"" act on purpose?
+Answer: No
+Sentence: ""I expected to pay for this service , but imagine my surprise when I received a bill for MORE than what I paid to have the original return prepared .""
+Question: In the event ""paid"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Several candidates were assassinated and targeted these last two weeks, others have been forced under threats to withdraw and to follow the example of the Islamic party.""
+Question: In the event ""assassinated"", does the participant ""candidates"" act on purpose?
+Answer: No
+Sentence: ""Either I suck at my own style or Janice is a genius.""
+Question: In the event ""suck"", does the participant ""I"" act on purpose?
+Answer: No
+Sentence: ""I expected to pay for this service, but imagine my surprise when I received a bill for MORE than what I paid to have the original return prepared.""
+Question: In the event ""paid"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question.
+The second sentence is a statement.
+The third sentence is a question.
+The fourth sentence is a statement.
+The fifth sentence is a question.
+The sixth sentence is a statement.
+The seventh sentence is a question.
+The eighth sentence is a statement.
+The ninth sentence is a question.
+The tenth sentence is a statement.
+The eleventh sentence is a question.
+The twelfth sentence is a statement.
+The thirteenth sentence is a question.
+The fourteenth sentence is a statement."
+20,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""NASA has some PR hurdles to overcome in the future .""
+Question: In the event ""has"", does the participant ""hurdles"" act on purpose?
+Answer: No
+Sentence: ""This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .""
+Question: In the event ""backfire"", does the participant ""rush"" act on purpose?
+Answer: No
+Sentence: ""I enjoyed working with you and wish you the best of everything .""
+Question: In the event ""enjoyed"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""NASA has some PR hurdles to overcome in the future.""
+Question: In the event ""has"", does the participant ""hurdles"" act on purpose?
+Answer: No
+Sentence: ""This BuzzMachine post argues that Google's rush toward ubiquity might backfire -- which we've all heard before, but it's particularly well - put in this post.""
+Question: In the event ""backfire"", does the participant ""rush"" act on purpose?
+Answer: No
+Sentence: ""I enjoyed working with you and wish you the best of everything.""
+Question: In the event ""enjoyed"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question.
+The second sentence is a statement.
+The third sentence is a question.
+The fourth sentence is a statement.
+The fifth sentence is a question.
+The sixth sentence is a statement.
+The seventh sentence is a question.
+The eighth sentence is a statement.
+The ninth sentence is a question.
+The tenth sentence is a statement.
+The eleventh sentence is a question.
+The twelfth sentence is a statement.
+The thirteenth sentence is a question.
+The fourteenth sentence is a statement.
+The fifteenth sentence is a question.
+The"
+21,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Guerrillas near Hawijah launched an attack that left 6 dead , including 4 Iraqi soldiers .""
+Question: In the event ""launched"", does the participant ""Guerrillas"" act on purpose?
+Answer: Yes
+Sentence: ""The Pakistani press reported that she was nabbed in Karachi after being spotted at the airport in late March or early April 2003 .""
+Question: In the event ""nabbed"", does the participant ""she"" act on purpose?
+Answer: No
+Sentence: ""Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .""
+Question: In the event ""received"", does the participant ""treatment"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""Guerrillas near Hawijah launched an attack that left 6 dead, including 4 Iraqi soldiers.""
+Question: In the event ""launched"", does the participant ""Guerrillas"" act on purpose?
+Answer: Yes
+Sentence: ""The Pakistani press reported that she was nabbed in Karachi after being spotted at the airport in late March or early April 2003.""
+Question: In the event ""nabbed"", does the participant ""she"" act on purpose?
+Answer: No
+Sentence: ""Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country's wealth and power.""
+Question: In the event ""received"", does the participant ""treatment"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""launched"", does the participant ""Guerrillas"" act on purpose?
+
+The answer is yes because the verb ""act"" is a transitive verb.
+The sentence is:
+
+In the event ""nabbed"", does the participant ""she"" act on purpose?
+
+The answer is no because the verb ""act"" is a intransitive verb.
+The sentence is:
+
+In the event ""received"", does the participant ""treatment"" act on purpose?
+
+The answer is no because the"
+22,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I have the following suggestion for our company .""
+Question: In the event ""have"", does the participant ""suggestion"" act on purpose?
+Answer: No
+Sentence: ""i have a baby eastern king snake .""
+Question: In the event ""have"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""At the same time McCartney was going out with Heather Mills , he used Linda 's death for promotional ends , due to his waning popularity .""
+Question: In the event ""used"", does the participant ""he"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I have the following suggestion for our company.""
+Question: In the event ""have"", does the participant ""suggestion"" act on purpose?
+Answer: No
+Sentence: ""i have a baby eastern king snake.""
+Question: In the event ""have"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""At the same time McCartney was going out with Heather Mills, he used Linda's death for promotional ends, due to his waning popularity.""
+Question: In the event ""used"", does the participant ""he"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+""I have the following suggestion for our company.""
+""I have a baby eastern king snake.""
+
+The first sentence is a suggestion. It is a statement of fact. It is not a request. It is not a command. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to do something. It is not a command to"
+23,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I said great and Dan arrived on time at 10 am to make the repair .""
+Question: In the event ""said"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Pioneers take a pledge to remain tee - total and at the hight of the organization popularity , had an estimated two million members even filling Croke Park on the 25th anniversary .""
+Question: In the event ""take"", does the participant ""Pioneers"" act on purpose?
+Answer: Yes
+Sentence: ""I knew a cat that died in its sleep aged 21 .""
+Question: In the event ""knew"", does the participant ""cat"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I said great and Dan arrived on time at 10 am to make the repair.""
+Question: In the event ""said"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Pioneers take a pledge to remain tee - total and at the hight of the organization popularity, had an estimated two million members even filling Croke Park on the 25th anniversary.""
+Question: In the event ""take"", does the participant ""Pioneers"" act on purpose?
+Answer: Yes
+Sentence: ""I knew a cat that died in its sleep aged 21.""
+Question: In the event ""knew"", does the participant ""cat"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question.  The second sentence is a statement.  The third sentence is a question.  The fourth sentence is a statement.  The fifth sentence is a question.  The sixth sentence is a statement.  The seventh sentence is a question.  The eighth sentence is a statement.  The ninth sentence is a question.  The tenth sentence is a statement.  The eleventh sentence is a question.  The twelfth sentence is a statement.  The thirteenth sentence is a question.  The fourteenth sentence is a statement.  The fifteenth sentence is a question"
+24,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""We had an inside cabin and it is what I would recommend .""
+Question: In the event ""had"", does the participant ""cabin"" act on purpose?
+Answer: No
+Sentence: ""Dignitaries condemn the act but visit her bereaved family and the money flows .""
+Question: In the event ""condemn"", does the participant ""act"" act on purpose?
+Answer: No
+Sentence: ""We had no choice but to stay but will take this as far as we can .""
+Question: In the event ""had"", does the participant ""We"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""We had an inside cabin and it is what I would recommend.""
+Question: In the event ""had"", does the participant ""cabin"" act on purpose?
+Answer: No
+Sentence: ""Dignitaries condemn the act but visit her bereaved family and the money flows.""
+Question: In the event ""condemn"", does the participant ""act"" act on purpose?
+Answer: No
+Sentence: ""We had no choice but to stay but will take this as far as we can.""
+Question: In the event ""had"", does the participant ""We"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct,"
+25,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""** Google defies US over search data **""
+Question: In the event ""defies"", does the participant ""US"" act on purpose?
+Answer: No
+Sentence: ""James J. Hoecker , the former Federal Energy Regulatory Commission chairman , defended making the December decision and also defended Winter .""
+Question: In the event ""defended"", does the participant ""Hoecker"" act on purpose?
+Answer: Yes
+Sentence: ""In the end Nixon kept his promise for "" . peace with honor .. """"
+Question: In the event ""kept"", does the participant ""Nixon"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""** Google defies US over search data **""
+Question: In the event ""defies"", does the participant ""US"" act on purpose?
+Answer: No
+Sentence: ""James J. Hoecker, the former Federal Energy Regulatory Commission chairman, defended making the December decision and also defended Winter.""
+Question: In the event ""defended"", does the participant ""Hoecker"" act on purpose?
+Answer: Yes
+Sentence: ""In the end Nixon kept his promise for "". peace with honor.. """"
+Question: In the event ""kept"", does the participant ""Nixon"" act on purpose?
+Answer: 
+Sentence: ""The U.S. government has been accused of using the Internet to spy on its citizens. ""
+Question: In the event ""spied"", does the participant ""U.S."" act on purpose?
+Answer: No
+Sentence: ""The U.S. government has been accused of using the Internet to spy on its citizens. ""
+Question: In the event ""spied"", does the participant ""U.S."" act on purpose?
+Answer: Yes
+Sentence: ""The U.S. government has been accused of using the Internet to spy on its citizens. ""
+Question: In the event ""spied"", does the participant ""U.S."" act on purpose?
+"
+26,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Allawi 's aged cousin and the man 's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped .""
+Question: In the event ""abducted"", does the participant ""cousin"" act on purpose?
+Answer: No
+Sentence: ""Syria is surrounded by Turkey , Iraq , Jordan and Israel .""
+Question: In the event ""surrounded"", does the participant ""Syria"" act on purpose?
+Answer: No
+Sentence: ""Dr. Mann killed our pet""
+Question: In the event ""killed"", does the participant ""pet"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Allawi's aged cousin and the man's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped.""
+Question: In the event ""abducted"", does the participant ""cousin"" act on purpose?
+Answer: No
+Sentence: ""Syria is surrounded by Turkey, Iraq, Jordan and Israel.""
+Question: In the event ""surrounded"", does the participant ""Syria"" act on purpose?
+Answer: No
+Sentence: ""Dr. Mann killed our pet""
+Question: In the event ""killed"", does the participant ""pet"" act on purpose?
+Answer: 
+Sentence: ""The man's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped.""
+Question: In the event ""abducted"", does the participant ""cousin"" act on purpose?
+Answer: No
+Sentence: ""Syria is surrounded by Turkey, Iraq, Jordan and Israel.""
+Question: In the event ""surrounded"", does the participant ""Syria"" act on purpose?
+Answer: No
+Sentence: ""Dr. Mann killed our pet""
+Question: In the event ""killed"", does the participant ""pet"" act on purpose?
+Answer: 
+
+"
+27,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""He needs more info about these trades ( i.e. , price info ) and would like to talk with you about it .""
+Question: In the event ""needs"", does the participant ""info"" act on purpose?
+Answer: No
+Sentence: """" They can freely write anything they like about our prophet , but if one raises doubts about the Holocaust he is either fined or sent to prison , "" he added .""
+Question: In the event ""raises"", does the participant ""one"" act on purpose?
+Answer: Yes
+Sentence: ""I know it s in the wrong catagory , but still , I wrote this question for a reason , not for you to critisize me .""
+Question: In the event ""critisize"", does the participant ""me"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""He needs more info about these trades ( i.e., price info ) and would like to talk with you about it.""
+Question: In the event ""needs"", does the participant ""info"" act on purpose?
+Answer: No
+Sentence: """" They can freely write anything they like about our prophet, but if one raises doubts about the Holocaust he is either fined or sent to prison, "" he added.""
+Question: In the event ""raises"", does the participant ""one"" act on purpose?
+Answer: Yes
+Sentence: ""I know it s in the wrong catagory, but still, I wrote this question for a reason, not for you to critisize me.""
+Question: In the event ""critisize"", does the participant ""me"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question"
+28,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""His family loves him .""
+Question: In the event ""loves"", does the participant ""family"" act on purpose?
+Answer: Yes
+Sentence: ""I used my card to purchase a meal on the menu and the total on my receipt was $ 8.95 but when I went on line to check my transaction it show $ 10.74 .""
+Question: In the event ""used"", does the participant ""card"" act on purpose?
+Answer: No
+Sentence: ""A lack of organisation , coupled with the distain for its customers , makes this the worst rental agency I have used .""
+Question: In the event ""makes"", does the participant ""this"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""His family loves him.""
+Question: In the event ""loves"", does the participant ""family"" act on purpose?
+Answer: Yes
+Sentence: ""I used my card to purchase a meal on the menu and the total on my receipt was $ 8.95 but when I went on line to check my transaction it show $ 10.74.""
+Question: In the event ""used"", does the participant ""card"" act on purpose?
+Answer: No
+Sentence: ""A lack of organisation, coupled with the distain for its customers, makes this the worst rental agency I have used.""
+Question: In the event ""makes"", does the participant ""this"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""loves"", does the participant ""family"" act on purpose?
+
+The answer is yes because the verb ""act"" is a transitive verb.
+The sentence is:
+
+In the event ""used"", does the participant ""card"" act on purpose?
+
+The answer is no because the verb ""act"" is a intransitive verb.
+The sentence is:
+
+In the event ""makes"", does the participant ""this"" act on purpose?
+
+The answer is no because the verb ""act"" is a transitive verb."
+29,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I wish I could have a slice for every single meal .""
+Question: In the event ""wish"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I loved the car so we began negotiating my trade - in and the price of the 09 XF .""
+Question: In the event ""began"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""Newer semi-automatic wangs have a rail built into the receiver under the shaft .""
+Question: In the event ""have"", does the participant ""wangs"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I wish I could have a slice for every single meal.""
+Question: In the event ""wish"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I loved the car so we began negotiating my trade - in and the price of the 09 XF.""
+Question: In the event ""began"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""Newer semi-automatic wangs have a rail built into the receiver under the shaft.""
+Question: In the event ""have"", does the participant ""wangs"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a wish.
+The second sentence is a statement of fact.
+The third sentence is a statement of fact.
+The fourth sentence is a statement of fact.
+The fifth sentence is a statement of fact.
+The sixth sentence is a statement of fact.
+The seventh sentence is a statement of fact.
+The eighth sentence is a statement of fact.
+The ninth sentence is a statement of fact.
+The tenth sentence is a statement of fact.
+The eleventh sentence is a statement of fact.
+The twelfth sentence is a statement of fact.
+The thirteenth sentence is a statement of fact.
+The fourteenth sentence is a statement"
+30,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Inhibitory Systems Control the Pattern of Activity in the Cortex""
+Question: In the event ""Control"", does the participant ""Systems"" act on purpose?
+Answer: No
+Sentence: """" I do n't know how these events could have taken place without some concerted effort , "" said Dunn .""
+Question: In the event ""said"", does the participant ""Dunn"" act on purpose?
+Answer: Yes
+Sentence: ""I have no doubt that the civilized world will prevail .""
+Question: In the event ""have"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Inhibitory Systems Control the Pattern of Activity in the Cortex""
+Question: In the event ""Control"", does the participant ""Systems"" act on purpose?
+Answer: No
+Sentence: """" I don't know how these events could have taken place without some concerted effort, "" said Dunn.""
+Question: In the event ""said"", does the participant ""Dunn"" act on purpose?
+Answer: Yes
+Sentence: ""I have no doubt that the civilized world will prevail.""
+Question: In the event ""have"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""Control"", does the participant ""Systems"" act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event ""said"", does the participant ""Dunn"" act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event ""have"", does the participant ""I"" act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event ""said"", does the participant ""Dunn"" act on purpose?
+
+The answer is yes because the sentence is a question."
+31,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""They kept the name Oracle and created the RDBMS engine .""
+Question: In the event ""created"", does the participant ""engine"" act on purpose?
+Answer: No
+Sentence: ""He described Allawi 's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors .""
+Question: In the event ""dismissed"", does the participant ""government"" act on purpose?
+Answer: No
+Sentence: ""He gave no indication on the value of the highest bid .""
+Question: In the event ""gave"", does the participant ""He"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""They kept the name Oracle and created the RDBMS engine.""
+Question: In the event ""created"", does the participant ""engine"" act on purpose?
+Answer: No
+Sentence: ""He described Allawi's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors.""
+Question: In the event ""dismissed"", does the participant ""government"" act on purpose?
+Answer: No
+Sentence: ""He gave no indication on the value of the highest bid.""
+Question: In the event ""gave"", does the participant ""He"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+They kept the name Oracle and created the RDBMS engine.
+
+The participant ""engine"" is acting on purpose.
+The sentence is:
+
+He described Allawi's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors.
+
+The participant ""government"" is acting on purpose.
+The sentence is:
+
+He gave no indication on the value of the highest bid.
+
+The participant ""He"" is acting on purpose.
+The sentence is:
+
+He gave no indication on the value of the highest bid.
+
+The sentence is"
+32,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""rumor has feb 05 on the calender .""
+Question: In the event ""has"", does the participant ""rumor"" act on purpose?
+Answer: No
+Sentence: ""They both had pools for kids and adults .""
+Question: In the event ""had"", does the participant ""pools"" act on purpose?
+Answer: No
+Sentence: ""I called her grandmother and explained things to her .""
+Question: In the event ""called"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""rumor has feb 05 on the calender.""
+Question: In the event ""has"", does the participant ""rumor"" act on purpose?
+Answer: No
+Sentence: ""They both had pools for kids and adults.""
+Question: In the event ""had"", does the participant ""pools"" act on purpose?
+Answer: No
+Sentence: ""I called her grandmother and explained things to her.""
+Question: In the event ""called"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+""rumor has feb 05 on the calendar""
+""rumor has feb 05 on the calendar and has feb 05 on the calendar""
+
+The first sentence is grammatically correct, but it is not clear what the speaker is trying to say. The second sentence is grammatically correct, but it is not clear what the speaker is trying to say.
+The first sentence is ambiguous because it is not clear whether the speaker is talking about the calendar or the calendar and the calendar. The second sentence is ambiguous because it is not clear whether the speaker is talking about the calendar or the calendar and the calendar.
+The first sentence is ambiguous because it is not clear whether the speaker is talking about the calendar or the calendar and"
+33,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I took some photos of my model girlfriend with my Nikon D7000 .""
+Question: In the event ""took"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Most of the deals let you eat for 500 ff , and some of the deals are even free .""
+Question: In the event ""eat"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""They came on time and completed their work quickly .""
+Question: In the event ""came"", does the participant ""They"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I took some photos of my model girlfriend with my Nikon D7000.""
+Question: In the event ""took"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Most of the deals let you eat for 500 ff, and some of the deals are even free.""
+Question: In the event ""eat"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""They came on time and completed their work quickly.""
+Question: In the event ""came"", does the participant ""They"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that took, does the participant I act on purpose?""
+The second sentence is a statement because it asks ""In the event that came, does the participant you act on purpose?""
+The answer to the first question is yes because the first sentence is a question. The answer to the second question is yes because the second sentence is a statement.
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that took, does the participant I act on"
+34,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Exxon Mobil released nonessential staff from two giant Texas plants .""
+Question: In the event ""released"", does the participant ""staff"" act on purpose?
+Answer: No
+Sentence: ""The IPN report examines commercial fish species , but it neglects important non-commercial animals , such as seals and polar bears .""
+Question: In the event ""neglects"", does the participant ""animals"" act on purpose?
+Answer: No
+Sentence: ""Secretive efforts keep outsiders in the dark about the program 's goals""
+Question: In the event ""keep"", does the participant ""outsiders"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Exxon Mobil released nonessential staff from two giant Texas plants.""
+Question: In the event ""released"", does the participant ""staff"" act on purpose?
+Answer: No
+Sentence: ""The IPN report examines commercial fish species, but it neglects important non-commercial animals, such as seals and polar bears.""
+Question: In the event ""neglects"", does the participant ""animals"" act on purpose?
+Answer: No
+Sentence: ""Secretive efforts keep outsiders in the dark about the program's goals""
+Question: In the event ""keep"", does the participant ""outsiders"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is not idiomatic because it is not a question. It is a statement of fact. 
+The sentence is not idiomatic because it is not a question. It is a statement of fact. 
+The sentence is not idiomatic because it is not a question. It is a statement of fact. 
+The sentence is not idiomatic because it is not a question. It is a statement of fact. 
+The sentence is not idiomatic because it is not a question. It is a statement of fact. 
+The sentence is not idiomatic because it is"
+35,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" There is always the possibility they could jam us up , make us look like we are not numero uno , "" Pike said .""
+Question: In the event ""jam"", does the participant ""us"" act on purpose?
+Answer: No
+Sentence: ""The classes cover all age and skill ranges , with BALLROOM , LATIN , SEQUENCE , STREET , DISCO , LINE DANCING , BALLET , TAP & JAZZ .""
+Question: In the event ""cover"", does the participant ""ranges"" act on purpose?
+Answer: No
+Sentence: ""Attached is a forecast for the rest of the summer for the X ( NWP and PGT ) .""
+Question: In the event ""Attached"", does the participant ""forecast"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: """" There is always the possibility they could jam us up, make us look like we are not numero uno, "" Pike said.""
+Question: In the event ""jam"", does the participant ""us"" act on purpose?
+Answer: No
+Sentence: ""The classes cover all age and skill ranges, with BALLROOM, LATIN, SEQUENCE, STREET, DISCO, LINE DANCING, BALLET, TAP & JAZZ.""
+Question: In the event ""cover"", does the participant ""ranges"" act on purpose?
+Answer: No
+Sentence: ""Attached is a forecast for the rest of the summer for the X ( NWP and PGT ).""
+Question: In the event ""Attached"", does the participant ""forecast"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+There is always the possibility that they could jam us up, make us look like we are not number one, or
+There is always the possibility that they could jam us up, make us look like we are not number one, and that we could be number one.
+
+The first interpretation is the one that is being used.
+The second interpretation is the one that is being used.
+The first interpretation is the one"
+36,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""i have a Mature male and female they are together a lot but never laid eggs as far as i know can anyone help me figure out how to make them mate""
+Question: In the event ""have"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""They have unbeatable price in town and deliver on time .""
+Question: In the event ""have"", does the participant ""They"" act on purpose?
+Answer: Yes
+Sentence: ""Attached for your further handling is the draft form Deemed ISDA between ENA and Ispat Mexicana S.A. de C.V .""
+Question: In the event ""Attached"", does the participant ""form"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""i have a Mature male and female they are together a lot but never laid eggs as far as i know can anyone help me figure out how to make them mate""
+Question: In the event ""have"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""They have unbeatable price in town and deliver on time.""
+Question: In the event ""have"", does the participant ""They"" act on purpose?
+Answer: Yes
+Sentence: ""Attached for your further handling is the draft form Deemed ISDA between ENA and Ispat Mexicana S.A. de C.V.""
+Question: In the event ""Attached"", does the participant ""form"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+""They have unbeatable price in town and deliver on time.""
+
+or
+
+""They have unbeatable price in town and deliver on time. They are together a lot but never laid eggs as far as I know.""
+
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it is asking for a yes/no answer. The second sentence is a statement because it is asking for a yes/no answer.
+The first sentence is"
+37,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""They provide an emotional infrastructure for atrocities .""
+Question: In the event ""provide"", does the participant ""infrastructure"" act on purpose?
+Answer: No
+Sentence: ""He and his master dragged me to my room and held judgment upon me as a convicted traitress .""
+Question: In the event ""dragged"", does the participant ""me"" act on purpose?
+Answer: No
+Sentence: ""The poor quality starts at the receptionist desk , where the staff is very impatient and lack the efficiency I once loved about the office .""
+Question: In the event ""lack"", does the participant ""efficiency"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""They provide an emotional infrastructure for atrocities.""
+Question: In the event ""provide"", does the participant ""infrastructure"" act on purpose?
+Answer: No
+Sentence: ""He and his master dragged me to my room and held judgment upon me as a convicted traitress.""
+Question: In the event ""dragged"", does the participant ""me"" act on purpose?
+Answer: No
+Sentence: ""The poor quality starts at the receptionist desk, where the staff is very impatient and lack the efficiency I once loved about the office.""
+Question: In the event ""lack"", does the participant ""efficiency"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is"
+38,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""TEXAS ROADHOUSE HAS VERY GOOD MEALS , THAT THE MEAT COMES RIGHT OFF THE BONES .""
+Question: In the event ""HAS"", does the participant ""MEALS"" act on purpose?
+Answer: No
+Sentence: ""From the delectable Antipasto Misto to the Spaghetti alla Barese and the Parmigiana and ending with gelato , all was mouth watering .""
+Question: In the event ""watering"", does the participant ""all"" act on purpose?
+Answer: No
+Sentence: ""India 's Andaman and Nicobar Islands comprise more than 500 islands lying 1,000 kilometers east of Sri Lanka in the Bay of Bengal .""
+Question: In the event ""comprise"", does the participant ""Islands"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""TEXAS ROADHOUSE HAS VERY GOOD MEALS, THAT THE MEAT COMES RIGHT OFF THE BONES.""
+Question: In the event ""HAS"", does the participant ""MEALS"" act on purpose?
+Answer: No
+Sentence: ""From the delectable Antipasto Misto to the Spaghetti alla Barese and the Parmigiana and ending with gelato, all was mouth watering.""
+Question: In the event ""watering"", does the participant ""all"" act on purpose?
+Answer: No
+Sentence: ""India's Andaman and Nicobar Islands comprise more than 500 islands lying 1,000 kilometers east of Sri Lanka in the Bay of Bengal.""
+Question: In the event ""comprise"", does the participant ""Islands"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct.
+The sentence is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence"
+39,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I get that careless teenager kind of treatment from some of their staff ... perhaps they should hire more serious adults to help serve / cook .""
+Question: In the event ""get"", does the participant ""I"" act on purpose?
+Answer: No
+Sentence: ""Bangs said although the number of elk has not declined very much since the wolves came back , their behavior appears markedly different .""
+Question: In the event ""said"", does the participant ""Bangs"" act on purpose?
+Answer: Yes
+Sentence: ""I did all my research and am well prepared to keep one , I 'm 14 by the way""
+Question: In the event ""did"", does the participant ""I"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I get that careless teenager kind of treatment from some of their staff... perhaps they should hire more serious adults to help serve / cook.""
+Question: In the event ""get"", does the participant ""I"" act on purpose?
+Answer: No
+Sentence: ""Bangs said although the number of elk has not declined very much since the wolves came back, their behavior appears markedly different.""
+Question: In the event ""said"", does the participant ""Bangs"" act on purpose?
+Answer: Yes
+Sentence: ""I did all my research and am well prepared to keep one, I'm 14 by the way""
+Question: In the event ""did"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer"
+40,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and / or privileged material .""
+Question: In the event ""addressed"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""We hope to execute this Agreement this week .""
+Question: In the event ""hope"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""My cat had a seizure yesterday and was ill .""
+Question: In the event ""had"", does the participant ""cat"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: """" The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and / or privileged material.""
+Question: In the event ""addressed"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""We hope to execute this Agreement this week.""
+Question: In the event ""hope"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""My cat had a seizure yesterday and was ill.""
+Question: In the event ""had"", does the participant ""cat"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not a sentence. It is a fragment.
+The sentence is a fragment because it is missing a subject.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing a verb.
+The sentence is a fragment because it is missing"
+41,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I began seeing Dr. Romanick back in 2000 and have seen a significant decline in the quality of care , patient - doctor communication , and just the overall level of services .""
+Question: In the event ""began"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""The reports say she is suspected of having been a member of Al Qaeda 's "" Chemical Wire Group . """"
+Question: In the event ""suspected"", does the participant ""she"" act on purpose?
+Answer: No
+Sentence: ""To the north in Lebanon , there is serious debate within Hezbollah about entering the Lebanese political process in light of Syria 's promised withdrawal .""
+Question: In the event ""entering"", does the participant ""process"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I began seeing Dr. Romanick back in 2000 and have seen a significant decline in the quality of care, patient - doctor communication, and just the overall level of services.""
+Question: In the event ""began"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""The reports say she is suspected of having been a member of Al Qaeda's "" Chemical Wire Group. """"
+Question: In the event ""suspected"", does the participant ""she"" act on purpose?
+Answer: No
+Sentence: ""To the north in Lebanon, there is serious debate within Hezbollah about entering the Lebanese political process in light of Syria's promised withdrawal.""
+Question: In the event ""entering"", does the participant ""process"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+I began seeing Dr. Romanick back in 2000 and have seen a significant decline in the quality of care, patient - doctor communication, and just the overall level of services.
+
+The subject of the sentence is ""I"", and the verb is ""began"".
+The subject of the sentence is ""I"", and the verb is ""began"".
+The subject of the sentence is ""I"", and the verb is ""began"".
+The subject of the sentence is ""I"
+42,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Only Irish coffee provides in a single glass all four essential food groups : alcohol , caffeine , sugar and fat .""
+Question: In the event ""provides"", does the participant ""coffee"" act on purpose?
+Answer: No
+Sentence: ""I love the people , the product and the service !""
+Question: In the event ""love"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I revised the language based on our discussions and added the language concerning interest which we had both previously approved .""
+Question: In the event ""revised"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Only Irish coffee provides in a single glass all four essential food groups : alcohol, caffeine, sugar and fat.""
+Question: In the event ""provides"", does the participant ""coffee"" act on purpose?
+Answer: No
+Sentence: ""I love the people, the product and the service!""
+Question: In the event ""love"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I revised the language based on our discussions and added the language concerning interest which we had both previously approved.""
+Question: In the event ""revised"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not a sentence. It is a list of sentences.
+The sentence is:
+
+Only Irish coffee provides in a single glass all four essential food groups : alcohol, caffeine, sugar and fat.
+
+The list of sentences is:
+
+Only Irish coffee provides in a single glass all four essential food groups : alcohol, caffeine, sugar and fat.
+I love the people, the product and the service!
+I revised the language based on our discussions and added the language concerning interest which we had both previously approved.
+
+The list of sentences is a list of sentences.
+The sentence is a sentence."
+43,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a parakeet named Cookie . :P""
+Question: In the event ""have"", does the participant ""parakeet"" act on purpose?
+Answer: No
+Sentence: ""They both went to jail and a new manager was put in charge of the apartments .""
+Question: In the event ""went"", does the participant ""They"" act on purpose?
+Answer: No
+Sentence: ""I worked with Andrew for 2 months and did acupuncture and herbs .""
+Question: In the event ""worked"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I have a parakeet named Cookie. :P""
+Question: In the event ""have"", does the participant ""parakeet"" act on purpose?
+Answer: No
+Sentence: ""They both went to jail and a new manager was put in charge of the apartments.""
+Question: In the event ""went"", does the participant ""They"" act on purpose?
+Answer: No
+Sentence: ""I worked with Andrew for 2 months and did acupuncture and herbs.""
+Question: In the event ""worked"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""have"", does the participant ""parakeet"" act on purpose?
+
+The answer is yes because the verb ""act"" is a transitive verb.
+The sentence is:
+
+In the event ""went"", does the participant ""They"" act on purpose?
+
+The answer is yes because the verb ""went"" is a transitive verb.
+The sentence is:
+
+In the event ""worked"", does the participant ""I"" act on purpose?
+
+The answer is yes because the verb ""worked"" is a transitive verb.
+The sentence is:
+
+In the event ""worked"", does the participant ""I"" act on purpose?
+
+"
+44,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""named"", does the participant ""Holinshed"" act on purpose?
+Answer: No
+Sentence: ""Tangipahoa Parish sheriff 's deputy Christopher Blair Labat , 24 , was booked Tuesday on one count of aggravated rape and one count of crime against nature .""
+Question: In the event ""booked"", does the participant ""Labat"" act on purpose?
+Answer: No
+Sentence: ""On August 21st , 2009 I ordered furniture from Hickory Furniture Mart and contracted for HDS to deliver it .""
+Question: In the event ""deliver"", does the participant ""it"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""named"", does the participant ""Holinshed"" act on purpose?
+Answer: No
+Sentence: ""Tangipahoa Parish sheriff's deputy Christopher Blair Labat, 24, was booked Tuesday on one count of aggravated rape and one count of crime against nature.""
+Question: In the event ""booked"", does the participant ""Labat"" act on purpose?
+Answer: No
+Sentence: ""On August 21st, 2009 I ordered furniture from Hickory Furniture Mart and contracted for HDS to deliver it.""
+Question: In the event ""deliver"", does the participant ""it"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""named"", does the participant ""Holinshed"" act on purpose?
+
+The answer is yes because Holinshed is the name of the person who is named.
+The sentence is:
+
+In the event ""booked"", does the participant ""Labat"" act on purpose?
+
+The answer is yes because Labat is the name of the person who is booked.
+"
+45,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""China wanted an overland route through its own territory , which would give it ultimate control if hostilities broke out .""
+Question: In the event ""wanted"", does the participant ""route"" act on purpose?
+Answer: No
+Sentence: ""I promise you that if you follow the directions exactly that you will start making more money than you thought possible by doing something so easy !!""
+Question: In the event ""follow"", does the participant ""directions"" act on purpose?
+Answer: No
+Sentence: ""All of the doors tend to look alike and having ' something ' on your door helps you and your kids find your room easier .""
+Question: In the event ""tend"", does the participant ""All"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""China wanted an overland route through its own territory, which would give it ultimate control if hostilities broke out.""
+Question: In the event ""wanted"", does the participant ""route"" act on purpose?
+Answer: No
+Sentence: ""I promise you that if you follow the directions exactly that you will start making more money than you thought possible by doing something so easy!!""
+Question: In the event ""follow"", does the participant ""directions"" act on purpose?
+Answer: No
+Sentence: ""All of the doors tend to look alike and having'something'on your door helps you and your kids find your room easier.""
+Question: In the event ""tend"", does the participant ""All"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""wanted"", does the participant ""route"" act on purpose?
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""follow"", does the participant ""directions"" act on purpose?
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""tend"", does the participant ""All"" act on purpose?
+
+The answer is yes.
+"
+46,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I think this place is probably really great especially judging by the reviews on here .""
+Question: In the event ""think"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""My boyfriend and I were woken up in the middle of the night at our campsite by drunken kids who 'd arrived around 1:00 am and were drinking at the springs .""
+Question: In the event ""woken"", does the participant ""boyfriend"" act on purpose?
+Answer: No
+Sentence: ""I doubt you will get a sensible answer in the "" TRAVEL "" section .""
+Question: In the event ""doubt"", does the participant ""I"" act on purpose?
+Answer: 
+",other,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I think this place is probably really great especially judging by the reviews on here.""
+Question: In the event ""think"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""My boyfriend and I were woken up in the middle of the night at our campsite by drunken kids who 'd arrived around 1:00 am and were drinking at the springs.""
+Question: In the event ""woken"", does the participant ""boyfriend"" act on purpose?
+Answer: No
+Sentence: ""I doubt you will get a sensible answer in the "" TRAVEL "" section.""
+Question: In the event ""doubt"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I think this place is probably really great especially judging by the reviews on here.
+
+I"
+47,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope somebody understands what I mean""
+Question: In the event ""mean"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Chahine said her immediate family spent about $ 20,000 to return to Detroit via Syria and Jordan .""
+Question: In the event ""spent"", does the participant ""$"" act on purpose?
+Answer: No
+Sentence: ""Mr. Guerra gave me a better deal without any hassles nor any type of problems .""
+Question: In the event ""gave"", does the participant ""Guerra"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope somebody understands what I mean""
+Question: In the event ""mean"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Chahine said her immediate family spent about $ 20,000 to return to Detroit via Syria and Jordan.""
+Question: In the event ""spent"", does the participant ""$"" act on purpose?
+Answer: No
+Sentence: ""Mr. Guerra gave me a better deal without any hassles nor any type of problems.""
+Question: In the event ""gave"", does the participant ""Guerra"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event mean, does the participant ""I"" act on purpose?
+
+The answer is yes.
+The answer is because the sentence is a question.
+The question is:
+
+In the event spent, does the participant ""$"" act on purpose?
+
+The answer is no.
+The answer is because the sentence is a question.
+The question is:
+
+In the event gave, does the participant ""Guerra"" act on purpose?
+
+The answer is no.
+The answer is because the sentence is a question.
+The question is:
+
+In the event gave, does"
+48,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""At 3:15 am on night # 2 , the fire alarm and strobe light activated in my room .""
+Question: In the event ""activated"", does the participant ""alarm"" act on purpose?
+Answer: No
+Sentence: ""Once upon a time ( in 2001 , to be specific ) , the Coca - Cola corporation built a bottling plant in a small and remote Indian village in the state of Kerala .""
+Question: In the event ""built"", does the participant ""corporation"" act on purpose?
+Answer: Yes
+Sentence: ""Iran says it is creating nuclear energy without wanting nuclear weapons .""
+Question: In the event ""says"", does the participant ""Iran"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""At 3:15 am on night # 2, the fire alarm and strobe light activated in my room.""
+Question: In the event ""activated"", does the participant ""alarm"" act on purpose?
+Answer: No
+Sentence: ""Once upon a time ( in 2001, to be specific ), the Coca - Cola corporation built a bottling plant in a small and remote Indian village in the state of Kerala.""
+Question: In the event ""built"", does the participant ""corporation"" act on purpose?
+Answer: Yes
+Sentence: ""Iran says it is creating nuclear energy without wanting nuclear weapons.""
+Question: In the event ""says"", does the participant ""Iran"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""Once upon a time..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""Once upon a time..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""Once upon a time..."".
+The first sentence is"
+49,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The initial reservoir reports estimate reserves of 80 - 120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003 .""
+Question: In the event ""estimate"", does the participant ""reports"" act on purpose?
+Answer: No
+Sentence: ""I have 4 Golden Wonder Killifish .""
+Question: In the event ""have"", does the participant ""Killifish"" act on purpose?
+Answer: No
+Sentence: ""The next day i took it to 2 auto shops and they both told me the same thing , engine is junk .""
+Question: In the event ""took"", does the participant ""i"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""The initial reservoir reports estimate reserves of 80 - 120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003.""
+Question: In the event ""estimate"", does the participant ""reports"" act on purpose?
+Answer: No
+Sentence: ""I have 4 Golden Wonder Killifish.""
+Question: In the event ""have"", does the participant ""Killifish"" act on purpose?
+Answer: No
+Sentence: ""The next day i took it to 2 auto shops and they both told me the same thing, engine is junk.""
+Question: In the event ""took"", does the participant ""i"" act on purpose?
+Answer: 
+Sentence: ""The next day i took it to 2 auto shops and they both told me the same thing, engine is junk.""
+Question: In the event ""took"", does the participant ""i"" act on purpose?
+Answer: 
+Sentence: ""The next day i took it to 2 auto shops and they both told me the same thing, engine is junk.""
+Question: In the event ""took"", does the participant ""i"" act on purpose?
+Answer: 
+Sentence: ""The next day i took it to 2 auto shops and they both told me the same thing, engine is junk.""
+Question: In"
+50,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""New Orleans mayor Ray Nagin said up to 80 % of the city was submerged , in some cases by waters 6 m ( 20 ft ) deep .""
+Question: In the event ""submerged"", does the participant ""%"" act on purpose?
+Answer: No
+Sentence: ""I asked her who she worked with and she just told me ti was the sales manager .""
+Question: In the event ""asked"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""We had to throw out about 80 percent of our meals because the food tasted so horrible .""
+Question: In the event ""throw"", does the participant ""percent"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""New Orleans mayor Ray Nagin said up to 80 % of the city was submerged, in some cases by waters 6 m ( 20 ft ) deep.""
+Question: In the event ""submerged"", does the participant ""%"" act on purpose?
+Answer: No
+Sentence: ""I asked her who she worked with and she just told me ti was the sales manager.""
+Question: In the event ""asked"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""We had to throw out about 80 percent of our meals because the food tasted so horrible.""
+Question: In the event ""throw"", does the participant ""percent"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous.  It could mean that 80% of the city was submerged, or it could mean that 80% of the city was submerged in some cases by waters 6 meters deep.  The latter is the correct interpretation.
+The sentence is ambiguous because it is not clear whether the speaker is talking about the city as a whole or about a specific part of the city.  The speaker could be talking about the city as a whole, but the sentence could also be talking about a specific part of the city.  The sentence could be talking about the city as a whole, but the speaker could also be talking"
+51,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The S100 has a slightly larger screen and the new digic 5 processor .""
+Question: In the event ""has"", does the participant ""screen"" act on purpose?
+Answer: No
+Sentence: ""I enjoyed working with all of you during the past five years at Enron / Azurix , and I wish you all of the best .""
+Question: In the event ""wish"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""My car broke down and roadside towed my vehicle to Sussman Kia .""
+Question: In the event ""towed"", does the participant ""roadside"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""The S100 has a slightly larger screen and the new digic 5 processor.""
+Question: In the event ""has"", does the participant ""screen"" act on purpose?
+Answer: No
+Sentence: ""I enjoyed working with all of you during the past five years at Enron / Azurix, and I wish you all of the best.""
+Question: In the event ""wish"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""My car broke down and roadside towed my vehicle to Sussman Kia.""
+Question: In the event ""towed"", does the participant ""roadside"" act on purpose?
+Answer: 
+Sentence: ""I am a very happy man.""
+Question: In the event ""happy"", does the participant ""man"" act on purpose?
+Answer: Yes
+Sentence: ""I am a very happy man.""
+Question: In the event ""happy"", does the participant ""man"" act on purpose?
+Answer: Yes
+Sentence: ""I am a very happy man.""
+Question: In the event ""happy"", does the participant ""man"" act on purpose?
+Answer: Yes
+Sentence: ""I am a very happy man.""
+Question: In the event ""happy"", does the participant ""man"" act on purpose?
+Answer: Yes
+"
+52,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""As much fun as they are , I figured we would probably do some different things than what you have planned for them .""
+Question: In the event ""figured"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !""
+Question: In the event ""fixed"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""I got a coupon from Pennysaver for this station .""
+Question: In the event ""got"", does the participant ""coupon"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""As much fun as they are, I figured we would probably do some different things than what you have planned for them.""
+Question: In the event ""figured"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90!""
+Question: In the event ""fixed"", does the participant ""it"" act on purpose?
+Answer: No
+Sentence: ""I got a coupon from Pennysaver for this station.""
+Question: In the event ""got"", does the participant ""coupon"" act on purpose?
+Answer: 
+
+A:
+
+I think the answer is yes.
+The sentence is ambiguous. It could mean either:
+
+I figured we would probably do some different things than what you have planned for them.
+
+or
+
+I figured we would probably do some different things than what you have planned for them.
+
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it is asking the reader to infer what the speaker is thinking. The second sentence is a statement because it is asking the reader to infer what the speaker is thinking.
+The first sentence is a question because it is asking the reader to infer what the speaker is thinking. The second"
+53,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Attached are my resume and an addendum covering academic & consulting experience .""
+Question: In the event ""Attached"", does the participant ""resume"" act on purpose?
+Answer: No
+Sentence: ""Jim Lobe has more on the political implications of the Fallujah assault , both in Iraq and in Washington .""
+Question: In the event ""has"", does the participant ""more"" act on purpose?
+Answer: No
+Sentence: ""They interviewed me , gave me tests in the software I included on my resume , and placed me in a position that I kept for several years .""
+Question: In the event ""placed"", does the participant ""me"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Attached are my resume and an addendum covering academic & consulting experience.""
+Question: In the event ""Attached"", does the participant ""resume"" act on purpose?
+Answer: No
+Sentence: ""Jim Lobe has more on the political implications of the Fallujah assault, both in Iraq and in Washington.""
+Question: In the event ""has"", does the participant ""more"" act on purpose?
+Answer: No
+Sentence: ""They interviewed me, gave me tests in the software I included on my resume, and placed me in a position that I kept for several years.""
+Question: In the event ""placed"", does the participant ""me"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is gram"
+54,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The owner warned me that it was the best salsa I would ever had , and he was right .""
+Question: In the event ""warned"", does the participant ""owner"" act on purpose?
+Answer: Yes
+Sentence: ""Family owned and operated makes sure the atmosphere is relaxed and the food home - cooked with style .""
+Question: In the event ""cooked"", does the participant ""food"" act on purpose?
+Answer: No
+Sentence: ""Meats are kept VERY cold , seafood smells fresh and the serving bar is VERY clean .""
+Question: In the event ""smells"", does the participant ""seafood"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""The owner warned me that it was the best salsa I would ever had, and he was right.""
+Question: In the event ""warned"", does the participant ""owner"" act on purpose?
+Answer: Yes
+Sentence: ""Family owned and operated makes sure the atmosphere is relaxed and the food home - cooked with style.""
+Question: In the event ""cooked"", does the participant ""food"" act on purpose?
+Answer: No
+Sentence: ""Meats are kept VERY cold, seafood smells fresh and the serving bar is VERY clean.""
+Question: In the event ""smells"", does the participant ""seafood"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+The owner warned me that it was the best salsa I would ever had, and he was right.
+
+The owner is the subject of the sentence.
+The warning is the object of the sentence.
+The best salsa is the subject of the sentence.
+The owner is the object of the sentence.
+The best salsa is the object of the sentence.
+The owner is the object of the sentence.
+The best salsa is the object of the sentence.
+The owner is the object of the sentence.
+The best salsa is the object of the sentence.
+The owner is the object of the sentence.
+"
+55,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""They have a customer for life in us !""
+Question: In the event ""have"", does the participant ""customer"" act on purpose?
+Answer: Yes
+Sentence: ""Sufaat was arrested in December 2001 upon his return to Malaysia .""
+Question: In the event ""arrested"", does the participant ""Sufaat"" act on purpose?
+Answer: No
+Sentence: ""They picked my car up in Yarmouth and towed to Bath for a great price .""
+Question: In the event ""picked"", does the participant ""car"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""They have a customer for life in us!""
+Question: In the event ""have"", does the participant ""customer"" act on purpose?
+Answer: Yes
+Sentence: ""Sufaat was arrested in December 2001 upon his return to Malaysia.""
+Question: In the event ""arrested"", does the participant ""Sufaat"" act on purpose?
+Answer: No
+Sentence: ""They picked my car up in Yarmouth and towed to Bath for a great price.""
+Question: In the event ""picked"", does the participant ""car"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""have"", does the participant ""customer"" act on purpose?
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""arrested"", does the participant ""Sufaat"" act on purpose?
+
+The answer is no.
+The sentence is a question.
+The question is:
+
+In the event ""picked"", does the participant ""car"" act on purpose?
+
+The answer is no.
+The sentence is a question.
+The question is:
+
+In the event ""picked"", does the participant ""car"" act on"
+56,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""( Newsweek reported that Bush commanded his cabinet , "" Let heads roll ! "" )""
+Question: In the event ""commanded"", does the participant ""Bush"" act on purpose?
+Answer: Yes
+Sentence: ""His one - day mission vaulted his communist homeland into the elite circle of spacefaring nations - Russia and the United States - that can launch and sustain humans in space .""
+Question: In the event ""vaulted"", does the participant ""mission"" act on purpose?
+Answer: No
+Sentence: ""The dealer wanted $ 1300 to fix that and another $ 1500 to fix some other things .""
+Question: In the event ""wanted"", does the participant ""$"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""( Newsweek reported that Bush commanded his cabinet, "" Let heads roll! "" )""
+Question: In the event ""commanded"", does the participant ""Bush"" act on purpose?
+Answer: Yes
+Sentence: ""His one - day mission vaulted his communist homeland into the elite circle of spacefaring nations - Russia and the United States - that can launch and sustain humans in space.""
+Question: In the event ""vaulted"", does the participant ""mission"" act on purpose?
+Answer: No
+Sentence: ""The dealer wanted $ 1300 to fix that and another $ 1500 to fix some other things.""
+Question: In the event ""wanted"", does the participant ""$"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not a sentence. It is a fragment.
+The sentence is a fragment because it is missing a subject and a verb.
+The subject is ""Bush"" and the verb is ""commanded"".
+The subject is ""Bush"" because it is the subject of the sentence.
+The verb is ""commanded"" because it is the verb of the sentence.
+The verb is ""commanded"" because it is the verb of the sentence.
+The verb is ""commanded"" because it is the verb of the sentence.
+The verb is"
+57,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""He explained that interrogations and other evidence revealed that Al Qaeda wanted to strike the US with a nonconventional weapon , most notably anthrax .""
+Question: In the event ""strike"", does the participant ""US"" act on purpose?
+Answer: No
+Sentence: ""The white pages allowed me to get in touch with parents of my high school friends so that I could track people down one by one and the restaurant section is basically my cookbook .""
+Question: In the event ""track"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""They said they were "" unable to tell me until they ordered my dress "" .""
+Question: In the event ""ordered"", does the participant ""dress"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""He explained that interrogations and other evidence revealed that Al Qaeda wanted to strike the US with a nonconventional weapon, most notably anthrax.""
+Question: In the event ""strike"", does the participant ""US"" act on purpose?
+Answer: No
+Sentence: ""The white pages allowed me to get in touch with parents of my high school friends so that I could track people down one by one and the restaurant section is basically my cookbook.""
+Question: In the event ""track"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""They said they were "" unable to tell me until they ordered my dress "".""
+Question: In the event ""ordered"", does the participant ""dress"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question.  The second sentence is a statement.  The third sentence is a question.  The fourth sentence is a statement.  The fifth sentence is a question.  The sixth sentence is a statement.  The seventh sentence is a question.  The eighth sentence is a statement.  The ninth sentence is a question.  The tenth sentence is a statement.  The eleventh sentence is a question.  The twelfth sentence is a statement.  The thirteenth sentence is a question.  The fourteenth sentence"
+58,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I like music very loud and with a lot of bass .""
+Question: In the event ""like"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""amd i like 2 guys""
+Question: In the event ""like"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""He vacated the FWS decision to downgrade the wolf 's status .""
+Question: In the event ""vacated"", does the participant ""He"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I like music very loud and with a lot of bass.""
+Question: In the event ""like"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""amd i like 2 guys""
+Question: In the event ""like"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""He vacated the FWS decision to downgrade the wolf's status.""
+Question: In the event ""vacated"", does the participant ""He"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence ""I like music very loud and with a lot of bass"" is a statement.  It is a statement that is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true.  It is a statement that is true because it is true. "
+59,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I have to say that the baby does not scream after her of anything ... he / she sleeps .""
+Question: In the event ""sleeps"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""Climate : Humans fuss , animals adjust""
+Question: In the event ""fuss"", does the participant ""Humans"" act on purpose?
+Answer: Yes
+Sentence: ""I bought a beginner s quilling set and like making the filigree forms you can make and add to other crafts .""
+Question: In the event ""bought"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I have to say that the baby does not scream after her of anything... he / she sleeps.""
+Question: In the event ""sleeps"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""Climate : Humans fuss, animals adjust""
+Question: In the event ""fuss"", does the participant ""Humans"" act on purpose?
+Answer: Yes
+Sentence: ""I bought a beginner s quilling set and like making the filigree forms you can make and add to other crafts.""
+Question: In the event ""bought"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The answer is yes because the verb ""act"" is a transitive verb.
+The"
+60,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""In Baghdad Kadhim Talal Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .""
+Question: In the event ""assassinated"", does the participant ""Husain"" act on purpose?
+Answer: No
+Sentence: ""i have a baby eastern king snake .""
+Question: In the event ""have"", does the participant ""snake"" act on purpose?
+Answer: No
+Sentence: """" Success comes before work "" only in the dictionary""
+Question: In the event ""comes"", does the participant ""Success"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""In Baghdad Kadhim Talal Husain, assistant dean at the School of Education at Mustansiriyah University, was assassinated with his driver in the Salikh district.""
+Question: In the event ""assassinated"", does the participant ""Husain"" act on purpose?
+Answer: No
+Sentence: ""i have a baby eastern king snake.""
+Question: In the event ""have"", does the participant ""snake"" act on purpose?
+Answer: No
+Sentence: """" Success comes before work "" only in the dictionary""
+Question: In the event ""comes"", does the participant ""Success"" act on purpose?
+Answer: 
+Sentence: ""I have a baby eastern king snake.""
+Question: In the event ""have"", does the participant ""snake"" act on purpose?
+Answer: No
+Sentence: ""I have a baby eastern king snake.""
+Question: In the event ""have"", does the participant ""snake"" act on purpose?
+Answer: No
+Sentence: ""I have a baby eastern king snake.""
+Question: In the event ""have"", does the participant ""snake"" act on purpose?
+Answer: No
+Sentence: ""I have a baby eastern king snake.""
+Question: In the event ""have"", does the participant ""snake"" act on purpose?
+Answer:"
+61,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope I can return the favor in the future !""
+Question: In the event ""hope"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Clinton tried , and tried hard .""
+Question: In the event ""tried"", does the participant ""Clinton"" act on purpose?
+Answer: Yes
+Sentence: ""I enjoyed your recent e-mail but was sorry to hear about your dad .""
+Question: In the event ""enjoyed"", does the participant ""I"" act on purpose?
+Answer: 
+",other,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope I can return the favor in the future!""
+Question: In the event ""hope"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Clinton tried, and tried hard.""
+Question: In the event ""tried"", does the participant ""Clinton"" act on purpose?
+Answer: Yes
+Sentence: ""I enjoyed your recent e-mail but was sorry to hear about your dad.""
+Question: In the event ""enjoyed"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer to the thirteenth question is yes.
+The answer to the fourteenth question is no.
+The answer to the fifteenth question is yes.
+The answer to the"
+62,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""This type of harness goes around the dog s chest and legs and has a clip for the leash up on the back of the dog in middle of shoulder blades .""
+Question: In the event ""goes"", does the participant ""type"" act on purpose?
+Answer: No
+Sentence: ""Guerrillas threatened to assassinate Prime Minister Iyad Allawi and Minister of Defense Hazem Shaalan in retaliation for the attack .""
+Question: In the event ""assassinate"", does the participant ""Allawi"" act on purpose?
+Answer: No
+Sentence: ""My wife has a slight impediment in her speech .""
+Question: In the event ""has"", does the participant ""impediment"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""This type of harness goes around the dog s chest and legs and has a clip for the leash up on the back of the dog in middle of shoulder blades.""
+Question: In the event ""goes"", does the participant ""type"" act on purpose?
+Answer: No
+Sentence: ""Guerrillas threatened to assassinate Prime Minister Iyad Allawi and Minister of Defense Hazem Shaalan in retaliation for the attack.""
+Question: In the event ""assassinate"", does the participant ""Allawi"" act on purpose?
+Answer: No
+Sentence: ""My wife has a slight impediment in her speech.""
+Question: In the event ""has"", does the participant ""impediment"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The verb ""go"" is a transitive verb.  It takes an object.  The object is the dog.  The dog is the subject.  The verb ""go"" is the verb of the sentence.
+The verb ""type"" is a transitive verb.  It takes an object.  The object is the harness.  The harness is the subject.  The verb ""type"" is the verb of the sentence.
+The verb ""assassinate"" is a transitive verb.  It takes an object.  The object is Prime Minister Iy"
+63,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" They can freely write anything they like about our prophet , but if one raises doubts about the Holocaust he is either fined or sent to prison , "" he added .""
+Question: In the event ""write"", does the participant ""anything"" act on purpose?
+Answer: No
+Sentence: """" It may be uninteresting to a lot of people , "" Beschta told Blue Planet .""
+Question: In the event ""told"", does the participant ""Beschta"" act on purpose?
+Answer: Yes
+Sentence: ""Above all , we need a total absolute unity and determination of the civilized world against all three circles of evil .""
+Question: In the event ""need"", does the participant ""unity"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: """" They can freely write anything they like about our prophet, but if one raises doubts about the Holocaust he is either fined or sent to prison, "" he added.""
+Question: In the event ""write"", does the participant ""anything"" act on purpose?
+Answer: No
+Sentence: """" It may be uninteresting to a lot of people, "" Beschta told Blue Planet.""
+Question: In the event ""told"", does the participant ""Beschta"" act on purpose?
+Answer: Yes
+Sentence: ""Above all, we need a total absolute unity and determination of the civilized world against all three circles of evil.""
+Question: In the event ""need"", does the participant ""unity"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+""They can freely write anything they like about our prophet, but if one raises doubts about the Holocaust he is either fined or sent to prison, "" he added.""
+
+The sentence is a question. The question is:
+
+""In the event 'write', does the participant 'anything' act on purpose?""
+
+The answer is yes. The answer is yes because the sentence is a question. The question is:
+
+""In the event 'write', does the participant 'anything' act on purpose?""
+
+The answer is yes"
+64,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Bangs said these animals are not equipped to survive in the wild , however , and they all almost certainly have died .""
+Question: In the event ""died"", does the participant ""they"" act on purpose?
+Answer: No
+Sentence: ""In June and July of 1973 , he accumulated 56 points , enough to meet the minimum requirement for the 1973 - 1974 year .""
+Question: In the event ""accumulated"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""I know that we address audit rights in the LLC agreement so this may not matter anyway if this is a right they already have .""
+Question: In the event ""address"", does the participant ""rights"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Bangs said these animals are not equipped to survive in the wild, however, and they all almost certainly have died.""
+Question: In the event ""died"", does the participant ""they"" act on purpose?
+Answer: No
+Sentence: ""In June and July of 1973, he accumulated 56 points, enough to meet the minimum requirement for the 1973 - 1974 year.""
+Question: In the event ""accumulated"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""I know that we address audit rights in the LLC agreement so this may not matter anyway if this is a right they already have.""
+Question: In the event ""address"", does the participant ""rights"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous.  It could mean that the animals died, or it could mean that they were killed.  The sentence could be interpreted as meaning that the animals were killed, but that they were killed by someone else.  The sentence could be interpreted as meaning that the animals were killed by someone else, but that they were killed by someone else.  The sentence could be interpreted as meaning that the animals were killed by someone else, but that they were killed by someone else, and that someone else was someone else.  The sentence could be interpreted as meaning that"
+65,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""In Biloxi , 30 people were reported dead in one block of flats which was hit by a 9 m ( 30 ft ) "" storm surge "" .""
+Question: In the event ""reported"", does the participant ""people"" act on purpose?
+Answer: No
+Sentence: ""But , we had a great laid back day last Saturday and I think have hit that comfortable stage ... you know , not quite so formal about dates etc .""
+Question: In the event ""had"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""i reccomend you to go and enjoy their wonderful hospitality .""
+Question: In the event ""reccomend"", does the participant ""you"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""In Biloxi, 30 people were reported dead in one block of flats which was hit by a 9 m ( 30 ft ) "" storm surge "".""
+Question: In the event ""reported"", does the participant ""people"" act on purpose?
+Answer: No
+Sentence: ""But, we had a great laid back day last Saturday and I think have hit that comfortable stage... you know, not quite so formal about dates etc.""
+Question: In the event ""had"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""i reccomend you to go and enjoy their wonderful hospitality.""
+Question: In the event ""reccomend"", does the participant ""you"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In Biloxi, 30 people were reported dead in one block of flats which was hit by a 9 m ( 30 ft ) storm surge.
+
+The verb ""reported"" is a transitive verb.  It takes a direct object.  The direct object is ""people"".  The direct object is a singular noun.  The direct object is singular.  The direct object is singular.  The direct object is singular.  The direct object is singular.  The direct object is singular.  The direct object is singular."
+66,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""We visited on 7/26/08 for dinner We received a gift certificate for the Mama Mia 's on Greenfield Ave .""
+Question: In the event ""visited"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""I have a new born daughter and she helped me with a lot .""
+Question: In the event ""have"", does the participant ""daughter"" act on purpose?
+Answer: No
+Sentence: ""I had a routine surgery for an ingrown toenail .""
+Question: In the event ""had"", does the participant ""surgery"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""We visited on 7/26/08 for dinner We received a gift certificate for the Mama Mia's on Greenfield Ave.""
+Question: In the event ""visited"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""I have a new born daughter and she helped me with a lot.""
+Question: In the event ""have"", does the participant ""daughter"" act on purpose?
+Answer: No
+Sentence: ""I had a routine surgery for an ingrown toenail.""
+Question: In the event ""had"", does the participant ""surgery"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+We visited on 7/26/08 for dinner. We received a gift certificate for the Mama Mia's on Greenfield Avenue.
+We visited on 7/26/08 for dinner. We received a gift certificate for the Mama Mia's on Greenfield Avenue.
+We visited on 7/26/08 for dinner. We received a gift certificate for the Mama Mia's on Greenfield Avenue.
+
+The first sentence is the most natural. The second sentence is the most natural. The third sentence is the most natural. The fourth sentence is the most natural. The fifth sentence is the most natural. The"
+67,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" My first thought was to push it away , "" he said .""
+Question: In the event ""said"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""They have unbeatable price in town and deliver on time .""
+Question: In the event ""have"", does the participant ""price"" act on purpose?
+Answer: No
+Sentence: ""It is our belief that this compensation plan will produce some of the largest checks in network marketing history .""
+Question: In the event ""produce"", does the participant ""plan"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: """" My first thought was to push it away, "" he said.""
+Question: In the event ""said"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""They have unbeatable price in town and deliver on time.""
+Question: In the event ""have"", does the participant ""price"" act on purpose?
+Answer: No
+Sentence: ""It is our belief that this compensation plan will produce some of the largest checks in network marketing history.""
+Question: In the event ""produce"", does the participant ""plan"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+My first thought was to push it away, he said.
+
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"".
+The verb is ""said"".
+The subject of the sentence is ""he"
+68,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I meant to comment that I thought the people profiled in the article should pull their heads out of their self important asses .""
+Question: In the event ""meant"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I have a friend that has to get rid of one of her cats because of allergies , he is the youngest at 3 years old black , long hair , incredibly friendly .""
+Question: In the event ""have"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I sent a graphic that would have been distorted if printed as it was .""
+Question: In the event ""sent"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I meant to comment that I thought the people profiled in the article should pull their heads out of their self important asses.""
+Question: In the event ""meant"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I have a friend that has to get rid of one of her cats because of allergies, he is the youngest at 3 years old black, long hair, incredibly friendly.""
+Question: In the event ""have"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""I sent a graphic that would have been distorted if printed as it was.""
+Question: In the event ""sent"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+I think the answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."".
+The first"
+69,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""At the time , guardsmen were required to accumulate a minimum of 50 points to meet their yearly obligation .""
+Question: In the event ""meet"", does the participant ""obligation"" act on purpose?
+Answer: No
+Sentence: ""One of the Wesley boys wrote the hymn .""
+Question: In the event ""wrote"", does the participant ""One"" act on purpose?
+Answer: Yes
+Sentence: ""He said Mr Dar , 33 , was arrested in Indian - administered Kashmir and belonged to the outlawed Lashkar - e - Toiba militant group .""
+Question: In the event ""arrested"", does the participant ""Dar"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""At the time, guardsmen were required to accumulate a minimum of 50 points to meet their yearly obligation.""
+Question: In the event ""meet"", does the participant ""obligation"" act on purpose?
+Answer: No
+Sentence: ""One of the Wesley boys wrote the hymn.""
+Question: In the event ""wrote"", does the participant ""One"" act on purpose?
+Answer: Yes
+Sentence: ""He said Mr Dar, 33, was arrested in Indian - administered Kashmir and belonged to the outlawed Lashkar - e - Toiba militant group.""
+Question: In the event ""arrested"", does the participant ""Dar"" act on purpose?
+Answer: 
+Sentence: ""The police said the man was arrested in the early hours of the morning and was being questioned about the murder of a police officer.""
+Question: In the event ""was being questioned"", does the participant ""about"" act on purpose?
+Answer: Yes
+Sentence: ""The police said the man was being questioned about the murder of a police officer.""
+Question: In the event ""was being questioned"", does the participant ""about"" act on purpose?
+Answer: Yes
+Sentence: ""The police said the man was being questioned about the murder of a police officer.""
+Question: In the event ""was being questioned"", does the participant ""about"" act"
+70,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I used my card to purchase a meal on the menu and the total on my receipt was $ 8.95 but when I went on line to check my transaction it show $ 10.74 .""
+Question: In the event ""purchase"", does the participant ""meal"" act on purpose?
+Answer: No
+Sentence: ""I detect the hissing lisp of the lying serpent in this article .""
+Question: In the event ""detect"", does the participant ""lisp"" act on purpose?
+Answer: No
+Sentence: ""I doubt he will be extradited to Venezuela , which is the only way that question could be answered with a Yes .""
+Question: In the event ""extradited"", does the participant ""he"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I used my card to purchase a meal on the menu and the total on my receipt was $ 8.95 but when I went on line to check my transaction it show $ 10.74.""
+Question: In the event ""purchase"", does the participant ""meal"" act on purpose?
+Answer: No
+Sentence: ""I detect the hissing lisp of the lying serpent in this article.""
+Question: In the event ""detect"", does the participant ""lisp"" act on purpose?
+Answer: No
+Sentence: ""I doubt he will be extradited to Venezuela, which is the only way that question could be answered with a Yes.""
+Question: In the event ""extradited"", does the participant ""he"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct.
+The sentence is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically correct.
+The sentence is grammatically correct, but it is not grammatically"
+71,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The office refused my requests to see what they got from BC / BS .""
+Question: In the event ""refused"", does the participant ""office"" act on purpose?
+Answer: Yes
+Sentence: ""I ordered a kid meal with a milk and found a bottle was half opened already .""
+Question: In the event ""ordered"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""These animals have the misfortune to produce a substance that is useful in the manufacture of perfume .""
+Question: In the event ""have"", does the participant ""misfortune"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""The office refused my requests to see what they got from BC / BS.""
+Question: In the event ""refused"", does the participant ""office"" act on purpose?
+Answer: Yes
+Sentence: ""I ordered a kid meal with a milk and found a bottle was half opened already.""
+Question: In the event ""ordered"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""These animals have the misfortune to produce a substance that is useful in the manufacture of perfume.""
+Question: In the event ""have"", does the participant ""misfortune"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The answer is yes because the participants are acting on purpose.
+The answer is yes because the participants are acting on purpose because the participants are acting on purpose.
+The answer is yes because the participants are acting on purpose because the participants are acting on purpose.
+The answer is yes because the participants are acting on purpose because the participants are acting on purpose.
+The answer is yes because the participants are acting on purpose because the participants are acting on purpose.
+The answer is yes because the participants are acting on purpose because the participants are acting on purpose.
+The answer is yes because the participants are acting on purpose because the participants are acting on purpose.
+The answer is yes because the participants are"
+72,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""We had a ball .""
+Question: In the event ""had"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""I feel lighter and feel that I have more possibilities open to me now than I did before .""
+Question: In the event ""feel"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""( The heat increases their "" production "" of musk . )""
+Question: In the event ""increases"", does the participant ""heat"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""We had a ball.""
+Question: In the event ""had"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""I feel lighter and feel that I have more possibilities open to me now than I did before.""
+Question: In the event ""feel"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""( The heat increases their "" production "" of musk. )""
+Question: In the event ""increases"", does the participant ""heat"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement. The third sentence is a question.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence is a question because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence is a question because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence"
+73,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I live 10 minutes from Cycle City , but I Drove 50 mile south to Peachstate Powersports in LaGrange , dealt with the owner , Levi , and was well taken care of .""
+Question: In the event ""live"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""My family loves coming to Endo Sushi . They are very nice , it is never crowded , and the food is wonderful , very delicious and fresh !""
+Question: In the event ""loves"", does the participant ""family"" act on purpose?
+Answer: Yes
+Sentence: ""My next - door neighbor heard the noise and turned on a light , thankfully scaring the two miscreants away ( they even left their hammer behind ! ) .""
+Question: In the event ""scaring"", does the participant ""miscreants"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I live 10 minutes from Cycle City, but I Drove 50 mile south to Peachstate Powersports in LaGrange, dealt with the owner, Levi, and was well taken care of.""
+Question: In the event ""live"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""My family loves coming to Endo Sushi. They are very nice, it is never crowded, and the food is wonderful, very delicious and fresh!""
+Question: In the event ""loves"", does the participant ""family"" act on purpose?
+Answer: Yes
+Sentence: ""My next - door neighbor heard the noise and turned on a light, thankfully scaring the two miscreants away ( they even left their hammer behind! ).""
+Question: In the event ""scaring"", does the participant ""miscreants"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it"
+74,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I suggest a "" blind draw "" on the teams , best ball not scramble on the golf , and as for the wager , no emails from the losing team for one week !""
+Question: In the event ""suggest"", does the participant ""draw"" act on purpose?
+Answer: No
+Sentence: ""You take a boat across the river , then spend a day biking , eating at a local restaurant , buying souvenirs and doing other things that are geared towards tourists .""
+Question: In the event ""buying"", does the participant ""souvenirs"" act on purpose?
+Answer: No
+Sentence: ""I have a day stop - over in San Francisco and my wife want to see some of the key sites .""
+Question: In the event ""have"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I suggest a "" blind draw "" on the teams, best ball not scramble on the golf, and as for the wager, no emails from the losing team for one week!""
+Question: In the event ""suggest"", does the participant ""draw"" act on purpose?
+Answer: No
+Sentence: ""You take a boat across the river, then spend a day biking, eating at a local restaurant, buying souvenirs and doing other things that are geared towards tourists.""
+Question: In the event ""buying"", does the participant ""souvenirs"" act on purpose?
+Answer: No
+Sentence: ""I have a day stop - over in San Francisco and my wife want to see some of the key sites.""
+Question: In the event ""have"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+I suggest a blind draw on the teams, best ball not scramble on the golf, and as for the wager, no emails from the losing team for one week.
+
+or
+
+I suggest a blind draw on the teams, best ball not scramble on the golf, and as for the wager, no emails from the losing team for one week.
+
+The first sentence is a suggestion. The second sentence"
+75,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""We sued Houston Casualty last year but I do n't recall making any bad faith claims .""
+Question: In the event ""sued"", does the participant ""Casualty"" act on purpose?
+Answer: No
+Sentence: ""Dessert was ... hmmm , that 's interesting , I do n't even remember dessert .""
+Question: In the event ""remember"", does the participant ""dessert"" act on purpose?
+Answer: No
+Sentence: ""It is this circle that makes sure that women remain inferior , that democracy is unthinkable and that exposure to the outside world is minimal .""
+Question: In the event ""remain"", does the participant ""women"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""We sued Houston Casualty last year but I don't recall making any bad faith claims.""
+Question: In the event ""sued"", does the participant ""Casualty"" act on purpose?
+Answer: No
+Sentence: ""Dessert was... hmmm, that's interesting, I don't even remember dessert.""
+Question: In the event ""remember"", does the participant ""dessert"" act on purpose?
+Answer: No
+Sentence: ""It is this circle that makes sure that women remain inferior, that democracy is unthinkable and that exposure to the outside world is minimal.""
+Question: In the event ""remain"", does the participant ""women"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence ""We sued Houston Casualty last year but I don't recall making any bad faith claims"" is a question.
+The sentence ""Dessert was... hmmm, that's interesting, I don't even remember dessert"" is a statement.
+The sentence ""It is this circle that makes sure that women remain inferior, that democracy is unthinkable and that exposure to the outside world is minimal."" is a question.
+The sentence ""In the event ""remain"", does the participant ""women"" act on purpose?"" is a statement.
+The sentence ""In the event ""remember"","
+76,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I took the original piece of metal and rigged it to make due since I had to complete the job .""
+Question: In the event ""complete"", does the participant ""job"" act on purpose?
+Answer: No
+Sentence: ""Yeah you got ta burn it .. that s the only way""
+Question: In the event ""got"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""There are special regions uniquely and imposingly designed for the children .""
+Question: In the event ""are"", does the participant ""regions"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""I took the original piece of metal and rigged it to make due since I had to complete the job.""
+Question: In the event ""complete"", does the participant ""job"" act on purpose?
+Answer: No
+Sentence: ""Yeah you got ta burn it.. that s the only way""
+Question: In the event ""got"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""There are special regions uniquely and imposingly designed for the children.""
+Question: In the event ""are"", does the participant ""regions"" act on purpose?
+Answer: 
+
+A:
+
+The answer to the first question is yes.
+The answer to the second question is no.
+The answer to the third question is yes.
+The answer to the fourth question is no.
+The answer to the fifth question is yes.
+The answer to the sixth question is no.
+The answer to the seventh question is yes.
+The answer to the eighth question is no.
+The answer to the ninth question is yes.
+The answer to the tenth question is no.
+The answer to the eleventh question is yes.
+The answer to the twelfth question is no.
+The answer to the thirteenth question is yes.
+The answer to the fourteenth question is no.
+The answer to the fifteenth"
+77,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""i reccomend you to go and enjoy their wonderful hospitality .""
+Question: In the event ""reccomend"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""the guy came on time and did n't take any breaks , he went straight to work and finished the job efficiently and promptly !""
+Question: In the event ""finished"", does the participant ""job"" act on purpose?
+Answer: No
+Sentence: ""I need something reliable and good looking .""
+Question: In the event ""need"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""i reccomend you to go and enjoy their wonderful hospitality.""
+Question: In the event ""reccomend"", does the participant ""i"" act on purpose?
+Answer: Yes
+Sentence: ""the guy came on time and didn't take any breaks, he went straight to work and finished the job efficiently and promptly!""
+Question: In the event ""finished"", does the participant ""job"" act on purpose?
+Answer: No
+Sentence: ""I need something reliable and good looking.""
+Question: In the event ""need"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event ""reccomend"", does the participant ""i"" act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event ""finished"", does the participant ""job"" act on purpose?
+
+The answer is no because the sentence is a statement.
+The sentence is:
+
+In the event ""need"", does the participant ""I"" act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event ""need"", does the participant ""I"" act on purpose?
+
+The answer is yes because the"
+78,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""A pattern of arrests and seizures indicate that arms are brought by the LTTE from Laos , Cambodia and Thailand into Chittagong , from where they are transported northward by land to Bhutan .""
+Question: In the event ""brought"", does the participant ""arms"" act on purpose?
+Answer: No
+Sentence: ""It is our belief that this compensation plan will produce some of the largest checks in network marketing history .""
+Question: In the event ""produce"", does the participant ""some"" act on purpose?
+Answer: No
+Sentence: ""I called in my order and upon arriving to pick it up , they got my order confused with someone else s .""
+Question: In the event ""called"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""A pattern of arrests and seizures indicate that arms are brought by the LTTE from Laos, Cambodia and Thailand into Chittagong, from where they are transported northward by land to Bhutan.""
+Question: In the event ""brought"", does the participant ""arms"" act on purpose?
+Answer: No
+Sentence: ""It is our belief that this compensation plan will produce some of the largest checks in network marketing history.""
+Question: In the event ""produce"", does the participant ""some"" act on purpose?
+Answer: No
+Sentence: ""I called in my order and upon arriving to pick it up, they got my order confused with someone else s.""
+Question: In the event ""called"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The answer is yes because the word ""brought"" is a preposition.
+The answer is yes because the word ""brought"" is a preposition.
+The answer is yes because the word ""brought"" is a preposition.
+The answer is yes because the word ""brought"" is a preposition.
+The answer is yes because the word ""brought"" is a preposition.
+The answer is yes because the word ""brought"" is a preposition.
+The answer is yes because the"
+79,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I had my horse transported from CA to WA and he came on this big , open stock trailer .""
+Question: In the event ""had"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""( Participants pledged to raise at least $ 100,000 by bundling together cheques of up to $ 1,000 from friends and family .""
+Question: In the event ""pledged"", does the participant ""Participants"" act on purpose?
+Answer: Yes
+Sentence: ""I enjoyed the animations and wanted to share them with my friends .""
+Question: In the event ""enjoyed"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I had my horse transported from CA to WA and he came on this big, open stock trailer.""
+Question: In the event ""had"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""( Participants pledged to raise at least $ 100,000 by bundling together cheques of up to $ 1,000 from friends and family.""
+Question: In the event ""pledged"", does the participant ""Participants"" act on purpose?
+Answer: Yes
+Sentence: ""I enjoyed the animations and wanted to share them with my friends.""
+Question: In the event ""enjoyed"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that"
+80,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""They gave the best service & rates I could find .""
+Question: In the event ""gave"", does the participant ""They"" act on purpose?
+Answer: Yes
+Sentence: ""In a timid voice , he says : "" If an airplane carrying Winston Peters was blown up by a bomb , THAT would be a tragedy "" .""
+Question: In the event ""carrying"", does the participant ""Peters"" act on purpose?
+Answer: Yes
+Sentence: ""They asked us things that we would have never have thought of , and took extra time to meet with us when we needed it before the wedding .""
+Question: In the event ""asked"", does the participant ""They"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""They gave the best service & rates I could find.""
+Question: In the event ""gave"", does the participant ""They"" act on purpose?
+Answer: Yes
+Sentence: ""In a timid voice, he says : "" If an airplane carrying Winston Peters was blown up by a bomb, THAT would be a tragedy "".""
+Question: In the event ""carrying"", does the participant ""Peters"" act on purpose?
+Answer: Yes
+Sentence: ""They asked us things that we would have never have thought of, and took extra time to meet with us when we needed it before the wedding.""
+Question: In the event ""asked"", does the participant ""They"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""In the event that..."".
+The first sentence is a question"
+81,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Olympus X - 940 14 Megapixel Digital Camera has filters and can do all sorts of special effects .""
+Question: In the event ""has"", does the participant ""Camera"" act on purpose?
+Answer: No
+Sentence: ""They want to use LTS to tie into NASA 's vision for Space Exploration , and seem pleased that the White House is moving in that direction .""
+Question: In the event ""want"", does the participant ""They"" act on purpose?
+Answer: Yes
+Sentence: ""I wanted to volunteer and help animals , and decided to try fostering kittens .""
+Question: In the event ""wanted"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Olympus X - 940 14 Megapixel Digital Camera has filters and can do all sorts of special effects.""
+Question: In the event ""has"", does the participant ""Camera"" act on purpose?
+Answer: No
+Sentence: ""They want to use LTS to tie into NASA's vision for Space Exploration, and seem pleased that the White House is moving in that direction.""
+Question: In the event ""want"", does the participant ""They"" act on purpose?
+Answer: Yes
+Sentence: ""I wanted to volunteer and help animals, and decided to try fostering kittens.""
+Question: In the event ""wanted"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+""Olympus X - 940 14 Megapixel Digital Camera has filters and can do all sorts of special effects.""
+
+or
+
+""They want to use LTS to tie into NASA's vision for Space Exploration, and seem pleased that the White House is moving in that direction.""
+
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""They want to use LTS to tie into"
+82,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""That indicates that they thrive in different water chemistries .""
+Question: In the event ""indicates"", does the participant ""That"" act on purpose?
+Answer: No
+Sentence: ""they recovered the pics geeksquad deleted .""
+Question: In the event ""recovered"", does the participant ""pics"" act on purpose?
+Answer: No
+Sentence: ""Both towns have airports that are served regularly from the larger cities such as Sao Paulo , Rio de Janeiro and Buenos Aires .""
+Question: In the event ""have"", does the participant ""towns"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""That indicates that they thrive in different water chemistries.""
+Question: In the event ""indicates"", does the participant ""That"" act on purpose?
+Answer: No
+Sentence: ""they recovered the pics geeksquad deleted.""
+Question: In the event ""recovered"", does the participant ""pics"" act on purpose?
+Answer: No
+Sentence: ""Both towns have airports that are served regularly from the larger cities such as Sao Paulo, Rio de Janeiro and Buenos Aires.""
+Question: In the event ""have"", does the participant ""towns"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+That indicates that they thrive in different water chemistries.
+
+or
+
+That indicates that they thrive in different water chemistries.
+
+The first interpretation is the one that is correct.
+The second interpretation is not correct.
+The sentence is ambiguous because it is not clear whether the word ""indicates"" is modifying the verb ""thrive"" or the noun ""water chemistries"".
+The word ""indicates"" modifies the verb ""thrive"".
+The word ""indicates"" modifies the noun ""water chemistries"".
+The word ""indicates"" modifies the verb ""thrive"".
+The word ""indicates"""
+83,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""The Americans detected the attempt to infiltrate the urban areas and were already redeploying troops from the rural areas .""
+Question: In the event ""detected"", does the participant ""attempt"" act on purpose?
+Answer: No
+Sentence: ""Blue cross has no record of aa reversal .""
+Question: In the event ""has"", does the participant ""cross"" act on purpose?
+Answer: Yes
+Sentence: ""The mass murder happening right now in Sudan , where the Arab Moslem regime is massacring its black Christian citizens , has nothing to do with Israel .""
+Question: In the event ""massacring"", does the participant ""regime"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""The Americans detected the attempt to infiltrate the urban areas and were already redeploying troops from the rural areas.""
+Question: In the event ""detected"", does the participant ""attempt"" act on purpose?
+Answer: No
+Sentence: ""Blue cross has no record of aa reversal.""
+Question: In the event ""has"", does the participant ""cross"" act on purpose?
+Answer: Yes
+Sentence: ""The mass murder happening right now in Sudan, where the Arab Moslem regime is massacring its black Christian citizens, has nothing to do with Israel.""
+Question: In the event ""massacring"", does the participant ""regime"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""The Americans detected the attempt to infiltrate the urban areas and were already redeploying troops from the rural areas.""
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it says ""The Americans detected the attempt to infiltrate the urban areas and were already redeploying troops from the rural areas.""
+The first sentence is a question because it asks ""In the event"
+84,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Prices for electricity jumped from an average of $ 249 a megawatt to $ 700 a megawatt within three days , ISO records show .""
+Question: In the event ""jumped"", does the participant ""Prices"" act on purpose?
+Answer: No
+Sentence: ""They wanted to brainwash them and control them . ''""
+Question: In the event ""brainwash"", does the participant ""them"" act on purpose?
+Answer: No
+Sentence: ""We felt we made it better because it introduced a process for review and refund . """"
+Question: In the event ""introduced"", does the participant ""process"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Prices for electricity jumped from an average of $ 249 a megawatt to $ 700 a megawatt within three days, ISO records show.""
+Question: In the event ""jumped"", does the participant ""Prices"" act on purpose?
+Answer: No
+Sentence: ""They wanted to brainwash them and control them. ''""
+Question: In the event ""brainwash"", does the participant ""them"" act on purpose?
+Answer: No
+Sentence: ""We felt we made it better because it introduced a process for review and refund. """"
+Question: In the event ""introduced"", does the participant ""process"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+Prices for electricity jumped from an average of $ 249 a megawatt to $ 700 a megawatt within three days, ISO records show.
+
+The verb ""jumped"" is a present participle, and the subject is ""Prices"".
+The verb ""jumped"" is a present participle, and the subject is ""Prices"".
+The verb ""jumped"" is a present participle, and the subject is ""Prices"".
+The verb ""jumped"" is a present participle, and the subject is ""Prices"".
+The verb ""jumped"" is a"
+85,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" There have no business being there unless they are undermining Pakistan , '' says a Pakistani official .""
+Question: In the event ""says"", does the participant ""official"" act on purpose?
+Answer: Yes
+Sentence: ""They needed someone that could convince the jury they had been able to see all relevant documents in CIA files on Wilson .""
+Question: In the event ""convince"", does the participant ""someone"" act on purpose?
+Answer: Yes
+Sentence: ""Police in the Indian capital Delhi say they have arrested the suspected co-ordinator and financier of last month 's deadly bomb blasts in the city .""
+Question: In the event ""arrested"", does the participant ""co-ordinator"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: """" There have no business being there unless they are undermining Pakistan, '' says a Pakistani official.""
+Question: In the event ""says"", does the participant ""official"" act on purpose?
+Answer: Yes
+Sentence: ""They needed someone that could convince the jury they had been able to see all relevant documents in CIA files on Wilson.""
+Question: In the event ""convince"", does the participant ""someone"" act on purpose?
+Answer: Yes
+Sentence: ""Police in the Indian capital Delhi say they have arrested the suspected co-ordinator and financier of last month's deadly bomb blasts in the city.""
+Question: In the event ""arrested"", does the participant ""co-ordinator"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence says that there are no business being there unless they are undermining Pakistan.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question.
+The sentence is a question"
+86,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I had a dead battery last week and called this company since they were the closest they had very quick service for a Monday morning , thanks again guys .""
+Question: In the event ""had"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""A state Senate committee is set today to start serving 16 subpoenas on electricity producers and officials who manage California 's energy grid to determine whether they acted in concert to manipulate energy prices .""
+Question: In the event ""serving"", does the participant ""subpoenas"" act on purpose?
+Answer: No
+Sentence: ""A girl raises her hand .""
+Question: In the event ""raises"", does the participant ""hand"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I had a dead battery last week and called this company since they were the closest they had very quick service for a Monday morning, thanks again guys.""
+Question: In the event ""had"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""A state Senate committee is set today to start serving 16 subpoenas on electricity producers and officials who manage California's energy grid to determine whether they acted in concert to manipulate energy prices.""
+Question: In the event ""serving"", does the participant ""subpoenas"" act on purpose?
+Answer: No
+Sentence: ""A girl raises her hand.""
+Question: In the event ""raises"", does the participant ""hand"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is grammatically correct, but it is not idiomatic. 
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is not idiomatic.
+The sentence is grammatically correct, but it is"
+87,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Requests like that were n't unusual , says retired Col. William Campenni , who flew with Bush in 1970 and 1971 .""
+Question: In the event ""says"", does the participant ""Campenni"" act on purpose?
+Answer: Yes
+Sentence: ""I have a Norwegian Forest Cat that is named Achilles bc as a kitten he always attacked your feet when you walked by !""
+Question: In the event ""attacked"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""It put hair on my chest and thanks to the owner s advice I invested vanguard , got myself a woman like Jerry , and became a republican .""
+Question: In the event ""invested"", does the participant ""I"" act on purpose?
+Answer: 
+",other,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""Requests like that weren't unusual, says retired Col. William Campenni, who flew with Bush in 1970 and 1971.""
+Question: In the event ""says"", does the participant ""Campenni"" act on purpose?
+Answer: Yes
+Sentence: ""I have a Norwegian Forest Cat that is named Achilles bc as a kitten he always attacked your feet when you walked by!""
+Question: In the event ""attacked"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""It put hair on my chest and thanks to the owner s advice I invested vanguard, got myself a woman like Jerry, and became a republican.""
+Question: In the event ""invested"", does the participant ""I"" act on purpose?
+Answer: 
+Sentence: ""I have a Norwegian Forest Cat that is named Achilles bc as a kitten he always attacked your feet when you walked by!""
+Question: In the event ""attacked"", does the participant ""he"" act on purpose?
+Answer: Yes
+Sentence: ""It put hair on my chest and thanks to the owner s advice I invested vanguard, got myself a woman like Jerry, and became a republican.""
+Question: In the event ""invested"", does the participant ""I"" act on purpose?
+Answer: 
+Sentence: """
+88,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I said I was going to trash it also and could I at least have a credit .""
+Question: In the event ""said"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Iran is encircled by Afghanistan , by the Gulf States , Iraq and the Moslem republics of the former Soviet Union .""
+Question: In the event ""encircled"", does the participant ""Iran"" act on purpose?
+Answer: No
+Sentence: ""I did the same thing that you did for christmas .""
+Question: In the event ""did"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I said I was going to trash it also and could I at least have a credit.""
+Question: In the event ""said"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Iran is encircled by Afghanistan, by the Gulf States, Iraq and the Moslem republics of the former Soviet Union.""
+Question: In the event ""encircled"", does the participant ""Iran"" act on purpose?
+Answer: No
+Sentence: ""I did the same thing that you did for christmas.""
+Question: In the event ""did"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean either:
+
+I said I was going to trash it also and could I at least have a credit.
+
+or
+
+I said I was going to trash it also and could I at least have a credit.
+
+The first sentence is a simple statement. It is not a question. It is not a command. It is not a request. It is not a command to do something. It is not a request to do something. It is not a command to do something. It is not a request to do something. It is not a command to do something. It is not a request to do something."
+89,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""you play too much cod ;P""
+Question: In the event ""play"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""I urge all St. Thomas the Apostle parishioners and all of South Florida residents to come see Gus !!!""
+Question: In the event ""urge"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""He refused to believe them and ordered the military to win the war within two to three years ( before the next election in 1968 ) .""
+Question: In the event ""believe"", does the participant ""them"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""you play too much cod ;P""
+Question: In the event ""play"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""I urge all St. Thomas the Apostle parishioners and all of South Florida residents to come see Gus!!!""
+Question: In the event ""urge"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""He refused to believe them and ordered the military to win the war within two to three years ( before the next election in 1968 ).""
+Question: In the event ""believe"", does the participant ""them"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question.  The second sentence is a statement.  The third sentence is a question.  The fourth sentence is a statement.  The fifth sentence is a question.  The sixth sentence is a statement.  The seventh sentence is a question.  The eighth sentence is a statement.  The ninth sentence is a question.  The tenth sentence is a statement.  The eleventh sentence is a question.  The twelfth sentence is a statement.  The thirteenth sentence is a question.  The fourteenth sentence is a statement.  The fifteenth sentence is a question.  The sixteenth sentence is a statement"
+90,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Plans are to build a private pipeline to Equilon 's West Delta # 143 platform and then bring the oil onshore .""
+Question: In the event ""build"", does the participant ""pipeline"" act on purpose?
+Answer: No
+Sentence: ""[ In other words , Bush earned enough points to satisfy the requirements for his entire six year hitch in 1969 - 1970 alone .""
+Question: In the event ""earned"", does the participant ""Bush"" act on purpose?
+Answer: Yes
+Sentence: ""Santa Claus has the right idea .""
+Question: In the event ""has"", does the participant ""Claus"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Plans are to build a private pipeline to Equilon's West Delta # 143 platform and then bring the oil onshore.""
+Question: In the event ""build"", does the participant ""pipeline"" act on purpose?
+Answer: No
+Sentence: ""[ In other words, Bush earned enough points to satisfy the requirements for his entire six year hitch in 1969 - 1970 alone.""
+Question: In the event ""earned"", does the participant ""Bush"" act on purpose?
+Answer: Yes
+Sentence: ""Santa Claus has the right idea.""
+Question: In the event ""has"", does the participant ""Claus"" act on purpose?
+Answer: 
+Sentence: ""The company is a leader in the field of high-speed data transmission.""
+Question: In the event ""is"", does the participant ""company"" act on purpose?
+Answer: Yes
+Sentence: ""The company is a leader in the field of high-speed data transmission.""
+Question: In the event ""is"", does the participant ""leader"" act on purpose?
+Answer: Yes
+Sentence: ""The company is a leader in the field of high-speed data transmission.""
+Question: In the event ""is"", does the participant ""leader"" act on purpose?
+Answer: Yes
+Sentence: ""The company is a leader in the field of high-"
+91,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" Thou art growing less doltish and more shrewd every day , Sancho , "" said Don Quixote .""
+Question: In the event ""said"", does the participant ""Quixote"" act on purpose?
+Answer: Yes
+Sentence: ""My vet told me when a dog is vomiting a lot , it could be a sign of obstruction .""
+Question: In the event ""told"", does the participant ""vet"" act on purpose?
+Answer: Yes
+Sentence: """" The problem is not with the Palestinian resistance groups but with Israel 's scheme to destroy the Palestinians ' infrastructure , "" Habib said .""
+Question: In the event ""said"", does the participant ""Habib"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: """" Thou art growing less doltish and more shrewd every day, Sancho, "" said Don Quixote.""
+Question: In the event ""said"", does the participant ""Quixote"" act on purpose?
+Answer: Yes
+Sentence: ""My vet told me when a dog is vomiting a lot, it could be a sign of obstruction.""
+Question: In the event ""told"", does the participant ""vet"" act on purpose?
+Answer: Yes
+Sentence: """" The problem is not with the Palestinian resistance groups but with Israel's scheme to destroy the Palestinians'infrastructure, "" Habib said.""
+Question: In the event ""said"", does the participant ""Habib"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+""Thou art growing less doltish and more shrewd every day, Sancho, said Don Quixote.""
+
+The speaker is Don Quixote, and he is saying that he is growing more shrewd every day.
+The question is:
+
+In the event ""said"", does the participant ""Quixote"" act on purpose?
+
+The answer is yes.
+The speaker is Don Quixote, and he is saying that he is growing more shrewd every day.
+The question is:
+
+In"
+92,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I assume you mean the crazy horse memorial .""
+Question: In the event ""mean"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""Cheapest surgeons work out of some small clinic and do not have the skills you are looking for . .""
+Question: In the event ""work"", does the participant ""surgeons"" act on purpose?
+Answer: Yes
+Sentence: """" There 's no tracking mechanism in place "" ?!?!?""
+Question: In the event ""'s"", does the participant ""mechanism"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I assume you mean the crazy horse memorial.""
+Question: In the event ""mean"", does the participant ""you"" act on purpose?
+Answer: Yes
+Sentence: ""Cheapest surgeons work out of some small clinic and do not have the skills you are looking for..""
+Question: In the event ""work"", does the participant ""surgeons"" act on purpose?
+Answer: Yes
+Sentence: """" There's no tracking mechanism in place ""?!?!?""
+Question: In the event ""'s"", does the participant ""mechanism"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement. The third sentence is a question.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence is a question because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence is a question because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In"
+93,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: """" Their screams changed , "" Dr. Fortier said .""
+Question: In the event ""said"", does the participant ""Fortier"" act on purpose?
+Answer: Yes
+Sentence: ""( '' We have three generations of martyrs : grandmothers , mothers , daughters . '' )""
+Question: In the event ""have"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""I took the original piece of metal and rigged it to make due since I had to complete the job .""
+Question: In the event ""took"", does the participant ""I"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: """" Their screams changed, "" Dr. Fortier said.""
+Question: In the event ""said"", does the participant ""Fortier"" act on purpose?
+Answer: Yes
+Sentence: ""( '' We have three generations of martyrs : grandmothers, mothers, daughters. '' )""
+Question: In the event ""have"", does the participant ""We"" act on purpose?
+Answer: Yes
+Sentence: ""I took the original piece of metal and rigged it to make due since I had to complete the job.""
+Question: In the event ""took"", does the participant ""I"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is:
+
+In the event said, does the participant Fortier act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event have, does the participant We act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event took, does the participant I act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In the event took, does the participant I act on purpose?
+
+The answer is yes because the sentence is a question.
+The sentence is:
+
+In"
+94,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Another connection to Philippine terror and weapons smuggling - dating from the 1980s - is alleged in the book Disposable Patriot , by Jack Terrell .""
+Question: In the event ""alleged"", does the participant ""connection"" act on purpose?
+Answer: No
+Sentence: ""It incorporates Mr. Stojic 's and Mr. Kelly 's initial comments .""
+Question: In the event ""incorporates"", does the participant ""comments"" act on purpose?
+Answer: No
+Sentence: ""Some board members pushed to have Winter removed , but there were concerns such action would lead to more chaos , the governor 's spokesman Maviglio said .""
+Question: In the event ""removed"", does the participant ""Winter"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Another connection to Philippine terror and weapons smuggling - dating from the 1980s - is alleged in the book Disposable Patriot, by Jack Terrell.""
+Question: In the event ""alleged"", does the participant ""connection"" act on purpose?
+Answer: No
+Sentence: ""It incorporates Mr. Stojic's and Mr. Kelly's initial comments.""
+Question: In the event ""incorporates"", does the participant ""comments"" act on purpose?
+Answer: No
+Sentence: ""Some board members pushed to have Winter removed, but there were concerns such action would lead to more chaos, the governor's spokesman Maviglio said.""
+Question: In the event ""removed"", does the participant ""Winter"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The word ""alleged"" is a conjunction. It is a conjunction that means ""that is the case"".
+The word ""connection"" is a preposition. It is a preposition that means ""on the one hand"".
+The word ""connection"" is a preposition that means ""on the one hand and on the other hand"".
+The word ""connection"" is a preposition that means ""on the one hand and on the other hand and on the other hand"".
+The word ""connection"" is a preposition"
+95,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you have found this information helpful .""
+Question: In the event ""hope"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Lo and behold , they replaced the screen ( which had to be ordered ) yesterday and did n't charge me a dime .""
+Question: In the event ""charge"", does the participant ""me"" act on purpose?
+Answer: No
+Sentence: ""there 's these little like bait worms at jack s . petshoppe .""
+Question: In the event ""'s"", does the participant ""worms"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you have found this information helpful.""
+Question: In the event ""hope"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Lo and behold, they replaced the screen ( which had to be ordered ) yesterday and didn't charge me a dime.""
+Question: In the event ""charge"", does the participant ""me"" act on purpose?
+Answer: No
+Sentence: ""there's these little like bait worms at jack s. petshoppe.""
+Question: In the event ""'s"", does the participant ""worms"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement. The third sentence is a question.
+The first sentence is a question because it asks ""In the event that?"" The second sentence is a statement because it asks ""In the event that?"" The third sentence is a question because it asks ""In the event that?""
+The first sentence is a question because it asks ""In the event that?"" The second sentence is a statement because it asks ""In the event that?"" The third sentence is a question because it asks ""In the event that?""
+The first sentence is a question because it asks ""In the event that?"" The second sentence is a statement because it asks ""In the event"
+96,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""During his time in the Guard , George Bush flew the F - 102 Delta Dagger fighter - interceptor .""
+Question: In the event ""flew"", does the participant ""Bush"" act on purpose?
+Answer: Yes
+Sentence: ""You need to check out the French Indochina War ( 1946 - 1954 ) not the Vietnam War ( 1957 - 1975 ) .""
+Question: In the event ""check"", does the participant ""War"" act on purpose?
+Answer: No
+Sentence: ""His press release following the hearing renewed the call for "" refunds . """"
+Question: In the event ""renewed"", does the participant ""call"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""During his time in the Guard, George Bush flew the F - 102 Delta Dagger fighter - interceptor.""
+Question: In the event ""flew"", does the participant ""Bush"" act on purpose?
+Answer: Yes
+Sentence: ""You need to check out the French Indochina War ( 1946 - 1954 ) not the Vietnam War ( 1957 - 1975 ).""
+Question: In the event ""check"", does the participant ""War"" act on purpose?
+Answer: No
+Sentence: ""His press release following the hearing renewed the call for "" refunds. """"
+Question: In the event ""renewed"", does the participant ""call"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The first sentence is a question. The second sentence is a statement. The third sentence is a question.
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence is a question because it asks ""In the event that..."".
+The first sentence is a question because it asks ""In the event that..."". The second sentence is a statement because it asks ""In the event that..."". The third sentence is a question because it asks ""In the event that..."".
+The first sentence is a question because it asks"
+97,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""Nervous people make mistakes , so I suppose there will be a wave of succesfull arab attacks .""
+Question: In the event ""make"", does the participant ""mistakes"" act on purpose?
+Answer: No
+Sentence: ""I thought that I had gained my cockatiel 's trust , but now he 's not coming to me when I open his cage .""
+Question: In the event ""open"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Rumsfeld , Wolfowitz and Feith staffed the CPA with Neoconservatives , most of whom had no administrative experience , no Arabic , and no respect for Muslim culture ( or knowledge about it ) .""
+Question: In the event ""staffed"", does the participant ""Rumsfeld"" act on purpose?
+Answer: 
+",other,No,"Answer this yes-no question about the following sentence.
+Sentence: ""Nervous people make mistakes, so I suppose there will be a wave of succesfull arab attacks.""
+Question: In the event ""make"", does the participant ""mistakes"" act on purpose?
+Answer: No
+Sentence: ""I thought that I had gained my cockatiel's trust, but now he's not coming to me when I open his cage.""
+Question: In the event ""open"", does the participant ""I"" act on purpose?
+Answer: Yes
+Sentence: ""Rumsfeld, Wolfowitz and Feith staffed the CPA with Neoconservatives, most of whom had no administrative experience, no Arabic, and no respect for Muslim culture ( or knowledge about it ).""
+Question: In the event ""staffed"", does the participant ""Rumsfeld"" act on purpose?
+Answer: 
+Sentence: ""The CPA was staffed by Neoconservatives, most of whom had no administrative experience, no Arabic, and no respect for Muslim culture ( or knowledge about it ).""
+Question: In the event ""most"", does the participant ""Neoconservatives"" act on purpose?
+Answer: Yes
+Sentence: ""The CPA was staffed by Neoconservatives, most of whom had no administrative experience, no Arabic, and no respect for Muslim culture ( or knowledge about it )."""
+98,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""I understand that we are still reviewing the attachment that lists the open transactions .""
+Question: In the event ""reviewing"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""I have a concern that the Enron optionality bug could bite us on the backside with that one .""
+Question: In the event ""have"", does the participant ""concern"" act on purpose?
+Answer: No
+Sentence: ""I have a friend out in Chicago this week , and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago .""
+Question: In the event ""visited"", does the participant ""i"" act on purpose?
+Answer: 
+",Yes,Yes,"Answer this yes-no question about the following sentence.
+Sentence: ""I understand that we are still reviewing the attachment that lists the open transactions.""
+Question: In the event ""reviewing"", does the participant ""we"" act on purpose?
+Answer: Yes
+Sentence: ""I have a concern that the Enron optionality bug could bite us on the backside with that one.""
+Question: In the event ""have"", does the participant ""concern"" act on purpose?
+Answer: No
+Sentence: ""I have a friend out in Chicago this week, and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago.""
+Question: In the event ""visited"", does the participant ""i"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""reviewing"", does the participant ""we"" act on purpose?
+
+The answer is yes.
+The sentence is a question.
+The question is:
+
+In the event ""have"", does the participant ""concern"" act on purpose?
+
+The answer is no.
+The sentence is a question.
+The question is:
+
+In the event ""visited"", does the participant ""i"" act on purpose?
+
+The answer is no.
+The sentence is"
+99,gpt_neo_2.7b,volition_2_prefix_2,"Answer this yes-no question about the following sentence.
+Sentence: ""He showed me the car I was interested in and we took a test drive .""
+Question: In the event ""showed"", does the participant ""car"" act on purpose?
+Answer: No
+Sentence: ""On my panel , Loretta Lynch asked Reliant and Duke to supply her with the details of the contracts they cut to sell their power forward to marketers .""
+Question: In the event ""supply"", does the participant ""her"" act on purpose?
+Answer: Yes
+Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt , friendly and informative service .""
+Question: In the event ""removed"", does the participant ""nest"" act on purpose?
+Answer: 
+",Yes,No,"Answer this yes-no question about the following sentence.
+Sentence: ""He showed me the car I was interested in and we took a test drive.""
+Question: In the event ""showed"", does the participant ""car"" act on purpose?
+Answer: No
+Sentence: ""On my panel, Loretta Lynch asked Reliant and Duke to supply her with the details of the contracts they cut to sell their power forward to marketers.""
+Question: In the event ""supply"", does the participant ""her"" act on purpose?
+Answer: Yes
+Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt, friendly and informative service.""
+Question: In the event ""removed"", does the participant ""nest"" act on purpose?
+Answer: 
+
+A:
+
+The answer is yes.
+The sentence is ambiguous. It could mean that he showed her the car, or it could mean that he showed her the car and took her for a test drive.
+The sentence is ambiguous because it is not clear whether the car was shown to her by him or by her.
+The sentence is ambiguous because it is not clear whether the car was shown to her by him or by her.
+The sentence is ambiguous because it is not clear whether the car was shown to her by him or by her.
+The sentence is ambiguous because it is not clear whether the car was"
