@@ -1,528 +1,559 @@
 ,model,exp_type,prompt,pred,true,response,Unnamed: 0
 0,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""you need to learn about white balance , composition , angle , and work on using the camera properly ...""
-Question: In the event ""need"", does the state of the participant ""you"" change?
-Answer: ",No,Yes,"No . 
- The  state  of  the  participant  "" you ""  does  not  change . 
- The  state  of",0.0
+Sentence: ""We need to include all outstanding transactions .""
+Question: In the event ""include"", does the participant ""transactions"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",0.0
 1,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""And the President becomes a Dictator , unrestrained by anything in the Constitution , backed up by the Armed Forces , which would be entirely under his personal control .""
-Question: In the event ""becomes"", does the state of the participant ""President"" change?
+Sentence: ""A 1971 evaluation called Bush "" an exceptionally fine young officer and pilot "" who "" continually flies intercept missions with the unit to increase his proficiency even further . """"
+Question: In the event ""increase"", does the participant ""proficiency"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" President ""  changes  from  "" not  a  dictator ""  to",1.0
+ The  sentence  is  a  description  of  a  process .  The  process  is  the  increase  of  the",1.0
 2,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""MFJ Inc transformed our run down back yard into a place of beauty .""
-Question: In the event ""transformed"", does the state of the participant ""Inc"" change?
+Sentence: ""I like to imagine the thought processes going on in W 's head if he were to actually read the letter , but it is hard to picture him actually reading this letter .""
+Question: In the event ""imagine"", does the participant ""processes"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" Inc ""  changes  from  "" MF J  Inc ""  to",2.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",2.0
 3,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Once upon a time ( in 2001 , to be specific ) , the Coca - Cola corporation built a bottling plant in a small and remote Indian village in the state of Kerala .""
-Question: In the event ""built"", does the state of the participant ""plant"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" plant ""  changes  from  "" not  built ""  to  """,3.0
+Sentence: ""They have good sushi for a good price .""
+Question: In the event ""have"", does the participant ""They"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" good ""  change  in",3.0
 4,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I remain unhappy .""
-Question: In the event ""remain"", does the state of the participant ""I"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" I ""  changes  from  "" un happy ""  to  """,4.0
+Sentence: ""The other stylists around me kept pressuring me saying he 's so wonderful , you 're going to love your hair .""
+Question: In the event ""kept"", does the participant ""stylists"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",4.0
 5,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""In Texas , BP shut its 460,000 barrels per day refinery and Marathon shut its 72,000 bpd plant .""
-Question: In the event ""shut"", does the state of the participant ""plant"" change?
-Answer: ",No,Yes,"No . 
- The  state  of  the  participant  "" plant ""  does  not  change . 
- The  state  of",5.0
+Sentence: ""I know that with my industry - wide and investment banking contacts that I can help raise capital for the fund .""
+Question: In the event ""raise"", does the participant ""capital"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",5.0
 6,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Brass melts at just under 2000 F which is a bright yellow heat , not red hot .""
-Question: In the event ""melts"", does the state of the participant ""Brass"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" Br ass ""  changes  from  solid  to  liquid . 
-",6.0
+Sentence: ""She deserves many 5 star reviews !!""
+Question: In the event ""deserves"", does the participant ""She"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  participant  "" She ""  changes  in  state  from  "" des erving ""  to  "" des",6.0
 7,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The store manager , Jim Smith , made an excellent tire recommendation for my newly acquired Lexus .""
-Question: In the event ""made"", does the state of the participant ""recommendation"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" recomm end ation ""  changes  from  "" not  made """,7.0
+Sentence: ""Thanks to repeated deployments to Iraq and Afghanistan , recruiting is at an all - time low .""
+Question: In the event ""is"", does the participant ""recruiting"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",7.0
 8,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I love the location and the apartment !!""
-Question: In the event ""love"", does the state of the participant ""location"" change?
+Sentence: ""This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .""
+Question: In the event ""heard"", does the participant ""we"" change in state?
 Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" love "",  does  the  state  of  the  participant  "" ap",8.0
+ Question :  In  the  event  "" heard "",  does  the  participant  "" we ""  change  in",8.0
 9,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I hope you have a great summer .""
-Question: In the event ""hope"", does the state of the participant ""I"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" I ""  changes  from  "" not  hoping ""  to  """,9.0
+Sentence: ""and around what time they eat each of their meals .""
+Question: In the event ""eat"", does the participant ""each"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",9.0
 10,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The difference is when the cat hisses , that means they are annoyed and they want the other cat to go away .""
-Question: In the event ""is"", does the state of the participant ""difference"" change?
+Sentence: ""The price of crude oil on the international market hit a record $ 70.85 a barrel due to the vulnerability of oil and gas fields in the Gulf of Mexico .""
+Question: In the event ""hit"", does the participant ""$"" change in state?
 Answer: ",Yes,No,"Yes . 
- Answer :     No . 
- Answer :     Yes . 
- Answer :",10.0
+ The  price  of  crude  oil  on  the  international  market  hit  a  record  $  70 . 85",10.0
 11,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .""
-Question: In the event ""extend"", does the state of the participant ""politeness"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  changes  from  "" polit eness ""  to  "" polit eness "".",11.0
+Sentence: ""I sent a graphic that would have been distorted if printed as it was .""
+Question: In the event ""distorted"", does the participant ""graphic"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  about  a  person  who  is  not  a  member  of  a  group .",11.0
 12,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Yes , I say .""
-Question: In the event ""say"", does the state of the participant ""I"" change?
+Sentence: ""I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .""
+Question: In the event ""read"", does the participant ""Article"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" I ""  changes  from  "" not  saying ""  to  """,12.0
+ The  following  sentence  is  about  a  person  who  is  a  member  of  a  political  party .",12.0
 13,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I MAKE MONEY NOT DEAL WITH BROKERS "" Wow , can you believe in today s tough times this dealership would be looking for any way to move vehicles .""
-Question: In the event ""MAKE"", does the state of the participant ""I"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" I ""  changes  from  "" MA KE ""  to  """,13.0
+Sentence: ""A woman walks into an Israeli restaurant in mid-day , eats , observes families with old people and children eating their lunch in the adjacent tables and pays the bill .""
+Question: In the event ""eating"", does the participant ""lunch"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  about  a  woman  who  is  walking  in  an  Israeli  restaurant  in  mid",13.0
 14,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We accecpt : Visa , MasterCard , Amex , Dinner s Club / Carte Blanche , & Personal Checks / Money Orders .""
-Question: In the event ""accecpt"", does the state of the participant ""We"" change?
+Sentence: ""We need to be more ' rigorous ' about how we perceive these people .""
+Question: In the event ""perceive"", does the participant ""people"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" We ""  changes  from  "" We ""  to  "" We",14.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",14.0
 15,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""A NATO spokesman said : "" There 's no tracking mechanism to ensure they do n't fall into the wrong hands .""
-Question: In the event ""fall"", does the state of the participant ""they"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" they ""  changes  from  "" fall ""  to  "" fall",15.0
+Sentence: ""The United States goes into a war zone and evacuates a bunch of U.S. citizens ( most of whom were "" dual - citizens "" ) .""
+Question: In the event ""evacuates"", does the participant ""bunch"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",15.0
 16,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""After the split Dow Stock there are 120 shares .""
-Question: In the event ""are"", does the state of the participant ""shares"" change?
+Sentence: ""they eat lots of grilled meat , chorizo , and such , with potatoes""
+Question: In the event ""eat"", does the participant ""lots"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  sentence  "" After  the  split  Dow  Stock  there  are  120  shares ""  is  a  sentence",16.0
+ The  sentence  is  a  description  of  a  state  of  affairs .  The  event  "" eat """,16.0
 17,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""SCALIA filed a dissenting opinion , in which THOMAS and ALITO joined .""
-Question: In the event ""joined"", does the state of the participant ""THOMAS"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" TH OM AS ""  changes  from  "" joined ""  to",17.0
-18,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They kept the name Oracle and created the RDBMS engine .""
-Question: In the event ""created"", does the state of the participant ""engine"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" engine ""  changes  from  "" not  created ""  to  """,18.0
-19,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""You review and approve it , keep it on your desk , and I will come over and make the change at your desk on Monday .""
-Question: In the event ""review"", does the state of the participant ""You"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" You ""  changes  from  "" not  reviewing ""  to  """,19.0
-20,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""There is a very good book on the subject that was written by General Vo Nguyen Giap .""
-Question: In the event ""written"", does the state of the participant ""book"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  book  is  not  the  same  book  as  it  was  before  the  event  "" written "".",20.0
-21,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""A little birdie told me that you were checking into tickets for Seoul .""
-Question: In the event ""checking"", does the state of the participant ""you"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  changes  from  "" not  checking ""  to  "" checking "". 
-",21.0
-22,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I have extensive experience as a technical leader in the design and development of modeling and simulation software products , mostly for the oil and gas pipeline industry .""
-Question: In the event ""have"", does the state of the participant ""I"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" I ""  changes  from  "" not  having  extensive  experience """,22.0
-23,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They kill people .""
-Question: In the event ""kill"", does the state of the participant ""people"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  sentence  "" They  kill  people ""  is  a  statement  about  a  state  of  affairs .",23.0
-24,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""As a result , your finances improve - and your newfound confidence could attract new love into your life .""
-Question: In the event ""improve"", does the state of the participant ""finances"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant 's  finances  changes  from  "" w orse ""  to  "" better",24.0
-25,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""There are several just off their beautiful beach .""
-Question: In the event ""are"", does the state of the participant ""several"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" sever al ""  changes  from  "" not  being  off  their",25.0
-26,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""A pattern of arrests and seizures indicate that arms are brought by the LTTE from Laos , Cambodia and Thailand into Chittagong , from where they are transported northward by land to Bhutan .""
-Question: In the event ""indicate"", does the state of the participant ""pattern"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" pattern ""  changes  from  being  a  pattern  to  being  a",26.0
-27,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Upon the same day he conquered Darius , won a great victory at sea , & died the same day .""
-Question: In the event ""conquered"", does the state of the participant ""Darius"" change?
-Answer: ",No,Yes,"No . 
- The  state  of  the  participant  "" D arius ""  does  not  change . 
- The  state",27.0
-28,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The call was cancelled .""
-Question: In the event ""cancelled"", does the state of the participant ""call"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  call  was  cancelled . 
- The  call  was  not  cancelled . 
- The  call  was",28.0
-29,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""But if -- there 's a painting on the wall in the Oval Office that shows a horseman charging up a steep cliff , and there are at least two other horsemen following .""
-Question: In the event ""shows"", does the state of the participant ""painting"" change?
-Answer: ",Yes,No,"Yes . 
- The  sentence  is  about  a  painting ,  and  the  painting  is  in  the  Oval  Office .",29.0
-30,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We heard nothing .""
-Question: In the event ""heard"", does the state of the participant ""nothing"" change?
-Answer: ",Yes,No,"Yes . 
- The  sentence  "" We  heard  nothing ""  is  a  sentence  about  a  state  of  affairs .",30.0
-31,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""All he had to do for a complete victory was allow the military to go into Laos and Cambodia and finish off the shattered Communist forces .""
-Question: In the event ""finish"", does the state of the participant ""forces"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" forces ""  changes  from  "" sh attered ""  to  """,31.0
-32,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Following on the heels of Ben 's annoucement yesterday , I thought I 'd post that I have joined Google as well .""
-Question: In the event ""post"", does the state of the participant ""I"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  changes  from  "" I ""  to  "" I  have  joined  Google",32.0
-33,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We need to change the lock and place posted signs at the gate .""
-Question: In the event ""place"", does the state of the participant ""signs"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" sign s ""  changes  from  "" not  posted ""  to",33.0
-34,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""New Orleans mayor Ray Nagin said up to 80 % of the city was submerged , in some cases by waters 6 m ( 20 ft ) deep .""
-Question: In the event ""submerged"", does the state of the participant ""%"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" 80 %""  changes  from  "" is ""  to  "" was",34.0
-35,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""China and Japan , and the world at large , have more dollar reserves than they require .""
-Question: In the event ""require"", does the state of the participant ""they"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" they ""  changes  from  plural  to  singular . 
- The",35.0
-36,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We need for interviewers to commit either to the morning ( 9 am - 12 pm ) or afternoon ( 2 pm - 5 pm ) complete session .""
-Question: In the event ""commit"", does the state of the participant ""interviewers"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" inter view ers ""  changes  from  "" not  committed """,36.0
-37,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Well , they have a variety of sports that they play like basketball , soccer , etc .""
-Question: In the event ""play"", does the state of the participant ""they"" change?
+Sentence: """" Port Blair , Havelock Islands , Diglipur , Middle Nicobar , Campbell 's Bay , Neil Islands and Rangott are mostly overrun by foreigners , "" he said .""
+Question: In the event ""said"", does the participant ""he"" change in state?
 Answer: ",No,No,"No . 
- The  state  of  the  participant  "" they ""  does  not  change . 
- The  state  of",37.0
-38,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Iran is encircled by Afghanistan , by the Gulf States , Iraq and the Moslem republics of the former Soviet Union .""
-Question: In the event ""encircled"", does the state of the participant ""Iran"" change?
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",17.0
+18,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We tried 4 different style of donuts , they were all the same when it came to quality .""
+Question: In the event ""tried"", does the participant ""style"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" Iran ""  changes  from  "" not  enc ir cled """,38.0
-39,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""As of January 10 , 2005 , my source of income changed from The Mozilla Foundation to Google , Inc. of Mountain View , California .""
-Question: In the event ""changed"", does the state of the participant ""source"" change?
+ Now ,  let 's  try  a  question  about  a  sentence  that  has  a  different  meaning .",18.0
+19,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Dr. Obina told me that his office closed at noon and that I should call him on Monday .""
+Question: In the event ""closed"", does the participant ""office"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence  with  the  same  question ,  but  with",19.0
+20,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He looked like a great guy for your group .""
+Question: In the event ""looked"", does the participant ""He"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",20.0
+21,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Like William Shakspere RAPHAEL ( the painter ) died on his April birthday Laura & Bridget 's day :""
+Question: In the event ""died"", does the participant ""RAPHAEL"" change in state?
 Answer: ",Yes,Yes,"Yes . 
  The  following  sentence  is  a  bit  more  complex . 
- Sent ence :  "" As  of",39.0
-40,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I left you a voice mail on Friday .""
-Question: In the event ""left"", does the state of the participant ""mail"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" mail ""  changes  from  "" not  left ""  to  """,40.0
-41,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The last I checked , the Satanists have a long way to go to catch up with the death and destruction dealt out by self - proclaimed ( though false ) Christians .""
-Question: In the event ""have"", does the state of the participant ""way"" change?
+ Sent ence :  "" Like  William",21.0
+22,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We accecpt : Visa , MasterCard , Amex , Dinner s Club / Carte Blanche , & Personal Checks / Money Orders .""
+Question: In the event ""accecpt"", does the participant ""We"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" way ""  changes  from  "" long ""  to  "" short",41.0
-42,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""First room had used tissues next to the bed and I requested it be rectified .""
-Question: In the event ""rectified"", does the state of the participant ""it"" change?
+ The  sentence  is  a  statement  about  the  participants  "" We ""  and  "" V isa "",",22.0
+23,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The good news is that all of this is temporary , because the evolution of international law has always adapted itself to reality .""
+Question: In the event ""adapted"", does the participant ""itself"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" it ""  changes  from  "" used  tissues ""  to  """,42.0
-43,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Bangs said his agency is still reviewing the decision .""
-Question: In the event ""said"", does the state of the participant ""Bangs"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" B angs ""  changes  from  "" review ing ""  to",43.0
-44,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""2005 sees you expanding your intuitive and psychic skills even more , Aquarius .""
-Question: In the event ""expanding"", does the state of the participant ""skills"" change?
+ The  sentence  is  gram matical ,  but  the  meaning  is  not  clear . 
+ The  sentence",23.0
+24,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Paula has an amazing gift for creativity , vision and the ability to combine art to / with commercial purpose .""
+Question: In the event ""combine"", does the participant ""art"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  sentence  is  true . 
- The  sentence  is  false . 
- The  sentence  is  true",44.0
-45,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Dunn believes the resulting overcharges for electricity exceeded $ 30 billion .""
-Question: In the event ""exceeded"", does the state of the participant ""$"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  ""$ ""  changes  from  "" did  not  exceed ""  to  """,45.0
-46,gpt-3,volition,"Answer this yes-no question about the following sentence.
+ The  word  "" comb ine ""  is  a  trans itive  verb .  It  requires  an  object",24.0
+25,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I dropped the truck off in the morning and it was ready that afternoon .""
-Question: In the event ""dropped"", does the state of the participant ""I"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  changes  from  "" dro pped ""  to  "" dro pped  and",46.0
-47,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I think it was in the Lincoln Square area but do n't quote me on that .""
-Question: In the event ""quote"", does the state of the participant ""me"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" me ""  changes  from  "" not  quoted ""  to  """,47.0
-48,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I have a friend out in Chicago this week , and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago .""
-Question: In the event ""remember"", does the state of the participant ""name"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" name ""  changes  from  "" unknown ""  to  "" known",48.0
-49,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Phenology studies an organism 's development and life cycle -- the pulse of life .""
-Question: In the event ""studies"", does the state of the participant ""Phenology"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" P hen ology ""  changes  from  "" stud ies """,49.0
-50,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""We need responses or direction by no later than COB on Monday , October 30 , 2000 .""
-Question: In the event ""need"", does the state of the participant ""We"" change?
+Question: In the event ""dropped"", does the participant ""I"" change in state?
 Answer: ",Yes,No,"Yes . 
  The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",50.0
-51,gpt-3,volition,"Answer this yes-no question about the following sentence.
+ Sent",25.0
+26,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Yahoo! Mail has the best spam protection around""
+Question: In the event ""has"", does the participant ""protection"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",26.0
+27,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We came at around 730 and they close at 8 and wanted to try the specials but they were out for the day so I would say go way before they close .""
+Question: In the event ""close"", does the participant ""they"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,27.0
+28,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I think it s only fair that nowadays every town should provide at least one halal cafe or restaurant and hopefully one day every British catering establishment will be halal .""
+Question: In the event ""think"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",28.0
+29,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""What is this irish tune called !?""
+Question: In the event ""called"", does the participant ""What"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  answer  is  "" yes ""  because  the  participant  "" What ""  changes  in  state  from",29.0
+30,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""By comparison , outdoor cats have a life expectancy of 3 - 7 years depending on how many predators are in the local environment .""
+Question: In the event ""have"", does the participant ""cats"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" out door  cats """,30.0
+31,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""There are several just off their beautiful beach .""
+Question: In the event ""are"", does the participant ""several"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  a  description  of  a  state  of  affairs .  The  state  of  affairs  is",31.0
+32,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have to mention that i recently separated the father into another cage close to the ' nest cage ' because he and the mother were fighting .""
+Question: In the event ""separated"", does the participant ""father"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,32.0
+33,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But just this week a peddle broke .""
+Question: In the event ""broke"", does the participant ""peddle"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",33.0
+34,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""In Texas , BP shut its 460,000 barrels per day refinery and Marathon shut its 72,000 bpd plant .""
-Question: In the event ""shut"", does the state of the participant ""refinery"" change?
+Question: In the event ""shut"", does the participant ""refinery"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" ref inery ""  changes  from  "" open ""  to  """,51.0
-52,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Enclosed is a worksheet for Ineos Acrylics .""
-Question: In the event ""Enclosed"", does the state of the participant ""worksheet"" change?
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",34.0
+35,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""A little birdie told me that you were checking into tickets for Seoul .""
+Question: In the event ""checking"", does the participant ""you"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",35.0
+36,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""There 's plenty of parking , and I 've never had an issue with audience members who wo n't stop talking or answering their cellphones .""
+Question: In the event ""stop"", does the participant ""members"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,36.0
+37,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Saddam killed every month more people than all those who died from suicide murders since the Coalition occupation of Iraq .""
+Question: In the event ""died"", does the participant ""those"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" d ied "",  does  the  participant  "" those ""  change",37.0
+38,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The owner warned me that it was the best salsa I would ever had , and he was right .""
+Question: In the event ""warned"", does the participant ""owner"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",38.0
+39,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The bottom line is that the food is n't great and is relatively high - priced .""
+Question: In the event ""is"", does the participant ""line"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" is "",  does  the  participant  "" line ""  change  in",39.0
+40,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I did the same thing that you did for christmas .""
+Question: In the event ""did"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",40.0
+41,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Meditation has to do with what is called ideation .""
+Question: In the event ""has"", does the participant ""Meditation"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  sentence  "" Med itation  has  to  do  with  what  is  called  ide ation ""  is",41.0
+42,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I survived it without a problem .""
+Question: In the event ""survived"", does the participant ""I"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  "" I  survived  it  without  a  problem ""  is  a  sentence  that  describes  an",42.0
+43,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The only problem that I had in 2 years of living there was that the walls are pretty thin , sometimes I could here my neighbors conversations .""
+Question: In the event ""here"", does the participant ""conversations"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """,43.0
+44,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""James Bateman came the day I called and fixed the problem quickly and efficiently .""
+Question: In the event ""fixed"", does the participant ""problem"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence  with  a  different  verb . 
+ Sent",44.0
+45,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""This defeats the purpose of using a Tradename .""
+Question: In the event ""defeats"", does the participant ""purpose"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  question  about  the  following  sentence . 
+ Sent ence :  """,45.0
+46,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You have two screws that attach the sight to the wang .""
+Question: In the event ""have"", does the participant ""You"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  participant  "" You ""  changes  in  state  from  "" not  having  two  screws  that  attach",46.0
+47,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He described Allawi 's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors .""
+Question: In the event ""described"", does the participant ""face"" change in state?
 Answer: ",Yes,No,"Yes . 
  The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
- Sent",52.0
+ Sent",47.0
+48,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""you need to learn about white balance , composition , angle , and work on using the camera properly ...""
+Question: In the event ""need"", does the participant ""you"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",48.0
+49,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""About 30 seconds into his address , he started flogging the terrorist issue just one more time .""
+Question: In the event ""started"", does the participant ""he"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",49.0
+50,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We understand that the pipe fitters are also planning to picket the Lake Worth , Florida project as well .""
+Question: In the event ""planning"", does the participant ""fitters"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" plan ning "",  does  the  participant  "" fit ters """,50.0
+51,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I ordered 1000 postcards , we normally order 5000 or more .""
+Question: In the event ""ordered"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",51.0
+52,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""n3td3v saw this story on BBC News Online and thought you should see it .""
+Question: In the event ""saw"", does the participant ""story"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  bit  more  complex . 
+ Sent ence :  "" n 3",52.0
 53,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Andreas Bechtolsheim built a microcomputer ; Vinod Khosla recruited him and Scott McNealy to manufacture computers based on it , and Bill Joy to develop a UNIX - based OS for the computer .""
-Question: In the event ""built"", does the state of the participant ""microcomputer"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" micro computer ""  changes  from  "" not  built ""  to",53.0
+Sentence: ""He said it was the same tire , and verified this , after checking both the actual tire on my car and my service papers from earlier in the week .""
+Question: In the event ""said"", does the participant ""He"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",53.0
 54,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""What followed the next day is considered by the governor and Dunn to be the pivotal moment of the energy crisis .""
-Question: In the event ""followed"", does the state of the participant ""What"" change?
-Answer: ",No,No,"No . 
- The  state  of  the  participant  "" What ""  does  not  change .  The  state  of  the",54.0
+Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
+Question: In the event ""confessed"", does the participant ""Bernard"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",54.0
 55,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I anticipate completing the review of the Master Agreement form and submitting comments to you by Monday .""
-Question: In the event ""completing"", does the state of the participant ""review"" change?
+Sentence: ""It was incorporated as a city on May 26 , 1955 .""
+Question: In the event ""incorporated"", does the participant ""It"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" review ""  changes  from  "" not  reviewed ""  to  """,55.0
+ The  sentence  "" It  was  incorporated  as  a  city  on  May  26  ,  1955  .""  is",55.0
 56,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""There 's plenty of parking , and I 've never had an issue with audience members who wo n't stop talking or answering their cellphones .""
-Question: In the event ""stop"", does the state of the participant ""members"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participants  changes  from  "" won 't ""  to  "" will "". 
-",56.0
+Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
+Question: In the event ""exceed"", does the participant ""rises"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  IP N  report  agrees  that  the  temperature  rises  in  the  Arctic  will  substantially  exceed  the",56.0
 57,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""It put hair on my chest and thanks to the owner s advice I invested vanguard , got myself a woman like Jerry , and became a republican .""
-Question: In the event ""put"", does the state of the participant ""hair"" change?
+Sentence: ""I have two cats , and at first they hissed at each other because cats are very territorial , but now they do fight and play .""
+Question: In the event ""have"", does the participant ""I"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" hair ""  changes  from  "" not  having  hair ""  to",57.0
+ The  participant  "" I ""  changes  in  state  from  "" have ""  to  "" had "".",57.0
 58,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Tamils feel that the proposed defense agreement between India and Sri Lanka would encourage Sinhala rulers to prepare for another war abandoning the current peace process""
-Question: In the event ""abandoning"", does the state of the participant ""process"" change?
+Sentence: ""The rapid victory during the first Gulf War cemented this perception .""
+Question: In the event ""cemented"", does the participant ""perception"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" process ""  changes  from  "" peace ""  to  "" war",58.0
+ The  rapid  victory  during  the  first  Gulf  War  cement ed  this  perception  . 
+ The  rapid",58.0
 59,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I need something reliable and good looking .""
-Question: In the event ""need"", does the state of the participant ""something"" change?
+Sentence: ""You have to pay CASH ONLY before they start unloading track on your destination .""
+Question: In the event ""pay"", does the participant ""CASH"" change in state?
 Answer: ",Yes,No,"Yes . 
- Question :  In  the  event  "" rel iable "",  does  the  state  of  the  participant  """,59.0
+ The  sentence  is  a  command .  The  participant  "" you ""  is  the  subject .  The",59.0
 60,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The ACIA -- with participation by the United States , Canada , Denmark , Finland , Iceland , Norway , the Russian Federation and Sweden -- was begun in 2000 .""
-Question: In the event ""begun"", does the state of the participant ""ACIA"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  AC IA  is  a  thing ,  and  the  state  of  a  thing  is  a  property",60.0
+Sentence: ""We recommend these cabins !""
+Question: In the event ""recommend"", does the participant ""cabins"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",60.0
 61,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""He was trained to a harness / leash for outside time but he knew to use the litter pan inside .""
-Question: In the event ""trained"", does the state of the participant ""He"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" He ""  changes  from  "" not  trained ""  to  """,61.0
+Sentence: ""Both India and Afghanistan deny the claim .""
+Question: In the event ""deny"", does the participant ""claim"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",61.0
 62,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com .""
-Question: In the event ""establish"", does the state of the participant ""equivalent"" change?
+Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
+Question: In the event ""involving"", does the participant ""children"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" equ ivalent ""  changes  from  "" not  established ""  to",62.0
+ The  word  "" in vol ving ""  is  a  pre pos itional  phrase .  It  is",62.0
 63,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""He gave no service to anyone , risked nothing , and did not even slack off efficiently .""
-Question: In the event ""gave"", does the state of the participant ""He"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" He ""  changes  from  "" g ave ""  to  """,63.0
+Sentence: ""The millions who died in the Iran - Iraq war had nothing to do with Israel .""
+Question: In the event ""died"", does the participant ""millions"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",63.0
 64,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The new Centre has 4 studios planned and now boasts the largest single dance floor area in Kingston upon Hull .""
-Question: In the event ""has"", does the state of the participant ""studios"" change?
+Sentence: ""Most experts believe China intends to develop a small space station of its own over the next several years .""
+Question: In the event ""develop"", does the participant ""station"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  new  Centre  has  4  studios  planned  and  now  boasts  the  largest  single  dance  floor  area",64.0
+ The  following  sentence  is  about  the  future . 
+ Sent ence :  "" The  United  States",64.0
 65,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Every student of political science debates how you prevent an anti-democratic force from winning a democratic election and abolishing democracy .""
-Question: In the event ""winning"", does the state of the participant ""election"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" election ""  changes  from  "" not  won ""  to  """,65.0
-66,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Saddam killed every month more people than all those who died from suicide murders since the Coalition occupation of Iraq .""
-Question: In the event ""died"", does the state of the participant ""those"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" those ""  changes  from  "" d ied ""  to  """,66.0
-67,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The owner warned me that it was the best salsa I would ever had , and he was right .""
-Question: In the event ""warned"", does the state of the participant ""owner"" change?
+Sentence: ""i know you remember the bet .""
+Question: In the event ""remember"", does the participant ""bet"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  owner  is  in  a  different  state  than  he  was  before  he  warned  me . 
-",67.0
-68,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The mind becomes strong and sharp .""
-Question: In the event ""becomes"", does the state of the participant ""mind"" change?
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",65.0
+66,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Louisiana 's Governor Blanco urged residents to spend Wednesday in prayer and assured them the crisis would eventually be overcome .""
+Question: In the event ""assured"", does the participant ""them"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",66.0
+67,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He said the main aim of the subpoenas will be to determine whether collusion occurred to "" fix "" prices , which would violate federal trade laws .""
+Question: In the event ""fix"", does the participant ""prices"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  mind  becomes  strong  and  sharp . 
- The  mind  becomes  strong  and  sharp . 
+ The  word  "" pr ices ""  changes  state  from  plural  to  singular . 
+ The  word",67.0
+68,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""To that regards , I noticed I was not approved to sell naked calls .""
+Question: In the event ""noticed"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  list  of  the  most  common  words  in  the  English  language . 
 ",68.0
 69,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Thanks to repeated deployments to Iraq and Afghanistan , recruiting is at an all - time low .""
-Question: In the event ""is"", does the state of the participant ""recruiting"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" rec ru iting ""  changes  from  "" not  at  an",69.0
+Sentence: ""Dessert was ... hmmm , that 's interesting , I do n't even remember dessert .""
+Question: In the event ""remember"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  try  a  question  about  the  following  sentence . 
+ Sent ence :",69.0
 70,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Huge amounts of money , which could have solved many social problems in this dysfunctional part of the world , are channeled into three concentric spheres supporting death and murder .""
-Question: In the event ""solved"", does the state of the participant ""amounts"" change?
+Sentence: ""Attached is a draft of the talking points for the Commission 's hearings .""
+Question: In the event ""Attached"", does the participant ""draft"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" amount s ""  changes  from  "" huge ""  to  """,70.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",70.0
 71,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""This entity was created in 2000 for the acquistion of WarpSpeed Communications ( now Enron WarpSpeed Services , Inc. 83N ) , and then dissolved upon completion of merger .""
-Question: In the event ""created"", does the state of the participant ""entity"" change?
+Sentence: ""All he had to do for a complete victory was allow the military to go into Laos and Cambodia and finish off the shattered Communist forces .""
+Question: In the event ""allow"", does the participant ""military"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  entity  was  created  in  2000  for  the  acqu ist ion  of  Warp Speed  Communications  (",71.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",71.0
 72,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt , friendly and informative service .""
-Question: In the event ""removed"", does the state of the participant ""Joe"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" Joe ""  changes  from  "" was  not  removing ""  to",72.0
+Sentence: ""Brass melts at just under 2000 F which is a bright yellow heat , not red hot .""
+Question: In the event ""melts"", does the participant ""Brass"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  is  not  about  a  change",72.0
 73,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Everything was done on a timely manner and things were cleaned and picked up every day when the crew was done .""
-Question: In the event ""done"", does the state of the participant ""Everything"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  sentence  is  about  the  state  of  the  participant  "" Everything ""  and  the  event  """,73.0
+Sentence: ""I want to go all over :) I do n't have a set route yet .""
+Question: In the event ""want"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" I ""  change  in",73.0
 74,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The mass murder happening right now in Sudan , where the Arab Moslem regime is massacring its black Christian citizens , has nothing to do with Israel .""
-Question: In the event ""massacring"", does the state of the participant ""citizens"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participants  changes  from  "" mass  murder ""  to  "" mass ac ring",74.0
+Sentence: ""It is the marrying off of young girls to older men often close relatives that enfurates me .""
+Question: In the event ""enfurates"", does the participant ""marrying"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",74.0
 75,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Michael helped shoot the majority of my firm 's website and we could not have been happier .""
-Question: In the event ""shoot"", does the state of the participant ""majority"" change?
+Sentence: ""I tamed them in 4 days .""
+Question: In the event ""tamed"", does the participant ""them"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  majority  of  the  participants  in  the  event  "" shoot ""  are  in  a  state  of",75.0
+ The  sentence  "" I  t amed  them  in  4  days .""  is  a  sentence  about  a",75.0
 76,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""i have a Mature male and female they are together a lot but never laid eggs as far as i know can anyone help me figure out how to make them mate""
-Question: In the event ""laid"", does the state of the participant ""eggs"" change?
+Sentence: ""I called them for an estimate and they INSULTED ME WHEN I ASK THEM QUESTIONS .""
+Question: In the event ""INSULTED"", does the participant ""they"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  answer  is  yes  because  the  state  of  the  participant  "" egg s ""  changes  from",76.0
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",76.0
 77,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" Port Blair , Havelock Islands , Diglipur , Middle Nicobar , Campbell 's Bay , Neil Islands and Rangott are mostly overrun by foreigners , "" he said .""
-Question: In the event ""said"", does the state of the participant ""he"" change?
-Answer: ",No,No,"No . 
- The  state  of  the  participant  "" he ""  does  not  change . 
- The  state  of",77.0
-78,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" There is always the possibility they could jam us up , make us look like we are not numero uno , "" Pike said .""
-Question: In the event ""said"", does the state of the participant ""Pike"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" P ike ""  changes  from  "" said ""  to  """,78.0
-79,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I called and asked about the price for hair updo and the receptionist or owner who aswered the phone refused to tell me , or even just give me an approximate price range .""
-Question: In the event ""aswered"", does the state of the participant ""phone"" change?
-Answer: ",No,No,"No . 
- The  sentence  is  gram matical ,  but  the  meaning  is  not .  The  sentence  is  about",79.0
-80,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" It was about how he could humiliate her the most , "" prosecutor Dean Mandros said in closing arguments .""
-Question: In the event ""said"", does the state of the participant ""Mandros"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" Mand ros ""  changes  from  "" he ""  to  """,80.0
-81,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""America cried wolf in Iraq , and what 's scary is that sooner or later , that wolf will probably get us .""
-Question: In the event ""cried"", does the state of the participant ""America"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" America ""  changes  from  "" c ried ""  to  """,81.0
-82,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I have a 9 month old German Shepherd that I raised from a puppy .""
-Question: In the event ""raised"", does the state of the participant ""Shepherd"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" She pherd ""  changes  from  "" not  raised ""  to",82.0
-83,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""The missile 's manufacturers state that one or two missiles could cripple a destroyer , and five missiles could sink a 20,000 ton ship .""
-Question: In the event ""sink"", does the state of the participant ""ship"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  sentence  is  about  the  state  of  the  ship .  The  sentence  is  about  the  state",83.0
-84,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""A team from the court managed to take his deposition before he died .""
-Question: In the event ""died"", does the state of the participant ""he"" change?
+Question: In the event ""died"", does the participant ""he"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" he ""  changes  from  "" al ive ""  to  """,84.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",77.0
+78,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Winter defied his own board and Gov. Gray Davis when he filed a 50 - page request to remove the caps , records and interviews show .""
+Question: In the event ""remove"", does the participant ""caps"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  word  "" caps ""  is  a  noun .  It  is  the  direct  object  of  the",78.0
+79,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""painted"", does the participant ""George"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  is  a  description  of  a  painting .  The  painting  is  a  representation  of  a",79.0
+80,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""San Francisco was settled in the 19th and 20th century by mainly European immigrants except for some Asian workers who were manual laborers .""
+Question: In the event ""settled"", does the participant ""Francisco"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",80.0
+81,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I think I gained three pounds in my week long cruise .""
+Question: In the event ""gained"", does the participant ""I"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",81.0
+82,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He faxed it to you and will have the original Fedexed overnight .""
+Question: In the event ""faxed"", does the participant ""it"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",82.0
+83,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" Their screams changed , "" Dr. Fortier said .""
+Question: In the event ""changed"", does the participant ""screams"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",83.0
+84,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""There is a very good book on the subject that was written by General Vo Nguyen Giap .""
+Question: In the event ""written"", does the participant ""book"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",84.0
 85,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""It 's become a guardian of morality -- not church morality ; real morality .""
-Question: In the event ""become"", does the state of the participant ""It"" change?
+Sentence: ""In addition to my other comments on the Mid Market Power Form , I think you should add a forward contract rep .""
+Question: In the event ""add"", does the participant ""rep"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" It ""  changes  from  "" is ""  to  "" has",85.0
+ The  above  sentence  is  a  simple  example  of  a  sentence  that  is  not  a  simple  sentence",85.0
 86,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""they fixed my garage doors in literally less than an hour .""
-Question: In the event ""fixed"", does the state of the participant ""doors"" change?
-Answer: ",Yes,Yes,"Yes . 
- Question :  In  the  event  "" fixed "",  does  the  state  of  the  participant  "" hour",86.0
+Sentence: ""Well , they have a variety of sports that they play like basketball , soccer , etc .""
+Question: In the event ""play"", does the participant ""they"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence",86.0
 87,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""They seem to be just that : rumors .""
-Question: In the event ""seem"", does the state of the participant ""They"" change?
-Answer: ",No,No,"No . 
- The  state  of  the  participant  "" They ""  does  not  change . 
- The  state  of",87.0
+Sentence: ""Spring festivities include the ever - popular St Patrick 's Festival .""
+Question: In the event ""include"", does the participant ""festivities"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  about  the  event  "" include "",  which  is  a  process .  The  participant",87.0
 88,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""( '' We have three generations of martyrs : grandmothers , mothers , daughters . '' )""
-Question: In the event ""have"", does the state of the participant ""We"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" We ""  changes  from  "" have ""  to  "" had",88.0
+Sentence: ""Even Zawahiri 's attorney in 1999 said that Bin Laden and Zawahiri were likely to resort to the biological and chemical agents they possessed given the extradition pressure senior Al Qaeda leaders faced .""
+Question: In the event ""faced"", does the participant ""leaders"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",88.0
 89,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I remain convinced that if we can just get the facts in front of people they will modulate their approach .""
-Question: In the event ""modulate"", does the state of the participant ""they"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" they ""  changes  from  "" pers ons ""  to  """,89.0
+Sentence: ""I came to find out the person was the hotel OWNER also .""
+Question: In the event ""came"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  list  of  the  possible  answers  to  the  above  question . 
+ Yes",89.0
 90,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""You have to pay CASH ONLY before they start unloading track on your destination .""
-Question: In the event ""pay"", does the state of the participant ""CASH"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" C ASH ""  changes  from  "" not  paid ""  to",90.0
+Sentence: ""I expect that many of the displaced people ( those affluent and those not ) will remain in the places they were evacuated to .""
+Question: In the event ""evacuated"", does the participant ""they"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",90.0
 91,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I HAD TO WAIT FOR MY WAITRESS .""
-Question: In the event ""HAD"", does the state of the participant ""I"" change?
+Sentence: ""I adopted a 3.5 month old yellow lab last winter from the Dumb Friends League .""
+Question: In the event ""adopted"", does the participant ""I"" change in state?
 Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" I ""  changes  from  "" not  having  waited ""  to",91.0
+ The  participant  "" I ""  changes  in  state  from  "" not  having  a  dog ""  to",91.0
 92,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
-Question: In the event ""involving"", does the state of the participant ""children"" change?
-Answer: ",No,Yes,"No . 
- The  state  of  the  participant  "" children ""  does  not  change . 
- The  state  of",92.0
+Sentence: ""Last week , Federal District Judge Lynn Hughes in Huston , Texas , threw out Wilson 's two - decades old conviction .""
+Question: In the event ""threw"", does the participant ""Hughes"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence",92.0
 93,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Paula has an amazing gift for creativity , vision and the ability to combine art to / with commercial purpose .""
-Question: In the event ""combine"", does the state of the participant ""art"" change?
-Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" art ""  changes  from  singular  to  plural . 
- The",93.0
+Sentence: ""What followed the next day is considered by the governor and Dunn to be the pivotal moment of the energy crisis .""
+Question: In the event ""followed"", does the participant ""What"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",93.0
 94,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""I think he could 've done more to assuage my concerns by giving me concrete facts .""
-Question: In the event ""assuage"", does the state of the participant ""concerns"" change?
+Sentence: ""The missile 's manufacturers state that one or two missiles could cripple a destroyer , and five missiles could sink a 20,000 ton ship .""
+Question: In the event ""sink"", does the participant ""missiles"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" con cern s ""  changes  from  "" not  ass u",94.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",94.0
 95,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: """" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com .""
-Question: In the event ""utilizes"", does the state of the participant ""architecture"" change?
-Answer: ",No,Yes,"No . 
- The  state  of  the  participant  "" arch itect ure ""  does  not  change . 
- The",95.0
+Sentence: ""She makes every item fit you perfectly .""
+Question: In the event ""makes"", does the participant ""She"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  sentence  "" She  makes  every  item  fit  you  perfectly ""  is  a  sentence  that  describes",95.0
 96,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""That indicates that they thrive in different water chemistries .""
-Question: In the event ""indicates"", does the state of the participant ""That"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" That ""  changes  from  being  a  sentence  to  being  a",96.0
-97,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Xinhua reports that a wide range of Iraqi political forces on Tuesday condemned Sharon 's murder of Sheikh Ahmed Yassin , a religious leader of Hamas , the day before .""
-Question: In the event ""condemned"", does the state of the participant ""murder"" change?
-Answer: ",Yes,No,"Yes . 
- The  state  of  the  participant  "" mur der ""  changes  from  "" past ""  to  """,97.0
-98,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Wolfowitz lied to him and said that there was a 10 to 50 % chance that Iraq was behind them .""
-Question: In the event ""lied"", does the state of the participant ""Wolfowitz"" change?
-Answer: ",Yes,No,"Yes . 
- The  sentence  is  true . 
- The  sentence  is  false . 
- The  sentence  is  neither",98.0
-99,gpt-3,volition,"Answer this yes-no question about the following sentence.
-Sentence: ""Guerrillas threatened to assassinate Prime Minister Iyad Allawi and Minister of Defense Hazem Shaalan in retaliation for the attack .""
-Question: In the event ""assassinate"", does the state of the participant ""Allawi"" change?
+Sentence: ""Allawi 's aged cousin and the man 's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped .""
+Question: In the event ""behead"", does the participant ""them"" change in state?
 Answer: ",Yes,Yes,"Yes . 
- The  state  of  the  participant  "" All awi ""  changes  from  "" not  assassinated ""  to",99.0
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",96.0
+97,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Plaster of Paris does two things""
+Question: In the event ""does"", does the participant ""things"" change in state?
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  "" Pl aster  of  Paris  does  two  things ""  is  a  sentence  about  the",97.0
+98,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Anyway , after much yelling and cussing I hung up , grabbed a cab , and went to Geno 's .""
+Question: In the event ""hung"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb .",98.0
+99,gpt-3,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I wanted to follow up with you regarding the creation and approval of ISDA Confirmations for the following equity trades that I understand Laurel had discussed with you previously .""
+Question: In the event ""understand"", does the participant ""I"" change in state?
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent",99.0
