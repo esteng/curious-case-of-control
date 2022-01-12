@@ -1,401 +1,559 @@
 ,model,exp_type,prompt,pred,true,response
-0,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+0,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We need to include all outstanding transactions .""
 Question: In the event ""include"", does the participant ""transactions"" change in state?
-Answer: ",No,No,No
-1,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+1,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""A 1971 evaluation called Bush "" an exceptionally fine young officer and pilot "" who "" continually flies intercept missions with the unit to increase his proficiency even further . """"
 Question: In the event ""increase"", does the participant ""proficiency"" change in state?
-Answer: ",No,Yes,No
-2,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  is  a  description  of  a  process .  The  process  is  the  increase  of  the"
+2,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I like to imagine the thought processes going on in W 's head if he were to actually read the letter , but it is hard to picture him actually reading this letter .""
 Question: In the event ""imagine"", does the participant ""processes"" change in state?
-Answer: ",No,No,No
-3,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+3,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""They have good sushi for a good price .""
 Question: In the event ""have"", does the participant ""They"" change in state?
-Answer: ",No,No,No
-4,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" good ""  change  in"
+4,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The other stylists around me kept pressuring me saying he 's so wonderful , you 're going to love your hair .""
 Question: In the event ""kept"", does the participant ""stylists"" change in state?
-Answer: ",No,No,No
-5,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+5,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I know that with my industry - wide and investment banking contacts that I can help raise capital for the fund .""
 Question: In the event ""raise"", does the participant ""capital"" change in state?
-Answer: ",No,Yes,No
-6,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+6,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""She deserves many 5 star reviews !!""
 Question: In the event ""deserves"", does the participant ""She"" change in state?
-Answer: ",No,No,No
-7,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  participant  "" She ""  changes  in  state  from  "" des erving ""  to  "" des"
+7,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Thanks to repeated deployments to Iraq and Afghanistan , recruiting is at an all - time low .""
 Question: In the event ""is"", does the participant ""recruiting"" change in state?
-Answer: ",No,Yes,No
-8,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+8,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .""
 Question: In the event ""heard"", does the participant ""we"" change in state?
-Answer: ",No,No,No
-9,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" heard "",  does  the  participant  "" we ""  change  in"
+9,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""and around what time they eat each of their meals .""
 Question: In the event ""eat"", does the participant ""each"" change in state?
-Answer: ",No,Yes,No
-10,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+10,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The price of crude oil on the international market hit a record $ 70.85 a barrel due to the vulnerability of oil and gas fields in the Gulf of Mexico .""
 Question: In the event ""hit"", does the participant ""$"" change in state?
-Answer: ",No,No,No
-11,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  price  of  crude  oil  on  the  international  market  hit  a  record  $  70 . 85"
+11,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I sent a graphic that would have been distorted if printed as it was .""
 Question: In the event ""distorted"", does the participant ""graphic"" change in state?
-Answer: ",No,Yes,No
-12,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  about  a  person  who  is  not  a  member  of  a  group ."
+12,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .""
 Question: In the event ""read"", does the participant ""Article"" change in state?
-Answer: ",No,No,No
-13,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  about  a  person  who  is  a  member  of  a  political  party ."
+13,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""A woman walks into an Israeli restaurant in mid-day , eats , observes families with old people and children eating their lunch in the adjacent tables and pays the bill .""
 Question: In the event ""eating"", does the participant ""lunch"" change in state?
-Answer: ",No,Yes,No
-14,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  about  a  woman  who  is  walking  in  an  Israeli  restaurant  in  mid"
+14,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We need to be more ' rigorous ' about how we perceive these people .""
 Question: In the event ""perceive"", does the participant ""people"" change in state?
-Answer: ",No,No,No
-15,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+15,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The United States goes into a war zone and evacuates a bunch of U.S. citizens ( most of whom were "" dual - citizens "" ) .""
 Question: In the event ""evacuates"", does the participant ""bunch"" change in state?
-Answer: ",No,Yes,No
-16,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+16,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""they eat lots of grilled meat , chorizo , and such , with potatoes""
 Question: In the event ""eat"", does the participant ""lots"" change in state?
-Answer: ",No,Yes,No
-17,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  is  a  description  of  a  state  of  affairs .  The  event  "" eat """
+17,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: """" Port Blair , Havelock Islands , Diglipur , Middle Nicobar , Campbell 's Bay , Neil Islands and Rangott are mostly overrun by foreigners , "" he said .""
 Question: In the event ""said"", does the participant ""he"" change in state?
-Answer: ",No,No,No
-18,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",No,No,"No . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+18,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We tried 4 different style of donuts , they were all the same when it came to quality .""
 Question: In the event ""tried"", does the participant ""style"" change in state?
-Answer: ",No,Yes,No
-19,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  has  a  different  meaning ."
+19,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Dr. Obina told me that his office closed at noon and that I should call him on Monday .""
 Question: In the event ""closed"", does the participant ""office"" change in state?
-Answer: ",No,Yes,No
-20,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence  with  the  same  question ,  but  with"
+20,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""He looked like a great guy for your group .""
 Question: In the event ""looked"", does the participant ""He"" change in state?
-Answer: ",Yes,No,Yes
-21,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+21,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Like William Shakspere RAPHAEL ( the painter ) died on his April birthday Laura & Bridget 's day :""
 Question: In the event ""died"", does the participant ""RAPHAEL"" change in state?
-Answer: ",No,Yes,No
-22,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  bit  more  complex . 
+ Sent ence :  "" Like  William"
+22,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We accecpt : Visa , MasterCard , Amex , Dinner s Club / Carte Blanche , & Personal Checks / Money Orders .""
 Question: In the event ""accecpt"", does the participant ""We"" change in state?
-Answer: ",Yes,No,Yes
-23,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  a  statement  about  the  participants  "" We ""  and  "" V isa "","
+23,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The good news is that all of this is temporary , because the evolution of international law has always adapted itself to reality .""
 Question: In the event ""adapted"", does the participant ""itself"" change in state?
-Answer: ",No,Yes,No
-24,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  is  gram matical ,  but  the  meaning  is  not  clear . 
+ The  sentence"
+24,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Paula has an amazing gift for creativity , vision and the ability to combine art to / with commercial purpose .""
 Question: In the event ""combine"", does the participant ""art"" change in state?
-Answer: ",No,Yes,No
-25,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  word  "" comb ine ""  is  a  trans itive  verb .  It  requires  an  object"
+25,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I dropped the truck off in the morning and it was ready that afternoon .""
 Question: In the event ""dropped"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-26,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+26,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Yahoo! Mail has the best spam protection around""
 Question: In the event ""has"", does the participant ""protection"" change in state?
-Answer: ",No,No,No
-27,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+27,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We came at around 730 and they close at 8 and wanted to try the specials but they were out for the day so I would say go way before they close .""
 Question: In the event ""close"", does the participant ""they"" change in state?
-Answer: ",No,No,No
-28,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """
+28,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I think it s only fair that nowadays every town should provide at least one halal cafe or restaurant and hopefully one day every British catering establishment will be halal .""
 Question: In the event ""think"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-29,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+29,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""What is this irish tune called !?""
 Question: In the event ""called"", does the participant ""What"" change in state?
-Answer: ",No,No,No
-30,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  answer  is  "" yes ""  because  the  participant  "" What ""  changes  in  state  from"
+30,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""By comparison , outdoor cats have a life expectancy of 3 - 7 years depending on how many predators are in the local environment .""
 Question: In the event ""have"", does the participant ""cats"" change in state?
-Answer: ",No,Yes,No
-31,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" out door  cats """
+31,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""There are several just off their beautiful beach .""
 Question: In the event ""are"", does the participant ""several"" change in state?
-Answer: ",No,No,No
-32,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  a  description  of  a  state  of  affairs .  The  state  of  affairs  is"
+32,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I have to mention that i recently separated the father into another cage close to the ' nest cage ' because he and the mother were fighting .""
 Question: In the event ""separated"", does the participant ""father"" change in state?
-Answer: ",No,No,No
-33,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """
+33,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""But just this week a peddle broke .""
 Question: In the event ""broke"", does the participant ""peddle"" change in state?
-Answer: ",No,Yes,No
-34,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb ."
+34,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""In Texas , BP shut its 460,000 barrels per day refinery and Marathon shut its 72,000 bpd plant .""
 Question: In the event ""shut"", does the participant ""refinery"" change in state?
-Answer: ",Yes,Yes,Yes
-35,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+35,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""A little birdie told me that you were checking into tickets for Seoul .""
 Question: In the event ""checking"", does the participant ""you"" change in state?
-Answer: ",No,No,No
-36,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+36,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""There 's plenty of parking , and I 've never had an issue with audience members who wo n't stop talking or answering their cellphones .""
 Question: In the event ""stop"", does the participant ""members"" change in state?
-Answer: ",No,No,No
-37,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """
+37,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Saddam killed every month more people than all those who died from suicide murders since the Coalition occupation of Iraq .""
 Question: In the event ""died"", does the participant ""those"" change in state?
-Answer: ",No,Yes,No
-38,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Question :  In  the  event  "" d ied "",  does  the  participant  "" those ""  change"
+38,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The owner warned me that it was the best salsa I would ever had , and he was right .""
 Question: In the event ""warned"", does the participant ""owner"" change in state?
-Answer: ",No,No,No
-39,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+39,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The bottom line is that the food is n't great and is relatively high - priced .""
 Question: In the event ""is"", does the participant ""line"" change in state?
-Answer: ",No,No,No
-40,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" is "",  does  the  participant  "" line ""  change  in"
+40,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I did the same thing that you did for christmas .""
 Question: In the event ""did"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-41,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb ."
+41,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Meditation has to do with what is called ideation .""
 Question: In the event ""has"", does the participant ""Meditation"" change in state?
-Answer: ",No,No,No
-42,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  sentence  "" Med itation  has  to  do  with  what  is  called  ide ation ""  is"
+42,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I survived it without a problem .""
 Question: In the event ""survived"", does the participant ""I"" change in state?
-Answer: ",No,Yes,No
-43,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  "" I  survived  it  without  a  problem ""  is  a  sentence  that  describes  an"
+43,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The only problem that I had in 2 years of living there was that the walls are pretty thin , sometimes I could here my neighbors conversations .""
 Question: In the event ""here"", does the participant ""conversations"" change in state?
-Answer: ",No,No,No
-44,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence :  """
+44,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""James Bateman came the day I called and fixed the problem quickly and efficiently .""
 Question: In the event ""fixed"", does the participant ""problem"" change in state?
-Answer: ",No,Yes,No
-45,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence  with  a  different  verb . 
+ Sent"
+45,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""This defeats the purpose of using a Tradename .""
 Question: In the event ""defeats"", does the participant ""purpose"" change in state?
-Answer: ",No,No,No
-46,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  question  about  the  following  sentence . 
+ Sent ence :  """
+46,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""You have two screws that attach the sight to the wang .""
 Question: In the event ""have"", does the participant ""You"" change in state?
-Answer: ",No,No,No
-47,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  participant  "" You ""  changes  in  state  from  "" not  having  two  screws  that  attach"
+47,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""He described Allawi 's face as that of a f*ed horse and he dismissed the whole government as a band of thieves and traitors .""
 Question: In the event ""described"", does the participant ""face"" change in state?
-Answer: ",No,No,No
-48,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+48,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""you need to learn about white balance , composition , angle , and work on using the camera properly ...""
 Question: In the event ""need"", does the participant ""you"" change in state?
-Answer: ",No,Yes,No
-49,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb ."
+49,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""About 30 seconds into his address , he started flogging the terrorist issue just one more time .""
 Question: In the event ""started"", does the participant ""he"" change in state?
-Answer: ",No,No,No
-50,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+50,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We understand that the pipe fitters are also planning to picket the Lake Worth , Florida project as well .""
 Question: In the event ""planning"", does the participant ""fitters"" change in state?
-Answer: ",No,No,No
-51,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" plan ning "",  does  the  participant  "" fit ters """
+51,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I ordered 1000 postcards , we normally order 5000 or more .""
 Question: In the event ""ordered"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-52,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+52,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""n3td3v saw this story on BBC News Online and thought you should see it .""
 Question: In the event ""saw"", does the participant ""story"" change in state?
-Answer: ",No,No,No
-53,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  bit  more  complex . 
+ Sent ence :  "" n 3"
+53,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""He said it was the same tire , and verified this , after checking both the actual tire on my car and my service papers from earlier in the week .""
 Question: In the event ""said"", does the participant ""He"" change in state?
-Answer: ",No,No,No
-54,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+54,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
 Question: In the event ""confessed"", does the participant ""Bernard"" change in state?
-Answer: ",Yes,No,Yes
-55,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+55,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""It was incorporated as a city on May 26 , 1955 .""
 Question: In the event ""incorporated"", does the participant ""It"" change in state?
-Answer: ",Yes,Yes,Yes
-56,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  "" It  was  incorporated  as  a  city  on  May  26  ,  1955  .""  is"
+56,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
 Question: In the event ""exceed"", does the participant ""rises"" change in state?
-Answer: ",No,Yes,No
-57,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  IP N  report  agrees  that  the  temperature  rises  in  the  Arctic  will  substantially  exceed  the"
+57,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I have two cats , and at first they hissed at each other because cats are very territorial , but now they do fight and play .""
 Question: In the event ""have"", does the participant ""I"" change in state?
-Answer: ",No,Yes,No
-58,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  participant  "" I ""  changes  in  state  from  "" have ""  to  "" had ""."
+58,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The rapid victory during the first Gulf War cemented this perception .""
 Question: In the event ""cemented"", does the participant ""perception"" change in state?
-Answer: ",No,Yes,No
-59,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  rapid  victory  during  the  first  Gulf  War  cement ed  this  perception  . 
+ The  rapid"
+59,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""You have to pay CASH ONLY before they start unloading track on your destination .""
 Question: In the event ""pay"", does the participant ""CASH"" change in state?
-Answer: ",No,No,No
-60,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  a  command .  The  participant  "" you ""  is  the  subject .  The"
+60,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""We recommend these cabins !""
 Question: In the event ""recommend"", does the participant ""cabins"" change in state?
-Answer: ",Yes,No,Yes
-61,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+61,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Both India and Afghanistan deny the claim .""
 Question: In the event ""deny"", does the participant ""claim"" change in state?
-Answer: ",No,No,No
-62,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+62,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
 Question: In the event ""involving"", does the participant ""children"" change in state?
-Answer: ",No,Yes,No
-63,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  word  "" in vol ving ""  is  a  pre pos itional  phrase .  It  is"
+63,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The millions who died in the Iran - Iraq war had nothing to do with Israel .""
 Question: In the event ""died"", does the participant ""millions"" change in state?
-Answer: ",No,Yes,No
-64,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+64,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Most experts believe China intends to develop a small space station of its own over the next several years .""
 Question: In the event ""develop"", does the participant ""station"" change in state?
-Answer: ",No,Yes,No
-65,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  about  the  future . 
+ Sent ence :  "" The  United  States"
+65,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""i know you remember the bet .""
 Question: In the event ""remember"", does the participant ""bet"" change in state?
-Answer: ",No,No,No
-66,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+66,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Louisiana 's Governor Blanco urged residents to spend Wednesday in prayer and assured them the crisis would eventually be overcome .""
 Question: In the event ""assured"", does the participant ""them"" change in state?
-Answer: ",No,No,No
-67,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+67,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""He said the main aim of the subpoenas will be to determine whether collusion occurred to "" fix "" prices , which would violate federal trade laws .""
 Question: In the event ""fix"", does the participant ""prices"" change in state?
-Answer: ",No,Yes,No
-68,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  word  "" pr ices ""  changes  state  from  plural  to  singular . 
+ The  word"
+68,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""To that regards , I noticed I was not approved to sell naked calls .""
 Question: In the event ""noticed"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-69,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  list  of  the  most  common  words  in  the  English  language . 
+"
+69,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Dessert was ... hmmm , that 's interesting , I do n't even remember dessert .""
 Question: In the event ""remember"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-70,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  try  a  question  about  the  following  sentence . 
+ Sent ence :"
+70,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Attached is a draft of the talking points for the Commission 's hearings .""
 Question: In the event ""Attached"", does the participant ""draft"" change in state?
-Answer: ",No,No,No
-71,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+71,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""All he had to do for a complete victory was allow the military to go into Laos and Cambodia and finish off the shattered Communist forces .""
 Question: In the event ""allow"", does the participant ""military"" change in state?
-Answer: ",No,Yes,No
-72,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+72,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Brass melts at just under 2000 F which is a bright yellow heat , not red hot .""
 Question: In the event ""melts"", does the participant ""Brass"" change in state?
-Answer: ",No,Yes,No
-73,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  let 's  try  a  question  about  a  sentence  that  is  not  about  a  change"
+73,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I want to go all over :) I do n't have a set route yet .""
 Question: In the event ""want"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-74,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Question :  In  the  event  "" have "",  does  the  participant  "" I ""  change  in"
+74,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""It is the marrying off of young girls to older men often close relatives that enfurates me .""
 Question: In the event ""enfurates"", does the participant ""marrying"" change in state?
-Answer: ",No,No,No
-75,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+75,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I tamed them in 4 days .""
 Question: In the event ""tamed"", does the participant ""them"" change in state?
-Answer: ",No,Yes,No
-76,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  "" I  t amed  them  in  4  days .""  is  a  sentence  about  a"
+76,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I called them for an estimate and they INSULTED ME WHEN I ASK THEM QUESTIONS .""
 Question: In the event ""INSULTED"", does the participant ""they"" change in state?
-Answer: ",No,No,No
-77,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb ."
+77,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""A team from the court managed to take his deposition before he died .""
 Question: In the event ""died"", does the participant ""he"" change in state?
-Answer: ",No,Yes,No
-78,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+78,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Winter defied his own board and Gov. Gray Davis when he filed a 50 - page request to remove the caps , records and interviews show .""
 Question: In the event ""remove"", does the participant ""caps"" change in state?
-Answer: ",No,Yes,No
-79,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  word  "" caps ""  is  a  noun .  It  is  the  direct  object  of  the"
+79,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
 Question: In the event ""painted"", does the participant ""George"" change in state?
-Answer: ",No,Yes,No
-80,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  is  a  description  of  a  painting .  The  painting  is  a  representation  of  a"
+80,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""San Francisco was settled in the 19th and 20th century by mainly European immigrants except for some Asian workers who were manual laborers .""
 Question: In the event ""settled"", does the participant ""Francisco"" change in state?
-Answer: ",No,Yes,No
-81,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+81,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I think I gained three pounds in my week long cruise .""
 Question: In the event ""gained"", does the participant ""I"" change in state?
-Answer: ",No,Yes,No
-82,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+82,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""He faxed it to you and will have the original Fedexed overnight .""
 Question: In the event ""faxed"", does the participant ""it"" change in state?
-Answer: ",No,No,No
-83,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+83,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: """" Their screams changed , "" Dr. Fortier said .""
 Question: In the event ""changed"", does the participant ""screams"" change in state?
-Answer: ",Yes,Yes,Yes
-84,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+84,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""There is a very good book on the subject that was written by General Vo Nguyen Giap .""
 Question: In the event ""written"", does the participant ""book"" change in state?
-Answer: ",No,Yes,No
-85,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+85,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""In addition to my other comments on the Mid Market Power Form , I think you should add a forward contract rep .""
 Question: In the event ""add"", does the participant ""rep"" change in state?
-Answer: ",No,Yes,No
-86,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  above  sentence  is  a  simple  example  of  a  sentence  that  is  not  a  simple  sentence"
+86,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Well , they have a variety of sports that they play like basketball , soccer , etc .""
 Question: In the event ""play"", does the participant ""they"" change in state?
-Answer: ",No,No,No
-87,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  answer  this  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+87,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Spring festivities include the ever - popular St Patrick 's Festival .""
 Question: In the event ""include"", does the participant ""festivities"" change in state?
-Answer: ",No,No,No
-88,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  sentence  is  about  the  event  "" include "",  which  is  a  process .  The  participant"
+88,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Even Zawahiri 's attorney in 1999 said that Bin Laden and Zawahiri were likely to resort to the biological and chemical agents they possessed given the extradition pressure senior Al Qaeda leaders faced .""
 Question: In the event ""faced"", does the participant ""leaders"" change in state?
-Answer: ",No,Yes,No
-89,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+89,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I came to find out the person was the hotel OWNER also .""
 Question: In the event ""came"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-90,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  list  of  the  possible  answers  to  the  above  question . 
+ Yes"
+90,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I expect that many of the displaced people ( those affluent and those not ) will remain in the places they were evacuated to .""
 Question: In the event ""evacuated"", does the participant ""they"" change in state?
-Answer: ",No,Yes,No
-91,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+91,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I adopted a 3.5 month old yellow lab last winter from the Dumb Friends League .""
 Question: In the event ""adopted"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-92,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  participant  "" I ""  changes  in  state  from  "" not  having  a  dog ""  to"
+92,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Last week , Federal District Judge Lynn Hughes in Huston , Texas , threw out Wilson 's two - decades old conviction .""
 Question: In the event ""threw"", does the participant ""Hughes"" change in state?
-Answer: ",No,No,No
-93,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  is  a  yes - no  question  about  the  following  sentence . 
+ Sent ence"
+93,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""What followed the next day is considered by the governor and Dunn to be the pivotal moment of the energy crisis .""
 Question: In the event ""followed"", does the participant ""What"" change in state?
-Answer: ",No,No,No
-94,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+94,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""The missile 's manufacturers state that one or two missiles could cripple a destroyer , and five missiles could sink a 20,000 ton ship .""
 Question: In the event ""sink"", does the participant ""missiles"" change in state?
-Answer: ",No,Yes,No
-95,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+95,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""She makes every item fit you perfectly .""
 Question: In the event ""makes"", does the participant ""She"" change in state?
-Answer: ",No,No,No
-96,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ The  sentence  "" She  makes  every  item  fit  you  perfectly ""  is  a  sentence  that  describes"
+96,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Allawi 's aged cousin and the man 's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped .""
 Question: In the event ""behead"", does the participant ""them"" change in state?
-Answer: ",No,Yes,No
-97,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
+97,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Plaster of Paris does two things""
 Question: In the event ""does"", does the participant ""things"" change in state?
-Answer: ",No,Yes,No
-98,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,Yes,"Yes . 
+ The  sentence  "" Pl aster  of  Paris  does  two  things ""  is  a  sentence  about  the"
+98,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""Anyway , after much yelling and cussing I hung up , grabbed a cab , and went to Geno 's .""
 Question: In the event ""hung"", does the participant ""I"" change in state?
-Answer: ",No,No,No
-99,t0,change_of_state_2_prefix_0,"Answer this yes-no question about the following sentence.
+Answer: ",Yes,No,"Yes . 
+ Now ,  let 's  look  at  the  same  sentence ,  but  with  a  different  verb ."
+99,gpt-3,volition,"Answer this yes-no question about the following sentence.
 Sentence: ""I wanted to follow up with you regarding the creation and approval of ISDA Confirmations for the following equity trades that I understand Laurel had discussed with you previously .""
 Question: In the event ""understand"", does the participant ""I"" change in state?
-Answer: ",No,No,No
+Answer: ",Yes,No,"Yes . 
+ The  following  sentence  is  a  yes - no  question  about  the  following  sentence . 
+ Sent"
