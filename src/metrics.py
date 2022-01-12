@@ -1,7 +1,7 @@
 from typing import Dict, List
 import re
 import pdb 
-import pylev
+import Levenshtein as pylev
 
 import pandas as pd 
 
@@ -48,17 +48,28 @@ class StringMetric(Metric):
 
     def remove_prompt(self, text, prompt):
         # remove the prompt from the text, in cases where the model repeats the prompt before answering 
+        # print(f"in removing prompt")
+        # text = re.sub("\n", r"\n", text)
+        # print(str(text))
+        # print()
+        # print(prompt)
         first_p_chars = text[0:len(prompt)]
 
+        # print(f"first p chars {first_p_chars}") 
+        
         if len(first_p_chars) == 0:
             return text
 
-        distance = pylev.levenshtein(first_p_chars, prompt)
+        distance = pylev.distance(first_p_chars, prompt)
+        # print(distance)
+        # print(distance / len(first_p_chars) )
         # if less than 10% difference 
+        # sys.exit()
         if distance / len(first_p_chars) < 0.1:
-            prompt_lines = prompt.split("\n")
-            text_lines = text.split("\n")
-            if len(text_lines)> len(prompt_lines):
+            prompt_lines = [x for x in re.split(r"(\n)", prompt) if x is not None]
+            text_lines = [x for x in re.split(r"(\n)|(\\n)", text) if x is not None]
+
+            if len(text_lines) > len(prompt_lines):
                 # print(f"removing ") 
                 # print("PROMPT=========")
                 # print(prompt)
