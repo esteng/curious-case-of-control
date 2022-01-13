@@ -1,0 +1,473 @@
+,model,exp_type,prompt,pred,true,response,Unnamed: 0
+0,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They have unbeatable price in town and deliver on time .""
+Question: In the event ""have"", does the participant ""They"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",0.0
+1,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My last son , was born in Northern Ontario ....""
+Question: In the event ""born"", does the participant ""son"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",1.0
+2,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you do n't change your mind about going to the wedding Sunday .""
+Question: In the event ""change"", does the participant ""mind"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",2.0
+3,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I sent a graphic that would have been distorted if printed as it was .""
+Question: In the event ""distorted"", does the participant ""graphic"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No, (3) No",3.0
+4,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Tamils feel that the proposed defense agreement between India and Sri Lanka would encourage Sinhala rulers to prepare for another war abandoning the current peace process""
+Question: In the event ""encourage"", does the participant ""agreement"" change in state?
+Answer: ",other,No,"(a) No, (b) Yes, (c) No",4.0
+5,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you do n't change your mind about going to the wedding Sunday .""
+Question: In the event ""hope"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",5.0
+6,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Restaurant on top was renovated , food was decent , price was way to high for Duluth for quality , new decor seems tacky""
+Question: In the event ""renovated"", does the participant ""Restaurant"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No, (3) No",6.0
+7,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""sorry , i left lou off of the message .""
+Question: In the event ""left"", does the participant ""i"" change in state?
+Answer: ",other,No,"(1) No, (2) No, (3) No",7.0
+8,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""His artworks were selected and exhibited in British Museum in 2002 .""
+Question: In the event ""selected"", does the participant ""artworks"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",8.0
+9,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Another problem is that sometimes bad eggs will fungus and the fungus will spread out and kill all the eggs .""
+Question: In the event ""is"", does the participant ""problem"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",9.0
+10,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Today 's incident proves that Sharon has lost his patience and his hope in peace .""
+Question: In the event ""proves"", does the participant ""incident"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",10.0
+11,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You have to pay CASH ONLY before they start unloading track on your destination .""
+Question: In the event ""pay"", does the participant ""CASH"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",11.0
+12,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Damage estimates of more than $ 25 bn suggest it could be the US insurance industry 's most expensive natural disaster ever .""
+Question: In the event ""suggest"", does the participant ""estimates"" change in state?
+Answer: ",other,No,"(1) Yes, ""estimates"" changes state",12.0
+13,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The Chili Relleno .. had no batter on it .""
+Question: In the event ""had"", does the participant ""Relleno"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",13.0
+14,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I think it will help me very much in my role .""
+Question: In the event ""think"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",14.0
+15,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i satisfy your appetitie for lovin .""
+Question: In the event ""satisfy"", does the participant ""appetitie"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",15.0
+16,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Joe removed a wasp nest for our condominium building and we appreciated the environmentally friendly method and prompt , friendly and informative service .""
+Question: In the event ""removed"", does the participant ""Joe"" change in state?
+Answer: ",other,No,"(1) Yes, Joe changes state",16.0
+17,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My assistant Joanne Rozycki has cell , car numbers to reach me .""
+Question: In the event ""has"", does the participant ""numbers"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",17.0
+18,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We need to include all outstanding transactions .""
+Question: In the event ""include"", does the participant ""transactions"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",18.0
+19,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i know you remember the bet .""
+Question: In the event ""remember"", does the participant ""bet"" change in state?
+Answer: ",other,No,"(1) No, (2) Yes",19.0
+20,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""On August 21st , 2009 I ordered furniture from Hickory Furniture Mart and contracted for HDS to deliver it .""
+Question: In the event ""deliver"", does the participant ""it"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",20.0
+21,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The pictures are broadcast at a rate of about 60 Hz , which is how fast they need to move for us to see them as a moving , flawless picture .""
+Question: In the event ""broadcast"", does the participant ""pictures"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",21.0
+22,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" Dale "" means "" river valley . """"
+Question: In the event ""means"", does the participant ""Dale"" change in state?
+Answer: ",No,No,"(1) No, Dale does not change in state or condition",22.0
+23,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""There 's plenty of parking , and I 've never had an issue with audience members who wo n't stop talking or answering their cellphones .""
+Question: In the event ""stop"", does the participant ""members"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",23.0
+24,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I believe he must have waited among the gorse bushes through which the path winds and struck him down as he passed .""
+Question: In the event ""struck"", does the participant ""him"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",24.0
+25,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Dessert was ... hmmm , that 's interesting , I do n't even remember dessert .""
+Question: In the event ""remember"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",25.0
+26,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""But if -- there 's a painting on the wall in the Oval Office that shows a horseman charging up a steep cliff , and there are at least two other horsemen following .""
+Question: In the event ""shows"", does the participant ""horseman"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",26.0
+27,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You need either a filter for each device except the DSL modem , or a whole home filter which filters all the jacks , except the one which the DSL modem connects .""
+Question: In the event ""filters"", does the participant ""filter"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",27.0
+28,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I got highlights , haircut , and a blowdry .""
+Question: In the event ""got"", does the participant ""I"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",28.0
+29,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Attached are the draft Schedule to the ISDA Master Agreement , together with Paragraph 13 to the ISDA Credit Support Annex .""
+Question: In the event ""Attached"", does the participant ""Schedule"" change in state?
+Answer: ",other,No,"(a) Yes, (b) No, (c) Maybe",29.0
+30,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Family owned and operated makes sure the atmosphere is relaxed and the food home - cooked with style .""
+Question: In the event ""cooked"", does the participant ""food"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",30.0
+31,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I melt brass and cast it http://www.mikegigi.com/castgobl.htm""
+Question: In the event ""cast"", does the participant ""it"" change in state?
+Answer: ",other,Yes,"(1) Yes, ""it"" changes state",31.0
+32,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""What followed the next day is considered by the governor and Dunn to be the pivotal moment of the energy crisis .""
+Question: In the event ""followed"", does the participant ""What"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",32.0
+33,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I dropped the truck off in the morning and it was ready that afternoon .""
+Question: In the event ""dropped"", does the participant ""truck"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",33.0
+34,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Most experts believe China intends to develop a small space station of its own over the next several years .""
+Question: In the event ""develop"", does the participant ""station"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",34.0
+35,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They had a room with a $ 99 rate , which I booked .""
+Question: In the event ""booked"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",35.0
+36,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Everything was done on a timely manner and things were cleaned and picked up every day when the crew was done .""
+Question: In the event ""done"", does the participant ""Everything"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No, (3) Maybe",36.0
+37,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I did the same thing that you did for christmas .""
+Question: In the event ""did"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",37.0
+38,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I hope you have a great summer .""
+Question: In the event ""hope"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",38.0
+39,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""This defeats the purpose of using a Tradename .""
+Question: In the event ""defeats"", does the participant ""purpose"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",39.0
+40,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I had this ridiculous celebrity stylist from LA named Derrick .""
+Question: In the event ""had"", does the participant ""I"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",40.0
+41,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Enclosed is a worksheet for Ineos Acrylics .""
+Question: In the event ""Enclosed"", does the participant ""worksheet"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No, (3) Maybe",41.0
+42,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Justin , I have no knowledge of any bad faith actins Enron has pending in Texas but I will call Richard Sanders who manages domestic litgation here .""
+Question: In the event ""manages"", does the participant ""Sanders"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",42.0
+43,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""To that regards , I noticed I was not approved to sell naked calls .""
+Question: In the event ""noticed"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",43.0
+44,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I need something reliable and good looking .""
+Question: In the event ""need"", does the participant ""something"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No, (3) No",44.0
+45,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""You have two screws that attach the sight to the wang .""
+Question: In the event ""have"", does the participant ""You"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",45.0
+46,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""It was incorporated as a city on May 26 , 1955 .""
+Question: In the event ""incorporated"", does the participant ""It"" change in state?
+Answer: ",other,Yes,"(1) Yes, ""It"" changes state",46.0
+47,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Pools The Mariner of the Seas and Liberty both had salt water pools - which most cruise ships have .""
+Question: In the event ""had"", does the participant ""pools"" change in state?
+Answer: ",other,No,"(1) Yes, ""had"" changes state",47.0
+48,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" There is always the possibility they could jam us up , make us look like we are not numero uno , "" Pike said .""
+Question: In the event ""said"", does the participant ""Pike"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No, (3) Maybe",48.0
+49,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _ St. George Fighting the Dragon _ ( 1504 - 06 )""
+Question: In the event ""painted"", does the participant ""George"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No, (3) No",49.0
+50,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The missile 's manufacturers state that one or two missiles could cripple a destroyer , and five missiles could sink a 20,000 ton ship .""
+Question: In the event ""sink"", does the participant ""missiles"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",50.0
+51,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I interviewed several contractors for a kitchen remodel .""
+Question: In the event ""interviewed"", does the participant ""contractors"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",51.0
+52,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We took our beloved kitty to him and it came back dead .""
+Question: In the event ""took"", does the participant ""kitty"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",52.0
+53,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""President Bush pinched a few nerves yesterday with his choice of words :""
+Question: In the event ""pinched"", does the participant ""Bush"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",53.0
+54,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""About 1,200 Indian soldiers were killed during this phase of the conflict .""
+Question: In the event ""killed"", does the participant ""soldiers"" change in state?
+Answer: ",other,Yes,"1,200 Indian soldiers were killed during this phase of the conflict",54.0
+55,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""All you have to do is become a member and watch your earnings grow !""
+Question: In the event ""grow"", does the participant ""earnings"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",55.0
+56,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""There is a very good book on the subject that was written by General Vo Nguyen Giap .""
+Question: In the event ""written"", does the participant ""book"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",56.0
+57,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The prestigious IAEA ( International Atomic Energy Agency ) published an early report on Chernobyl which was based on information from Russian sources and stated that there was no significant health effects .""
+Question: In the event ""published"", does the participant ""report"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",57.0
+58,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Brass has an even higher melting point than bronze and I would think your charcoal just does n't get hot enough .""
+Question: In the event ""has"", does the participant ""point"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",58.0
+59,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I have my paralegal gathering the pleadings Enron requested .""
+Question: In the event ""requested"", does the participant ""Enron"" change in state?
+Answer: ",other,No,"(1) Yes, Enron changes state",59.0
+60,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Four guys around a large square open hibachi cook your food , and when it 's finished a server brings it to your table .""
+Question: In the event ""finished"", does the participant ""it"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",60.0
+61,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The latter usually consider human beings a threat but the polar bear considers humans a snack , experts said .""
+Question: In the event ""considers"", does the participant ""bear"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",61.0
+62,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Even Zawahiri 's attorney in 1999 said that Bin Laden and Zawahiri were likely to resort to the biological and chemical agents they possessed given the extradition pressure senior Al Qaeda leaders faced .""
+Question: In the event ""faced"", does the participant ""leaders"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",62.0
+63,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The food tasted like rat feces""
+Question: In the event ""tasted"", does the participant ""food"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",63.0
+64,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The last wolf was killed in Yellowstone National Park in 1943 .""
+Question: In the event ""killed"", does the participant ""wolf"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",64.0
+65,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Dr. Obina told me that his office closed at noon and that I should call him on Monday .""
+Question: In the event ""closed"", does the participant ""office"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",65.0
+66,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Police said Bernard confessed to detectives that he had sex with a young girl in November 2002 and admitted to knowing about sexual acts involving children and a dog that occurred at Hosanna Church .""
+Question: In the event ""involving"", does the participant ""children"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No, (3) No",66.0
+67,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""By comparison , outdoor cats have a life expectancy of 3 - 7 years depending on how many predators are in the local environment .""
+Question: In the event ""have"", does the participant ""cats"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",67.0
+68,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" Should the Arctic Ocean become ice - free in summer , it is likely that polar bears and some seal species would be driven toward extinction , "" the report concluded .""
+Question: In the event ""driven"", does the participant ""bears"" change in state?
+Answer: ",other,Yes,"(1) Yes, bears change state",68.0
+69,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" The governor believes it was the defining moment , when what was a mounting problem turned into an instant crisis , "" Maviglio said .""
+Question: In the event ""turned"", does the participant ""what"" change in state?
+Answer: ",other,Yes,"(1) Yes, ""what"" changes state",69.0
+70,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Hyatt web site improved .""
+Question: In the event ""improved"", does the participant ""site"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",70.0
+71,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""An incredible number of people in the Arab world believe that September 11 never happened , or was an American provocation or , even better , a Jewish plot .""
+Question: In the event ""happened"", does the participant ""September"" change in state?
+Answer: ",other,Yes,"September 11, 2001, did ""happen""",71.0
+72,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" Thou art growing less doltish and more shrewd every day , Sancho , "" said Don Quixote .""
+Question: In the event ""growing"", does the participant ""Thou"" change in state?
+Answer: ",other,Yes,(1) No,72.0
+73,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""In the end Nixon kept his promise for "" . peace with honor .. """"
+Question: In the event ""kept"", does the participant ""Nixon"" change in state?
+Answer: ",other,No,"(1) Yes, Nixon changes state",73.0
+74,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I melt brass and cast it http://www.mikegigi.com/castgobl.htm""
+Question: In the event ""melt"", does the participant ""brass"" change in state?
+Answer: ",other,Yes,"(1) Yes, brass changes state",74.0
+75,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !""
+Question: In the event ""fix"", does the participant ""laptop"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",75.0
+76,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I understand how competitive the process has become , but I felt that with my work experiences , recommendations , personality , extracurricular activities , etc. that this would compensate for my disability .""
+Question: In the event ""become"", does the participant ""process"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",76.0
+77,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We understand that the pipe fitters are also planning to picket the Lake Worth , Florida project as well .""
+Question: In the event ""planning"", does the participant ""fitters"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",77.0
+78,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They did a vehicle wrap for my Toyota Venza that looks amazing .""
+Question: In the event ""did"", does the participant ""wrap"" change in state?
+Answer: ",No,Yes,(No),78.0
+79,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The Agel compensation plan includes the principles that ensure that promise can be fulfilled for those who work at it .""
+Question: In the event ""fulfilled"", does the participant ""promise"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",79.0
+80,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""A state Senate committee is set today to start serving 16 subpoenas on electricity producers and officials who manage California 's energy grid to determine whether they acted in concert to manipulate energy prices .""
+Question: In the event ""serving"", does the participant ""subpoenas"" change in state?
+Answer: ",other,No,"(1) Yes, ""subpoenas"" changes to ""served"".",80.0
+81,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I KNOW YOU HAVE A LOT GOING ON WITH YOU AND THE LITTLE WOMAN .""
+Question: In the event ""KNOW"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No, (3) Maybe",81.0
+82,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I used Birdies for our Annual Walk Against Drugs and Alcohol event .""
+Question: In the event ""used"", does the participant ""I"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",82.0
+83,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""My brother said they only had full - auto and semiautomatic during Vietnam .""
+Question: In the event ""said"", does the participant ""brother"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",83.0
+84,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Dr Greenwalt fixed my neck from a snowboard injury and was way more effective that a regular doctor .""
+Question: In the event ""fixed"", does the participant ""neck"" change in state?
+Answer: ",other,Yes,"(1) Yes, the participant ""neck"" changes state",84.0
+85,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The recent elections in Iraq were dominated by an amalgam of religiously fundamentalist Shi'ite organizations , principally the Dawa Party and the Supreme Council for Islamic Revolution in Iraq ( SCIRI ) .""
+Question: In the event ""dominated"", does the participant ""elections"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",85.0
+86,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He warned water levels could still rise .""
+Question: In the event ""rise"", does the participant ""levels"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",86.0
+87,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Thanks to repeated deployments to Iraq and Afghanistan , recruiting is at an all - time low .""
+Question: In the event ""is"", does the participant ""recruiting"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",87.0
+88,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i think Miramar was a famous goat trainer or something .""
+Question: In the event ""think"", does the participant ""i"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",88.0
+89,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The web site is""
+Question: In the event ""is"", does the participant ""site"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No, (3) Maybe",89.0
+90,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I use Miracle Cloth , they 're fantastic , just do n't use fabric softener or dryer sheets when cleaning them , it ruins their "" grabbing "" ability .""
+Question: In the event ""ruins"", does the participant ""ability"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",90.0
+91,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We accecpt : Visa , MasterCard , Amex , Dinner s Club / Carte Blanche , & Personal Checks / Money Orders .""
+Question: In the event ""accecpt"", does the participant ""We"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",91.0
+92,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""It says business casual but I know this can be interpreted in many ways .""
+Question: In the event ""interpreted"", does the participant ""this"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",92.0
+93,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We need responses or direction by no later than COB on Monday , October 30 , 2000 .""
+Question: In the event ""need"", does the participant ""We"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",93.0
+94,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Allawi 's aged cousin and the man 's wife and daughter - in - law were abducted and guerrillas threaten to behead them if the Fallujah compaign is not stopped .""
+Question: In the event ""behead"", does the participant ""them"" change in state?
+Answer: ",other,Yes,"(1) Yes, ""them"" changes state",94.0
+95,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Israel owes the United States at least this much , in this crisis , to cease militarily unnecessary provocations and establish genuine peace .""
+Question: In the event ""cease"", does the participant ""provocations"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",95.0
+96,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The main reason I wrote this post is to ask anyone reading this if they know of some way I can help put a stop to this Cat Holocaust .""
+Question: In the event ""reading"", does the participant ""this"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",96.0
+97,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
+Question: In the event ""exceed"", does the participant ""rise"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",97.0
+98,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I work for a large retail company recently expanding our operations into Canada and had to travel to ensure all of our computer network equipment was installed properly and on time .""
+Question: In the event ""work"", does the participant ""I"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",98.0
+99,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""We need to change the lock and place posted signs at the gate .""
+Question: In the event ""place"", does the participant ""signs"" change in state?
+Answer: ",other,No,"(1) No, (2) No, (3) No",99.0
+100,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Above all , we need a total absolute unity and determination of the civilized world against all three circles of evil .""
+Question: In the event ""need"", does the participant ""unity"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",100.0
+101,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""A team from the court managed to take his deposition before he died .""
+Question: In the event ""died"", does the participant ""he"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",101.0
+102,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The new Centre has 4 studios planned and now boasts the largest single dance floor area in Kingston upon Hull .""
+Question: In the event ""has"", does the participant ""studios"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",102.0
+103,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Like William Shakspere RAPHAEL ( the painter ) died on his April birthday Laura & Bridget 's day :""
+Question: In the event ""died"", does the participant ""RAPHAEL"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",103.0
+104,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""On the one hand , the IPN report agreed "" Climate models generally predict that the temperature rises in the Arctic will substantially exceed the global rise .""
+Question: In the event ""exceed"", does the participant ""rises"" change in state?
+Answer: ",No,Yes,"(1) No, ""rises"" does not change in state or form",104.0
+105,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: """" There have no business being there unless they are undermining Pakistan , '' says a Pakistani official .""
+Question: In the event ""says"", does the participant ""official"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",105.0
+106,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""i need to now get a job at house of pies b/c that is the only way to pay the bills .""
+Question: In the event ""need"", does the participant ""i"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",106.0
+107,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Bangs said although the number of elk has not declined very much since the wolves came back , their behavior appears markedly different .""
+Question: In the event ""appears"", does the participant ""behavior"" change in state?
+Answer: ",other,Yes,"(1) No, (2) No, (3) No",107.0
+108,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""In Texas , BP shut its 460,000 barrels per day refinery and Marathon shut its 72,000 bpd plant .""
+Question: In the event ""shut"", does the participant ""refinery"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",108.0
+109,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""James Bateman came the day I called and fixed the problem quickly and efficiently .""
+Question: In the event ""fixed"", does the participant ""problem"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No, (3) No",109.0
+110,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""It boggles the mind that ANYONE can take at face value Bush 's claims to be a christian , yet many seem to do just that .""
+Question: In the event ""boggles"", does the participant ""mind"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",110.0
+111,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""They said they were "" unable to tell me until they ordered my dress "" .""
+Question: In the event ""ordered"", does the participant ""dress"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",111.0
+112,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""Despite the name , this entity appears to be a MTM company .""
+Question: In the event ""appears"", does the participant ""entity"" change in state?
+Answer: ",other,No,"(1) Yes, the entity changes state",112.0
+113,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The intruders slit the screen of the window .""
+Question: In the event ""slit"", does the participant ""intruders"" change in state?
+Answer: ",other,No,"(1) No, (2) No, (3) No",113.0
+114,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The millions who died in the Iran - Iraq war had nothing to do with Israel .""
+Question: In the event ""died"", does the participant ""millions"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",114.0
+115,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""I detect the hissing lisp of the lying serpent in this article .""
+Question: In the event ""detect"", does the participant ""lisp"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",115.0
+116,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""The bombings implicated Muslims , and exacerbated regional tensions which the Bush regime and its friends wearing the brass in the Philippine military sought to exploit .""
+Question: In the event ""implicated"", does the participant ""bombings"" change in state?
+Answer: ",other,No,"(1) Yes, (2) No",116.0
+117,jurassic-jumbo,volition,"Answer this yes-no question about the following sentence.
+Sentence: ""He vacated the FWS decision to downgrade the wolf 's status .""
+Question: In the event ""downgrade"", does the participant ""status"" change in state?
+Answer: ",other,Yes,"(1) Yes, (2) No",117.0
