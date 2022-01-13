@@ -7,7 +7,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Casey\n')",0.0
+Answer: ", ' Casey\n'),0.0
 1,jurassic-large,subject-control,Avery,Casey,False,promised,to go,Avery,other,"You will be given a context and a question.
 Context: Avery promised Casey to go.
 
@@ -16,7 +16,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Casey
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to go.\n\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', ' Casey\n')",1.0
+Answer: ", ' Casey\n'),1.0
 2,jurassic-large,subject-control,Avery,Casey,False,promised,to read,Avery,other,"You will be given a context and a question.
 Context: Avery promised Casey to read.
 
@@ -25,7 +25,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Casey
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', ' Casey\n')",2.0
+Answer: ", ' Casey\n'),2.0
 3,jurassic-large,subject-control,Avery,Casey,False,promised,to run,Avery,other,"You will be given a context and a question.
 Context: Avery promised Casey to run.
 
@@ -34,7 +34,7 @@ Answer: Casey
 Question: Who promised someone to run?
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to run.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Casey\n')",3.0
+Answer: ", ' Casey\n'),3.0
 4,jurassic-large,subject-control,Avery,Casey,False,promised,to call,Avery,other,"You will be given a context and a question.
 Context: Avery promised Casey to call.
 
@@ -43,7 +43,7 @@ Answer: Casey
 Question: Who promised someone to call?
 Answer: Avery
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to call.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', ' Casey\n')",4.0
+Answer: ", ' Casey\n'),4.0
 5,jurassic-large,subject-control,Avery,Joseph,False,promised,to come,Avery,other,"You will be given a context and a question.
 Context: Avery promised Joseph to come.
 
@@ -52,7 +52,7 @@ Answer: Joseph
 Question: Who promised someone to come?
 Answer: Avery
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to come.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",5.0
+Answer: ", ' Joseph\n'),5.0
 6,jurassic-large,subject-control,Avery,Joseph,False,promised,to go,Avery,other,"You will be given a context and a question.
 Context: Avery promised Joseph to go.
 
@@ -61,7 +61,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to go.\n\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', ' Avery\n')",6.0
+Answer: ", ' Avery\n'),6.0
 7,jurassic-large,subject-control,Avery,Joseph,False,promised,to read,Avery,other,"You will be given a context and a question.
 Context: Avery promised Joseph to read.
 
@@ -70,7 +70,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', ' Avery\n')",7.0
+Answer: ", ' Avery\n'),7.0
 8,jurassic-large,subject-control,Avery,Joseph,False,promised,to run,Avery,other,"You will be given a context and a question.
 Context: Avery promised Joseph to run.
 
@@ -79,7 +79,7 @@ Answer: Joseph
 Question: Who promised someone to run?
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to run.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",8.0
+Answer: ", ' Joseph\n'),8.0
 9,jurassic-large,subject-control,Avery,Joseph,False,promised,to call,Avery,other,"You will be given a context and a question.
 Context: Avery promised Joseph to call.
 
@@ -88,7 +88,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to call.\n\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', ' Avery\n')",9.0
+Answer: ", ' Avery\n'),9.0
 10,jurassic-large,subject-control,Avery,Nicole,False,promised,to come,Avery,other,"You will be given a context and a question.
 Context: Avery promised Nicole to come.
 
@@ -97,7 +97,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",10.0
+Answer: ", ' Nicole\n'),10.0
 11,jurassic-large,subject-control,Avery,Nicole,False,promised,to go,Avery,other,"You will be given a context and a question.
 Context: Avery promised Nicole to go.
 
@@ -106,7 +106,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to go.\n\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",11.0
+Answer: ", ' Nicole\n'),11.0
 12,jurassic-large,subject-control,Avery,Nicole,False,promised,to read,Avery,other,"You will be given a context and a question.
 Context: Avery promised Nicole to read.
 
@@ -115,7 +115,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",12.0
+Answer: ", ' Nicole\n'),12.0
 13,jurassic-large,subject-control,Avery,Nicole,False,promised,to run,Avery,other,"You will be given a context and a question.
 Context: Avery promised Nicole to run.
 
@@ -124,7 +124,7 @@ Answer: Nicole
 Question: Who promised someone to run?
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to run.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",13.0
+Answer: ", ' Nicole\n'),13.0
 14,jurassic-large,subject-control,Avery,Nicole,False,promised,to call,Avery,other,"You will be given a context and a question.
 Context: Avery promised Nicole to call.
 
@@ -133,7 +133,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to call.\n\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",14.0
+Answer: ", ' Nicole\n'),14.0
 15,jurassic-large,subject-control,Avery,Stephanie,False,promised,to come,Avery,other,"You will be given a context and a question.
 Context: Avery promised Stephanie to come.
 
@@ -142,7 +142,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', ' Avery\n')",15.0
+Answer: ", ' Avery\n'),15.0
 16,jurassic-large,subject-control,Avery,Stephanie,False,promised,to go,Avery,other,"You will be given a context and a question.
 Context: Avery promised Stephanie to go.
 
@@ -151,7 +151,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Avery\n')",16.0
+Answer: ", ' Avery\n'),16.0
 17,jurassic-large,subject-control,Avery,Stephanie,False,promised,to read,Avery,other,"You will be given a context and a question.
 Context: Avery promised Stephanie to read.
 
@@ -160,7 +160,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to read.\n\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', ' Avery\n')",17.0
+Answer: ", ' Avery\n'),17.0
 18,jurassic-large,subject-control,Avery,Stephanie,False,promised,to run,Avery,other,"You will be given a context and a question.
 Context: Avery promised Stephanie to run.
 
@@ -169,7 +169,7 @@ Answer: Stephanie
 Question: Who promised someone to run?
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to run.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Stephanie\n')",18.0
+Answer: ", ' Stephanie\n'),18.0
 19,jurassic-large,subject-control,Avery,Stephanie,False,promised,to call,Avery,other,"You will be given a context and a question.
 Context: Avery promised Stephanie to call.
 
@@ -178,7 +178,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to call.\n\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' Avery\n')",19.0
+Answer: ", ' Avery\n'),19.0
 20,jurassic-large,subject-control,Avery,William,False,promised,to come,Avery,other,"You will be given a context and a question.
 Context: Avery promised William to come.
 
@@ -187,7 +187,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' William\n')",20.0
+Answer: ", ' William\n'),20.0
 21,jurassic-large,subject-control,Avery,William,False,promised,to go,Avery,other,"You will be given a context and a question.
 Context: Avery promised William to go.
 
@@ -196,7 +196,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: William
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised William to go.\n\nQuestion: Who promised someone to go?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who went?\nAnswer: ', ' William\n')",21.0
+Answer: ", ' William\n'),21.0
 22,jurassic-large,subject-control,Avery,William,False,promised,to read,Avery,other,"You will be given a context and a question.
 Context: Avery promised William to read.
 
@@ -205,7 +205,7 @@ Answer: William
 Question: Who promised someone to read?
 Answer: Avery
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised William to read.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to read?\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', ' William\n')",22.0
+Answer: ", ' William\n'),22.0
 23,jurassic-large,subject-control,Avery,William,False,promised,to run,Avery,other,"You will be given a context and a question.
 Context: Avery promised William to run.
 
@@ -214,7 +214,7 @@ Answer: William
 Question: Who promised someone to run?
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised William to run.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to run?\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' William\n')",23.0
+Answer: ", ' William\n'),23.0
 24,jurassic-large,subject-control,Avery,William,False,promised,to call,Avery,other,"You will be given a context and a question.
 Context: Avery promised William to call.
 
@@ -223,7 +223,7 @@ Answer: Avery
 Question: Who was promised something??
 Answer: William
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Avery promised William to call.\n\nQuestion: Who promised someone to call?\nAnswer: Avery\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who called?\nAnswer: ', ' Avery\n')",24.0
+Answer: ", ' Avery\n'),24.0
 25,jurassic-large,subject-control,Casey,Avery,False,promised,to come,Casey,other,"You will be given a context and a question.
 Context: Casey promised Avery to come.
 
@@ -232,7 +232,7 @@ Answer: Avery
 Question: Who promised someone to come?
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Avery\n')",25.0
+Answer: ", ' Avery\n'),25.0
 26,jurassic-large,subject-control,Casey,Avery,False,promised,to go,Casey,other,"You will be given a context and a question.
 Context: Casey promised Avery to go.
 
@@ -241,7 +241,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Avery
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', ' Casey\n')",26.0
+Answer: ", ' Casey\n'),26.0
 27,jurassic-large,subject-control,Casey,Avery,False,promised,to read,Casey,other,"You will be given a context and a question.
 Context: Casey promised Avery to read.
 
@@ -250,7 +250,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Avery
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', ' Casey\n')",27.0
+Answer: ", ' Casey\n'),27.0
 28,jurassic-large,subject-control,Casey,Avery,False,promised,to run,Casey,other,"You will be given a context and a question.
 Context: Casey promised Avery to run.
 
@@ -259,7 +259,7 @@ Answer: Avery
 Question: Who promised someone to run?
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to run.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' Avery\n')",28.0
+Answer: ", ' Avery\n'),28.0
 29,jurassic-large,subject-control,Casey,Avery,False,promised,to call,Casey,other,"You will be given a context and a question.
 Context: Casey promised Avery to call.
 
@@ -268,7 +268,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Avery
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', ' Casey\n')",29.0
+Answer: ", ' Casey\n'),29.0
 30,jurassic-large,subject-control,Casey,Joseph,False,promised,to come,Casey,other,"You will be given a context and a question.
 Context: Casey promised Joseph to come.
 
@@ -277,7 +277,7 @@ Answer: Joseph
 Question: Who promised someone to come?
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to come.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",30.0
+Answer: ", ' Joseph\n'),30.0
 31,jurassic-large,subject-control,Casey,Joseph,False,promised,to go,Casey,other,"You will be given a context and a question.
 Context: Casey promised Joseph to go.
 
@@ -286,7 +286,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', ' Joseph\n')",31.0
+Answer: ", ' Joseph\n'),31.0
 32,jurassic-large,subject-control,Casey,Joseph,False,promised,to read,Casey,other,"You will be given a context and a question.
 Context: Casey promised Joseph to read.
 
@@ -295,7 +295,7 @@ Answer: Joseph
 Question: Who promised someone to read?
 Answer: Casey
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to read.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",32.0
+Answer: ", ' Joseph\n'),32.0
 33,jurassic-large,subject-control,Casey,Joseph,False,promised,to run,Casey,other,"You will be given a context and a question.
 Context: Casey promised Joseph to run.
 
@@ -304,7 +304,7 @@ Answer: Joseph
 Question: Who promised someone to run?
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to run.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",33.0
+Answer: ", ' Joseph\n'),33.0
 34,jurassic-large,subject-control,Casey,Joseph,False,promised,to call,Casey,other,"You will be given a context and a question.
 Context: Casey promised Joseph to call.
 
@@ -313,7 +313,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', ' Casey\n')",34.0
+Answer: ", ' Casey\n'),34.0
 35,jurassic-large,subject-control,Casey,Nicole,False,promised,to come,Casey,other,"You will be given a context and a question.
 Context: Casey promised Nicole to come.
 
@@ -322,7 +322,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to come.\n\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",35.0
+Answer: ", ' Nicole\n'),35.0
 36,jurassic-large,subject-control,Casey,Nicole,False,promised,to go,Casey,other,"You will be given a context and a question.
 Context: Casey promised Nicole to go.
 
@@ -331,7 +331,7 @@ Answer: Nicole
 Question: Who promised someone to go?
 Answer: Casey
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to go.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",36.0
+Answer: ", ' Nicole\n'),36.0
 37,jurassic-large,subject-control,Casey,Nicole,False,promised,to read,Casey,other,"You will be given a context and a question.
 Context: Casey promised Nicole to read.
 
@@ -340,7 +340,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",37.0
+Answer: ", ' Nicole\n'),37.0
 38,jurassic-large,subject-control,Casey,Nicole,False,promised,to run,Casey,other,"You will be given a context and a question.
 Context: Casey promised Nicole to run.
 
@@ -349,7 +349,7 @@ Answer: Nicole
 Question: Who promised someone to run?
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to run.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",38.0
+Answer: ", ' Nicole\n'),38.0
 39,jurassic-large,subject-control,Casey,Nicole,False,promised,to call,Casey,other,"You will be given a context and a question.
 Context: Casey promised Nicole to call.
 
@@ -358,7 +358,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",39.0
+Answer: ", ' Nicole\n'),39.0
 40,jurassic-large,subject-control,Casey,Stephanie,False,promised,to come,Casey,other,"You will be given a context and a question.
 Context: Casey promised Stephanie to come.
 
@@ -367,7 +367,7 @@ Answer: Stephanie
 Question: Who promised someone to come?
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to come.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Stephanie\n')",40.0
+Answer: ", ' Stephanie\n'),40.0
 41,jurassic-large,subject-control,Casey,Stephanie,False,promised,to go,Casey,other,"You will be given a context and a question.
 Context: Casey promised Stephanie to go.
 
@@ -376,7 +376,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Casey\n')",41.0
+Answer: ", ' Casey\n'),41.0
 42,jurassic-large,subject-control,Casey,Stephanie,False,promised,to read,Casey,other,"You will be given a context and a question.
 Context: Casey promised Stephanie to read.
 
@@ -385,7 +385,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', ' Casey\n')",42.0
+Answer: ", ' Casey\n'),42.0
 43,jurassic-large,subject-control,Casey,Stephanie,False,promised,to run,Casey,other,"You will be given a context and a question.
 Context: Casey promised Stephanie to run.
 
@@ -394,7 +394,7 @@ Answer: Stephanie
 Question: Who promised someone to run?
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to run.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' Casey\n')",43.0
+Answer: ", ' Casey\n'),43.0
 44,jurassic-large,subject-control,Casey,Stephanie,False,promised,to call,Casey,other,"You will be given a context and a question.
 Context: Casey promised Stephanie to call.
 
@@ -403,7 +403,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' Casey\n')",44.0
+Answer: ", ' Casey\n'),44.0
 45,jurassic-large,subject-control,Casey,William,False,promised,to come,Casey,other,"You will be given a context and a question.
 Context: Casey promised William to come.
 
@@ -412,7 +412,7 @@ Answer: William
 Question: Who promised someone to come?
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised William to come.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to come?\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' William\n')",45.0
+Answer: ", ' William\n'),45.0
 46,jurassic-large,subject-control,Casey,William,False,promised,to go,Casey,other,"You will be given a context and a question.
 Context: Casey promised William to go.
 
@@ -421,7 +421,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: William
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised William to go.\n\nQuestion: Who promised someone to go?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who went?\nAnswer: ', ' William\n')",46.0
+Answer: ", ' William\n'),46.0
 47,jurassic-large,subject-control,Casey,William,False,promised,to read,Casey,other,"You will be given a context and a question.
 Context: Casey promised William to read.
 
@@ -430,7 +430,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: William
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', ' William\n')",47.0
+Answer: ", ' William\n'),47.0
 48,jurassic-large,subject-control,Casey,William,False,promised,to run,Casey,other,"You will be given a context and a question.
 Context: Casey promised William to run.
 
@@ -439,7 +439,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: William
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised William to run.\n\nQuestion: Who promised someone to run?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', ' William\n')",48.0
+Answer: ", ' William\n'),48.0
 49,jurassic-large,subject-control,Casey,William,False,promised,to call,Casey,other,"You will be given a context and a question.
 Context: Casey promised William to call.
 
@@ -448,7 +448,7 @@ Answer: Casey
 Question: Who was promised something??
 Answer: William
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Casey promised William to call.\n\nQuestion: Who promised someone to call?\nAnswer: Casey\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who called?\nAnswer: ', ' William\n')",49.0
+Answer: ", ' William\n'),49.0
 50,jurassic-large,subject-control,Joseph,Avery,False,promised,to come,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Avery to come.
 
@@ -457,7 +457,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Avery
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",50.0
+Answer: ", ' Joseph\n'),50.0
 51,jurassic-large,subject-control,Joseph,Avery,False,promised,to go,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Avery to go.
 
@@ -466,7 +466,7 @@ Answer: Avery
 Question: Who promised someone to go?
 Answer: Joseph
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to go.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', ' Avery\n')",51.0
+Answer: ", ' Avery\n'),51.0
 52,jurassic-large,subject-control,Joseph,Avery,False,promised,to read,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Avery to read.
 
@@ -475,7 +475,7 @@ Answer: Avery
 Question: Who promised someone to read?
 Answer: Joseph
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to read.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",52.0
+Answer: ", ' Joseph\n'),52.0
 53,jurassic-large,subject-control,Joseph,Avery,False,promised,to run,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Avery to run.
 
@@ -484,7 +484,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to run.\n\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",53.0
+Answer: ", ' Joseph\n'),53.0
 54,jurassic-large,subject-control,Joseph,Avery,False,promised,to call,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Avery to call.
 
@@ -493,7 +493,7 @@ Answer: Avery
 Question: Who promised someone to call?
 Answer: Joseph
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to call.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', ' Joseph\n')",54.0
+Answer: ", ' Joseph\n'),54.0
 55,jurassic-large,subject-control,Joseph,Casey,False,promised,to come,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Casey to come.
 
@@ -502,7 +502,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",55.0
+Answer: ", ' Joseph\n'),55.0
 56,jurassic-large,subject-control,Joseph,Casey,False,promised,to go,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Casey to go.
 
@@ -511,7 +511,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Casey
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to go.\n\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', ' Joseph\n')",56.0
+Answer: ", ' Joseph\n'),56.0
 57,jurassic-large,subject-control,Joseph,Casey,False,promised,to read,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Casey to read.
 
@@ -520,7 +520,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Casey
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",57.0
+Answer: ", ' Joseph\n'),57.0
 58,jurassic-large,subject-control,Joseph,Casey,False,promised,to run,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Casey to run.
 
@@ -529,7 +529,7 @@ Answer: Casey
 Question: Who promised someone to run?
 Answer: Joseph
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to run.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",58.0
+Answer: ", ' Joseph\n'),58.0
 59,jurassic-large,subject-control,Joseph,Casey,False,promised,to call,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Casey to call.
 
@@ -538,7 +538,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Casey
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to call.\n\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', ' Joseph\n')",59.0
+Answer: ", ' Joseph\n'),59.0
 60,jurassic-large,subject-control,Joseph,Nicole,False,promised,to come,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Nicole to come.
 
@@ -547,7 +547,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",60.0
+Answer: ", ' Joseph\n'),60.0
 61,jurassic-large,subject-control,Joseph,Nicole,False,promised,to go,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Nicole to go.
 
@@ -556,7 +556,7 @@ Answer: Nicole
 Question: Who promised someone to go?
 Answer: Joseph
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to go.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",61.0
+Answer: ", ' Nicole\n'),61.0
 62,jurassic-large,subject-control,Joseph,Nicole,False,promised,to read,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Nicole to read.
 
@@ -565,7 +565,7 @@ Answer: Nicole
 Question: Who promised someone to read?
 Answer: Joseph
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to read.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",62.0
+Answer: ", ' Nicole\n'),62.0
 63,jurassic-large,subject-control,Joseph,Nicole,False,promised,to run,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Nicole to run.
 
@@ -574,7 +574,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to run.\n\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",63.0
+Answer: ", ' Joseph\n'),63.0
 64,jurassic-large,subject-control,Joseph,Nicole,False,promised,to call,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Nicole to call.
 
@@ -583,7 +583,7 @@ Answer: Nicole
 Question: Who promised someone to call?
 Answer: Joseph
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to call.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",64.0
+Answer: ", ' Nicole\n'),64.0
 65,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Stephanie to come.
 
@@ -592,7 +592,7 @@ Answer: Stephanie
 Question: Who promised someone to come?
 Answer: Joseph
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to come.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",65.0
+Answer: ", ' Joseph\n'),65.0
 66,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Stephanie to go.
 
@@ -601,7 +601,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Joseph\n')",66.0
+Answer: ", ' Joseph\n'),66.0
 67,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Stephanie to read.
 
@@ -610,7 +610,7 @@ Answer: Stephanie
 Question: Who promised someone to read?
 Answer: Joseph
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",67.0
+Answer: ", ' Joseph\n'),67.0
 68,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Stephanie to run.
 
@@ -619,7 +619,7 @@ Answer: Stephanie
 Question: Who promised someone to run?
 Answer: Joseph
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to run.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",68.0
+Answer: ", ' Joseph\n'),68.0
 69,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised Stephanie to call.
 
@@ -628,7 +628,7 @@ Answer: Stephanie
 Question: Who promised someone to call?
 Answer: Joseph
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to call.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', ' Joseph\n')",69.0
+Answer: ", ' Joseph\n'),69.0
 70,jurassic-large,subject-control,Joseph,William,False,promised,to come,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised William to come.
 
@@ -637,7 +637,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",70.0
+Answer: ", ' Joseph\n'),70.0
 71,jurassic-large,subject-control,Joseph,William,False,promised,to go,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised William to go.
 
@@ -646,7 +646,7 @@ Answer: William
 Question: Who promised someone to go?
 Answer: Joseph
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to go.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to go?\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', ' William\n')",71.0
+Answer: ", ' William\n'),71.0
 72,jurassic-large,subject-control,Joseph,William,False,promised,to read,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised William to read.
 
@@ -655,7 +655,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: William
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",72.0
+Answer: ", ' Joseph\n'),72.0
 73,jurassic-large,subject-control,Joseph,William,False,promised,to run,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised William to run.
 
@@ -664,7 +664,7 @@ Answer: William
 Question: Who promised someone to run?
 Answer: Joseph
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to run.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to run?\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', ' William\n')",73.0
+Answer: ", ' William\n'),73.0
 74,jurassic-large,subject-control,Joseph,William,False,promised,to call,Joseph,other,"You will be given a context and a question.
 Context: Joseph promised William to call.
 
@@ -673,7 +673,7 @@ Answer: Joseph
 Question: Who was promised something??
 Answer: William
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to call.\n\nQuestion: Who promised someone to call?\nAnswer: Joseph\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who called?\nAnswer: ', ' Joseph\n')",74.0
+Answer: ", ' Joseph\n'),74.0
 75,jurassic-large,subject-control,Nicole,Avery,False,promised,to come,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Avery to come.
 
@@ -682,7 +682,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Avery
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to come.\n\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",75.0
+Answer: ", ' Nicole\n'),75.0
 76,jurassic-large,subject-control,Nicole,Avery,False,promised,to go,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Avery to go.
 
@@ -691,7 +691,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Avery
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to go.\n\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",76.0
+Answer: ", ' Nicole\n'),76.0
 77,jurassic-large,subject-control,Nicole,Avery,False,promised,to read,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Avery to read.
 
@@ -700,7 +700,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Avery
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to read.\n\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",77.0
+Answer: ", ' Nicole\n'),77.0
 78,jurassic-large,subject-control,Nicole,Avery,False,promised,to run,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Avery to run.
 
@@ -709,7 +709,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",78.0
+Answer: ", ' Nicole\n'),78.0
 79,jurassic-large,subject-control,Nicole,Avery,False,promised,to call,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Avery to call.
 
@@ -718,7 +718,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Avery
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",79.0
+Answer: ", ' Nicole\n'),79.0
 80,jurassic-large,subject-control,Nicole,Casey,False,promised,to come,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Casey to come.
 
@@ -727,7 +727,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to come.\n\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",80.0
+Answer: ", ' Nicole\n'),80.0
 81,jurassic-large,subject-control,Nicole,Casey,False,promised,to go,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Casey to go.
 
@@ -736,7 +736,7 @@ Answer: Casey
 Question: Who promised someone to go?
 Answer: Nicole
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to go.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",81.0
+Answer: ", ' Nicole\n'),81.0
 82,jurassic-large,subject-control,Nicole,Casey,False,promised,to read,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Casey to read.
 
@@ -745,7 +745,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Casey
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",82.0
+Answer: ", ' Nicole\n'),82.0
 83,jurassic-large,subject-control,Nicole,Casey,False,promised,to run,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Casey to run.
 
@@ -754,7 +754,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",83.0
+Answer: ", ' Nicole\n'),83.0
 84,jurassic-large,subject-control,Nicole,Casey,False,promised,to call,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Casey to call.
 
@@ -763,7 +763,7 @@ Answer: Casey
 Question: Who promised someone to call?
 Answer: Nicole
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to call.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",84.0
+Answer: ", ' Nicole\n'),84.0
 85,jurassic-large,subject-control,Nicole,Joseph,False,promised,to come,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Joseph to come.
 
@@ -772,7 +772,7 @@ Answer: Joseph
 Question: Who promised someone to come?
 Answer: Nicole
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to come.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",85.0
+Answer: ", ' Nicole\n'),85.0
 86,jurassic-large,subject-control,Nicole,Joseph,False,promised,to go,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Joseph to go.
 
@@ -781,7 +781,7 @@ Answer: Joseph
 Question: Who promised someone to go?
 Answer: Nicole
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to go.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",86.0
+Answer: ", ' Nicole\n'),86.0
 87,jurassic-large,subject-control,Nicole,Joseph,False,promised,to read,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Joseph to read.
 
@@ -790,7 +790,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to read.\n\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",87.0
+Answer: ", ' Nicole\n'),87.0
 88,jurassic-large,subject-control,Nicole,Joseph,False,promised,to run,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Joseph to run.
 
@@ -799,7 +799,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to run.\n\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",88.0
+Answer: ", ' Nicole\n'),88.0
 89,jurassic-large,subject-control,Nicole,Joseph,False,promised,to call,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Joseph to call.
 
@@ -808,7 +808,7 @@ Answer: Joseph
 Question: Who promised someone to call?
 Answer: Nicole
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to call.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",89.0
+Answer: ", ' Nicole\n'),89.0
 90,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Stephanie to come.
 
@@ -817,7 +817,7 @@ Answer: Stephanie
 Question: Who promised someone to come?
 Answer: Nicole
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to come.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",90.0
+Answer: ", ' Nicole\n'),90.0
 91,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Stephanie to go.
 
@@ -826,7 +826,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to go.\n\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",91.0
+Answer: ", ' Nicole\n'),91.0
 92,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Stephanie to read.
 
@@ -835,7 +835,7 @@ Answer: Stephanie
 Question: Who promised someone to read?
 Answer: Nicole
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",92.0
+Answer: ", ' Nicole\n'),92.0
 93,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Stephanie to run.
 
@@ -844,7 +844,7 @@ Answer: Stephanie
 Question: Who promised someone to run?
 Answer: Nicole
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to run.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",93.0
+Answer: ", ' Nicole\n'),93.0
 94,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised Stephanie to call.
 
@@ -853,7 +853,7 @@ Answer: Stephanie
 Question: Who promised someone to call?
 Answer: Nicole
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to call.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",94.0
+Answer: ", ' Nicole\n'),94.0
 95,jurassic-large,subject-control,Nicole,William,False,promised,to come,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised William to come.
 
@@ -862,7 +862,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",95.0
+Answer: ", ' Nicole\n'),95.0
 96,jurassic-large,subject-control,Nicole,William,False,promised,to go,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised William to go.
 
@@ -871,7 +871,7 @@ Answer: William
 Question: Who promised someone to go?
 Answer: Nicole
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to go.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to go?\nAnswer: Nicole\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",96.0
+Answer: ", ' Nicole\n'),96.0
 97,jurassic-large,subject-control,Nicole,William,False,promised,to read,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised William to read.
 
@@ -880,7 +880,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: William
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to read.\n\nQuestion: Who promised someone to read?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",97.0
+Answer: ", ' Nicole\n'),97.0
 98,jurassic-large,subject-control,Nicole,William,False,promised,to run,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised William to run.
 
@@ -889,7 +889,7 @@ Answer: William
 Question: Who promised someone to run?
 Answer: Nicole
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to run.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to run?\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",98.0
+Answer: ", ' Nicole\n'),98.0
 99,jurassic-large,subject-control,Nicole,William,False,promised,to call,Nicole,other,"You will be given a context and a question.
 Context: Nicole promised William to call.
 
@@ -898,7 +898,7 @@ Answer: Nicole
 Question: Who was promised something??
 Answer: William
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to call.\n\nQuestion: Who promised someone to call?\nAnswer: Nicole\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",99.0
+Answer: ", ' Nicole\n'),99.0
 100,jurassic-large,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Avery to come.
 
@@ -907,7 +907,7 @@ Answer: Avery
 Question: Who promised someone to come?
 Answer: Stephanie
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', ' Avery\n')",100.0
+Answer: ", ' Avery\n'),100.0
 101,jurassic-large,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Avery to go.
 
@@ -916,7 +916,7 @@ Answer: Avery
 Question: Who promised someone to go?
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to go.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Avery\n')",101.0
+Answer: ", ' Avery\n'),101.0
 102,jurassic-large,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Avery to read.
 
@@ -925,7 +925,7 @@ Answer: Avery
 Question: Who promised someone to read?
 Answer: Stephanie
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to read.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', ' Avery\n')",102.0
+Answer: ", ' Avery\n'),102.0
 103,jurassic-large,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Avery to run.
 
@@ -934,7 +934,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: Avery
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to run.\n\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who ran?\nAnswer: ', ' Avery\n')",103.0
+Answer: ", ' Avery\n'),103.0
 104,jurassic-large,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Avery to call.
 
@@ -943,7 +943,7 @@ Answer: Avery
 Question: Who promised someone to call?
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to call.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' Avery\n')",104.0
+Answer: ", ' Avery\n'),104.0
 105,jurassic-large,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Casey to come.
 
@@ -952,7 +952,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to come.\n\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' Casey\n')",105.0
+Answer: ", ' Casey\n'),105.0
 106,jurassic-large,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Casey to go.
 
@@ -961,7 +961,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: Casey
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to go.\n\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who went?\nAnswer: ', ' Casey\n')",106.0
+Answer: ", ' Casey\n'),106.0
 107,jurassic-large,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Casey to read.
 
@@ -970,7 +970,7 @@ Answer: Casey
 Question: Who promised someone to read?
 Answer: Stephanie
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to read.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', ' Casey\n')",107.0
+Answer: ", ' Casey\n'),107.0
 108,jurassic-large,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Casey to run.
 
@@ -979,7 +979,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to run.\n\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' Casey\n')",108.0
+Answer: ", ' Casey\n'),108.0
 109,jurassic-large,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Casey to call.
 
@@ -988,7 +988,7 @@ Answer: Casey
 Question: Who promised someone to call?
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to call.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' Casey\n')",109.0
+Answer: ", ' Casey\n'),109.0
 110,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Joseph to come.
 
@@ -997,7 +997,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to come.\n\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', ' Joseph\n')",110.0
+Answer: ", ' Joseph\n'),110.0
 111,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Joseph to go.
 
@@ -1006,7 +1006,7 @@ Answer: Joseph
 Question: Who promised someone to go?
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to go.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Joseph\n')",111.0
+Answer: ", ' Joseph\n'),111.0
 112,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Joseph to read.
 
@@ -1015,7 +1015,7 @@ Answer: Joseph
 Question: Who promised someone to read?
 Answer: Stephanie
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to read.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",112.0
+Answer: ", ' Joseph\n'),112.0
 113,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Joseph to run.
 
@@ -1024,7 +1024,7 @@ Answer: Joseph
 Question: Who promised someone to run?
 Answer: Stephanie
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to run.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",113.0
+Answer: ", ' Joseph\n'),113.0
 114,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Joseph to call.
 
@@ -1033,7 +1033,7 @@ Answer: Joseph
 Question: Who promised someone to call?
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to call.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' Joseph\n')",114.0
+Answer: ", ' Joseph\n'),114.0
 115,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Nicole to come.
 
@@ -1042,7 +1042,7 @@ Answer: Nicole
 Question: Who promised someone to come?
 Answer: Stephanie
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to come.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",115.0
+Answer: ", ' Nicole\n'),115.0
 116,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Nicole to go.
 
@@ -1051,7 +1051,7 @@ Answer: Nicole
 Question: Who promised someone to go?
 Answer: Stephanie
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to go.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",116.0
+Answer: ", ' Nicole\n'),116.0
 117,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Nicole to read.
 
@@ -1060,7 +1060,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', ' Nicole\n')",117.0
+Answer: ", ' Nicole\n'),117.0
 118,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Nicole to run.
 
@@ -1069,7 +1069,7 @@ Answer: Nicole
 Question: Who promised someone to run?
 Answer: Stephanie
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to run.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', ' Nicole\n')",118.0
+Answer: ", ' Nicole\n'),118.0
 119,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised Nicole to call.
 
@@ -1078,7 +1078,7 @@ Answer: Nicole
 Question: Who promised someone to call?
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to call.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' Nicole\n')",119.0
+Answer: ", ' Nicole\n'),119.0
 120,jurassic-large,subject-control,Stephanie,William,False,promised,to come,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised William to come.
 
@@ -1087,7 +1087,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to come.\n\nQuestion: Who promised someone to come?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' William\n')",120.0
+Answer: ", ' William\n'),120.0
 121,jurassic-large,subject-control,Stephanie,William,False,promised,to go,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised William to go.
 
@@ -1096,7 +1096,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: William
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to go.\n\nQuestion: Who promised someone to go?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who went?\nAnswer: ', ' William\n')",121.0
+Answer: ", ' William\n'),121.0
 122,jurassic-large,subject-control,Stephanie,William,False,promised,to read,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised William to read.
 
@@ -1105,7 +1105,7 @@ Answer: William
 Question: Who promised someone to read?
 Answer: Stephanie
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to read.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to read?\nAnswer: Stephanie\nQuestion:  Who read?\nAnswer: ', ' William\n')",122.0
+Answer: ", ' William\n'),122.0
 123,jurassic-large,subject-control,Stephanie,William,False,promised,to run,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised William to run.
 
@@ -1114,7 +1114,7 @@ Answer: Stephanie
 Question: Who was promised something??
 Answer: William
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to run.\n\nQuestion: Who promised someone to run?\nAnswer: Stephanie\nQuestion: Who was promised something??\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', ' William\n')",123.0
+Answer: ", ' William\n'),123.0
 124,jurassic-large,subject-control,Stephanie,William,False,promised,to call,Stephanie,other,"You will be given a context and a question.
 Context: Stephanie promised William to call.
 
@@ -1123,7 +1123,7 @@ Answer: William
 Question: Who promised someone to call?
 Answer: Stephanie
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to call.\n\nQuestion: Who was promised something??\nAnswer: William\nQuestion: Who promised someone to call?\nAnswer: Stephanie\nQuestion:  Who called?\nAnswer: ', ' William\n')",124.0
+Answer: ", ' William\n'),124.0
 125,jurassic-large,subject-control,William,Avery,False,promised,to come,William,other,"You will be given a context and a question.
 Context: William promised Avery to come.
 
@@ -1132,7 +1132,7 @@ Answer: Avery
 Question: Who promised someone to come?
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: William promised Avery to come.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' Avery\n')",125.0
+Answer: ", ' Avery\n'),125.0
 126,jurassic-large,subject-control,William,Avery,False,promised,to go,William,other,"You will be given a context and a question.
 Context: William promised Avery to go.
 
@@ -1141,7 +1141,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Avery
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: William promised Avery to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who went?\nAnswer: ', ' William\n')",126.0
+Answer: ", ' William\n'),126.0
 127,jurassic-large,subject-control,William,Avery,False,promised,to read,William,other,"You will be given a context and a question.
 Context: William promised Avery to read.
 
@@ -1150,7 +1150,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Avery
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: William promised Avery to read.\n\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who read?\nAnswer: ', ' William\n')",127.0
+Answer: ", ' William\n'),127.0
 128,jurassic-large,subject-control,William,Avery,False,promised,to run,William,other,"You will be given a context and a question.
 Context: William promised Avery to run.
 
@@ -1159,7 +1159,7 @@ Answer: Avery
 Question: Who promised someone to run?
 Answer: William
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: William promised Avery to run.\n\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', ' Avery\n')",128.0
+Answer: ", ' Avery\n'),128.0
 129,jurassic-large,subject-control,William,Avery,False,promised,to call,William,other,"You will be given a context and a question.
 Context: William promised Avery to call.
 
@@ -1168,7 +1168,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Avery
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: William promised Avery to call.\n\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Avery\nQuestion:  Who called?\nAnswer: ', ' William\n')",129.0
+Answer: ", ' William\n'),129.0
 130,jurassic-large,subject-control,William,Casey,False,promised,to come,William,other,"You will be given a context and a question.
 Context: William promised Casey to come.
 
@@ -1177,7 +1177,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Casey
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: William promised Casey to come.\n\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who came?\nAnswer: ', ' William\n')",130.0
+Answer: ", ' William\n'),130.0
 131,jurassic-large,subject-control,William,Casey,False,promised,to go,William,other,"You will be given a context and a question.
 Context: William promised Casey to go.
 
@@ -1186,7 +1186,7 @@ Answer: Casey
 Question: Who promised someone to go?
 Answer: William
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: William promised Casey to go.\n\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion:  Who went?\nAnswer: ', ' William\n')",131.0
+Answer: ", ' William\n'),131.0
 132,jurassic-large,subject-control,William,Casey,False,promised,to read,William,other,"You will be given a context and a question.
 Context: William promised Casey to read.
 
@@ -1195,7 +1195,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Casey
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: William promised Casey to read.\n\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who read?\nAnswer: ', ' William\n')",132.0
+Answer: ", ' William\n'),132.0
 133,jurassic-large,subject-control,William,Casey,False,promised,to run,William,other,"You will be given a context and a question.
 Context: William promised Casey to run.
 
@@ -1204,7 +1204,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Casey
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: William promised Casey to run.\n\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who ran?\nAnswer: ', ' William\n')",133.0
+Answer: ", ' William\n'),133.0
 134,jurassic-large,subject-control,William,Casey,False,promised,to call,William,other,"You will be given a context and a question.
 Context: William promised Casey to call.
 
@@ -1213,7 +1213,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Casey
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: William promised Casey to call.\n\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Casey\nQuestion:  Who called?\nAnswer: ', ' William\n')",134.0
+Answer: ", ' William\n'),134.0
 135,jurassic-large,subject-control,William,Joseph,False,promised,to come,William,other,"You will be given a context and a question.
 Context: William promised Joseph to come.
 
@@ -1222,7 +1222,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to come.\n\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who came?\nAnswer: ', ' William\n')",135.0
+Answer: ", ' William\n'),135.0
 136,jurassic-large,subject-control,William,Joseph,False,promised,to go,William,other,"You will be given a context and a question.
 Context: William promised Joseph to go.
 
@@ -1231,7 +1231,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to go.\n\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who went?\nAnswer: ', ' William\n')",136.0
+Answer: ", ' William\n'),136.0
 137,jurassic-large,subject-control,William,Joseph,False,promised,to read,William,other,"You will be given a context and a question.
 Context: William promised Joseph to read.
 
@@ -1240,7 +1240,7 @@ Answer: Joseph
 Question: Who promised someone to read?
 Answer: William
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to read.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion:  Who read?\nAnswer: ', ' Joseph\n')",137.0
+Answer: ", ' Joseph\n'),137.0
 138,jurassic-large,subject-control,William,Joseph,False,promised,to run,William,other,"You will be given a context and a question.
 Context: William promised Joseph to run.
 
@@ -1249,7 +1249,7 @@ Answer: Joseph
 Question: Who promised someone to run?
 Answer: William
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to run.\n\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion:  Who ran?\nAnswer: ', ' Joseph\n')",138.0
+Answer: ", ' Joseph\n'),138.0
 139,jurassic-large,subject-control,William,Joseph,False,promised,to call,William,other,"You will be given a context and a question.
 Context: William promised Joseph to call.
 
@@ -1258,7 +1258,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Joseph
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to call.\n\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Joseph\nQuestion:  Who called?\nAnswer: ', ' William\n')",139.0
+Answer: ", ' William\n'),139.0
 140,jurassic-large,subject-control,William,Nicole,False,promised,to come,William,other,"You will be given a context and a question.
 Context: William promised Nicole to come.
 
@@ -1267,7 +1267,7 @@ Answer: Nicole
 Question: Who promised someone to come?
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to come.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' Nicole\n')",140.0
+Answer: ", ' Nicole\n'),140.0
 141,jurassic-large,subject-control,William,Nicole,False,promised,to go,William,other,"You will be given a context and a question.
 Context: William promised Nicole to go.
 
@@ -1276,7 +1276,7 @@ Answer: Nicole
 Question: Who promised someone to go?
 Answer: William
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to go.\n\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion:  Who went?\nAnswer: ', ' Nicole\n')",141.0
+Answer: ", ' Nicole\n'),141.0
 142,jurassic-large,subject-control,William,Nicole,False,promised,to read,William,other,"You will be given a context and a question.
 Context: William promised Nicole to read.
 
@@ -1285,7 +1285,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to read.\n\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who read?\nAnswer: ', ' William\n')",142.0
+Answer: ", ' William\n'),142.0
 143,jurassic-large,subject-control,William,Nicole,False,promised,to run,William,other,"You will be given a context and a question.
 Context: William promised Nicole to run.
 
@@ -1294,7 +1294,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to run.\n\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who ran?\nAnswer: ', ' William\n')",143.0
+Answer: ", ' William\n'),143.0
 144,jurassic-large,subject-control,William,Nicole,False,promised,to call,William,other,"You will be given a context and a question.
 Context: William promised Nicole to call.
 
@@ -1303,7 +1303,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Nicole
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to call.\n\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Nicole\nQuestion:  Who called?\nAnswer: ', ' William\n')",144.0
+Answer: ", ' William\n'),144.0
 145,jurassic-large,subject-control,William,Stephanie,False,promised,to come,William,other,"You will be given a context and a question.
 Context: William promised Stephanie to come.
 
@@ -1312,7 +1312,7 @@ Answer: Stephanie
 Question: Who promised someone to come?
 Answer: William
 Question:  Who came?
-Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to come.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to come?\nAnswer: William\nQuestion:  Who came?\nAnswer: ', ' William\n')",145.0
+Answer: ", ' William\n'),145.0
 146,jurassic-large,subject-control,William,Stephanie,False,promised,to go,William,other,"You will be given a context and a question.
 Context: William promised Stephanie to go.
 
@@ -1321,7 +1321,7 @@ Answer: Stephanie
 Question: Who promised someone to go?
 Answer: William
 Question:  Who went?
-Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to go.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to go?\nAnswer: William\nQuestion:  Who went?\nAnswer: ', ' William\n')",146.0
+Answer: ", ' William\n'),146.0
 147,jurassic-large,subject-control,William,Stephanie,False,promised,to read,William,other,"You will be given a context and a question.
 Context: William promised Stephanie to read.
 
@@ -1330,7 +1330,7 @@ Answer: Stephanie
 Question: Who promised someone to read?
 Answer: William
 Question:  Who read?
-Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to read.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to read?\nAnswer: William\nQuestion:  Who read?\nAnswer: ', ' William\n')",147.0
+Answer: ", ' William\n'),147.0
 148,jurassic-large,subject-control,William,Stephanie,False,promised,to run,William,other,"You will be given a context and a question.
 Context: William promised Stephanie to run.
 
@@ -1339,7 +1339,7 @@ Answer: William
 Question: Who was promised something??
 Answer: Stephanie
 Question:  Who ran?
-Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to run.\n\nQuestion: Who promised someone to run?\nAnswer: William\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion:  Who ran?\nAnswer: ', ' William\n')",148.0
+Answer: ", ' William\n'),148.0
 149,jurassic-large,subject-control,William,Stephanie,False,promised,to call,William,other,"You will be given a context and a question.
 Context: William promised Stephanie to call.
 
@@ -1348,4 +1348,4 @@ Answer: Stephanie
 Question: Who promised someone to call?
 Answer: William
 Question:  Who called?
-Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to call.\n\nQuestion: Who was promised something??\nAnswer: Stephanie\nQuestion: Who promised someone to call?\nAnswer: William\nQuestion:  Who called?\nAnswer: ', ' William\n')",149.0
+Answer: ", ' William\n'),149.0

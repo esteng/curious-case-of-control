@@ -1,0 +1,22 @@
+Visible: 3,4
+[2022-01-07 07:39:44,772] [INFO] [logging.py:68:log_dist] [Rank -1] DeepSpeed info: version=0.5.6, git-hash=unknown, git-branch=unknown
+[2022-01-07 07:39:44,776] [INFO] [engine.py:124:_init_quantization_setting] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2022-01-07 07:39:44,779] [INFO] [distributed.py:37:init_distributed] Not using the DeepSpeed or torch.distributed launchers, attempting to detect MPI environment...
+Traceback (most recent call last):
+  File "run_experiment.py", line 101, in <module>
+    main(args)
+  File "run_experiment.py", line 63, in main
+    wrapper_fxn = HuggingfaceRunFxn(args.hf_model_name, device=args.device, constrained=False)
+  File "/home/estengel/child-lm/src/hf_tools/hf.py", line 40, in __init__
+    replace_method='auto')
+  File "/brtx/601-nvme1/estengel/miniconda3/envs/openai/lib/python3.7/site-packages/deepspeed/__init__.py", line 290, in init_inference
+    quantization_setting)
+  File "/brtx/601-nvme1/estengel/miniconda3/envs/openai/lib/python3.7/site-packages/deepspeed/inference/engine.py", line 76, in __init__
+    self._create_model_parallel_group()
+  File "/brtx/601-nvme1/estengel/miniconda3/envs/openai/lib/python3.7/site-packages/deepspeed/inference/engine.py", line 104, in _create_model_parallel_group
+    init_distributed()
+  File "/brtx/601-nvme1/estengel/miniconda3/envs/openai/lib/python3.7/site-packages/deepspeed/utils/distributed.py", line 42, in init_distributed
+    mpi_discovery(distributed_port=distributed_port, verbose=verbose)
+  File "/brtx/601-nvme1/estengel/miniconda3/envs/openai/lib/python3.7/site-packages/deepspeed/utils/distributed.py", line 58, in mpi_discovery
+    from mpi4py import MPI
+ModuleNotFoundError: No module named 'mpi4py'

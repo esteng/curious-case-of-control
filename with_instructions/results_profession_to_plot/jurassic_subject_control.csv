@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,jurassic-large,subject-control,the doctor,the lawyer,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to come.
+
+Question:  Who came, the lawyer or the doctor?
+Answer: ", ' The doctor came'),0.0
+1,jurassic-large,subject-control,the doctor,the lawyer,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to come.
+
+Question:  Who came, the doctor or the lawyer?
+Answer: ", ' The doctor came'),1.0
+2,jurassic-large,subject-control,the doctor,the lawyer,True,promised,to go,the doctor,other,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to go.
+
+Question:  Who went, the lawyer or the doctor?
+Answer: ", ' The doctor.'),2.0
+3,jurassic-large,subject-control,the doctor,the lawyer,False,promised,to go,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to go.
+
+Question:  Who went, the doctor or the lawyer?
+Answer: ", ' The doctor.'),3.0
+4,jurassic-large,subject-control,the doctor,the lawyer,True,promised,to read,the doctor,other,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to read.
+
+Question:  Who read, the lawyer or the doctor?
+Answer: ", ' The doctor.'),4.0
+5,jurassic-large,subject-control,the doctor,the lawyer,False,promised,to read,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to read.
+
+Question:  Who read, the doctor or the lawyer?
+Answer: ", ' The doctor.'),5.0
+6,jurassic-large,subject-control,the doctor,the lawyer,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the doctor?
+Answer: ", ' The doctor ran'),6.0
+7,jurassic-large,subject-control,the doctor,the lawyer,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to run.
+
+Question:  Who ran, the doctor or the lawyer?
+Answer: ", ' The doctor ran'),7.0
+8,jurassic-large,subject-control,the doctor,the lawyer,True,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to call.
+
+Question:  Who called, the lawyer or the doctor?
+Answer: ", ' The doctor.'),8.0
+9,jurassic-large,subject-control,the doctor,the lawyer,False,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to call.
+
+Question:  Who called, the doctor or the lawyer?
+Answer: ", ' The doctor.'),9.0
+10,jurassic-large,subject-control,the doctor,the engineer,True,promised,to come,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to come.
+
+Question:  Who came, the engineer or the doctor?
+Answer: ", ' The engineer'),10.0
+11,jurassic-large,subject-control,the doctor,the engineer,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to come.
+
+Question:  Who came, the doctor or the engineer?
+Answer: ", ' The doctor came'),11.0
+12,jurassic-large,subject-control,the doctor,the engineer,True,promised,to go,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to go.
+
+Question:  Who went, the engineer or the doctor?
+Answer: ", ' The engineer'),12.0
+13,jurassic-large,subject-control,the doctor,the engineer,False,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to go.
+
+Question:  Who went, the doctor or the engineer?
+Answer: ", ' The doctor went'),13.0
+14,jurassic-large,subject-control,the doctor,the engineer,True,promised,to read,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to read.
+
+Question:  Who read, the engineer or the doctor?
+Answer: ", ' The engineer'),14.0
+15,jurassic-large,subject-control,the doctor,the engineer,False,promised,to read,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to read.
+
+Question:  Who read, the doctor or the engineer?
+Answer: ", ' The doctor.'),15.0
+16,jurassic-large,subject-control,the doctor,the engineer,True,promised,to run,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to run.
+
+Question:  Who ran, the engineer or the doctor?
+Answer: ", ' The engineer'),16.0
+17,jurassic-large,subject-control,the doctor,the engineer,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to run.
+
+Question:  Who ran, the doctor or the engineer?
+Answer: ", ' The doctor ran'),17.0
+18,jurassic-large,subject-control,the doctor,the engineer,True,promised,to call,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to call.
+
+Question:  Who called, the engineer or the doctor?
+Answer: ", ' The engineer'),18.0
+19,jurassic-large,subject-control,the doctor,the engineer,False,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to call.
+
+Question:  Who called, the doctor or the engineer?
+Answer: ", ' The doctor.'),19.0
+20,jurassic-large,subject-control,the doctor,the writer,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to come.
+
+Question:  Who came, the writer or the doctor?
+Answer: ", ' The doctor came'),20.0
+21,jurassic-large,subject-control,the doctor,the writer,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to come.
+
+Question:  Who came, the doctor or the writer?
+Answer: ", ' The doctor came'),21.0
+22,jurassic-large,subject-control,the doctor,the writer,True,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to go.
+
+Question:  Who went, the writer or the doctor?
+Answer: ", ' The doctor went'),22.0
+23,jurassic-large,subject-control,the doctor,the writer,False,promised,to go,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to go.
+
+Question:  Who went, the doctor or the writer?
+Answer: ", ' The doctor.'),23.0
+24,jurassic-large,subject-control,the doctor,the writer,True,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to read.
+
+Question:  Who read, the writer or the doctor?
+Answer: ", ' The doctor read'),24.0
+25,jurassic-large,subject-control,the doctor,the writer,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to read.
+
+Question:  Who read, the doctor or the writer?
+Answer: ", ' The doctor read'),25.0
+26,jurassic-large,subject-control,the doctor,the writer,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to run.
+
+Question:  Who ran, the writer or the doctor?
+Answer: ", ' The doctor ran'),26.0
+27,jurassic-large,subject-control,the doctor,the writer,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to run.
+
+Question:  Who ran, the doctor or the writer?
+Answer: ", ' The doctor ran'),27.0
+28,jurassic-large,subject-control,the doctor,the writer,True,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to call.
+
+Question:  Who called, the writer or the doctor?
+Answer: ", ' The doctor.'),28.0
+29,jurassic-large,subject-control,the doctor,the writer,False,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to call.
+
+Question:  Who called, the doctor or the writer?
+Answer: ", ' The doctor.'),29.0
+30,jurassic-large,subject-control,the doctor,the janitor,True,promised,to come,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to come.
+
+Question:  Who came, the janitor or the doctor?
+Answer: ", ' The janitor'),30.0
+31,jurassic-large,subject-control,the doctor,the janitor,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to come.
+
+Question:  Who came, the doctor or the janitor?
+Answer: ", ' The doctor came'),31.0
+32,jurassic-large,subject-control,the doctor,the janitor,True,promised,to go,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to go.
+
+Question:  Who went, the janitor or the doctor?
+Answer: ", ' The janitor'),32.0
+33,jurassic-large,subject-control,the doctor,the janitor,False,promised,to go,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to go.
+
+Question:  Who went, the doctor or the janitor?
+Answer: ", ' The doctor.'),33.0
+34,jurassic-large,subject-control,the doctor,the janitor,True,promised,to read,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to read.
+
+Question:  Who read, the janitor or the doctor?
+Answer: ", ' The janitor'),34.0
+35,jurassic-large,subject-control,the doctor,the janitor,False,promised,to read,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to read.
+
+Question:  Who read, the doctor or the janitor?
+Answer: ", ' The janitor'),35.0
+36,jurassic-large,subject-control,the doctor,the janitor,True,promised,to run,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to run.
+
+Question:  Who ran, the janitor or the doctor?
+Answer: ", ' The janitor'),36.0
+37,jurassic-large,subject-control,the doctor,the janitor,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to run.
+
+Question:  Who ran, the doctor or the janitor?
+Answer: ", ' The doctor ran'),37.0
+38,jurassic-large,subject-control,the doctor,the janitor,True,promised,to call,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to call.
+
+Question:  Who called, the janitor or the doctor?
+Answer: ", ' The janitor'),38.0
+39,jurassic-large,subject-control,the doctor,the janitor,False,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to call.
+
+Question:  Who called, the doctor or the janitor?
+Answer: ", ' The doctor.'),39.0
+40,jurassic-large,subject-control,the doctor,the bartender,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to come.
+
+Question:  Who came, the bartender or the doctor?
+Answer: ", ' The doctor came'),40.0
+41,jurassic-large,subject-control,the doctor,the bartender,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to come.
+
+Question:  Who came, the doctor or the bartender?
+Answer: ", ' The doctor came'),41.0
+42,jurassic-large,subject-control,the doctor,the bartender,True,promised,to go,the doctor,other,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to go.
+
+Question:  Who went, the bartender or the doctor?
+Answer: ", ' The doctor.'),42.0
+43,jurassic-large,subject-control,the doctor,the bartender,False,promised,to go,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to go.
+
+Question:  Who went, the doctor or the bartender?
+Answer: ", ' The doctor.'),43.0
+44,jurassic-large,subject-control,the doctor,the bartender,True,promised,to read,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to read.
+
+Question:  Who read, the bartender or the doctor?
+Answer: ", ' The bartender'),44.0
+45,jurassic-large,subject-control,the doctor,the bartender,False,promised,to read,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to read.
+
+Question:  Who read, the doctor or the bartender?
+Answer: ", ' The doctor.'),45.0
+46,jurassic-large,subject-control,the doctor,the bartender,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to run.
+
+Question:  Who ran, the bartender or the doctor?
+Answer: ", ' The doctor ran'),46.0
+47,jurassic-large,subject-control,the doctor,the bartender,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to run.
+
+Question:  Who ran, the doctor or the bartender?
+Answer: ", ' The doctor ran'),47.0
+48,jurassic-large,subject-control,the doctor,the bartender,True,promised,to call,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to call.
+
+Question:  Who called, the bartender or the doctor?
+Answer: ", ' the bartender called'),48.0
+49,jurassic-large,subject-control,the doctor,the bartender,False,promised,to call,the doctor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to call.
+
+Question:  Who called, the doctor or the bartender?
+Answer: ", ' The doctor.'),49.0
+50,jurassic-large,subject-control,the lawyer,the doctor,True,promised,to come,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to come.
+
+Question:  Who came, the doctor or the lawyer?
+Answer: ", ' The doctor came'),50.0
+51,jurassic-large,subject-control,the lawyer,the doctor,False,promised,to come,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to come.
+
+Question:  Who came, the lawyer or the doctor?
+Answer: ", ' The doctor came'),51.0
+52,jurassic-large,subject-control,the lawyer,the doctor,True,promised,to go,the lawyer,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to go.
+
+Question:  Who went, the doctor or the lawyer?
+Answer: ", ' The doctor.'),52.0
+53,jurassic-large,subject-control,the lawyer,the doctor,False,promised,to go,the lawyer,other,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to go.
+
+Question:  Who went, the lawyer or the doctor?
+Answer: ", ' The doctor.'),53.0
+54,jurassic-large,subject-control,the lawyer,the doctor,True,promised,to read,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to read.
+
+Question:  Who read, the doctor or the lawyer?
+Answer: ", ' The doctor read'),54.0
+55,jurassic-large,subject-control,the lawyer,the doctor,False,promised,to read,the lawyer,other,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to read.
+
+Question:  Who read, the lawyer or the doctor?
+Answer: ", ' The doctor.'),55.0
+56,jurassic-large,subject-control,the lawyer,the doctor,True,promised,to run,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to run.
+
+Question:  Who ran, the doctor or the lawyer?
+Answer: ", ' The doctor ran'),56.0
+57,jurassic-large,subject-control,the lawyer,the doctor,False,promised,to run,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to run.
+
+Question:  Who ran, the lawyer or the doctor?
+Answer: ", ' The doctor ran'),57.0
+58,jurassic-large,subject-control,the lawyer,the doctor,True,promised,to call,the lawyer,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to call.
+
+Question:  Who called, the doctor or the lawyer?
+Answer: ", ' The doctor.'),58.0
+59,jurassic-large,subject-control,the lawyer,the doctor,False,promised,to call,the lawyer,other,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to call.
+
+Question:  Who called, the lawyer or the doctor?
+Answer: ", ' The doctor.'),59.0
+60,jurassic-large,subject-control,the lawyer,the engineer,True,promised,to come,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to come.
+
+Question:  Who came, the engineer or the lawyer?
+Answer: ", ' The engineer'),60.0
+61,jurassic-large,subject-control,the lawyer,the engineer,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to come.
+
+Question:  Who came, the lawyer or the engineer?
+Answer: ", ' The lawyer'),61.0
+62,jurassic-large,subject-control,the lawyer,the engineer,True,promised,to go,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to go.
+
+Question:  Who went, the engineer or the lawyer?
+Answer: ", ' The engineer'),62.0
+63,jurassic-large,subject-control,the lawyer,the engineer,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to go.
+
+Question:  Who went, the lawyer or the engineer?
+Answer: ", ' The lawyer'),63.0
+64,jurassic-large,subject-control,the lawyer,the engineer,True,promised,to read,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to read.
+
+Question:  Who read, the engineer or the lawyer?
+Answer: ", ' The engineer'),64.0
+65,jurassic-large,subject-control,the lawyer,the engineer,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to read.
+
+Question:  Who read, the lawyer or the engineer?
+Answer: ", ' The lawyer'),65.0
+66,jurassic-large,subject-control,the lawyer,the engineer,True,promised,to run,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to run.
+
+Question:  Who ran, the engineer or the lawyer?
+Answer: ", ' The engineer'),66.0
+67,jurassic-large,subject-control,the lawyer,the engineer,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to run.
+
+Question:  Who ran, the lawyer or the engineer?
+Answer: ", ' The lawyer'),67.0
+68,jurassic-large,subject-control,the lawyer,the engineer,True,promised,to call,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to call.
+
+Question:  Who called, the engineer or the lawyer?
+Answer: ", ' The engineer'),68.0
+69,jurassic-large,subject-control,the lawyer,the engineer,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to call.
+
+Question:  Who called, the lawyer or the engineer?
+Answer: ", ' The lawyer'),69.0
+70,jurassic-large,subject-control,the lawyer,the writer,True,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to come.
+
+Question:  Who came, the writer or the lawyer?
+Answer: ", ' The lawyer'),70.0
+71,jurassic-large,subject-control,the lawyer,the writer,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to come.
+
+Question:  Who came, the lawyer or the writer?
+Answer: ", ' The lawyer'),71.0
+72,jurassic-large,subject-control,the lawyer,the writer,True,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to go.
+
+Question:  Who went, the writer or the lawyer?
+Answer: ", ' The lawyer'),72.0
+73,jurassic-large,subject-control,the lawyer,the writer,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to go.
+
+Question:  Who went, the lawyer or the writer?
+Answer: ", ' The lawyer'),73.0
+74,jurassic-large,subject-control,the lawyer,the writer,True,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to read.
+
+Question:  Who read, the writer or the lawyer?
+Answer: ", ' The lawyer'),74.0
+75,jurassic-large,subject-control,the lawyer,the writer,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to read.
+
+Question:  Who read, the lawyer or the writer?
+Answer: ", ' The lawyer'),75.0
+76,jurassic-large,subject-control,the lawyer,the writer,True,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to run.
+
+Question:  Who ran, the writer or the lawyer?
+Answer: ", ' The lawyer'),76.0
+77,jurassic-large,subject-control,the lawyer,the writer,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to run.
+
+Question:  Who ran, the lawyer or the writer?
+Answer: ", ' The lawyer'),77.0
+78,jurassic-large,subject-control,the lawyer,the writer,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to call.
+
+Question:  Who called, the writer or the lawyer?
+Answer: ", ' The lawyer'),78.0
+79,jurassic-large,subject-control,the lawyer,the writer,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to call.
+
+Question:  Who called, the lawyer or the writer?
+Answer: ", ' The lawyer'),79.0
+80,jurassic-large,subject-control,the lawyer,the janitor,True,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to come.
+
+Question:  Who came, the janitor or the lawyer?
+Answer: ", ' The lawyer'),80.0
+81,jurassic-large,subject-control,the lawyer,the janitor,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to come.
+
+Question:  Who came, the lawyer or the janitor?
+Answer: ", ' The lawyer'),81.0
+82,jurassic-large,subject-control,the lawyer,the janitor,True,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to go.
+
+Question:  Who went, the janitor or the lawyer?
+Answer: ", ' The lawyer'),82.0
+83,jurassic-large,subject-control,the lawyer,the janitor,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to go.
+
+Question:  Who went, the lawyer or the janitor?
+Answer: ", ' The lawyer'),83.0
+84,jurassic-large,subject-control,the lawyer,the janitor,True,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to read.
+
+Question:  Who read, the janitor or the lawyer?
+Answer: ", ' The lawyer'),84.0
+85,jurassic-large,subject-control,the lawyer,the janitor,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to read.
+
+Question:  Who read, the lawyer or the janitor?
+Answer: ", ' The lawyer'),85.0
+86,jurassic-large,subject-control,the lawyer,the janitor,True,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to run.
+
+Question:  Who ran, the janitor or the lawyer?
+Answer: ", ' The lawyer'),86.0
+87,jurassic-large,subject-control,the lawyer,the janitor,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to run.
+
+Question:  Who ran, the lawyer or the janitor?
+Answer: ", ' The lawyer'),87.0
+88,jurassic-large,subject-control,the lawyer,the janitor,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to call.
+
+Question:  Who called, the janitor or the lawyer?
+Answer: ", ' The lawyer'),88.0
+89,jurassic-large,subject-control,the lawyer,the janitor,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to call.
+
+Question:  Who called, the lawyer or the janitor?
+Answer: ", ' The lawyer'),89.0
+90,jurassic-large,subject-control,the lawyer,the bartender,True,promised,to come,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to come.
+
+Question:  Who came, the bartender or the lawyer?
+Answer: ", ' The bartender'),90.0
+91,jurassic-large,subject-control,the lawyer,the bartender,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to come.
+
+Question:  Who came, the lawyer or the bartender?
+Answer: ", ' The lawyer'),91.0
+92,jurassic-large,subject-control,the lawyer,the bartender,True,promised,to go,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to go.
+
+Question:  Who went, the bartender or the lawyer?
+Answer: ", ' The bartender'),92.0
+93,jurassic-large,subject-control,the lawyer,the bartender,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to go.
+
+Question:  Who went, the lawyer or the bartender?
+Answer: ", ' The lawyer'),93.0
+94,jurassic-large,subject-control,the lawyer,the bartender,True,promised,to read,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to read.
+
+Question:  Who read, the bartender or the lawyer?
+Answer: ", ' The bartender'),94.0
+95,jurassic-large,subject-control,the lawyer,the bartender,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to read.
+
+Question:  Who read, the lawyer or the bartender?
+Answer: ", ' The lawyer'),95.0
+96,jurassic-large,subject-control,the lawyer,the bartender,True,promised,to run,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to run.
+
+Question:  Who ran, the bartender or the lawyer?
+Answer: ", ' The bartender'),96.0
+97,jurassic-large,subject-control,the lawyer,the bartender,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to run.
+
+Question:  Who ran, the lawyer or the bartender?
+Answer: ", ' The lawyer'),97.0
+98,jurassic-large,subject-control,the lawyer,the bartender,True,promised,to call,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to call.
+
+Question:  Who called, the bartender or the lawyer?
+Answer: ", ' The bartender'),98.0
+99,jurassic-large,subject-control,the lawyer,the bartender,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to call.
+
+Question:  Who called, the lawyer or the bartender?
+Answer: ", ' The lawyer'),99.0
+100,jurassic-large,subject-control,the engineer,the doctor,True,promised,to come,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to come.
+
+Question:  Who came, the doctor or the engineer?
+Answer: ", ' The doctor came'),100.0
+101,jurassic-large,subject-control,the engineer,the doctor,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to come.
+
+Question:  Who came, the engineer or the doctor?
+Answer: ", ' The engineer'),101.0
+102,jurassic-large,subject-control,the engineer,the doctor,True,promised,to go,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to go.
+
+Question:  Who went, the doctor or the engineer?
+Answer: ", ' The doctor went'),102.0
+103,jurassic-large,subject-control,the engineer,the doctor,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to go.
+
+Question:  Who went, the engineer or the doctor?
+Answer: ", ' The engineer'),103.0
+104,jurassic-large,subject-control,the engineer,the doctor,True,promised,to read,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to read.
+
+Question:  Who read, the doctor or the engineer?
+Answer: ", ' The doctor read'),104.0
+105,jurassic-large,subject-control,the engineer,the doctor,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to read.
+
+Question:  Who read, the engineer or the doctor?
+Answer: ", ' The engineer'),105.0
+106,jurassic-large,subject-control,the engineer,the doctor,True,promised,to run,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to run.
+
+Question:  Who ran, the doctor or the engineer?
+Answer: ", ' The doctor ran'),106.0
+107,jurassic-large,subject-control,the engineer,the doctor,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to run.
+
+Question:  Who ran, the engineer or the doctor?
+Answer: ", ' The engineer'),107.0
+108,jurassic-large,subject-control,the engineer,the doctor,True,promised,to call,the engineer,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to call.
+
+Question:  Who called, the doctor or the engineer?
+Answer: ", ' The doctor.'),108.0
+109,jurassic-large,subject-control,the engineer,the doctor,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to call.
+
+Question:  Who called, the engineer or the doctor?
+Answer: ", ' The engineer'),109.0
+110,jurassic-large,subject-control,the engineer,the lawyer,True,promised,to come,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to come.
+
+Question:  Who came, the lawyer or the engineer?
+Answer: ", ' The lawyer'),110.0
+111,jurassic-large,subject-control,the engineer,the lawyer,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to come.
+
+Question:  Who came, the engineer or the lawyer?
+Answer: ", ' The engineer'),111.0
+112,jurassic-large,subject-control,the engineer,the lawyer,True,promised,to go,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to go.
+
+Question:  Who went, the lawyer or the engineer?
+Answer: ", ' The lawyer'),112.0
+113,jurassic-large,subject-control,the engineer,the lawyer,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to go.
+
+Question:  Who went, the engineer or the lawyer?
+Answer: ", ' The engineer'),113.0
+114,jurassic-large,subject-control,the engineer,the lawyer,True,promised,to read,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to read.
+
+Question:  Who read, the lawyer or the engineer?
+Answer: ", ' The lawyer'),114.0
+115,jurassic-large,subject-control,the engineer,the lawyer,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to read.
+
+Question:  Who read, the engineer or the lawyer?
+Answer: ", ' The engineer'),115.0
+116,jurassic-large,subject-control,the engineer,the lawyer,True,promised,to run,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the engineer?
+Answer: ", ' The lawyer'),116.0
+117,jurassic-large,subject-control,the engineer,the lawyer,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to run.
+
+Question:  Who ran, the engineer or the lawyer?
+Answer: ", ' The engineer'),117.0
+118,jurassic-large,subject-control,the engineer,the lawyer,True,promised,to call,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to call.
+
+Question:  Who called, the lawyer or the engineer?
+Answer: ", ' The lawyer'),118.0
+119,jurassic-large,subject-control,the engineer,the lawyer,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to call.
+
+Question:  Who called, the engineer or the lawyer?
+Answer: ", ' The engineer'),119.0
+120,jurassic-large,subject-control,the engineer,the writer,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to come.
+
+Question:  Who came, the writer or the engineer?
+Answer: ", ' The engineer'),120.0
+121,jurassic-large,subject-control,the engineer,the writer,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to come.
+
+Question:  Who came, the engineer or the writer?
+Answer: ", ' The engineer'),121.0
+122,jurassic-large,subject-control,the engineer,the writer,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to go.
+
+Question:  Who went, the writer or the engineer?
+Answer: ", ' The engineer'),122.0
+123,jurassic-large,subject-control,the engineer,the writer,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to go.
+
+Question:  Who went, the engineer or the writer?
+Answer: ", ' The engineer'),123.0
+124,jurassic-large,subject-control,the engineer,the writer,True,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to read.
+
+Question:  Who read, the writer or the engineer?
+Answer: ", ' The engineer'),124.0
+125,jurassic-large,subject-control,the engineer,the writer,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to read.
+
+Question:  Who read, the engineer or the writer?
+Answer: ", ' The engineer'),125.0
+126,jurassic-large,subject-control,the engineer,the writer,True,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to run.
+
+Question:  Who ran, the writer or the engineer?
+Answer: ", ' The engineer'),126.0
+127,jurassic-large,subject-control,the engineer,the writer,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to run.
+
+Question:  Who ran, the engineer or the writer?
+Answer: ", ' The engineer'),127.0
+128,jurassic-large,subject-control,the engineer,the writer,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to call.
+
+Question:  Who called, the writer or the engineer?
+Answer: ", ' The engineer'),128.0
+129,jurassic-large,subject-control,the engineer,the writer,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to call.
+
+Question:  Who called, the engineer or the writer?
+Answer: ", ' The engineer'),129.0
+130,jurassic-large,subject-control,the engineer,the janitor,True,promised,to come,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to come.
+
+Question:  Who came, the janitor or the engineer?
+Answer: ", ' The janitor'),130.0
+131,jurassic-large,subject-control,the engineer,the janitor,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to come.
+
+Question:  Who came, the engineer or the janitor?
+Answer: ", ' The engineer'),131.0
+132,jurassic-large,subject-control,the engineer,the janitor,True,promised,to go,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to go.
+
+Question:  Who went, the janitor or the engineer?
+Answer: ", ' The janitor'),132.0
+133,jurassic-large,subject-control,the engineer,the janitor,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to go.
+
+Question:  Who went, the engineer or the janitor?
+Answer: ", ' The engineer'),133.0
+134,jurassic-large,subject-control,the engineer,the janitor,True,promised,to read,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to read.
+
+Question:  Who read, the janitor or the engineer?
+Answer: ", ' The janitor'),134.0
+135,jurassic-large,subject-control,the engineer,the janitor,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to read.
+
+Question:  Who read, the engineer or the janitor?
+Answer: ", ' The engineer'),135.0
+136,jurassic-large,subject-control,the engineer,the janitor,True,promised,to run,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to run.
+
+Question:  Who ran, the janitor or the engineer?
+Answer: ", ' The janitor'),136.0
+137,jurassic-large,subject-control,the engineer,the janitor,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to run.
+
+Question:  Who ran, the engineer or the janitor?
+Answer: ", ' The engineer'),137.0
+138,jurassic-large,subject-control,the engineer,the janitor,True,promised,to call,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to call.
+
+Question:  Who called, the janitor or the engineer?
+Answer: ", ' The janitor'),138.0
+139,jurassic-large,subject-control,the engineer,the janitor,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to call.
+
+Question:  Who called, the engineer or the janitor?
+Answer: ", ' The engineer'),139.0
+140,jurassic-large,subject-control,the engineer,the bartender,True,promised,to come,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to come.
+
+Question:  Who came, the bartender or the engineer?
+Answer: ", ' The bartender'),140.0
+141,jurassic-large,subject-control,the engineer,the bartender,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to come.
+
+Question:  Who came, the engineer or the bartender?
+Answer: ", ' The engineer'),141.0
+142,jurassic-large,subject-control,the engineer,the bartender,True,promised,to go,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to go.
+
+Question:  Who went, the bartender or the engineer?
+Answer: ", ' The bartender'),142.0
+143,jurassic-large,subject-control,the engineer,the bartender,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to go.
+
+Question:  Who went, the engineer or the bartender?
+Answer: ", ' The engineer'),143.0
+144,jurassic-large,subject-control,the engineer,the bartender,True,promised,to read,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to read.
+
+Question:  Who read, the bartender or the engineer?
+Answer: ", ' The bartender'),144.0
+145,jurassic-large,subject-control,the engineer,the bartender,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to read.
+
+Question:  Who read, the engineer or the bartender?
+Answer: ", ' The engineer'),145.0
+146,jurassic-large,subject-control,the engineer,the bartender,True,promised,to run,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to run.
+
+Question:  Who ran, the bartender or the engineer?
+Answer: ", ' The bartender'),146.0
+147,jurassic-large,subject-control,the engineer,the bartender,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to run.
+
+Question:  Who ran, the engineer or the bartender?
+Answer: ", ' The engineer'),147.0
+148,jurassic-large,subject-control,the engineer,the bartender,True,promised,to call,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to call.
+
+Question:  Who called, the bartender or the engineer?
+Answer: ", ' The bartender'),148.0
+149,jurassic-large,subject-control,the engineer,the bartender,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to call.
+
+Question:  Who called, the engineer or the bartender?
+Answer: ", ' The engineer'),149.0
+150,jurassic-large,subject-control,the writer,the doctor,True,promised,to come,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to come.
+
+Question:  Who came, the doctor or the writer?
+Answer: ", ' The doctor came'),150.0
+151,jurassic-large,subject-control,the writer,the doctor,False,promised,to come,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to come.
+
+Question:  Who came, the writer or the doctor?
+Answer: ", ' The doctor came'),151.0
+152,jurassic-large,subject-control,the writer,the doctor,True,promised,to go,the writer,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to go.
+
+Question:  Who went, the doctor or the writer?
+Answer: ", ' The doctor.'),152.0
+153,jurassic-large,subject-control,the writer,the doctor,False,promised,to go,the writer,other,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to go.
+
+Question:  Who went, the writer or the doctor?
+Answer: ", ' The doctor.'),153.0
+154,jurassic-large,subject-control,the writer,the doctor,True,promised,to read,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to read.
+
+Question:  Who read, the doctor or the writer?
+Answer: ", ' The doctor read'),154.0
+155,jurassic-large,subject-control,the writer,the doctor,False,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to read.
+
+Question:  Who read, the writer or the doctor?
+Answer: ", ' The writer'),155.0
+156,jurassic-large,subject-control,the writer,the doctor,True,promised,to run,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to run.
+
+Question:  Who ran, the doctor or the writer?
+Answer: ", ' The doctor ran'),156.0
+157,jurassic-large,subject-control,the writer,the doctor,False,promised,to run,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to run.
+
+Question:  Who ran, the writer or the doctor?
+Answer: ", ' The doctor ran'),157.0
+158,jurassic-large,subject-control,the writer,the doctor,True,promised,to call,the writer,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to call.
+
+Question:  Who called, the doctor or the writer?
+Answer: ", ' The doctor.'),158.0
+159,jurassic-large,subject-control,the writer,the doctor,False,promised,to call,the writer,other,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to call.
+
+Question:  Who called, the writer or the doctor?
+Answer: ", ' The doctor.'),159.0
+160,jurassic-large,subject-control,the writer,the lawyer,True,promised,to come,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to come.
+
+Question:  Who came, the lawyer or the writer?
+Answer: ", ' The lawyer'),160.0
+161,jurassic-large,subject-control,the writer,the lawyer,False,promised,to come,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to come.
+
+Question:  Who came, the writer or the lawyer?
+Answer: ", ' The lawyer'),161.0
+162,jurassic-large,subject-control,the writer,the lawyer,True,promised,to go,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to go.
+
+Question:  Who went, the lawyer or the writer?
+Answer: ", ' The lawyer'),162.0
+163,jurassic-large,subject-control,the writer,the lawyer,False,promised,to go,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to go.
+
+Question:  Who went, the writer or the lawyer?
+Answer: ", ' The lawyer'),163.0
+164,jurassic-large,subject-control,the writer,the lawyer,True,promised,to read,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to read.
+
+Question:  Who read, the lawyer or the writer?
+Answer: ", ' The lawyer'),164.0
+165,jurassic-large,subject-control,the writer,the lawyer,False,promised,to read,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to read.
+
+Question:  Who read, the writer or the lawyer?
+Answer: ", ' The lawyer'),165.0
+166,jurassic-large,subject-control,the writer,the lawyer,True,promised,to run,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the writer?
+Answer: ", ' The lawyer'),166.0
+167,jurassic-large,subject-control,the writer,the lawyer,False,promised,to run,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to run.
+
+Question:  Who ran, the writer or the lawyer?
+Answer: ", ' The lawyer'),167.0
+168,jurassic-large,subject-control,the writer,the lawyer,True,promised,to call,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to call.
+
+Question:  Who called, the lawyer or the writer?
+Answer: ", ' The lawyer'),168.0
+169,jurassic-large,subject-control,the writer,the lawyer,False,promised,to call,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to call.
+
+Question:  Who called, the writer or the lawyer?
+Answer: ", ' The lawyer'),169.0
+170,jurassic-large,subject-control,the writer,the engineer,True,promised,to come,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to come.
+
+Question:  Who came, the engineer or the writer?
+Answer: ", ' The engineer'),170.0
+171,jurassic-large,subject-control,the writer,the engineer,False,promised,to come,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to come.
+
+Question:  Who came, the writer or the engineer?
+Answer: ", ' The engineer'),171.0
+172,jurassic-large,subject-control,the writer,the engineer,True,promised,to go,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to go.
+
+Question:  Who went, the engineer or the writer?
+Answer: ", ' The engineer'),172.0
+173,jurassic-large,subject-control,the writer,the engineer,False,promised,to go,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to go.
+
+Question:  Who went, the writer or the engineer?
+Answer: ", ' The engineer'),173.0
+174,jurassic-large,subject-control,the writer,the engineer,True,promised,to read,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to read.
+
+Question:  Who read, the engineer or the writer?
+Answer: ", ' The engineer'),174.0
+175,jurassic-large,subject-control,the writer,the engineer,False,promised,to read,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to read.
+
+Question:  Who read, the writer or the engineer?
+Answer: ", ' The engineer'),175.0
+176,jurassic-large,subject-control,the writer,the engineer,True,promised,to run,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to run.
+
+Question:  Who ran, the engineer or the writer?
+Answer: ", ' The engineer'),176.0
+177,jurassic-large,subject-control,the writer,the engineer,False,promised,to run,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to run.
+
+Question:  Who ran, the writer or the engineer?
+Answer: ", ' The engineer'),177.0
+178,jurassic-large,subject-control,the writer,the engineer,True,promised,to call,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to call.
+
+Question:  Who called, the engineer or the writer?
+Answer: ", ' The engineer'),178.0
+179,jurassic-large,subject-control,the writer,the engineer,False,promised,to call,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to call.
+
+Question:  Who called, the writer or the engineer?
+Answer: ", ' The engineer'),179.0
+180,jurassic-large,subject-control,the writer,the janitor,True,promised,to come,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to come.
+
+Question:  Who came, the janitor or the writer?
+Answer: ", ' The janitor'),180.0
+181,jurassic-large,subject-control,the writer,the janitor,False,promised,to come,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to come.
+
+Question:  Who came, the writer or the janitor?
+Answer: ", ' The janitor'),181.0
+182,jurassic-large,subject-control,the writer,the janitor,True,promised,to go,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to go.
+
+Question:  Who went, the janitor or the writer?
+Answer: ", ' The janitor'),182.0
+183,jurassic-large,subject-control,the writer,the janitor,False,promised,to go,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to go.
+
+Question:  Who went, the writer or the janitor?
+Answer: ", ' The janitor'),183.0
+184,jurassic-large,subject-control,the writer,the janitor,True,promised,to read,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to read.
+
+Question:  Who read, the janitor or the writer?
+Answer: ", ' The janitor'),184.0
+185,jurassic-large,subject-control,the writer,the janitor,False,promised,to read,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to read.
+
+Question:  Who read, the writer or the janitor?
+Answer: ", ' The janitor'),185.0
+186,jurassic-large,subject-control,the writer,the janitor,True,promised,to run,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to run.
+
+Question:  Who ran, the janitor or the writer?
+Answer: ", ' The janitor'),186.0
+187,jurassic-large,subject-control,the writer,the janitor,False,promised,to run,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to run.
+
+Question:  Who ran, the writer or the janitor?
+Answer: ", ' The janitor'),187.0
+188,jurassic-large,subject-control,the writer,the janitor,True,promised,to call,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to call.
+
+Question:  Who called, the janitor or the writer?
+Answer: ", ' The janitor'),188.0
+189,jurassic-large,subject-control,the writer,the janitor,False,promised,to call,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to call.
+
+Question:  Who called, the writer or the janitor?
+Answer: ", ' The janitor'),189.0
+190,jurassic-large,subject-control,the writer,the bartender,True,promised,to come,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to come.
+
+Question:  Who came, the bartender or the writer?
+Answer: ", ' The bartender'),190.0
+191,jurassic-large,subject-control,the writer,the bartender,False,promised,to come,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to come.
+
+Question:  Who came, the writer or the bartender?
+Answer: ", ' The bartender'),191.0
+192,jurassic-large,subject-control,the writer,the bartender,True,promised,to go,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to go.
+
+Question:  Who went, the bartender or the writer?
+Answer: ", ' The bartender'),192.0
+193,jurassic-large,subject-control,the writer,the bartender,False,promised,to go,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to go.
+
+Question:  Who went, the writer or the bartender?
+Answer: ", ' The bartender'),193.0
+194,jurassic-large,subject-control,the writer,the bartender,True,promised,to read,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to read.
+
+Question:  Who read, the bartender or the writer?
+Answer: ", ' The bartender'),194.0
+195,jurassic-large,subject-control,the writer,the bartender,False,promised,to read,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to read.
+
+Question:  Who read, the writer or the bartender?
+Answer: ", ' The bartender'),195.0
+196,jurassic-large,subject-control,the writer,the bartender,True,promised,to run,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to run.
+
+Question:  Who ran, the bartender or the writer?
+Answer: ", ' The bartender'),196.0
+197,jurassic-large,subject-control,the writer,the bartender,False,promised,to run,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to run.
+
+Question:  Who ran, the writer or the bartender?
+Answer: ", ' The bartender'),197.0
+198,jurassic-large,subject-control,the writer,the bartender,True,promised,to call,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to call.
+
+Question:  Who called, the bartender or the writer?
+Answer: ", ' The bartender'),198.0
+199,jurassic-large,subject-control,the writer,the bartender,False,promised,to call,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to call.
+
+Question:  Who called, the writer or the bartender?
+Answer: ", ' The bartender'),199.0
+200,jurassic-large,subject-control,the janitor,the doctor,True,promised,to come,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to come.
+
+Question:  Who came, the doctor or the janitor?
+Answer: ", ' The doctor came'),200.0
+201,jurassic-large,subject-control,the janitor,the doctor,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to come.
+
+Question:  Who came, the janitor or the doctor?
+Answer: ", ' The janitor'),201.0
+202,jurassic-large,subject-control,the janitor,the doctor,True,promised,to go,the janitor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to go.
+
+Question:  Who went, the doctor or the janitor?
+Answer: ", ' The doctor.'),202.0
+203,jurassic-large,subject-control,the janitor,the doctor,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to go.
+
+Question:  Who went, the janitor or the doctor?
+Answer: ", ' The janitor'),203.0
+204,jurassic-large,subject-control,the janitor,the doctor,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to read.
+
+Question:  Who read, the doctor or the janitor?
+Answer: ", ' The janitor'),204.0
+205,jurassic-large,subject-control,the janitor,the doctor,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to read.
+
+Question:  Who read, the janitor or the doctor?
+Answer: ", ' The janitor'),205.0
+206,jurassic-large,subject-control,the janitor,the doctor,True,promised,to run,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to run.
+
+Question:  Who ran, the doctor or the janitor?
+Answer: ", ' The doctor ran'),206.0
+207,jurassic-large,subject-control,the janitor,the doctor,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to run.
+
+Question:  Who ran, the janitor or the doctor?
+Answer: ", ' The janitor'),207.0
+208,jurassic-large,subject-control,the janitor,the doctor,True,promised,to call,the janitor,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to call.
+
+Question:  Who called, the doctor or the janitor?
+Answer: ", ' The doctor.'),208.0
+209,jurassic-large,subject-control,the janitor,the doctor,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to call.
+
+Question:  Who called, the janitor or the doctor?
+Answer: ", ' The janitor'),209.0
+210,jurassic-large,subject-control,the janitor,the lawyer,True,promised,to come,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to come.
+
+Question:  Who came, the lawyer or the janitor?
+Answer: ", ' The lawyer'),210.0
+211,jurassic-large,subject-control,the janitor,the lawyer,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to come.
+
+Question:  Who came, the janitor or the lawyer?
+Answer: ", ' The janitor'),211.0
+212,jurassic-large,subject-control,the janitor,the lawyer,True,promised,to go,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to go.
+
+Question:  Who went, the lawyer or the janitor?
+Answer: ", ' The lawyer'),212.0
+213,jurassic-large,subject-control,the janitor,the lawyer,False,promised,to go,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to go.
+
+Question:  Who went, the janitor or the lawyer?
+Answer: ", ' The lawyer'),213.0
+214,jurassic-large,subject-control,the janitor,the lawyer,True,promised,to read,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to read.
+
+Question:  Who read, the lawyer or the janitor?
+Answer: ", ' The lawyer'),214.0
+215,jurassic-large,subject-control,the janitor,the lawyer,False,promised,to read,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to read.
+
+Question:  Who read, the janitor or the lawyer?
+Answer: ", ' The lawyer'),215.0
+216,jurassic-large,subject-control,the janitor,the lawyer,True,promised,to run,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the janitor?
+Answer: ", ' The lawyer'),216.0
+217,jurassic-large,subject-control,the janitor,the lawyer,False,promised,to run,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to run.
+
+Question:  Who ran, the janitor or the lawyer?
+Answer: ", ' The lawyer'),217.0
+218,jurassic-large,subject-control,the janitor,the lawyer,True,promised,to call,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to call.
+
+Question:  Who called, the lawyer or the janitor?
+Answer: ", ' The lawyer'),218.0
+219,jurassic-large,subject-control,the janitor,the lawyer,False,promised,to call,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to call.
+
+Question:  Who called, the janitor or the lawyer?
+Answer: ", ' The lawyer'),219.0
+220,jurassic-large,subject-control,the janitor,the engineer,True,promised,to come,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to come.
+
+Question:  Who came, the engineer or the janitor?
+Answer: ", ' The engineer'),220.0
+221,jurassic-large,subject-control,the janitor,the engineer,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to come.
+
+Question:  Who came, the janitor or the engineer?
+Answer: ", ' The janitor'),221.0
+222,jurassic-large,subject-control,the janitor,the engineer,True,promised,to go,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to go.
+
+Question:  Who went, the engineer or the janitor?
+Answer: ", ' The engineer'),222.0
+223,jurassic-large,subject-control,the janitor,the engineer,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to go.
+
+Question:  Who went, the janitor or the engineer?
+Answer: ", ' The janitor'),223.0
+224,jurassic-large,subject-control,the janitor,the engineer,True,promised,to read,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to read.
+
+Question:  Who read, the engineer or the janitor?
+Answer: ", ' The engineer'),224.0
+225,jurassic-large,subject-control,the janitor,the engineer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to read.
+
+Question:  Who read, the janitor or the engineer?
+Answer: ", ' The janitor'),225.0
+226,jurassic-large,subject-control,the janitor,the engineer,True,promised,to run,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to run.
+
+Question:  Who ran, the engineer or the janitor?
+Answer: ", ' The engineer'),226.0
+227,jurassic-large,subject-control,the janitor,the engineer,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to run.
+
+Question:  Who ran, the janitor or the engineer?
+Answer: ", ' The janitor'),227.0
+228,jurassic-large,subject-control,the janitor,the engineer,True,promised,to call,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to call.
+
+Question:  Who called, the engineer or the janitor?
+Answer: ", ' The engineer'),228.0
+229,jurassic-large,subject-control,the janitor,the engineer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to call.
+
+Question:  Who called, the janitor or the engineer?
+Answer: ", ' The janitor'),229.0
+230,jurassic-large,subject-control,the janitor,the writer,True,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to come.
+
+Question:  Who came, the writer or the janitor?
+Answer: ", ' The janitor'),230.0
+231,jurassic-large,subject-control,the janitor,the writer,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to come.
+
+Question:  Who came, the janitor or the writer?
+Answer: ", ' The janitor'),231.0
+232,jurassic-large,subject-control,the janitor,the writer,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to go.
+
+Question:  Who went, the writer or the janitor?
+Answer: ", ' The janitor'),232.0
+233,jurassic-large,subject-control,the janitor,the writer,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to go.
+
+Question:  Who went, the janitor or the writer?
+Answer: ", ' The janitor'),233.0
+234,jurassic-large,subject-control,the janitor,the writer,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to read.
+
+Question:  Who read, the writer or the janitor?
+Answer: ", ' The janitor'),234.0
+235,jurassic-large,subject-control,the janitor,the writer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to read.
+
+Question:  Who read, the janitor or the writer?
+Answer: ", ' The janitor'),235.0
+236,jurassic-large,subject-control,the janitor,the writer,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to run.
+
+Question:  Who ran, the writer or the janitor?
+Answer: ", ' The janitor'),236.0
+237,jurassic-large,subject-control,the janitor,the writer,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to run.
+
+Question:  Who ran, the janitor or the writer?
+Answer: ", ' The janitor'),237.0
+238,jurassic-large,subject-control,the janitor,the writer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to call.
+
+Question:  Who called, the writer or the janitor?
+Answer: ", ' The janitor'),238.0
+239,jurassic-large,subject-control,the janitor,the writer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to call.
+
+Question:  Who called, the janitor or the writer?
+Answer: ", ' The janitor'),239.0
+240,jurassic-large,subject-control,the janitor,the bartender,True,promised,to come,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to come.
+
+Question:  Who came, the bartender or the janitor?
+Answer: ", ' The bartender'),240.0
+241,jurassic-large,subject-control,the janitor,the bartender,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to come.
+
+Question:  Who came, the janitor or the bartender?
+Answer: ", ' The janitor'),241.0
+242,jurassic-large,subject-control,the janitor,the bartender,True,promised,to go,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to go.
+
+Question:  Who went, the bartender or the janitor?
+Answer: ", ' The bartender'),242.0
+243,jurassic-large,subject-control,the janitor,the bartender,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to go.
+
+Question:  Who went, the janitor or the bartender?
+Answer: ", ' The janitor'),243.0
+244,jurassic-large,subject-control,the janitor,the bartender,True,promised,to read,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to read.
+
+Question:  Who read, the bartender or the janitor?
+Answer: ", ' The bartender'),244.0
+245,jurassic-large,subject-control,the janitor,the bartender,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to read.
+
+Question:  Who read, the janitor or the bartender?
+Answer: ", ' The janitor'),245.0
+246,jurassic-large,subject-control,the janitor,the bartender,True,promised,to run,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to run.
+
+Question:  Who ran, the bartender or the janitor?
+Answer: ", ' The bartender'),246.0
+247,jurassic-large,subject-control,the janitor,the bartender,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to run.
+
+Question:  Who ran, the janitor or the bartender?
+Answer: ", ' The janitor'),247.0
+248,jurassic-large,subject-control,the janitor,the bartender,True,promised,to call,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to call.
+
+Question:  Who called, the bartender or the janitor?
+Answer: ", ' The bartender'),248.0
+249,jurassic-large,subject-control,the janitor,the bartender,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to call.
+
+Question:  Who called, the janitor or the bartender?
+Answer: ", ' The janitor'),249.0
+250,jurassic-large,subject-control,the bartender,the doctor,True,promised,to come,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to come.
+
+Question:  Who came, the doctor or the bartender?
+Answer: ", ' The doctor came'),250.0
+251,jurassic-large,subject-control,the bartender,the doctor,False,promised,to come,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to come.
+
+Question:  Who came, the bartender or the doctor?
+Answer: ", ' The doctor came'),251.0
+252,jurassic-large,subject-control,the bartender,the doctor,True,promised,to go,the bartender,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to go.
+
+Question:  Who went, the doctor or the bartender?
+Answer: ", ' The doctor.'),252.0
+253,jurassic-large,subject-control,the bartender,the doctor,False,promised,to go,the bartender,other,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to go.
+
+Question:  Who went, the bartender or the doctor?
+Answer: ", ' The doctor.'),253.0
+254,jurassic-large,subject-control,the bartender,the doctor,True,promised,to read,the bartender,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to read.
+
+Question:  Who read, the doctor or the bartender?
+Answer: ", ' The doctor.'),254.0
+255,jurassic-large,subject-control,the bartender,the doctor,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to read.
+
+Question:  Who read, the bartender or the doctor?
+Answer: ", ' The bartender'),255.0
+256,jurassic-large,subject-control,the bartender,the doctor,True,promised,to run,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to run.
+
+Question:  Who ran, the doctor or the bartender?
+Answer: ", ' The doctor ran'),256.0
+257,jurassic-large,subject-control,the bartender,the doctor,False,promised,to run,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to run.
+
+Question:  Who ran, the bartender or the doctor?
+Answer: ", ' The doctor ran'),257.0
+258,jurassic-large,subject-control,the bartender,the doctor,True,promised,to call,the bartender,other,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to call.
+
+Question:  Who called, the doctor or the bartender?
+Answer: ", ' The doctor.'),258.0
+259,jurassic-large,subject-control,the bartender,the doctor,False,promised,to call,the bartender,other,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to call.
+
+Question:  Who called, the bartender or the doctor?
+Answer: ", ' the bartender.'),259.0
+260,jurassic-large,subject-control,the bartender,the lawyer,True,promised,to come,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to come.
+
+Question:  Who came, the lawyer or the bartender?
+Answer: ", ' The lawyer'),260.0
+261,jurassic-large,subject-control,the bartender,the lawyer,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to come.
+
+Question:  Who came, the bartender or the lawyer?
+Answer: ", ' The bartender'),261.0
+262,jurassic-large,subject-control,the bartender,the lawyer,True,promised,to go,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to go.
+
+Question:  Who went, the lawyer or the bartender?
+Answer: ", ' The lawyer'),262.0
+263,jurassic-large,subject-control,the bartender,the lawyer,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to go.
+
+Question:  Who went, the bartender or the lawyer?
+Answer: ", ' The bartender'),263.0
+264,jurassic-large,subject-control,the bartender,the lawyer,True,promised,to read,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to read.
+
+Question:  Who read, the lawyer or the bartender?
+Answer: ", ' The lawyer'),264.0
+265,jurassic-large,subject-control,the bartender,the lawyer,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to read.
+
+Question:  Who read, the bartender or the lawyer?
+Answer: ", ' The bartender'),265.0
+266,jurassic-large,subject-control,the bartender,the lawyer,True,promised,to run,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the bartender?
+Answer: ", ' The lawyer'),266.0
+267,jurassic-large,subject-control,the bartender,the lawyer,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to run.
+
+Question:  Who ran, the bartender or the lawyer?
+Answer: ", ' The bartender'),267.0
+268,jurassic-large,subject-control,the bartender,the lawyer,True,promised,to call,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to call.
+
+Question:  Who called, the lawyer or the bartender?
+Answer: ", ' The lawyer'),268.0
+269,jurassic-large,subject-control,the bartender,the lawyer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to call.
+
+Question:  Who called, the bartender or the lawyer?
+Answer: ", ' The bartender'),269.0
+270,jurassic-large,subject-control,the bartender,the engineer,True,promised,to come,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to come.
+
+Question:  Who came, the engineer or the bartender?
+Answer: ", ' The engineer'),270.0
+271,jurassic-large,subject-control,the bartender,the engineer,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to come.
+
+Question:  Who came, the bartender or the engineer?
+Answer: ", ' The bartender'),271.0
+272,jurassic-large,subject-control,the bartender,the engineer,True,promised,to go,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to go.
+
+Question:  Who went, the engineer or the bartender?
+Answer: ", ' The engineer'),272.0
+273,jurassic-large,subject-control,the bartender,the engineer,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to go.
+
+Question:  Who went, the bartender or the engineer?
+Answer: ", ' The bartender'),273.0
+274,jurassic-large,subject-control,the bartender,the engineer,True,promised,to read,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to read.
+
+Question:  Who read, the engineer or the bartender?
+Answer: ", ' The engineer'),274.0
+275,jurassic-large,subject-control,the bartender,the engineer,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to read.
+
+Question:  Who read, the bartender or the engineer?
+Answer: ", ' The bartender'),275.0
+276,jurassic-large,subject-control,the bartender,the engineer,True,promised,to run,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to run.
+
+Question:  Who ran, the engineer or the bartender?
+Answer: ", ' The engineer'),276.0
+277,jurassic-large,subject-control,the bartender,the engineer,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to run.
+
+Question:  Who ran, the bartender or the engineer?
+Answer: ", ' The bartender'),277.0
+278,jurassic-large,subject-control,the bartender,the engineer,True,promised,to call,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to call.
+
+Question:  Who called, the engineer or the bartender?
+Answer: ", ' The engineer'),278.0
+279,jurassic-large,subject-control,the bartender,the engineer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to call.
+
+Question:  Who called, the bartender or the engineer?
+Answer: ", ' The bartender'),279.0
+280,jurassic-large,subject-control,the bartender,the writer,True,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to come.
+
+Question:  Who came, the writer or the bartender?
+Answer: ", ' The bartender'),280.0
+281,jurassic-large,subject-control,the bartender,the writer,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to come.
+
+Question:  Who came, the bartender or the writer?
+Answer: ", ' The bartender'),281.0
+282,jurassic-large,subject-control,the bartender,the writer,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to go.
+
+Question:  Who went, the writer or the bartender?
+Answer: ", ' The bartender'),282.0
+283,jurassic-large,subject-control,the bartender,the writer,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to go.
+
+Question:  Who went, the bartender or the writer?
+Answer: ", ' The bartender'),283.0
+284,jurassic-large,subject-control,the bartender,the writer,True,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to read.
+
+Question:  Who read, the writer or the bartender?
+Answer: ", ' The bartender'),284.0
+285,jurassic-large,subject-control,the bartender,the writer,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to read.
+
+Question:  Who read, the bartender or the writer?
+Answer: ", ' The bartender'),285.0
+286,jurassic-large,subject-control,the bartender,the writer,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to run.
+
+Question:  Who ran, the writer or the bartender?
+Answer: ", ' The bartender'),286.0
+287,jurassic-large,subject-control,the bartender,the writer,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to run.
+
+Question:  Who ran, the bartender or the writer?
+Answer: ", ' The bartender'),287.0
+288,jurassic-large,subject-control,the bartender,the writer,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to call.
+
+Question:  Who called, the writer or the bartender?
+Answer: ", ' The bartender'),288.0
+289,jurassic-large,subject-control,the bartender,the writer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to call.
+
+Question:  Who called, the bartender or the writer?
+Answer: ", ' The bartender'),289.0
+290,jurassic-large,subject-control,the bartender,the janitor,True,promised,to come,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to come.
+
+Question:  Who came, the janitor or the bartender?
+Answer: ", ' The janitor'),290.0
+291,jurassic-large,subject-control,the bartender,the janitor,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to come.
+
+Question:  Who came, the bartender or the janitor?
+Answer: ", ' The bartender'),291.0
+292,jurassic-large,subject-control,the bartender,the janitor,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to go.
+
+Question:  Who went, the janitor or the bartender?
+Answer: ", ' The bartender'),292.0
+293,jurassic-large,subject-control,the bartender,the janitor,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to go.
+
+Question:  Who went, the bartender or the janitor?
+Answer: ", ' The bartender'),293.0
+294,jurassic-large,subject-control,the bartender,the janitor,True,promised,to read,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to read.
+
+Question:  Who read, the janitor or the bartender?
+Answer: ", ' The janitor'),294.0
+295,jurassic-large,subject-control,the bartender,the janitor,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to read.
+
+Question:  Who read, the bartender or the janitor?
+Answer: ", ' The bartender'),295.0
+296,jurassic-large,subject-control,the bartender,the janitor,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to run.
+
+Question:  Who ran, the janitor or the bartender?
+Answer: ", ' The bartender'),296.0
+297,jurassic-large,subject-control,the bartender,the janitor,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to run.
+
+Question:  Who ran, the bartender or the janitor?
+Answer: ", ' The bartender'),297.0
+298,jurassic-large,subject-control,the bartender,the janitor,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to call.
+
+Question:  Who called, the janitor or the bartender?
+Answer: ", ' The bartender'),298.0
+299,jurassic-large,subject-control,the bartender,the janitor,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to call.
+
+Question:  Who called, the bartender or the janitor?
+Answer: ", ' The bartender'),299.0

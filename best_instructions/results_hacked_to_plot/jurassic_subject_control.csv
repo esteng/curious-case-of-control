@@ -1,0 +1,1351 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,jurassic-large,subject-control,Avery,Casey,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to come.
+
+Question: Who was promised something, Avery or Casey?
+Answer: Casey
+Question: Who promised someone to come, Avery or Casey?
+Answer: Avery
+Question: Who came, Avery or Casey?
+Answer: ", '(A'),0.0
+1,jurassic-large,subject-control,Avery,Casey,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to go.
+
+Question: Who promised someone to go, Avery or Casey?
+Answer: Avery
+Question: Who was promised something, Avery or Casey?
+Answer: Casey
+Question: Who went, Avery or Casey?
+Answer: ", '(A'),1.0
+2,jurassic-large,subject-control,Avery,Casey,False,promised,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to read.
+
+Question: Who was promised something, Avery or Casey?
+Answer: Casey
+Question: Who promised someone to read, Avery or Casey?
+Answer: Avery
+Question: Who read, Avery or Casey?
+Answer: ", 'NONE\n'),2.0
+3,jurassic-large,subject-control,Avery,Casey,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to run.
+
+Question: Who was promised something, Avery or Casey?
+Answer: Casey
+Question: Who promised someone to run, Avery or Casey?
+Answer: Avery
+Question: Who ran, Avery or Casey?
+Answer: ", '(A'),3.0
+4,jurassic-large,subject-control,Avery,Casey,False,promised,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery promised Casey to call.
+
+Question: Who was promised something, Avery or Casey?
+Answer: Casey
+Question: Who promised someone to call, Avery or Casey?
+Answer: Avery
+Question: Who called, Avery or Casey?
+Answer: ", 'NONE\n'),4.0
+5,jurassic-large,subject-control,Avery,Joseph,False,promised,to come,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to come.
+
+Question: Who promised someone to come, Avery or Joseph?
+Answer: Avery
+Question: Who was promised something, Avery or Joseph?
+Answer: Joseph
+Question: Who came, Avery or Joseph?
+Answer: ", '(Joseph'),5.0
+6,jurassic-large,subject-control,Avery,Joseph,False,promised,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to go.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: Joseph
+Question: Who promised someone to go, Avery or Joseph?
+Answer: Avery
+Question: Who went, Avery or Joseph?
+Answer: ", 'NONE\n'),6.0
+7,jurassic-large,subject-control,Avery,Joseph,False,promised,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to read.
+
+Question: Who was promised something, Avery or Joseph?
+Answer: Joseph
+Question: Who promised someone to read, Avery or Joseph?
+Answer: Avery
+Question: Who read, Avery or Joseph?
+Answer: ", 'NONE\n'),7.0
+8,jurassic-large,subject-control,Avery,Joseph,False,promised,to run,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to run.
+
+Question: Who promised someone to run, Avery or Joseph?
+Answer: Avery
+Question: Who was promised something, Avery or Joseph?
+Answer: Joseph
+Question: Who ran, Avery or Joseph?
+Answer: ", '(Joseph'),8.0
+9,jurassic-large,subject-control,Avery,Joseph,False,promised,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery promised Joseph to call.
+
+Question: Who promised someone to call, Avery or Joseph?
+Answer: Avery
+Question: Who was promised something, Avery or Joseph?
+Answer: Joseph
+Question: Who called, Avery or Joseph?
+Answer: ", 'NONE\n'),9.0
+10,jurassic-large,subject-control,Avery,Nicole,False,promised,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to come.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: Nicole
+Question: Who promised someone to come, Avery or Nicole?
+Answer: Avery
+Question: Who came, Avery or Nicole?
+Answer: ", 'NONE\n'),10.0
+11,jurassic-large,subject-control,Avery,Nicole,False,promised,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to go.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: Nicole
+Question: Who promised someone to go, Avery or Nicole?
+Answer: Avery
+Question: Who went, Avery or Nicole?
+Answer: ", 'NONE\n'),11.0
+12,jurassic-large,subject-control,Avery,Nicole,False,promised,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to read.
+
+Question: Who promised someone to read, Avery or Nicole?
+Answer: Avery
+Question: Who was promised something, Avery or Nicole?
+Answer: Nicole
+Question: Who read, Avery or Nicole?
+Answer: ", 'NONE\n'),12.0
+13,jurassic-large,subject-control,Avery,Nicole,False,promised,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to run.
+
+Question: Who promised someone to run, Avery or Nicole?
+Answer: Avery
+Question: Who was promised something, Avery or Nicole?
+Answer: Nicole
+Question: Who ran, Avery or Nicole?
+Answer: ", 'NONE\n'),13.0
+14,jurassic-large,subject-control,Avery,Nicole,False,promised,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery promised Nicole to call.
+
+Question: Who was promised something, Avery or Nicole?
+Answer: Nicole
+Question: Who promised someone to call, Avery or Nicole?
+Answer: Avery
+Question: Who called, Avery or Nicole?
+Answer: ", 'NONE\n'),14.0
+15,jurassic-large,subject-control,Avery,Stephanie,False,promised,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to come.
+
+Question: Who promised someone to come, Avery or Stephanie?
+Answer: Avery
+Question: Who was promised something, Avery or Stephanie?
+Answer: Stephanie
+Question: Who came, Avery or Stephanie?
+Answer: ", '(A'),15.0
+16,jurassic-large,subject-control,Avery,Stephanie,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to go.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to go, Avery or Stephanie?
+Answer: Avery
+Question: Who went, Avery or Stephanie?
+Answer: ", '(A'),16.0
+17,jurassic-large,subject-control,Avery,Stephanie,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to read.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to read, Avery or Stephanie?
+Answer: Avery
+Question: Who read, Avery or Stephanie?
+Answer: ", '(A'),17.0
+18,jurassic-large,subject-control,Avery,Stephanie,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to run.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to run, Avery or Stephanie?
+Answer: Avery
+Question: Who ran, Avery or Stephanie?
+Answer: ", '(A'),18.0
+19,jurassic-large,subject-control,Avery,Stephanie,False,promised,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery promised Stephanie to call.
+
+Question: Who was promised something, Avery or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to call, Avery or Stephanie?
+Answer: Avery
+Question: Who called, Avery or Stephanie?
+Answer: ", 'NONE\n'),19.0
+20,jurassic-large,subject-control,Avery,William,False,promised,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to come.
+
+Question: Who was promised something, Avery or William?
+Answer: William
+Question: Who promised someone to come, Avery or William?
+Answer: Avery
+Question: Who came, Avery or William?
+Answer: ", 'NONE\n'),20.0
+21,jurassic-large,subject-control,Avery,William,False,promised,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to go.
+
+Question: Who was promised something, Avery or William?
+Answer: William
+Question: Who promised someone to go, Avery or William?
+Answer: Avery
+Question: Who went, Avery or William?
+Answer: ", '(A'),21.0
+22,jurassic-large,subject-control,Avery,William,False,promised,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to read.
+
+Question: Who promised someone to read, Avery or William?
+Answer: Avery
+Question: Who was promised something, Avery or William?
+Answer: William
+Question: Who read, Avery or William?
+Answer: ", '(A'),22.0
+23,jurassic-large,subject-control,Avery,William,False,promised,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to run.
+
+Question: Who promised someone to run, Avery or William?
+Answer: Avery
+Question: Who was promised something, Avery or William?
+Answer: William
+Question: Who ran, Avery or William?
+Answer: ", '(A'),23.0
+24,jurassic-large,subject-control,Avery,William,False,promised,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery promised William to call.
+
+Question: Who promised someone to call, Avery or William?
+Answer: Avery
+Question: Who was promised something, Avery or William?
+Answer: William
+Question: Who called, Avery or William?
+Answer: ", 'NONE\n'),24.0
+25,jurassic-large,subject-control,Casey,Avery,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to come.
+
+Question: Who was promised something, Casey or Avery?
+Answer: Avery
+Question: Who promised someone to come, Casey or Avery?
+Answer: Casey
+Question: Who came, Casey or Avery?
+Answer: ", '(Case'),25.0
+26,jurassic-large,subject-control,Casey,Avery,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to go.
+
+Question: Who was promised something, Casey or Avery?
+Answer: Avery
+Question: Who promised someone to go, Casey or Avery?
+Answer: Casey
+Question: Who went, Casey or Avery?
+Answer: ", '(Case'),26.0
+27,jurassic-large,subject-control,Casey,Avery,False,promised,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to read.
+
+Question: Who was promised something, Casey or Avery?
+Answer: Avery
+Question: Who promised someone to read, Casey or Avery?
+Answer: Casey
+Question: Who read, Casey or Avery?
+Answer: ", 'NONE\n'),27.0
+28,jurassic-large,subject-control,Casey,Avery,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to run.
+
+Question: Who promised someone to run, Casey or Avery?
+Answer: Casey
+Question: Who was promised something, Casey or Avery?
+Answer: Avery
+Question: Who ran, Casey or Avery?
+Answer: ", '(Case'),28.0
+29,jurassic-large,subject-control,Casey,Avery,False,promised,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey promised Avery to call.
+
+Question: Who promised someone to call, Casey or Avery?
+Answer: Casey
+Question: Who was promised something, Casey or Avery?
+Answer: Avery
+Question: Who called, Casey or Avery?
+Answer: ", 'NONE\n'),29.0
+30,jurassic-large,subject-control,Casey,Joseph,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to come.
+
+Question: Who promised someone to come, Casey or Joseph?
+Answer: Casey
+Question: Who was promised something, Casey or Joseph?
+Answer: Joseph
+Question: Who came, Casey or Joseph?
+Answer: ", '(Case'),30.0
+31,jurassic-large,subject-control,Casey,Joseph,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to go.
+
+Question: Who promised someone to go, Casey or Joseph?
+Answer: Casey
+Question: Who was promised something, Casey or Joseph?
+Answer: Joseph
+Question: Who went, Casey or Joseph?
+Answer: ", '(Case'),31.0
+32,jurassic-large,subject-control,Casey,Joseph,False,promised,to read,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to read.
+
+Question: Who promised someone to read, Casey or Joseph?
+Answer: Casey
+Question: Who was promised something, Casey or Joseph?
+Answer: Joseph
+Question: Who read, Casey or Joseph?
+Answer: ", '(Joseph'),32.0
+33,jurassic-large,subject-control,Casey,Joseph,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to run.
+
+Question: Who promised someone to run, Casey or Joseph?
+Answer: Casey
+Question: Who was promised something, Casey or Joseph?
+Answer: Joseph
+Question: Who ran, Casey or Joseph?
+Answer: ", '(Case'),33.0
+34,jurassic-large,subject-control,Casey,Joseph,False,promised,to call,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey promised Joseph to call.
+
+Question: Who promised someone to call, Casey or Joseph?
+Answer: Casey
+Question: Who was promised something, Casey or Joseph?
+Answer: Joseph
+Question: Who called, Casey or Joseph?
+Answer: ", '(Joseph'),34.0
+35,jurassic-large,subject-control,Casey,Nicole,False,promised,to come,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to come.
+
+Question: Who promised someone to come, Casey or Nicole?
+Answer: Casey
+Question: Who was promised something, Casey or Nicole?
+Answer: Nicole
+Question: Who came, Casey or Nicole?
+Answer: ", '(Nicole'),35.0
+36,jurassic-large,subject-control,Casey,Nicole,False,promised,to go,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to go.
+
+Question: Who promised someone to go, Casey or Nicole?
+Answer: Casey
+Question: Who was promised something, Casey or Nicole?
+Answer: Nicole
+Question: Who went, Casey or Nicole?
+Answer: ", '(Nicole'),36.0
+37,jurassic-large,subject-control,Casey,Nicole,False,promised,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to read.
+
+Question: Who was promised something, Casey or Nicole?
+Answer: Nicole
+Question: Who promised someone to read, Casey or Nicole?
+Answer: Casey
+Question: Who read, Casey or Nicole?
+Answer: ", 'NONE\n'),37.0
+38,jurassic-large,subject-control,Casey,Nicole,False,promised,to run,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to run.
+
+Question: Who promised someone to run, Casey or Nicole?
+Answer: Casey
+Question: Who was promised something, Casey or Nicole?
+Answer: Nicole
+Question: Who ran, Casey or Nicole?
+Answer: ", '(Nicole'),38.0
+39,jurassic-large,subject-control,Casey,Nicole,False,promised,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey promised Nicole to call.
+
+Question: Who promised someone to call, Casey or Nicole?
+Answer: Casey
+Question: Who was promised something, Casey or Nicole?
+Answer: Nicole
+Question: Who called, Casey or Nicole?
+Answer: ", 'NONE\n'),39.0
+40,jurassic-large,subject-control,Casey,Stephanie,False,promised,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to come.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to come, Casey or Stephanie?
+Answer: Casey
+Question: Who came, Casey or Stephanie?
+Answer: ", '(Case'),40.0
+41,jurassic-large,subject-control,Casey,Stephanie,False,promised,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to go.
+
+Question: Who promised someone to go, Casey or Stephanie?
+Answer: Casey
+Question: Who was promised something, Casey or Stephanie?
+Answer: Stephanie
+Question: Who went, Casey or Stephanie?
+Answer: ", '(Case'),41.0
+42,jurassic-large,subject-control,Casey,Stephanie,False,promised,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to read.
+
+Question: Who promised someone to read, Casey or Stephanie?
+Answer: Casey
+Question: Who was promised something, Casey or Stephanie?
+Answer: Stephanie
+Question: Who read, Casey or Stephanie?
+Answer: ", '(Case'),42.0
+43,jurassic-large,subject-control,Casey,Stephanie,False,promised,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to run.
+
+Question: Who promised someone to run, Casey or Stephanie?
+Answer: Casey
+Question: Who was promised something, Casey or Stephanie?
+Answer: Stephanie
+Question: Who ran, Casey or Stephanie?
+Answer: ", '(Case'),43.0
+44,jurassic-large,subject-control,Casey,Stephanie,False,promised,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey promised Stephanie to call.
+
+Question: Who was promised something, Casey or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to call, Casey or Stephanie?
+Answer: Casey
+Question: Who called, Casey or Stephanie?
+Answer: ", '(S'),44.0
+45,jurassic-large,subject-control,Casey,William,False,promised,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to come.
+
+Question: Who was promised something, Casey or William?
+Answer: William
+Question: Who promised someone to come, Casey or William?
+Answer: Casey
+Question: Who came, Casey or William?
+Answer: ", 'william\n'),45.0
+46,jurassic-large,subject-control,Casey,William,False,promised,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to go.
+
+Question: Who was promised something, Casey or William?
+Answer: William
+Question: Who promised someone to go, Casey or William?
+Answer: Casey
+Question: Who went, Casey or William?
+Answer: ", 'william\n'),46.0
+47,jurassic-large,subject-control,Casey,William,False,promised,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to read.
+
+Question: Who promised someone to read, Casey or William?
+Answer: Casey
+Question: Who was promised something, Casey or William?
+Answer: William
+Question: Who read, Casey or William?
+Answer: ", 'william\n'),47.0
+48,jurassic-large,subject-control,Casey,William,False,promised,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to run.
+
+Question: Who promised someone to run, Casey or William?
+Answer: Casey
+Question: Who was promised something, Casey or William?
+Answer: William
+Question: Who ran, Casey or William?
+Answer: ", 'william\n'),48.0
+49,jurassic-large,subject-control,Casey,William,False,promised,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey promised William to call.
+
+Question: Who was promised something, Casey or William?
+Answer: William
+Question: Who promised someone to call, Casey or William?
+Answer: Casey
+Question: Who called, Casey or William?
+Answer: ", '(Case'),49.0
+50,jurassic-large,subject-control,Joseph,Avery,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to come.
+
+Question: Who promised someone to come, Joseph or Avery?
+Answer: Joseph
+Question: Who was promised something, Joseph or Avery?
+Answer: Avery
+Question: Who came, Joseph or Avery?
+Answer: ", '(Joseph'),50.0
+51,jurassic-large,subject-control,Joseph,Avery,False,promised,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to go.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: Avery
+Question: Who promised someone to go, Joseph or Avery?
+Answer: Joseph
+Question: Who went, Joseph or Avery?
+Answer: ", 'NONE\n'),51.0
+52,jurassic-large,subject-control,Joseph,Avery,False,promised,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to read.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: Avery
+Question: Who promised someone to read, Joseph or Avery?
+Answer: Joseph
+Question: Who read, Joseph or Avery?
+Answer: ", 'NONE\n'),52.0
+53,jurassic-large,subject-control,Joseph,Avery,False,promised,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to run.
+
+Question: Who was promised something, Joseph or Avery?
+Answer: Avery
+Question: Who promised someone to run, Joseph or Avery?
+Answer: Joseph
+Question: Who ran, Joseph or Avery?
+Answer: ", 'NONE\n'),53.0
+54,jurassic-large,subject-control,Joseph,Avery,False,promised,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph promised Avery to call.
+
+Question: Who promised someone to call, Joseph or Avery?
+Answer: Joseph
+Question: Who was promised something, Joseph or Avery?
+Answer: Avery
+Question: Who called, Joseph or Avery?
+Answer: ", 'NONE\n'),54.0
+55,jurassic-large,subject-control,Joseph,Casey,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to come.
+
+Question: Who promised someone to come, Joseph or Casey?
+Answer: Joseph
+Question: Who was promised something, Joseph or Casey?
+Answer: Casey
+Question: Who came, Joseph or Casey?
+Answer: ", '(Joseph'),55.0
+56,jurassic-large,subject-control,Joseph,Casey,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to go.
+
+Question: Who was promised something, Joseph or Casey?
+Answer: Casey
+Question: Who promised someone to go, Joseph or Casey?
+Answer: Joseph
+Question: Who went, Joseph or Casey?
+Answer: ", '(Joseph'),56.0
+57,jurassic-large,subject-control,Joseph,Casey,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to read.
+
+Question: Who promised someone to read, Joseph or Casey?
+Answer: Joseph
+Question: Who was promised something, Joseph or Casey?
+Answer: Casey
+Question: Who read, Joseph or Casey?
+Answer: ", '(Joseph'),57.0
+58,jurassic-large,subject-control,Joseph,Casey,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to run.
+
+Question: Who promised someone to run, Joseph or Casey?
+Answer: Joseph
+Question: Who was promised something, Joseph or Casey?
+Answer: Casey
+Question: Who ran, Joseph or Casey?
+Answer: ", '(Joseph'),58.0
+59,jurassic-large,subject-control,Joseph,Casey,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph promised Casey to call.
+
+Question: Who promised someone to call, Joseph or Casey?
+Answer: Joseph
+Question: Who was promised something, Joseph or Casey?
+Answer: Casey
+Question: Who called, Joseph or Casey?
+Answer: ", '(Joseph'),59.0
+60,jurassic-large,subject-control,Joseph,Nicole,False,promised,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to come.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: Nicole
+Question: Who promised someone to come, Joseph or Nicole?
+Answer: Joseph
+Question: Who came, Joseph or Nicole?
+Answer: ", 'NONE\n'),60.0
+61,jurassic-large,subject-control,Joseph,Nicole,False,promised,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to go.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: Nicole
+Question: Who promised someone to go, Joseph or Nicole?
+Answer: Joseph
+Question: Who went, Joseph or Nicole?
+Answer: ", 'NONE\n'),61.0
+62,jurassic-large,subject-control,Joseph,Nicole,False,promised,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to read.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: Nicole
+Question: Who promised someone to read, Joseph or Nicole?
+Answer: Joseph
+Question: Who read, Joseph or Nicole?
+Answer: ", 'NONE\n'),62.0
+63,jurassic-large,subject-control,Joseph,Nicole,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to run.
+
+Question: Who promised someone to run, Joseph or Nicole?
+Answer: Joseph
+Question: Who was promised something, Joseph or Nicole?
+Answer: Nicole
+Question: Who ran, Joseph or Nicole?
+Answer: ", '(Joseph'),63.0
+64,jurassic-large,subject-control,Joseph,Nicole,False,promised,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph promised Nicole to call.
+
+Question: Who was promised something, Joseph or Nicole?
+Answer: Nicole
+Question: Who promised someone to call, Joseph or Nicole?
+Answer: Joseph
+Question: Who called, Joseph or Nicole?
+Answer: ", 'NONE\n'),64.0
+65,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to come.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to come, Joseph or Stephanie?
+Answer: Joseph
+Question: Who came, Joseph or Stephanie?
+Answer: ", '(Joseph'),65.0
+66,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to go.
+
+Question: Who promised someone to go, Joseph or Stephanie?
+Answer: Joseph
+Question: Who was promised something, Joseph or Stephanie?
+Answer: Stephanie
+Question: Who went, Joseph or Stephanie?
+Answer: ", '(Joseph'),66.0
+67,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to read.
+
+Question: Who promised someone to read, Joseph or Stephanie?
+Answer: Joseph
+Question: Who was promised something, Joseph or Stephanie?
+Answer: Stephanie
+Question: Who read, Joseph or Stephanie?
+Answer: ", '(Joseph'),67.0
+68,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to run.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to run, Joseph or Stephanie?
+Answer: Joseph
+Question: Who ran, Joseph or Stephanie?
+Answer: ", '(Joseph'),68.0
+69,jurassic-large,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph promised Stephanie to call.
+
+Question: Who was promised something, Joseph or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to call, Joseph or Stephanie?
+Answer: Joseph
+Question: Who called, Joseph or Stephanie?
+Answer: ", '(Joseph'),69.0
+70,jurassic-large,subject-control,Joseph,William,False,promised,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to come.
+
+Question: Who was promised something, Joseph or William?
+Answer: William
+Question: Who promised someone to come, Joseph or William?
+Answer: Joseph
+Question: Who came, Joseph or William?
+Answer: ", '(Joseph'),70.0
+71,jurassic-large,subject-control,Joseph,William,False,promised,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to go.
+
+Question: Who promised someone to go, Joseph or William?
+Answer: Joseph
+Question: Who was promised something, Joseph or William?
+Answer: William
+Question: Who went, Joseph or William?
+Answer: ", '(Joseph'),71.0
+72,jurassic-large,subject-control,Joseph,William,False,promised,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to read.
+
+Question: Who was promised something, Joseph or William?
+Answer: William
+Question: Who promised someone to read, Joseph or William?
+Answer: Joseph
+Question: Who read, Joseph or William?
+Answer: ", '(Joseph'),72.0
+73,jurassic-large,subject-control,Joseph,William,False,promised,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to run.
+
+Question: Who was promised something, Joseph or William?
+Answer: William
+Question: Who promised someone to run, Joseph or William?
+Answer: Joseph
+Question: Who ran, Joseph or William?
+Answer: ", '(Joseph'),73.0
+74,jurassic-large,subject-control,Joseph,William,False,promised,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph promised William to call.
+
+Question: Who was promised something, Joseph or William?
+Answer: William
+Question: Who promised someone to call, Joseph or William?
+Answer: Joseph
+Question: Who called, Joseph or William?
+Answer: ", '(Joseph'),74.0
+75,jurassic-large,subject-control,Nicole,Avery,False,promised,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to come.
+
+Question: Who promised someone to come, Nicole or Avery?
+Answer: Nicole
+Question: Who was promised something, Nicole or Avery?
+Answer: Avery
+Question: Who came, Nicole or Avery?
+Answer: ", 'NONE\n'),75.0
+76,jurassic-large,subject-control,Nicole,Avery,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to go.
+
+Question: Who promised someone to go, Nicole or Avery?
+Answer: Nicole
+Question: Who was promised something, Nicole or Avery?
+Answer: Avery
+Question: Who went, Nicole or Avery?
+Answer: ", '(Nicole'),76.0
+77,jurassic-large,subject-control,Nicole,Avery,False,promised,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to read.
+
+Question: Who was promised something, Nicole or Avery?
+Answer: Avery
+Question: Who promised someone to read, Nicole or Avery?
+Answer: Nicole
+Question: Who read, Nicole or Avery?
+Answer: ", 'NONE\n'),77.0
+78,jurassic-large,subject-control,Nicole,Avery,False,promised,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to run.
+
+Question: Who promised someone to run, Nicole or Avery?
+Answer: Nicole
+Question: Who was promised something, Nicole or Avery?
+Answer: Avery
+Question: Who ran, Nicole or Avery?
+Answer: ", 'NONE\n'),78.0
+79,jurassic-large,subject-control,Nicole,Avery,False,promised,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole promised Avery to call.
+
+Question: Who promised someone to call, Nicole or Avery?
+Answer: Nicole
+Question: Who was promised something, Nicole or Avery?
+Answer: Avery
+Question: Who called, Nicole or Avery?
+Answer: ", 'NONE\n'),79.0
+80,jurassic-large,subject-control,Nicole,Casey,False,promised,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to come.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: Casey
+Question: Who promised someone to come, Nicole or Casey?
+Answer: Nicole
+Question: Who came, Nicole or Casey?
+Answer: ", 'nicole\n'),80.0
+81,jurassic-large,subject-control,Nicole,Casey,False,promised,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to go.
+
+Question: Who promised someone to go, Nicole or Casey?
+Answer: Nicole
+Question: Who was promised something, Nicole or Casey?
+Answer: Casey
+Question: Who went, Nicole or Casey?
+Answer: ", 'nicole\n'),81.0
+82,jurassic-large,subject-control,Nicole,Casey,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to read.
+
+Question: Who promised someone to read, Nicole or Casey?
+Answer: Nicole
+Question: Who was promised something, Nicole or Casey?
+Answer: Casey
+Question: Who read, Nicole or Casey?
+Answer: ", '(Nicole'),82.0
+83,jurassic-large,subject-control,Nicole,Casey,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to run.
+
+Question: Who promised someone to run, Nicole or Casey?
+Answer: Nicole
+Question: Who was promised something, Nicole or Casey?
+Answer: Casey
+Question: Who ran, Nicole or Casey?
+Answer: ", '(Nicole'),83.0
+84,jurassic-large,subject-control,Nicole,Casey,False,promised,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole promised Casey to call.
+
+Question: Who was promised something, Nicole or Casey?
+Answer: Casey
+Question: Who promised someone to call, Nicole or Casey?
+Answer: Nicole
+Question: Who called, Nicole or Casey?
+Answer: ", 'NONE\n'),84.0
+85,jurassic-large,subject-control,Nicole,Joseph,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to come.
+
+Question: Who promised someone to come, Nicole or Joseph?
+Answer: Nicole
+Question: Who was promised something, Nicole or Joseph?
+Answer: Joseph
+Question: Who came, Nicole or Joseph?
+Answer: ", '(Nicole'),85.0
+86,jurassic-large,subject-control,Nicole,Joseph,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to go.
+
+Question: Who promised someone to go, Nicole or Joseph?
+Answer: Nicole
+Question: Who was promised something, Nicole or Joseph?
+Answer: Joseph
+Question: Who went, Nicole or Joseph?
+Answer: ", '(Nicole'),86.0
+87,jurassic-large,subject-control,Nicole,Joseph,False,promised,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to read.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: Joseph
+Question: Who promised someone to read, Nicole or Joseph?
+Answer: Nicole
+Question: Who read, Nicole or Joseph?
+Answer: ", 'NONE\n'),87.0
+88,jurassic-large,subject-control,Nicole,Joseph,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to run.
+
+Question: Who was promised something, Nicole or Joseph?
+Answer: Joseph
+Question: Who promised someone to run, Nicole or Joseph?
+Answer: Nicole
+Question: Who ran, Nicole or Joseph?
+Answer: ", '(Nicole'),88.0
+89,jurassic-large,subject-control,Nicole,Joseph,False,promised,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole promised Joseph to call.
+
+Question: Who promised someone to call, Nicole or Joseph?
+Answer: Nicole
+Question: Who was promised something, Nicole or Joseph?
+Answer: Joseph
+Question: Who called, Nicole or Joseph?
+Answer: ", 'NONE\n'),89.0
+90,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to come.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to come, Nicole or Stephanie?
+Answer: Nicole
+Question: Who came, Nicole or Stephanie?
+Answer: ", '(Nicole'),90.0
+91,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to go.
+
+Question: Who promised someone to go, Nicole or Stephanie?
+Answer: Nicole
+Question: Who was promised something, Nicole or Stephanie?
+Answer: Stephanie
+Question: Who went, Nicole or Stephanie?
+Answer: ", '(Nicole'),91.0
+92,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to read.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to read, Nicole or Stephanie?
+Answer: Nicole
+Question: Who read, Nicole or Stephanie?
+Answer: ", '(Nicole'),92.0
+93,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to run.
+
+Question: Who promised someone to run, Nicole or Stephanie?
+Answer: Nicole
+Question: Who was promised something, Nicole or Stephanie?
+Answer: Stephanie
+Question: Who ran, Nicole or Stephanie?
+Answer: ", '(Nicole'),93.0
+94,jurassic-large,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole promised Stephanie to call.
+
+Question: Who was promised something, Nicole or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to call, Nicole or Stephanie?
+Answer: Nicole
+Question: Who called, Nicole or Stephanie?
+Answer: ", '(Nicole'),94.0
+95,jurassic-large,subject-control,Nicole,William,False,promised,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to come.
+
+Question: Who was promised something, Nicole or William?
+Answer: William
+Question: Who promised someone to come, Nicole or William?
+Answer: Nicole
+Question: Who came, Nicole or William?
+Answer: ", 'william\n'),95.0
+96,jurassic-large,subject-control,Nicole,William,False,promised,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to go.
+
+Question: Who was promised something, Nicole or William?
+Answer: William
+Question: Who promised someone to go, Nicole or William?
+Answer: Nicole
+Question: Who went, Nicole or William?
+Answer: ", 'william\n'),96.0
+97,jurassic-large,subject-control,Nicole,William,False,promised,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to read.
+
+Question: Who promised someone to read, Nicole or William?
+Answer: Nicole
+Question: Who was promised something, Nicole or William?
+Answer: William
+Question: Who read, Nicole or William?
+Answer: ", '(Nicole'),97.0
+98,jurassic-large,subject-control,Nicole,William,False,promised,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to run.
+
+Question: Who promised someone to run, Nicole or William?
+Answer: Nicole
+Question: Who was promised something, Nicole or William?
+Answer: William
+Question: Who ran, Nicole or William?
+Answer: ", 'william\n'),98.0
+99,jurassic-large,subject-control,Nicole,William,False,promised,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole promised William to call.
+
+Question: Who promised someone to call, Nicole or William?
+Answer: Nicole
+Question: Who was promised something, Nicole or William?
+Answer: William
+Question: Who called, Nicole or William?
+Answer: ", '(Nicole'),99.0
+100,jurassic-large,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to come.
+
+Question: Who promised someone to come, Stephanie or Avery?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Avery?
+Answer: Avery
+Question: Who came, Stephanie or Avery?
+Answer: ", '(S'),100.0
+101,jurassic-large,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to go.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: Avery
+Question: Who promised someone to go, Stephanie or Avery?
+Answer: Stephanie
+Question: Who went, Stephanie or Avery?
+Answer: ", '(S'),101.0
+102,jurassic-large,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to read.
+
+Question: Who promised someone to read, Stephanie or Avery?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Avery?
+Answer: Avery
+Question: Who read, Stephanie or Avery?
+Answer: ", '(S'),102.0
+103,jurassic-large,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to run.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: Avery
+Question: Who promised someone to run, Stephanie or Avery?
+Answer: Stephanie
+Question: Who ran, Stephanie or Avery?
+Answer: ", '(S'),103.0
+104,jurassic-large,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie promised Avery to call.
+
+Question: Who was promised something, Stephanie or Avery?
+Answer: Avery
+Question: Who promised someone to call, Stephanie or Avery?
+Answer: Stephanie
+Question: Who called, Stephanie or Avery?
+Answer: ", 'NONE\n'),104.0
+105,jurassic-large,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to come.
+
+Question: Who promised someone to come, Stephanie or Casey?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Casey?
+Answer: Casey
+Question: Who came, Stephanie or Casey?
+Answer: ", '(S'),105.0
+106,jurassic-large,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to go.
+
+Question: Who promised someone to go, Stephanie or Casey?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Casey?
+Answer: Casey
+Question: Who went, Stephanie or Casey?
+Answer: ", '(S'),106.0
+107,jurassic-large,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to read.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: Casey
+Question: Who promised someone to read, Stephanie or Casey?
+Answer: Stephanie
+Question: Who read, Stephanie or Casey?
+Answer: ", '(S'),107.0
+108,jurassic-large,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to run.
+
+Question: Who was promised something, Stephanie or Casey?
+Answer: Casey
+Question: Who promised someone to run, Stephanie or Casey?
+Answer: Stephanie
+Question: Who ran, Stephanie or Casey?
+Answer: ", '(S'),108.0
+109,jurassic-large,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie promised Casey to call.
+
+Question: Who promised someone to call, Stephanie or Casey?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Casey?
+Answer: Casey
+Question: Who called, Stephanie or Casey?
+Answer: ", '(S'),109.0
+110,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to come.
+
+Question: Who promised someone to come, Stephanie or Joseph?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Joseph?
+Answer: Joseph
+Question: Who came, Stephanie or Joseph?
+Answer: ", '(S'),110.0
+111,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to go.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: Joseph
+Question: Who promised someone to go, Stephanie or Joseph?
+Answer: Stephanie
+Question: Who went, Stephanie or Joseph?
+Answer: ", '(S'),111.0
+112,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to read.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: Joseph
+Question: Who promised someone to read, Stephanie or Joseph?
+Answer: Stephanie
+Question: Who read, Stephanie or Joseph?
+Answer: ", '(S'),112.0
+113,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to run.
+
+Question: Who was promised something, Stephanie or Joseph?
+Answer: Joseph
+Question: Who promised someone to run, Stephanie or Joseph?
+Answer: Stephanie
+Question: Who ran, Stephanie or Joseph?
+Answer: ", '(S'),113.0
+114,jurassic-large,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie promised Joseph to call.
+
+Question: Who promised someone to call, Stephanie or Joseph?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Joseph?
+Answer: Joseph
+Question: Who called, Stephanie or Joseph?
+Answer: ", '(S'),114.0
+115,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to come.
+
+Question: Who was promised something, Stephanie or Nicole?
+Answer: Nicole
+Question: Who promised someone to come, Stephanie or Nicole?
+Answer: Stephanie
+Question: Who came, Stephanie or Nicole?
+Answer: ", '(S'),115.0
+116,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to go.
+
+Question: Who promised someone to go, Stephanie or Nicole?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Nicole?
+Answer: Nicole
+Question: Who went, Stephanie or Nicole?
+Answer: ", '(S'),116.0
+117,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to read.
+
+Question: Who promised someone to read, Stephanie or Nicole?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Nicole?
+Answer: Nicole
+Question: Who read, Stephanie or Nicole?
+Answer: ", '(S'),117.0
+118,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to run.
+
+Question: Who promised someone to run, Stephanie or Nicole?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Nicole?
+Answer: Nicole
+Question: Who ran, Stephanie or Nicole?
+Answer: ", '(S'),118.0
+119,jurassic-large,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie promised Nicole to call.
+
+Question: Who promised someone to call, Stephanie or Nicole?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or Nicole?
+Answer: Nicole
+Question: Who called, Stephanie or Nicole?
+Answer: ", '(S'),119.0
+120,jurassic-large,subject-control,Stephanie,William,False,promised,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to come.
+
+Question: Who promised someone to come, Stephanie or William?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or William?
+Answer: William
+Question: Who came, Stephanie or William?
+Answer: ", 'william\n'),120.0
+121,jurassic-large,subject-control,Stephanie,William,False,promised,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to go.
+
+Question: Who promised someone to go, Stephanie or William?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or William?
+Answer: William
+Question: Who went, Stephanie or William?
+Answer: ", 'william\n'),121.0
+122,jurassic-large,subject-control,Stephanie,William,False,promised,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to read.
+
+Question: Who promised someone to read, Stephanie or William?
+Answer: Stephanie
+Question: Who was promised something, Stephanie or William?
+Answer: William
+Question: Who read, Stephanie or William?
+Answer: ", '(S'),122.0
+123,jurassic-large,subject-control,Stephanie,William,False,promised,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to run.
+
+Question: Who was promised something, Stephanie or William?
+Answer: William
+Question: Who promised someone to run, Stephanie or William?
+Answer: Stephanie
+Question: Who ran, Stephanie or William?
+Answer: ", 'william\n'),123.0
+124,jurassic-large,subject-control,Stephanie,William,False,promised,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie promised William to call.
+
+Question: Who was promised something, Stephanie or William?
+Answer: William
+Question: Who promised someone to call, Stephanie or William?
+Answer: Stephanie
+Question: Who called, Stephanie or William?
+Answer: ", 'william\n'),124.0
+125,jurassic-large,subject-control,William,Avery,False,promised,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to come.
+
+Question: Who promised someone to come, William or Avery?
+Answer: William
+Question: Who was promised something, William or Avery?
+Answer: Avery
+Question: Who came, William or Avery?
+Answer: ", 'william\n'),125.0
+126,jurassic-large,subject-control,William,Avery,False,promised,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to go.
+
+Question: Who was promised something, William or Avery?
+Answer: Avery
+Question: Who promised someone to go, William or Avery?
+Answer: William
+Question: Who went, William or Avery?
+Answer: ", 'william\n'),126.0
+127,jurassic-large,subject-control,William,Avery,False,promised,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to read.
+
+Question: Who was promised something, William or Avery?
+Answer: Avery
+Question: Who promised someone to read, William or Avery?
+Answer: William
+Question: Who read, William or Avery?
+Answer: ", 'william\n'),127.0
+128,jurassic-large,subject-control,William,Avery,False,promised,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to run.
+
+Question: Who promised someone to run, William or Avery?
+Answer: William
+Question: Who was promised something, William or Avery?
+Answer: Avery
+Question: Who ran, William or Avery?
+Answer: ", 'william\n'),128.0
+129,jurassic-large,subject-control,William,Avery,False,promised,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William promised Avery to call.
+
+Question: Who promised someone to call, William or Avery?
+Answer: William
+Question: Who was promised something, William or Avery?
+Answer: Avery
+Question: Who called, William or Avery?
+Answer: ", '(William'),129.0
+130,jurassic-large,subject-control,William,Casey,False,promised,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to come.
+
+Question: Who was promised something, William or Casey?
+Answer: Casey
+Question: Who promised someone to come, William or Casey?
+Answer: William
+Question: Who came, William or Casey?
+Answer: ", 'william\n'),130.0
+131,jurassic-large,subject-control,William,Casey,False,promised,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to go.
+
+Question: Who was promised something, William or Casey?
+Answer: Casey
+Question: Who promised someone to go, William or Casey?
+Answer: William
+Question: Who went, William or Casey?
+Answer: ", 'william\n'),131.0
+132,jurassic-large,subject-control,William,Casey,False,promised,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to read.
+
+Question: Who promised someone to read, William or Casey?
+Answer: William
+Question: Who was promised something, William or Casey?
+Answer: Casey
+Question: Who read, William or Casey?
+Answer: ", 'william\n'),132.0
+133,jurassic-large,subject-control,William,Casey,False,promised,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to run.
+
+Question: Who was promised something, William or Casey?
+Answer: Casey
+Question: Who promised someone to run, William or Casey?
+Answer: William
+Question: Who ran, William or Casey?
+Answer: ", 'william\n'),133.0
+134,jurassic-large,subject-control,William,Casey,False,promised,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William promised Casey to call.
+
+Question: Who promised someone to call, William or Casey?
+Answer: William
+Question: Who was promised something, William or Casey?
+Answer: Casey
+Question: Who called, William or Casey?
+Answer: ", 'william\n'),134.0
+135,jurassic-large,subject-control,William,Joseph,False,promised,to come,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to come.
+
+Question: Who was promised something, William or Joseph?
+Answer: Joseph
+Question: Who promised someone to come, William or Joseph?
+Answer: William
+Question: Who came, William or Joseph?
+Answer: ", '(Joseph'),135.0
+136,jurassic-large,subject-control,William,Joseph,False,promised,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to go.
+
+Question: Who was promised something, William or Joseph?
+Answer: Joseph
+Question: Who promised someone to go, William or Joseph?
+Answer: William
+Question: Who went, William or Joseph?
+Answer: ", 'william\n'),136.0
+137,jurassic-large,subject-control,William,Joseph,False,promised,to read,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to read.
+
+Question: Who was promised something, William or Joseph?
+Answer: Joseph
+Question: Who promised someone to read, William or Joseph?
+Answer: William
+Question: Who read, William or Joseph?
+Answer: ", '(Joseph'),137.0
+138,jurassic-large,subject-control,William,Joseph,False,promised,to run,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to run.
+
+Question: Who was promised something, William or Joseph?
+Answer: Joseph
+Question: Who promised someone to run, William or Joseph?
+Answer: William
+Question: Who ran, William or Joseph?
+Answer: ", '(Joseph'),138.0
+139,jurassic-large,subject-control,William,Joseph,False,promised,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William promised Joseph to call.
+
+Question: Who promised someone to call, William or Joseph?
+Answer: William
+Question: Who was promised something, William or Joseph?
+Answer: Joseph
+Question: Who called, William or Joseph?
+Answer: ", 'william\n'),139.0
+140,jurassic-large,subject-control,William,Nicole,False,promised,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to come.
+
+Question: Who promised someone to come, William or Nicole?
+Answer: William
+Question: Who was promised something, William or Nicole?
+Answer: Nicole
+Question: Who came, William or Nicole?
+Answer: ", 'william\n'),140.0
+141,jurassic-large,subject-control,William,Nicole,False,promised,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to go.
+
+Question: Who promised someone to go, William or Nicole?
+Answer: William
+Question: Who was promised something, William or Nicole?
+Answer: Nicole
+Question: Who went, William or Nicole?
+Answer: ", 'william\n'),141.0
+142,jurassic-large,subject-control,William,Nicole,False,promised,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to read.
+
+Question: Who was promised something, William or Nicole?
+Answer: Nicole
+Question: Who promised someone to read, William or Nicole?
+Answer: William
+Question: Who read, William or Nicole?
+Answer: ", 'william\n'),142.0
+143,jurassic-large,subject-control,William,Nicole,False,promised,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to run.
+
+Question: Who promised someone to run, William or Nicole?
+Answer: William
+Question: Who was promised something, William or Nicole?
+Answer: Nicole
+Question: Who ran, William or Nicole?
+Answer: ", 'william\n'),143.0
+144,jurassic-large,subject-control,William,Nicole,False,promised,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William promised Nicole to call.
+
+Question: Who promised someone to call, William or Nicole?
+Answer: William
+Question: Who was promised something, William or Nicole?
+Answer: Nicole
+Question: Who called, William or Nicole?
+Answer: ", 'william\n'),144.0
+145,jurassic-large,subject-control,William,Stephanie,False,promised,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to come.
+
+Question: Who promised someone to come, William or Stephanie?
+Answer: William
+Question: Who was promised something, William or Stephanie?
+Answer: Stephanie
+Question: Who came, William or Stephanie?
+Answer: ", 'william\n'),145.0
+146,jurassic-large,subject-control,William,Stephanie,False,promised,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to go.
+
+Question: Who promised someone to go, William or Stephanie?
+Answer: William
+Question: Who was promised something, William or Stephanie?
+Answer: Stephanie
+Question: Who went, William or Stephanie?
+Answer: ", 'william\n'),146.0
+147,jurassic-large,subject-control,William,Stephanie,False,promised,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to read.
+
+Question: Who promised someone to read, William or Stephanie?
+Answer: William
+Question: Who was promised something, William or Stephanie?
+Answer: Stephanie
+Question: Who read, William or Stephanie?
+Answer: ", 'william\n'),147.0
+148,jurassic-large,subject-control,William,Stephanie,False,promised,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to run.
+
+Question: Who was promised something, William or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to run, William or Stephanie?
+Answer: William
+Question: Who ran, William or Stephanie?
+Answer: ", 'william\n'),148.0
+149,jurassic-large,subject-control,William,Stephanie,False,promised,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William promised Stephanie to call.
+
+Question: Who was promised something, William or Stephanie?
+Answer: Stephanie
+Question: Who promised someone to call, William or Stephanie?
+Answer: William
+Question: Who called, William or Stephanie?
+Answer: ", 'william\n'),149.0

@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,gpt_j,subject-control,the doctor,the lawyer,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to come.
+
+Question:  Who came, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the doctor promised the lawyer to come.\n\nQuestion:  Who came, the lawyer or the doctor?\nAnswer:  The doctor.\n')",0.0
+1,gpt_j,subject-control,the doctor,the lawyer,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to come.
+
+Question:  Who came, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the doctor promised the lawyer to come.\n\nQuestion:  Who came, the doctor or the lawyer?\nAnswer:  The doctor.\n')",1.0
+2,gpt_j,subject-control,the doctor,the lawyer,True,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to go.
+
+Question:  Who went, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the doctor promised the lawyer to go.\n\nQuestion:  Who went, the lawyer or the doctor?\nAnswer:  The doctor.\n')",2.0
+3,gpt_j,subject-control,the doctor,the lawyer,False,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to go.
+
+Question:  Who went, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the doctor promised the lawyer to go.\n\nQuestion:  Who went, the doctor or the lawyer?\nAnswer:  The doctor.\n')",3.0
+4,gpt_j,subject-control,the doctor,the lawyer,True,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to read.
+
+Question:  Who read, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the doctor promised the lawyer to read.\n\nQuestion:  Who read, the lawyer or the doctor?\nAnswer:  The doctor read.')",4.0
+5,gpt_j,subject-control,the doctor,the lawyer,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to read.
+
+Question:  Who read, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the doctor promised the lawyer to read.\n\nQuestion:  Who read, the doctor or the lawyer?\nAnswer:  The doctor.\n')",5.0
+6,gpt_j,subject-control,the doctor,the lawyer,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the doctor promised the lawyer to run.\n\nQuestion:  Who ran, the lawyer or the doctor?\nAnswer:  The doctor ran.')",6.0
+7,gpt_j,subject-control,the doctor,the lawyer,False,promised,to run,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to run.
+
+Question:  Who ran, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the doctor promised the lawyer to run.\n\nQuestion:  Who ran, the doctor or the lawyer?\nAnswer:  The lawyer.\n')",7.0
+8,gpt_j,subject-control,the doctor,the lawyer,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to call.
+
+Question:  Who called, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the doctor promised the lawyer to call.\n\nQuestion:  Who called, the lawyer or the doctor?\nAnswer:  The doctor called.')",8.0
+9,gpt_j,subject-control,the doctor,the lawyer,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to call.
+
+Question:  Who called, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the doctor promised the lawyer to call.\n\nQuestion:  Who called, the doctor or the lawyer?\nAnswer:  The doctor.\n')",9.0
+10,gpt_j,subject-control,the doctor,the engineer,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to come.
+
+Question:  Who came, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the doctor promised the engineer to come.\n\nQuestion:  Who came, the engineer or the doctor?\nAnswer:  The doctor came.')",10.0
+11,gpt_j,subject-control,the doctor,the engineer,False,promised,to come,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to come.
+
+Question:  Who came, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the doctor promised the engineer to come.\n\nQuestion:  Who came, the doctor or the engineer?\nAnswer:  The engineer.\n')",11.0
+12,gpt_j,subject-control,the doctor,the engineer,True,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to go.
+
+Question:  Who went, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the doctor promised the engineer to go.\n\nQuestion:  Who went, the engineer or the doctor?\nAnswer:  The doctor.\n')",12.0
+13,gpt_j,subject-control,the doctor,the engineer,False,promised,to go,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to go.
+
+Question:  Who went, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the doctor promised the engineer to go.\n\nQuestion:  Who went, the doctor or the engineer?\nAnswer:  The engineer.\n')",13.0
+14,gpt_j,subject-control,the doctor,the engineer,True,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to read.
+
+Question:  Who read, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the doctor promised the engineer to read.\n\nQuestion:  Who read, the engineer or the doctor?\nAnswer:  The doctor read.')",14.0
+15,gpt_j,subject-control,the doctor,the engineer,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to read.
+
+Question:  Who read, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the doctor promised the engineer to read.\n\nQuestion:  Who read, the doctor or the engineer?\nAnswer:  The doctor.\n')",15.0
+16,gpt_j,subject-control,the doctor,the engineer,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to run.
+
+Question:  Who ran, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the doctor promised the engineer to run.\n\nQuestion:  Who ran, the engineer or the doctor?\nAnswer:  The doctor ran.')",16.0
+17,gpt_j,subject-control,the doctor,the engineer,False,promised,to run,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to run.
+
+Question:  Who ran, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the doctor promised the engineer to run.\n\nQuestion:  Who ran, the doctor or the engineer?\nAnswer:  The engineer.\n')",17.0
+18,gpt_j,subject-control,the doctor,the engineer,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to call.
+
+Question:  Who called, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the doctor promised the engineer to call.\n\nQuestion:  Who called, the engineer or the doctor?\nAnswer:  The doctor.\n')",18.0
+19,gpt_j,subject-control,the doctor,the engineer,False,promised,to call,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to call.
+
+Question:  Who called, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the doctor promised the engineer to call.\n\nQuestion:  Who called, the doctor or the engineer?\nAnswer:  The engineer.\n')",19.0
+20,gpt_j,subject-control,the doctor,the writer,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to come.
+
+Question:  Who came, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the doctor promised the writer to come.\n\nQuestion:  Who came, the writer or the doctor?\nAnswer:  The doctor came.')",20.0
+21,gpt_j,subject-control,the doctor,the writer,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to come.
+
+Question:  Who came, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the doctor promised the writer to come.\n\nQuestion:  Who came, the doctor or the writer?\nAnswer:  The doctor.\n')",21.0
+22,gpt_j,subject-control,the doctor,the writer,True,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to go.
+
+Question:  Who went, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the doctor promised the writer to go.\n\nQuestion:  Who went, the writer or the doctor?\nAnswer:  The doctor.\n')",22.0
+23,gpt_j,subject-control,the doctor,the writer,False,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to go.
+
+Question:  Who went, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the doctor promised the writer to go.\n\nQuestion:  Who went, the doctor or the writer?\nAnswer:  The doctor.\n')",23.0
+24,gpt_j,subject-control,the doctor,the writer,True,promised,to read,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to read.
+
+Question:  Who read, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the doctor promised the writer to read.\n\nQuestion:  Who read, the writer or the doctor?\nAnswer:  The writer.\n')",24.0
+25,gpt_j,subject-control,the doctor,the writer,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to read.
+
+Question:  Who read, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the doctor promised the writer to read.\n\nQuestion:  Who read, the doctor or the writer?\nAnswer:  The doctor.\n')",25.0
+26,gpt_j,subject-control,the doctor,the writer,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to run.
+
+Question:  Who ran, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the doctor promised the writer to run.\n\nQuestion:  Who ran, the writer or the doctor?\nAnswer:  The doctor ran.')",26.0
+27,gpt_j,subject-control,the doctor,the writer,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to run.
+
+Question:  Who ran, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the doctor promised the writer to run.\n\nQuestion:  Who ran, the doctor or the writer?\nAnswer:  The doctor.\n')",27.0
+28,gpt_j,subject-control,the doctor,the writer,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to call.
+
+Question:  Who called, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the doctor promised the writer to call.\n\nQuestion:  Who called, the writer or the doctor?\nAnswer:  The doctor called.')",28.0
+29,gpt_j,subject-control,the doctor,the writer,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to call.
+
+Question:  Who called, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the doctor promised the writer to call.\n\nQuestion:  Who called, the doctor or the writer?\nAnswer:  The doctor.\n')",29.0
+30,gpt_j,subject-control,the doctor,the janitor,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to come.
+
+Question:  Who came, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the doctor promised the janitor to come.\n\nQuestion:  Who came, the janitor or the doctor?\nAnswer:  The')",30.0
+31,gpt_j,subject-control,the doctor,the janitor,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to come.
+
+Question:  Who came, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the doctor promised the janitor to come.\n\nQuestion:  Who came, the doctor or the janitor?\nAnswer:  The')",31.0
+32,gpt_j,subject-control,the doctor,the janitor,True,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to go.
+
+Question:  Who went, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the doctor promised the janitor to go.\n\nQuestion:  Who went, the janitor or the doctor?\nAnswer:  The')",32.0
+33,gpt_j,subject-control,the doctor,the janitor,False,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to go.
+
+Question:  Who went, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the doctor promised the janitor to go.\n\nQuestion:  Who went, the doctor or the janitor?\nAnswer:  The')",33.0
+34,gpt_j,subject-control,the doctor,the janitor,True,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to read.
+
+Question:  Who read, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the doctor promised the janitor to read.\n\nQuestion:  Who read, the janitor or the doctor?\nAnswer:  The')",34.0
+35,gpt_j,subject-control,the doctor,the janitor,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to read.
+
+Question:  Who read, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the doctor promised the janitor to read.\n\nQuestion:  Who read, the doctor or the janitor?\nAnswer:  The')",35.0
+36,gpt_j,subject-control,the doctor,the janitor,True,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to run.
+
+Question:  Who ran, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the doctor promised the janitor to run.\n\nQuestion:  Who ran, the janitor or the doctor?\nAnswer:  The')",36.0
+37,gpt_j,subject-control,the doctor,the janitor,False,promised,to run,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to run.
+
+Question:  Who ran, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the doctor promised the janitor to run.\n\nQuestion:  Who ran, the doctor or the janitor?\nAnswer:  The')",37.0
+38,gpt_j,subject-control,the doctor,the janitor,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to call.
+
+Question:  Who called, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the doctor promised the janitor to call.\n\nQuestion:  Who called, the janitor or the doctor?\nAnswer:  The')",38.0
+39,gpt_j,subject-control,the doctor,the janitor,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to call.
+
+Question:  Who called, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the doctor promised the janitor to call.\n\nQuestion:  Who called, the doctor or the janitor?\nAnswer:  The')",39.0
+40,gpt_j,subject-control,the doctor,the bartender,True,promised,to come,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to come.
+
+Question:  Who came, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the doctor promised the bartender to come.\n\nQuestion:  Who came, the bartender or the doctor?\nAnswer:  The bartender.\n')",40.0
+41,gpt_j,subject-control,the doctor,the bartender,False,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to come.
+
+Question:  Who came, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the doctor promised the bartender to come.\n\nQuestion:  Who came, the doctor or the bartender?\nAnswer:  The doctor came.')",41.0
+42,gpt_j,subject-control,the doctor,the bartender,True,promised,to go,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to go.
+
+Question:  Who went, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the doctor promised the bartender to go.\n\nQuestion:  Who went, the bartender or the doctor?\nAnswer:  The bartender.\n')",42.0
+43,gpt_j,subject-control,the doctor,the bartender,False,promised,to go,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to go.
+
+Question:  Who went, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the doctor promised the bartender to go.\n\nQuestion:  Who went, the doctor or the bartender?\nAnswer:  The doctor went.')",43.0
+44,gpt_j,subject-control,the doctor,the bartender,True,promised,to read,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to read.
+
+Question:  Who read, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the doctor promised the bartender to read.\n\nQuestion:  Who read, the bartender or the doctor?\nAnswer:  The bartender.\n')",44.0
+45,gpt_j,subject-control,the doctor,the bartender,False,promised,to read,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to read.
+
+Question:  Who read, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the doctor promised the bartender to read.\n\nQuestion:  Who read, the doctor or the bartender?\nAnswer:  The bartender.\n')",45.0
+46,gpt_j,subject-control,the doctor,the bartender,True,promised,to run,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to run.
+
+Question:  Who ran, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the doctor promised the bartender to run.\n\nQuestion:  Who ran, the bartender or the doctor?\nAnswer:  The bartender.\n')",46.0
+47,gpt_j,subject-control,the doctor,the bartender,False,promised,to run,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to run.
+
+Question:  Who ran, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the doctor promised the bartender to run.\n\nQuestion:  Who ran, the doctor or the bartender?\nAnswer:  The bartender.\n')",47.0
+48,gpt_j,subject-control,the doctor,the bartender,True,promised,to call,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to call.
+
+Question:  Who called, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the doctor promised the bartender to call.\n\nQuestion:  Who called, the bartender or the doctor?\nAnswer:  The bartender.\n')",48.0
+49,gpt_j,subject-control,the doctor,the bartender,False,promised,to call,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to call.
+
+Question:  Who called, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the doctor promised the bartender to call.\n\nQuestion:  Who called, the doctor or the bartender?\nAnswer:  The bartender.\n')",49.0
+50,gpt_j,subject-control,the lawyer,the doctor,True,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to come.
+
+Question:  Who came, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the lawyer promised the doctor to come.\n\nQuestion:  Who came, the doctor or the lawyer?\nAnswer:  The lawyer.\n')",50.0
+51,gpt_j,subject-control,the lawyer,the doctor,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to come.
+
+Question:  Who came, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the lawyer promised the doctor to come.\n\nQuestion:  Who came, the lawyer or the doctor?\nAnswer:  The lawyer.\n')",51.0
+52,gpt_j,subject-control,the lawyer,the doctor,True,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to go.
+
+Question:  Who went, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the lawyer promised the doctor to go.\n\nQuestion:  Who went, the doctor or the lawyer?\nAnswer:  The lawyer.\n')",52.0
+53,gpt_j,subject-control,the lawyer,the doctor,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to go.
+
+Question:  Who went, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the lawyer promised the doctor to go.\n\nQuestion:  Who went, the lawyer or the doctor?\nAnswer:  The lawyer.\n')",53.0
+54,gpt_j,subject-control,the lawyer,the doctor,True,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to read.
+
+Question:  Who read, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the lawyer promised the doctor to read.\n\nQuestion:  Who read, the doctor or the lawyer?\nAnswer:  The lawyer read.')",54.0
+55,gpt_j,subject-control,the lawyer,the doctor,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to read.
+
+Question:  Who read, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the lawyer promised the doctor to read.\n\nQuestion:  Who read, the lawyer or the doctor?\nAnswer:  The lawyer.\n')",55.0
+56,gpt_j,subject-control,the lawyer,the doctor,True,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to run.
+
+Question:  Who ran, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the lawyer promised the doctor to run.\n\nQuestion:  Who ran, the doctor or the lawyer?\nAnswer:  The lawyer.\n')",56.0
+57,gpt_j,subject-control,the lawyer,the doctor,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to run.
+
+Question:  Who ran, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the lawyer promised the doctor to run.\n\nQuestion:  Who ran, the lawyer or the doctor?\nAnswer:  The lawyer.\n')",57.0
+58,gpt_j,subject-control,the lawyer,the doctor,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to call.
+
+Question:  Who called, the doctor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".\nContext: the lawyer promised the doctor to call.\n\nQuestion:  Who called, the doctor or the lawyer?\nAnswer:  The lawyer called.')",58.0
+59,gpt_j,subject-control,the lawyer,the doctor,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to call.
+
+Question:  Who called, the lawyer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".\nContext: the lawyer promised the doctor to call.\n\nQuestion:  Who called, the lawyer or the doctor?\nAnswer:  The lawyer called.')",59.0
+60,gpt_j,subject-control,the lawyer,the engineer,True,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to come.
+
+Question:  Who came, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the lawyer promised the engineer to come.\n\nQuestion:  Who came, the engineer or the lawyer?\nAnswer:  The lawyer.\n')",60.0
+61,gpt_j,subject-control,the lawyer,the engineer,False,promised,to come,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to come.
+
+Question:  Who came, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the lawyer promised the engineer to come.\n\nQuestion:  Who came, the lawyer or the engineer?\nAnswer:  The engineer.\n')",61.0
+62,gpt_j,subject-control,the lawyer,the engineer,True,promised,to go,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to go.
+
+Question:  Who went, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the lawyer promised the engineer to go.\n\nQuestion:  Who went, the engineer or the lawyer?\nAnswer:  The engineer.\n')",62.0
+63,gpt_j,subject-control,the lawyer,the engineer,False,promised,to go,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to go.
+
+Question:  Who went, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the lawyer promised the engineer to go.\n\nQuestion:  Who went, the lawyer or the engineer?\nAnswer:  The engineer.\n')",63.0
+64,gpt_j,subject-control,the lawyer,the engineer,True,promised,to read,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to read.
+
+Question:  Who read, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the lawyer promised the engineer to read.\n\nQuestion:  Who read, the engineer or the lawyer?\nAnswer:  The engineer.\n')",64.0
+65,gpt_j,subject-control,the lawyer,the engineer,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to read.
+
+Question:  Who read, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the lawyer promised the engineer to read.\n\nQuestion:  Who read, the lawyer or the engineer?\nAnswer:  The lawyer.\n')",65.0
+66,gpt_j,subject-control,the lawyer,the engineer,True,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to run.
+
+Question:  Who ran, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the lawyer promised the engineer to run.\n\nQuestion:  Who ran, the engineer or the lawyer?\nAnswer:  The lawyer.\n')",66.0
+67,gpt_j,subject-control,the lawyer,the engineer,False,promised,to run,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to run.
+
+Question:  Who ran, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the lawyer promised the engineer to run.\n\nQuestion:  Who ran, the lawyer or the engineer?\nAnswer:  The engineer.\n')",67.0
+68,gpt_j,subject-control,the lawyer,the engineer,True,promised,to call,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to call.
+
+Question:  Who called, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the lawyer promised the engineer to call.\n\nQuestion:  Who called, the engineer or the lawyer?\nAnswer:  The engineer.\n')",68.0
+69,gpt_j,subject-control,the lawyer,the engineer,False,promised,to call,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to call.
+
+Question:  Who called, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the lawyer promised the engineer to call.\n\nQuestion:  Who called, the lawyer or the engineer?\nAnswer:  The engineer.\n')",69.0
+70,gpt_j,subject-control,the lawyer,the writer,True,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to come.
+
+Question:  Who came, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the lawyer promised the writer to come.\n\nQuestion:  Who came, the writer or the lawyer?\nAnswer:  The lawyer.\n')",70.0
+71,gpt_j,subject-control,the lawyer,the writer,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to come.
+
+Question:  Who came, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the lawyer promised the writer to come.\n\nQuestion:  Who came, the lawyer or the writer?\nAnswer:  The lawyer.\n')",71.0
+72,gpt_j,subject-control,the lawyer,the writer,True,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to go.
+
+Question:  Who went, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the lawyer promised the writer to go.\n\nQuestion:  Who went, the writer or the lawyer?\nAnswer:  The lawyer.\n')",72.0
+73,gpt_j,subject-control,the lawyer,the writer,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to go.
+
+Question:  Who went, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the lawyer promised the writer to go.\n\nQuestion:  Who went, the lawyer or the writer?\nAnswer:  The lawyer.\n')",73.0
+74,gpt_j,subject-control,the lawyer,the writer,True,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to read.
+
+Question:  Who read, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the lawyer promised the writer to read.\n\nQuestion:  Who read, the writer or the lawyer?\nAnswer:  The lawyer.\n')",74.0
+75,gpt_j,subject-control,the lawyer,the writer,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to read.
+
+Question:  Who read, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the lawyer promised the writer to read.\n\nQuestion:  Who read, the lawyer or the writer?\nAnswer:  The lawyer.\n')",75.0
+76,gpt_j,subject-control,the lawyer,the writer,True,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to run.
+
+Question:  Who ran, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the lawyer promised the writer to run.\n\nQuestion:  Who ran, the writer or the lawyer?\nAnswer:  The lawyer.\n')",76.0
+77,gpt_j,subject-control,the lawyer,the writer,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to run.
+
+Question:  Who ran, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the lawyer promised the writer to run.\n\nQuestion:  Who ran, the lawyer or the writer?\nAnswer:  The lawyer.\n')",77.0
+78,gpt_j,subject-control,the lawyer,the writer,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to call.
+
+Question:  Who called, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the lawyer promised the writer to call.\n\nQuestion:  Who called, the writer or the lawyer?\nAnswer:  The lawyer.\n')",78.0
+79,gpt_j,subject-control,the lawyer,the writer,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to call.
+
+Question:  Who called, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the lawyer promised the writer to call.\n\nQuestion:  Who called, the lawyer or the writer?\nAnswer:  The lawyer.\n')",79.0
+80,gpt_j,subject-control,the lawyer,the janitor,True,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to come.
+
+Question:  Who came, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the lawyer promised the janitor to come.\n\nQuestion:  Who came, the janitor or the lawyer?\nAnswer:  The')",80.0
+81,gpt_j,subject-control,the lawyer,the janitor,False,promised,to come,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to come.
+
+Question:  Who came, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the lawyer promised the janitor to come.\n\nQuestion:  Who came, the lawyer or the janitor?\nAnswer:  The')",81.0
+82,gpt_j,subject-control,the lawyer,the janitor,True,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to go.
+
+Question:  Who went, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the lawyer promised the janitor to go.\n\nQuestion:  Who went, the janitor or the lawyer?\nAnswer:  The')",82.0
+83,gpt_j,subject-control,the lawyer,the janitor,False,promised,to go,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to go.
+
+Question:  Who went, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the lawyer promised the janitor to go.\n\nQuestion:  Who went, the lawyer or the janitor?\nAnswer:  The')",83.0
+84,gpt_j,subject-control,the lawyer,the janitor,True,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to read.
+
+Question:  Who read, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the lawyer promised the janitor to read.\n\nQuestion:  Who read, the janitor or the lawyer?\nAnswer:  The')",84.0
+85,gpt_j,subject-control,the lawyer,the janitor,False,promised,to read,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to read.
+
+Question:  Who read, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the lawyer promised the janitor to read.\n\nQuestion:  Who read, the lawyer or the janitor?\nAnswer:  The')",85.0
+86,gpt_j,subject-control,the lawyer,the janitor,True,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to run.
+
+Question:  Who ran, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the lawyer promised the janitor to run.\n\nQuestion:  Who ran, the janitor or the lawyer?\nAnswer:  The')",86.0
+87,gpt_j,subject-control,the lawyer,the janitor,False,promised,to run,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to run.
+
+Question:  Who ran, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the lawyer promised the janitor to run.\n\nQuestion:  Who ran, the lawyer or the janitor?\nAnswer:  The')",87.0
+88,gpt_j,subject-control,the lawyer,the janitor,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to call.
+
+Question:  Who called, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the lawyer promised the janitor to call.\n\nQuestion:  Who called, the janitor or the lawyer?\nAnswer:  The')",88.0
+89,gpt_j,subject-control,the lawyer,the janitor,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to call.
+
+Question:  Who called, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the lawyer promised the janitor to call.\n\nQuestion:  Who called, the lawyer or the janitor?\nAnswer:  The')",89.0
+90,gpt_j,subject-control,the lawyer,the bartender,True,promised,to come,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to come.
+
+Question:  Who came, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the lawyer promised the bartender to come.\n\nQuestion:  Who came, the bartender or the lawyer?\nAnswer:  The bartender.\n')",90.0
+91,gpt_j,subject-control,the lawyer,the bartender,False,promised,to come,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to come.
+
+Question:  Who came, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the lawyer promised the bartender to come.\n\nQuestion:  Who came, the lawyer or the bartender?\nAnswer:  The bartender.\n')",91.0
+92,gpt_j,subject-control,the lawyer,the bartender,True,promised,to go,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to go.
+
+Question:  Who went, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the lawyer promised the bartender to go.\n\nQuestion:  Who went, the bartender or the lawyer?\nAnswer:  The bartender.\n')",92.0
+93,gpt_j,subject-control,the lawyer,the bartender,False,promised,to go,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to go.
+
+Question:  Who went, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the lawyer promised the bartender to go.\n\nQuestion:  Who went, the lawyer or the bartender?\nAnswer:  The bartender.\n')",93.0
+94,gpt_j,subject-control,the lawyer,the bartender,True,promised,to read,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to read.
+
+Question:  Who read, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the lawyer promised the bartender to read.\n\nQuestion:  Who read, the bartender or the lawyer?\nAnswer:  The bartender.\n')",94.0
+95,gpt_j,subject-control,the lawyer,the bartender,False,promised,to read,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to read.
+
+Question:  Who read, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the lawyer promised the bartender to read.\n\nQuestion:  Who read, the lawyer or the bartender?\nAnswer:  The bartender.\n')",95.0
+96,gpt_j,subject-control,the lawyer,the bartender,True,promised,to run,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to run.
+
+Question:  Who ran, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the lawyer promised the bartender to run.\n\nQuestion:  Who ran, the bartender or the lawyer?\nAnswer:  The bartender.\n')",96.0
+97,gpt_j,subject-control,the lawyer,the bartender,False,promised,to run,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to run.
+
+Question:  Who ran, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the lawyer promised the bartender to run.\n\nQuestion:  Who ran, the lawyer or the bartender?\nAnswer:  The bartender.\n')",97.0
+98,gpt_j,subject-control,the lawyer,the bartender,True,promised,to call,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to call.
+
+Question:  Who called, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the lawyer promised the bartender to call.\n\nQuestion:  Who called, the bartender or the lawyer?\nAnswer:  The bartender.\n')",98.0
+99,gpt_j,subject-control,the lawyer,the bartender,False,promised,to call,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to call.
+
+Question:  Who called, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the lawyer promised the bartender to call.\n\nQuestion:  Who called, the lawyer or the bartender?\nAnswer:  The bartender.\n')",99.0
+100,gpt_j,subject-control,the engineer,the doctor,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to come.
+
+Question:  Who came, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the engineer promised the doctor to come.\n\nQuestion:  Who came, the doctor or the engineer?\nAnswer:  The engineer came.')",100.0
+101,gpt_j,subject-control,the engineer,the doctor,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to come.
+
+Question:  Who came, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the engineer promised the doctor to come.\n\nQuestion:  Who came, the engineer or the doctor?\nAnswer:  The engineer.\n')",101.0
+102,gpt_j,subject-control,the engineer,the doctor,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to go.
+
+Question:  Who went, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the engineer promised the doctor to go.\n\nQuestion:  Who went, the doctor or the engineer?\nAnswer:  The engineer.\n')",102.0
+103,gpt_j,subject-control,the engineer,the doctor,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to go.
+
+Question:  Who went, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the engineer promised the doctor to go.\n\nQuestion:  Who went, the engineer or the doctor?\nAnswer:  The engineer.\n')",103.0
+104,gpt_j,subject-control,the engineer,the doctor,True,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to read.
+
+Question:  Who read, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the engineer promised the doctor to read.\n\nQuestion:  Who read, the doctor or the engineer?\nAnswer:  The engineer read.')",104.0
+105,gpt_j,subject-control,the engineer,the doctor,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to read.
+
+Question:  Who read, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the engineer promised the doctor to read.\n\nQuestion:  Who read, the engineer or the doctor?\nAnswer:  The engineer.\n')",105.0
+106,gpt_j,subject-control,the engineer,the doctor,True,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to run.
+
+Question:  Who ran, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the engineer promised the doctor to run.\n\nQuestion:  Who ran, the doctor or the engineer?\nAnswer:  The engineer ran.')",106.0
+107,gpt_j,subject-control,the engineer,the doctor,False,promised,to run,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to run.
+
+Question:  Who ran, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the engineer promised the doctor to run.\n\nQuestion:  Who ran, the engineer or the doctor?\nAnswer:  The doctor.\n')",107.0
+108,gpt_j,subject-control,the engineer,the doctor,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to call.
+
+Question:  Who called, the doctor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".\nContext: the engineer promised the doctor to call.\n\nQuestion:  Who called, the doctor or the engineer?\nAnswer:  The engineer called.')",108.0
+109,gpt_j,subject-control,the engineer,the doctor,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to call.
+
+Question:  Who called, the engineer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".\nContext: the engineer promised the doctor to call.\n\nQuestion:  Who called, the engineer or the doctor?\nAnswer:  The engineer.\n')",109.0
+110,gpt_j,subject-control,the engineer,the lawyer,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to come.
+
+Question:  Who came, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the engineer promised the lawyer to come.\n\nQuestion:  Who came, the lawyer or the engineer?\nAnswer:  The engineer.\n')",110.0
+111,gpt_j,subject-control,the engineer,the lawyer,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to come.
+
+Question:  Who came, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the engineer promised the lawyer to come.\n\nQuestion:  Who came, the engineer or the lawyer?\nAnswer:  The engineer.\n')",111.0
+112,gpt_j,subject-control,the engineer,the lawyer,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to go.
+
+Question:  Who went, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the engineer promised the lawyer to go.\n\nQuestion:  Who went, the lawyer or the engineer?\nAnswer:  The engineer.\n')",112.0
+113,gpt_j,subject-control,the engineer,the lawyer,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to go.
+
+Question:  Who went, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the engineer promised the lawyer to go.\n\nQuestion:  Who went, the engineer or the lawyer?\nAnswer:  The engineer.\n')",113.0
+114,gpt_j,subject-control,the engineer,the lawyer,True,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to read.
+
+Question:  Who read, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the engineer promised the lawyer to read.\n\nQuestion:  Who read, the lawyer or the engineer?\nAnswer:  The engineer read.')",114.0
+115,gpt_j,subject-control,the engineer,the lawyer,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to read.
+
+Question:  Who read, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the engineer promised the lawyer to read.\n\nQuestion:  Who read, the engineer or the lawyer?\nAnswer:  The engineer.\n')",115.0
+116,gpt_j,subject-control,the engineer,the lawyer,True,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the engineer promised the lawyer to run.\n\nQuestion:  Who ran, the lawyer or the engineer?\nAnswer:  The engineer ran.')",116.0
+117,gpt_j,subject-control,the engineer,the lawyer,False,promised,to run,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to run.
+
+Question:  Who ran, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the engineer promised the lawyer to run.\n\nQuestion:  Who ran, the engineer or the lawyer?\nAnswer:  The lawyer.\n')",117.0
+118,gpt_j,subject-control,the engineer,the lawyer,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to call.
+
+Question:  Who called, the lawyer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".\nContext: the engineer promised the lawyer to call.\n\nQuestion:  Who called, the lawyer or the engineer?\nAnswer:  The engineer called.')",118.0
+119,gpt_j,subject-control,the engineer,the lawyer,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to call.
+
+Question:  Who called, the engineer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".\nContext: the engineer promised the lawyer to call.\n\nQuestion:  Who called, the engineer or the lawyer?\nAnswer:  The engineer.\n')",119.0
+120,gpt_j,subject-control,the engineer,the writer,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to come.
+
+Question:  Who came, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the engineer promised the writer to come.\n\nQuestion:  Who came, the writer or the engineer?\nAnswer:  The engineer.\n')",120.0
+121,gpt_j,subject-control,the engineer,the writer,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to come.
+
+Question:  Who came, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the engineer promised the writer to come.\n\nQuestion:  Who came, the engineer or the writer?\nAnswer:  The engineer.\n')",121.0
+122,gpt_j,subject-control,the engineer,the writer,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to go.
+
+Question:  Who went, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the engineer promised the writer to go.\n\nQuestion:  Who went, the writer or the engineer?\nAnswer:  The engineer.\n')",122.0
+123,gpt_j,subject-control,the engineer,the writer,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to go.
+
+Question:  Who went, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the engineer promised the writer to go.\n\nQuestion:  Who went, the engineer or the writer?\nAnswer:  The engineer.\n')",123.0
+124,gpt_j,subject-control,the engineer,the writer,True,promised,to read,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to read.
+
+Question:  Who read, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the engineer promised the writer to read.\n\nQuestion:  Who read, the writer or the engineer?\nAnswer:  The writer.\n')",124.0
+125,gpt_j,subject-control,the engineer,the writer,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to read.
+
+Question:  Who read, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the engineer promised the writer to read.\n\nQuestion:  Who read, the engineer or the writer?\nAnswer:  The engineer.\n')",125.0
+126,gpt_j,subject-control,the engineer,the writer,True,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to run.
+
+Question:  Who ran, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the engineer promised the writer to run.\n\nQuestion:  Who ran, the writer or the engineer?\nAnswer:  The engineer ran.')",126.0
+127,gpt_j,subject-control,the engineer,the writer,False,promised,to run,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to run.
+
+Question:  Who ran, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the engineer promised the writer to run.\n\nQuestion:  Who ran, the engineer or the writer?\nAnswer:  The writer.\n')",127.0
+128,gpt_j,subject-control,the engineer,the writer,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to call.
+
+Question:  Who called, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the engineer promised the writer to call.\n\nQuestion:  Who called, the writer or the engineer?\nAnswer:  The engineer.\n')",128.0
+129,gpt_j,subject-control,the engineer,the writer,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to call.
+
+Question:  Who called, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the engineer promised the writer to call.\n\nQuestion:  Who called, the engineer or the writer?\nAnswer:  The engineer.\n')",129.0
+130,gpt_j,subject-control,the engineer,the janitor,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to come.
+
+Question:  Who came, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the engineer promised the janitor to come.\n\nQuestion:  Who came, the janitor or the engineer?\nAnswer:  The')",130.0
+131,gpt_j,subject-control,the engineer,the janitor,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to come.
+
+Question:  Who came, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the engineer promised the janitor to come.\n\nQuestion:  Who came, the engineer or the janitor?\nAnswer:  The')",131.0
+132,gpt_j,subject-control,the engineer,the janitor,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to go.
+
+Question:  Who went, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the engineer promised the janitor to go.\n\nQuestion:  Who went, the janitor or the engineer?\nAnswer:  The')",132.0
+133,gpt_j,subject-control,the engineer,the janitor,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to go.
+
+Question:  Who went, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the engineer promised the janitor to go.\n\nQuestion:  Who went, the engineer or the janitor?\nAnswer:  The')",133.0
+134,gpt_j,subject-control,the engineer,the janitor,True,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to read.
+
+Question:  Who read, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the engineer promised the janitor to read.\n\nQuestion:  Who read, the janitor or the engineer?\nAnswer:  The')",134.0
+135,gpt_j,subject-control,the engineer,the janitor,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to read.
+
+Question:  Who read, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the engineer promised the janitor to read.\n\nQuestion:  Who read, the engineer or the janitor?\nAnswer:  The')",135.0
+136,gpt_j,subject-control,the engineer,the janitor,True,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to run.
+
+Question:  Who ran, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the engineer promised the janitor to run.\n\nQuestion:  Who ran, the janitor or the engineer?\nAnswer:  The')",136.0
+137,gpt_j,subject-control,the engineer,the janitor,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to run.
+
+Question:  Who ran, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the engineer promised the janitor to run.\n\nQuestion:  Who ran, the engineer or the janitor?\nAnswer:  The')",137.0
+138,gpt_j,subject-control,the engineer,the janitor,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to call.
+
+Question:  Who called, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the engineer promised the janitor to call.\n\nQuestion:  Who called, the janitor or the engineer?\nAnswer:  The')",138.0
+139,gpt_j,subject-control,the engineer,the janitor,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to call.
+
+Question:  Who called, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the engineer promised the janitor to call.\n\nQuestion:  Who called, the engineer or the janitor?\nAnswer:  The')",139.0
+140,gpt_j,subject-control,the engineer,the bartender,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to come.
+
+Question:  Who came, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the engineer promised the bartender to come.\n\nQuestion:  Who came, the bartender or the engineer?\nAnswer:  The engineer.\n')",140.0
+141,gpt_j,subject-control,the engineer,the bartender,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to come.
+
+Question:  Who came, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the engineer promised the bartender to come.\n\nQuestion:  Who came, the engineer or the bartender?\nAnswer:  The engineer.\n')",141.0
+142,gpt_j,subject-control,the engineer,the bartender,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to go.
+
+Question:  Who went, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the engineer promised the bartender to go.\n\nQuestion:  Who went, the bartender or the engineer?\nAnswer:  The engineer.\n')",142.0
+143,gpt_j,subject-control,the engineer,the bartender,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to go.
+
+Question:  Who went, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the engineer promised the bartender to go.\n\nQuestion:  Who went, the engineer or the bartender?\nAnswer:  The engineer.\n')",143.0
+144,gpt_j,subject-control,the engineer,the bartender,True,promised,to read,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to read.
+
+Question:  Who read, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the engineer promised the bartender to read.\n\nQuestion:  Who read, the bartender or the engineer?\nAnswer:  The bartender.\n')",144.0
+145,gpt_j,subject-control,the engineer,the bartender,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to read.
+
+Question:  Who read, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the engineer promised the bartender to read.\n\nQuestion:  Who read, the engineer or the bartender?\nAnswer:  The engineer.\n')",145.0
+146,gpt_j,subject-control,the engineer,the bartender,True,promised,to run,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to run.
+
+Question:  Who ran, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the engineer promised the bartender to run.\n\nQuestion:  Who ran, the bartender or the engineer?\nAnswer:  The bartender.\n')",146.0
+147,gpt_j,subject-control,the engineer,the bartender,False,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to run.
+
+Question:  Who ran, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the engineer promised the bartender to run.\n\nQuestion:  Who ran, the engineer or the bartender?\nAnswer:  The engineer ran.')",147.0
+148,gpt_j,subject-control,the engineer,the bartender,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to call.
+
+Question:  Who called, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the engineer promised the bartender to call.\n\nQuestion:  Who called, the bartender or the engineer?\nAnswer:  The engineer called.')",148.0
+149,gpt_j,subject-control,the engineer,the bartender,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to call.
+
+Question:  Who called, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the engineer promised the bartender to call.\n\nQuestion:  Who called, the engineer or the bartender?\nAnswer:  The engineer.\n')",149.0
+150,gpt_j,subject-control,the writer,the doctor,True,promised,to come,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to come.
+
+Question:  Who came, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the writer promised the doctor to come.\n\nQuestion:  Who came, the doctor or the writer?\nAnswer:  The doctor.\n')",150.0
+151,gpt_j,subject-control,the writer,the doctor,False,promised,to come,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to come.
+
+Question:  Who came, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the writer promised the doctor to come.\n\nQuestion:  Who came, the writer or the doctor?\nAnswer:  The writer.\n')",151.0
+152,gpt_j,subject-control,the writer,the doctor,True,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to go.
+
+Question:  Who went, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the writer promised the doctor to go.\n\nQuestion:  Who went, the doctor or the writer?\nAnswer:  The writer.\n')",152.0
+153,gpt_j,subject-control,the writer,the doctor,False,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to go.
+
+Question:  Who went, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the writer promised the doctor to go.\n\nQuestion:  Who went, the writer or the doctor?\nAnswer:  The writer.\n')",153.0
+154,gpt_j,subject-control,the writer,the doctor,True,promised,to read,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to read.
+
+Question:  Who read, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the writer promised the doctor to read.\n\nQuestion:  Who read, the doctor or the writer?\nAnswer:  The doctor.\n')",154.0
+155,gpt_j,subject-control,the writer,the doctor,False,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to read.
+
+Question:  Who read, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the writer promised the doctor to read.\n\nQuestion:  Who read, the writer or the doctor?\nAnswer:  The writer.\n')",155.0
+156,gpt_j,subject-control,the writer,the doctor,True,promised,to run,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to run.
+
+Question:  Who ran, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the writer promised the doctor to run.\n\nQuestion:  Who ran, the doctor or the writer?\nAnswer:  The doctor.\n')",156.0
+157,gpt_j,subject-control,the writer,the doctor,False,promised,to run,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to run.
+
+Question:  Who ran, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the writer promised the doctor to run.\n\nQuestion:  Who ran, the writer or the doctor?\nAnswer:  The writer.\n')",157.0
+158,gpt_j,subject-control,the writer,the doctor,True,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to call.
+
+Question:  Who called, the doctor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".\nContext: the writer promised the doctor to call.\n\nQuestion:  Who called, the doctor or the writer?\nAnswer:  The writer called.')",158.0
+159,gpt_j,subject-control,the writer,the doctor,False,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to call.
+
+Question:  Who called, the writer or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".\nContext: the writer promised the doctor to call.\n\nQuestion:  Who called, the writer or the doctor?\nAnswer:  The writer.\n')",159.0
+160,gpt_j,subject-control,the writer,the lawyer,True,promised,to come,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to come.
+
+Question:  Who came, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the writer promised the lawyer to come.\n\nQuestion:  Who came, the lawyer or the writer?\nAnswer:  The writer.\n')",160.0
+161,gpt_j,subject-control,the writer,the lawyer,False,promised,to come,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to come.
+
+Question:  Who came, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the writer promised the lawyer to come.\n\nQuestion:  Who came, the writer or the lawyer?\nAnswer:  The lawyer.\n')",161.0
+162,gpt_j,subject-control,the writer,the lawyer,True,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to go.
+
+Question:  Who went, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the writer promised the lawyer to go.\n\nQuestion:  Who went, the lawyer or the writer?\nAnswer:  The writer.\n')",162.0
+163,gpt_j,subject-control,the writer,the lawyer,False,promised,to go,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to go.
+
+Question:  Who went, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the writer promised the lawyer to go.\n\nQuestion:  Who went, the writer or the lawyer?\nAnswer:  The lawyer.\n')",163.0
+164,gpt_j,subject-control,the writer,the lawyer,True,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to read.
+
+Question:  Who read, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the writer promised the lawyer to read.\n\nQuestion:  Who read, the lawyer or the writer?\nAnswer:  The writer.\n')",164.0
+165,gpt_j,subject-control,the writer,the lawyer,False,promised,to read,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to read.
+
+Question:  Who read, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the writer promised the lawyer to read.\n\nQuestion:  Who read, the writer or the lawyer?\nAnswer:  The lawyer.\n')",165.0
+166,gpt_j,subject-control,the writer,the lawyer,True,promised,to run,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the writer promised the lawyer to run.\n\nQuestion:  Who ran, the lawyer or the writer?\nAnswer:  The writer ran.')",166.0
+167,gpt_j,subject-control,the writer,the lawyer,False,promised,to run,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to run.
+
+Question:  Who ran, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the writer promised the lawyer to run.\n\nQuestion:  Who ran, the writer or the lawyer?\nAnswer:  The lawyer.\n')",167.0
+168,gpt_j,subject-control,the writer,the lawyer,True,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to call.
+
+Question:  Who called, the lawyer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".\nContext: the writer promised the lawyer to call.\n\nQuestion:  Who called, the lawyer or the writer?\nAnswer:  The writer.\n')",168.0
+169,gpt_j,subject-control,the writer,the lawyer,False,promised,to call,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to call.
+
+Question:  Who called, the writer or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".\nContext: the writer promised the lawyer to call.\n\nQuestion:  Who called, the writer or the lawyer?\nAnswer:  The lawyer.\n')",169.0
+170,gpt_j,subject-control,the writer,the engineer,True,promised,to come,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to come.
+
+Question:  Who came, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the writer promised the engineer to come.\n\nQuestion:  Who came, the engineer or the writer?\nAnswer:  The writer.\n')",170.0
+171,gpt_j,subject-control,the writer,the engineer,False,promised,to come,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to come.
+
+Question:  Who came, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the writer promised the engineer to come.\n\nQuestion:  Who came, the writer or the engineer?\nAnswer:  The writer.\n')",171.0
+172,gpt_j,subject-control,the writer,the engineer,True,promised,to go,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to go.
+
+Question:  Who went, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the writer promised the engineer to go.\n\nQuestion:  Who went, the engineer or the writer?\nAnswer:  The engineer.\n')",172.0
+173,gpt_j,subject-control,the writer,the engineer,False,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to go.
+
+Question:  Who went, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the writer promised the engineer to go.\n\nQuestion:  Who went, the writer or the engineer?\nAnswer:  The writer.\n')",173.0
+174,gpt_j,subject-control,the writer,the engineer,True,promised,to read,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to read.
+
+Question:  Who read, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the writer promised the engineer to read.\n\nQuestion:  Who read, the engineer or the writer?\nAnswer:  The engineer.\n')",174.0
+175,gpt_j,subject-control,the writer,the engineer,False,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to read.
+
+Question:  Who read, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the writer promised the engineer to read.\n\nQuestion:  Who read, the writer or the engineer?\nAnswer:  The writer.\n')",175.0
+176,gpt_j,subject-control,the writer,the engineer,True,promised,to run,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to run.
+
+Question:  Who ran, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the writer promised the engineer to run.\n\nQuestion:  Who ran, the engineer or the writer?\nAnswer:  The engineer.\n')",176.0
+177,gpt_j,subject-control,the writer,the engineer,False,promised,to run,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to run.
+
+Question:  Who ran, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the writer promised the engineer to run.\n\nQuestion:  Who ran, the writer or the engineer?\nAnswer:  The writer ran.')",177.0
+178,gpt_j,subject-control,the writer,the engineer,True,promised,to call,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to call.
+
+Question:  Who called, the engineer or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".\nContext: the writer promised the engineer to call.\n\nQuestion:  Who called, the engineer or the writer?\nAnswer:  The engineer.\n')",178.0
+179,gpt_j,subject-control,the writer,the engineer,False,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to call.
+
+Question:  Who called, the writer or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".\nContext: the writer promised the engineer to call.\n\nQuestion:  Who called, the writer or the engineer?\nAnswer:  The writer.\n')",179.0
+180,gpt_j,subject-control,the writer,the janitor,True,promised,to come,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to come.
+
+Question:  Who came, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the writer promised the janitor to come.\n\nQuestion:  Who came, the janitor or the writer?\nAnswer:  The')",180.0
+181,gpt_j,subject-control,the writer,the janitor,False,promised,to come,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to come.
+
+Question:  Who came, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the writer promised the janitor to come.\n\nQuestion:  Who came, the writer or the janitor?\nAnswer:  The')",181.0
+182,gpt_j,subject-control,the writer,the janitor,True,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to go.
+
+Question:  Who went, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the writer promised the janitor to go.\n\nQuestion:  Who went, the janitor or the writer?\nAnswer:  The')",182.0
+183,gpt_j,subject-control,the writer,the janitor,False,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to go.
+
+Question:  Who went, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the writer promised the janitor to go.\n\nQuestion:  Who went, the writer or the janitor?\nAnswer:  The')",183.0
+184,gpt_j,subject-control,the writer,the janitor,True,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to read.
+
+Question:  Who read, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the writer promised the janitor to read.\n\nQuestion:  Who read, the janitor or the writer?\nAnswer:  The')",184.0
+185,gpt_j,subject-control,the writer,the janitor,False,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to read.
+
+Question:  Who read, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the writer promised the janitor to read.\n\nQuestion:  Who read, the writer or the janitor?\nAnswer:  The')",185.0
+186,gpt_j,subject-control,the writer,the janitor,True,promised,to run,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to run.
+
+Question:  Who ran, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the writer promised the janitor to run.\n\nQuestion:  Who ran, the janitor or the writer?\nAnswer:  The')",186.0
+187,gpt_j,subject-control,the writer,the janitor,False,promised,to run,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to run.
+
+Question:  Who ran, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the writer promised the janitor to run.\n\nQuestion:  Who ran, the writer or the janitor?\nAnswer:  The')",187.0
+188,gpt_j,subject-control,the writer,the janitor,True,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to call.
+
+Question:  Who called, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the writer promised the janitor to call.\n\nQuestion:  Who called, the janitor or the writer?\nAnswer:  The')",188.0
+189,gpt_j,subject-control,the writer,the janitor,False,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to call.
+
+Question:  Who called, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the writer promised the janitor to call.\n\nQuestion:  Who called, the writer or the janitor?\nAnswer:  The')",189.0
+190,gpt_j,subject-control,the writer,the bartender,True,promised,to come,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to come.
+
+Question:  Who came, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the writer promised the bartender to come.\n\nQuestion:  Who came, the bartender or the writer?\nAnswer:  The bartender.\n')",190.0
+191,gpt_j,subject-control,the writer,the bartender,False,promised,to come,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to come.
+
+Question:  Who came, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the writer promised the bartender to come.\n\nQuestion:  Who came, the writer or the bartender?\nAnswer:  The bartender.\n')",191.0
+192,gpt_j,subject-control,the writer,the bartender,True,promised,to go,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to go.
+
+Question:  Who went, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the writer promised the bartender to go.\n\nQuestion:  Who went, the bartender or the writer?\nAnswer:  The bartender.\n')",192.0
+193,gpt_j,subject-control,the writer,the bartender,False,promised,to go,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to go.
+
+Question:  Who went, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the writer promised the bartender to go.\n\nQuestion:  Who went, the writer or the bartender?\nAnswer:  The writer.\n')",193.0
+194,gpt_j,subject-control,the writer,the bartender,True,promised,to read,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to read.
+
+Question:  Who read, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the writer promised the bartender to read.\n\nQuestion:  Who read, the bartender or the writer?\nAnswer:  The bartender.\n')",194.0
+195,gpt_j,subject-control,the writer,the bartender,False,promised,to read,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to read.
+
+Question:  Who read, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the writer promised the bartender to read.\n\nQuestion:  Who read, the writer or the bartender?\nAnswer:  The writer.\n')",195.0
+196,gpt_j,subject-control,the writer,the bartender,True,promised,to run,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to run.
+
+Question:  Who ran, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the writer promised the bartender to run.\n\nQuestion:  Who ran, the bartender or the writer?\nAnswer:  The bartender.\n')",196.0
+197,gpt_j,subject-control,the writer,the bartender,False,promised,to run,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to run.
+
+Question:  Who ran, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the writer promised the bartender to run.\n\nQuestion:  Who ran, the writer or the bartender?\nAnswer:  The bartender.\n')",197.0
+198,gpt_j,subject-control,the writer,the bartender,True,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to call.
+
+Question:  Who called, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the writer promised the bartender to call.\n\nQuestion:  Who called, the bartender or the writer?\nAnswer:  The writer called.')",198.0
+199,gpt_j,subject-control,the writer,the bartender,False,promised,to call,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to call.
+
+Question:  Who called, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the writer promised the bartender to call.\n\nQuestion:  Who called, the writer or the bartender?\nAnswer:  The bartender.\n')",199.0
+200,gpt_j,subject-control,the janitor,the doctor,True,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to come.
+
+Question:  Who came, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the janitor promised the doctor to come.\n\nQuestion:  Who came, the doctor or the janitor?\nAnswer:  The')",200.0
+201,gpt_j,subject-control,the janitor,the doctor,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to come.
+
+Question:  Who came, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the janitor promised the doctor to come.\n\nQuestion:  Who came, the janitor or the doctor?\nAnswer:  The')",201.0
+202,gpt_j,subject-control,the janitor,the doctor,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to go.
+
+Question:  Who went, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the janitor promised the doctor to go.\n\nQuestion:  Who went, the doctor or the janitor?\nAnswer:  The')",202.0
+203,gpt_j,subject-control,the janitor,the doctor,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to go.
+
+Question:  Who went, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the janitor promised the doctor to go.\n\nQuestion:  Who went, the janitor or the doctor?\nAnswer:  The')",203.0
+204,gpt_j,subject-control,the janitor,the doctor,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to read.
+
+Question:  Who read, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the janitor promised the doctor to read.\n\nQuestion:  Who read, the doctor or the janitor?\nAnswer:  The')",204.0
+205,gpt_j,subject-control,the janitor,the doctor,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to read.
+
+Question:  Who read, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the janitor promised the doctor to read.\n\nQuestion:  Who read, the janitor or the doctor?\nAnswer:  The')",205.0
+206,gpt_j,subject-control,the janitor,the doctor,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to run.
+
+Question:  Who ran, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the janitor promised the doctor to run.\n\nQuestion:  Who ran, the doctor or the janitor?\nAnswer:  The')",206.0
+207,gpt_j,subject-control,the janitor,the doctor,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to run.
+
+Question:  Who ran, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the janitor promised the doctor to run.\n\nQuestion:  Who ran, the janitor or the doctor?\nAnswer:  The')",207.0
+208,gpt_j,subject-control,the janitor,the doctor,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to call.
+
+Question:  Who called, the doctor or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".\nContext: the janitor promised the doctor to call.\n\nQuestion:  Who called, the doctor or the janitor?\nAnswer:  The')",208.0
+209,gpt_j,subject-control,the janitor,the doctor,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to call.
+
+Question:  Who called, the janitor or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".\nContext: the janitor promised the doctor to call.\n\nQuestion:  Who called, the janitor or the doctor?\nAnswer:  The')",209.0
+210,gpt_j,subject-control,the janitor,the lawyer,True,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to come.
+
+Question:  Who came, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the janitor promised the lawyer to come.\n\nQuestion:  Who came, the lawyer or the janitor?\nAnswer:  The')",210.0
+211,gpt_j,subject-control,the janitor,the lawyer,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to come.
+
+Question:  Who came, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the janitor promised the lawyer to come.\n\nQuestion:  Who came, the janitor or the lawyer?\nAnswer:  The')",211.0
+212,gpt_j,subject-control,the janitor,the lawyer,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to go.
+
+Question:  Who went, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the janitor promised the lawyer to go.\n\nQuestion:  Who went, the lawyer or the janitor?\nAnswer:  The')",212.0
+213,gpt_j,subject-control,the janitor,the lawyer,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to go.
+
+Question:  Who went, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the janitor promised the lawyer to go.\n\nQuestion:  Who went, the janitor or the lawyer?\nAnswer:  The')",213.0
+214,gpt_j,subject-control,the janitor,the lawyer,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to read.
+
+Question:  Who read, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the janitor promised the lawyer to read.\n\nQuestion:  Who read, the lawyer or the janitor?\nAnswer:  The')",214.0
+215,gpt_j,subject-control,the janitor,the lawyer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to read.
+
+Question:  Who read, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the janitor promised the lawyer to read.\n\nQuestion:  Who read, the janitor or the lawyer?\nAnswer:  The')",215.0
+216,gpt_j,subject-control,the janitor,the lawyer,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the janitor promised the lawyer to run.\n\nQuestion:  Who ran, the lawyer or the janitor?\nAnswer:  The')",216.0
+217,gpt_j,subject-control,the janitor,the lawyer,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to run.
+
+Question:  Who ran, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the janitor promised the lawyer to run.\n\nQuestion:  Who ran, the janitor or the lawyer?\nAnswer:  The')",217.0
+218,gpt_j,subject-control,the janitor,the lawyer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to call.
+
+Question:  Who called, the lawyer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".\nContext: the janitor promised the lawyer to call.\n\nQuestion:  Who called, the lawyer or the janitor?\nAnswer:  The')",218.0
+219,gpt_j,subject-control,the janitor,the lawyer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to call.
+
+Question:  Who called, the janitor or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".\nContext: the janitor promised the lawyer to call.\n\nQuestion:  Who called, the janitor or the lawyer?\nAnswer:  The')",219.0
+220,gpt_j,subject-control,the janitor,the engineer,True,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to come.
+
+Question:  Who came, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the janitor promised the engineer to come.\n\nQuestion:  Who came, the engineer or the janitor?\nAnswer:  The')",220.0
+221,gpt_j,subject-control,the janitor,the engineer,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to come.
+
+Question:  Who came, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the janitor promised the engineer to come.\n\nQuestion:  Who came, the janitor or the engineer?\nAnswer:  The')",221.0
+222,gpt_j,subject-control,the janitor,the engineer,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to go.
+
+Question:  Who went, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the janitor promised the engineer to go.\n\nQuestion:  Who went, the engineer or the janitor?\nAnswer:  The')",222.0
+223,gpt_j,subject-control,the janitor,the engineer,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to go.
+
+Question:  Who went, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the janitor promised the engineer to go.\n\nQuestion:  Who went, the janitor or the engineer?\nAnswer:  The')",223.0
+224,gpt_j,subject-control,the janitor,the engineer,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to read.
+
+Question:  Who read, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the janitor promised the engineer to read.\n\nQuestion:  Who read, the engineer or the janitor?\nAnswer:  The')",224.0
+225,gpt_j,subject-control,the janitor,the engineer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to read.
+
+Question:  Who read, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the janitor promised the engineer to read.\n\nQuestion:  Who read, the janitor or the engineer?\nAnswer:  The')",225.0
+226,gpt_j,subject-control,the janitor,the engineer,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to run.
+
+Question:  Who ran, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the janitor promised the engineer to run.\n\nQuestion:  Who ran, the engineer or the janitor?\nAnswer:  The')",226.0
+227,gpt_j,subject-control,the janitor,the engineer,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to run.
+
+Question:  Who ran, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the janitor promised the engineer to run.\n\nQuestion:  Who ran, the janitor or the engineer?\nAnswer:  The')",227.0
+228,gpt_j,subject-control,the janitor,the engineer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to call.
+
+Question:  Who called, the engineer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".\nContext: the janitor promised the engineer to call.\n\nQuestion:  Who called, the engineer or the janitor?\nAnswer:  The')",228.0
+229,gpt_j,subject-control,the janitor,the engineer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to call.
+
+Question:  Who called, the janitor or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".\nContext: the janitor promised the engineer to call.\n\nQuestion:  Who called, the janitor or the engineer?\nAnswer:  The')",229.0
+230,gpt_j,subject-control,the janitor,the writer,True,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to come.
+
+Question:  Who came, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the janitor promised the writer to come.\n\nQuestion:  Who came, the writer or the janitor?\nAnswer:  The')",230.0
+231,gpt_j,subject-control,the janitor,the writer,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to come.
+
+Question:  Who came, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the janitor promised the writer to come.\n\nQuestion:  Who came, the janitor or the writer?\nAnswer:  The')",231.0
+232,gpt_j,subject-control,the janitor,the writer,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to go.
+
+Question:  Who went, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the janitor promised the writer to go.\n\nQuestion:  Who went, the writer or the janitor?\nAnswer:  The')",232.0
+233,gpt_j,subject-control,the janitor,the writer,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to go.
+
+Question:  Who went, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the janitor promised the writer to go.\n\nQuestion:  Who went, the janitor or the writer?\nAnswer:  The')",233.0
+234,gpt_j,subject-control,the janitor,the writer,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to read.
+
+Question:  Who read, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the janitor promised the writer to read.\n\nQuestion:  Who read, the writer or the janitor?\nAnswer:  The')",234.0
+235,gpt_j,subject-control,the janitor,the writer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to read.
+
+Question:  Who read, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the janitor promised the writer to read.\n\nQuestion:  Who read, the janitor or the writer?\nAnswer:  The')",235.0
+236,gpt_j,subject-control,the janitor,the writer,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to run.
+
+Question:  Who ran, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the janitor promised the writer to run.\n\nQuestion:  Who ran, the writer or the janitor?\nAnswer:  The')",236.0
+237,gpt_j,subject-control,the janitor,the writer,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to run.
+
+Question:  Who ran, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the janitor promised the writer to run.\n\nQuestion:  Who ran, the janitor or the writer?\nAnswer:  The')",237.0
+238,gpt_j,subject-control,the janitor,the writer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to call.
+
+Question:  Who called, the writer or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".\nContext: the janitor promised the writer to call.\n\nQuestion:  Who called, the writer or the janitor?\nAnswer:  The')",238.0
+239,gpt_j,subject-control,the janitor,the writer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to call.
+
+Question:  Who called, the janitor or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".\nContext: the janitor promised the writer to call.\n\nQuestion:  Who called, the janitor or the writer?\nAnswer:  The')",239.0
+240,gpt_j,subject-control,the janitor,the bartender,True,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to come.
+
+Question:  Who came, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the janitor promised the bartender to come.\n\nQuestion:  Who came, the bartender or the janitor?\nAnswer:  The')",240.0
+241,gpt_j,subject-control,the janitor,the bartender,False,promised,to come,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to come.
+
+Question:  Who came, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the janitor promised the bartender to come.\n\nQuestion:  Who came, the janitor or the bartender?\nAnswer:  The')",241.0
+242,gpt_j,subject-control,the janitor,the bartender,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to go.
+
+Question:  Who went, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the janitor promised the bartender to go.\n\nQuestion:  Who went, the bartender or the janitor?\nAnswer:  The')",242.0
+243,gpt_j,subject-control,the janitor,the bartender,False,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to go.
+
+Question:  Who went, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the janitor promised the bartender to go.\n\nQuestion:  Who went, the janitor or the bartender?\nAnswer:  The')",243.0
+244,gpt_j,subject-control,the janitor,the bartender,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to read.
+
+Question:  Who read, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the janitor promised the bartender to read.\n\nQuestion:  Who read, the bartender or the janitor?\nAnswer:  The')",244.0
+245,gpt_j,subject-control,the janitor,the bartender,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to read.
+
+Question:  Who read, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the janitor promised the bartender to read.\n\nQuestion:  Who read, the janitor or the bartender?\nAnswer:  The')",245.0
+246,gpt_j,subject-control,the janitor,the bartender,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to run.
+
+Question:  Who ran, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the janitor promised the bartender to run.\n\nQuestion:  Who ran, the bartender or the janitor?\nAnswer:  The')",246.0
+247,gpt_j,subject-control,the janitor,the bartender,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to run.
+
+Question:  Who ran, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the janitor promised the bartender to run.\n\nQuestion:  Who ran, the janitor or the bartender?\nAnswer:  The')",247.0
+248,gpt_j,subject-control,the janitor,the bartender,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to call.
+
+Question:  Who called, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the janitor promised the bartender to call.\n\nQuestion:  Who called, the bartender or the janitor?\nAnswer:  The')",248.0
+249,gpt_j,subject-control,the janitor,the bartender,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to call.
+
+Question:  Who called, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the janitor promised the bartender to call.\n\nQuestion:  Who called, the janitor or the bartender?\nAnswer:  The')",249.0
+250,gpt_j,subject-control,the bartender,the doctor,True,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to come.
+
+Question:  Who came, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the bartender promised the doctor to come.\n\nQuestion:  Who came, the doctor or the bartender?\nAnswer:  The bartender came.')",250.0
+251,gpt_j,subject-control,the bartender,the doctor,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to come.
+
+Question:  Who came, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the bartender promised the doctor to come.\n\nQuestion:  Who came, the bartender or the doctor?\nAnswer:  The bartender.\n')",251.0
+252,gpt_j,subject-control,the bartender,the doctor,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to go.
+
+Question:  Who went, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the bartender promised the doctor to go.\n\nQuestion:  Who went, the doctor or the bartender?\nAnswer:  The bartender went.')",252.0
+253,gpt_j,subject-control,the bartender,the doctor,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to go.
+
+Question:  Who went, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the bartender promised the doctor to go.\n\nQuestion:  Who went, the bartender or the doctor?\nAnswer:  The bartender.\n')",253.0
+254,gpt_j,subject-control,the bartender,the doctor,True,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to read.
+
+Question:  Who read, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the bartender promised the doctor to read.\n\nQuestion:  Who read, the doctor or the bartender?\nAnswer:  The bartender read.')",254.0
+255,gpt_j,subject-control,the bartender,the doctor,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to read.
+
+Question:  Who read, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the bartender promised the doctor to read.\n\nQuestion:  Who read, the bartender or the doctor?\nAnswer:  The bartender.\n')",255.0
+256,gpt_j,subject-control,the bartender,the doctor,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to run.
+
+Question:  Who ran, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the bartender promised the doctor to run.\n\nQuestion:  Who ran, the doctor or the bartender?\nAnswer:  The bartender ran.')",256.0
+257,gpt_j,subject-control,the bartender,the doctor,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to run.
+
+Question:  Who ran, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the bartender promised the doctor to run.\n\nQuestion:  Who ran, the bartender or the doctor?\nAnswer:  The bartender.\n')",257.0
+258,gpt_j,subject-control,the bartender,the doctor,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to call.
+
+Question:  Who called, the doctor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".\nContext: the bartender promised the doctor to call.\n\nQuestion:  Who called, the doctor or the bartender?\nAnswer:  The bartender called.')",258.0
+259,gpt_j,subject-control,the bartender,the doctor,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to call.
+
+Question:  Who called, the bartender or the doctor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".\nContext: the bartender promised the doctor to call.\n\nQuestion:  Who called, the bartender or the doctor?\nAnswer:  The bartender.\n')",259.0
+260,gpt_j,subject-control,the bartender,the lawyer,True,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to come.
+
+Question:  Who came, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the bartender promised the lawyer to come.\n\nQuestion:  Who came, the lawyer or the bartender?\nAnswer:  The bartender came.')",260.0
+261,gpt_j,subject-control,the bartender,the lawyer,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to come.
+
+Question:  Who came, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the bartender promised the lawyer to come.\n\nQuestion:  Who came, the bartender or the lawyer?\nAnswer:  The bartender.\n')",261.0
+262,gpt_j,subject-control,the bartender,the lawyer,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to go.
+
+Question:  Who went, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the bartender promised the lawyer to go.\n\nQuestion:  Who went, the lawyer or the bartender?\nAnswer:  The bartender.\n')",262.0
+263,gpt_j,subject-control,the bartender,the lawyer,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to go.
+
+Question:  Who went, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the bartender promised the lawyer to go.\n\nQuestion:  Who went, the bartender or the lawyer?\nAnswer:  The bartender.\n')",263.0
+264,gpt_j,subject-control,the bartender,the lawyer,True,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to read.
+
+Question:  Who read, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the bartender promised the lawyer to read.\n\nQuestion:  Who read, the lawyer or the bartender?\nAnswer:  The bartender.\n')",264.0
+265,gpt_j,subject-control,the bartender,the lawyer,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to read.
+
+Question:  Who read, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the bartender promised the lawyer to read.\n\nQuestion:  Who read, the bartender or the lawyer?\nAnswer:  The bartender.\n')",265.0
+266,gpt_j,subject-control,the bartender,the lawyer,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the bartender promised the lawyer to run.\n\nQuestion:  Who ran, the lawyer or the bartender?\nAnswer:  The bartender ran.')",266.0
+267,gpt_j,subject-control,the bartender,the lawyer,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to run.
+
+Question:  Who ran, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the bartender promised the lawyer to run.\n\nQuestion:  Who ran, the bartender or the lawyer?\nAnswer:  The bartender.\n')",267.0
+268,gpt_j,subject-control,the bartender,the lawyer,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to call.
+
+Question:  Who called, the lawyer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".\nContext: the bartender promised the lawyer to call.\n\nQuestion:  Who called, the lawyer or the bartender?\nAnswer:  The bartender called.')",268.0
+269,gpt_j,subject-control,the bartender,the lawyer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to call.
+
+Question:  Who called, the bartender or the lawyer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".\nContext: the bartender promised the lawyer to call.\n\nQuestion:  Who called, the bartender or the lawyer?\nAnswer:  The bartender.\n')",269.0
+270,gpt_j,subject-control,the bartender,the engineer,True,promised,to come,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to come.
+
+Question:  Who came, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the bartender promised the engineer to come.\n\nQuestion:  Who came, the engineer or the bartender?\nAnswer:  The engineer.\n')",270.0
+271,gpt_j,subject-control,the bartender,the engineer,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to come.
+
+Question:  Who came, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the bartender promised the engineer to come.\n\nQuestion:  Who came, the bartender or the engineer?\nAnswer:  The bartender.\n')",271.0
+272,gpt_j,subject-control,the bartender,the engineer,True,promised,to go,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to go.
+
+Question:  Who went, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the bartender promised the engineer to go.\n\nQuestion:  Who went, the engineer or the bartender?\nAnswer:  The engineer.\n')",272.0
+273,gpt_j,subject-control,the bartender,the engineer,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to go.
+
+Question:  Who went, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the bartender promised the engineer to go.\n\nQuestion:  Who went, the bartender or the engineer?\nAnswer:  The bartender.\n')",273.0
+274,gpt_j,subject-control,the bartender,the engineer,True,promised,to read,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to read.
+
+Question:  Who read, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the bartender promised the engineer to read.\n\nQuestion:  Who read, the engineer or the bartender?\nAnswer:  The engineer.\n')",274.0
+275,gpt_j,subject-control,the bartender,the engineer,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to read.
+
+Question:  Who read, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the bartender promised the engineer to read.\n\nQuestion:  Who read, the bartender or the engineer?\nAnswer:  The bartender.\n')",275.0
+276,gpt_j,subject-control,the bartender,the engineer,True,promised,to run,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to run.
+
+Question:  Who ran, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the bartender promised the engineer to run.\n\nQuestion:  Who ran, the engineer or the bartender?\nAnswer:  The engineer.\n')",276.0
+277,gpt_j,subject-control,the bartender,the engineer,False,promised,to run,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to run.
+
+Question:  Who ran, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the bartender promised the engineer to run.\n\nQuestion:  Who ran, the bartender or the engineer?\nAnswer:  The engineer.\n')",277.0
+278,gpt_j,subject-control,the bartender,the engineer,True,promised,to call,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to call.
+
+Question:  Who called, the engineer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".\nContext: the bartender promised the engineer to call.\n\nQuestion:  Who called, the engineer or the bartender?\nAnswer:  The engineer.\n')",278.0
+279,gpt_j,subject-control,the bartender,the engineer,False,promised,to call,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to call.
+
+Question:  Who called, the bartender or the engineer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".\nContext: the bartender promised the engineer to call.\n\nQuestion:  Who called, the bartender or the engineer?\nAnswer:  The engineer.\n')",279.0
+280,gpt_j,subject-control,the bartender,the writer,True,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to come.
+
+Question:  Who came, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the bartender promised the writer to come.\n\nQuestion:  Who came, the writer or the bartender?\nAnswer:  The bartender came.')",280.0
+281,gpt_j,subject-control,the bartender,the writer,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to come.
+
+Question:  Who came, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the bartender promised the writer to come.\n\nQuestion:  Who came, the bartender or the writer?\nAnswer:  The bartender.\n')",281.0
+282,gpt_j,subject-control,the bartender,the writer,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to go.
+
+Question:  Who went, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the bartender promised the writer to go.\n\nQuestion:  Who went, the writer or the bartender?\nAnswer:  The bartender went.')",282.0
+283,gpt_j,subject-control,the bartender,the writer,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to go.
+
+Question:  Who went, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the bartender promised the writer to go.\n\nQuestion:  Who went, the bartender or the writer?\nAnswer:  The bartender.\n')",283.0
+284,gpt_j,subject-control,the bartender,the writer,True,promised,to read,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to read.
+
+Question:  Who read, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the bartender promised the writer to read.\n\nQuestion:  Who read, the writer or the bartender?\nAnswer:  The writer.\n')",284.0
+285,gpt_j,subject-control,the bartender,the writer,False,promised,to read,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to read.
+
+Question:  Who read, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the bartender promised the writer to read.\n\nQuestion:  Who read, the bartender or the writer?\nAnswer:  The writer.\n')",285.0
+286,gpt_j,subject-control,the bartender,the writer,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to run.
+
+Question:  Who ran, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the bartender promised the writer to run.\n\nQuestion:  Who ran, the writer or the bartender?\nAnswer:  The bartender ran.')",286.0
+287,gpt_j,subject-control,the bartender,the writer,False,promised,to run,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to run.
+
+Question:  Who ran, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the bartender promised the writer to run.\n\nQuestion:  Who ran, the bartender or the writer?\nAnswer:  The writer.\n')",287.0
+288,gpt_j,subject-control,the bartender,the writer,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to call.
+
+Question:  Who called, the writer or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".\nContext: the bartender promised the writer to call.\n\nQuestion:  Who called, the writer or the bartender?\nAnswer:  The bartender called.')",288.0
+289,gpt_j,subject-control,the bartender,the writer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to call.
+
+Question:  Who called, the bartender or the writer?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".\nContext: the bartender promised the writer to call.\n\nQuestion:  Who called, the bartender or the writer?\nAnswer:  The bartender.\n')",289.0
+290,gpt_j,subject-control,the bartender,the janitor,True,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to come.
+
+Question:  Who came, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the bartender promised the janitor to come.\n\nQuestion:  Who came, the janitor or the bartender?\nAnswer:  The')",290.0
+291,gpt_j,subject-control,the bartender,the janitor,False,promised,to come,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to come.
+
+Question:  Who came, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the bartender promised the janitor to come.\n\nQuestion:  Who came, the bartender or the janitor?\nAnswer:  The')",291.0
+292,gpt_j,subject-control,the bartender,the janitor,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to go.
+
+Question:  Who went, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the bartender promised the janitor to go.\n\nQuestion:  Who went, the janitor or the bartender?\nAnswer:  The')",292.0
+293,gpt_j,subject-control,the bartender,the janitor,False,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to go.
+
+Question:  Who went, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the bartender promised the janitor to go.\n\nQuestion:  Who went, the bartender or the janitor?\nAnswer:  The')",293.0
+294,gpt_j,subject-control,the bartender,the janitor,True,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to read.
+
+Question:  Who read, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the bartender promised the janitor to read.\n\nQuestion:  Who read, the janitor or the bartender?\nAnswer:  The')",294.0
+295,gpt_j,subject-control,the bartender,the janitor,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to read.
+
+Question:  Who read, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the bartender promised the janitor to read.\n\nQuestion:  Who read, the bartender or the janitor?\nAnswer:  The')",295.0
+296,gpt_j,subject-control,the bartender,the janitor,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to run.
+
+Question:  Who ran, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the bartender promised the janitor to run.\n\nQuestion:  Who ran, the janitor or the bartender?\nAnswer:  The')",296.0
+297,gpt_j,subject-control,the bartender,the janitor,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to run.
+
+Question:  Who ran, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the bartender promised the janitor to run.\n\nQuestion:  Who ran, the bartender or the janitor?\nAnswer:  The')",297.0
+298,gpt_j,subject-control,the bartender,the janitor,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to call.
+
+Question:  Who called, the janitor or the bartender?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".\nContext: the bartender promised the janitor to call.\n\nQuestion:  Who called, the janitor or the bartender?\nAnswer:  The')",298.0
+299,gpt_j,subject-control,the bartender,the janitor,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to call.
+
+Question:  Who called, the bartender or the janitor?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".\nContext: the bartender promised the janitor to call.\n\nQuestion:  Who called, the bartender or the janitor?\nAnswer:  The')",299.0
