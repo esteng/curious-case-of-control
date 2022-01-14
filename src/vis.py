@@ -18,7 +18,7 @@ def get_palette():
             "gpt-j": '#d55e00', "jurassic-large": '#cc78bc', "jurassic-jumbo": '#ca9161', 
             "t5": '#fbafe4', "t0": '#949494'} 
 
-def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered = False, ignore_first_only = False):
+def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered = False, ignore_first_only = False, no_t5=False):
     # consolidate data from different csvs 
     all_dfs = {g:[] for g in csv_groups.keys()}
     for group, csvs in csv_groups.items():
@@ -60,20 +60,35 @@ def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered =
                 df_to_plot = df_to_plot.append({"model": model_name, "acc": acc, "type": type_name, "group": group}, ignore_index=True)
     palette = get_palette()
 
-    order = [ "gpt-neo-1.3b", "gpt-neo-2.7b", "gpt-j", "gpt3", "jurassic-large","jurassic-jumbo","t5", "t0"]
+    if no_t5:
+        order = [ "gpt-neo-1.3b", "gpt-neo-2.7b", "gpt-j", "gpt3", "jurassic-large","jurassic-jumbo", "t0"]
+    else:
+        order = [ "gpt-neo-1.3b", "gpt-neo-2.7b", "gpt-j", "gpt3", "jurassic-large","jurassic-jumbo","t5", "t0"]
 
-    g = sns.catplot(data = df_to_plot, kind='bar', x = x_name, y = 'acc', hue = hue_name, palette=palette, col="group", hue_order=order)
+    g = sns.catplot(data = df_to_plot, 
+                    kind='bar', 
+                    x = x_name,
+                     y = 'acc', 
+                     hue = hue_name, 
+                     palette=palette, 
+                     col="group", 
+                     hue_order=order,
+                     legend=False)
     g.set(ylim=(0, 1.0))
 
-    # g.ax.set_ylim(top=1.0, bottom=0.0)
-    # [plt.setp(ax.get_xticklabels(), rotation=45) for ax in g.axes.flat]
     if title is not None:
-        g.fig.suptitle(title)
+        g.fig.subplots_adjust(top=0.9) 
+        g.fig.suptitle(title) 
     for ax_line in g.axes:
         for ax in ax_line:
             xs = (-0.4, 0.4)
             ys = (0.5, 0.5)
-            ax.plot(xs, ys, "-")
+            ax.plot(xs, ys, "-", color="#000000")
+    g.set_titles("{col_name}", fontsize=14) 
+    g.set_xticklabels([])
+    g.set_xticklabels([])
+    g.set(xlabel=None)
+    g.set(xticks=[])
     return g 
 
 
@@ -144,24 +159,8 @@ def recompute_agent_patient(csvs,
         
     return accuracy_reports
 
-def do_mcnemar(model1, model2, prefix1, prefix2, two_affix1, two_affix2, condition): 
-    path_to_file = pathlib.Path("").absolute()
-    parent = path_to_file.parent
-    ## Test to see if model1 is actually better than model2 
-    parent_path1 = parent.joinpath(f"agent_patient_results_to_plot")
-    parent_path2 = parent.joinpath(f"agent_patient_results_to_plot")
-    if model1 == "gpt" or model1.startswith("jurassic"):
-        two_affix1 = ""
-    model1_path = parent_path1.joinpath(f"{model1}_{condition}{two_affix1}_prefix_{prefix1}.csv")
 
-    is_random = False
-    if model2 == "random": 
-        is_random = True
-    else:
-        if model2 == "gpt" or model2.startswith("jurassic"):
-            two_affix2 = ""
-        model2_path = parent_path2.joinpath(f"{model2}_{condition}{two_affix2}_prefix_{prefix2}.csv")
-
+def execute_mcnemar_agent_patient(model1, model1_path, model2, model2_path, is_random, condition):
     exp1  = AgentPatientExperiment(model1, "", None, None, 1, None)
     exp1.recover(model1_path)
     if not is_random:
@@ -170,13 +169,20 @@ def do_mcnemar(model1, model2, prefix1, prefix2, two_affix1, two_affix2, conditi
     else:
         exp2 = AgentPatientExperiment("random", "", None, None, 1, None) 
         yes_no = ["Yes", "No"]
+        if model2.split("-")[1] == "yes":
+            pred_val = "Yes"
+        elif model2.split("-")[1] == "no":
+            pred_val = "No"
+        else:
+            pred_val = np.random.choice(["Yes", "No"])
+
         if condition == "volition": 
             true_vals = "No, Yes, Yes, No, Yes, No, Yes, Yes, Yes, No, No, Yes, Yes, No, No, Yes, No, Yes, Yes, Yes, No, Yes, No, No, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, No, Yes, Yes, Yes, Yes, Yes, Yes, No, Yes, No, Yes, No, Yes, Yes, No, No, No, No, Yes, No, Yes, No, No, No, Yes, Yes, No, Yes, No, No, Yes, No, No, Yes, Yes, Yes, No, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No, Yes, No, Yes, Yes, Yes, Yes, Yes, No, Yes, Yes, No, Yes, No, Yes, No, Yes, Yes, No, Yes, Yes, No, Yes, No, Yes, Yes, Yes, No, Yes, Yes, Yes, No, No, Yes, Yes, Yes, No, Yes, Yes, No, No, No, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No, No, No, No, Yes, Yes, No, Yes, Yes, No, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, Yes, No, No".split(", ")
             top = 168
         else:
             true_vals = "No, No, No, No, Yes, Yes, Yes, Yes, Yes, No, Yes, No, Yes, Yes, No, Yes, Yes, Yes, No, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, No, No, Yes, Yes, No, No, No, No, Yes, Yes, Yes, No, No, No, No, No, No, Yes, Yes, Yes, No, Yes, Yes, Yes, Yes, No, No, Yes, No, No, No, No, Yes, No, No, Yes, No, Yes, Yes, Yes, Yes, Yes, No, No, Yes, No, Yes, No, No, Yes, Yes, Yes, No, Yes, No, No, Yes, Yes, Yes, Yes, No, Yes, No, No, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, No, No, Yes, Yes, Yes, Yes, Yes, No, Yes, No, No, No, No, No".split(", ")
             top = 118
-        exp2.results = [{"pred": yes_no[np.random.choice([0, 1])], "true": true_vals[i]} for i in range(top)]
+        exp2.results = [{"pred": pred_val, "true": true_vals[i]} for i in range(top)]
 
 
     table = {model1: {"correct": [], "incorrect": []},
@@ -217,5 +223,80 @@ def do_mcnemar(model1, model2, prefix1, prefix2, two_affix1, two_affix2, conditi
     table_arr[0,1] = len(corr1_incorr2)
     table_arr[1,1] = len(incorr1_incorr2)
 
-    mac = mcnemar(table_arr, exact=True)
+    mac = mcnemar(table_arr, exact=True, correction=False)
     return mac.pvalue, mac.statistic, table
+
+def do_mcnemar_agent_patient(model1, model2, prefix1, prefix2, two_affix1, two_affix2, condition, results_dir="agent_patient_results_to_plot"): 
+    path_to_file = pathlib.Path("").absolute()
+    parent = path_to_file.parent
+    ## Test to see if model1 is actually better than model2 
+    parent_path1 = parent.joinpath(f"{results_dir}")
+    parent_path2 = parent.joinpath(f"{results_dir}")
+    if model1 == "gpt" or model1.startswith("jurassic"):
+        two_affix1 = ""
+    model1_path = parent_path1.joinpath(f"{model1}_{condition}{two_affix1}_prefix_{prefix1}.csv")
+
+    is_random = False
+    if model2.startswith("random"): 
+        is_random = True
+        model2_path=None
+    else:
+        if model2 == "gpt" or model2.startswith("jurassic"):
+            two_affix2 = ""
+        model2_path = parent_path2.joinpath(f"{model2}_{condition}{two_affix2}_prefix_{prefix2}.csv")
+
+    return execute_mcnemar_agent_patient(model1, model1_path, model2, model2_path, is_random, condition)
+
+def has_swap(exp):
+    assert(type(exp.results[0]['swap_names']) == bool)
+    return any([x['swap_names'] for x in exp.results[0:30]])
+
+def filter_exps(exp1, exp2): 
+    if has_swap(exp1) and not has_swap(exp2):
+        exp1.results = [x for x in exp1.results if not x['swap_names']]
+    if has_swap(exp2) and not has_swap(exp1):
+        exp2.results = [x for x in exp2.results if not x['swap_names']]
+    return exp1, exp2
+
+def execute_mcnemar_general(model1, model1_path, model2, model2_path):
+    exp1  = Experiment(model1, "", None, None, 1, None)
+    exp1.recover(model1_path)
+    exp2 = Experiment(model2, "", None, None, 1, None) 
+    exp2.recover(model2_path)
+
+    # if one has swap names and the other doesn't then filter the one that does down 
+    exp1, exp2 = filter_exps(exp1, exp2)
+
+    table = {model1: {"correct": [], "incorrect": []},
+            model2: {"correct": [], "incorrect": []}}
+        
+    for i, (m1, m2) in enumerate(zip(exp1.results, exp2.results)):
+        # drop other
+        if m1['pred'].strip() == m1['true'].strip() and m1['pred'].strip() != 'other':
+            table[model1]['correct'].append(i)
+        elif m1['pred'].strip() != 'other': 
+            # print("m1", m1['pred'], m1['true'])
+            table[model1]['incorrect'].append(i)
+        else:
+            pass 
+        if m2['pred'].strip() == m2['true'].strip() and m2['pred'].strip() != 'other':
+            table[model2]['correct'].append(i)
+        elif m2['pred'].strip() != 'other':
+            # print("m2", m2['pred'], m2['true'])
+            table[model2]['incorrect'].append(i)
+        else:
+            pass
+
+    table_arr = np.zeros((2,2))
+    corr1_corr2 = set(table[model1]['correct']) & set(table[model2]['correct'])
+    incorr1_corr2 = set(table[model1]['incorrect']) & set(table[model2]['correct'])
+    corr1_incorr2 = set(table[model1]['correct']) & set(table[model2]['incorrect'])
+    incorr1_incorr2 = set(table[model1]['incorrect']) & set(table[model2]['incorrect'])
+
+    table_arr[0,0] = len(corr1_corr2)
+    table_arr[1,0] = len(incorr1_corr2)
+    table_arr[0,1] = len(corr1_incorr2)
+    table_arr[1,1] = len(incorr1_incorr2)
+
+    mac = mcnemar(table_arr, exact=True, correction=False)
+    return mac.pvalue, mac.statistic, table, table_arr

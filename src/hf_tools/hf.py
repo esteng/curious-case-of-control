@@ -78,6 +78,34 @@ class HuggingfaceRunFxn:
 
 
 
+class LogProbHuggingfaceRunFxn(HuggingfaceRunFxn):
+    def __init__(self, model_name, constrained = True, device="cpu", max_len=100): 
+        super(LogProbHuggingfaceRunFxn, self).__init__(model_name, constrained, device, max_len)
+
+
+    def __call__(self, text, kwargs): 
+        # if self.generator is None: 
+        input_ids = self.tokenizer(text, return_tensors='pt').input_ids
+        if self.device != "multi": 
+            input_ids = input_ids.to(self.device)
+        else:
+            input_ids = input_ids.to("cuda") 
+
+        outputs = self.model.forward(input_ids) 
+        pdb.set_trace() 
+        # outputs =  self.model.generate(input_ids)
+
+        if not self.constrained:
+            output_text = self.tokenizer.decode(outputs[0].to("cpu"), skip_special_tokens=True)
+        else:
+            n1, n2 = self.get_names(text)
+            pdb.set_trace() 
+
+
+        # else:
+        #     output_text = self.generator(text, do_sample=True, min_length=1, max_length=self.max_len)
+
+        return output_text 
 
 if __name__ == "__main__":
 #     fxn = HuggingfaceRunFxn("valhalla/t5-base-qa-qg-hl")
