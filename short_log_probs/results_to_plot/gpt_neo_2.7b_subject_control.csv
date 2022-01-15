@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,gpt_neo_2.7b,subject-control,Avery,Casey,True,promised,to come,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-5.773, dtype=float16), 'Casey': array(-4.6, dtype=float16)})"
+1,gpt_neo_2.7b,subject-control,Avery,Casey,False,promised,to come,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-5.773, dtype=float16), 'Casey': array(-4.6, dtype=float16)})"
+2,gpt_neo_2.7b,subject-control,Avery,Casey,True,promised,to go,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.47, dtype=float16), 'Casey': array(-4.87, dtype=float16)})"
+3,gpt_neo_2.7b,subject-control,Avery,Casey,False,promised,to go,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.47, dtype=float16), 'Casey': array(-4.87, dtype=float16)})"
+4,gpt_neo_2.7b,subject-control,Avery,Casey,True,promised,to read,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-6.56, dtype=float16), 'Casey': array(-5.496, dtype=float16)})"
+5,gpt_neo_2.7b,subject-control,Avery,Casey,False,promised,to read,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-6.56, dtype=float16), 'Casey': array(-5.496, dtype=float16)})"
+6,gpt_neo_2.7b,subject-control,Avery,Casey,True,promised,to run,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-6.656, dtype=float16), 'Casey': array(-4.99, dtype=float16)})"
+7,gpt_neo_2.7b,subject-control,Avery,Casey,False,promised,to run,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-6.656, dtype=float16), 'Casey': array(-4.99, dtype=float16)})"
+8,gpt_neo_2.7b,subject-control,Avery,Casey,True,promised,to call,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.23, dtype=float16), 'Casey': array(-5.062, dtype=float16)})"
+9,gpt_neo_2.7b,subject-control,Avery,Casey,False,promised,to call,Avery,Casey,"You will be given a context and a question.
+Context: Avery promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.23, dtype=float16), 'Casey': array(-5.062, dtype=float16)})"
+10,gpt_neo_2.7b,subject-control,Avery,Joseph,True,promised,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-5.773, dtype=float16), 'Joseph': array(-4.715, dtype=float16)})"
+11,gpt_neo_2.7b,subject-control,Avery,Joseph,False,promised,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-5.773, dtype=float16), 'Joseph': array(-4.715, dtype=float16)})"
+12,gpt_neo_2.7b,subject-control,Avery,Joseph,True,promised,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.344, dtype=float16), 'Joseph': array(-5.062, dtype=float16)})"
+13,gpt_neo_2.7b,subject-control,Avery,Joseph,False,promised,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.344, dtype=float16), 'Joseph': array(-5.062, dtype=float16)})"
+14,gpt_neo_2.7b,subject-control,Avery,Joseph,True,promised,to read,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-6.586, dtype=float16), 'Joseph': array(-5.863, dtype=float16)})"
+15,gpt_neo_2.7b,subject-control,Avery,Joseph,False,promised,to read,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-6.586, dtype=float16), 'Joseph': array(-5.863, dtype=float16)})"
+16,gpt_neo_2.7b,subject-control,Avery,Joseph,True,promised,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-6.695, dtype=float16), 'Joseph': array(-5.395, dtype=float16)})"
+17,gpt_neo_2.7b,subject-control,Avery,Joseph,False,promised,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-6.695, dtype=float16), 'Joseph': array(-5.395, dtype=float16)})"
+18,gpt_neo_2.7b,subject-control,Avery,Joseph,True,promised,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.273, dtype=float16), 'Joseph': array(-5.195, dtype=float16)})"
+19,gpt_neo_2.7b,subject-control,Avery,Joseph,False,promised,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.273, dtype=float16), 'Joseph': array(-5.195, dtype=float16)})"
+20,gpt_neo_2.7b,subject-control,Avery,Nicole,True,promised,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-6.227, dtype=float16), 'Nicole': array(-4.426, dtype=float16)})"
+21,gpt_neo_2.7b,subject-control,Avery,Nicole,False,promised,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-6.227, dtype=float16), 'Nicole': array(-4.426, dtype=float16)})"
+22,gpt_neo_2.7b,subject-control,Avery,Nicole,True,promised,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.89, dtype=float16), 'Nicole': array(-4.844, dtype=float16)})"
+23,gpt_neo_2.7b,subject-control,Avery,Nicole,False,promised,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.89, dtype=float16), 'Nicole': array(-4.844, dtype=float16)})"
+24,gpt_neo_2.7b,subject-control,Avery,Nicole,True,promised,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-7.066, dtype=float16), 'Nicole': array(-5.54, dtype=float16)})"
+25,gpt_neo_2.7b,subject-control,Avery,Nicole,False,promised,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-7.066, dtype=float16), 'Nicole': array(-5.54, dtype=float16)})"
+26,gpt_neo_2.7b,subject-control,Avery,Nicole,True,promised,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-7.03, dtype=float16), 'Nicole': array(-5.348, dtype=float16)})"
+27,gpt_neo_2.7b,subject-control,Avery,Nicole,False,promised,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-7.03, dtype=float16), 'Nicole': array(-5.348, dtype=float16)})"
+28,gpt_neo_2.7b,subject-control,Avery,Nicole,True,promised,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.72, dtype=float16), 'Nicole': array(-5.03, dtype=float16)})"
+29,gpt_neo_2.7b,subject-control,Avery,Nicole,False,promised,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.72, dtype=float16), 'Nicole': array(-5.03, dtype=float16)})"
+30,gpt_neo_2.7b,subject-control,Avery,Stephanie,True,promised,to come,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-6.305, dtype=float16), 'Stephanie': array(-4.41, dtype=float16)})"
+31,gpt_neo_2.7b,subject-control,Avery,Stephanie,False,promised,to come,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-6.305, dtype=float16), 'Stephanie': array(-4.41, dtype=float16)})"
+32,gpt_neo_2.7b,subject-control,Avery,Stephanie,True,promised,to go,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-7.02, dtype=float16), 'Stephanie': array(-4.773, dtype=float16)})"
+33,gpt_neo_2.7b,subject-control,Avery,Stephanie,False,promised,to go,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-7.02, dtype=float16), 'Stephanie': array(-4.773, dtype=float16)})"
+34,gpt_neo_2.7b,subject-control,Avery,Stephanie,True,promised,to read,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-7.184, dtype=float16), 'Stephanie': array(-5.094, dtype=float16)})"
+35,gpt_neo_2.7b,subject-control,Avery,Stephanie,False,promised,to read,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-7.184, dtype=float16), 'Stephanie': array(-5.094, dtype=float16)})"
+36,gpt_neo_2.7b,subject-control,Avery,Stephanie,True,promised,to run,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-7.19, dtype=float16), 'Stephanie': array(-5.21, dtype=float16)})"
+37,gpt_neo_2.7b,subject-control,Avery,Stephanie,False,promised,to run,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-7.19, dtype=float16), 'Stephanie': array(-5.21, dtype=float16)})"
+38,gpt_neo_2.7b,subject-control,Avery,Stephanie,True,promised,to call,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.87, dtype=float16), 'Stephanie': array(-4.668, dtype=float16)})"
+39,gpt_neo_2.7b,subject-control,Avery,Stephanie,False,promised,to call,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.87, dtype=float16), 'Stephanie': array(-4.668, dtype=float16)})"
+40,gpt_neo_2.7b,subject-control,Avery,William,True,promised,to come,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-5.586, dtype=float16), 'William': array(-5.14, dtype=float16)})"
+41,gpt_neo_2.7b,subject-control,Avery,William,False,promised,to come,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Avery': array(-5.586, dtype=float16), 'William': array(-5.14, dtype=float16)})"
+42,gpt_neo_2.7b,subject-control,Avery,William,True,promised,to go,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.285, dtype=float16), 'William': array(-5.586, dtype=float16)})"
+43,gpt_neo_2.7b,subject-control,Avery,William,False,promised,to go,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Avery': array(-6.285, dtype=float16), 'William': array(-5.586, dtype=float16)})"
+44,gpt_neo_2.7b,subject-control,Avery,William,True,promised,to read,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-6.51, dtype=float16), 'William': array(-6.31, dtype=float16)})"
+45,gpt_neo_2.7b,subject-control,Avery,William,False,promised,to read,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Avery': array(-6.51, dtype=float16), 'William': array(-6.31, dtype=float16)})"
+46,gpt_neo_2.7b,subject-control,Avery,William,True,promised,to run,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-6.5, dtype=float16), 'William': array(-5.9, dtype=float16)})"
+47,gpt_neo_2.7b,subject-control,Avery,William,False,promised,to run,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Avery': array(-6.5, dtype=float16), 'William': array(-5.9, dtype=float16)})"
+48,gpt_neo_2.7b,subject-control,Avery,William,True,promised,to call,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.133, dtype=float16), 'William': array(-5.87, dtype=float16)})"
+49,gpt_neo_2.7b,subject-control,Avery,William,False,promised,to call,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Avery': array(-6.133, dtype=float16), 'William': array(-5.87, dtype=float16)})"
+50,gpt_neo_2.7b,subject-control,Casey,Avery,True,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.336, dtype=float16), 'Avery': array(-5.566, dtype=float16)})"
+51,gpt_neo_2.7b,subject-control,Casey,Avery,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.336, dtype=float16), 'Avery': array(-5.566, dtype=float16)})"
+52,gpt_neo_2.7b,subject-control,Casey,Avery,True,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-4.69, dtype=float16), 'Avery': array(-6.32, dtype=float16)})"
+53,gpt_neo_2.7b,subject-control,Casey,Avery,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-4.69, dtype=float16), 'Avery': array(-6.32, dtype=float16)})"
+54,gpt_neo_2.7b,subject-control,Casey,Avery,True,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-4.996, dtype=float16), 'Avery': array(-6.26, dtype=float16)})"
+55,gpt_neo_2.7b,subject-control,Casey,Avery,False,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-4.996, dtype=float16), 'Avery': array(-6.26, dtype=float16)})"
+56,gpt_neo_2.7b,subject-control,Casey,Avery,True,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-4.758, dtype=float16), 'Avery': array(-6.523, dtype=float16)})"
+57,gpt_neo_2.7b,subject-control,Casey,Avery,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-4.758, dtype=float16), 'Avery': array(-6.523, dtype=float16)})"
+58,gpt_neo_2.7b,subject-control,Casey,Avery,True,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-4.617, dtype=float16), 'Avery': array(-5.99, dtype=float16)})"
+59,gpt_neo_2.7b,subject-control,Casey,Avery,False,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-4.617, dtype=float16), 'Avery': array(-5.99, dtype=float16)})"
+60,gpt_neo_2.7b,subject-control,Casey,Joseph,True,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.766, dtype=float16), 'Joseph': array(-5.637, dtype=float16)})"
+61,gpt_neo_2.7b,subject-control,Casey,Joseph,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.766, dtype=float16), 'Joseph': array(-5.637, dtype=float16)})"
+62,gpt_neo_2.7b,subject-control,Casey,Joseph,True,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-5.16, dtype=float16), 'Joseph': array(-5.914, dtype=float16)})"
+63,gpt_neo_2.7b,subject-control,Casey,Joseph,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-5.16, dtype=float16), 'Joseph': array(-5.914, dtype=float16)})"
+64,gpt_neo_2.7b,subject-control,Casey,Joseph,True,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.445, dtype=float16), 'Joseph': array(-6.605, dtype=float16)})"
+65,gpt_neo_2.7b,subject-control,Casey,Joseph,False,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.445, dtype=float16), 'Joseph': array(-6.605, dtype=float16)})"
+66,gpt_neo_2.7b,subject-control,Casey,Joseph,True,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-5.11, dtype=float16), 'Joseph': array(-6.203, dtype=float16)})"
+67,gpt_neo_2.7b,subject-control,Casey,Joseph,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-5.11, dtype=float16), 'Joseph': array(-6.203, dtype=float16)})"
+68,gpt_neo_2.7b,subject-control,Casey,Joseph,True,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-5.152, dtype=float16), 'Joseph': array(-5.816, dtype=float16)})"
+69,gpt_neo_2.7b,subject-control,Casey,Joseph,False,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-5.152, dtype=float16), 'Joseph': array(-5.816, dtype=float16)})"
+70,gpt_neo_2.7b,subject-control,Casey,Nicole,True,promised,to come,Casey,Nicole,"You will be given a context and a question.
+Context: Casey promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.934, dtype=float16), 'Nicole': array(-4.92, dtype=float16)})"
+71,gpt_neo_2.7b,subject-control,Casey,Nicole,False,promised,to come,Casey,Nicole,"You will be given a context and a question.
+Context: Casey promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.934, dtype=float16), 'Nicole': array(-4.92, dtype=float16)})"
+72,gpt_neo_2.7b,subject-control,Casey,Nicole,True,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-5.383, dtype=float16), 'Nicole': array(-5.406, dtype=float16)})"
+73,gpt_neo_2.7b,subject-control,Casey,Nicole,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-5.383, dtype=float16), 'Nicole': array(-5.406, dtype=float16)})"
+74,gpt_neo_2.7b,subject-control,Casey,Nicole,True,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.734, dtype=float16), 'Nicole': array(-6.04, dtype=float16)})"
+75,gpt_neo_2.7b,subject-control,Casey,Nicole,False,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.734, dtype=float16), 'Nicole': array(-6.04, dtype=float16)})"
+76,gpt_neo_2.7b,subject-control,Casey,Nicole,True,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-5.188, dtype=float16), 'Nicole': array(-5.746, dtype=float16)})"
+77,gpt_neo_2.7b,subject-control,Casey,Nicole,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-5.188, dtype=float16), 'Nicole': array(-5.746, dtype=float16)})"
+78,gpt_neo_2.7b,subject-control,Casey,Nicole,True,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-5.227, dtype=float16), 'Nicole': array(-5.53, dtype=float16)})"
+79,gpt_neo_2.7b,subject-control,Casey,Nicole,False,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-5.227, dtype=float16), 'Nicole': array(-5.53, dtype=float16)})"
+80,gpt_neo_2.7b,subject-control,Casey,Stephanie,True,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.82, dtype=float16), 'Stephanie': array(-5.023, dtype=float16)})"
+81,gpt_neo_2.7b,subject-control,Casey,Stephanie,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.82, dtype=float16), 'Stephanie': array(-5.023, dtype=float16)})"
+82,gpt_neo_2.7b,subject-control,Casey,Stephanie,True,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-5.25, dtype=float16), 'Stephanie': array(-5.38, dtype=float16)})"
+83,gpt_neo_2.7b,subject-control,Casey,Stephanie,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-5.25, dtype=float16), 'Stephanie': array(-5.38, dtype=float16)})"
+84,gpt_neo_2.7b,subject-control,Casey,Stephanie,True,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.54, dtype=float16), 'Stephanie': array(-5.55, dtype=float16)})"
+85,gpt_neo_2.7b,subject-control,Casey,Stephanie,False,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.54, dtype=float16), 'Stephanie': array(-5.55, dtype=float16)})"
+86,gpt_neo_2.7b,subject-control,Casey,Stephanie,True,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-5.04, dtype=float16), 'Stephanie': array(-5.938, dtype=float16)})"
+87,gpt_neo_2.7b,subject-control,Casey,Stephanie,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-5.04, dtype=float16), 'Stephanie': array(-5.938, dtype=float16)})"
+88,gpt_neo_2.7b,subject-control,Casey,Stephanie,True,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-5.05, dtype=float16), 'Stephanie': array(-5.145, dtype=float16)})"
+89,gpt_neo_2.7b,subject-control,Casey,Stephanie,False,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-5.05, dtype=float16), 'Stephanie': array(-5.145, dtype=float16)})"
+90,gpt_neo_2.7b,subject-control,Casey,William,True,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.387, dtype=float16), 'William': array(-4.99, dtype=float16)})"
+91,gpt_neo_2.7b,subject-control,Casey,William,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Casey': array(-4.387, dtype=float16), 'William': array(-4.99, dtype=float16)})"
+92,gpt_neo_2.7b,subject-control,Casey,William,True,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-4.703, dtype=float16), 'William': array(-5.33, dtype=float16)})"
+93,gpt_neo_2.7b,subject-control,Casey,William,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Casey': array(-4.703, dtype=float16), 'William': array(-5.33, dtype=float16)})"
+94,gpt_neo_2.7b,subject-control,Casey,William,True,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.08, dtype=float16), 'William': array(-5.965, dtype=float16)})"
+95,gpt_neo_2.7b,subject-control,Casey,William,False,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Casey': array(-5.08, dtype=float16), 'William': array(-5.965, dtype=float16)})"
+96,gpt_neo_2.7b,subject-control,Casey,William,True,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-4.58, dtype=float16), 'William': array(-5.55, dtype=float16)})"
+97,gpt_neo_2.7b,subject-control,Casey,William,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Casey': array(-4.58, dtype=float16), 'William': array(-5.55, dtype=float16)})"
+98,gpt_neo_2.7b,subject-control,Casey,William,True,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-4.69, dtype=float16), 'William': array(-5.473, dtype=float16)})"
+99,gpt_neo_2.7b,subject-control,Casey,William,False,promised,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Casey': array(-4.69, dtype=float16), 'William': array(-5.473, dtype=float16)})"
+100,gpt_neo_2.7b,subject-control,Joseph,Avery,True,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-4.203, dtype=float16), 'Avery': array(-5.59, dtype=float16)})"
+101,gpt_neo_2.7b,subject-control,Joseph,Avery,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-4.203, dtype=float16), 'Avery': array(-5.59, dtype=float16)})"
+102,gpt_neo_2.7b,subject-control,Joseph,Avery,True,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-4.664, dtype=float16), 'Avery': array(-6.29, dtype=float16)})"
+103,gpt_neo_2.7b,subject-control,Joseph,Avery,False,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-4.664, dtype=float16), 'Avery': array(-6.29, dtype=float16)})"
+104,gpt_neo_2.7b,subject-control,Joseph,Avery,True,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-5.184, dtype=float16), 'Avery': array(-6.496, dtype=float16)})"
+105,gpt_neo_2.7b,subject-control,Joseph,Avery,False,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-5.184, dtype=float16), 'Avery': array(-6.496, dtype=float16)})"
+106,gpt_neo_2.7b,subject-control,Joseph,Avery,True,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-4.777, dtype=float16), 'Avery': array(-6.76, dtype=float16)})"
+107,gpt_neo_2.7b,subject-control,Joseph,Avery,False,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-4.777, dtype=float16), 'Avery': array(-6.76, dtype=float16)})"
+108,gpt_neo_2.7b,subject-control,Joseph,Avery,True,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-4.523, dtype=float16), 'Avery': array(-5.86, dtype=float16)})"
+109,gpt_neo_2.7b,subject-control,Joseph,Avery,False,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-4.523, dtype=float16), 'Avery': array(-5.86, dtype=float16)})"
+110,gpt_neo_2.7b,subject-control,Joseph,Casey,True,promised,to come,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-5.703, dtype=float16), 'Casey': array(-4.258, dtype=float16)})"
+111,gpt_neo_2.7b,subject-control,Joseph,Casey,False,promised,to come,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-5.703, dtype=float16), 'Casey': array(-4.258, dtype=float16)})"
+112,gpt_neo_2.7b,subject-control,Joseph,Casey,True,promised,to go,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-6.113, dtype=float16), 'Casey': array(-4.69, dtype=float16)})"
+113,gpt_neo_2.7b,subject-control,Joseph,Casey,False,promised,to go,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-6.113, dtype=float16), 'Casey': array(-4.69, dtype=float16)})"
+114,gpt_neo_2.7b,subject-control,Joseph,Casey,True,promised,to read,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-6.617, dtype=float16), 'Casey': array(-5.11, dtype=float16)})"
+115,gpt_neo_2.7b,subject-control,Joseph,Casey,False,promised,to read,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-6.617, dtype=float16), 'Casey': array(-5.11, dtype=float16)})"
+116,gpt_neo_2.7b,subject-control,Joseph,Casey,True,promised,to run,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-6.117, dtype=float16), 'Casey': array(-4.77, dtype=float16)})"
+117,gpt_neo_2.7b,subject-control,Joseph,Casey,False,promised,to run,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-6.117, dtype=float16), 'Casey': array(-4.77, dtype=float16)})"
+118,gpt_neo_2.7b,subject-control,Joseph,Casey,True,promised,to call,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-5.89, dtype=float16), 'Casey': array(-4.797, dtype=float16)})"
+119,gpt_neo_2.7b,subject-control,Joseph,Casey,False,promised,to call,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-5.89, dtype=float16), 'Casey': array(-4.797, dtype=float16)})"
+120,gpt_neo_2.7b,subject-control,Joseph,Nicole,True,promised,to come,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-4.707, dtype=float16), 'Nicole': array(-4.258, dtype=float16)})"
+121,gpt_neo_2.7b,subject-control,Joseph,Nicole,False,promised,to come,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-4.707, dtype=float16), 'Nicole': array(-4.258, dtype=float16)})"
+122,gpt_neo_2.7b,subject-control,Joseph,Nicole,True,promised,to go,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-5.125, dtype=float16), 'Nicole': array(-4.59, dtype=float16)})"
+123,gpt_neo_2.7b,subject-control,Joseph,Nicole,False,promised,to go,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-5.125, dtype=float16), 'Nicole': array(-4.59, dtype=float16)})"
+124,gpt_neo_2.7b,subject-control,Joseph,Nicole,True,promised,to read,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-5.652, dtype=float16), 'Nicole': array(-5.36, dtype=float16)})"
+125,gpt_neo_2.7b,subject-control,Joseph,Nicole,False,promised,to read,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-5.652, dtype=float16), 'Nicole': array(-5.36, dtype=float16)})"
+126,gpt_neo_2.7b,subject-control,Joseph,Nicole,True,promised,to run,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-5.1, dtype=float16), 'Nicole': array(-4.945, dtype=float16)})"
+127,gpt_neo_2.7b,subject-control,Joseph,Nicole,False,promised,to run,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-5.1, dtype=float16), 'Nicole': array(-4.945, dtype=float16)})"
+128,gpt_neo_2.7b,subject-control,Joseph,Nicole,True,promised,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-5.062, dtype=float16), 'Nicole': array(-4.957, dtype=float16)})"
+129,gpt_neo_2.7b,subject-control,Joseph,Nicole,False,promised,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-5.062, dtype=float16), 'Nicole': array(-4.957, dtype=float16)})"
+130,gpt_neo_2.7b,subject-control,Joseph,Stephanie,True,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-4.504, dtype=float16), 'Stephanie': array(-4.832, dtype=float16)})"
+131,gpt_neo_2.7b,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-4.504, dtype=float16), 'Stephanie': array(-4.832, dtype=float16)})"
+132,gpt_neo_2.7b,subject-control,Joseph,Stephanie,True,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-4.977, dtype=float16), 'Stephanie': array(-5.1, dtype=float16)})"
+133,gpt_neo_2.7b,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-4.977, dtype=float16), 'Stephanie': array(-5.1, dtype=float16)})"
+134,gpt_neo_2.7b,subject-control,Joseph,Stephanie,True,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-5.527, dtype=float16), 'Stephanie': array(-5.566, dtype=float16)})"
+135,gpt_neo_2.7b,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-5.527, dtype=float16), 'Stephanie': array(-5.566, dtype=float16)})"
+136,gpt_neo_2.7b,subject-control,Joseph,Stephanie,True,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-4.81, dtype=float16), 'Stephanie': array(-5.902, dtype=float16)})"
+137,gpt_neo_2.7b,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-4.81, dtype=float16), 'Stephanie': array(-5.902, dtype=float16)})"
+138,gpt_neo_2.7b,subject-control,Joseph,Stephanie,True,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-4.996, dtype=float16), 'Stephanie': array(-5.01, dtype=float16)})"
+139,gpt_neo_2.7b,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-4.996, dtype=float16), 'Stephanie': array(-5.01, dtype=float16)})"
+140,gpt_neo_2.7b,subject-control,Joseph,William,True,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-5.016, dtype=float16), 'William': array(-5.46, dtype=float16)})"
+141,gpt_neo_2.7b,subject-control,Joseph,William,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Joseph': array(-5.016, dtype=float16), 'William': array(-5.46, dtype=float16)})"
+142,gpt_neo_2.7b,subject-control,Joseph,William,True,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-5.57, dtype=float16), 'William': array(-5.824, dtype=float16)})"
+143,gpt_neo_2.7b,subject-control,Joseph,William,False,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Joseph': array(-5.57, dtype=float16), 'William': array(-5.824, dtype=float16)})"
+144,gpt_neo_2.7b,subject-control,Joseph,William,True,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-6.22, dtype=float16), 'William': array(-6.547, dtype=float16)})"
+145,gpt_neo_2.7b,subject-control,Joseph,William,False,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Joseph': array(-6.22, dtype=float16), 'William': array(-6.547, dtype=float16)})"
+146,gpt_neo_2.7b,subject-control,Joseph,William,True,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-5.58, dtype=float16), 'William': array(-6.074, dtype=float16)})"
+147,gpt_neo_2.7b,subject-control,Joseph,William,False,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Joseph': array(-5.58, dtype=float16), 'William': array(-6.074, dtype=float16)})"
+148,gpt_neo_2.7b,subject-control,Joseph,William,True,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-5.137, dtype=float16), 'William': array(-5.86, dtype=float16)})"
+149,gpt_neo_2.7b,subject-control,Joseph,William,False,promised,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Joseph': array(-5.137, dtype=float16), 'William': array(-5.86, dtype=float16)})"
+150,gpt_neo_2.7b,subject-control,Nicole,Avery,True,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-4.438, dtype=float16), 'Avery': array(-5.88, dtype=float16)})"
+151,gpt_neo_2.7b,subject-control,Nicole,Avery,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-4.438, dtype=float16), 'Avery': array(-5.88, dtype=float16)})"
+152,gpt_neo_2.7b,subject-control,Nicole,Avery,True,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.03, dtype=float16), 'Avery': array(-6.75, dtype=float16)})"
+153,gpt_neo_2.7b,subject-control,Nicole,Avery,False,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.03, dtype=float16), 'Avery': array(-6.75, dtype=float16)})"
+154,gpt_neo_2.7b,subject-control,Nicole,Avery,True,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-5.383, dtype=float16), 'Avery': array(-6.64, dtype=float16)})"
+155,gpt_neo_2.7b,subject-control,Nicole,Avery,False,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-5.383, dtype=float16), 'Avery': array(-6.64, dtype=float16)})"
+156,gpt_neo_2.7b,subject-control,Nicole,Avery,True,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.42, dtype=float16), 'Avery': array(-6.96, dtype=float16)})"
+157,gpt_neo_2.7b,subject-control,Nicole,Avery,False,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.42, dtype=float16), 'Avery': array(-6.96, dtype=float16)})"
+158,gpt_neo_2.7b,subject-control,Nicole,Avery,True,promised,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-4.816, dtype=float16), 'Avery': array(-6.336, dtype=float16)})"
+159,gpt_neo_2.7b,subject-control,Nicole,Avery,False,promised,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-4.816, dtype=float16), 'Avery': array(-6.336, dtype=float16)})"
+160,gpt_neo_2.7b,subject-control,Nicole,Casey,True,promised,to come,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-5.363, dtype=float16), 'Casey': array(-5.082, dtype=float16)})"
+161,gpt_neo_2.7b,subject-control,Nicole,Casey,False,promised,to come,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-5.363, dtype=float16), 'Casey': array(-5.082, dtype=float16)})"
+162,gpt_neo_2.7b,subject-control,Nicole,Casey,True,promised,to go,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.855, dtype=float16), 'Casey': array(-5.594, dtype=float16)})"
+163,gpt_neo_2.7b,subject-control,Nicole,Casey,False,promised,to go,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.855, dtype=float16), 'Casey': array(-5.594, dtype=float16)})"
+164,gpt_neo_2.7b,subject-control,Nicole,Casey,True,promised,to read,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-6.363, dtype=float16), 'Casey': array(-5.984, dtype=float16)})"
+165,gpt_neo_2.7b,subject-control,Nicole,Casey,False,promised,to read,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-6.363, dtype=float16), 'Casey': array(-5.984, dtype=float16)})"
+166,gpt_neo_2.7b,subject-control,Nicole,Casey,True,promised,to run,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.953, dtype=float16), 'Casey': array(-5.543, dtype=float16)})"
+167,gpt_neo_2.7b,subject-control,Nicole,Casey,False,promised,to run,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.953, dtype=float16), 'Casey': array(-5.543, dtype=float16)})"
+168,gpt_neo_2.7b,subject-control,Nicole,Casey,True,promised,to call,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-5.816, dtype=float16), 'Casey': array(-5.42, dtype=float16)})"
+169,gpt_neo_2.7b,subject-control,Nicole,Casey,False,promised,to call,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-5.816, dtype=float16), 'Casey': array(-5.42, dtype=float16)})"
+170,gpt_neo_2.7b,subject-control,Nicole,Joseph,True,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-4.91, dtype=float16), 'Joseph': array(-5.074, dtype=float16)})"
+171,gpt_neo_2.7b,subject-control,Nicole,Joseph,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-4.91, dtype=float16), 'Joseph': array(-5.074, dtype=float16)})"
+172,gpt_neo_2.7b,subject-control,Nicole,Joseph,True,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.36, dtype=float16), 'Joseph': array(-5.504, dtype=float16)})"
+173,gpt_neo_2.7b,subject-control,Nicole,Joseph,False,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.36, dtype=float16), 'Joseph': array(-5.504, dtype=float16)})"
+174,gpt_neo_2.7b,subject-control,Nicole,Joseph,True,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-5.895, dtype=float16), 'Joseph': array(-6.16, dtype=float16)})"
+175,gpt_neo_2.7b,subject-control,Nicole,Joseph,False,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-5.895, dtype=float16), 'Joseph': array(-6.16, dtype=float16)})"
+176,gpt_neo_2.7b,subject-control,Nicole,Joseph,True,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.508, dtype=float16), 'Joseph': array(-5.62, dtype=float16)})"
+177,gpt_neo_2.7b,subject-control,Nicole,Joseph,False,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.508, dtype=float16), 'Joseph': array(-5.62, dtype=float16)})"
+178,gpt_neo_2.7b,subject-control,Nicole,Joseph,True,promised,to call,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-5.582, dtype=float16), 'Joseph': array(-5.508, dtype=float16)})"
+179,gpt_neo_2.7b,subject-control,Nicole,Joseph,False,promised,to call,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-5.582, dtype=float16), 'Joseph': array(-5.508, dtype=float16)})"
+180,gpt_neo_2.7b,subject-control,Nicole,Stephanie,True,promised,to come,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-5.7, dtype=float16), 'Stephanie': array(-5.02, dtype=float16)})"
+181,gpt_neo_2.7b,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-5.7, dtype=float16), 'Stephanie': array(-5.02, dtype=float16)})"
+182,gpt_neo_2.7b,subject-control,Nicole,Stephanie,True,promised,to go,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-6.22, dtype=float16), 'Stephanie': array(-5.42, dtype=float16)})"
+183,gpt_neo_2.7b,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-6.22, dtype=float16), 'Stephanie': array(-5.42, dtype=float16)})"
+184,gpt_neo_2.7b,subject-control,Nicole,Stephanie,True,promised,to read,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-6.855, dtype=float16), 'Stephanie': array(-5.727, dtype=float16)})"
+185,gpt_neo_2.7b,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-6.855, dtype=float16), 'Stephanie': array(-5.727, dtype=float16)})"
+186,gpt_neo_2.7b,subject-control,Nicole,Stephanie,True,promised,to run,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-6.152, dtype=float16), 'Stephanie': array(-5.863, dtype=float16)})"
+187,gpt_neo_2.7b,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-6.152, dtype=float16), 'Stephanie': array(-5.863, dtype=float16)})"
+188,gpt_neo_2.7b,subject-control,Nicole,Stephanie,True,promised,to call,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-6.355, dtype=float16), 'Stephanie': array(-4.996, dtype=float16)})"
+189,gpt_neo_2.7b,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-6.355, dtype=float16), 'Stephanie': array(-4.996, dtype=float16)})"
+190,gpt_neo_2.7b,subject-control,Nicole,William,True,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-4.67, dtype=float16), 'William': array(-5.01, dtype=float16)})"
+191,gpt_neo_2.7b,subject-control,Nicole,William,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Nicole': array(-4.67, dtype=float16), 'William': array(-5.01, dtype=float16)})"
+192,gpt_neo_2.7b,subject-control,Nicole,William,True,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.176, dtype=float16), 'William': array(-5.42, dtype=float16)})"
+193,gpt_neo_2.7b,subject-control,Nicole,William,False,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Nicole': array(-5.176, dtype=float16), 'William': array(-5.42, dtype=float16)})"
+194,gpt_neo_2.7b,subject-control,Nicole,William,True,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-5.61, dtype=float16), 'William': array(-5.863, dtype=float16)})"
+195,gpt_neo_2.7b,subject-control,Nicole,William,False,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Nicole': array(-5.61, dtype=float16), 'William': array(-5.863, dtype=float16)})"
+196,gpt_neo_2.7b,subject-control,Nicole,William,True,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.24, dtype=float16), 'William': array(-5.562, dtype=float16)})"
+197,gpt_neo_2.7b,subject-control,Nicole,William,False,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Nicole': array(-5.24, dtype=float16), 'William': array(-5.562, dtype=float16)})"
+198,gpt_neo_2.7b,subject-control,Nicole,William,True,promised,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-5.42, dtype=float16), 'William': array(-5.555, dtype=float16)})"
+199,gpt_neo_2.7b,subject-control,Nicole,William,False,promised,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Nicole': array(-5.42, dtype=float16), 'William': array(-5.555, dtype=float16)})"
+200,gpt_neo_2.7b,subject-control,Stephanie,Avery,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.31, dtype=float16), 'Avery': array(-6.113, dtype=float16)})"
+201,gpt_neo_2.7b,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.31, dtype=float16), 'Avery': array(-6.113, dtype=float16)})"
+202,gpt_neo_2.7b,subject-control,Stephanie,Avery,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-4.82, dtype=float16), 'Avery': array(-7.03, dtype=float16)})"
+203,gpt_neo_2.7b,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-4.82, dtype=float16), 'Avery': array(-7.03, dtype=float16)})"
+204,gpt_neo_2.7b,subject-control,Stephanie,Avery,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-4.89, dtype=float16), 'Avery': array(-6.926, dtype=float16)})"
+205,gpt_neo_2.7b,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-4.89, dtype=float16), 'Avery': array(-6.926, dtype=float16)})"
+206,gpt_neo_2.7b,subject-control,Stephanie,Avery,True,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.24, dtype=float16), 'Avery': array(-7.27, dtype=float16)})"
+207,gpt_neo_2.7b,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.24, dtype=float16), 'Avery': array(-7.27, dtype=float16)})"
+208,gpt_neo_2.7b,subject-control,Stephanie,Avery,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.46, dtype=float16), 'Avery': array(-6.74, dtype=float16)})"
+209,gpt_neo_2.7b,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.46, dtype=float16), 'Avery': array(-6.74, dtype=float16)})"
+210,gpt_neo_2.7b,subject-control,Stephanie,Casey,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.848, dtype=float16), 'Casey': array(-4.97, dtype=float16)})"
+211,gpt_neo_2.7b,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.848, dtype=float16), 'Casey': array(-4.97, dtype=float16)})"
+212,gpt_neo_2.7b,subject-control,Stephanie,Casey,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.22, dtype=float16), 'Casey': array(-5.47, dtype=float16)})"
+213,gpt_neo_2.7b,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.22, dtype=float16), 'Casey': array(-5.47, dtype=float16)})"
+214,gpt_neo_2.7b,subject-control,Stephanie,Casey,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.24, dtype=float16), 'Casey': array(-5.793, dtype=float16)})"
+215,gpt_neo_2.7b,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.24, dtype=float16), 'Casey': array(-5.793, dtype=float16)})"
+216,gpt_neo_2.7b,subject-control,Stephanie,Casey,True,promised,to run,Stephanie,Casey,"You will be given a context and a question.
+Context: Stephanie promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.64, dtype=float16), 'Casey': array(-5.555, dtype=float16)})"
+217,gpt_neo_2.7b,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,Casey,"You will be given a context and a question.
+Context: Stephanie promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.64, dtype=float16), 'Casey': array(-5.555, dtype=float16)})"
+218,gpt_neo_2.7b,subject-control,Stephanie,Casey,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.777, dtype=float16), 'Casey': array(-5.316, dtype=float16)})"
+219,gpt_neo_2.7b,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.777, dtype=float16), 'Casey': array(-5.316, dtype=float16)})"
+220,gpt_neo_2.7b,subject-control,Stephanie,Joseph,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.785, dtype=float16), 'Joseph': array(-4.938, dtype=float16)})"
+221,gpt_neo_2.7b,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.785, dtype=float16), 'Joseph': array(-4.938, dtype=float16)})"
+222,gpt_neo_2.7b,subject-control,Stephanie,Joseph,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.21, dtype=float16), 'Joseph': array(-5.4, dtype=float16)})"
+223,gpt_neo_2.7b,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.21, dtype=float16), 'Joseph': array(-5.4, dtype=float16)})"
+224,gpt_neo_2.7b,subject-control,Stephanie,Joseph,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.305, dtype=float16), 'Joseph': array(-5.984, dtype=float16)})"
+225,gpt_neo_2.7b,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.305, dtype=float16), 'Joseph': array(-5.984, dtype=float16)})"
+226,gpt_neo_2.7b,subject-control,Stephanie,Joseph,True,promised,to run,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.77, dtype=float16), 'Joseph': array(-5.44, dtype=float16)})"
+227,gpt_neo_2.7b,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.77, dtype=float16), 'Joseph': array(-5.44, dtype=float16)})"
+228,gpt_neo_2.7b,subject-control,Stephanie,Joseph,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.938, dtype=float16), 'Joseph': array(-5.38, dtype=float16)})"
+229,gpt_neo_2.7b,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.938, dtype=float16), 'Joseph': array(-5.38, dtype=float16)})"
+230,gpt_neo_2.7b,subject-control,Stephanie,Nicole,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-5.062, dtype=float16), 'Nicole': array(-5.27, dtype=float16)})"
+231,gpt_neo_2.7b,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-5.062, dtype=float16), 'Nicole': array(-5.27, dtype=float16)})"
+232,gpt_neo_2.7b,subject-control,Stephanie,Nicole,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.535, dtype=float16), 'Nicole': array(-5.918, dtype=float16)})"
+233,gpt_neo_2.7b,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.535, dtype=float16), 'Nicole': array(-5.918, dtype=float16)})"
+234,gpt_neo_2.7b,subject-control,Stephanie,Nicole,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.523, dtype=float16), 'Nicole': array(-6.438, dtype=float16)})"
+235,gpt_neo_2.7b,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.523, dtype=float16), 'Nicole': array(-6.438, dtype=float16)})"
+236,gpt_neo_2.7b,subject-control,Stephanie,Nicole,True,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.87, dtype=float16), 'Nicole': array(-6.145, dtype=float16)})"
+237,gpt_neo_2.7b,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.87, dtype=float16), 'Nicole': array(-6.145, dtype=float16)})"
+238,gpt_neo_2.7b,subject-control,Stephanie,Nicole,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.99, dtype=float16), 'Nicole': array(-6.016, dtype=float16)})"
+239,gpt_neo_2.7b,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.99, dtype=float16), 'Nicole': array(-6.016, dtype=float16)})"
+240,gpt_neo_2.7b,subject-control,Stephanie,William,True,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.51, dtype=float16), 'William': array(-5.7, dtype=float16)})"
+241,gpt_neo_2.7b,subject-control,Stephanie,William,False,promised,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to come.\n\nQuestion: Who came?\nAnswer: ', {'Stephanie': array(-4.51, dtype=float16), 'William': array(-5.7, dtype=float16)})"
+242,gpt_neo_2.7b,subject-control,Stephanie,William,True,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.105, dtype=float16), 'William': array(-6.344, dtype=float16)})"
+243,gpt_neo_2.7b,subject-control,Stephanie,William,False,promised,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to go.\n\nQuestion: Who went?\nAnswer: ', {'Stephanie': array(-5.105, dtype=float16), 'William': array(-6.344, dtype=float16)})"
+244,gpt_neo_2.7b,subject-control,Stephanie,William,True,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.184, dtype=float16), 'William': array(-6.65, dtype=float16)})"
+245,gpt_neo_2.7b,subject-control,Stephanie,William,False,promised,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to read.\n\nQuestion: Who read?\nAnswer: ', {'Stephanie': array(-5.184, dtype=float16), 'William': array(-6.65, dtype=float16)})"
+246,gpt_neo_2.7b,subject-control,Stephanie,William,True,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.508, dtype=float16), 'William': array(-6.49, dtype=float16)})"
+247,gpt_neo_2.7b,subject-control,Stephanie,William,False,promised,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to run.\n\nQuestion: Who ran?\nAnswer: ', {'Stephanie': array(-5.508, dtype=float16), 'William': array(-6.49, dtype=float16)})"
+248,gpt_neo_2.7b,subject-control,Stephanie,William,True,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.812, dtype=float16), 'William': array(-6.363, dtype=float16)})"
+249,gpt_neo_2.7b,subject-control,Stephanie,William,False,promised,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie promised William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie promised William to call.\n\nQuestion: Who called?\nAnswer: ', {'Stephanie': array(-4.812, dtype=float16), 'William': array(-6.363, dtype=float16)})"
+250,gpt_neo_2.7b,subject-control,William,Avery,True,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-4.336, dtype=float16), 'Avery': array(-5.387, dtype=float16)})"
+251,gpt_neo_2.7b,subject-control,William,Avery,False,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-4.336, dtype=float16), 'Avery': array(-5.387, dtype=float16)})"
+252,gpt_neo_2.7b,subject-control,William,Avery,True,promised,to go,William,William,"You will be given a context and a question.
+Context: William promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-4.668, dtype=float16), 'Avery': array(-6.06, dtype=float16)})"
+253,gpt_neo_2.7b,subject-control,William,Avery,False,promised,to go,William,William,"You will be given a context and a question.
+Context: William promised Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-4.668, dtype=float16), 'Avery': array(-6.06, dtype=float16)})"
+254,gpt_neo_2.7b,subject-control,William,Avery,True,promised,to read,William,William,"You will be given a context and a question.
+Context: William promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.395, dtype=float16), 'Avery': array(-6.254, dtype=float16)})"
+255,gpt_neo_2.7b,subject-control,William,Avery,False,promised,to read,William,William,"You will be given a context and a question.
+Context: William promised Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.395, dtype=float16), 'Avery': array(-6.254, dtype=float16)})"
+256,gpt_neo_2.7b,subject-control,William,Avery,True,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-4.92, dtype=float16), 'Avery': array(-6.457, dtype=float16)})"
+257,gpt_neo_2.7b,subject-control,William,Avery,False,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-4.92, dtype=float16), 'Avery': array(-6.457, dtype=float16)})"
+258,gpt_neo_2.7b,subject-control,William,Avery,True,promised,to call,William,William,"You will be given a context and a question.
+Context: William promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-4.746, dtype=float16), 'Avery': array(-5.8, dtype=float16)})"
+259,gpt_neo_2.7b,subject-control,William,Avery,False,promised,to call,William,William,"You will be given a context and a question.
+Context: William promised Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Avery to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-4.746, dtype=float16), 'Avery': array(-5.8, dtype=float16)})"
+260,gpt_neo_2.7b,subject-control,William,Casey,True,promised,to come,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-5.01, dtype=float16), 'Casey': array(-4., dtype=float16)})"
+261,gpt_neo_2.7b,subject-control,William,Casey,False,promised,to come,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-5.01, dtype=float16), 'Casey': array(-4., dtype=float16)})"
+262,gpt_neo_2.7b,subject-control,William,Casey,True,promised,to go,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.098, dtype=float16), 'Casey': array(-4.2, dtype=float16)})"
+263,gpt_neo_2.7b,subject-control,William,Casey,False,promised,to go,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.098, dtype=float16), 'Casey': array(-4.2, dtype=float16)})"
+264,gpt_neo_2.7b,subject-control,William,Casey,True,promised,to read,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.79, dtype=float16), 'Casey': array(-4.875, dtype=float16)})"
+265,gpt_neo_2.7b,subject-control,William,Casey,False,promised,to read,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.79, dtype=float16), 'Casey': array(-4.875, dtype=float16)})"
+266,gpt_neo_2.7b,subject-control,William,Casey,True,promised,to run,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.227, dtype=float16), 'Casey': array(-4.45, dtype=float16)})"
+267,gpt_neo_2.7b,subject-control,William,Casey,False,promised,to run,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.227, dtype=float16), 'Casey': array(-4.45, dtype=float16)})"
+268,gpt_neo_2.7b,subject-control,William,Casey,True,promised,to call,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.523, dtype=float16), 'Casey': array(-4.582, dtype=float16)})"
+269,gpt_neo_2.7b,subject-control,William,Casey,False,promised,to call,William,Casey,"You will be given a context and a question.
+Context: William promised Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Casey to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.523, dtype=float16), 'Casey': array(-4.582, dtype=float16)})"
+270,gpt_neo_2.7b,subject-control,William,Joseph,True,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-4.76, dtype=float16), 'Joseph': array(-5.098, dtype=float16)})"
+271,gpt_neo_2.7b,subject-control,William,Joseph,False,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-4.76, dtype=float16), 'Joseph': array(-5.098, dtype=float16)})"
+272,gpt_neo_2.7b,subject-control,William,Joseph,True,promised,to go,William,William,"You will be given a context and a question.
+Context: William promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.082, dtype=float16), 'Joseph': array(-5.66, dtype=float16)})"
+273,gpt_neo_2.7b,subject-control,William,Joseph,False,promised,to go,William,William,"You will be given a context and a question.
+Context: William promised Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.082, dtype=float16), 'Joseph': array(-5.66, dtype=float16)})"
+274,gpt_neo_2.7b,subject-control,William,Joseph,True,promised,to read,William,William,"You will be given a context and a question.
+Context: William promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.83, dtype=float16), 'Joseph': array(-6.453, dtype=float16)})"
+275,gpt_neo_2.7b,subject-control,William,Joseph,False,promised,to read,William,William,"You will be given a context and a question.
+Context: William promised Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.83, dtype=float16), 'Joseph': array(-6.453, dtype=float16)})"
+276,gpt_neo_2.7b,subject-control,William,Joseph,True,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.145, dtype=float16), 'Joseph': array(-5.812, dtype=float16)})"
+277,gpt_neo_2.7b,subject-control,William,Joseph,False,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.145, dtype=float16), 'Joseph': array(-5.812, dtype=float16)})"
+278,gpt_neo_2.7b,subject-control,William,Joseph,True,promised,to call,William,William,"You will be given a context and a question.
+Context: William promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.066, dtype=float16), 'Joseph': array(-5.453, dtype=float16)})"
+279,gpt_neo_2.7b,subject-control,William,Joseph,False,promised,to call,William,William,"You will be given a context and a question.
+Context: William promised Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Joseph to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.066, dtype=float16), 'Joseph': array(-5.453, dtype=float16)})"
+280,gpt_neo_2.7b,subject-control,William,Nicole,True,promised,to come,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-4.86, dtype=float16), 'Nicole': array(-4.465, dtype=float16)})"
+281,gpt_neo_2.7b,subject-control,William,Nicole,False,promised,to come,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-4.86, dtype=float16), 'Nicole': array(-4.465, dtype=float16)})"
+282,gpt_neo_2.7b,subject-control,William,Nicole,True,promised,to go,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.098, dtype=float16), 'Nicole': array(-4.883, dtype=float16)})"
+283,gpt_neo_2.7b,subject-control,William,Nicole,False,promised,to go,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.098, dtype=float16), 'Nicole': array(-4.883, dtype=float16)})"
+284,gpt_neo_2.7b,subject-control,William,Nicole,True,promised,to read,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.58, dtype=float16), 'Nicole': array(-5.414, dtype=float16)})"
+285,gpt_neo_2.7b,subject-control,William,Nicole,False,promised,to read,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-5.58, dtype=float16), 'Nicole': array(-5.414, dtype=float16)})"
+286,gpt_neo_2.7b,subject-control,William,Nicole,True,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.004, dtype=float16), 'Nicole': array(-5.105, dtype=float16)})"
+287,gpt_neo_2.7b,subject-control,William,Nicole,False,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.004, dtype=float16), 'Nicole': array(-5.105, dtype=float16)})"
+288,gpt_neo_2.7b,subject-control,William,Nicole,True,promised,to call,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.27, dtype=float16), 'Nicole': array(-5.24, dtype=float16)})"
+289,gpt_neo_2.7b,subject-control,William,Nicole,False,promised,to call,William,Nicole,"You will be given a context and a question.
+Context: William promised Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Nicole to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.27, dtype=float16), 'Nicole': array(-5.24, dtype=float16)})"
+290,gpt_neo_2.7b,subject-control,William,Stephanie,True,promised,to come,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-5.14, dtype=float16), 'Stephanie': array(-4.832, dtype=float16)})"
+291,gpt_neo_2.7b,subject-control,William,Stephanie,False,promised,to come,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', {'William': array(-5.14, dtype=float16), 'Stephanie': array(-4.832, dtype=float16)})"
+292,gpt_neo_2.7b,subject-control,William,Stephanie,True,promised,to go,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.46, dtype=float16), 'Stephanie': array(-5.19, dtype=float16)})"
+293,gpt_neo_2.7b,subject-control,William,Stephanie,False,promised,to go,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', {'William': array(-5.46, dtype=float16), 'Stephanie': array(-5.19, dtype=float16)})"
+294,gpt_neo_2.7b,subject-control,William,Stephanie,True,promised,to read,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-6.01, dtype=float16), 'Stephanie': array(-5.586, dtype=float16)})"
+295,gpt_neo_2.7b,subject-control,William,Stephanie,False,promised,to read,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', {'William': array(-6.01, dtype=float16), 'Stephanie': array(-5.586, dtype=float16)})"
+296,gpt_neo_2.7b,subject-control,William,Stephanie,True,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.395, dtype=float16), 'Stephanie': array(-5.79, dtype=float16)})"
+297,gpt_neo_2.7b,subject-control,William,Stephanie,False,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', {'William': array(-5.395, dtype=float16), 'Stephanie': array(-5.79, dtype=float16)})"
+298,gpt_neo_2.7b,subject-control,William,Stephanie,True,promised,to call,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.668, dtype=float16), 'Stephanie': array(-4.99, dtype=float16)})"
+299,gpt_neo_2.7b,subject-control,William,Stephanie,False,promised,to call,William,Stephanie,"You will be given a context and a question.
+Context: William promised Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William promised Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', {'William': array(-5.668, dtype=float16), 'Stephanie': array(-4.99, dtype=float16)})"
