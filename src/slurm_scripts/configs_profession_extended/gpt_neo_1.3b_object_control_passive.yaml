@@ -1,0 +1,10 @@
+hf_model_name: "EleutherAI/gpt-neo-1.3B"
+model_name: "gpt_neo_1.3b"
+prompt_name: "gpt-passive"
+device: "cuda:0"
+subject_control: False
+passive: True
+names_file: "professions.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames_professions.json"
+out_dir: "results_profession"

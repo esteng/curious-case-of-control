@@ -9,6 +9,8 @@ from datasets import load_dataset
 np.random.seed(12) 
 
 test_sents = ["Mary promised Tom to come home",
+              "Mary threatened Tome to come home",
+              "Mary felt threatened by tom",
               "I am a person who told someone off",
               "I told Roger to get out",
               "I was promised a French baguette",
@@ -40,11 +42,13 @@ def get_fake_sample():
 
 def get_regex():
     oc_verbs = ["told", "ordered", "called upon", "reminded", "urged", "asked", "persuaded", "convinced", "forced", "pushed"]
-    sc_verbs = ["promised"]
+    sc_verbs = ["promised", "threatened"]
     oc_verbs = [f"({v})" for v in oc_verbs]
+    sc_verbs = [f"({v})" for v in sc_verbs]
     oc_verb_disj = f"({'|'.join(oc_verbs)})"
+    sc_verb_disj = f"({'|'.join(sc_verbs)})"
     oc_regex = re.compile(f"\w+ {oc_verb_disj} ((the )|(a ))?\w+ to \w+")
-    sc_regex = re.compile("\w+ promised ((the )|(a ))?\w+ to \w+") 
+    sc_regex = re.compile(f"\w+ {sc_verb_disj} ((the )|(a ))?\w+ to \w+") 
     return oc_regex, sc_regex
 
 def main(args): 
@@ -89,7 +93,7 @@ def test():
 if __name__ == "__main__": 
     parser = argparse.ArgumentParser()
     parser.add_argument("--sample-size", type=int, default=1000000)
-    parser.add_argument("--sample-path", type=str, default="/home/estengel/child-lm/data/sample.json")
+    parser.add_argument("--sample-path", type=str, default="../data/sample.json")
     parser.add_argument("--debug", action="store_true") 
     parser.add_argument("--overwrite", action="store_true") 
     args = parser.parse_args() 

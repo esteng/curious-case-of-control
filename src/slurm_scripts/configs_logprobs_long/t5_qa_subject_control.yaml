@@ -1,0 +1,16 @@
+hf_model_name: "valhalla/t5-base-qa-qg-hl" 
+model_name: "t5" 
+prompt_name: "t5"
+device: "cuda:0"
+subject_control: True
+passive: False
+names_file: "names_top_2.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames.json"
+
+
+long_instruction: True
+
+log_probs: True
+
+out_dir: "long_log_probs/results_to_plot"

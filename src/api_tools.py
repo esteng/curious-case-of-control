@@ -379,17 +379,23 @@ def run_t5_prompt(text, kwargs):
         # pdb.set_trace()
         return output 
 
-def run_experiment(run_fxn, text, replicants, metric, kwargs):
+def run_experiment(run_fxn, text, replicants, metric, kwargs, n1=None, n2=None):
     responses = []
     if replicants > 1:
         for i in tqdm(range(replicants)):
-            resp = run_fxn(text, kwargs)
+            if "Log" in str(run_fxn): 
+                resp = run_fxn(text,  n1=n1, n2=n2, kwargs=kwargs)
+            else:
+                resp = run_fxn(text, kwargs)
             metric(resp)
             responses.append((text, resp))
     else:
         # don't do tqdm if only 1, it's annoying 
         for i in range(replicants):
-            resp = run_fxn(text, kwargs)
+            if "Log" in str(run_fxn): 
+                resp = run_fxn(text,  n1=n1, n2=n2, kwargs=kwargs)
+            else:
+                resp = run_fxn(text, kwargs)
             metric(resp)
             responses.append((text, resp))
     return metric, responses

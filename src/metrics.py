@@ -4,6 +4,7 @@ import pdb
 import Levenshtein as pylev
 
 import pandas as pd 
+import numpy as np 
 
 ACTION_LOOKUP = {"to come": "came", "to go": "went", "to read": "read", "to run": "ran", "to call": "called"}
 
@@ -143,14 +144,20 @@ class LogprobMetric(Metric):
         super().__init__(class_lookups)
         self.classes = {k: [] for k in class_lookups.keys()}
 
-    def __call__(self, logprobs_sequence: List[Dict]):
-        pass
-        #split_text = re.split("\s+", text)
-        #for k, keywords in self.class_lookups.items():
-        #    for kw in keywords:
-        #        if kw in split_text: 
-        #            self.classes[k].append(text)
-        #            return
+    def __call__(self, log_prob_dict: Dict[str, float]):
+        n1, n2 = log_prob_dict.keys() 
+        v1, v2 = log_prob_dict[n1], log_prob_dict[n2]
+        if np.exp(v1) > np.exp(v2): 
+            self.classes[n1].append(1)
+        else:
+            self.classes[n2].append(1)  
+
+    def get_metric(self, true_class):
+        counts = {k: len(v) for k,v in self.classes.items()}
+        all_counts = sum(counts.values())
+        accuracy = counts[true_class]/all_counts 
+        return accuracy, counts, self.classes
+        
 
 def process_to_ignore(df, thresh_perc = 0.9):
     # pre-process DF to remove whole names where the model just picks the first name in the instructions 

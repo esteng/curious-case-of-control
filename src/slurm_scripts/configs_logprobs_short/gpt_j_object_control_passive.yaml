@@ -1,0 +1,13 @@
+hf_model_name: "EleutherAI/gpt-j-6B"
+model_name: "gpt_j"
+prompt_name: "gpt-passive"
+device: "multi-2" 
+subject_control: False
+passive: True
+names_file: "names_top_2.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames.json"
+
+log_probs: True
+
+out_dir: "short_log_probs/results_to_plot"

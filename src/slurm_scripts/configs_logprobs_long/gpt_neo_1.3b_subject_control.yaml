@@ -1,0 +1,15 @@
+hf_model_name: "EleutherAI/gpt-neo-1.3B"
+model_name: "gpt_neo_1.3b"
+prompt_name: "gpt"
+device: "cuda:0"
+subject_control: True
+passive: False
+names_file: "names_top_2.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames.json"
+
+long_instruction: True
+
+log_probs: True
+
+out_dir: "long_log_probs/results_to_plot"

@@ -18,7 +18,7 @@ def get_palette():
             "gpt-j": '#d55e00', "jurassic-large": '#cc78bc', "jurassic-jumbo": '#ca9161', 
             "t5": '#fbafe4', "t0": '#949494'} 
 
-def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered = False, ignore_first_only = False, no_t5=False):
+def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered = False, ignore_first_only = False, ignore_list=None):
     # consolidate data from different csvs 
     all_dfs = {g:[] for g in csv_groups.keys()}
     for group, csvs in csv_groups.items():
@@ -60,10 +60,10 @@ def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered =
                 df_to_plot = df_to_plot.append({"model": model_name, "acc": acc, "type": type_name, "group": group}, ignore_index=True)
     palette = get_palette()
 
-    if no_t5:
-        order = [ "gpt-neo-1.3b", "gpt-neo-2.7b", "gpt-j", "gpt3", "jurassic-large","jurassic-jumbo", "t0"]
-    else:
-        order = [ "gpt-neo-1.3b", "gpt-neo-2.7b", "gpt-j", "gpt3", "jurassic-large","jurassic-jumbo","t5", "t0"]
+    order = [ "gpt-neo-1.3b", "gpt-neo-2.7b", "gpt-j", "gpt3", "jurassic-large","jurassic-jumbo","t5", "t0"]
+    if ignore_list is not None:
+        for gex in ignore_list:
+            order = [x for x in order if re.match(gex, x) is None]
 
     g = sns.catplot(data = df_to_plot, 
                     kind='bar', 
@@ -75,6 +75,14 @@ def barplot(csv_groups, level, x_name, hue_name, title=None, ax=None, filtered =
                      hue_order=order,
                      legend=False)
     g.set(ylim=(0, 1.0))
+
+    ax = g.facet_axis(0,0)
+    for p in ax.patches:
+        ax.text(p.get_x() - 0.01, 
+            p.get_height() * 1.02, 
+           '{0:.2f}'.format(p.get_height()),   #Used to format it K representation
+            color='black', 
+            rotation='horizontal')
 
     if title is not None:
         g.fig.subplots_adjust(top=0.9) 

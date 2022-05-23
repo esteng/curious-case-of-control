@@ -3,7 +3,7 @@ import json
 import pathlib 
 import re 
 import os
-os.environ['TRANSFORMERS_CACHE'] = "/brtx/601-nvme1/estengel/.cache"
+
 logging.getLogger("imported_module").setLevel(logging.WARNING)
 import warnings
 warnings.filterwarnings("ignore")
@@ -17,7 +17,7 @@ from metrics import accuracy_report
 from hf_tools.hf import HuggingfaceRunFxn
 
 def main(args):
-    main_dir = pathlib.Path("/home/estengel/child-lm")
+    main_dir = pathlib.Path(__file__).resolve().parent.parent
 
     prompt_file = main_dir.joinpath("data", "agent_patient" , args.prompt_file)
     if not prompt_file.exists():

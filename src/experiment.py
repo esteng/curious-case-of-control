@@ -114,7 +114,8 @@ class Experiment:
             overwrite=False, 
             nicknames = None, 
             rate_limit_delay = 60, 
-            rate_limit_count=55):
+            rate_limit_count=55,
+            metric_cls = StringMetric):
         results_list = []
         num_run_in_time = 0
         start_time = time.time()
@@ -144,7 +145,7 @@ class Experiment:
                         already_done, done_idx = self.check_results(text)
 
                         replicants = self.replicants
-                        metric = StringMetric(lookup) 
+                        metric = metric_cls(lookup) 
                         # load things we've already looked at unless told to overwrite 
                         if already_done and not overwrite:
                             continue 
@@ -156,11 +157,11 @@ class Experiment:
                             #     responses = [(None, response)]
                             # # each replicant is already on a different line
                             # replicants = 1
-                        metric, responses = run_experiment(self.experiment_fxn, text, replicants, metric, self.kwargs)
+                        metric, responses = run_experiment(self.experiment_fxn, text, replicants, metric, self.kwargs, n1 = n1, n2 = n2)
 
                         for i in range(replicants):
                             resp = responses[i] 
-                            inner_metric = StringMetric(lookup) 
+                            inner_metric = metric_cls(lookup) 
                             inner_metric(resp[1])
                             
                             acc, count, __ = inner_metric.get_metric(correct_name)

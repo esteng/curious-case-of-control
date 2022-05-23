@@ -1,0 +1,10 @@
+hf_model_name: "valhalla/t5-base-qa-qg-hl"
+model_name: "t5" 
+prompt_name: "t5-passive"
+device: "cuda:0" 
+subject_control: False
+passive: True
+names_file: "professions.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames_professions.json"
+out_dir: "results_profession"
