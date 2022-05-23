@@ -1,0 +1,14 @@
+hf_model_name: "bigscience/T0pp" 
+model_name: "t0" 
+prompt_name: "gpt-passive"
+device: "multi-2"
+subject_control: False
+passive: True
+names_file: "names_top_2.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames.json"
+
+
+log_probs: True
+
+out_dir: "short_log_probs/results_to_plot"

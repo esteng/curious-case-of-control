@@ -1,0 +1,11 @@
+hf_model_name: "EleutherAI/gpt-neo-2.7B"
+model_name: "gpt_neo_2.7b"
+prompt_name: "gpt"
+device: "multi-2"
+extended_subject_control: True
+passive: False
+names_file: "names_top_2.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames.json"
+out_dir: "with_instructions/results_hacked_extended"
+long_instruction: True

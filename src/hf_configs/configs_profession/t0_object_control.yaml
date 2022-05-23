@@ -1,0 +1,10 @@
+hf_model_name: "bigscience/T0pp" 
+model_name: "t0" 
+prompt_name: "gpt"
+device: "cpu" 
+subject_control: False
+passive: False
+names_file: "professions.json"
+action_file: "verbs.json"
+nicknames_file: "nicknames_professions.json"
+out_dir: "results_profession"
