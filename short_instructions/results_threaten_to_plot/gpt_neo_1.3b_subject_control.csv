@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,gpt_neo_1.3b,subject-control,Avery,Casey,True,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:'),0.0
+1,gpt_neo_1.3b,subject-control,Avery,Casey,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:\n\n The answer is:'),1.0
+2,gpt_neo_1.3b,subject-control,Avery,Casey,True,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to go.\n\nQuestion: Who went?\nAnswer: \n\nA:\n\nThe answer is:\n\n Casey\n\nReasoning:\n\n Avery threatened Casey to go.\n\nA:\n\n Casey is the one who went.\n\nA:\n\n Casey is the one who went.\n\nA:\n\n Casey is the one who went.\n\nA:\n\n Casey is the one who'),2.0
+3,gpt_neo_1.3b,subject-control,Avery,Casey,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to go.\n\nQuestion: Who went?\nAnswer: \n\nA:\n\nThe answer is:\n\n Casey\n\nReasoning:\n\n Avery threatened Casey to go.\n\nA:\n\n Casey is the one who went.\n\nA:\n\n Casey is the one who went.\n\nA:\n\n Casey is the one who went.\n\nA:\n\n Casey is the one who'),3.0
+4,gpt_neo_1.3b,subject-control,Avery,Casey,True,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who read.\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause\n\n Avery is the one who read.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who read.\n'),4.0
+5,gpt_neo_1.3b,subject-control,Avery,Casey,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who read.\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause\n\n Avery is the one who read.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who read.\n'),5.0
+6,gpt_neo_1.3b,subject-control,Avery,Casey,True,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: \n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who threatened to run.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who threatened to run.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one'),6.0
+7,gpt_neo_1.3b,subject-control,Avery,Casey,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: \n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who threatened to run.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one who threatened to run.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause\n\n Avery is the one'),7.0
+8,gpt_neo_1.3b,subject-control,Avery,Casey,True,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Casey.\n\nQuestion: What did Casey say?\nAnswer:  He said he was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Casey.\n\n'),8.0
+9,gpt_neo_1.3b,subject-control,Avery,Casey,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Casey.\n\nQuestion: What did Casey say?\nAnswer:  He said he was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Casey.\n\n'),9.0
+10,gpt_neo_1.3b,subject-control,Avery,Joseph,True,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n'),20.0
+11,gpt_neo_1.3b,subject-control,Avery,Joseph,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n'),21.0
+12,gpt_neo_1.3b,subject-control,Avery,Joseph,True,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Joseph went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Avery went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Joseph went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Avery went to the bathroom.'),22.0
+13,gpt_neo_1.3b,subject-control,Avery,Joseph,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Joseph went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Avery went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Joseph went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Avery went to the bathroom.'),23.0
+14,gpt_neo_1.3b,subject-control,Avery,Joseph,True,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to read.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),24.0
+15,gpt_neo_1.3b,subject-control,Avery,Joseph,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to read.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),25.0
+16,gpt_neo_1.3b,subject-control,Avery,Joseph,True,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Joseph ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Joseph ran.\n\nQuestion: Who ran?\nAnswer:  Avery.'),26.0
+17,gpt_neo_1.3b,subject-control,Avery,Joseph,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Joseph ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Joseph ran.\n\nQuestion: Who ran?\nAnswer:  Avery.'),27.0
+18,gpt_neo_1.3b,subject-control,Avery,Joseph,True,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Joseph.\n\nQuestion: What did Joseph say?\nAnswer:  He said he was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Joseph.\n\n'),28.0
+19,gpt_neo_1.3b,subject-control,Avery,Joseph,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Joseph.\n\nQuestion: What did Joseph say?\nAnswer:  He said he was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Joseph.\n\n'),29.0
+20,gpt_neo_1.3b,subject-control,Avery,Nicole,True,threatened,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to come.\n\nQuestion: Who came?\nAnswer:  Nicole.\n\nQuestion: What did Avery do?\nAnswer:  Nicole.\n\nQuestion: What did Nicole do?\nAnswer:  Nicole.\n\nQuestion: What did Avery do?\nAnswer:  Nicole.\n\nQuestion: What did Nicole do?\nAnswer:  Nicole.\n\nQuestion: What did Avery do'),40.0
+21,gpt_neo_1.3b,subject-control,Avery,Nicole,False,threatened,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to come.\n\nQuestion: Who came?\nAnswer:  Nicole.\n\nQuestion: What did Avery do?\nAnswer:  Nicole.\n\nQuestion: What did Nicole do?\nAnswer:  Nicole.\n\nQuestion: What did Avery do?\nAnswer:  Nicole.\n\nQuestion: What did Nicole do?\nAnswer:  Nicole.\n\nQuestion: What did Avery do'),41.0
+22,gpt_neo_1.3b,subject-control,Avery,Nicole,True,threatened,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Avery was angry and Nicole was scared.\n\nQuestion: What happened?\nAnswer:  Avery was angry and Nicole was scared.\n\nQuestion: What happened?\nAnswer:  Avery was angry and Nicole was scared.\n\nQuestion: What happened?\nAnswer: '),42.0
+23,gpt_neo_1.3b,subject-control,Avery,Nicole,False,threatened,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Avery was angry and Nicole was scared.\n\nQuestion: What happened?\nAnswer:  Avery was angry and Nicole was scared.\n\nQuestion: What happened?\nAnswer:  Avery was angry and Nicole was scared.\n\nQuestion: What happened?\nAnswer: '),43.0
+24,gpt_neo_1.3b,subject-control,Avery,Nicole,True,threatened,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to read.\n\nQuestion: Who read?\nAnswer:  Nicole\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n'),44.0
+25,gpt_neo_1.3b,subject-control,Avery,Nicole,False,threatened,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to read.\n\nQuestion: Who read?\nAnswer:  Nicole\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n'),45.0
+26,gpt_neo_1.3b,subject-control,Avery,Nicole,True,threatened,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery'),46.0
+27,gpt_neo_1.3b,subject-control,Avery,Nicole,False,threatened,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery'),47.0
+28,gpt_neo_1.3b,subject-control,Avery,Nicole,True,threatened,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Avery threatened to call Nicole.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Avery threatened to call Nicole.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Avery threatened to call Nicole.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext'),48.0
+29,gpt_neo_1.3b,subject-control,Avery,Nicole,False,threatened,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Avery threatened to call Nicole.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Avery threatened to call Nicole.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Avery threatened to call Nicole.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext'),49.0
+30,gpt_neo_1.3b,subject-control,Avery,Stephanie,True,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the one who came.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the one who came.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the one who came.\n'),60.0
+31,gpt_neo_1.3b,subject-control,Avery,Stephanie,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the one who came.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the one who came.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the one who came.\n'),61.0
+32,gpt_neo_1.3b,subject-control,Avery,Stephanie,True,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nReasoning:\n\n Stephanie is the one who went.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nReasoning:\n\n Stephanie is the one who went.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nReasoning:\n\n Stephanie is'),62.0
+33,gpt_neo_1.3b,subject-control,Avery,Stephanie,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nReasoning:\n\n Stephanie is the one who went.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nReasoning:\n\n Stephanie is the one who went.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nReasoning:\n\n Stephanie is'),63.0
+34,gpt_neo_1.3b,subject-control,Avery,Stephanie,True,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the only one who can read.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the only one who can read.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the only'),64.0
+35,gpt_neo_1.3b,subject-control,Avery,Stephanie,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the only one who can read.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the only one who can read.\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause\n\n Stephanie is the only'),65.0
+36,gpt_neo_1.3b,subject-control,Avery,Stephanie,True,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: Who ran?\nAnswer:  Avery.'),66.0
+37,gpt_neo_1.3b,subject-control,Avery,Stephanie,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: What happened?\nAnswer:  Avery ran.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: Who ran?\nAnswer:  Avery.'),67.0
+38,gpt_neo_1.3b,subject-control,Avery,Stephanie,True,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Stephanie.\n\nQuestion: What did Stephanie say?\nAnswer:  She said she was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Stephanie.\n\n'),68.0
+39,gpt_neo_1.3b,subject-control,Avery,Stephanie,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Stephanie.\n\nQuestion: What did Stephanie say?\nAnswer:  She said she was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Stephanie.\n\n'),69.0
+40,gpt_neo_1.3b,subject-control,Avery,William,True,threatened,to come,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did Avery do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer:  He threatened Avery to come.\n\nQuestion: What did Avery do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer'),80.0
+41,gpt_neo_1.3b,subject-control,Avery,William,False,threatened,to come,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did Avery do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer:  He threatened Avery to come.\n\nQuestion: What did Avery do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer'),81.0
+42,gpt_neo_1.3b,subject-control,Avery,William,True,threatened,to go,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: Avery was angry and William was scared.\n\nQuestion: What happened?\nAnswer: Avery was angry and William was scared.\n\nQuestion: What happened?\nAnswer: Avery was angry and William was scared.\n\nQuestion: What happened?\nAnswer: Avery was angry and'),82.0
+43,gpt_neo_1.3b,subject-control,Avery,William,False,threatened,to go,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: Avery was angry and William was scared.\n\nQuestion: What happened?\nAnswer: Avery was angry and William was scared.\n\nQuestion: What happened?\nAnswer: Avery was angry and William was scared.\n\nQuestion: What happened?\nAnswer: Avery was angry and'),83.0
+44,gpt_neo_1.3b,subject-control,Avery,William,True,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause\n\n William is the only'),84.0
+45,gpt_neo_1.3b,subject-control,Avery,William,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause\n\n William is the only'),85.0
+46,gpt_neo_1.3b,subject-control,Avery,William,True,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What did Avery do?\nAnswer:  He ran.\n\nQuestion: What did William do?\nAnswer:  He ran.\n\nQuestion: What did Avery do?\nAnswer:  He ran.\n\nQuestion: What did William do?\nAnswer:  He ran.\n\nQuestion:'),86.0
+47,gpt_neo_1.3b,subject-control,Avery,William,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What did Avery do?\nAnswer:  He ran.\n\nQuestion: What did William do?\nAnswer:  He ran.\n\nQuestion: What did Avery do?\nAnswer:  He ran.\n\nQuestion: What did William do?\nAnswer:  He ran.\n\nQuestion:'),87.0
+48,gpt_neo_1.3b,subject-control,Avery,William,True,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call William.\n\nQuestion: What did William say?\nAnswer:  William said that he was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call William'),88.0
+49,gpt_neo_1.3b,subject-control,Avery,William,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Avery threatened William to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call William.\n\nQuestion: What did William say?\nAnswer:  William said that he was going to call Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call William'),89.0
+50,gpt_neo_1.3b,subject-control,Casey,Avery,True,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey came.\n\nA:\n\nThe answer is:\n\n Casey came.\n\nThe context is:\n\n Casey threatened Avery to come.\n\nThe question is:\n\n Who came?\n\nThe answer is:\n\n Casey came.\n\nA:\n\nThe answer is:\n\n Casey came.\n\nThe'),100.0
+51,gpt_neo_1.3b,subject-control,Casey,Avery,False,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey came.\n\nA:\n\nThe answer is:\n\n Casey came.\n\nThe context is:\n\n Casey threatened Avery to come.\n\nThe question is:\n\n Who came?\n\nThe answer is:\n\n Casey came.\n\nA:\n\nThe answer is:\n\n Casey came.\n\nThe'),101.0
+52,gpt_neo_1.3b,subject-control,Casey,Avery,True,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to go.\n\nQuestion: Who went?\nAnswer: \n\nCasey: I did.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey'),102.0
+53,gpt_neo_1.3b,subject-control,Casey,Avery,False,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to go.\n\nQuestion: Who went?\nAnswer: \n\nCasey: I did.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey: Yes.\nAvery: You did?\nCasey'),103.0
+54,gpt_neo_1.3b,subject-control,Casey,Avery,True,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read'),104.0
+55,gpt_neo_1.3b,subject-control,Casey,Avery,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read.\nCasey: I read.\nAvery: I read'),105.0
+56,gpt_neo_1.3b,subject-control,Casey,Avery,True,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey ran.\n\nA:\n\nThe answer is:\n\n Avery ran.\n\nThe context is:\n\n Avery was the one who ran.\n\nThe question is:\n\n Who ran?\n\nA:\n\n Avery ran.\n\nThe answer is:\n\n Avery ran.\n\nA:\n\n Avery ran.'),106.0
+57,gpt_neo_1.3b,subject-control,Casey,Avery,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey ran.\n\nA:\n\nThe answer is:\n\n Avery ran.\n\nThe context is:\n\n Avery was the one who ran.\n\nThe question is:\n\n Who ran?\n\nA:\n\n Avery ran.\n\nThe answer is:\n\n Avery ran.\n\nA:\n\n Avery ran.'),107.0
+58,gpt_neo_1.3b,subject-control,Casey,Avery,True,threatened,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to call.\n\nQuestion: Who called?\nAnswer: \n\nCasey: I did.\nAvery: What did you say?\nCasey: I said I was going to call you.\nAvery: What did you say?\nCasey: I said I was going to call you.\nAvery: What did you say?\nCasey: I said I was going'),108.0
+59,gpt_neo_1.3b,subject-control,Casey,Avery,False,threatened,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Avery to call.\n\nQuestion: Who called?\nAnswer: \n\nCasey: I did.\nAvery: What did you say?\nCasey: I said I was going to call you.\nAvery: What did you say?\nCasey: I said I was going to call you.\nAvery: What did you say?\nCasey: I said I was going'),109.0
+60,gpt_neo_1.3b,subject-control,Casey,Joseph,True,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey came.\nJoseph came.\n\nA:\n\nThe answer is:\n\nCasey came.\nJoseph came.\n\nThe context is:\n\nCasey came.\nJoseph came.\n\nThe question is:\n\nWho came?\n\nCasey came.\nJoseph came.\n\nA'),120.0
+61,gpt_neo_1.3b,subject-control,Casey,Joseph,False,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey came.\nJoseph came.\n\nA:\n\nThe answer is:\n\nCasey came.\nJoseph came.\n\nThe context is:\n\nCasey came.\nJoseph came.\n\nThe question is:\n\nWho came?\n\nCasey came.\nJoseph came.\n\nA'),121.0
+62,gpt_neo_1.3b,subject-control,Casey,Joseph,True,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: \nCasey went.\n\nQuestion: Why did Casey go?\nAnswer: \nCasey went because he was afraid of Joseph.\n\nQuestion: Why did Joseph go?\nAnswer: \nJoseph went because he was afraid of Casey.\n\nQuestion: Why did Joseph go?\nAnswer: \nJoseph went because he'),122.0
+63,gpt_neo_1.3b,subject-control,Casey,Joseph,False,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: \nCasey went.\n\nQuestion: Why did Casey go?\nAnswer: \nCasey went because he was afraid of Joseph.\n\nQuestion: Why did Joseph go?\nAnswer: \nJoseph went because he was afraid of Casey.\n\nQuestion: Why did Joseph go?\nAnswer: \nJoseph went because he'),123.0
+64,gpt_neo_1.3b,subject-control,Casey,Joseph,True,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I did.\nJoseph: You did?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph'),124.0
+65,gpt_neo_1.3b,subject-control,Casey,Joseph,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I did.\nJoseph: You did?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph: You read?\nCasey: Yes.\nJoseph'),125.0
+66,gpt_neo_1.3b,subject-control,Casey,Joseph,True,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey'),126.0
+67,gpt_neo_1.3b,subject-control,Casey,Joseph,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey ran.\n\nCasey'),127.0
+68,gpt_neo_1.3b,subject-control,Casey,Joseph,True,threatened,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: \n\nCasey: I did.\nJoseph: What did you say?\nCasey: I said I would call you.\nJoseph: What did you say?\nCasey: I said I would call you.\nJoseph: What did you say?\nCasey: I said I would call you.\nJoseph: What did'),128.0
+69,gpt_neo_1.3b,subject-control,Casey,Joseph,False,threatened,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: \n\nCasey: I did.\nJoseph: What did you say?\nCasey: I said I would call you.\nJoseph: What did you say?\nCasey: I said I would call you.\nJoseph: What did you say?\nCasey: I said I would call you.\nJoseph: What did'),129.0
+70,gpt_neo_1.3b,subject-control,Casey,Nicole,True,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did'),140.0
+71,gpt_neo_1.3b,subject-control,Casey,Nicole,False,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did'),141.0
+72,gpt_neo_1.3b,subject-control,Casey,Nicole,True,threatened,to go,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Nicole\n\nA:\n\nI think you are looking for the answer to the question:\n\nWho went?\n\nThe answer is:\n\nNicole\n\nThe context is:\n\nCasey threatened Nicole to go.\n\nThe question is:\n\nWho went?\n\nThe answer is:\n\nNicole'),142.0
+73,gpt_neo_1.3b,subject-control,Casey,Nicole,False,threatened,to go,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Nicole\n\nA:\n\nI think you are looking for the answer to the question:\n\nWho went?\n\nThe answer is:\n\nNicole\n\nThe context is:\n\nCasey threatened Nicole to go.\n\nThe question is:\n\nWho went?\n\nThe answer is:\n\nNicole'),143.0
+74,gpt_neo_1.3b,subject-control,Casey,Nicole,True,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did'),144.0
+75,gpt_neo_1.3b,subject-control,Casey,Nicole,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did.\nCasey: I did.\nNicole: I did'),145.0
+76,gpt_neo_1.3b,subject-control,Casey,Nicole,True,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey ran.\nNicole ran.\n\nA:\n\nThe answer is:\n\n Nicole ran.\n\nBecause\n\n Nicole is the one who ran.\n\nA:\n\nThe answer is:\n\n Nicole ran.\n\nBecause\n\n Nicole is the one who ran.\n\nA:\n\nThe answer is'),146.0
+77,gpt_neo_1.3b,subject-control,Casey,Nicole,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey ran.\nNicole ran.\n\nA:\n\nThe answer is:\n\n Nicole ran.\n\nBecause\n\n Nicole is the one who ran.\n\nA:\n\nThe answer is:\n\n Nicole ran.\n\nBecause\n\n Nicole is the one who ran.\n\nA:\n\nThe answer is'),147.0
+78,gpt_neo_1.3b,subject-control,Casey,Nicole,True,threatened,to call,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Casey threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m sorry, I\'m sorry, I\'m sorry.""\n\nQuestion: What did Nicole say?\nAnswer:  ""I\'m sorry, I\'m sorry, I\'m sorry.""\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m sorry')",148.0
+79,gpt_neo_1.3b,subject-control,Casey,Nicole,False,threatened,to call,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Casey threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m sorry, I\'m sorry, I\'m sorry.""\n\nQuestion: What did Nicole say?\nAnswer:  ""I\'m sorry, I\'m sorry, I\'m sorry.""\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m sorry')",149.0
+80,gpt_neo_1.3b,subject-control,Casey,Stephanie,True,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStep'),160.0
+81,gpt_neo_1.3b,subject-control,Casey,Stephanie,False,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStep'),161.0
+82,gpt_neo_1.3b,subject-control,Casey,Stephanie,True,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: \n\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStep'),162.0
+83,gpt_neo_1.3b,subject-control,Casey,Stephanie,False,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: \n\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStep'),163.0
+84,gpt_neo_1.3b,subject-control,Casey,Stephanie,True,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStep'),164.0
+85,gpt_neo_1.3b,subject-control,Casey,Stephanie,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStephanie: I read.\nCasey: I read.\nStep'),165.0
+86,gpt_neo_1.3b,subject-control,Casey,Stephanie,True,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStep'),166.0
+87,gpt_neo_1.3b,subject-control,Casey,Stephanie,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: \n\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStep'),167.0
+88,gpt_neo_1.3b,subject-control,Casey,Stephanie,True,threatened,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to call.
+
+Question: Who called?
+Answer: "," ""You will be given a context and a question.\nContext: Casey threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: \n\nCasey: Stephanie\nStephanie: Casey\n\nCasey: I'm going to call you tomorrow.\nStephanie: I'm not going to call you.\nCasey: I'm going to call you tomorrow.\nStephanie: I'm not going to call you.\nCasey: I'm going"")",168.0
+89,gpt_neo_1.3b,subject-control,Casey,Stephanie,False,threatened,to call,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to call.
+
+Question: Who called?
+Answer: "," ""You will be given a context and a question.\nContext: Casey threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: \n\nCasey: Stephanie\nStephanie: Casey\n\nCasey: I'm going to call you tomorrow.\nStephanie: I'm not going to call you.\nCasey: I'm going to call you tomorrow.\nStephanie: I'm not going to call you.\nCasey: I'm going"")",169.0
+90,gpt_neo_1.3b,subject-control,Casey,William,True,threatened,to come,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did Casey do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer:  He threatened Casey.\n\nQuestion: What did Casey do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer: '),180.0
+91,gpt_neo_1.3b,subject-control,Casey,William,False,threatened,to come,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did Casey do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer:  He threatened Casey.\n\nQuestion: What did Casey do?\nAnswer:  He threatened William to come.\n\nQuestion: What did William do?\nAnswer: '),181.0
+92,gpt_neo_1.3b,subject-control,Casey,William,True,threatened,to go,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: Why did Casey threaten William?\nAnswer:  Because Casey was afraid William would go.\n\nQuestion: What did Casey do to William?\nAnswer:  He hit him.\n\nQuestion: What did William do to Casey?\nAnswer:  He hit him.\n\nQuestion: What did William do'),182.0
+93,gpt_neo_1.3b,subject-control,Casey,William,False,threatened,to go,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: Why did Casey threaten William?\nAnswer:  Because Casey was afraid William would go.\n\nQuestion: What did Casey do to William?\nAnswer:  He hit him.\n\nQuestion: What did William do to Casey?\nAnswer:  He hit him.\n\nQuestion: What did William do'),183.0
+94,gpt_neo_1.3b,subject-control,Casey,William,True,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I did.\nWilliam: I did.\nCasey: I did.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who'),184.0
+95,gpt_neo_1.3b,subject-control,Casey,William,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to read.\n\nQuestion: Who read?\nAnswer: \n\nCasey: I did.\nWilliam: I did.\nCasey: I did.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who'),185.0
+96,gpt_neo_1.3b,subject-control,Casey,William,True,threatened,to run,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to run.\n\nQuestion: Who ran?\nAnswer:  William\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n William\n'),186.0
+97,gpt_neo_1.3b,subject-control,Casey,William,False,threatened,to run,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Casey threatened William to run.\n\nQuestion: Who ran?\nAnswer:  William\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n William\n'),187.0
+98,gpt_neo_1.3b,subject-control,Casey,William,True,threatened,to call,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Casey threatened William to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m going to kill you.""\n\nQuestion: What did William say?\nAnswer:  ""I\'m going to kill you.""\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m going to kill you.""\n\nQuestion: What')",188.0
+99,gpt_neo_1.3b,subject-control,Casey,William,False,threatened,to call,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Casey threatened William to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m going to kill you.""\n\nQuestion: What did William say?\nAnswer:  ""I\'m going to kill you.""\n\nQuestion: What did Casey say?\nAnswer:  ""I\'m going to kill you.""\n\nQuestion: What')",189.0
+100,gpt_neo_1.3b,subject-control,Joseph,Avery,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened Avery to come.\n\nQuestion: What did Avery do?\nAnswer:  He came.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened Avery to come.\n\nQuestion: What did Avery do?\nAnswer:  He'),200.0
+101,gpt_neo_1.3b,subject-control,Joseph,Avery,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened Avery to come.\n\nQuestion: What did Avery do?\nAnswer:  He came.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened Avery to come.\n\nQuestion: What did Avery do?\nAnswer:  He'),201.0
+102,gpt_neo_1.3b,subject-control,Joseph,Avery,True,threatened,to go,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer:  Avery was in the bathroom.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Avery was in the bathroom.\n\nQuestion:'),202.0
+103,gpt_neo_1.3b,subject-control,Joseph,Avery,False,threatened,to go,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer:  Avery was in the bathroom.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer:  Avery was in the bathroom.\n\nQuestion:'),203.0
+104,gpt_neo_1.3b,subject-control,Joseph,Avery,True,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),204.0
+105,gpt_neo_1.3b,subject-control,Joseph,Avery,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),205.0
+106,gpt_neo_1.3b,subject-control,Joseph,Avery,True,threatened,to run,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: Why did Joseph threaten Avery?\nAnswer:  Because Avery was a threat to Joseph.\n\nQuestion: What did Joseph do to Avery?\nAnswer:  He made Avery run.\n\nQuestion: What did Avery do to Joseph?\nAnswer:  He made Avery run.\n\nQuestion: What did'),206.0
+107,gpt_neo_1.3b,subject-control,Joseph,Avery,False,threatened,to run,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: Why did Joseph threaten Avery?\nAnswer:  Because Avery was a threat to Joseph.\n\nQuestion: What did Joseph do to Avery?\nAnswer:  He made Avery run.\n\nQuestion: What did Avery do to Joseph?\nAnswer:  He made Avery run.\n\nQuestion: What did'),207.0
+108,gpt_neo_1.3b,subject-control,Joseph,Avery,True,threatened,to call,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph threatened Avery to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Joseph threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going to kill you.""\n\nQuestion: What did Avery say?\nAnswer:  She said, ""I\'m going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going')",208.0
+109,gpt_neo_1.3b,subject-control,Joseph,Avery,False,threatened,to call,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph threatened Avery to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Joseph threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going to kill you.""\n\nQuestion: What did Avery say?\nAnswer:  She said, ""I\'m going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going')",209.0
+110,gpt_neo_1.3b,subject-control,Joseph,Casey,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to come.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion'),220.0
+111,gpt_neo_1.3b,subject-control,Joseph,Casey,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to come.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion'),221.0
+112,gpt_neo_1.3b,subject-control,Joseph,Casey,True,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because Casey was a threat to him.\n\nQuestion: Why did Casey go?\nAnswer:  Because Joseph was a threat to him.\n\nQuestion: Why did Joseph go?\nAnswer:  Because Casey was a threat to him.\n\nQuestion: Why'),222.0
+113,gpt_neo_1.3b,subject-control,Joseph,Casey,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because Casey was a threat to him.\n\nQuestion: Why did Casey go?\nAnswer:  Because Joseph was a threat to him.\n\nQuestion: Why did Joseph go?\nAnswer:  Because Casey was a threat to him.\n\nQuestion: Why'),223.0
+114,gpt_neo_1.3b,subject-control,Joseph,Casey,True,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion'),224.0
+115,gpt_neo_1.3b,subject-control,Joseph,Casey,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion'),225.0
+116,gpt_neo_1.3b,subject-control,Joseph,Casey,True,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Who was Joseph?\nAnswer:  Casey.\n\nQuestion: Who was Casey?\nAnswer:  Joseph.\n\nQuestion: Who was Joseph?\nAnswer:  Casey.\n\nQuestion: Who was Casey?\nAnswer:  Joseph.\n\nQuestion: Who was Casey?\nAnswer: '),226.0
+117,gpt_neo_1.3b,subject-control,Joseph,Casey,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Casey to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Who was Joseph?\nAnswer:  Casey.\n\nQuestion: Who was Casey?\nAnswer:  Joseph.\n\nQuestion: Who was Joseph?\nAnswer:  Casey.\n\nQuestion: Who was Casey?\nAnswer:  Joseph.\n\nQuestion: Who was Casey?\nAnswer: '),227.0
+118,gpt_neo_1.3b,subject-control,Joseph,Casey,True,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Joseph threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  Joseph.\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going to kill you.""\n\nQuestion: What did Casey say?\nAnswer:  Casey said, ""I\'m going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going')",228.0
+119,gpt_neo_1.3b,subject-control,Joseph,Casey,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Joseph threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  Joseph.\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going to kill you.""\n\nQuestion: What did Casey say?\nAnswer:  Casey said, ""I\'m going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I\'m going')",229.0
+120,gpt_neo_1.3b,subject-control,Joseph,Nicole,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Nicole to come.\n\nThe question is:\n\n Who came?\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Nicole to come.\n\nThe question is:\n\n Who came?\n\nA:'),240.0
+121,gpt_neo_1.3b,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Nicole to come.\n\nThe question is:\n\n Who came?\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Nicole to come.\n\nThe question is:\n\n Who came?\n\nA:'),241.0
+122,gpt_neo_1.3b,subject-control,Joseph,Nicole,True,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph go'),242.0
+123,gpt_neo_1.3b,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph go'),243.0
+124,gpt_neo_1.3b,subject-control,Joseph,Nicole,True,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),244.0
+125,gpt_neo_1.3b,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),245.0
+126,gpt_neo_1.3b,subject-control,Joseph,Nicole,True,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph run'),246.0
+127,gpt_neo_1.3b,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Nicole.\n\nQuestion: Why did Joseph run'),247.0
+128,gpt_neo_1.3b,subject-control,Joseph,Nicole,True,threatened,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened to call Nicole.\n\nQuestion: What did Nicole do?\nAnswer:  She called Joseph.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened to call Nicole.\n\nQuestion: What did Nicole do?\nAnswer: '),248.0
+129,gpt_neo_1.3b,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened to call Nicole.\n\nQuestion: What did Nicole do?\nAnswer:  She called Joseph.\n\nQuestion: What did Joseph do?\nAnswer:  He threatened to call Nicole.\n\nQuestion: What did Nicole do?\nAnswer: '),249.0
+130,gpt_neo_1.3b,subject-control,Joseph,Stephanie,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Stephanie to come.\n\nThe question is:\n\n Who came?\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Stephanie to come.\n\nThe question is:\n\n Who came?\n\nThe answer'),260.0
+131,gpt_neo_1.3b,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Stephanie to come.\n\nThe question is:\n\n Who came?\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph threatened Stephanie to come.\n\nThe question is:\n\n Who came?\n\nThe answer'),261.0
+132,gpt_neo_1.3b,subject-control,Joseph,Stephanie,True,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph go'),262.0
+133,gpt_neo_1.3b,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph go'),263.0
+134,gpt_neo_1.3b,subject-control,Joseph,Stephanie,True,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph was a young man who was in love with Stephanie.\n\nThe question is:\n\n Who read?\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph was a young man who was in love with Stephanie.\n\n'),264.0
+135,gpt_neo_1.3b,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph was a young man who was in love with Stephanie.\n\nThe question is:\n\n Who read?\n\nThe answer is:\n\n Joseph\n\nThe context is:\n\n Joseph was a young man who was in love with Stephanie.\n\n'),265.0
+136,gpt_neo_1.3b,subject-control,Joseph,Stephanie,True,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph run'),266.0
+137,gpt_neo_1.3b,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Joseph run'),267.0
+138,gpt_neo_1.3b,subject-control,Joseph,Stephanie,True,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:                                                                       '),268.0
+139,gpt_neo_1.3b,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:                                                                       '),269.0
+140,gpt_neo_1.3b,subject-control,Joseph,William,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to come.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion'),280.0
+141,gpt_neo_1.3b,subject-control,Joseph,William,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to come.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion'),281.0
+142,gpt_neo_1.3b,subject-control,Joseph,William,True,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph go'),282.0
+143,gpt_neo_1.3b,subject-control,Joseph,William,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph go'),283.0
+144,gpt_neo_1.3b,subject-control,Joseph,William,True,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),284.0
+145,gpt_neo_1.3b,subject-control,Joseph,William,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to read.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),285.0
+146,gpt_neo_1.3b,subject-control,Joseph,William,True,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run'),286.0
+147,gpt_neo_1.3b,subject-control,Joseph,William,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Joseph threatened William to run.\n\nQuestion: Who ran?\nAnswer:  Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run'),287.0
+148,gpt_neo_1.3b,subject-control,Joseph,William,True,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Joseph threatened William to call.\n\nQuestion: Who called?\nAnswer:  Joseph.\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I am going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I am going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I am going')",288.0
+149,gpt_neo_1.3b,subject-control,Joseph,William,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: Joseph threatened William to call.\n\nQuestion: Who called?\nAnswer:  Joseph.\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I am going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I am going to kill you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I am going')",289.0
+150,gpt_neo_1.3b,subject-control,Nicole,Avery,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Nicole.\n\nQuestion: What did she say?\nAnswer:  She said she was going to kill Avery.\n\nQuestion: What did she mean by that?\nAnswer:  She said she was going to kill Avery.\n\nQuestion: What did she mean by that?\nAnswer:  She said she was going to kill'),300.0
+151,gpt_neo_1.3b,subject-control,Nicole,Avery,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Nicole.\n\nQuestion: What did she say?\nAnswer:  She said she was going to kill Avery.\n\nQuestion: What did she mean by that?\nAnswer:  She said she was going to kill Avery.\n\nQuestion: What did she mean by that?\nAnswer:  She said she was going to kill'),301.0
+152,gpt_neo_1.3b,subject-control,Nicole,Avery,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.'),302.0
+153,gpt_neo_1.3b,subject-control,Nicole,Avery,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.'),303.0
+154,gpt_neo_1.3b,subject-control,Nicole,Avery,True,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to read.\n\nQuestion: Who read?\nAnswer:  Nicole.\n\nA:\n\nThe answer is:\n\n Nicole.\n\nBecause:\n\n Nicole is the context.\n Nicole is the question.\n Nicole is the answer.\n\nA:\n\nThe answer is:\n\n Nicole.\n\nBecause:\n\n Nicole is the context.\n Nicole is the question.\n Nicole is the'),304.0
+155,gpt_neo_1.3b,subject-control,Nicole,Avery,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to read.\n\nQuestion: Who read?\nAnswer:  Nicole.\n\nA:\n\nThe answer is:\n\n Nicole.\n\nBecause:\n\n Nicole is the context.\n Nicole is the question.\n Nicole is the answer.\n\nA:\n\nThe answer is:\n\n Nicole.\n\nBecause:\n\n Nicole is the context.\n Nicole is the question.\n Nicole is the'),305.0
+156,gpt_neo_1.3b,subject-control,Nicole,Avery,True,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Nicole'),306.0
+157,gpt_neo_1.3b,subject-control,Nicole,Avery,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n Nicole is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Nicole'),307.0
+158,gpt_neo_1.3b,subject-control,Nicole,Avery,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did Nicole say?\nAnswer:  She said she was going to call Avery and tell him to come over.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Nicole and tell her to call him.\n\nQuestion: What did Nicole say?\nAnswer:'),308.0
+159,gpt_neo_1.3b,subject-control,Nicole,Avery,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did Nicole say?\nAnswer:  She said she was going to call Avery and tell him to come over.\n\nQuestion: What did Avery say?\nAnswer:  He said he was going to call Nicole and tell her to call him.\n\nQuestion: What did Nicole say?\nAnswer:'),309.0
+160,gpt_neo_1.3b,subject-control,Nicole,Casey,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Casey to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Casey to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole'),320.0
+161,gpt_neo_1.3b,subject-control,Nicole,Casey,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Casey to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Casey to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole'),321.0
+162,gpt_neo_1.3b,subject-control,Nicole,Casey,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to go.
+
+Question: Who went?
+Answer: "," ""You will be given a context and a question.\nContext: Nicole threatened Casey to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Nicole went to Casey's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to Casey's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to Casey's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to"")",322.0
+163,gpt_neo_1.3b,subject-control,Nicole,Casey,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to go.
+
+Question: Who went?
+Answer: "," ""You will be given a context and a question.\nContext: Nicole threatened Casey to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Nicole went to Casey's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to Casey's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to Casey's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to"")",323.0
+164,gpt_neo_1.3b,subject-control,Nicole,Casey,True,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to read.\n\nQuestion: Who read?\nAnswer:  Nicole.\n\nQuestion: What did Nicole read?\nAnswer:  The book.\n\nQuestion: What did Casey read?\nAnswer:  The book.\n\nQuestion: What did Nicole read?\nAnswer:  The book.\n\nQuestion: What did Casey read?\nAnswer:  The book.\n\nQuestion:'),324.0
+165,gpt_neo_1.3b,subject-control,Nicole,Casey,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to read.\n\nQuestion: Who read?\nAnswer:  Nicole.\n\nQuestion: What did Nicole read?\nAnswer:  The book.\n\nQuestion: What did Casey read?\nAnswer:  The book.\n\nQuestion: What did Nicole read?\nAnswer:  The book.\n\nQuestion: What did Casey read?\nAnswer:  The book.\n\nQuestion:'),325.0
+166,gpt_neo_1.3b,subject-control,Nicole,Casey,True,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer: Nicole ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion'),326.0
+167,gpt_neo_1.3b,subject-control,Nicole,Casey,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer: Nicole ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion: What happened?\nAnswer: Casey ran.\n\nQuestion'),327.0
+168,gpt_neo_1.3b,subject-control,Nicole,Casey,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did she say?\nAnswer:  She said she was going to call Casey and tell him to come home.\n\nQuestion: What did Casey say?\nAnswer:  He said he was going to call Nicole and tell her to call him.\n\nQuestion: What did Nicole say?\nAnswer:'),328.0
+169,gpt_neo_1.3b,subject-control,Nicole,Casey,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did she say?\nAnswer:  She said she was going to call Casey and tell him to come home.\n\nQuestion: What did Casey say?\nAnswer:  He said he was going to call Nicole and tell her to call him.\n\nQuestion: What did Nicole say?\nAnswer:'),329.0
+170,gpt_neo_1.3b,subject-control,Nicole,Joseph,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Joseph to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Joseph to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole'),340.0
+171,gpt_neo_1.3b,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Joseph to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole\n\nThe context is:\n\n Nicole threatened Joseph to come.\n\nThe question is:\n\n Who came?\n\nA:\n\n Nicole'),341.0
+172,gpt_neo_1.3b,subject-control,Nicole,Joseph,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.'),342.0
+173,gpt_neo_1.3b,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.\n\nQuestion: What happened?\nAnswer:  Nicole went to the bathroom.'),343.0
+174,gpt_neo_1.3b,subject-control,Nicole,Joseph,True,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause\n\n Nicole is the one who read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause\n\n Nicole is the one who read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause\n\n Nicole is the one who read.\n'),344.0
+175,gpt_neo_1.3b,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause\n\n Nicole is the one who read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause\n\n Nicole is the one who read.\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause\n\n Nicole is the one who read.\n'),345.0
+176,gpt_neo_1.3b,subject-control,Nicole,Joseph,True,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n'),346.0
+177,gpt_neo_1.3b,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n Joseph is the only one who can answer the question.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause\n\n'),347.0
+178,gpt_neo_1.3b,subject-control,Nicole,Joseph,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did she say?\nAnswer:  She said she was going to call the police.\n\nQuestion: What did the police say?\nAnswer:  They said they would call the police.\n\nQuestion: What did the police say?\nAnswer:  They said they would call the police.\n'),348.0
+179,gpt_neo_1.3b,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did she say?\nAnswer:  She said she was going to call the police.\n\nQuestion: What did the police say?\nAnswer:  They said they would call the police.\n\nQuestion: What did the police say?\nAnswer:  They said they would call the police.\n'),349.0
+180,gpt_neo_1.3b,subject-control,Nicole,Stephanie,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNic'),360.0
+181,gpt_neo_1.3b,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNicole: \n\nNic'),361.0
+182,gpt_neo_1.3b,subject-control,Nicole,Stephanie,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went?
+Answer: "," ""You will be given a context and a question.\nContext: Nicole threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to Stephanie's house.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n"")",362.0
+183,gpt_neo_1.3b,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went?
+Answer: "," ""You will be given a context and a question.\nContext: Nicole threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Nicole went to Stephanie's house.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n"")",363.0
+184,gpt_neo_1.3b,subject-control,Nicole,Stephanie,True,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie'),364.0
+185,gpt_neo_1.3b,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie'),365.0
+186,gpt_neo_1.3b,subject-control,Nicole,Stephanie,True,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: What happened?\nAnswer:  Nicole ran.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: What happened?\nAnswer:  Nicole ran.\n\nQuestion: What happened?\nAnswer:  Stephanie'),366.0
+187,gpt_neo_1.3b,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: What happened?\nAnswer:  Nicole ran.\n\nQuestion: What happened?\nAnswer:  Stephanie ran.\n\nQuestion: What happened?\nAnswer:  Nicole ran.\n\nQuestion: What happened?\nAnswer:  Stephanie'),367.0
+188,gpt_neo_1.3b,subject-control,Nicole,Stephanie,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Stephanie was upset because Nicole called her.\nQuestion: Why did Nicole call?\nAnswer:  Because she was upset.\n\nContext: Stephanie was upset because Nicole called her.\nQuestion: Why did Nicole call?\nAnswer:  Because she was upset.\n\nContext: Stephanie was upset because Nicole called her'),368.0
+189,gpt_neo_1.3b,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nContext: Stephanie was upset because Nicole called her.\nQuestion: Why did Nicole call?\nAnswer:  Because she was upset.\n\nContext: Stephanie was upset because Nicole called her.\nQuestion: Why did Nicole call?\nAnswer:  Because she was upset.\n\nContext: Stephanie was upset because Nicole called her'),369.0
+190,gpt_neo_1.3b,subject-control,Nicole,William,True,threatened,to come,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to come.
+
+Question: Who came?
+Answer: "," ""You will be given a context and a question.\nContext: Nicole threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He went to Nicole's house.\n\nQuestion: What did Nicole do?\nAnswer:  She went to William's house.\n\nQuestion: What did William do?\nAnswer:  He went to Nicole's house.\n\nQuestion: What did Nicole do"")",380.0
+191,gpt_neo_1.3b,subject-control,Nicole,William,False,threatened,to come,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to come.
+
+Question: Who came?
+Answer: "," ""You will be given a context and a question.\nContext: Nicole threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He went to Nicole's house.\n\nQuestion: What did Nicole do?\nAnswer:  She went to William's house.\n\nQuestion: What did William do?\nAnswer:  He went to Nicole's house.\n\nQuestion: What did Nicole do"")",381.0
+192,gpt_neo_1.3b,subject-control,Nicole,William,True,threatened,to go,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion:'),382.0
+193,gpt_neo_1.3b,subject-control,Nicole,William,False,threatened,to go,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion:'),383.0
+194,gpt_neo_1.3b,subject-control,Nicole,William,True,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William'),384.0
+195,gpt_neo_1.3b,subject-control,Nicole,William,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to read.\n\nQuestion: Who read?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William is the only one who can read.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n William'),385.0
+196,gpt_neo_1.3b,subject-control,Nicole,William,True,threatened,to run,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion'),386.0
+197,gpt_neo_1.3b,subject-control,Nicole,William,False,threatened,to run,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion'),387.0
+198,gpt_neo_1.3b,subject-control,Nicole,William,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did Nicole say?\nAnswer:  She said that she was going to call William and that she was going to tell him that she was going to call the police.\n\nQuestion: What did William say?\nAnswer:  He said that he was going to call the police.\n\nQuestion: What'),388.0
+199,gpt_neo_1.3b,subject-control,Nicole,William,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Nicole threatened William to call.\n\nQuestion: Who called?\nAnswer:  Nicole.\n\nQuestion: What did Nicole say?\nAnswer:  She said that she was going to call William and that she was going to tell him that she was going to call the police.\n\nQuestion: What did William say?\nAnswer:  He said that he was going to call the police.\n\nQuestion: What'),389.0
+200,gpt_neo_1.3b,subject-control,Stephanie,Avery,True,threatened,to come,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Avery.\n\nQuestion: What did Avery do?\nAnswer:  He told Stephanie that he was going to kill her.\n\nQuestion: What did Stephanie do?\nAnswer:  She told Avery that she was going to kill him.\n\nQuestion: What did Avery do?\nAnswer:  He told Stephanie that he was going'),400.0
+201,gpt_neo_1.3b,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Avery.\n\nQuestion: What did Avery do?\nAnswer:  He told Stephanie that he was going to kill her.\n\nQuestion: What did Stephanie do?\nAnswer:  She told Avery that she was going to kill him.\n\nQuestion: What did Avery do?\nAnswer:  He told Stephanie that he was going'),401.0
+202,gpt_neo_1.3b,subject-control,Stephanie,Avery,True,threatened,to go,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Stephanie went to the bathroom.\n\nQuestion: What happened?\nAnswer: Avery went to the bathroom.\n\nQuestion: What happened?\nAnswer: Avery went to the bathroom.\n\nQuestion: What happened?\nAnswer: Avery went to the bathroom.\n\nQuestion:'),402.0
+203,gpt_neo_1.3b,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Stephanie went to the bathroom.\n\nQuestion: What happened?\nAnswer: Avery went to the bathroom.\n\nQuestion: What happened?\nAnswer: Avery went to the bathroom.\n\nQuestion: What happened?\nAnswer: Avery went to the bathroom.\n\nQuestion:'),403.0
+204,gpt_neo_1.3b,subject-control,Stephanie,Avery,True,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie'),404.0
+205,gpt_neo_1.3b,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie: \n\nAvery: \n\nStephanie'),405.0
+206,gpt_neo_1.3b,subject-control,Stephanie,Avery,True,threatened,to run,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Stephanie ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion'),406.0
+207,gpt_neo_1.3b,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Stephanie ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion: What happened?\nAnswer: Avery ran.\n\nQuestion'),407.0
+208,gpt_neo_1.3b,subject-control,Stephanie,Avery,True,threatened,to call,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that Stephanie was going to call and that she was going to tell Avery that she was going to call.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that Stephanie was going to call and that she was going to tell Avery that she was'),408.0
+209,gpt_neo_1.3b,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that Stephanie was going to call and that she was going to tell Avery that she was going to call.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that Stephanie was going to call and that she was going to tell Avery that she was'),409.0
+210,gpt_neo_1.3b,subject-control,Stephanie,Casey,True,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to come.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\n'),420.0
+211,gpt_neo_1.3b,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to come.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\nCasey: I did.\nStephanie: I did.\n'),421.0
+212,gpt_neo_1.3b,subject-control,Stephanie,Casey,True,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to go.\n\nQuestion: Who went?\nAnswer: \n\nStephanie: I did.\nCasey: I did.\n\nQuestion: Who did?\nAnswer: \n\nStephanie: I did.\nCasey: I did.\n\nQuestion: Who did?\nAnswer: \n\nStephanie: I did.\nCasey: I did.'),422.0
+213,gpt_neo_1.3b,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to go.\n\nQuestion: Who went?\nAnswer: \n\nStephanie: I did.\nCasey: I did.\n\nQuestion: Who did?\nAnswer: \n\nStephanie: I did.\nCasey: I did.\n\nQuestion: Who did?\nAnswer: \n\nStephanie: I did.\nCasey: I did.'),423.0
+214,gpt_neo_1.3b,subject-control,Stephanie,Casey,True,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nCasey: I read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nCasey: I read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nCasey: I read.'),424.0
+215,gpt_neo_1.3b,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nCasey: I read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nCasey: I read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nCasey: I read.'),425.0
+216,gpt_neo_1.3b,subject-control,Stephanie,Casey,True,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: \n\nStephanie ran.\nCasey ran.\n\nA:\n\nI think the answer is:\n\n Stephanie ran.\n\nBecause\n\n Stephanie is the one who ran.\n\nA:\n\nI think the answer is:\n\n Stephanie ran.\n\nBecause\n\n Stephanie is the one who ran.\n\nA:'),426.0
+217,gpt_neo_1.3b,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: \n\nStephanie ran.\nCasey ran.\n\nA:\n\nI think the answer is:\n\n Stephanie ran.\n\nBecause\n\n Stephanie is the one who ran.\n\nA:\n\nI think the answer is:\n\n Stephanie ran.\n\nBecause\n\n Stephanie is the one who ran.\n\nA:'),427.0
+218,gpt_neo_1.3b,subject-control,Stephanie,Casey,True,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to call.\n\nQuestion: Who called?\nAnswer: \n\nStephanie: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCase'),428.0
+219,gpt_neo_1.3b,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Casey to call.\n\nQuestion: Who called?\nAnswer: \n\nStephanie: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCasey: \n\nCase'),429.0
+220,gpt_neo_1.3b,subject-control,Stephanie,Joseph,True,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: I came.\nJoseph: I came.\nStephanie: I came.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: I came.\nJoseph: I came.\nStephanie: I came.\n\nQuestion: Who came?\nAnswer: \n\n'),440.0
+221,gpt_neo_1.3b,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: I came.\nJoseph: I came.\nStephanie: I came.\n\nQuestion: Who came?\nAnswer: \n\nStephanie: I came.\nJoseph: I came.\nStephanie: I came.\n\nQuestion: Who came?\nAnswer: \n\n'),441.0
+222,gpt_neo_1.3b,subject-control,Stephanie,Joseph,True,threatened,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Stephanie go?\nAnswer:  Because she was afraid of Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Stephanie go?\nAnswer:  Because she was afraid of Joseph.\n\nQuestion: Why did Joseph go'),442.0
+223,gpt_neo_1.3b,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  Joseph.\n\nQuestion: Why did Stephanie go?\nAnswer:  Because she was afraid of Joseph.\n\nQuestion: Why did Joseph go?\nAnswer:  Because he was afraid of Stephanie.\n\nQuestion: Why did Stephanie go?\nAnswer:  Because she was afraid of Joseph.\n\nQuestion: Why did Joseph go'),443.0
+224,gpt_neo_1.3b,subject-control,Stephanie,Joseph,True,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read'),444.0
+225,gpt_neo_1.3b,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read.\nStephanie: I read.\nJoseph: I read'),445.0
+226,gpt_neo_1.3b,subject-control,Stephanie,Joseph,True,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: \n\nStephanie ran.\n\nQuestion: Who ran?\nAnswer: \n\nJoseph ran.\n\nQuestion: Who ran?\nAnswer: \n\nStephanie ran.\n\nQuestion: Who ran?\nAnswer: \n\nJoseph ran.\n\nQuestion: Who ran?\nAnswer: \n\n'),446.0
+227,gpt_neo_1.3b,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: \n\nStephanie ran.\n\nQuestion: Who ran?\nAnswer: \n\nJoseph ran.\n\nQuestion: Who ran?\nAnswer: \n\nStephanie ran.\n\nQuestion: Who ran?\nAnswer: \n\nJoseph ran.\n\nQuestion: Who ran?\nAnswer: \n\n'),447.0
+228,gpt_neo_1.3b,subject-control,Stephanie,Joseph,True,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  Stephanie.\n\nQuestion: What did Stephanie say?\nAnswer:  She said that she was going to call Joseph and that she was going to tell him that she was going to call the police.\n\nQuestion: What did Joseph say?\nAnswer:  He said that he was going to call the police.\n\nQuestion: What'),448.0
+229,gpt_neo_1.3b,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  Stephanie.\n\nQuestion: What did Stephanie say?\nAnswer:  She said that she was going to call Joseph and that she was going to tell him that she was going to call the police.\n\nQuestion: What did Joseph say?\nAnswer:  He said that he was going to call the police.\n\nQuestion: What'),449.0
+230,gpt_neo_1.3b,subject-control,Stephanie,Nicole,True,threatened,to come,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Nicole to come.\n\nQuestion: Who came?\nAnswer:  Nicole.\n\nQuestion: What did she do?\nAnswer:  She said she was going to come.\n\nQuestion: What did she do?\nAnswer:  She said she was going to come.\n\nQuestion: What did she do?\nAnswer:  She said she was going to come.\n\nQuestion: What'),460.0
+231,gpt_neo_1.3b,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Nicole to come.\n\nQuestion: Who came?\nAnswer:  Nicole.\n\nQuestion: What did she do?\nAnswer:  She said she was going to come.\n\nQuestion: What did she do?\nAnswer:  She said she was going to come.\n\nQuestion: What did she do?\nAnswer:  She said she was going to come.\n\nQuestion: What'),461.0
+232,gpt_neo_1.3b,subject-control,Stephanie,Nicole,True,threatened,to go,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Stephanie went to"")",462.0
+233,gpt_neo_1.3b,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  Nicole.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Stephanie went to Nicole's house.\n\nQuestion: What happened?\nAnswer:  Stephanie went to"")",463.0
+234,gpt_neo_1.3b,subject-control,Stephanie,Nicole,True,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie'),464.0
+235,gpt_neo_1.3b,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie: \n\nNicole: \n\nStephanie'),465.0
+236,gpt_neo_1.3b,subject-control,Stephanie,Nicole,True,threatened,to run,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nStephanie: I'm not going to run.\nNicole: You are.\nStephanie: I'm not.\nNicole: You are.\nStephanie: I'm not.\nNicole: You are.\nStephanie: I'm not.\nNicole: You are."")",466.0
+237,gpt_neo_1.3b,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  Nicole.\n\nStephanie: I'm not going to run.\nNicole: You are.\nStephanie: I'm not.\nNicole: You are.\nStephanie: I'm not.\nNicole: You are.\nStephanie: I'm not.\nNicole: You are."")",467.0
+238,gpt_neo_1.3b,subject-control,Stephanie,Nicole,True,threatened,to call,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nStephanie: I'm not going to call you.\nNicole: I'm not going to call you.\nStephanie: I'm not going to call you.\nNicole: I'm not going to call you.\nStephanie: I'm not going to call you.\nNicole: I"")",468.0
+239,gpt_neo_1.3b,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  Nicole\n\nStephanie: I'm not going to call you.\nNicole: I'm not going to call you.\nStephanie: I'm not going to call you.\nNicole: I'm not going to call you.\nStephanie: I'm not going to call you.\nNicole: I"")",469.0
+240,gpt_neo_1.3b,subject-control,Stephanie,William,True,threatened,to come,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion:'),480.0
+241,gpt_neo_1.3b,subject-control,Stephanie,William,False,threatened,to come,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion: What did William do?\nAnswer:  He came.\n\nQuestion:'),481.0
+242,gpt_neo_1.3b,subject-control,Stephanie,William,True,threatened,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion:'),482.0
+243,gpt_neo_1.3b,subject-control,Stephanie,William,False,threatened,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion: What happened?\nAnswer: William was going to go.\n\nQuestion:'),483.0
+244,gpt_neo_1.3b,subject-control,Stephanie,William,True,threatened,to read,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Stephanie.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion'),484.0
+245,gpt_neo_1.3b,subject-control,Stephanie,William,False,threatened,to read,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Stephanie.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion'),485.0
+246,gpt_neo_1.3b,subject-control,Stephanie,William,True,threatened,to run,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to run.
+
+Question: Who ran?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened William to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nStephanie: I'm not going to run.\n\nWilliam: I'm not going to run.\n\nStephanie: I'm not going to run.\n\nWilliam: I'm not going to run.\n\nStephanie: I'm not going to run.\n\nWilliam: I'm not"")",486.0
+247,gpt_neo_1.3b,subject-control,Stephanie,William,False,threatened,to run,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to run.
+
+Question: Who ran?
+Answer: "," ""You will be given a context and a question.\nContext: Stephanie threatened William to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nStephanie: I'm not going to run.\n\nWilliam: I'm not going to run.\n\nStephanie: I'm not going to run.\n\nWilliam: I'm not going to run.\n\nStephanie: I'm not going to run.\n\nWilliam: I'm not"")",487.0
+248,gpt_neo_1.3b,subject-control,Stephanie,William,True,threatened,to call,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said that he would call Stephanie.\n\nQuestion: What did Stephanie say?\nAnswer:  She said that she would call William.\n\nQuestion: What did William say?\nAnswer:  He said that he would call Stephanie.\n\nQuestion: What'),488.0
+249,gpt_neo_1.3b,subject-control,Stephanie,William,False,threatened,to call,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: Stephanie threatened William to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said that he would call Stephanie.\n\nQuestion: What did Stephanie say?\nAnswer:  She said that she would call William.\n\nQuestion: What did William say?\nAnswer:  He said that he would call Stephanie.\n\nQuestion: What'),489.0
+250,gpt_neo_1.3b,subject-control,William,Avery,True,threatened,to come,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Avery.\n\nQuestion: What did Avery do?\nAnswer:  Avery told William to come.\n\nQuestion: What did William do?\nAnswer:  Avery told William to come.\n\nQuestion: What did Avery do?\nAnswer:  Avery told William to come.\n\nQuestion: What did William do?\nAnswer'),500.0
+251,gpt_neo_1.3b,subject-control,William,Avery,False,threatened,to come,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to come.\n\nQuestion: Who came?\nAnswer:  Avery.\n\nQuestion: What did Avery do?\nAnswer:  Avery told William to come.\n\nQuestion: What did William do?\nAnswer:  Avery told William to come.\n\nQuestion: What did Avery do?\nAnswer:  Avery told William to come.\n\nQuestion: What did William do?\nAnswer'),501.0
+252,gpt_neo_1.3b,subject-control,William,Avery,True,threatened,to go,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion:'),502.0
+253,gpt_neo_1.3b,subject-control,William,Avery,False,threatened,to go,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to go.\n\nQuestion: Who went?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion: What happened?\nAnswer: Avery was in the bathroom.\n\nQuestion:'),503.0
+254,gpt_neo_1.3b,subject-control,William,Avery,True,threatened,to read,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to read.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion'),504.0
+255,gpt_neo_1.3b,subject-control,William,Avery,False,threatened,to read,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to read.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion: Who read?\nAnswer:  Avery.\n\nQuestion'),505.0
+256,gpt_neo_1.3b,subject-control,William,Avery,True,threatened,to run,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Avery was shot.\n\nQuestion: Who shot Avery?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: Avery was shot.\n\nQuestion: Who shot Avery?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: Avery was'),506.0
+257,gpt_neo_1.3b,subject-control,William,Avery,False,threatened,to run,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to run.\n\nQuestion: Who ran?\nAnswer:  Avery.\n\nQuestion: What happened?\nAnswer: Avery was shot.\n\nQuestion: Who shot Avery?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: Avery was shot.\n\nQuestion: Who shot Avery?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: Avery was'),507.0
+258,gpt_neo_1.3b,subject-control,William,Avery,True,threatened,to call,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call the police.\n\nQuestion: What did the police say?\nAnswer:  Avery was arrested.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call the police.\n\n'),508.0
+259,gpt_neo_1.3b,subject-control,William,Avery,False,threatened,to call,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Avery to call.\n\nQuestion: Who called?\nAnswer:  Avery.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call the police.\n\nQuestion: What did the police say?\nAnswer:  Avery was arrested.\n\nQuestion: What did Avery say?\nAnswer:  Avery said that he was going to call the police.\n\n'),509.0
+260,gpt_neo_1.3b,subject-control,William,Casey,True,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Casey to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion'),520.0
+261,gpt_neo_1.3b,subject-control,William,Casey,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Casey to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Casey to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion'),521.0
+262,gpt_neo_1.3b,subject-control,William,Casey,True,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Casey to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: Why did William go?\nAnswer:  Because Casey was a threat to William.\n\nQuestion: What did Casey do?\nAnswer:  Casey threatened William.\n\nQuestion: What did William do?\nAnswer:  William threatened Casey.\n\nQuestion: What did Casey do?\nAnswer: '),522.0
+263,gpt_neo_1.3b,subject-control,William,Casey,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Casey to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Casey to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: Why did William go?\nAnswer:  Because Casey was a threat to William.\n\nQuestion: What did Casey do?\nAnswer:  Casey threatened William.\n\nQuestion: What did William do?\nAnswer:  William threatened Casey.\n\nQuestion: What did Casey do?\nAnswer: '),523.0
+264,gpt_neo_1.3b,subject-control,William,Casey,True,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Casey to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion'),524.0
+265,gpt_neo_1.3b,subject-control,William,Casey,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Casey to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Casey to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Casey.\n\nQuestion'),525.0
+266,gpt_neo_1.3b,subject-control,William,Casey,True,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Casey to run.
+
+Question: Who ran?
+Answer: "," ""You will be given a context and a question.\nContext: William threatened Casey to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: Who was Casey?\nAnswer:  Casey was William's brother.\n\nQuestion: Who was Casey's brother?\nAnswer:  Casey's brother was William.\n\nQuestion: Who was Casey's brother?\nAnswer:  Casey's brother was William.\n\nQuestion: Who was Casey's brother?"")",526.0
+267,gpt_neo_1.3b,subject-control,William,Casey,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Casey to run.
+
+Question: Who ran?
+Answer: "," ""You will be given a context and a question.\nContext: William threatened Casey to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: Who was Casey?\nAnswer:  Casey was William's brother.\n\nQuestion: Who was Casey's brother?\nAnswer:  Casey's brother was William.\n\nQuestion: Who was Casey's brother?\nAnswer:  Casey's brother was William.\n\nQuestion: Who was Casey's brother?"")",527.0
+268,gpt_neo_1.3b,subject-control,William,Casey,True,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Casey to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: William threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said that Casey was a ""bitch"" and that he was going to call the police.\n\nQuestion: What did Casey say?\nAnswer:  Casey said that William was a ""bitch"" and that he was going to call the police.\n\n')",528.0
+269,gpt_neo_1.3b,subject-control,William,Casey,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Casey to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: William threatened Casey to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said that Casey was a ""bitch"" and that he was going to call the police.\n\nQuestion: What did Casey say?\nAnswer:  Casey said that William was a ""bitch"" and that he was going to call the police.\n\n')",529.0
+270,gpt_neo_1.3b,subject-control,William,Joseph,True,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion'),540.0
+271,gpt_neo_1.3b,subject-control,William,Joseph,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: Who came?\nAnswer:  Joseph.\n\nQuestion'),541.0
+272,gpt_neo_1.3b,subject-control,William,Joseph,True,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: Why did he go?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: What did he do?\nAnswer:  He went to the woods and killed Joseph.\n\nQuestion: Why did he kill Joseph?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: What'),542.0
+273,gpt_neo_1.3b,subject-control,William,Joseph,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: Why did he go?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: What did he do?\nAnswer:  He went to the woods and killed Joseph.\n\nQuestion: Why did he kill Joseph?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: What'),543.0
+274,gpt_neo_1.3b,subject-control,William,Joseph,True,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),544.0
+275,gpt_neo_1.3b,subject-control,William,Joseph,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  Joseph.\n\nQuestion'),545.0
+276,gpt_neo_1.3b,subject-control,William,Joseph,True,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: Why did William run?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: Why did Joseph run'),546.0
+277,gpt_neo_1.3b,subject-control,William,Joseph,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: Why did William run?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of William.\n\nQuestion: Why did Joseph run?\nAnswer:  Because he was afraid of Joseph.\n\nQuestion: Why did Joseph run'),547.0
+278,gpt_neo_1.3b,subject-control,William,Joseph,True,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: William threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said, ""I will call you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I will call you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I will call you.""\n\n')",548.0
+279,gpt_neo_1.3b,subject-control,William,Joseph,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to call.
+
+Question: Who called?
+Answer: "," 'You will be given a context and a question.\nContext: William threatened Joseph to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said, ""I will call you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I will call you.""\n\nQuestion: What did Joseph say?\nAnswer:  He said, ""I will call you.""\n\n')",549.0
+280,gpt_neo_1.3b,subject-control,William,Nicole,True,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He threatened Nicole to come.\n\nQuestion: What did Nicole do?\nAnswer:  She threatened William to come.\n\nQuestion: What did William do?\nAnswer:  He threatened Nicole to come.\n\nQuestion: What did Nicole do?\nAnswer'),560.0
+281,gpt_neo_1.3b,subject-control,William,Nicole,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He threatened Nicole to come.\n\nQuestion: What did Nicole do?\nAnswer:  She threatened William to come.\n\nQuestion: What did William do?\nAnswer:  He threatened Nicole to come.\n\nQuestion: What did Nicole do?\nAnswer'),561.0
+282,gpt_neo_1.3b,subject-control,William,Nicole,True,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Nicole to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Nicole to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Nicole to go.\n\nQuestion: What happened?\n'),562.0
+283,gpt_neo_1.3b,subject-control,William,Nicole,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Nicole to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Nicole to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Nicole to go.\n\nQuestion: What happened?\n'),563.0
+284,gpt_neo_1.3b,subject-control,William,Nicole,True,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion'),564.0
+285,gpt_neo_1.3b,subject-control,William,Nicole,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion'),565.0
+286,gpt_neo_1.3b,subject-control,William,Nicole,True,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion'),566.0
+287,gpt_neo_1.3b,subject-control,William,Nicole,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion: What happened?\nAnswer: William ran.\n\nQuestion'),567.0
+288,gpt_neo_1.3b,subject-control,William,Nicole,True,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said he was going to call Nicole.\n\nQuestion: What did Nicole say?\nAnswer:  She said she was going to call William.\n\nQuestion: What did William say?\nAnswer:  He said he was going to call Nicole.\n\n'),568.0
+289,gpt_neo_1.3b,subject-control,William,Nicole,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Nicole to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said he was going to call Nicole.\n\nQuestion: What did Nicole say?\nAnswer:  She said she was going to call William.\n\nQuestion: What did William say?\nAnswer:  He said he was going to call Nicole.\n\n'),569.0
+290,gpt_neo_1.3b,subject-control,William,Stephanie,True,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He threatened to come and kill Stephanie.\n\nQuestion: What did William do?\nAnswer:  He threatened to come and kill Stephanie.\n\nQuestion: What did William do?\nAnswer:  He threatened to come and kill Stephanie.\n\nQuestion: What'),580.0
+291,gpt_neo_1.3b,subject-control,William,Stephanie,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer:  William.\n\nQuestion: What did William do?\nAnswer:  He threatened to come and kill Stephanie.\n\nQuestion: What did William do?\nAnswer:  He threatened to come and kill Stephanie.\n\nQuestion: What did William do?\nAnswer:  He threatened to come and kill Stephanie.\n\nQuestion: What'),581.0
+292,gpt_neo_1.3b,subject-control,William,Stephanie,True,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Stephanie to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Stephanie to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Stephanie to go.\n\nQuestion: What happened?\n'),582.0
+293,gpt_neo_1.3b,subject-control,William,Stephanie,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer:  William.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Stephanie to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Stephanie to go.\n\nQuestion: What happened?\nAnswer: William was angry and he threatened Stephanie to go.\n\nQuestion: What happened?\n'),583.0
+294,gpt_neo_1.3b,subject-control,William,Stephanie,True,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion'),584.0
+295,gpt_neo_1.3b,subject-control,William,Stephanie,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion: Who read?\nAnswer:  William.\n\nQuestion'),585.0
+296,gpt_neo_1.3b,subject-control,William,Stephanie,True,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.'),586.0
+297,gpt_neo_1.3b,subject-control,William,Stephanie,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.\n\nQuestion: Who was the person who ran?\nAnswer:  William.'),587.0
+298,gpt_neo_1.3b,subject-control,William,Stephanie,True,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said that he was going to call Stephanie and that he would\n                                         '),588.0
+299,gpt_neo_1.3b,subject-control,William,Stephanie,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", 'You will be given a context and a question.\nContext: William threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer:  William.\n\nQuestion: What did William say?\nAnswer:  He said that he was going to call Stephanie and that he would\n                                         '),589.0

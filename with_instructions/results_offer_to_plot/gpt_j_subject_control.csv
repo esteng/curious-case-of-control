@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,gpt_j,subject-control,Avery,Casey,True,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery offered Casey to come.
+
+Question: Who came, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Avery offered Casey to come.\n\nQuestion: Who came, Casey or Avery?\nAnswer: \n\nCasey came.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause:\n\n The context is ""Avery offered Casey to come.""\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause:\n\n The')",10.0
+1,gpt_j,subject-control,Avery,Casey,False,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery offered Casey to come.
+
+Question: Who came, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery offered Casey to come.\n\nQuestion: Who came, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered Casey to come.""\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered')",11.0
+2,gpt_j,subject-control,Avery,Casey,True,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery offered Casey to go.
+
+Question: Who went, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Avery offered Casey to go.\n\nQuestion: Who went, Casey or Avery?\nAnswer: \n\nCasey went.\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause:\n\n The context is ""Avery offered Casey to go.""\n\nA:\n\nThe answer is:\n\n Casey\n\nBecause:\n\n The')",12.0
+3,gpt_j,subject-control,Avery,Casey,False,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery offered Casey to go.
+
+Question: Who went, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery offered Casey to go.\n\nQuestion: Who went, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered Casey to go.""\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered')",13.0
+4,gpt_j,subject-control,Avery,Casey,True,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery offered Casey to read.
+
+Question: Who read, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery offered Casey to read.\n\nQuestion: Who read, Avery or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Avery is a girl\'s name, and Casey is a boy\'s name.\n\n')",14.0
+5,gpt_j,subject-control,Avery,Casey,False,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery offered Casey to read.
+
+Question: Who read, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery offered Casey to read.\n\nQuestion: Who read, Avery or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Avery is a girl\'s name, and Casey is a boy\'s name.\n\n')",15.0
+6,gpt_j,subject-control,Avery,Casey,True,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery offered Casey to run.
+
+Question: Who ran, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Avery offered Casey to run.\n\nQuestion: Who ran, Casey or Avery?\nAnswer: \n\nCasey ran.\n\nA:\n\nThe answer is:\n\n Casey ran.\n\nBecause:\n\n The context is ""Avery offered Casey to run"".\n\nA:\n\nThe answer is:\n\n Casey ran.\n\n')",16.0
+7,gpt_j,subject-control,Avery,Casey,False,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery offered Casey to run.
+
+Question: Who ran, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery offered Casey to run.\n\nQuestion: Who ran, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n Avery\n\nbecause\n\n The context is ""Avery offered Casey to run"".\n\nA:\n\nThe answer is\n\n Avery\n\nbecause\n\n The context is ""Avery offered Casey to run"".')",17.0
+8,gpt_j,subject-control,Avery,Casey,True,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery offered Casey to call.
+
+Question: Who called, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Avery offered Casey to call.\n\nQuestion: Who called, Casey or Avery?\nAnswer: \n\nCasey called.\n\nA:\n\nThe answer is:\n\n Casey called.\n\nBecause:\n\n The context is ""Avery offered Casey to call"".\n\nAnd the question is:\n\n Who called, Casey or Avery?\n')",18.0
+9,gpt_j,subject-control,Avery,Casey,False,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery offered Casey to call.
+
+Question: Who called, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery offered Casey to call.\n\nQuestion: Who called, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n Avery\n\nbecause\n\n The context is ""Avery offered Casey to call.""\n\nA:\n\nThe answer is\n\n Avery\n\nbecause\n\n The context is ""Avery offered Casey to call.""')",19.0
+10,gpt_j,subject-control,Avery,Joseph,True,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to come.
+
+Question: Who came, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to come.\n\nQuestion: Who came, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",30.0
+11,gpt_j,subject-control,Avery,Joseph,False,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to come.
+
+Question: Who came, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to come.\n\nQuestion: Who came, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",31.0
+12,gpt_j,subject-control,Avery,Joseph,True,offered,to go,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery offered Joseph to go.
+
+Question: Who went, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery offered Joseph to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Joseph')",32.0
+13,gpt_j,subject-control,Avery,Joseph,False,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to go.
+
+Question: Who went, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to go.\n\nQuestion: Who went, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",33.0
+14,gpt_j,subject-control,Avery,Joseph,True,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to read.
+
+Question: Who read, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to read.\n\nQuestion: Who read, Avery or Joseph?\nAnswer: \n\nA:\n\nI think the answer is Joseph.\n\nA:\n\nI think the answer is Joseph.\n\nA:\n\nI think the answer is Joseph.\n\nA:\n\nI think the answer is Joseph.\n')",34.0
+15,gpt_j,subject-control,Avery,Joseph,False,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to read.
+
+Question: Who read, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to read.\n\nQuestion: Who read, Avery or Joseph?\nAnswer: \n\nA:\n\nI think the answer is Joseph.\n\nA:\n\nI think the answer is Joseph.\n\nA:\n\nI think the answer is Joseph.\n\nA:\n\nI think the answer is Joseph.\n')",35.0
+16,gpt_j,subject-control,Avery,Joseph,True,offered,to run,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery offered Joseph to run.
+
+Question: Who ran, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery offered Joseph to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer:  Joseph')",36.0
+17,gpt_j,subject-control,Avery,Joseph,False,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to run.
+
+Question: Who ran, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to run.\n\nQuestion: Who ran, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",37.0
+18,gpt_j,subject-control,Avery,Joseph,True,offered,to call,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery offered Joseph to call.
+
+Question: Who called, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Avery offered Joseph to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Avery offered Joseph to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Avery\n\nContext: Avery offered Joseph to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Joseph')",38.0
+19,gpt_j,subject-control,Avery,Joseph,False,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery offered Joseph to call.
+
+Question: Who called, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery offered Joseph to call.\n\nQuestion: Who called, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",39.0
+20,gpt_j,subject-control,Avery,Nicole,True,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to come.
+
+Question: Who came, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to come.\n\nQuestion: Who came, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who came.\n\n')",50.0
+21,gpt_j,subject-control,Avery,Nicole,False,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to come.
+
+Question: Who came, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to come.\n\nQuestion: Who came, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who came.\n\n')",51.0
+22,gpt_j,subject-control,Avery,Nicole,True,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to go.
+
+Question: Who went, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to go.\n\nQuestion: Who went, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who is not a girl.\n\n')",52.0
+23,gpt_j,subject-control,Avery,Nicole,False,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to go.
+
+Question: Who went, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to go.\n\nQuestion: Who went, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who is not a girl.\n\n')",53.0
+24,gpt_j,subject-control,Avery,Nicole,True,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery offered Nicole to read.
+
+Question: Who read, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Avery offered Nicole to read.\n\nQuestion: Who read, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n Nicole is the only one who is not a pronoun.\n\n')",54.0
+25,gpt_j,subject-control,Avery,Nicole,False,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to read.
+
+Question: Who read, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to read.\n\nQuestion: Who read, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who can read the book.\n\n')",55.0
+26,gpt_j,subject-control,Avery,Nicole,True,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to run.
+
+Question: Who ran, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to run.\n\nQuestion: Who ran, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who is not a girl.\n\n')",56.0
+27,gpt_j,subject-control,Avery,Nicole,False,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to run.
+
+Question: Who ran, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to run.\n\nQuestion: Who ran, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who is not a girl.\n\n')",57.0
+28,gpt_j,subject-control,Avery,Nicole,True,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to call.
+
+Question: Who called, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to call.\n\nQuestion: Who called, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who called Nicole.\n\n')",58.0
+29,gpt_j,subject-control,Avery,Nicole,False,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery offered Nicole to call.
+
+Question: Who called, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery offered Nicole to call.\n\nQuestion: Who called, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who called Nicole.\n\n')",59.0
+30,gpt_j,subject-control,Avery,Stephanie,True,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery offered Stephanie to come.
+
+Question: Who came, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Avery offered Stephanie to come.\n\nQuestion: Who came, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStep')",70.0
+31,gpt_j,subject-control,Avery,Stephanie,False,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to come.
+
+Question: Who came, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to come.\n\nQuestion: Who came, Avery or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered Stephanie to come.""\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery')",71.0
+32,gpt_j,subject-control,Avery,Stephanie,True,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to go.
+
+Question: Who went, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to go.\n\nQuestion: Who went, Avery or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered Stephanie to go.""\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery')",72.0
+33,gpt_j,subject-control,Avery,Stephanie,False,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to go.
+
+Question: Who went, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to go.\n\nQuestion: Who went, Avery or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered Stephanie to go.""\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery')",73.0
+34,gpt_j,subject-control,Avery,Stephanie,True,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to read.\n\nQuestion: Who read, Avery or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Avery offered Stephanie to read"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Avery')",74.0
+35,gpt_j,subject-control,Avery,Stephanie,False,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to read.\n\nQuestion: Who read, Avery or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Avery offered Stephanie to read"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Avery')",75.0
+36,gpt_j,subject-control,Avery,Stephanie,True,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery offered Stephanie to run.
+
+Question: Who ran, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Avery offered Stephanie to run.\n\nQuestion: Who ran, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStep')",76.0
+37,gpt_j,subject-control,Avery,Stephanie,False,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to run.
+
+Question: Who ran, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to run.\n\nQuestion: Who ran, Avery or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Avery offered Stephanie to run"".\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Avery')",77.0
+38,gpt_j,subject-control,Avery,Stephanie,True,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery offered Stephanie to call.
+
+Question: Who called, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Avery offered Stephanie to call.\n\nQuestion: Who called, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie called Avery.\n\nA:\n\nStephanie called Avery.\n\nA:\n\nStephanie called Avery.\n\nA:\n\nStephanie called Avery.\n\nA')",78.0
+39,gpt_j,subject-control,Avery,Stephanie,False,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery offered Stephanie to call.
+
+Question: Who called, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery offered Stephanie to call.\n\nQuestion: Who called, Avery or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery called Stephanie\n\nBecause:\n\n The context is ""Avery offered Stephanie to call.""\n\nAnd the question is:\n\n Who called, Avery or Stephanie?\n\nA:\n\n Avery')",79.0
+40,gpt_j,subject-control,Avery,William,True,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to come.
+
+Question: Who came, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to come.\n\nQuestion: Who came, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William to come"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William')",90.0
+41,gpt_j,subject-control,Avery,William,False,offered,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to come.
+
+Question: Who came, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to come.\n\nQuestion: Who came, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William to come"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William')",91.0
+42,gpt_j,subject-control,Avery,William,True,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to go.
+
+Question: Who went, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to go.\n\nQuestion: Who went, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William to go"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William')",92.0
+43,gpt_j,subject-control,Avery,William,False,offered,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to go.
+
+Question: Who went, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to go.\n\nQuestion: Who went, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William to go"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Avery offered William')",93.0
+44,gpt_j,subject-control,Avery,William,True,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to read.
+
+Question: Who read, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to read.\n\nQuestion: Who read, Avery or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nBecause\n\n The context is ""Avery offered William to read"".\n\nA:\n\nI think the answer is\n\n William\n\nBecause\n\n The context is ""Avery offered William')",94.0
+45,gpt_j,subject-control,Avery,William,False,offered,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to read.
+
+Question: Who read, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to read.\n\nQuestion: Who read, Avery or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nBecause\n\n The context is ""Avery offered William to read"".\n\nA:\n\nI think the answer is\n\n William\n\nBecause\n\n The context is ""Avery offered William')",95.0
+46,gpt_j,subject-control,Avery,William,True,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to run.
+
+Question: Who ran, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to run.\n\nQuestion: Who ran, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""Avery offered William to run"".\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""Avery offered William')",96.0
+47,gpt_j,subject-control,Avery,William,False,offered,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to run.
+
+Question: Who ran, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to run.\n\nQuestion: Who ran, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""Avery offered William to run"".\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""Avery offered William')",97.0
+48,gpt_j,subject-control,Avery,William,True,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to call.
+
+Question: Who called, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to call.\n\nQuestion: Who called, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery called William.\n\nReasoning:\n\n The context is ""Avery offered William to call"". The question is ""Who called, Avery or William?"". The answer is ""Avery called William"".\n\n')",98.0
+49,gpt_j,subject-control,Avery,William,False,offered,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery offered William to call.
+
+Question: Who called, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery offered William to call.\n\nQuestion: Who called, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery called William.\n\nReasoning:\n\n The context is ""Avery offered William to call"". The question is ""Who called, Avery or William?"". The answer is ""Avery called William"".\n\n')",99.0
+50,gpt_j,subject-control,Casey,Avery,True,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey offered Avery to come.
+
+Question: Who came, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Casey offered Avery to come.\n\nQuestion: Who came, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Casey offered Avery to come"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Casey offered')",110.0
+51,gpt_j,subject-control,Casey,Avery,False,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey offered Avery to come.
+
+Question: Who came, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey offered Avery to come.\n\nQuestion: Who came, Casey or Avery?\nAnswer: \n\nCasey came.\nAvery came.\n\nA:\n\nI think the answer is:\n\n Casey came.\n\nBecause:\n\n The context is ""Casey offered Avery to come.""\n\nA:\n\nI think the')",111.0
+52,gpt_j,subject-control,Casey,Avery,True,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey offered Avery to go.
+
+Question: Who went, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Casey offered Avery to go.\n\nQuestion: Who went, Avery or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Casey offered Avery to go"".\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Casey offered')",112.0
+53,gpt_j,subject-control,Casey,Avery,False,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey offered Avery to go.
+
+Question: Who went, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey offered Avery to go.\n\nQuestion: Who went, Casey or Avery?\nAnswer: \n\nCasey went.\nAvery went.\n\nA:\n\nThe answer is:\n\n Casey went.\n\nBecause:\n\n The context is that Casey offered Avery to go.\n\nA:\n\nThe answer is:\n\n Casey')",113.0
+54,gpt_j,subject-control,Casey,Avery,True,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey offered Avery to read.
+
+Question: Who read, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey offered Avery to read.\n\nQuestion: Who read, Casey or Avery?\nAnswer: \n\nCasey\n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who read the book.\n\n')",114.0
+55,gpt_j,subject-control,Casey,Avery,False,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey offered Avery to read.
+
+Question: Who read, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey offered Avery to read.\n\nQuestion: Who read, Casey or Avery?\nAnswer: \n\nCasey\n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who read the book.\n\n')",115.0
+56,gpt_j,subject-control,Casey,Avery,True,offered,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey offered Avery to run.
+
+Question: Who ran, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Casey offered Avery to run.\n\nQuestion: Who ran, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nReasoning:\n\n The context is that Casey offered Avery to run. The question is who ran, Avery or Casey. The answer is Avery.\n\n')",116.0
+57,gpt_j,subject-control,Casey,Avery,False,offered,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey offered Avery to run.
+
+Question: Who ran, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey offered Avery to run.\n\nQuestion: Who ran, Casey or Avery?\nAnswer: \n\nCasey ran.\n\nA:\n\nThe answer is:\n\n Casey ran.\n\nBecause:\n\n The context is that Casey offered Avery to run.\n\nA:\n\nThe answer is:\n\n Casey ran.\n\nBecause')",117.0
+58,gpt_j,subject-control,Casey,Avery,True,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey offered Avery to call.
+
+Question: Who called, Avery or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Casey offered Avery to call.\n\nQuestion: Who called, Avery or Casey?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nReasoning:\n\n The context is ""Casey offered Avery to call"". The question is ""Who called, Avery or Casey?"". The answer is ""Avery"".\n\n')",118.0
+59,gpt_j,subject-control,Casey,Avery,False,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey offered Avery to call.
+
+Question: Who called, Casey or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey offered Avery to call.\n\nQuestion: Who called, Casey or Avery?\nAnswer: \n\nCasey called Avery.\n\nA:\n\nThe answer is:\n\n Casey called Avery.\n\nBecause:\n\n The context is ""Casey offered Avery to call"".\n\nAnd the question is:\n\n Who called, Casey or Avery')",119.0
+60,gpt_j,subject-control,Casey,Joseph,True,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to come.
+
+Question: Who came, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to come.\n\nQuestion: Who came, Casey or Joseph?\nAnswer: \n\nCasey came.\nJoseph came.\n\nA:\n\nI think the answer is:\n\n Joseph came.\n\nBecause:\n\n Joseph is the only one who came.\n\nA:\n\nI think the answer is:\n\n Joseph')",130.0
+61,gpt_j,subject-control,Casey,Joseph,False,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to come.
+
+Question: Who came, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to come.\n\nQuestion: Who came, Casey or Joseph?\nAnswer: \n\nCasey came.\nJoseph came.\n\nA:\n\nI think the answer is:\n\n Joseph came.\n\nBecause:\n\n Joseph is the only one who came.\n\nA:\n\nI think the answer is:\n\n Joseph')",131.0
+62,gpt_j,subject-control,Casey,Joseph,True,offered,to go,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey offered Joseph to go.
+
+Question: Who went, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Casey offered Joseph to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Casey offered Joseph to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer:  Casey\n\nContext: Casey offered Joseph to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer:  Joseph')",132.0
+63,gpt_j,subject-control,Casey,Joseph,False,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to go.
+
+Question: Who went, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to go.\n\nQuestion: Who went, Casey or Joseph?\nAnswer: \n\nCasey went.\nJoseph went.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Casey offered Joseph to go.""\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause')",133.0
+64,gpt_j,subject-control,Casey,Joseph,True,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to read.
+
+Question: Who read, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to read.\n\nQuestion: Who read, Casey or Joseph?\nAnswer: \n\nCasey\n\nJoseph\n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who read the book.\n\n')",134.0
+65,gpt_j,subject-control,Casey,Joseph,False,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to read.
+
+Question: Who read, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to read.\n\nQuestion: Who read, Casey or Joseph?\nAnswer: \n\nCasey\n\nJoseph\n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who read the book.\n\n')",135.0
+66,gpt_j,subject-control,Casey,Joseph,True,offered,to run,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey offered Joseph to run.
+
+Question: Who ran, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Casey\n\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Joseph')",136.0
+67,gpt_j,subject-control,Casey,Joseph,False,offered,to run,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to run.
+
+Question: Who ran, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran, Casey or Joseph?\nAnswer:  Joseph\n\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran, Casey or Joseph?\nAnswer:  Casey\n\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran, Casey or Joseph?\nAnswer:  Casey')",137.0
+68,gpt_j,subject-control,Casey,Joseph,True,offered,to call,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey offered Joseph to call.
+
+Question: Who called, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Casey offered Joseph to call.\n\nQuestion: Who called, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Casey called Joseph.\n\nQuestion: Who called, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph called Casey.\n\nQuestion: Who called, Joseph or Casey?\nAnswer:  Joseph\n\nContext:')",138.0
+69,gpt_j,subject-control,Casey,Joseph,False,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey offered Joseph to call.
+
+Question: Who called, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey offered Joseph to call.\n\nQuestion: Who called, Casey or Joseph?\nAnswer: \n\nCasey called Joseph.\n\nA:\n\nThe answer is:\n\n Joseph called Casey.\n\nBecause:\n\n Joseph is the only person who can call Casey.\n\nA:\n\nThe answer is:\n\n Joseph called Casey.\n')",139.0
+70,gpt_j,subject-control,Casey,Nicole,True,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey offered Nicole to come.
+
+Question: Who came, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Casey offered Nicole to come.\n\nQuestion: Who came, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who came.\n\n')",150.0
+71,gpt_j,subject-control,Casey,Nicole,False,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to come.
+
+Question: Who came, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to come.\n\nQuestion: Who came, Casey or Nicole?\nAnswer: \n\nCasey came.\nNicole came.\n\nA:\n\nI think the answer is:\n\n Casey came.\n\nBecause:\n\n The context is ""Casey offered Nicole to come.""\n\nAnd the question is:\n\n Who')",151.0
+72,gpt_j,subject-control,Casey,Nicole,True,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey offered Nicole to go.
+
+Question: Who went, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Casey offered Nicole to go.\n\nQuestion: Who went, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who went.\n\n')",152.0
+73,gpt_j,subject-control,Casey,Nicole,False,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to go.
+
+Question: Who went, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to go.\n\nQuestion: Who went, Casey or Nicole?\nAnswer: \n\nCasey went.\n\nA:\n\nI think the answer is:\n\n Casey went.\n\nBecause:\n\n The context is ""Casey offered Nicole to go.""\n\nAnd the question is:\n\n Who went?\n\nSo')",153.0
+74,gpt_j,subject-control,Casey,Nicole,True,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to read.
+
+Question: Who read, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to read.\n\nQuestion: Who read, Casey or Nicole?\nAnswer: \n\nCasey read.\nNicole read.\n\nA:\n\nI think the answer is\n\n Casey read.\n\nBecause\n\n Casey is the only one who can read, and she is the only one who read.\n\n')",154.0
+75,gpt_j,subject-control,Casey,Nicole,False,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to read.
+
+Question: Who read, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to read.\n\nQuestion: Who read, Casey or Nicole?\nAnswer: \n\nCasey read.\nNicole read.\n\nA:\n\nI think the answer is\n\n Casey read.\n\nBecause\n\n Casey is the only one who can read, and she is the only one who read.\n\n')",155.0
+76,gpt_j,subject-control,Casey,Nicole,True,offered,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey offered Nicole to run.
+
+Question: Who ran, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Casey offered Nicole to run.\n\nQuestion: Who ran, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who ran.\n\n')",156.0
+77,gpt_j,subject-control,Casey,Nicole,False,offered,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to run.
+
+Question: Who ran, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to run.\n\nQuestion: Who ran, Casey or Nicole?\nAnswer: \n\nCasey ran.\n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who ran.\n\n')",157.0
+78,gpt_j,subject-control,Casey,Nicole,True,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to call.
+
+Question: Who called, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to call.\n\nQuestion: Who called, Casey or Nicole?\nAnswer: \n\nCasey called.\n\nA:\n\nI think the answer is:\n\n Casey called.\n\nBecause:\n\n The context is ""Casey offered Nicole to call"".\n\nAnd the question is:\n\n Who called, Casey or Nicole')",158.0
+79,gpt_j,subject-control,Casey,Nicole,False,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey offered Nicole to call.
+
+Question: Who called, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey offered Nicole to call.\n\nQuestion: Who called, Casey or Nicole?\nAnswer: \n\nCasey called.\n\nA:\n\nI think the answer is:\n\n Casey called.\n\nBecause:\n\n The context is ""Casey offered Nicole to call"".\n\nAnd the question is:\n\n Who called, Casey or Nicole')",159.0
+80,gpt_j,subject-control,Casey,Stephanie,True,offered,to come,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey offered Stephanie to come.
+
+Question: Who came, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey offered Stephanie to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:  Casey\n\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:')",170.0
+81,gpt_j,subject-control,Casey,Stephanie,False,offered,to come,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to come.
+
+Question: Who came, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to come.\n\nQuestion: Who came, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Casey offered Stephanie to come.\n\nQuestion: Who came, Casey or Stephanie?\nAnswer:')",171.0
+82,gpt_j,subject-control,Casey,Stephanie,True,offered,to go,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to go.
+
+Question: Who went, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Casey offered Stephanie to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:')",172.0
+83,gpt_j,subject-control,Casey,Stephanie,False,offered,to go,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to go.
+
+Question: Who went, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Casey offered Stephanie to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:')",173.0
+84,gpt_j,subject-control,Casey,Stephanie,True,offered,to read,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey offered Stephanie to read.
+
+Question: Who read, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey offered Stephanie to read.\n\nQuestion: Who read, Stephanie or Casey?\nAnswer:  Stephanie\n\nA:\n\nStephanie is the one who read.\n\nStephanie is the one who read.\n\nStephanie is the one who read.\n\nStephanie is the one who read.\n\n')",174.0
+85,gpt_j,subject-control,Casey,Stephanie,False,offered,to read,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to read.
+
+Question: Who read, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to read.\n\nQuestion: Who read, Casey or Stephanie?\nAnswer:  Stephanie\n\nCasey:  Stephanie, I offered you to read.\nStephanie:  Casey, I\'m not reading.\nCasey:  Stephanie, I offered you to read.\nStephanie:  Casey, I\'m')",175.0
+86,gpt_j,subject-control,Casey,Stephanie,True,offered,to run,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey offered Stephanie to run.
+
+Question: Who ran, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Casey offered Stephanie to run.\n\nQuestion: Who ran, Stephanie or Casey?\nAnswer:  Stephanie\n\nA:\n\nStephanie ran.\n\nStephanie is the only one who ran.\n\nA:\n\nStephanie ran.\n\nStephanie is the only one who ran.\n\nA:')",176.0
+87,gpt_j,subject-control,Casey,Stephanie,False,offered,to run,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to run.
+
+Question: Who ran, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to run.\n\nQuestion: Who ran, Casey or Stephanie?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Casey offered Stephanie to run"".\n\nStephanie is the only person who can run because:\n\n She is the only person who can')",177.0
+88,gpt_j,subject-control,Casey,Stephanie,True,offered,to call,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to call.
+
+Question: Who called, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Casey offered Stephanie to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:')",178.0
+89,gpt_j,subject-control,Casey,Stephanie,False,offered,to call,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey offered Stephanie to call.
+
+Question: Who called, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey offered Stephanie to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Casey offered Stephanie to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:')",179.0
+90,gpt_j,subject-control,Casey,William,True,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey offered William to come.
+
+Question: Who came, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey offered William to come.\n\nQuestion: Who came, Casey or William?\nAnswer: \n\nCasey came.\nWilliam came.\n\nA:\n\nI think the answer is:\n\n Casey came.\n\nBecause:\n\n The context is ""Casey offered William to come"".\n\nAnd:\n\n The question is ""Who came')",190.0
+91,gpt_j,subject-control,Casey,William,False,offered,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey offered William to come.
+
+Question: Who came, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey offered William to come.\n\nQuestion: Who came, Casey or William?\nAnswer: \n\nCasey came.\nWilliam came.\n\nA:\n\nI think the answer is:\n\n Casey came.\n\nBecause:\n\n The context is ""Casey offered William to come"".\n\nAnd:\n\n The question is ""Who came')",191.0
+92,gpt_j,subject-control,Casey,William,True,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: Casey offered William to go.
+
+Question: Who went, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: Casey offered William to go.\n\nQuestion: Who went, William or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Casey offered William to go"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Casey offered William')",192.0
+93,gpt_j,subject-control,Casey,William,False,offered,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey offered William to go.
+
+Question: Who went, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey offered William to go.\n\nQuestion: Who went, Casey or William?\nAnswer: \n\nCasey went.\nWilliam went.\n\nA:\n\nI think the answer is:\n\n Casey went.\n\nBecause:\n\n The context is ""Casey offered William to go.""\n\nAnd:\n\n The question is ""Who went')",193.0
+94,gpt_j,subject-control,Casey,William,True,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: Casey offered William to read.
+
+Question: Who read, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: Casey offered William to read.\n\nQuestion: Who read, William or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Casey offered William to read"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Casey offered William')",194.0
+95,gpt_j,subject-control,Casey,William,False,offered,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey offered William to read.
+
+Question: Who read, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey offered William to read.\n\nQuestion: Who read, Casey or William?\nAnswer: \n\nCasey\n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""Casey offered William to read"".\n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""Casey offered William')",195.0
+96,gpt_j,subject-control,Casey,William,True,offered,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: Casey offered William to run.
+
+Question: Who ran, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: Casey offered William to run.\n\nQuestion: Who ran, William or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Casey offered William to run"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Casey offered William')",196.0
+97,gpt_j,subject-control,Casey,William,False,offered,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey offered William to run.
+
+Question: Who ran, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey offered William to run.\n\nQuestion: Who ran, Casey or William?\nAnswer: \n\nCasey ran.\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""Casey offered William to run"".\n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context')",197.0
+98,gpt_j,subject-control,Casey,William,True,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: Casey offered William to call.
+
+Question: Who called, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: Casey offered William to call.\n\nQuestion: Who called, William or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""Casey offered William to call"".\n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""Casey offered William to call"".\n')",198.0
+99,gpt_j,subject-control,Casey,William,False,offered,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey offered William to call.
+
+Question: Who called, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey offered William to call.\n\nQuestion: Who called, Casey or William?\nAnswer: \n\nCasey called.\n\nA:\n\nThe answer is:\n\n Casey called.\n\nBecause:\n\n The context is ""Casey offered William to call"".\n\nAnd the question is:\n\n Who called, Casey or William?\n\n')",199.0
+100,gpt_j,subject-control,Joseph,Avery,True,offered,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Joseph offered Avery to come.
+
+Question: Who came, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Joseph offered Avery to come.\n\nQuestion: Who came, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",210.0
+101,gpt_j,subject-control,Joseph,Avery,False,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to come.
+
+Question: Who came, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to come.\n\nQuestion: Who came, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to come.\n\nQuestion: Who came, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to come.\n\nQuestion: Who came, Joseph or Avery?\nAnswer:  Joseph')",211.0
+102,gpt_j,subject-control,Joseph,Avery,True,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to go.
+
+Question: Who went, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Joseph')",212.0
+103,gpt_j,subject-control,Joseph,Avery,False,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to go.
+
+Question: Who went, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer:  Joseph')",213.0
+104,gpt_j,subject-control,Joseph,Avery,True,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to read.
+
+Question: Who read, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer:  Joseph')",214.0
+105,gpt_j,subject-control,Joseph,Avery,False,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to read.
+
+Question: Who read, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer:  Joseph')",215.0
+106,gpt_j,subject-control,Joseph,Avery,True,offered,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Joseph offered Avery to run.
+
+Question: Who ran, Avery or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran, Avery or Joseph?\nAnswer: \n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\nA:\n\nThe answer is Joseph.\n\n')",216.0
+107,gpt_j,subject-control,Joseph,Avery,False,offered,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to run.
+
+Question: Who ran, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer:  Joseph')",217.0
+108,gpt_j,subject-control,Joseph,Avery,True,offered,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to call.
+
+Question: Who called, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Joseph')",218.0
+109,gpt_j,subject-control,Joseph,Avery,False,offered,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph offered Avery to call.
+
+Question: Who called, Joseph or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph offered Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Joseph\n\nContext: Joseph offered Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Avery\n\nContext: Joseph offered Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer:  Joseph')",219.0
+110,gpt_j,subject-control,Joseph,Casey,True,offered,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph offered Casey to come.
+
+Question: Who came, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph offered Casey to come.\n\nQuestion: Who came, Casey or Joseph?\nAnswer: \n\nCasey came.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n Joseph is the only one who came.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n Joseph is the only one')",230.0
+111,gpt_j,subject-control,Joseph,Casey,False,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to come.
+
+Question: Who came, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to come.\n\nQuestion: Who came, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to come.\n\nQuestion: Who came, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to come.\n\nQuestion: Who came, Joseph or Casey?\nAnswer:  Joseph')",231.0
+112,gpt_j,subject-control,Joseph,Casey,True,offered,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph offered Casey to go.
+
+Question: Who went, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph offered Casey to go.\n\nQuestion: Who went, Casey or Joseph?\nAnswer: \n\nCasey went.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n Joseph is the only one who offered Casey to go.\n\n')",232.0
+113,gpt_j,subject-control,Joseph,Casey,False,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to go.
+
+Question: Who went, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer:  Joseph')",233.0
+114,gpt_j,subject-control,Joseph,Casey,True,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to read.
+
+Question: Who read, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer:  Joseph')",234.0
+115,gpt_j,subject-control,Joseph,Casey,False,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to read.
+
+Question: Who read, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer:  Joseph')",235.0
+116,gpt_j,subject-control,Joseph,Casey,True,offered,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to run.
+
+Question: Who ran, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Joseph')",236.0
+117,gpt_j,subject-control,Joseph,Casey,False,offered,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to run.
+
+Question: Who ran, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer:  Joseph')",237.0
+118,gpt_j,subject-control,Joseph,Casey,True,offered,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph offered Casey to call.
+
+Question: Who called, Casey or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Joseph offered Casey to call.\n\nQuestion: Who called, Casey or Joseph?\nAnswer: \n\nCasey called Joseph.\n\nA:\n\nThe answer is:\n\n Joseph called Casey.\n\nBecause:\n\n Joseph is the only person who can call Casey.\n\nA:\n\nThe answer is:\n\n Joseph called Casey.\n')",238.0
+119,gpt_j,subject-control,Joseph,Casey,False,offered,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph offered Casey to call.
+
+Question: Who called, Joseph or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph offered Casey to call.\n\nQuestion: Who called, Joseph or Casey?\nAnswer:  Joseph\n\nContext: Joseph offered Casey to call.\n\nQuestion: Who called, Joseph or Casey?\nAnswer:  Casey\n\nContext: Joseph offered Casey to call.\n\nQuestion: Who called, Joseph or Casey?\nAnswer:  Joseph')",239.0
+120,gpt_j,subject-control,Joseph,Nicole,True,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to come.
+
+Question: Who came, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\nAnswer:  Joseph came.\n\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\nAnswer:  Nicole came.\n\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\n')",250.0
+121,gpt_j,subject-control,Joseph,Nicole,False,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to come.
+
+Question: Who came, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\nAnswer:  Joseph came.\n\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\nAnswer:  Nicole came.\n\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\n')",251.0
+122,gpt_j,subject-control,Joseph,Nicole,True,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to go.
+
+Question: Who went, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer:  Joseph\n\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer:  Nicole\n\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer:  Joseph')",252.0
+123,gpt_j,subject-control,Joseph,Nicole,False,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to go.
+
+Question: Who went, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer:  Joseph\n\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer:  Nicole\n\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer:  Joseph')",253.0
+124,gpt_j,subject-control,Joseph,Nicole,True,offered,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to read.
+
+Question: Who read, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to read.\n\nQuestion: Who read, Joseph or Nicole?\nAnswer: \n\nJoseph read.\nNicole read.\n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who read the book.\n\n')",254.0
+125,gpt_j,subject-control,Joseph,Nicole,False,offered,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to read.
+
+Question: Who read, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to read.\n\nQuestion: Who read, Joseph or Nicole?\nAnswer: \n\nJoseph read.\nNicole read.\n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who read the book.\n\n')",255.0
+126,gpt_j,subject-control,Joseph,Nicole,True,offered,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Joseph offered Nicole to run.
+
+Question: Who ran, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Joseph offered Nicole to run.\n\nQuestion: Who ran, Nicole or Joseph?\nAnswer: \n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who is not a native speaker of English.\n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n Nicole is the only one')",256.0
+127,gpt_j,subject-control,Joseph,Nicole,False,offered,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to run.
+
+Question: Who ran, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to run.\n\nQuestion: Who ran, Joseph or Nicole?\nAnswer: \n\nA:\n\nJoseph ran.\n\nA:\n\nJoseph ran.\n\nA:\n\nJoseph ran.\n\nA:\n\nJoseph ran.\n\nA:\n\nJoseph ran.\n\n')",257.0
+128,gpt_j,subject-control,Joseph,Nicole,True,offered,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Joseph offered Nicole to call.
+
+Question: Who called, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Joseph offered Nicole to call.\n\nQuestion: Who called, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Joseph offered Nicole to call"".\n\nA:\n\nThe answer is:\n\n Nicole\n\nBecause:\n\n The context is ""Joseph offered Nicole to call')",258.0
+129,gpt_j,subject-control,Joseph,Nicole,False,offered,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph offered Nicole to call.
+
+Question: Who called, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph offered Nicole to call.\n\nQuestion: Who called, Joseph or Nicole?\nAnswer: \n\nA:\n\nJoseph called Nicole.\n\nA:\n\nJoseph called Nicole.\n\nA:\n\nJoseph called Nicole.\n\nA:\n\nJoseph called Nicole.\n\nA:\n\nJoseph called Nicole.\n\n')",259.0
+130,gpt_j,subject-control,Joseph,Stephanie,True,offered,to come,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Joseph offered Stephanie to come.
+
+Question: Who came, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to come.\nQuestion: Who came, Stephanie or Joseph?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to come.\nQuestion: Who came, Stephanie or Joseph?\nAnswer:  Stephanie\n')",270.0
+131,gpt_j,subject-control,Joseph,Stephanie,False,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to come.
+
+Question: Who came, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came, Joseph or Stephanie?\nAnswer:  Joseph came.\n\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came, Joseph or Stephanie?\nAnswer:  Stephanie came.\n\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came, Joseph or Stephanie?')",271.0
+132,gpt_j,subject-control,Joseph,Stephanie,True,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer: ')",272.0
+133,gpt_j,subject-control,Joseph,Stephanie,False,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer: ')",273.0
+134,gpt_j,subject-control,Joseph,Stephanie,True,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to read.
+
+Question: Who read, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer: ')",274.0
+135,gpt_j,subject-control,Joseph,Stephanie,False,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to read.
+
+Question: Who read, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer: ')",275.0
+136,gpt_j,subject-control,Joseph,Stephanie,True,offered,to run,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Joseph offered Stephanie to run.
+
+Question: Who ran, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran, Stephanie or Joseph?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Joseph offered Stephanie to run"".\n\nStephanie is the only person who can run because:\n\n Stephanie is the only person who can run because')",276.0
+137,gpt_j,subject-control,Joseph,Stephanie,False,offered,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to run.
+
+Question: Who ran, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer: ')",277.0
+138,gpt_j,subject-control,Joseph,Stephanie,True,offered,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to call.
+
+Question: Who called, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer: ')",278.0
+139,gpt_j,subject-control,Joseph,Stephanie,False,offered,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph offered Stephanie to call.
+
+Question: Who called, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer: ')",279.0
+140,gpt_j,subject-control,Joseph,William,True,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to come.
+
+Question: Who came, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  Joseph\n')",290.0
+141,gpt_j,subject-control,Joseph,William,False,offered,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to come.
+
+Question: Who came, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  Joseph\n')",291.0
+142,gpt_j,subject-control,Joseph,William,True,offered,to go,Joseph,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph offered William to go.
+
+Question: Who went, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: Joseph offered William to go.\n\nQuestion: Who went, William or Joseph?\nAnswer:  William\n\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  William\n')",292.0
+143,gpt_j,subject-control,Joseph,William,False,offered,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to go.
+
+Question: Who went, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  Joseph\n')",293.0
+144,gpt_j,subject-control,Joseph,William,True,offered,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph offered William to read.
+
+Question: Who read, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: Joseph offered William to read.\n\nQuestion: Who read, William or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n Joseph is the only one who is not a name.\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n Joseph is the only one who is not a')",294.0
+145,gpt_j,subject-control,Joseph,William,False,offered,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to read.
+
+Question: Who read, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to read.\n\nQuestion: Who read, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to read.\n\nQuestion: Who read, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to read.\n\nQuestion: Who read, Joseph or William?\nAnswer:  Joseph\n')",295.0
+146,gpt_j,subject-control,Joseph,William,True,offered,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to run.
+
+Question: Who ran, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  Joseph\n')",296.0
+147,gpt_j,subject-control,Joseph,William,False,offered,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to run.
+
+Question: Who ran, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  Joseph\n')",297.0
+148,gpt_j,subject-control,Joseph,William,True,offered,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph offered William to call.
+
+Question: Who called, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: Joseph offered William to call.\n\nQuestion: Who called, William or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph called William.\n\nBecause:\n\n The context is ""Joseph offered William to call"".\n\nAnd the question is:\n\n Who called, William or Joseph?\n\nSo the answer is:\n\n Joseph')",298.0
+149,gpt_j,subject-control,Joseph,William,False,offered,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph offered William to call.
+
+Question: Who called, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph offered William to call.\n\nQuestion: Who called, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to call.\n\nQuestion: Who called, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to call.\n\nQuestion: Who called, Joseph or William?\nAnswer:  Joseph\n')",299.0
+150,gpt_j,subject-control,Nicole,Avery,True,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to come.
+
+Question: Who came, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to come.\n\nQuestion: Who came, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to come.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",310.0
+151,gpt_j,subject-control,Nicole,Avery,False,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to come.
+
+Question: Who came, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to come.\n\nQuestion: Who came, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to come.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",311.0
+152,gpt_j,subject-control,Nicole,Avery,True,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to go.
+
+Question: Who went, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to go.\n\nQuestion: Who went, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to go.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",312.0
+153,gpt_j,subject-control,Nicole,Avery,False,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to go.
+
+Question: Who went, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to go.\n\nQuestion: Who went, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to go.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",313.0
+154,gpt_j,subject-control,Nicole,Avery,True,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole offered Avery to read.
+
+Question: Who read, Avery or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Nicole offered Avery to read.\n\nQuestion: Who read, Avery or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n Avery is the only one who read the book.\n\n')",314.0
+155,gpt_j,subject-control,Nicole,Avery,False,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to read.
+
+Question: Who read, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to read.\n\nQuestion: Who read, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n Nicole is the only one who read the book.\n\n')",315.0
+156,gpt_j,subject-control,Nicole,Avery,True,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to run.
+
+Question: Who ran, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to run.\n\nQuestion: Who ran, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to run"".\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",316.0
+157,gpt_j,subject-control,Nicole,Avery,False,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to run.
+
+Question: Who ran, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to run.\n\nQuestion: Who ran, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to run"".\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",317.0
+158,gpt_j,subject-control,Nicole,Avery,True,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to call.
+
+Question: Who called, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to call.\n\nQuestion: Who called, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to call.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",318.0
+159,gpt_j,subject-control,Nicole,Avery,False,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole offered Avery to call.
+
+Question: Who called, Nicole or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole offered Avery to call.\n\nQuestion: Who called, Nicole or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered Avery to call.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Nicole offered')",319.0
+160,gpt_j,subject-control,Nicole,Casey,True,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to come.
+
+Question: Who came, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to come.\n\nQuestion: Who came, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who came.\n\n')",330.0
+161,gpt_j,subject-control,Nicole,Casey,False,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to come.
+
+Question: Who came, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to come.\n\nQuestion: Who came, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who came.\n\n')",331.0
+162,gpt_j,subject-control,Nicole,Casey,True,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to go.
+
+Question: Who went, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to go.\n\nQuestion: Who went, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who went.\n\n')",332.0
+163,gpt_j,subject-control,Nicole,Casey,False,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to go.
+
+Question: Who went, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to go.\n\nQuestion: Who went, Nicole or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who went.\n\n')",333.0
+164,gpt_j,subject-control,Nicole,Casey,True,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to read.
+
+Question: Who read, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to read.\n\nQuestion: Who read, Nicole or Casey?\nAnswer: \n\nNicole read.\nCasey read.\n\nA:\n\nI think the answer is\n\n Casey read.\n\nBecause\n\n Casey is the only one who read the book.\n\n')",334.0
+165,gpt_j,subject-control,Nicole,Casey,False,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to read.
+
+Question: Who read, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to read.\n\nQuestion: Who read, Nicole or Casey?\nAnswer: \n\nNicole read.\nCasey read.\n\nA:\n\nI think the answer is\n\n Casey read.\n\nBecause\n\n Casey is the only one who read the book.\n\n')",335.0
+166,gpt_j,subject-control,Nicole,Casey,True,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole offered Casey to run.
+
+Question: Who ran, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Nicole offered Casey to run.\n\nQuestion: Who ran, Casey or Nicole?\nAnswer: \n\nCasey ran.\n\nA:\n\nI think the answer is\n\n Casey\n\nbecause\n\n Casey is the only one who ran.\n\n')",336.0
+167,gpt_j,subject-control,Nicole,Casey,False,offered,to run,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to run.
+
+Question: Who ran, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to run.\n\nQuestion: Who ran, Nicole or Casey?\nAnswer:  Casey\n\nContext: Casey offered Nicole to run.\n\nQuestion: Who ran, Casey or Nicole?\nAnswer:  Casey\n\nContext: Casey offered Casey to run.\n\nQuestion: Who ran, Casey or Casey?\nAnswer: ')",337.0
+168,gpt_j,subject-control,Nicole,Casey,True,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole offered Casey to call.
+
+Question: Who called, Casey or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Nicole offered Casey to call.\n\nQuestion: Who called, Casey or Nicole?\nAnswer: \n\nCasey called.\n\nA:\n\nThe answer is:\n\n Casey called.\n\nBecause:\n\n The context is ""Nicole offered Casey to call.""\n\nAnd the question is:\n\n Who called, Casey or Nicole?\n')",338.0
+169,gpt_j,subject-control,Nicole,Casey,False,offered,to call,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole offered Casey to call.
+
+Question: Who called, Nicole or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole offered Casey to call.\n\nQuestion: Who called, Nicole or Casey?\nAnswer:  Casey\n\nContext: Casey called Nicole.\n\nQuestion: Who called, Casey or Nicole?\nAnswer:  Casey\n\nContext: Casey called Nicole.\n\nQuestion: Who called, Casey or Nicole?\nAnswer:  Casey\n\nContext')",339.0
+170,gpt_j,subject-control,Nicole,Joseph,True,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to come.
+
+Question: Who came, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to come.\n\nQuestion: Who came, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole came.\n\nBecause:\n\n The context is ""Nicole offered Joseph to come.""\n\nAnd the question is:\n\n Who came, Nicole or Joseph?\n\nSo the answer is:\n\n')",350.0
+171,gpt_j,subject-control,Nicole,Joseph,False,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to come.
+
+Question: Who came, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to come.\n\nQuestion: Who came, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Nicole came.\n\nBecause:\n\n The context is ""Nicole offered Joseph to come.""\n\nAnd the question is:\n\n Who came, Nicole or Joseph?\n\nSo the answer is:\n\n')",351.0
+172,gpt_j,subject-control,Nicole,Joseph,True,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Nicole offered Joseph to go.
+
+Question: Who went, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Nicole offered Joseph to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who is not a native speaker of English.\n\n')",352.0
+173,gpt_j,subject-control,Nicole,Joseph,False,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to go.
+
+Question: Who went, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to go.\n\nQuestion: Who went, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph to go.""\n\nThe question is:\n\n Who went, Nicole or Joseph?\n\nThe answer is:\n\n Joseph\n\nBecause')",353.0
+174,gpt_j,subject-control,Nicole,Joseph,True,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to read.
+
+Question: Who read, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to read.\n\nQuestion: Who read, Nicole or Joseph?\nAnswer: \n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n The context is ""Nicole offered Joseph to read"".\n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n The context is ""Nicole offered Joseph')",354.0
+175,gpt_j,subject-control,Nicole,Joseph,False,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to read.
+
+Question: Who read, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to read.\n\nQuestion: Who read, Nicole or Joseph?\nAnswer: \n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n The context is ""Nicole offered Joseph to read"".\n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n The context is ""Nicole offered Joseph')",355.0
+176,gpt_j,subject-control,Nicole,Joseph,True,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Nicole offered Joseph to run.
+
+Question: Who ran, Joseph or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Nicole offered Joseph to run.\n\nQuestion: Who ran, Joseph or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n Joseph\n\nbecause\n\n Joseph is the only one who is not a native English speaker.\n\n')",356.0
+177,gpt_j,subject-control,Nicole,Joseph,False,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to run.
+
+Question: Who ran, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to run.\n\nQuestion: Who ran, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph to run"".\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph')",357.0
+178,gpt_j,subject-control,Nicole,Joseph,True,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to call.
+
+Question: Who called, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to call.\n\nQuestion: Who called, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph to call"".\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph')",358.0
+179,gpt_j,subject-control,Nicole,Joseph,False,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole offered Joseph to call.
+
+Question: Who called, Nicole or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole offered Joseph to call.\n\nQuestion: Who called, Nicole or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph to call"".\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""Nicole offered Joseph')",359.0
+180,gpt_j,subject-control,Nicole,Stephanie,True,offered,to come,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole offered Stephanie to come.
+
+Question: Who came, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Nicole offered Stephanie to come.\n\nQuestion: Who came, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nicole offered Stephanie to come"".\n\nStephanie is the only person who can come.\n\n')",370.0
+181,gpt_j,subject-control,Nicole,Stephanie,False,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole offered Stephanie to come.
+
+Question: Who came, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole offered Stephanie to come.\n\nQuestion: Who came, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nicole offered Stephanie to come"".\n\nAnd the question is:\n\n Who came, Nicole or Stephanie?\n\nSo the answer is')",371.0
+182,gpt_j,subject-control,Nicole,Stephanie,True,offered,to go,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole offered Stephanie to go.
+
+Question: Who went, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Nicole offered Stephanie to go.\n\nQuestion: Who went, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nicole offered Stephanie to go.""\n\nStephanie is the only person who can go, because:\n\n She is the only person who')",372.0
+183,gpt_j,subject-control,Nicole,Stephanie,False,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole offered Stephanie to go.
+
+Question: Who went, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole offered Stephanie to go.\n\nQuestion: Who went, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nicole offered Stephanie to go.""\n\nAnd the question is:\n\n Who went, Nicole or Stephanie?\n\nSo the answer is')",373.0
+184,gpt_j,subject-control,Nicole,Stephanie,True,offered,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole offered Stephanie to read.
+
+Question: Who read, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Nicole offered Stephanie to read.\n\nQuestion: Who read, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole offered Stephanie to read"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nic')",374.0
+185,gpt_j,subject-control,Nicole,Stephanie,False,offered,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole offered Stephanie to read.
+
+Question: Who read, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole offered Stephanie to read.\n\nQuestion: Who read, Nicole or Stephanie?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nicole offered Stephanie to read"".\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nic')",375.0
+186,gpt_j,subject-control,Nicole,Stephanie,True,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole offered Stephanie to run.
+
+Question: Who ran, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole offered Stephanie to run.\n\nQuestion: Who ran, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole offered Stephanie to run"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole')",376.0
+187,gpt_j,subject-control,Nicole,Stephanie,False,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole offered Stephanie to run.
+
+Question: Who ran, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole offered Stephanie to run.\n\nQuestion: Who ran, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole offered Stephanie to run"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole')",377.0
+188,gpt_j,subject-control,Nicole,Stephanie,True,offered,to call,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole offered Stephanie to call.
+
+Question: Who called, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Nicole offered Stephanie to call.\n\nQuestion: Who called, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Nicole offered Stephanie to call"".\n\nStephanie is the only person who can call Nicole.\n\n')",378.0
+189,gpt_j,subject-control,Nicole,Stephanie,False,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole offered Stephanie to call.
+
+Question: Who called, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole offered Stephanie to call.\n\nQuestion: Who called, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole offered Stephanie to call.""\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Nicole')",379.0
+190,gpt_j,subject-control,Nicole,William,True,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole offered William to come.
+
+Question: Who came, William or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: Nicole offered William to come.\n\nQuestion: Who came, William or Nicole?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""Nicole offered William to come"".\n\nSo, the answer is:\n\n William came.\n\n')",390.0
+191,gpt_j,subject-control,Nicole,William,False,offered,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to come.
+
+Question: Who came, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to come.\n\nQuestion: Who came, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Nicole came.\n\nBecause:\n\n The context is ""Nicole offered William to come"".\n\nAnd the question is:\n\n Who came, Nicole or William?\n\nSo the answer is')",391.0
+192,gpt_j,subject-control,Nicole,William,True,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to go.
+
+Question: Who went, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to go.\n\nQuestion: Who went, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""Nicole offered William to go"".\n\nSo, the answer is:\n\n William because he went.\n\n')",392.0
+193,gpt_j,subject-control,Nicole,William,False,offered,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to go.
+
+Question: Who went, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to go.\n\nQuestion: Who went, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""Nicole offered William to go"".\n\nSo, the answer is:\n\n William because he went.\n\n')",393.0
+194,gpt_j,subject-control,Nicole,William,True,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to read.
+
+Question: Who read, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to read.\n\nQuestion: Who read, Nicole or William?\nAnswer: \n\nNicole read.\nWilliam read.\n\nA:\n\nI think the answer is:\n\n Nicole read.\n\nBecause:\n\n The context is ""Nicole offered William to read"".\n\nAnd the question is:\n\n Who read,')",394.0
+195,gpt_j,subject-control,Nicole,William,False,offered,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to read.
+
+Question: Who read, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to read.\n\nQuestion: Who read, Nicole or William?\nAnswer: \n\nNicole read.\nWilliam read.\n\nA:\n\nI think the answer is:\n\n Nicole read.\n\nBecause:\n\n The context is ""Nicole offered William to read"".\n\nAnd the question is:\n\n Who read,')",395.0
+196,gpt_j,subject-control,Nicole,William,True,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to run.
+
+Question: Who ran, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to run.\n\nQuestion: Who ran, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Nicole offered William to run"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Nicole offered William')",396.0
+197,gpt_j,subject-control,Nicole,William,False,offered,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to run.
+
+Question: Who ran, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to run.\n\nQuestion: Who ran, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Nicole offered William to run"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Nicole offered William')",397.0
+198,gpt_j,subject-control,Nicole,William,True,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to call.
+
+Question: Who called, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to call.\n\nQuestion: Who called, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n The context is ""Nicole offered William to call"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Nicole offered William')",398.0
+199,gpt_j,subject-control,Nicole,William,False,offered,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole offered William to call.
+
+Question: Who called, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole offered William to call.\n\nQuestion: Who called, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n Nicole\n\nbecause\n\n The context is ""Nicole offered William to call"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Nicole offered William')",399.0
+200,gpt_j,subject-control,Stephanie,Avery,True,offered,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to come.
+
+Question: Who came, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to come.\n\nQuestion: Who came, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStep')",410.0
+201,gpt_j,subject-control,Stephanie,Avery,False,offered,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to come.
+
+Question: Who came, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to come.\n\nQuestion: Who came, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStephanie came.\n\nA:\n\nStep')",411.0
+202,gpt_j,subject-control,Stephanie,Avery,True,offered,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie offered Avery to go.
+
+Question: Who went, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Stephanie offered Avery to go.\n\nQuestion: Who went, Avery or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Stephanie offered Avery to go.""\n\nA:\n\nI think the answer is\n\n Avery\n\nbecause\n\n The context is ""Step')",412.0
+203,gpt_j,subject-control,Stephanie,Avery,False,offered,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to go.
+
+Question: Who went, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to go.\n\nQuestion: Who went, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie went.\n\nA:\n\nStephanie went.\n\nA:\n\nStephanie went.\n\nA:\n\nStephanie went.\n\nA:\n\nStep')",413.0
+204,gpt_j,subject-control,Stephanie,Avery,True,offered,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie offered Avery to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Stephanie offered Avery to read.\n\nQuestion: Who read, Avery or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Stephanie offered Avery to read"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Step')",414.0
+205,gpt_j,subject-control,Stephanie,Avery,False,offered,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to read.
+
+Question: Who read, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to read.\n\nQuestion: Who read, Stephanie or Avery?\nAnswer: \n\nStephanie\n\nA:\n\nStephanie\n\n')",415.0
+206,gpt_j,subject-control,Stephanie,Avery,True,offered,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to run.
+
+Question: Who ran, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to run.\n\nQuestion: Who ran, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStep')",416.0
+207,gpt_j,subject-control,Stephanie,Avery,False,offered,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to run.
+
+Question: Who ran, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to run.\n\nQuestion: Who ran, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStephanie ran.\n\nA:\n\nStep')",417.0
+208,gpt_j,subject-control,Stephanie,Avery,True,offered,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie offered Avery to call.
+
+Question: Who called, Avery or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Stephanie offered Avery to call.\n\nQuestion: Who called, Avery or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered Avery to call.""\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""Step')",418.0
+209,gpt_j,subject-control,Stephanie,Avery,False,offered,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie offered Avery to call.
+
+Question: Who called, Stephanie or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie offered Avery to call.\n\nQuestion: Who called, Stephanie or Avery?\nAnswer: \n\nA:\n\nStephanie called Avery.\n\nA:\n\nStephanie called Avery.\n\nA:\n\nStephanie called Avery.\n\nA:\n\nStephanie called Avery.\n\nA')",419.0
+210,gpt_j,subject-control,Stephanie,Casey,True,offered,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie offered Casey to come.
+
+Question: Who came, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Casey offered Stephanie to come.\n\nQuestion: Who came, Casey or Stephanie?\nAnswer:  Casey\n\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Casey or Stephanie?\nAnswer:')",430.0
+211,gpt_j,subject-control,Stephanie,Casey,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie offered Casey to come.
+
+Question: Who came, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:  Casey\n\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer:')",431.0
+212,gpt_j,subject-control,Stephanie,Casey,True,offered,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie offered Casey to go.
+
+Question: Who went, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:')",432.0
+213,gpt_j,subject-control,Stephanie,Casey,False,offered,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie offered Casey to go.
+
+Question: Who went, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer:')",433.0
+214,gpt_j,subject-control,Stephanie,Casey,True,offered,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie offered Casey to read.
+
+Question: Who read, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Stephanie offered Casey to read.\n\nQuestion: Who read, Casey or Stephanie?\nAnswer:  Stephanie\n\nA:\n\nStephanie read.\n\nStephanie offered Casey to read.\n\nStephanie offered Casey to read.\n\nStephanie offered Casey to read.\n\nStephanie offered Casey to read')",434.0
+215,gpt_j,subject-control,Stephanie,Casey,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie offered Casey to read.
+
+Question: Who read, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie offered Casey to read.\n\nQuestion: Who read, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to read.\n\nQuestion: Who read, Stephanie or Casey?\nAnswer:  Casey\n\nContext: Stephanie offered Casey to read.\n\nQuestion: Who read, Stephanie or Casey?\nAnswer:')",435.0
+216,gpt_j,subject-control,Stephanie,Casey,True,offered,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie offered Casey to run.
+
+Question: Who ran, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Stephanie offered Casey to run.\n\nQuestion: Who ran, Casey or Stephanie?\nAnswer:  Stephanie\n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered Casey to run"".\n\nStephanie is the only person who could have offered Casey to run.\n\n')",436.0
+217,gpt_j,subject-control,Stephanie,Casey,False,offered,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie offered Casey to run.
+
+Question: Who ran, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie offered Casey to run.\n\nQuestion: Who ran, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to run.\n\nQuestion: Who ran, Stephanie or Casey?\nAnswer:  Casey\n\nContext: Stephanie offered Casey to run.\n\nQuestion: Who ran, Stephanie or Casey?\nAnswer:')",437.0
+218,gpt_j,subject-control,Stephanie,Casey,True,offered,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie offered Casey to call.
+
+Question: Who called, Casey or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Casey called Stephanie.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:  Casey\n\nContext: Stephanie called Casey.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:  Stephanie\n\n')",438.0
+219,gpt_j,subject-control,Stephanie,Casey,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie offered Casey to call.
+
+Question: Who called, Stephanie or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called, Stephanie or Casey?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:  Stephanie\n\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer:')",439.0
+220,gpt_j,subject-control,Stephanie,Joseph,True,offered,to come,Stephanie,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie offered Joseph to come.
+
+Question: Who came, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie offered Joseph to come.\n\nQuestion: Who came, Joseph or Stephanie?\nAnswer:  Joseph came.\n\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came, Joseph or Stephanie?\nAnswer:  Stephanie came.\n\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came, Joseph or Stephanie?')",450.0
+221,gpt_j,subject-control,Stephanie,Joseph,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie offered Joseph to come.
+
+Question: Who came, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie offered Joseph to come.\n\nQuestion: Who came, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie offered Joseph to come.\nQuestion: Who came, Stephanie or Joseph?\nAnswer:  Joseph\n\nContext: Stephanie offered Joseph to come.\nQuestion: Who came, Stephanie or Joseph?\nAnswer:  Stephanie\n')",451.0
+222,gpt_j,subject-control,Stephanie,Joseph,True,offered,to go,Stephanie,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie offered Joseph to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie offered Joseph to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer: ')",452.0
+223,gpt_j,subject-control,Stephanie,Joseph,False,offered,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie offered Joseph to go.
+
+Question: Who went, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie offered Joseph to go.\n\nQuestion: Who went, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie offered Joseph to go.\nQuestion: Who went, Stephanie or Joseph?\nAnswer:  Joseph\n\nContext: Stephanie offered Joseph to go.\nQuestion: Who went, Stephanie or Joseph?\nAnswer:  Stephanie\n')",453.0
+224,gpt_j,subject-control,Stephanie,Joseph,True,offered,to read,Stephanie,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie offered Joseph to read.
+
+Question: Who read, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie offered Joseph to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer: ')",454.0
+225,gpt_j,subject-control,Stephanie,Joseph,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie offered Joseph to read.
+
+Question: Who read, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie offered Joseph to read.\n\nQuestion: Who read, Stephanie or Joseph?\nAnswer:  Stephanie\n\nA:\n\nStephanie is the one who offered Joseph to read.\n\nStephanie offered Joseph to read.\n\nStephanie is the one who offered Joseph to read.\n\nStephanie is the one who')",455.0
+226,gpt_j,subject-control,Stephanie,Joseph,True,offered,to run,Stephanie,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie offered Joseph to run.
+
+Question: Who ran, Joseph or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Stephanie offered Joseph to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer:  Joseph\n\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer:  Stephanie\n\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer: ')",456.0
+227,gpt_j,subject-control,Stephanie,Joseph,False,offered,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie offered Joseph to run.
+
+Question: Who ran, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie offered Joseph to run.\n\nQuestion: Who ran, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie offered Joseph to run.\n\nQuestion: Who ran, Stephanie or Joseph?\nAnswer:  Joseph\n\nContext: Stephanie offered Joseph to run.\n\nQuestion: Who ran, Stephanie or Joseph?\nAnswer: ')",457.0
+228,gpt_j,subject-control,Stephanie,Joseph,True,offered,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie offered Joseph to call.
+
+Question: Who called, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie offered Joseph to call.\n\nQuestion: Who called, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie offered Joseph to call.\nQuestion: Who called, Stephanie or Joseph?\nAnswer:  Joseph\n\nContext: Stephanie offered Joseph to call.\nQuestion: Who called, Stephanie or Joseph?\nAnswer:  Stephanie\n')",458.0
+229,gpt_j,subject-control,Stephanie,Joseph,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie offered Joseph to call.
+
+Question: Who called, Stephanie or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie offered Joseph to call.\n\nQuestion: Who called, Stephanie or Joseph?\nAnswer:  Stephanie\n\nContext: Stephanie offered Joseph to call.\nQuestion: Who called, Stephanie or Joseph?\nAnswer:  Joseph\n\nContext: Stephanie offered Joseph to call.\nQuestion: Who called, Stephanie or Joseph?\nAnswer:  Stephanie\n')",459.0
+230,gpt_j,subject-control,Stephanie,Nicole,True,offered,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie offered Nicole to come.
+
+Question: Who came, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie offered Nicole to come.\n\nQuestion: Who came, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered Nicole to come"".\n\nSo, the answer is:\n\n Stephanie came.\n\n')",470.0
+231,gpt_j,subject-control,Stephanie,Nicole,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie offered Nicole to come.
+
+Question: Who came, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie offered Nicole to come.\n\nQuestion: Who came, Stephanie or Nicole?\nAnswer:  Stephanie\n\nContext: Stephanie offered Nicole to come.\nQuestion: Who came, Stephanie or Nicole?\nAnswer:  Nicole\n\nContext: Stephanie offered Nicole to come.\nQuestion: Who came, Stephanie or Nicole?\nAnswer:  Stephanie')",471.0
+232,gpt_j,subject-control,Stephanie,Nicole,True,offered,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie offered Nicole to go.
+
+Question: Who went, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie offered Nicole to go.\n\nQuestion: Who went, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered Nicole to go.""\n\nSo, the answer is:\n\n Stephanie\n\nA:\n\nI think the answer')",472.0
+233,gpt_j,subject-control,Stephanie,Nicole,False,offered,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie offered Nicole to go.
+
+Question: Who went, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie offered Nicole to go.\n\nQuestion: Who went, Stephanie or Nicole?\nAnswer: \n\nStephanie went.\nNicole went.\n\nA:\n\nI think the answer is:\n\n Stephanie went.\n\nBecause:\n\n The context is ""Stephanie offered Nicole to go.""\n\nAnd the question is')",473.0
+234,gpt_j,subject-control,Stephanie,Nicole,True,offered,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie offered Nicole to read.
+
+Question: Who read, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie offered Nicole to read.\n\nQuestion: Who read, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Stephanie offered Nicole to read"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Step')",474.0
+235,gpt_j,subject-control,Stephanie,Nicole,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie offered Nicole to read.
+
+Question: Who read, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie offered Nicole to read.\n\nQuestion: Who read, Stephanie or Nicole?\nAnswer:  Stephanie\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Stephanie offered Nicole to read"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""')",475.0
+236,gpt_j,subject-control,Stephanie,Nicole,True,offered,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie offered Nicole to run.
+
+Question: Who ran, Nicole or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Stephanie offered Nicole to run.\n\nQuestion: Who ran, Nicole or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Stephanie offered Nicole to run"".\n\nA:\n\nI think the answer is\n\n Stephanie\n\nbecause\n\n The context is ""Step')",476.0
+237,gpt_j,subject-control,Stephanie,Nicole,False,offered,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie offered Nicole to run.
+
+Question: Who ran, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie offered Nicole to run.\n\nQuestion: Who ran, Stephanie or Nicole?\nAnswer: \n\nStephanie ran.\n\nA:\n\nI think the answer is:\n\n Stephanie ran.\n\nBecause:\n\n The context is ""Stephanie offered Nicole to run"".\n\nAnd the question is:\n\n Who ran,')",477.0
+238,gpt_j,subject-control,Stephanie,Nicole,True,offered,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie offered Nicole to call.
+
+Question: Who called, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie offered Nicole to call.\n\nQuestion: Who called, Stephanie or Nicole?\nAnswer: \n\nStephanie called.\n\nA:\n\nI think the answer is:\n\n Stephanie called.\n\nBecause:\n\n The context is ""Stephanie offered Nicole to call"".\n\nAnd the question is:\n\n Who called,')",478.0
+239,gpt_j,subject-control,Stephanie,Nicole,False,offered,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie offered Nicole to call.
+
+Question: Who called, Stephanie or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie offered Nicole to call.\n\nQuestion: Who called, Stephanie or Nicole?\nAnswer: \n\nStephanie called.\n\nA:\n\nI think the answer is:\n\n Stephanie called.\n\nBecause:\n\n The context is ""Stephanie offered Nicole to call"".\n\nAnd the question is:\n\n Who called,')",479.0
+240,gpt_j,subject-control,Stephanie,William,True,offered,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: Stephanie offered William to come.
+
+Question: Who came, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: Stephanie offered William to come.\n\nQuestion: Who came, William or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered William to come"".\n\nSo, the answer is:\n\n Stephanie came.\n\n')",490.0
+241,gpt_j,subject-control,Stephanie,William,False,offered,to come,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to come.
+
+Question: Who came, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to come.\n\nQuestion: Who came, Stephanie or William?\nAnswer: \n\nStephanie came.\nWilliam came.\n\nA:\n\nI think the answer is:\n\n William came.\n\nBecause:\n\n The context is ""Stephanie offered William to come.""\n\nAnd the question is:\n\n')",491.0
+242,gpt_j,subject-control,Stephanie,William,True,offered,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: Stephanie offered William to go.
+
+Question: Who went, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: Stephanie offered William to go.\n\nQuestion: Who went, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered William to go.""\n\nAnd the question is:\n\n Who went, William or Stephanie?\n\nSo the answer is:\n\n')",492.0
+243,gpt_j,subject-control,Stephanie,William,False,offered,to go,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to go.
+
+Question: Who went, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to go.\n\nQuestion: Who went, Stephanie or William?\nAnswer: \n\nStephanie went.\nWilliam went.\n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""Stephanie offered William to go.""\n\nSo:\n\n The question is ""Who')",493.0
+244,gpt_j,subject-control,Stephanie,William,True,offered,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to read.
+
+Question: Who read, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to read.\n\nQuestion: Who read, Stephanie or William?\nAnswer: \n\nStephanie\n\nWilliam\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Stephanie offered William to read"".\n\nA:\n\nI think the answer is\n\n William\n\n')",494.0
+245,gpt_j,subject-control,Stephanie,William,False,offered,to read,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to read.
+
+Question: Who read, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to read.\n\nQuestion: Who read, Stephanie or William?\nAnswer: \n\nStephanie\n\nWilliam\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""Stephanie offered William to read"".\n\nA:\n\nI think the answer is\n\n William\n\n')",495.0
+246,gpt_j,subject-control,Stephanie,William,True,offered,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: Stephanie offered William to run.
+
+Question: Who ran, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: Stephanie offered William to run.\n\nQuestion: Who ran, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""Stephanie offered William to run"".\n\nAnd the question is:\n\n Who ran, William or Stephanie?\n\nSo the answer is:\n\n')",496.0
+247,gpt_j,subject-control,Stephanie,William,False,offered,to run,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to run.
+
+Question: Who ran, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to run.\n\nQuestion: Who ran, Stephanie or William?\nAnswer: \n\nStephanie ran.\n\nA:\n\nThe answer is:\n\n William ran.\n\nBecause:\n\n The context is ""Stephanie offered William to run"".\n\nStephanie is the subject of the sentence, so the')",497.0
+248,gpt_j,subject-control,Stephanie,William,True,offered,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to call.
+
+Question: Who called, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to call.\n\nQuestion: Who called, Stephanie or William?\nAnswer: \n\nStephanie called.\n\nA:\n\nThe answer is:\n\n William called.\n\nBecause:\n\n The context is ""Stephanie offered William to call"".\n\nAnd the question is:\n\n Who called, Stephanie or William')",498.0
+249,gpt_j,subject-control,Stephanie,William,False,offered,to call,Stephanie,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie offered William to call.
+
+Question: Who called, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie offered William to call.\n\nQuestion: Who called, Stephanie or William?\nAnswer: \n\nStephanie called.\n\nA:\n\nThe answer is:\n\n William called.\n\nBecause:\n\n The context is ""Stephanie offered William to call"".\n\nAnd the question is:\n\n Who called, Stephanie or William')",499.0
+250,gpt_j,subject-control,William,Avery,True,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William offered Avery to come.
+
+Question: Who came, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: William offered Avery to come.\n\nQuestion: Who came, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery\n\nContext:\n\n William offered Avery to come.\n\nQuestion:\n\n Who came, Avery or William?\n\nAnswer:\n\n Avery\n\nContext:\n\n William offered Avery to come.\n')",510.0
+251,gpt_j,subject-control,William,Avery,False,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William offered Avery to come.
+
+Question: Who came, William or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William offered Avery to come.\n\nQuestion: Who came, William or Avery?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Avery to come"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""William offered Avery to come')",511.0
+252,gpt_j,subject-control,William,Avery,True,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William offered Avery to go.
+
+Question: Who went, William or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William offered Avery to go.\n\nQuestion: Who went, William or Avery?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Avery to go"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""William offered Avery to go')",512.0
+253,gpt_j,subject-control,William,Avery,False,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William offered Avery to go.
+
+Question: Who went, William or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William offered Avery to go.\n\nQuestion: Who went, William or Avery?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Avery to go"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""William offered Avery to go')",513.0
+254,gpt_j,subject-control,William,Avery,True,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William offered Avery to read.
+
+Question: Who read, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: William offered Avery to read.\n\nQuestion: Who read, Avery or William?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Avery to read"".\n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William')",514.0
+255,gpt_j,subject-control,William,Avery,False,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William offered Avery to read.
+
+Question: Who read, William or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William offered Avery to read.\n\nQuestion: Who read, William or Avery?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n William is the only person who is mentioned in the context.\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n William is the only person who is')",515.0
+256,gpt_j,subject-control,William,Avery,True,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William offered Avery to run.
+
+Question: Who ran, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: William offered Avery to run.\n\nQuestion: Who ran, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nReasoning:\n\n The context is ""William offered Avery to run"". The question is ""Who ran, Avery or William?"". The answer is ""William"".\n\n')",516.0
+257,gpt_j,subject-control,William,Avery,False,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William offered Avery to run.
+
+Question: Who ran, William or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William offered Avery to run.\n\nQuestion: Who ran, William or Avery?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Avery to run"".\n\nA:\n\nThe answer is:\n\n Avery\n\nBecause:\n\n The context is ""William offered Avery to run')",517.0
+258,gpt_j,subject-control,William,Avery,True,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William offered Avery to call.
+
+Question: Who called, Avery or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: William offered Avery to call.\n\nQuestion: Who called, Avery or William?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery called.\n\nReasoning:\n\n The context is that William offered Avery to call. The question is who called. The answer is Avery.\n\n')",518.0
+259,gpt_j,subject-control,William,Avery,False,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William offered Avery to call.
+
+Question: Who called, William or Avery?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William offered Avery to call.\n\nQuestion: Who called, William or Avery?\nAnswer: \n\nA:\n\nThe answer is:\n\n Avery called.\n\nReasoning:\n\n The context is that William offered Avery to call. The question is who called. The answer is Avery.\n\n')",519.0
+260,gpt_j,subject-control,William,Casey,True,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William offered Casey to come.
+
+Question: Who came, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: William offered Casey to come.\n\nQuestion: Who came, Casey or William?\nAnswer: \n\nCasey came.\n\nA:\n\nThe answer is:\n\n Casey came.\n\nBecause:\n\n The context is ""William offered Casey to come.""\n\nAnd the question is:\n\n Who came, Casey or William?\n\nSo')",530.0
+261,gpt_j,subject-control,William,Casey,False,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to come.
+
+Question: Who came, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to come.\n\nQuestion: Who came, William or Casey?\nAnswer: \n\nContext: Casey offered William to come.\nQuestion: Who came, Casey or William?\nAnswer: \n\nContext: Casey offered William to come.\nQuestion: Who came, Casey or William?\nAnswer: \n\nContext: Casey')",531.0
+262,gpt_j,subject-control,William,Casey,True,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to go.
+
+Question: Who went, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to go.\n\nQuestion: Who went, William or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""William offered Casey to go.""\n\nAnd\n\n The question is ""Who went, William or Casey?""\n\nA:\n\nThe answer is\n\n William\n\n')",532.0
+263,gpt_j,subject-control,William,Casey,False,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to go.
+
+Question: Who went, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to go.\n\nQuestion: Who went, William or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""William offered Casey to go.""\n\nAnd\n\n The question is ""Who went, William or Casey?""\n\nA:\n\nThe answer is\n\n William\n\n')",533.0
+264,gpt_j,subject-control,William,Casey,True,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William offered Casey to read.
+
+Question: Who read, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: William offered Casey to read.\n\nQuestion: Who read, Casey or William?\nAnswer: \n\nCasey\n\nA:\n\nThe answer is\n\n William\n\nbecause\n\n The context is ""William offered Casey to read"".\n\nA:\n\nThe answer is\n\n William\n\nbecause\n\n The context is ""William offered Casey to read')",534.0
+265,gpt_j,subject-control,William,Casey,False,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to read.
+
+Question: Who read, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to read.\n\nQuestion: Who read, William or Casey?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Casey to read"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Casey to read')",535.0
+266,gpt_j,subject-control,William,Casey,True,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William offered Casey to run.
+
+Question: Who ran, Casey or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: William offered Casey to run.\n\nQuestion: Who ran, Casey or William?\nAnswer: \n\nCasey ran.\n\nA:\n\nThe answer is:\n\n Casey ran.\n\nBecause:\n\n The context is ""William offered Casey to run"".\n\nAnd the question is:\n\n Who ran, Casey or William?\n\nSo')",536.0
+267,gpt_j,subject-control,William,Casey,False,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to run.
+
+Question: Who ran, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to run.\n\nQuestion: Who ran, William or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""William offered Casey to run"". The question is ""Who ran, William or Casey?"". The answer is ""William"".\n\n')",537.0
+268,gpt_j,subject-control,William,Casey,True,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to call.
+
+Question: Who called, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to call.\n\nQuestion: Who called, William or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""William offered Casey to call.""\n\nAnd\n\n The question is ""Who called, William or Casey?""\n\nA:\n\nThe answer is\n\n William\n\n')",538.0
+269,gpt_j,subject-control,William,Casey,False,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William offered Casey to call.
+
+Question: Who called, William or Casey?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William offered Casey to call.\n\nQuestion: Who called, William or Casey?\nAnswer: \n\nA:\n\nThe answer is\n\n William\n\nBecause\n\n The context is ""William offered Casey to call.""\n\nAnd\n\n The question is ""Who called, William or Casey?""\n\nA:\n\nThe answer is\n\n William\n\n')",539.0
+270,gpt_j,subject-control,William,Joseph,True,offered,to come,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William offered Joseph to come.
+
+Question: Who came, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William offered Joseph to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  Joseph came.\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  William came.\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer')",550.0
+271,gpt_j,subject-control,William,Joseph,False,offered,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William offered Joseph to come.
+
+Question: Who came, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William offered Joseph to come.\n\nQuestion: Who came, William or Joseph?\nAnswer:  William\n\nContext: Joseph offered William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer:  Joseph\n\nContext: William offered Joseph to come.\n\nQuestion: Who came, William or Joseph?\nAnswer:  William\n')",551.0
+272,gpt_j,subject-control,William,Joseph,True,offered,to go,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William offered Joseph to go.
+
+Question: Who went, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William offered Joseph to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer:  Joseph\n')",552.0
+273,gpt_j,subject-control,William,Joseph,False,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William offered Joseph to go.
+
+Question: Who went, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William offered Joseph to go.\n\nQuestion: Who went, William or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Joseph to go"".\n\nSo, the answer is:\n\n William\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n')",553.0
+274,gpt_j,subject-control,William,Joseph,True,offered,to read,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William offered Joseph to read.
+
+Question: Who read, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William offered Joseph to read.\n\nQuestion: Who read, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to read.\n\nQuestion: Who read, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to read.\n\nQuestion: Who read, Joseph or William?\nAnswer:  Joseph\n')",554.0
+275,gpt_j,subject-control,William,Joseph,False,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William offered Joseph to read.
+
+Question: Who read, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William offered Joseph to read.\n\nQuestion: Who read, William or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""William offered Joseph to read"".\n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""William offered Joseph to read"".')",555.0
+276,gpt_j,subject-control,William,Joseph,True,offered,to run,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William offered Joseph to run.
+
+Question: Who ran, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William offered Joseph to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer:  Joseph\n')",556.0
+277,gpt_j,subject-control,William,Joseph,False,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William offered Joseph to run.
+
+Question: Who ran, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William offered Joseph to run.\n\nQuestion: Who ran, William or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph\n\nBecause:\n\n The context is ""William offered Joseph to run"".\n\nSo, the answer is:\n\n Joseph ran.\n\n')",557.0
+278,gpt_j,subject-control,William,Joseph,True,offered,to call,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William offered Joseph to call.
+
+Question: Who called, Joseph or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: William offered Joseph to call.\n\nQuestion: Who called, Joseph or William?\nAnswer:  Joseph\n\nContext: Joseph offered William to call.\n\nQuestion: Who called, Joseph or William?\nAnswer:  William\n\nContext: Joseph offered William to call.\n\nQuestion: Who called, Joseph or William?\nAnswer:  Joseph\n')",558.0
+279,gpt_j,subject-control,William,Joseph,False,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William offered Joseph to call.
+
+Question: Who called, William or Joseph?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William offered Joseph to call.\n\nQuestion: Who called, William or Joseph?\nAnswer: \n\nA:\n\nThe answer is:\n\n Joseph called.\n\nBecause:\n\n The context is ""William offered Joseph to call"".\n\nAnd the question is:\n\n Who called, William or Joseph?\n\nSo the answer is:\n\n Joseph called')",559.0
+280,gpt_j,subject-control,William,Nicole,True,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William offered Nicole to come.
+
+Question: Who came, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William offered Nicole to come.\n\nQuestion: Who came, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Nicole to come"".\n\nSo, the answer is:\n\n William came.\n\n')",570.0
+281,gpt_j,subject-control,William,Nicole,False,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William offered Nicole to come.
+
+Question: Who came, William or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William offered Nicole to come.\n\nQuestion: Who came, William or Nicole?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Nicole to come"".\n\nSo, the answer is:\n\n William came.\n\n')",571.0
+282,gpt_j,subject-control,William,Nicole,True,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William offered Nicole to go.
+
+Question: Who went, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William offered Nicole to go.\n\nQuestion: Who went, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Nicole to go"".\n\nSo, the answer is:\n\n William\n\nA:\n\nI think the answer is:\n\n William')",572.0
+283,gpt_j,subject-control,William,Nicole,False,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William offered Nicole to go.
+
+Question: Who went, William or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William offered Nicole to go.\n\nQuestion: Who went, William or Nicole?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Nicole to go"".\n\nSo, the answer is:\n\n William\n\nA:\n\nI think the answer is:\n\n William')",573.0
+284,gpt_j,subject-control,William,Nicole,True,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William offered Nicole to read.
+
+Question: Who read, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William offered Nicole to read.\n\nQuestion: Who read, Nicole or William?\nAnswer: \n\nNicole read.\nWilliam read.\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to read"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause')",574.0
+285,gpt_j,subject-control,William,Nicole,False,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William offered Nicole to read.
+
+Question: Who read, William or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William offered Nicole to read.\n\nQuestion: Who read, William or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to read"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to read')",575.0
+286,gpt_j,subject-control,William,Nicole,True,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William offered Nicole to run.
+
+Question: Who ran, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William offered Nicole to run.\n\nQuestion: Who ran, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to run"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to run')",576.0
+287,gpt_j,subject-control,William,Nicole,False,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William offered Nicole to run.
+
+Question: Who ran, William or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William offered Nicole to run.\n\nQuestion: Who ran, William or Nicole?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to run"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to run')",577.0
+288,gpt_j,subject-control,William,Nicole,True,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William offered Nicole to call.
+
+Question: Who called, Nicole or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: William offered Nicole to call.\n\nQuestion: Who called, Nicole or William?\nAnswer: \n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to call"".\n\nA:\n\nI think the answer is\n\n William\n\nbecause\n\n The context is ""William offered Nicole to call')",578.0
+289,gpt_j,subject-control,William,Nicole,False,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William offered Nicole to call.
+
+Question: Who called, William or Nicole?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William offered Nicole to call.\n\nQuestion: Who called, William or Nicole?\nAnswer: \n\nA:\n\nI think the answer is:\n\n William called Nicole.\n\nBecause:\n\n The context is ""William offered Nicole to call"".\n\nAnd the question is:\n\n Who called, William or Nicole?\n\nSo the answer is')",579.0
+290,gpt_j,subject-control,William,Stephanie,True,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William offered Stephanie to come.
+
+Question: Who came, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William offered Stephanie to come.\n\nQuestion: Who came, Stephanie or William?\nAnswer: \n\nStephanie came.\n\nQuestion: Who came, William or Stephanie?\nAnswer: \n\nStephanie came.\n\nQuestion: Who came, William or Stephanie?\nAnswer: \n\nStephanie came.\n')",590.0
+291,gpt_j,subject-control,William,Stephanie,False,offered,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William offered Stephanie to come.
+
+Question: Who came, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William offered Stephanie to come.\n\nQuestion: Who came, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""William offered Stephanie to come"".\n\nSo, the answer is:\n\n Stephanie came.\n\n')",591.0
+292,gpt_j,subject-control,William,Stephanie,True,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William offered Stephanie to go.
+
+Question: Who went, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William offered Stephanie to go.\n\nQuestion: Who went, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Stephanie to go.""\n\nAnd the question is:\n\n Who went, William or Stephanie?\n\nSo the answer is:\n\n William\n')",592.0
+293,gpt_j,subject-control,William,Stephanie,False,offered,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William offered Stephanie to go.
+
+Question: Who went, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William offered Stephanie to go.\n\nQuestion: Who went, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Stephanie to go.""\n\nAnd the question is:\n\n Who went, William or Stephanie?\n\nSo the answer is:\n\n William\n')",593.0
+294,gpt_j,subject-control,William,Stephanie,True,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William offered Stephanie to read.
+
+Question: Who read, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William offered Stephanie to read.\n\nQuestion: Who read, Stephanie or William?\nAnswer: \n\nStephanie read.\n\nA:\n\nI think the answer is:\n\n William\n\nBecause:\n\n The context is ""William offered Stephanie to read"".\n\nA:\n\nI think the answer is:\n\n William\n\n')",594.0
+295,gpt_j,subject-control,William,Stephanie,False,offered,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William offered Stephanie to read.
+
+Question: Who read, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William offered Stephanie to read.\n\nQuestion: Who read, William or Stephanie?\nAnswer: \n\nA:\n\nI think the answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""William offered Stephanie to read"".\n\nAnd the question is:\n\n Who read, William or Stephanie?\n\nSo the answer is:\n\n')",595.0
+296,gpt_j,subject-control,William,Stephanie,True,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William offered Stephanie to run.
+
+Question: Who ran, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William offered Stephanie to run.\n\nQuestion: Who ran, Stephanie or William?\nAnswer: \n\nStephanie ran.\n\nA:\n\nThe answer is:\n\n William ran.\n\nBecause:\n\n The context is ""William offered Stephanie to run"".\n\nStephanie is the subject of the sentence, so the answer is')",596.0
+297,gpt_j,subject-control,William,Stephanie,False,offered,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William offered Stephanie to run.
+
+Question: Who ran, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William offered Stephanie to run.\n\nQuestion: Who ran, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie\n\nBecause:\n\n The context is ""William offered Stephanie to run"". The question is ""Who ran, William or Stephanie?"". The answer is ""Stephanie"".\n\n')",597.0
+298,gpt_j,subject-control,William,Stephanie,True,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William offered Stephanie to call.
+
+Question: Who called, Stephanie or William?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: William offered Stephanie to call.\n\nQuestion: Who called, Stephanie or William?\nAnswer: \n\nStephanie called.\n\nA:\n\nThe answer is:\n\n William called.\n\nBecause:\n\n The context is ""William offered Stephanie to call"".\n\nAnd the question is:\n\n Who called, Stephanie or William?\n')",598.0
+299,gpt_j,subject-control,William,Stephanie,False,offered,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William offered Stephanie to call.
+
+Question: Who called, William or Stephanie?
+Answer: "," 'You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William offered Stephanie to call.\n\nQuestion: Who called, William or Stephanie?\nAnswer: \n\nA:\n\nThe answer is:\n\n Stephanie called.\n\nBecause:\n\n The context is ""William offered Stephanie to call"".\n\nAnd the question is:\n\n Who called, William or Stephanie?\n\nSo the answer is:\n\n')",599.0

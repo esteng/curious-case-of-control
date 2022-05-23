@@ -1,0 +1,2701 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,jurassic-large,subject-control,Avery,Casey,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to come.
+
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Avery\nQuestion: Who was threatened to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(A')"
+1,jurassic-large,subject-control,Avery,Casey,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Avery\nQuestion: Who was threatened to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(A')"
+2,jurassic-large,subject-control,Avery,Casey,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to read.
+
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to read.\n\nQuestion: Who was threatened to read?\nAnswer: Casey\nQuestion: Who threatened someone to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(A')"
+3,jurassic-large,subject-control,Avery,Casey,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to run.
+
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Avery\nQuestion: Who was threatened to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(A')"
+4,jurassic-large,subject-control,Avery,Casey,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to call.
+
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to call.\n\nQuestion: Who was threatened to call?\nAnswer: Casey\nQuestion: Who threatened someone to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(A')"
+5,jurassic-large,subject-control,Avery,Casey,False,offered,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to come.
+
+Question: Who was offered to come?
+Answer: Casey
+Question: Who offered someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to come.\n\nQuestion: Who was offered to come?\nAnswer: Casey\nQuestion: Who offered someone to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(A')"
+6,jurassic-large,subject-control,Avery,Casey,False,offered,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to go.
+
+Question: Who offered someone to go?
+Answer: Avery
+Question: Who was offered to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to go.\n\nQuestion: Who offered someone to go?\nAnswer: Avery\nQuestion: Who was offered to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(A')"
+7,jurassic-large,subject-control,Avery,Casey,False,offered,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to read.
+
+Question: Who offered someone to read?
+Answer: Avery
+Question: Who was offered to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to read.\n\nQuestion: Who offered someone to read?\nAnswer: Avery\nQuestion: Who was offered to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(A')"
+8,jurassic-large,subject-control,Avery,Casey,False,offered,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to run.
+
+Question: Who offered someone to run?
+Answer: Avery
+Question: Who was offered to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to run.\n\nQuestion: Who offered someone to run?\nAnswer: Avery\nQuestion: Who was offered to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(A')"
+9,jurassic-large,subject-control,Avery,Casey,False,offered,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to call.
+
+Question: Who was offered to call?
+Answer: Casey
+Question: Who offered someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to call.\n\nQuestion: Who was offered to call?\nAnswer: Casey\nQuestion: Who offered someone to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(A')"
+10,jurassic-large,subject-control,Avery,Joseph,False,threatened,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Avery\nQuestion: Who was threatened to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+11,jurassic-large,subject-control,Avery,Joseph,False,threatened,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to go.\n\nQuestion: Who was threatened to go?\nAnswer: Joseph\nQuestion: Who threatened someone to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+12,jurassic-large,subject-control,Avery,Joseph,False,threatened,to read,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to read.
+
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Avery\nQuestion: Who was threatened to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+13,jurassic-large,subject-control,Avery,Joseph,False,threatened,to run,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Joseph to run.
+
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to run.\n\nQuestion: Who was threatened to run?\nAnswer: Joseph\nQuestion: Who threatened someone to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', 'NONE\n')"
+14,jurassic-large,subject-control,Avery,Joseph,False,threatened,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Avery\nQuestion: Who was threatened to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+15,jurassic-large,subject-control,Avery,Joseph,False,offered,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to come.
+
+Question: Who offered someone to come?
+Answer: Avery
+Question: Who was offered to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to come.\n\nQuestion: Who offered someone to come?\nAnswer: Avery\nQuestion: Who was offered to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+16,jurassic-large,subject-control,Avery,Joseph,False,offered,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to go.
+
+Question: Who was offered to go?
+Answer: Joseph
+Question: Who offered someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to go.\n\nQuestion: Who was offered to go?\nAnswer: Joseph\nQuestion: Who offered someone to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+17,jurassic-large,subject-control,Avery,Joseph,False,offered,to read,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to read.
+
+Question: Who offered someone to read?
+Answer: Avery
+Question: Who was offered to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to read.\n\nQuestion: Who offered someone to read?\nAnswer: Avery\nQuestion: Who was offered to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+18,jurassic-large,subject-control,Avery,Joseph,False,offered,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to run.
+
+Question: Who offered someone to run?
+Answer: Avery
+Question: Who was offered to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to run.\n\nQuestion: Who offered someone to run?\nAnswer: Avery\nQuestion: Who was offered to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+19,jurassic-large,subject-control,Avery,Joseph,False,offered,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to call.
+
+Question: Who offered someone to call?
+Answer: Avery
+Question: Who was offered to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to call.\n\nQuestion: Who offered someone to call?\nAnswer: Avery\nQuestion: Who was offered to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+20,jurassic-large,subject-control,Avery,Nicole,False,threatened,to come,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to come.
+
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Avery\nQuestion: Who was threatened to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', 'NONE\n')"
+21,jurassic-large,subject-control,Avery,Nicole,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Avery\nQuestion: Who was threatened to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', 'NONE\n')"
+22,jurassic-large,subject-control,Avery,Nicole,False,threatened,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to read.\n\nQuestion: Who was threatened to read?\nAnswer: Nicole\nQuestion: Who threatened someone to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+23,jurassic-large,subject-control,Avery,Nicole,False,threatened,to run,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to run.
+
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Avery\nQuestion: Who was threatened to run?\nAnswer: Nicole\nQuestion: Who ran?\nAnswer: ', 'NONE\n')"
+24,jurassic-large,subject-control,Avery,Nicole,False,threatened,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Avery\nQuestion: Who was threatened to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+25,jurassic-large,subject-control,Avery,Nicole,False,offered,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to come.
+
+Question: Who was offered to come?
+Answer: Nicole
+Question: Who offered someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to come.\n\nQuestion: Who was offered to come?\nAnswer: Nicole\nQuestion: Who offered someone to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+26,jurassic-large,subject-control,Avery,Nicole,False,offered,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to go.
+
+Question: Who was offered to go?
+Answer: Nicole
+Question: Who offered someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to go.\n\nQuestion: Who was offered to go?\nAnswer: Nicole\nQuestion: Who offered someone to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+27,jurassic-large,subject-control,Avery,Nicole,False,offered,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to read.
+
+Question: Who was offered to read?
+Answer: Nicole
+Question: Who offered someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to read.\n\nQuestion: Who was offered to read?\nAnswer: Nicole\nQuestion: Who offered someone to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+28,jurassic-large,subject-control,Avery,Nicole,False,offered,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to run.
+
+Question: Who was offered to run?
+Answer: Nicole
+Question: Who offered someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to run.\n\nQuestion: Who was offered to run?\nAnswer: Nicole\nQuestion: Who offered someone to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+29,jurassic-large,subject-control,Avery,Nicole,False,offered,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to call.
+
+Question: Who offered someone to call?
+Answer: Avery
+Question: Who was offered to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to call.\n\nQuestion: Who offered someone to call?\nAnswer: Avery\nQuestion: Who was offered to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+30,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to come,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to come.
+
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to come.\n\nQuestion: Who was threatened to come?\nAnswer: Stephanie\nQuestion: Who threatened someone to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(S')"
+31,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Avery\nQuestion: Who was threatened to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(S')"
+32,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to read.
+
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to read.\n\nQuestion: Who was threatened to read?\nAnswer: Stephanie\nQuestion: Who threatened someone to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(S')"
+33,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to run,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to run.
+
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to run.\n\nQuestion: Who was threatened to run?\nAnswer: Stephanie\nQuestion: Who threatened someone to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', '(S')"
+34,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to call.
+
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to call.\n\nQuestion: Who was threatened to call?\nAnswer: Stephanie\nQuestion: Who threatened someone to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(S')"
+35,jurassic-large,subject-control,Avery,Stephanie,False,offered,to come,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to come.
+
+Question: Who offered someone to come?
+Answer: Avery
+Question: Who was offered to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to come.\n\nQuestion: Who offered someone to come?\nAnswer: Avery\nQuestion: Who was offered to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(S')"
+36,jurassic-large,subject-control,Avery,Stephanie,False,offered,to go,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to go.
+
+Question: Who offered someone to go?
+Answer: Avery
+Question: Who was offered to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to go.\n\nQuestion: Who offered someone to go?\nAnswer: Avery\nQuestion: Who was offered to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(S')"
+37,jurassic-large,subject-control,Avery,Stephanie,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to read.
+
+Question: Who offered someone to read?
+Answer: Avery
+Question: Who was offered to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to read.\n\nQuestion: Who offered someone to read?\nAnswer: Avery\nQuestion: Who was offered to read?\nAnswer: Stephanie\nQuestion: Who read?\nAnswer: ', '(S')"
+38,jurassic-large,subject-control,Avery,Stephanie,False,offered,to run,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to run.
+
+Question: Who offered someone to run?
+Answer: Avery
+Question: Who was offered to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to run.\n\nQuestion: Who offered someone to run?\nAnswer: Avery\nQuestion: Who was offered to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(S')"
+39,jurassic-large,subject-control,Avery,Stephanie,False,offered,to call,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to call.
+
+Question: Who was offered to call?
+Answer: Stephanie
+Question: Who offered someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to call.\n\nQuestion: Who was offered to call?\nAnswer: Stephanie\nQuestion: Who offered someone to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(S')"
+40,jurassic-large,subject-control,Avery,William,False,threatened,to come,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to come.
+
+Question: Who was threatened to come?
+Answer: William
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to come.\n\nQuestion: Who was threatened to come?\nAnswer: William\nQuestion: Who threatened someone to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(William')"
+41,jurassic-large,subject-control,Avery,William,False,threatened,to go,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Avery\nQuestion: Who was threatened to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', 'william\n')"
+42,jurassic-large,subject-control,Avery,William,False,threatened,to read,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to read.\n\nQuestion: Who was threatened to read?\nAnswer: William\nQuestion: Who threatened someone to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(William')"
+43,jurassic-large,subject-control,Avery,William,False,threatened,to run,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to run.
+
+Question: Who was threatened to run?
+Answer: William
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to run.\n\nQuestion: Who was threatened to run?\nAnswer: William\nQuestion: Who threatened someone to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', 'william\n')"
+44,jurassic-large,subject-control,Avery,William,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Avery\nQuestion: Who was threatened to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(A')"
+45,jurassic-large,subject-control,Avery,William,False,offered,to come,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to come.
+
+Question: Who was offered to come?
+Answer: William
+Question: Who offered someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to come.\n\nQuestion: Who was offered to come?\nAnswer: William\nQuestion: Who offered someone to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(William')"
+46,jurassic-large,subject-control,Avery,William,False,offered,to go,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to go.
+
+Question: Who offered someone to go?
+Answer: Avery
+Question: Who was offered to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to go.\n\nQuestion: Who offered someone to go?\nAnswer: Avery\nQuestion: Who was offered to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(William')"
+47,jurassic-large,subject-control,Avery,William,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered William to read.
+
+Question: Who offered someone to read?
+Answer: Avery
+Question: Who was offered to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to read.\n\nQuestion: Who offered someone to read?\nAnswer: Avery\nQuestion: Who was offered to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Both')"
+48,jurassic-large,subject-control,Avery,William,False,offered,to run,Avery,other,"You will be given a context and a question.
+Context: Avery offered William to run.
+
+Question: Who offered someone to run?
+Answer: Avery
+Question: Who was offered to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to run.\n\nQuestion: Who offered someone to run?\nAnswer: Avery\nQuestion: Who was offered to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(Both')"
+49,jurassic-large,subject-control,Avery,William,False,offered,to call,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to call.
+
+Question: Who was offered to call?
+Answer: William
+Question: Who offered someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to call.\n\nQuestion: Who was offered to call?\nAnswer: William\nQuestion: Who offered someone to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(William')"
+50,jurassic-large,subject-control,Casey,Avery,False,threatened,to come,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to come.
+
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to come.\n\nQuestion: Who was threatened to come?\nAnswer: Avery\nQuestion: Who threatened someone to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(A')"
+51,jurassic-large,subject-control,Casey,Avery,False,threatened,to go,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to go.
+
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Casey\nQuestion: Who was threatened to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', '(A')"
+52,jurassic-large,subject-control,Casey,Avery,False,threatened,to read,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to read.
+
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to read.\n\nQuestion: Who was threatened to read?\nAnswer: Avery\nQuestion: Who threatened someone to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(A')"
+53,jurassic-large,subject-control,Casey,Avery,False,threatened,to run,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to run.
+
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Casey\nQuestion: Who was threatened to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', '(A')"
+54,jurassic-large,subject-control,Casey,Avery,False,threatened,to call,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to call.
+
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Casey\nQuestion: Who was threatened to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(A')"
+55,jurassic-large,subject-control,Casey,Avery,False,offered,to come,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to come.
+
+Question: Who was offered to come?
+Answer: Avery
+Question: Who offered someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to come.\n\nQuestion: Who was offered to come?\nAnswer: Avery\nQuestion: Who offered someone to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(A')"
+56,jurassic-large,subject-control,Casey,Avery,False,offered,to go,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to go.
+
+Question: Who was offered to go?
+Answer: Avery
+Question: Who offered someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to go.\n\nQuestion: Who was offered to go?\nAnswer: Avery\nQuestion: Who offered someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(A')"
+57,jurassic-large,subject-control,Casey,Avery,False,offered,to read,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to read.
+
+Question: Who offered someone to read?
+Answer: Casey
+Question: Who was offered to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to read.\n\nQuestion: Who offered someone to read?\nAnswer: Casey\nQuestion: Who was offered to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(A')"
+58,jurassic-large,subject-control,Casey,Avery,False,offered,to run,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to run.
+
+Question: Who offered someone to run?
+Answer: Casey
+Question: Who was offered to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to run.\n\nQuestion: Who offered someone to run?\nAnswer: Casey\nQuestion: Who was offered to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', '(A')"
+59,jurassic-large,subject-control,Casey,Avery,False,offered,to call,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to call.
+
+Question: Who offered someone to call?
+Answer: Casey
+Question: Who was offered to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to call.\n\nQuestion: Who offered someone to call?\nAnswer: Casey\nQuestion: Who was offered to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(A')"
+60,jurassic-large,subject-control,Casey,Joseph,False,threatened,to come,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Casey\nQuestion: Who was threatened to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+61,jurassic-large,subject-control,Casey,Joseph,False,threatened,to go,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to go.\n\nQuestion: Who was threatened to go?\nAnswer: Joseph\nQuestion: Who threatened someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+62,jurassic-large,subject-control,Casey,Joseph,False,threatened,to read,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to read.
+
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to read.\n\nQuestion: Who was threatened to read?\nAnswer: Joseph\nQuestion: Who threatened someone to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+63,jurassic-large,subject-control,Casey,Joseph,False,threatened,to run,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to run.
+
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Casey\nQuestion: Who was threatened to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+64,jurassic-large,subject-control,Casey,Joseph,False,threatened,to call,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to call.
+
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to call.\n\nQuestion: Who was threatened to call?\nAnswer: Joseph\nQuestion: Who threatened someone to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+65,jurassic-large,subject-control,Casey,Joseph,False,offered,to come,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to come.
+
+Question: Who was offered to come?
+Answer: Joseph
+Question: Who offered someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to come.\n\nQuestion: Who was offered to come?\nAnswer: Joseph\nQuestion: Who offered someone to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+66,jurassic-large,subject-control,Casey,Joseph,False,offered,to go,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to go.
+
+Question: Who offered someone to go?
+Answer: Casey
+Question: Who was offered to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to go.\n\nQuestion: Who offered someone to go?\nAnswer: Casey\nQuestion: Who was offered to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+67,jurassic-large,subject-control,Casey,Joseph,False,offered,to read,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to read.
+
+Question: Who offered someone to read?
+Answer: Casey
+Question: Who was offered to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to read.\n\nQuestion: Who offered someone to read?\nAnswer: Casey\nQuestion: Who was offered to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+68,jurassic-large,subject-control,Casey,Joseph,False,offered,to run,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to run.
+
+Question: Who was offered to run?
+Answer: Joseph
+Question: Who offered someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to run.\n\nQuestion: Who was offered to run?\nAnswer: Joseph\nQuestion: Who offered someone to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+69,jurassic-large,subject-control,Casey,Joseph,False,offered,to call,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to call.
+
+Question: Who was offered to call?
+Answer: Joseph
+Question: Who offered someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to call.\n\nQuestion: Who was offered to call?\nAnswer: Joseph\nQuestion: Who offered someone to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+70,jurassic-large,subject-control,Casey,Nicole,False,threatened,to come,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to come.
+
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to come.\n\nQuestion: Who was threatened to come?\nAnswer: Nicole\nQuestion: Who threatened someone to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+71,jurassic-large,subject-control,Casey,Nicole,False,threatened,to go,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to go.
+
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to go.\n\nQuestion: Who was threatened to go?\nAnswer: Nicole\nQuestion: Who threatened someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+72,jurassic-large,subject-control,Casey,Nicole,False,threatened,to read,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to read.
+
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Casey\nQuestion: Who was threatened to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+73,jurassic-large,subject-control,Casey,Nicole,False,threatened,to run,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to run.
+
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Casey\nQuestion: Who was threatened to run?\nAnswer: Nicole\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+74,jurassic-large,subject-control,Casey,Nicole,False,threatened,to call,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to call.
+
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Casey\nQuestion: Who was threatened to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+75,jurassic-large,subject-control,Casey,Nicole,False,offered,to come,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to come.
+
+Question: Who was offered to come?
+Answer: Nicole
+Question: Who offered someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to come.\n\nQuestion: Who was offered to come?\nAnswer: Nicole\nQuestion: Who offered someone to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+76,jurassic-large,subject-control,Casey,Nicole,False,offered,to go,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to go.
+
+Question: Who was offered to go?
+Answer: Nicole
+Question: Who offered someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to go.\n\nQuestion: Who was offered to go?\nAnswer: Nicole\nQuestion: Who offered someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+77,jurassic-large,subject-control,Casey,Nicole,False,offered,to read,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to read.
+
+Question: Who offered someone to read?
+Answer: Casey
+Question: Who was offered to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to read.\n\nQuestion: Who offered someone to read?\nAnswer: Casey\nQuestion: Who was offered to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+78,jurassic-large,subject-control,Casey,Nicole,False,offered,to run,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to run.
+
+Question: Who was offered to run?
+Answer: Nicole
+Question: Who offered someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to run.\n\nQuestion: Who was offered to run?\nAnswer: Nicole\nQuestion: Who offered someone to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+79,jurassic-large,subject-control,Casey,Nicole,False,offered,to call,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to call.
+
+Question: Who offered someone to call?
+Answer: Casey
+Question: Who was offered to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to call.\n\nQuestion: Who offered someone to call?\nAnswer: Casey\nQuestion: Who was offered to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+80,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to come.
+
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Casey\nQuestion: Who was threatened to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(S')"
+81,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to go.
+
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to go.\n\nQuestion: Who was threatened to go?\nAnswer: Stephanie\nQuestion: Who threatened someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(S')"
+82,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to read.
+
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Casey\nQuestion: Who was threatened to read?\nAnswer: Stephanie\nQuestion: Who read?\nAnswer: ', '(S')"
+83,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to run.
+
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Casey\nQuestion: Who was threatened to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(S')"
+84,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to call.
+
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Casey\nQuestion: Who was threatened to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(S')"
+85,jurassic-large,subject-control,Casey,Stephanie,False,offered,to come,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to come.
+
+Question: Who offered someone to come?
+Answer: Casey
+Question: Who was offered to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to come.\n\nQuestion: Who offered someone to come?\nAnswer: Casey\nQuestion: Who was offered to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(S')"
+86,jurassic-large,subject-control,Casey,Stephanie,False,offered,to go,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to go.
+
+Question: Who offered someone to go?
+Answer: Casey
+Question: Who was offered to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to go.\n\nQuestion: Who offered someone to go?\nAnswer: Casey\nQuestion: Who was offered to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(S')"
+87,jurassic-large,subject-control,Casey,Stephanie,False,offered,to read,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to read.
+
+Question: Who was offered to read?
+Answer: Stephanie
+Question: Who offered someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to read.\n\nQuestion: Who was offered to read?\nAnswer: Stephanie\nQuestion: Who offered someone to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(S')"
+88,jurassic-large,subject-control,Casey,Stephanie,False,offered,to run,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to run.
+
+Question: Who offered someone to run?
+Answer: Casey
+Question: Who was offered to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to run.\n\nQuestion: Who offered someone to run?\nAnswer: Casey\nQuestion: Who was offered to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(S')"
+89,jurassic-large,subject-control,Casey,Stephanie,False,offered,to call,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to call.
+
+Question: Who was offered to call?
+Answer: Stephanie
+Question: Who offered someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to call.\n\nQuestion: Who was offered to call?\nAnswer: Stephanie\nQuestion: Who offered someone to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(S')"
+90,jurassic-large,subject-control,Casey,William,False,threatened,to come,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to come.
+
+Question: Who was threatened to come?
+Answer: William
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to come.\n\nQuestion: Who was threatened to come?\nAnswer: William\nQuestion: Who threatened someone to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(William')"
+91,jurassic-large,subject-control,Casey,William,False,threatened,to go,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to go.
+
+Question: Who was threatened to go?
+Answer: William
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to go.\n\nQuestion: Who was threatened to go?\nAnswer: William\nQuestion: Who threatened someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', 'william\n')"
+92,jurassic-large,subject-control,Casey,William,False,threatened,to read,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to read.\n\nQuestion: Who was threatened to read?\nAnswer: William\nQuestion: Who threatened someone to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(William')"
+93,jurassic-large,subject-control,Casey,William,False,threatened,to run,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to run.
+
+Question: Who was threatened to run?
+Answer: William
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to run.\n\nQuestion: Who was threatened to run?\nAnswer: William\nQuestion: Who threatened someone to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(William')"
+94,jurassic-large,subject-control,Casey,William,False,threatened,to call,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to call.
+
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who was threatened to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Casey\nQuestion: Who was threatened to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(William')"
+95,jurassic-large,subject-control,Casey,William,False,offered,to come,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to come.
+
+Question: Who offered someone to come?
+Answer: Casey
+Question: Who was offered to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to come.\n\nQuestion: Who offered someone to come?\nAnswer: Casey\nQuestion: Who was offered to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(William')"
+96,jurassic-large,subject-control,Casey,William,False,offered,to go,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to go.
+
+Question: Who was offered to go?
+Answer: William
+Question: Who offered someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to go.\n\nQuestion: Who was offered to go?\nAnswer: William\nQuestion: Who offered someone to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', 'william\n')"
+97,jurassic-large,subject-control,Casey,William,False,offered,to read,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to read.
+
+Question: Who offered someone to read?
+Answer: Casey
+Question: Who was offered to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to read.\n\nQuestion: Who offered someone to read?\nAnswer: Casey\nQuestion: Who was offered to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(William')"
+98,jurassic-large,subject-control,Casey,William,False,offered,to run,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to run.
+
+Question: Who was offered to run?
+Answer: William
+Question: Who offered someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to run.\n\nQuestion: Who was offered to run?\nAnswer: William\nQuestion: Who offered someone to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(William')"
+99,jurassic-large,subject-control,Casey,William,False,offered,to call,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to call.
+
+Question: Who offered someone to call?
+Answer: Casey
+Question: Who was offered to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to call.\n\nQuestion: Who offered someone to call?\nAnswer: Casey\nQuestion: Who was offered to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(William')"
+100,jurassic-large,subject-control,Joseph,Avery,False,threatened,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Joseph\nQuestion: Who was threatened to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', 'NONE\n')"
+101,jurassic-large,subject-control,Joseph,Avery,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to go.
+
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Joseph\nQuestion: Who was threatened to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', 'NONE\n')"
+102,jurassic-large,subject-control,Joseph,Avery,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to read.
+
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to read.\n\nQuestion: Who was threatened to read?\nAnswer: Avery\nQuestion: Who threatened someone to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', 'NONE\n')"
+103,jurassic-large,subject-control,Joseph,Avery,False,threatened,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to run.
+
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to run.\n\nQuestion: Who was threatened to run?\nAnswer: Avery\nQuestion: Who threatened someone to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', 'NONE\n')"
+104,jurassic-large,subject-control,Joseph,Avery,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to call.
+
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Joseph\nQuestion: Who was threatened to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+105,jurassic-large,subject-control,Joseph,Avery,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to come.
+
+Question: Who was offered to come?
+Answer: Avery
+Question: Who offered someone to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to come.\n\nQuestion: Who was offered to come?\nAnswer: Avery\nQuestion: Who offered someone to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+106,jurassic-large,subject-control,Joseph,Avery,False,offered,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Avery to go.
+
+Question: Who offered someone to go?
+Answer: Joseph
+Question: Who was offered to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to go.\n\nQuestion: Who offered someone to go?\nAnswer: Joseph\nQuestion: Who was offered to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', 'NONE\n')"
+107,jurassic-large,subject-control,Joseph,Avery,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to read.
+
+Question: Who was offered to read?
+Answer: Avery
+Question: Who offered someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to read.\n\nQuestion: Who was offered to read?\nAnswer: Avery\nQuestion: Who offered someone to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+108,jurassic-large,subject-control,Joseph,Avery,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to run.
+
+Question: Who was offered to run?
+Answer: Avery
+Question: Who offered someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to run.\n\nQuestion: Who was offered to run?\nAnswer: Avery\nQuestion: Who offered someone to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+109,jurassic-large,subject-control,Joseph,Avery,False,offered,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Avery to call.
+
+Question: Who offered someone to call?
+Answer: Joseph
+Question: Who was offered to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to call.\n\nQuestion: Who offered someone to call?\nAnswer: Joseph\nQuestion: Who was offered to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', 'NONE\n')"
+110,jurassic-large,subject-control,Joseph,Casey,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Joseph\nQuestion: Who was threatened to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+111,jurassic-large,subject-control,Joseph,Casey,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to go.
+
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Joseph\nQuestion: Who was threatened to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+112,jurassic-large,subject-control,Joseph,Casey,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to read.
+
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Joseph\nQuestion: Who was threatened to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+113,jurassic-large,subject-control,Joseph,Casey,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to run.
+
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Joseph\nQuestion: Who was threatened to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+114,jurassic-large,subject-control,Joseph,Casey,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to call.
+
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to call.\n\nQuestion: Who was threatened to call?\nAnswer: Casey\nQuestion: Who threatened someone to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+115,jurassic-large,subject-control,Joseph,Casey,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to come.
+
+Question: Who was offered to come?
+Answer: Casey
+Question: Who offered someone to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to come.\n\nQuestion: Who was offered to come?\nAnswer: Casey\nQuestion: Who offered someone to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+116,jurassic-large,subject-control,Joseph,Casey,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to go.
+
+Question: Who offered someone to go?
+Answer: Joseph
+Question: Who was offered to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to go.\n\nQuestion: Who offered someone to go?\nAnswer: Joseph\nQuestion: Who was offered to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+117,jurassic-large,subject-control,Joseph,Casey,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to read.
+
+Question: Who offered someone to read?
+Answer: Joseph
+Question: Who was offered to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to read.\n\nQuestion: Who offered someone to read?\nAnswer: Joseph\nQuestion: Who was offered to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+118,jurassic-large,subject-control,Joseph,Casey,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to run.
+
+Question: Who offered someone to run?
+Answer: Joseph
+Question: Who was offered to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to run.\n\nQuestion: Who offered someone to run?\nAnswer: Joseph\nQuestion: Who was offered to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+119,jurassic-large,subject-control,Joseph,Casey,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to call.
+
+Question: Who offered someone to call?
+Answer: Joseph
+Question: Who was offered to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to call.\n\nQuestion: Who offered someone to call?\nAnswer: Joseph\nQuestion: Who was offered to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+120,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Joseph\nQuestion: Who was threatened to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+121,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Joseph\nQuestion: Who was threatened to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+122,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to read.
+
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Joseph\nQuestion: Who was threatened to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+123,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to run.
+
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to run.\n\nQuestion: Who was threatened to run?\nAnswer: Nicole\nQuestion: Who threatened someone to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+124,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to call.
+
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Joseph\nQuestion: Who was threatened to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+125,jurassic-large,subject-control,Joseph,Nicole,False,offered,to come,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to come.
+
+Question: Who offered someone to come?
+Answer: Joseph
+Question: Who was offered to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to come.\n\nQuestion: Who offered someone to come?\nAnswer: Joseph\nQuestion: Who was offered to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+126,jurassic-large,subject-control,Joseph,Nicole,False,offered,to go,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to go.
+
+Question: Who was offered to go?
+Answer: Nicole
+Question: Who offered someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to go.\n\nQuestion: Who was offered to go?\nAnswer: Nicole\nQuestion: Who offered someone to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+127,jurassic-large,subject-control,Joseph,Nicole,False,offered,to read,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to read.
+
+Question: Who was offered to read?
+Answer: Nicole
+Question: Who offered someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to read.\n\nQuestion: Who was offered to read?\nAnswer: Nicole\nQuestion: Who offered someone to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+128,jurassic-large,subject-control,Joseph,Nicole,False,offered,to run,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to run.
+
+Question: Who was offered to run?
+Answer: Nicole
+Question: Who offered someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to run.\n\nQuestion: Who was offered to run?\nAnswer: Nicole\nQuestion: Who offered someone to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+129,jurassic-large,subject-control,Joseph,Nicole,False,offered,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to call.
+
+Question: Who was offered to call?
+Answer: Nicole
+Question: Who offered someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to call.\n\nQuestion: Who was offered to call?\nAnswer: Nicole\nQuestion: Who offered someone to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+130,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Joseph\nQuestion: Who was threatened to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+131,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to go.
+
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to go.\n\nQuestion: Who was threatened to go?\nAnswer: Stephanie\nQuestion: Who threatened someone to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+132,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to read.
+
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Joseph\nQuestion: Who was threatened to read?\nAnswer: Stephanie\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+133,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to run.
+
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Joseph\nQuestion: Who was threatened to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+134,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to call.
+
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Joseph\nQuestion: Who was threatened to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+135,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to come.
+
+Question: Who offered someone to come?
+Answer: Joseph
+Question: Who was offered to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who offered someone to come?\nAnswer: Joseph\nQuestion: Who was offered to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+136,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to go.
+
+Question: Who offered someone to go?
+Answer: Joseph
+Question: Who was offered to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who offered someone to go?\nAnswer: Joseph\nQuestion: Who was offered to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+137,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to read.
+
+Question: Who was offered to read?
+Answer: Stephanie
+Question: Who offered someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who was offered to read?\nAnswer: Stephanie\nQuestion: Who offered someone to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+138,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to run.
+
+Question: Who was offered to run?
+Answer: Stephanie
+Question: Who offered someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who was offered to run?\nAnswer: Stephanie\nQuestion: Who offered someone to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+139,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Stephanie to call.
+
+Question: Who was offered to call?
+Answer: Stephanie
+Question: Who offered someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who was offered to call?\nAnswer: Stephanie\nQuestion: Who offered someone to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(S')"
+140,jurassic-large,subject-control,Joseph,William,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Joseph\nQuestion: Who was threatened to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+141,jurassic-large,subject-control,Joseph,William,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Joseph\nQuestion: Who was threatened to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+142,jurassic-large,subject-control,Joseph,William,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to read.\n\nQuestion: Who was threatened to read?\nAnswer: William\nQuestion: Who threatened someone to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+143,jurassic-large,subject-control,Joseph,William,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to run.
+
+Question: Who was threatened to run?
+Answer: William
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to run.\n\nQuestion: Who was threatened to run?\nAnswer: William\nQuestion: Who threatened someone to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+144,jurassic-large,subject-control,Joseph,William,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to call.
+
+Question: Who was threatened to call?
+Answer: William
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to call.\n\nQuestion: Who was threatened to call?\nAnswer: William\nQuestion: Who threatened someone to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+145,jurassic-large,subject-control,Joseph,William,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to come.
+
+Question: Who offered someone to come?
+Answer: Joseph
+Question: Who was offered to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to come.\n\nQuestion: Who offered someone to come?\nAnswer: Joseph\nQuestion: Who was offered to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+146,jurassic-large,subject-control,Joseph,William,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to go.
+
+Question: Who offered someone to go?
+Answer: Joseph
+Question: Who was offered to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to go.\n\nQuestion: Who offered someone to go?\nAnswer: Joseph\nQuestion: Who was offered to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+147,jurassic-large,subject-control,Joseph,William,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to read.
+
+Question: Who offered someone to read?
+Answer: Joseph
+Question: Who was offered to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to read.\n\nQuestion: Who offered someone to read?\nAnswer: Joseph\nQuestion: Who was offered to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+148,jurassic-large,subject-control,Joseph,William,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to run.
+
+Question: Who offered someone to run?
+Answer: Joseph
+Question: Who was offered to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to run.\n\nQuestion: Who offered someone to run?\nAnswer: Joseph\nQuestion: Who was offered to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+149,jurassic-large,subject-control,Joseph,William,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to call.
+
+Question: Who offered someone to call?
+Answer: Joseph
+Question: Who was offered to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to call.\n\nQuestion: Who offered someone to call?\nAnswer: Joseph\nQuestion: Who was offered to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+150,jurassic-large,subject-control,Nicole,Avery,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to come.
+
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Nicole\nQuestion: Who was threatened to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+151,jurassic-large,subject-control,Nicole,Avery,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to go.
+
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to go.\n\nQuestion: Who was threatened to go?\nAnswer: Avery\nQuestion: Who threatened someone to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', 'NONE\n')"
+152,jurassic-large,subject-control,Nicole,Avery,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to read.
+
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Nicole\nQuestion: Who was threatened to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+153,jurassic-large,subject-control,Nicole,Avery,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Nicole\nQuestion: Who was threatened to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', 'NONE\n')"
+154,jurassic-large,subject-control,Nicole,Avery,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to call.
+
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Nicole\nQuestion: Who was threatened to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+155,jurassic-large,subject-control,Nicole,Avery,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to come.
+
+Question: Who offered someone to come?
+Answer: Nicole
+Question: Who was offered to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to come.\n\nQuestion: Who offered someone to come?\nAnswer: Nicole\nQuestion: Who was offered to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+156,jurassic-large,subject-control,Nicole,Avery,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to go.
+
+Question: Who offered someone to go?
+Answer: Nicole
+Question: Who was offered to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to go.\n\nQuestion: Who offered someone to go?\nAnswer: Nicole\nQuestion: Who was offered to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+157,jurassic-large,subject-control,Nicole,Avery,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to read.
+
+Question: Who offered someone to read?
+Answer: Nicole
+Question: Who was offered to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to read.\n\nQuestion: Who offered someone to read?\nAnswer: Nicole\nQuestion: Who was offered to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+158,jurassic-large,subject-control,Nicole,Avery,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to run.
+
+Question: Who offered someone to run?
+Answer: Nicole
+Question: Who was offered to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to run.\n\nQuestion: Who offered someone to run?\nAnswer: Nicole\nQuestion: Who was offered to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+159,jurassic-large,subject-control,Nicole,Avery,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to call.
+
+Question: Who offered someone to call?
+Answer: Nicole
+Question: Who was offered to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to call.\n\nQuestion: Who offered someone to call?\nAnswer: Nicole\nQuestion: Who was offered to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+160,jurassic-large,subject-control,Nicole,Casey,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to come.
+
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to come.\n\nQuestion: Who was threatened to come?\nAnswer: Casey\nQuestion: Who threatened someone to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+161,jurassic-large,subject-control,Nicole,Casey,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to go.
+
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Nicole\nQuestion: Who was threatened to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+162,jurassic-large,subject-control,Nicole,Casey,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to read.
+
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Nicole\nQuestion: Who was threatened to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+163,jurassic-large,subject-control,Nicole,Casey,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Nicole\nQuestion: Who was threatened to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+164,jurassic-large,subject-control,Nicole,Casey,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to call.
+
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Nicole\nQuestion: Who was threatened to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+165,jurassic-large,subject-control,Nicole,Casey,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to come.
+
+Question: Who offered someone to come?
+Answer: Nicole
+Question: Who was offered to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to come.\n\nQuestion: Who offered someone to come?\nAnswer: Nicole\nQuestion: Who was offered to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+166,jurassic-large,subject-control,Nicole,Casey,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to go.
+
+Question: Who was offered to go?
+Answer: Casey
+Question: Who offered someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to go.\n\nQuestion: Who was offered to go?\nAnswer: Casey\nQuestion: Who offered someone to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+167,jurassic-large,subject-control,Nicole,Casey,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to read.
+
+Question: Who offered someone to read?
+Answer: Nicole
+Question: Who was offered to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to read.\n\nQuestion: Who offered someone to read?\nAnswer: Nicole\nQuestion: Who was offered to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+168,jurassic-large,subject-control,Nicole,Casey,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to run.
+
+Question: Who offered someone to run?
+Answer: Nicole
+Question: Who was offered to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to run.\n\nQuestion: Who offered someone to run?\nAnswer: Nicole\nQuestion: Who was offered to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+169,jurassic-large,subject-control,Nicole,Casey,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to call.
+
+Question: Who offered someone to call?
+Answer: Nicole
+Question: Who was offered to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to call.\n\nQuestion: Who offered someone to call?\nAnswer: Nicole\nQuestion: Who was offered to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+170,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Nicole\nQuestion: Who was threatened to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+171,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to go.\n\nQuestion: Who was threatened to go?\nAnswer: Joseph\nQuestion: Who threatened someone to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+172,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to read.
+
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to read.\n\nQuestion: Who was threatened to read?\nAnswer: Joseph\nQuestion: Who threatened someone to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+173,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Nicole\nQuestion: Who was threatened to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+174,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to call.
+
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Nicole\nQuestion: Who was threatened to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+175,jurassic-large,subject-control,Nicole,Joseph,False,offered,to come,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole offered Joseph to come.
+
+Question: Who was offered to come?
+Answer: Joseph
+Question: Who offered someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to come.\n\nQuestion: Who was offered to come?\nAnswer: Joseph\nQuestion: Who offered someone to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+176,jurassic-large,subject-control,Nicole,Joseph,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to go.
+
+Question: Who offered someone to go?
+Answer: Nicole
+Question: Who was offered to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to go.\n\nQuestion: Who offered someone to go?\nAnswer: Nicole\nQuestion: Who was offered to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+177,jurassic-large,subject-control,Nicole,Joseph,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to read.
+
+Question: Who offered someone to read?
+Answer: Nicole
+Question: Who was offered to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to read.\n\nQuestion: Who offered someone to read?\nAnswer: Nicole\nQuestion: Who was offered to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+178,jurassic-large,subject-control,Nicole,Joseph,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to run.
+
+Question: Who offered someone to run?
+Answer: Nicole
+Question: Who was offered to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to run.\n\nQuestion: Who offered someone to run?\nAnswer: Nicole\nQuestion: Who was offered to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+179,jurassic-large,subject-control,Nicole,Joseph,False,offered,to call,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole offered Joseph to call.
+
+Question: Who was offered to call?
+Answer: Joseph
+Question: Who offered someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to call.\n\nQuestion: Who was offered to call?\nAnswer: Joseph\nQuestion: Who offered someone to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+180,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to come.
+
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Nicole\nQuestion: Who was threatened to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+181,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to go.
+
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to go.\n\nQuestion: Who was threatened to go?\nAnswer: Stephanie\nQuestion: Who threatened someone to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+182,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to read.
+
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to read.\n\nQuestion: Who was threatened to read?\nAnswer: Stephanie\nQuestion: Who threatened someone to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+183,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Nicole\nQuestion: Who was threatened to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+184,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to call.
+
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to call.\n\nQuestion: Who was threatened to call?\nAnswer: Stephanie\nQuestion: Who threatened someone to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+185,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Stephanie to come.
+
+Question: Who was offered to come?
+Answer: Stephanie
+Question: Who offered someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to come.\n\nQuestion: Who was offered to come?\nAnswer: Stephanie\nQuestion: Who offered someone to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(S')"
+186,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Stephanie to go.
+
+Question: Who offered someone to go?
+Answer: Nicole
+Question: Who was offered to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to go.\n\nQuestion: Who offered someone to go?\nAnswer: Nicole\nQuestion: Who was offered to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+187,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Stephanie to read.
+
+Question: Who was offered to read?
+Answer: Stephanie
+Question: Who offered someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to read.\n\nQuestion: Who was offered to read?\nAnswer: Stephanie\nQuestion: Who offered someone to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(S')"
+188,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Stephanie to run.
+
+Question: Who was offered to run?
+Answer: Stephanie
+Question: Who offered someone to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to run.\n\nQuestion: Who was offered to run?\nAnswer: Stephanie\nQuestion: Who offered someone to run?\nAnswer: Nicole\nQuestion: Who ran?\nAnswer: ', '(S')"
+189,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Stephanie to call.
+
+Question: Who was offered to call?
+Answer: Stephanie
+Question: Who offered someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to call.\n\nQuestion: Who was offered to call?\nAnswer: Stephanie\nQuestion: Who offered someone to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(S')"
+190,jurassic-large,subject-control,Nicole,William,False,threatened,to come,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to come.
+
+Question: Who was threatened to come?
+Answer: William
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to come.\n\nQuestion: Who was threatened to come?\nAnswer: William\nQuestion: Who threatened someone to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', 'william\n')"
+191,jurassic-large,subject-control,Nicole,William,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Nicole\nQuestion: Who was threatened to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+192,jurassic-large,subject-control,Nicole,William,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to read.
+
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who was threatened to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Nicole\nQuestion: Who was threatened to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+193,jurassic-large,subject-control,Nicole,William,False,threatened,to run,Nicole,William,"You will be given a context and a question.
+Context: Nicole threatened William to run.
+
+Question: Who was threatened to run?
+Answer: William
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to run.\n\nQuestion: Who was threatened to run?\nAnswer: William\nQuestion: Who threatened someone to run?\nAnswer: Nicole\nQuestion: Who ran?\nAnswer: ', 'william\n')"
+194,jurassic-large,subject-control,Nicole,William,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to call.
+
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who was threatened to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Nicole\nQuestion: Who was threatened to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+195,jurassic-large,subject-control,Nicole,William,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to come.
+
+Question: Who offered someone to come?
+Answer: Nicole
+Question: Who was offered to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to come.\n\nQuestion: Who offered someone to come?\nAnswer: Nicole\nQuestion: Who was offered to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+196,jurassic-large,subject-control,Nicole,William,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to go.
+
+Question: Who offered someone to go?
+Answer: Nicole
+Question: Who was offered to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to go.\n\nQuestion: Who offered someone to go?\nAnswer: Nicole\nQuestion: Who was offered to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+197,jurassic-large,subject-control,Nicole,William,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to read.
+
+Question: Who offered someone to read?
+Answer: Nicole
+Question: Who was offered to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to read.\n\nQuestion: Who offered someone to read?\nAnswer: Nicole\nQuestion: Who was offered to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+198,jurassic-large,subject-control,Nicole,William,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to run.
+
+Question: Who offered someone to run?
+Answer: Nicole
+Question: Who was offered to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to run.\n\nQuestion: Who offered someone to run?\nAnswer: Nicole\nQuestion: Who was offered to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+199,jurassic-large,subject-control,Nicole,William,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to call.
+
+Question: Who offered someone to call?
+Answer: Nicole
+Question: Who was offered to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to call.\n\nQuestion: Who offered someone to call?\nAnswer: Nicole\nQuestion: Who was offered to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+200,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to come.
+
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to come.\n\nQuestion: Who was threatened to come?\nAnswer: Avery\nQuestion: Who threatened someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', 'NONE\n')"
+201,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to go.
+
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to go.\n\nQuestion: Who was threatened to go?\nAnswer: Avery\nQuestion: Who threatened someone to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(S')"
+202,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to read.
+
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Stephanie\nQuestion: Who was threatened to read?\nAnswer: Avery\nQuestion: Who read?\nAnswer: ', '(S')"
+203,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to run.
+
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to run.\n\nQuestion: Who was threatened to run?\nAnswer: Avery\nQuestion: Who threatened someone to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', 'NONE\n')"
+204,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to call.
+
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to call.\n\nQuestion: Who was threatened to call?\nAnswer: Avery\nQuestion: Who threatened someone to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(S')"
+205,jurassic-large,subject-control,Stephanie,Avery,False,offered,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to come.
+
+Question: Who offered someone to come?
+Answer: Stephanie
+Question: Who was offered to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to come.\n\nQuestion: Who offered someone to come?\nAnswer: Stephanie\nQuestion: Who was offered to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(S')"
+206,jurassic-large,subject-control,Stephanie,Avery,False,offered,to go,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie offered Avery to go.
+
+Question: Who was offered to go?
+Answer: Avery
+Question: Who offered someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to go.\n\nQuestion: Who was offered to go?\nAnswer: Avery\nQuestion: Who offered someone to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', '(A')"
+207,jurassic-large,subject-control,Stephanie,Avery,False,offered,to read,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie offered Avery to read.
+
+Question: Who was offered to read?
+Answer: Avery
+Question: Who offered someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to read.\n\nQuestion: Who was offered to read?\nAnswer: Avery\nQuestion: Who offered someone to read?\nAnswer: Stephanie\nQuestion: Who read?\nAnswer: ', '(A')"
+208,jurassic-large,subject-control,Stephanie,Avery,False,offered,to run,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie offered Avery to run.
+
+Question: Who was offered to run?
+Answer: Avery
+Question: Who offered someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to run.\n\nQuestion: Who was offered to run?\nAnswer: Avery\nQuestion: Who offered someone to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(A')"
+209,jurassic-large,subject-control,Stephanie,Avery,False,offered,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to call.
+
+Question: Who was offered to call?
+Answer: Avery
+Question: Who offered someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to call.\n\nQuestion: Who was offered to call?\nAnswer: Avery\nQuestion: Who offered someone to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(S')"
+210,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to come.
+
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to come.\n\nQuestion: Who was threatened to come?\nAnswer: Casey\nQuestion: Who threatened someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(S')"
+211,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to go.
+
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Stephanie\nQuestion: Who was threatened to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(S')"
+212,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to read.
+
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Stephanie\nQuestion: Who was threatened to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(S')"
+213,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to run.
+
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to run.\n\nQuestion: Who was threatened to run?\nAnswer: Casey\nQuestion: Who threatened someone to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(S')"
+214,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to call.
+
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to call.\n\nQuestion: Who threatened someone to call?\nAnswer: Stephanie\nQuestion: Who was threatened to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(S')"
+215,jurassic-large,subject-control,Stephanie,Casey,False,offered,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to come.
+
+Question: Who was offered to come?
+Answer: Casey
+Question: Who offered someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to come.\n\nQuestion: Who was offered to come?\nAnswer: Casey\nQuestion: Who offered someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(S')"
+216,jurassic-large,subject-control,Stephanie,Casey,False,offered,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to go.
+
+Question: Who offered someone to go?
+Answer: Stephanie
+Question: Who was offered to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to go.\n\nQuestion: Who offered someone to go?\nAnswer: Stephanie\nQuestion: Who was offered to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(S')"
+217,jurassic-large,subject-control,Stephanie,Casey,False,offered,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to read.
+
+Question: Who offered someone to read?
+Answer: Stephanie
+Question: Who was offered to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to read.\n\nQuestion: Who offered someone to read?\nAnswer: Stephanie\nQuestion: Who was offered to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(S')"
+218,jurassic-large,subject-control,Stephanie,Casey,False,offered,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to run.
+
+Question: Who offered someone to run?
+Answer: Stephanie
+Question: Who was offered to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to run.\n\nQuestion: Who offered someone to run?\nAnswer: Stephanie\nQuestion: Who was offered to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(S')"
+219,jurassic-large,subject-control,Stephanie,Casey,False,offered,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to call.
+
+Question: Who offered someone to call?
+Answer: Stephanie
+Question: Who was offered to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to call.\n\nQuestion: Who offered someone to call?\nAnswer: Stephanie\nQuestion: Who was offered to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(S')"
+220,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Stephanie\nQuestion: Who was threatened to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+221,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to go.
+
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Stephanie\nQuestion: Who was threatened to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+222,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to read.
+
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Stephanie\nQuestion: Who was threatened to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+223,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to run.
+
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to run.\n\nQuestion: Who was threatened to run?\nAnswer: Joseph\nQuestion: Who threatened someone to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+224,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to call.
+
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to call.\n\nQuestion: Who was threatened to call?\nAnswer: Joseph\nQuestion: Who threatened someone to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+225,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to come,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to come.
+
+Question: Who was offered to come?
+Answer: Joseph
+Question: Who offered someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to come.\n\nQuestion: Who was offered to come?\nAnswer: Joseph\nQuestion: Who offered someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+226,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to go.
+
+Question: Who offered someone to go?
+Answer: Stephanie
+Question: Who was offered to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to go.\n\nQuestion: Who offered someone to go?\nAnswer: Stephanie\nQuestion: Who was offered to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+227,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to read,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to read.
+
+Question: Who offered someone to read?
+Answer: Stephanie
+Question: Who was offered to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to read.\n\nQuestion: Who offered someone to read?\nAnswer: Stephanie\nQuestion: Who was offered to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+228,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to run,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to run.
+
+Question: Who offered someone to run?
+Answer: Stephanie
+Question: Who was offered to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to run.\n\nQuestion: Who offered someone to run?\nAnswer: Stephanie\nQuestion: Who was offered to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+229,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to call,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to call.
+
+Question: Who offered someone to call?
+Answer: Stephanie
+Question: Who was offered to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to call.\n\nQuestion: Who offered someone to call?\nAnswer: Stephanie\nQuestion: Who was offered to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+230,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to come.
+
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to come.\n\nQuestion: Who threatened someone to come?\nAnswer: Stephanie\nQuestion: Who was threatened to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+231,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Stephanie\nQuestion: Who was threatened to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+232,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to read.
+
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Stephanie\nQuestion: Who was threatened to read?\nAnswer: Nicole\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+233,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to run.
+
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to run.\n\nQuestion: Who was threatened to run?\nAnswer: Nicole\nQuestion: Who threatened someone to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+234,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to call.
+
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to call.\n\nQuestion: Who was threatened to call?\nAnswer: Nicole\nQuestion: Who threatened someone to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+235,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to come,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to come.
+
+Question: Who was offered to come?
+Answer: Nicole
+Question: Who offered someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to come.\n\nQuestion: Who was offered to come?\nAnswer: Nicole\nQuestion: Who offered someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+236,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to go,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to go.
+
+Question: Who offered someone to go?
+Answer: Stephanie
+Question: Who was offered to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to go.\n\nQuestion: Who offered someone to go?\nAnswer: Stephanie\nQuestion: Who was offered to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+237,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to read,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to read.
+
+Question: Who was offered to read?
+Answer: Nicole
+Question: Who offered someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to read.\n\nQuestion: Who was offered to read?\nAnswer: Nicole\nQuestion: Who offered someone to read?\nAnswer: Stephanie\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+238,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to run,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to run.
+
+Question: Who offered someone to run?
+Answer: Stephanie
+Question: Who was offered to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to run.\n\nQuestion: Who offered someone to run?\nAnswer: Stephanie\nQuestion: Who was offered to run?\nAnswer: Nicole\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+239,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to call,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to call.
+
+Question: Who offered someone to call?
+Answer: Stephanie
+Question: Who was offered to call?
+Answer: Nicole
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to call.\n\nQuestion: Who offered someone to call?\nAnswer: Stephanie\nQuestion: Who was offered to call?\nAnswer: Nicole\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+240,jurassic-large,subject-control,Stephanie,William,False,threatened,to come,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to come.
+
+Question: Who was threatened to come?
+Answer: William
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to come.\n\nQuestion: Who was threatened to come?\nAnswer: William\nQuestion: Who threatened someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', 'william\n')"
+241,jurassic-large,subject-control,Stephanie,William,False,threatened,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to go.\n\nQuestion: Who threatened someone to go?\nAnswer: Stephanie\nQuestion: Who was threatened to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', 'william\n')"
+242,jurassic-large,subject-control,Stephanie,William,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to read.
+
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who was threatened to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to read.\n\nQuestion: Who threatened someone to read?\nAnswer: Stephanie\nQuestion: Who was threatened to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(S')"
+243,jurassic-large,subject-control,Stephanie,William,False,threatened,to run,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to run.
+
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who was threatened to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to run.\n\nQuestion: Who threatened someone to run?\nAnswer: Stephanie\nQuestion: Who was threatened to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', 'william\n')"
+244,jurassic-large,subject-control,Stephanie,William,False,threatened,to call,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to call.
+
+Question: Who was threatened to call?
+Answer: William
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to call.\n\nQuestion: Who was threatened to call?\nAnswer: William\nQuestion: Who threatened someone to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(William')"
+245,jurassic-large,subject-control,Stephanie,William,False,offered,to come,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to come.
+
+Question: Who was offered to come?
+Answer: William
+Question: Who offered someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to come.\n\nQuestion: Who was offered to come?\nAnswer: William\nQuestion: Who offered someone to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', 'william\n')"
+246,jurassic-large,subject-control,Stephanie,William,False,offered,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to go.
+
+Question: Who was offered to go?
+Answer: William
+Question: Who offered someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to go.\n\nQuestion: Who was offered to go?\nAnswer: William\nQuestion: Who offered someone to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', 'william\n')"
+247,jurassic-large,subject-control,Stephanie,William,False,offered,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered William to read.
+
+Question: Who offered someone to read?
+Answer: Stephanie
+Question: Who was offered to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to read.\n\nQuestion: Who offered someone to read?\nAnswer: Stephanie\nQuestion: Who was offered to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Both')"
+248,jurassic-large,subject-control,Stephanie,William,False,offered,to run,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to run.
+
+Question: Who was offered to run?
+Answer: William
+Question: Who offered someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to run.\n\nQuestion: Who was offered to run?\nAnswer: William\nQuestion: Who offered someone to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', 'william\n')"
+249,jurassic-large,subject-control,Stephanie,William,False,offered,to call,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to call.
+
+Question: Who was offered to call?
+Answer: William
+Question: Who offered someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to call.\n\nQuestion: Who was offered to call?\nAnswer: William\nQuestion: Who offered someone to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(William')"
+250,jurassic-large,subject-control,William,Avery,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Avery to come.
+
+Question: Who threatened someone to come?
+Answer: William
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to come.\n\nQuestion: Who threatened someone to come?\nAnswer: William\nQuestion: Who was threatened to come?\nAnswer: Avery\nQuestion: Who came?\nAnswer: ', '(William')"
+251,jurassic-large,subject-control,William,Avery,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Avery to go.
+
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who threatened someone to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to go.\n\nQuestion: Who was threatened to go?\nAnswer: Avery\nQuestion: Who threatened someone to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(William')"
+252,jurassic-large,subject-control,William,Avery,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Avery to read.
+
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to read.\n\nQuestion: Who was threatened to read?\nAnswer: Avery\nQuestion: Who threatened someone to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(No')"
+253,jurassic-large,subject-control,William,Avery,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Avery to run.
+
+Question: Who threatened someone to run?
+Answer: William
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to run.\n\nQuestion: Who threatened someone to run?\nAnswer: William\nQuestion: Who was threatened to run?\nAnswer: Avery\nQuestion: Who ran?\nAnswer: ', '(William')"
+254,jurassic-large,subject-control,William,Avery,False,threatened,to call,William,Avery,"You will be given a context and a question.
+Context: William threatened Avery to call.
+
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to call.\n\nQuestion: Who was threatened to call?\nAnswer: Avery\nQuestion: Who threatened someone to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(A')"
+255,jurassic-large,subject-control,William,Avery,False,offered,to come,William,Avery,"You will be given a context and a question.
+Context: William offered Avery to come.
+
+Question: Who was offered to come?
+Answer: Avery
+Question: Who offered someone to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to come.\n\nQuestion: Who was offered to come?\nAnswer: Avery\nQuestion: Who offered someone to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(A')"
+256,jurassic-large,subject-control,William,Avery,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Avery to go.
+
+Question: Who offered someone to go?
+Answer: William
+Question: Who was offered to go?
+Answer: Avery
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to go.\n\nQuestion: Who offered someone to go?\nAnswer: William\nQuestion: Who was offered to go?\nAnswer: Avery\nQuestion: Who went?\nAnswer: ', '(William')"
+257,jurassic-large,subject-control,William,Avery,False,offered,to read,William,Avery,"You will be given a context and a question.
+Context: William offered Avery to read.
+
+Question: Who was offered to read?
+Answer: Avery
+Question: Who offered someone to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to read.\n\nQuestion: Who was offered to read?\nAnswer: Avery\nQuestion: Who offered someone to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(A')"
+258,jurassic-large,subject-control,William,Avery,False,offered,to run,William,Avery,"You will be given a context and a question.
+Context: William offered Avery to run.
+
+Question: Who was offered to run?
+Answer: Avery
+Question: Who offered someone to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to run.\n\nQuestion: Who was offered to run?\nAnswer: Avery\nQuestion: Who offered someone to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(A')"
+259,jurassic-large,subject-control,William,Avery,False,offered,to call,William,William,"You will be given a context and a question.
+Context: William offered Avery to call.
+
+Question: Who offered someone to call?
+Answer: William
+Question: Who was offered to call?
+Answer: Avery
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to call.\n\nQuestion: Who offered someone to call?\nAnswer: William\nQuestion: Who was offered to call?\nAnswer: Avery\nQuestion: Who called?\nAnswer: ', '(William')"
+260,jurassic-large,subject-control,William,Casey,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Casey to come.
+
+Question: Who threatened someone to come?
+Answer: William
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to come.\n\nQuestion: Who threatened someone to come?\nAnswer: William\nQuestion: Who was threatened to come?\nAnswer: Casey\nQuestion: Who came?\nAnswer: ', '(William')"
+261,jurassic-large,subject-control,William,Casey,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Casey to go.
+
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who threatened someone to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to go.\n\nQuestion: Who was threatened to go?\nAnswer: Casey\nQuestion: Who threatened someone to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(William')"
+262,jurassic-large,subject-control,William,Casey,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Casey to read.
+
+Question: Who threatened someone to read?
+Answer: William
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to read.\n\nQuestion: Who threatened someone to read?\nAnswer: William\nQuestion: Who was threatened to read?\nAnswer: Casey\nQuestion: Who read?\nAnswer: ', '(William')"
+263,jurassic-large,subject-control,William,Casey,False,threatened,to run,William,other,"You will be given a context and a question.
+Context: William threatened Casey to run.
+
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who threatened someone to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to run.\n\nQuestion: Who was threatened to run?\nAnswer: Casey\nQuestion: Who threatened someone to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(No')"
+264,jurassic-large,subject-control,William,Casey,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Casey to call.
+
+Question: Who threatened someone to call?
+Answer: William
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to call.\n\nQuestion: Who threatened someone to call?\nAnswer: William\nQuestion: Who was threatened to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(William')"
+265,jurassic-large,subject-control,William,Casey,False,offered,to come,William,William,"You will be given a context and a question.
+Context: William offered Casey to come.
+
+Question: Who was offered to come?
+Answer: Casey
+Question: Who offered someone to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to come.\n\nQuestion: Who was offered to come?\nAnswer: Casey\nQuestion: Who offered someone to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(William')"
+266,jurassic-large,subject-control,William,Casey,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Casey to go.
+
+Question: Who offered someone to go?
+Answer: William
+Question: Who was offered to go?
+Answer: Casey
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to go.\n\nQuestion: Who offered someone to go?\nAnswer: William\nQuestion: Who was offered to go?\nAnswer: Casey\nQuestion: Who went?\nAnswer: ', '(William')"
+267,jurassic-large,subject-control,William,Casey,False,offered,to read,William,other,"You will be given a context and a question.
+Context: William offered Casey to read.
+
+Question: Who was offered to read?
+Answer: Casey
+Question: Who offered someone to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to read.\n\nQuestion: Who was offered to read?\nAnswer: Casey\nQuestion: Who offered someone to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(No')"
+268,jurassic-large,subject-control,William,Casey,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Casey to run.
+
+Question: Who offered someone to run?
+Answer: William
+Question: Who was offered to run?
+Answer: Casey
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to run.\n\nQuestion: Who offered someone to run?\nAnswer: William\nQuestion: Who was offered to run?\nAnswer: Casey\nQuestion: Who ran?\nAnswer: ', '(William')"
+269,jurassic-large,subject-control,William,Casey,False,offered,to call,William,William,"You will be given a context and a question.
+Context: William offered Casey to call.
+
+Question: Who offered someone to call?
+Answer: William
+Question: Who was offered to call?
+Answer: Casey
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to call.\n\nQuestion: Who offered someone to call?\nAnswer: William\nQuestion: Who was offered to call?\nAnswer: Casey\nQuestion: Who called?\nAnswer: ', '(William')"
+270,jurassic-large,subject-control,William,Joseph,False,threatened,to come,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: William
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to come.\n\nQuestion: Who threatened someone to come?\nAnswer: William\nQuestion: Who was threatened to come?\nAnswer: Joseph\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+271,jurassic-large,subject-control,William,Joseph,False,threatened,to go,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to go.\n\nQuestion: Who was threatened to go?\nAnswer: Joseph\nQuestion: Who threatened someone to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+272,jurassic-large,subject-control,William,Joseph,False,threatened,to read,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to read.
+
+Question: Who threatened someone to read?
+Answer: William
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to read.\n\nQuestion: Who threatened someone to read?\nAnswer: William\nQuestion: Who was threatened to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+273,jurassic-large,subject-control,William,Joseph,False,threatened,to run,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to run.
+
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who threatened someone to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to run.\n\nQuestion: Who was threatened to run?\nAnswer: Joseph\nQuestion: Who threatened someone to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+274,jurassic-large,subject-control,William,Joseph,False,threatened,to call,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to call.
+
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to call.\n\nQuestion: Who was threatened to call?\nAnswer: Joseph\nQuestion: Who threatened someone to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+275,jurassic-large,subject-control,William,Joseph,False,offered,to come,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to come.
+
+Question: Who was offered to come?
+Answer: Joseph
+Question: Who offered someone to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to come.\n\nQuestion: Who was offered to come?\nAnswer: Joseph\nQuestion: Who offered someone to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(Joseph')"
+276,jurassic-large,subject-control,William,Joseph,False,offered,to go,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to go.
+
+Question: Who offered someone to go?
+Answer: William
+Question: Who was offered to go?
+Answer: Joseph
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to go.\n\nQuestion: Who offered someone to go?\nAnswer: William\nQuestion: Who was offered to go?\nAnswer: Joseph\nQuestion: Who went?\nAnswer: ', '(Joseph')"
+277,jurassic-large,subject-control,William,Joseph,False,offered,to read,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to read.
+
+Question: Who offered someone to read?
+Answer: William
+Question: Who was offered to read?
+Answer: Joseph
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to read.\n\nQuestion: Who offered someone to read?\nAnswer: William\nQuestion: Who was offered to read?\nAnswer: Joseph\nQuestion: Who read?\nAnswer: ', '(Joseph')"
+278,jurassic-large,subject-control,William,Joseph,False,offered,to run,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to run.
+
+Question: Who offered someone to run?
+Answer: William
+Question: Who was offered to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to run.\n\nQuestion: Who offered someone to run?\nAnswer: William\nQuestion: Who was offered to run?\nAnswer: Joseph\nQuestion: Who ran?\nAnswer: ', '(Joseph')"
+279,jurassic-large,subject-control,William,Joseph,False,offered,to call,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to call.
+
+Question: Who offered someone to call?
+Answer: William
+Question: Who was offered to call?
+Answer: Joseph
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to call.\n\nQuestion: Who offered someone to call?\nAnswer: William\nQuestion: Who was offered to call?\nAnswer: Joseph\nQuestion: Who called?\nAnswer: ', '(Joseph')"
+280,jurassic-large,subject-control,William,Nicole,False,threatened,to come,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to come.
+
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who threatened someone to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to come.\n\nQuestion: Who was threatened to come?\nAnswer: Nicole\nQuestion: Who threatened someone to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+281,jurassic-large,subject-control,William,Nicole,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to go.\n\nQuestion: Who threatened someone to go?\nAnswer: William\nQuestion: Who was threatened to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', 'william\n')"
+282,jurassic-large,subject-control,William,Nicole,False,threatened,to read,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to read.\n\nQuestion: Who was threatened to read?\nAnswer: Nicole\nQuestion: Who threatened someone to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+283,jurassic-large,subject-control,William,Nicole,False,threatened,to run,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to run.
+
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who threatened someone to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to run.\n\nQuestion: Who was threatened to run?\nAnswer: Nicole\nQuestion: Who threatened someone to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+284,jurassic-large,subject-control,William,Nicole,False,threatened,to call,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to call.
+
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to call.\n\nQuestion: Who was threatened to call?\nAnswer: Nicole\nQuestion: Who threatened someone to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+285,jurassic-large,subject-control,William,Nicole,False,offered,to come,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to come.
+
+Question: Who offered someone to come?
+Answer: William
+Question: Who was offered to come?
+Answer: Nicole
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to come.\n\nQuestion: Who offered someone to come?\nAnswer: William\nQuestion: Who was offered to come?\nAnswer: Nicole\nQuestion: Who came?\nAnswer: ', '(Nicole')"
+286,jurassic-large,subject-control,William,Nicole,False,offered,to go,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to go.
+
+Question: Who offered someone to go?
+Answer: William
+Question: Who was offered to go?
+Answer: Nicole
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to go.\n\nQuestion: Who offered someone to go?\nAnswer: William\nQuestion: Who was offered to go?\nAnswer: Nicole\nQuestion: Who went?\nAnswer: ', '(Nicole')"
+287,jurassic-large,subject-control,William,Nicole,False,offered,to read,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to read.
+
+Question: Who was offered to read?
+Answer: Nicole
+Question: Who offered someone to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to read.\n\nQuestion: Who was offered to read?\nAnswer: Nicole\nQuestion: Who offered someone to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(Nicole')"
+288,jurassic-large,subject-control,William,Nicole,False,offered,to run,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to run.
+
+Question: Who offered someone to run?
+Answer: William
+Question: Who was offered to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to run.\n\nQuestion: Who offered someone to run?\nAnswer: William\nQuestion: Who was offered to run?\nAnswer: Nicole\nQuestion: Who ran?\nAnswer: ', '(Nicole')"
+289,jurassic-large,subject-control,William,Nicole,False,offered,to call,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to call.
+
+Question: Who was offered to call?
+Answer: Nicole
+Question: Who offered someone to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to call.\n\nQuestion: Who was offered to call?\nAnswer: Nicole\nQuestion: Who offered someone to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(Nicole')"
+290,jurassic-large,subject-control,William,Stephanie,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to come.
+
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who threatened someone to come?
+Answer: William
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to come.\n\nQuestion: Who was threatened to come?\nAnswer: Stephanie\nQuestion: Who threatened someone to come?\nAnswer: William\nQuestion: Who came?\nAnswer: ', '(S')"
+291,jurassic-large,subject-control,William,Stephanie,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to go.\n\nQuestion: Who threatened someone to go?\nAnswer: William\nQuestion: Who was threatened to go?\nAnswer: Stephanie\nQuestion: Who went?\nAnswer: ', 'william\n')"
+292,jurassic-large,subject-control,William,Stephanie,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to read.
+
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to read.\n\nQuestion: Who was threatened to read?\nAnswer: Stephanie\nQuestion: Who threatened someone to read?\nAnswer: William\nQuestion: Who read?\nAnswer: ', '(No')"
+293,jurassic-large,subject-control,William,Stephanie,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to run.
+
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who threatened someone to run?
+Answer: William
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to run.\n\nQuestion: Who was threatened to run?\nAnswer: Stephanie\nQuestion: Who threatened someone to run?\nAnswer: William\nQuestion: Who ran?\nAnswer: ', 'william\n')"
+294,jurassic-large,subject-control,William,Stephanie,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to call.
+
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to call.\n\nQuestion: Who was threatened to call?\nAnswer: Stephanie\nQuestion: Who threatened someone to call?\nAnswer: William\nQuestion: Who called?\nAnswer: ', '(No')"
+295,jurassic-large,subject-control,William,Stephanie,False,offered,to come,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to come.
+
+Question: Who offered someone to come?
+Answer: William
+Question: Who was offered to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to come.\n\nQuestion: Who offered someone to come?\nAnswer: William\nQuestion: Who was offered to come?\nAnswer: Stephanie\nQuestion: Who came?\nAnswer: ', '(William')"
+296,jurassic-large,subject-control,William,Stephanie,False,offered,to go,William,other,"You will be given a context and a question.
+Context: William offered Stephanie to go.
+
+Question: Who was offered to go?
+Answer: Stephanie
+Question: Who offered someone to go?
+Answer: William
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to go.\n\nQuestion: Who was offered to go?\nAnswer: Stephanie\nQuestion: Who offered someone to go?\nAnswer: William\nQuestion: Who went?\nAnswer: ', '(S')"
+297,jurassic-large,subject-control,William,Stephanie,False,offered,to read,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to read.
+
+Question: Who offered someone to read?
+Answer: William
+Question: Who was offered to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to read.\n\nQuestion: Who offered someone to read?\nAnswer: William\nQuestion: Who was offered to read?\nAnswer: Stephanie\nQuestion: Who read?\nAnswer: ', '(William')"
+298,jurassic-large,subject-control,William,Stephanie,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to run.
+
+Question: Who offered someone to run?
+Answer: William
+Question: Who was offered to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to run.\n\nQuestion: Who offered someone to run?\nAnswer: William\nQuestion: Who was offered to run?\nAnswer: Stephanie\nQuestion: Who ran?\nAnswer: ', '(William')"
+299,jurassic-large,subject-control,William,Stephanie,False,offered,to call,William,other,"You will be given a context and a question.
+Context: William offered Stephanie to call.
+
+Question: Who offered someone to call?
+Answer: William
+Question: Who was offered to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to call.\n\nQuestion: Who offered someone to call?\nAnswer: William\nQuestion: Who was offered to call?\nAnswer: Stephanie\nQuestion: Who called?\nAnswer: ', '(S')"

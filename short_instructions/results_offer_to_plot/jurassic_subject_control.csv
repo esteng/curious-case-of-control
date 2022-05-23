@@ -1,0 +1,751 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,jurassic-large,subject-control,Avery,Casey,False,offered,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to come.
+
+Question: Who came?
+Answer: ", '(A'),5.0
+1,jurassic-large,subject-control,Avery,Casey,False,offered,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to go.
+
+Question: Who went?
+Answer: ", '(A'),6.0
+2,jurassic-large,subject-control,Avery,Casey,False,offered,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to read.
+
+Question: Who read?
+Answer: ", '(A'),7.0
+3,jurassic-large,subject-control,Avery,Casey,False,offered,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to run.
+
+Question: Who ran?
+Answer: ", '(A'),8.0
+4,jurassic-large,subject-control,Avery,Casey,False,offered,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to call.
+
+Question: Who called?
+Answer: ", '(A'),9.0
+5,jurassic-large,subject-control,Avery,Joseph,False,offered,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),15.0
+6,jurassic-large,subject-control,Avery,Joseph,False,offered,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),16.0
+7,jurassic-large,subject-control,Avery,Joseph,False,offered,to read,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),17.0
+8,jurassic-large,subject-control,Avery,Joseph,False,offered,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),18.0
+9,jurassic-large,subject-control,Avery,Joseph,False,offered,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),19.0
+10,jurassic-large,subject-control,Avery,Nicole,False,offered,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),25.0
+11,jurassic-large,subject-control,Avery,Nicole,False,offered,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),26.0
+12,jurassic-large,subject-control,Avery,Nicole,False,offered,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),27.0
+13,jurassic-large,subject-control,Avery,Nicole,False,offered,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),28.0
+14,jurassic-large,subject-control,Avery,Nicole,False,offered,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery offered Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),29.0
+15,jurassic-large,subject-control,Avery,Stephanie,False,offered,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Stephanie to come.
+
+Question: Who came?
+Answer: ", '(A'),35.0
+16,jurassic-large,subject-control,Avery,Stephanie,False,offered,to go,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to go.
+
+Question: Who went?
+Answer: ", '(S'),36.0
+17,jurassic-large,subject-control,Avery,Stephanie,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered Stephanie to read.
+
+Question: Who read?
+Answer: ", '(S'),37.0
+18,jurassic-large,subject-control,Avery,Stephanie,False,offered,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(A'),38.0
+19,jurassic-large,subject-control,Avery,Stephanie,False,offered,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Stephanie to call.
+
+Question: Who called?
+Answer: ", '(A'),39.0
+20,jurassic-large,subject-control,Avery,William,False,offered,to come,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to come.
+
+Question: Who came?
+Answer: ", '(William'),45.0
+21,jurassic-large,subject-control,Avery,William,False,offered,to go,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to go.
+
+Question: Who went?
+Answer: ", '(William'),46.0
+22,jurassic-large,subject-control,Avery,William,False,offered,to read,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to read.
+
+Question: Who read?
+Answer: ", '(William'),47.0
+23,jurassic-large,subject-control,Avery,William,False,offered,to run,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to run.
+
+Question: Who ran?
+Answer: ", '(William'),48.0
+24,jurassic-large,subject-control,Avery,William,False,offered,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered William to call.
+
+Question: Who called?
+Answer: ", '(A'),49.0
+25,jurassic-large,subject-control,Casey,Avery,False,offered,to come,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to come.
+
+Question: Who came?
+Answer: ", '(A'),55.0
+26,jurassic-large,subject-control,Casey,Avery,False,offered,to go,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to go.
+
+Question: Who went?
+Answer: ", '(A'),56.0
+27,jurassic-large,subject-control,Casey,Avery,False,offered,to read,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to read.
+
+Question: Who read?
+Answer: ", '(A'),57.0
+28,jurassic-large,subject-control,Casey,Avery,False,offered,to run,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to run.
+
+Question: Who ran?
+Answer: ", '(A'),58.0
+29,jurassic-large,subject-control,Casey,Avery,False,offered,to call,Casey,Avery,"You will be given a context and a question.
+Context: Casey offered Avery to call.
+
+Question: Who called?
+Answer: ", '(A'),59.0
+30,jurassic-large,subject-control,Casey,Joseph,False,offered,to come,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),65.0
+31,jurassic-large,subject-control,Casey,Joseph,False,offered,to go,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),66.0
+32,jurassic-large,subject-control,Casey,Joseph,False,offered,to read,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),67.0
+33,jurassic-large,subject-control,Casey,Joseph,False,offered,to run,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),68.0
+34,jurassic-large,subject-control,Casey,Joseph,False,offered,to call,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),69.0
+35,jurassic-large,subject-control,Casey,Nicole,False,offered,to come,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),75.0
+36,jurassic-large,subject-control,Casey,Nicole,False,offered,to go,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),76.0
+37,jurassic-large,subject-control,Casey,Nicole,False,offered,to read,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),77.0
+38,jurassic-large,subject-control,Casey,Nicole,False,offered,to run,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),78.0
+39,jurassic-large,subject-control,Casey,Nicole,False,offered,to call,Casey,Nicole,"You will be given a context and a question.
+Context: Casey offered Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),79.0
+40,jurassic-large,subject-control,Casey,Stephanie,False,offered,to come,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to come.
+
+Question: Who came?
+Answer: ", '(S'),85.0
+41,jurassic-large,subject-control,Casey,Stephanie,False,offered,to go,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to go.
+
+Question: Who went?
+Answer: ", '(S'),86.0
+42,jurassic-large,subject-control,Casey,Stephanie,False,offered,to read,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to read.
+
+Question: Who read?
+Answer: ", '(S'),87.0
+43,jurassic-large,subject-control,Casey,Stephanie,False,offered,to run,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(S'),88.0
+44,jurassic-large,subject-control,Casey,Stephanie,False,offered,to call,Casey,other,"You will be given a context and a question.
+Context: Casey offered Stephanie to call.
+
+Question: Who called?
+Answer: ", '(S'),89.0
+45,jurassic-large,subject-control,Casey,William,False,offered,to come,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to come.
+
+Question: Who came?
+Answer: ", '(William'),95.0
+46,jurassic-large,subject-control,Casey,William,False,offered,to go,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to go.
+
+Question: Who went?
+Answer: ", '(William'),96.0
+47,jurassic-large,subject-control,Casey,William,False,offered,to read,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to read.
+
+Question: Who read?
+Answer: ", '(William'),97.0
+48,jurassic-large,subject-control,Casey,William,False,offered,to run,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to run.
+
+Question: Who ran?
+Answer: ", '(William'),98.0
+49,jurassic-large,subject-control,Casey,William,False,offered,to call,Casey,William,"You will be given a context and a question.
+Context: Casey offered William to call.
+
+Question: Who called?
+Answer: ", '(William'),99.0
+50,jurassic-large,subject-control,Joseph,Avery,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),105.0
+51,jurassic-large,subject-control,Joseph,Avery,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),106.0
+52,jurassic-large,subject-control,Joseph,Avery,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),107.0
+53,jurassic-large,subject-control,Joseph,Avery,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),108.0
+54,jurassic-large,subject-control,Joseph,Avery,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),109.0
+55,jurassic-large,subject-control,Joseph,Casey,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),115.0
+56,jurassic-large,subject-control,Joseph,Casey,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),116.0
+57,jurassic-large,subject-control,Joseph,Casey,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),117.0
+58,jurassic-large,subject-control,Joseph,Casey,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),118.0
+59,jurassic-large,subject-control,Joseph,Casey,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),119.0
+60,jurassic-large,subject-control,Joseph,Nicole,False,offered,to come,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),125.0
+61,jurassic-large,subject-control,Joseph,Nicole,False,offered,to go,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),126.0
+62,jurassic-large,subject-control,Joseph,Nicole,False,offered,to read,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),127.0
+63,jurassic-large,subject-control,Joseph,Nicole,False,offered,to run,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),128.0
+64,jurassic-large,subject-control,Joseph,Nicole,False,offered,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph offered Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),129.0
+65,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),135.0
+66,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),136.0
+67,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),137.0
+68,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),138.0
+69,jurassic-large,subject-control,Joseph,Stephanie,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),139.0
+70,jurassic-large,subject-control,Joseph,William,False,offered,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),145.0
+71,jurassic-large,subject-control,Joseph,William,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),146.0
+72,jurassic-large,subject-control,Joseph,William,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),147.0
+73,jurassic-large,subject-control,Joseph,William,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),148.0
+74,jurassic-large,subject-control,Joseph,William,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),149.0
+75,jurassic-large,subject-control,Nicole,Avery,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),155.0
+76,jurassic-large,subject-control,Nicole,Avery,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),156.0
+77,jurassic-large,subject-control,Nicole,Avery,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),157.0
+78,jurassic-large,subject-control,Nicole,Avery,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),158.0
+79,jurassic-large,subject-control,Nicole,Avery,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Avery to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),159.0
+80,jurassic-large,subject-control,Nicole,Casey,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),165.0
+81,jurassic-large,subject-control,Nicole,Casey,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),166.0
+82,jurassic-large,subject-control,Nicole,Casey,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),167.0
+83,jurassic-large,subject-control,Nicole,Casey,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),168.0
+84,jurassic-large,subject-control,Nicole,Casey,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Casey to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),169.0
+85,jurassic-large,subject-control,Nicole,Joseph,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),175.0
+86,jurassic-large,subject-control,Nicole,Joseph,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),176.0
+87,jurassic-large,subject-control,Nicole,Joseph,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),177.0
+88,jurassic-large,subject-control,Nicole,Joseph,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),178.0
+89,jurassic-large,subject-control,Nicole,Joseph,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Joseph to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),179.0
+90,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Stephanie to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),185.0
+91,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Stephanie to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),186.0
+92,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Stephanie to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),187.0
+93,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),188.0
+94,jurassic-large,subject-control,Nicole,Stephanie,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered Stephanie to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),189.0
+95,jurassic-large,subject-control,Nicole,William,False,offered,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),195.0
+96,jurassic-large,subject-control,Nicole,William,False,offered,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),196.0
+97,jurassic-large,subject-control,Nicole,William,False,offered,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),197.0
+98,jurassic-large,subject-control,Nicole,William,False,offered,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),198.0
+99,jurassic-large,subject-control,Nicole,William,False,offered,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole offered William to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),199.0
+100,jurassic-large,subject-control,Stephanie,Avery,False,offered,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to come.
+
+Question: Who came?
+Answer: ", '(S'),205.0
+101,jurassic-large,subject-control,Stephanie,Avery,False,offered,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to go.
+
+Question: Who went?
+Answer: ", '(S'),206.0
+102,jurassic-large,subject-control,Stephanie,Avery,False,offered,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to read.
+
+Question: Who read?
+Answer: ", '(S'),207.0
+103,jurassic-large,subject-control,Stephanie,Avery,False,offered,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to run.
+
+Question: Who ran?
+Answer: ", '(S'),208.0
+104,jurassic-large,subject-control,Stephanie,Avery,False,offered,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Avery to call.
+
+Question: Who called?
+Answer: ", '(S'),209.0
+105,jurassic-large,subject-control,Stephanie,Casey,False,offered,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to come.
+
+Question: Who came?
+Answer: ", '(S'),215.0
+106,jurassic-large,subject-control,Stephanie,Casey,False,offered,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to go.
+
+Question: Who went?
+Answer: ", '(S'),216.0
+107,jurassic-large,subject-control,Stephanie,Casey,False,offered,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to read.
+
+Question: Who read?
+Answer: ", '(S'),217.0
+108,jurassic-large,subject-control,Stephanie,Casey,False,offered,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to run.
+
+Question: Who ran?
+Answer: ", '(S'),218.0
+109,jurassic-large,subject-control,Stephanie,Casey,False,offered,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Casey to call.
+
+Question: Who called?
+Answer: ", '(S'),219.0
+110,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to come,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),225.0
+111,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),226.0
+112,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to read,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),227.0
+113,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to run,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),228.0
+114,jurassic-large,subject-control,Stephanie,Joseph,False,offered,to call,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),229.0
+115,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to come,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),235.0
+116,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to go,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),236.0
+117,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to read,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),237.0
+118,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to run,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),238.0
+119,jurassic-large,subject-control,Stephanie,Nicole,False,offered,to call,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie offered Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),239.0
+120,jurassic-large,subject-control,Stephanie,William,False,offered,to come,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to come.
+
+Question: Who came?
+Answer: ", '(William'),245.0
+121,jurassic-large,subject-control,Stephanie,William,False,offered,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to go.
+
+Question: Who went?
+Answer: ", '(William'),246.0
+122,jurassic-large,subject-control,Stephanie,William,False,offered,to read,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to read.
+
+Question: Who read?
+Answer: ", '(William'),247.0
+123,jurassic-large,subject-control,Stephanie,William,False,offered,to run,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to run.
+
+Question: Who ran?
+Answer: ", '(William'),248.0
+124,jurassic-large,subject-control,Stephanie,William,False,offered,to call,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to call.
+
+Question: Who called?
+Answer: ", '(William'),249.0
+125,jurassic-large,subject-control,William,Avery,False,offered,to come,William,William,"You will be given a context and a question.
+Context: William offered Avery to come.
+
+Question: Who came?
+Answer: ", '(William'),255.0
+126,jurassic-large,subject-control,William,Avery,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Avery to go.
+
+Question: Who went?
+Answer: ", '(William'),256.0
+127,jurassic-large,subject-control,William,Avery,False,offered,to read,William,William,"You will be given a context and a question.
+Context: William offered Avery to read.
+
+Question: Who read?
+Answer: ", '(William'),257.0
+128,jurassic-large,subject-control,William,Avery,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Avery to run.
+
+Question: Who ran?
+Answer: ", '(William'),258.0
+129,jurassic-large,subject-control,William,Avery,False,offered,to call,William,Avery,"You will be given a context and a question.
+Context: William offered Avery to call.
+
+Question: Who called?
+Answer: ", '(A'),259.0
+130,jurassic-large,subject-control,William,Casey,False,offered,to come,William,William,"You will be given a context and a question.
+Context: William offered Casey to come.
+
+Question: Who came?
+Answer: ", '(William'),265.0
+131,jurassic-large,subject-control,William,Casey,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Casey to go.
+
+Question: Who went?
+Answer: ", '(William'),266.0
+132,jurassic-large,subject-control,William,Casey,False,offered,to read,William,William,"You will be given a context and a question.
+Context: William offered Casey to read.
+
+Question: Who read?
+Answer: ", '(William'),267.0
+133,jurassic-large,subject-control,William,Casey,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Casey to run.
+
+Question: Who ran?
+Answer: ", '(William'),268.0
+134,jurassic-large,subject-control,William,Casey,False,offered,to call,William,William,"You will be given a context and a question.
+Context: William offered Casey to call.
+
+Question: Who called?
+Answer: ", '(William'),269.0
+135,jurassic-large,subject-control,William,Joseph,False,offered,to come,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),275.0
+136,jurassic-large,subject-control,William,Joseph,False,offered,to go,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),276.0
+137,jurassic-large,subject-control,William,Joseph,False,offered,to read,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),277.0
+138,jurassic-large,subject-control,William,Joseph,False,offered,to run,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),278.0
+139,jurassic-large,subject-control,William,Joseph,False,offered,to call,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),279.0
+140,jurassic-large,subject-control,William,Nicole,False,offered,to come,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),285.0
+141,jurassic-large,subject-control,William,Nicole,False,offered,to go,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),286.0
+142,jurassic-large,subject-control,William,Nicole,False,offered,to read,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),287.0
+143,jurassic-large,subject-control,William,Nicole,False,offered,to run,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),288.0
+144,jurassic-large,subject-control,William,Nicole,False,offered,to call,William,Nicole,"You will be given a context and a question.
+Context: William offered Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),289.0
+145,jurassic-large,subject-control,William,Stephanie,False,offered,to come,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to come.
+
+Question: Who came?
+Answer: ", '(William'),295.0
+146,jurassic-large,subject-control,William,Stephanie,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to go.
+
+Question: Who went?
+Answer: ", '(William'),296.0
+147,jurassic-large,subject-control,William,Stephanie,False,offered,to read,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to read.
+
+Question: Who read?
+Answer: ", '(William'),297.0
+148,jurassic-large,subject-control,William,Stephanie,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(William'),298.0
+149,jurassic-large,subject-control,William,Stephanie,False,offered,to call,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to call.
+
+Question: Who called?
+Answer: ", '(William'),299.0

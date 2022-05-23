@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,gpt3,subject-control,Avery,Casey,False,threatened,to come,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+1,gpt3,subject-control,Avery,Casey,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+2,gpt3,subject-control,Avery,Casey,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+3,gpt3,subject-control,Avery,Casey,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+4,gpt3,subject-control,Avery,Casey,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+5,gpt3,subject-control,Avery,Casey,False,offered,to come,Avery,Casey,"You will be given a context and a question.
+Context: Avery offered Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+6,gpt3,subject-control,Avery,Casey,False,offered,to go,Avery,other,"You will be given a context and a question.
+Context: Avery offered Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+7,gpt3,subject-control,Avery,Casey,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+8,gpt3,subject-control,Avery,Casey,False,offered,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+9,gpt3,subject-control,Avery,Casey,False,offered,to call,Avery,other,"You will be given a context and a question.
+Context: Avery offered Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+10,gpt3,subject-control,Avery,Joseph,False,threatened,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: ', 'Joseph')"
+11,gpt3,subject-control,Avery,Joseph,False,threatened,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+12,gpt3,subject-control,Avery,Joseph,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+13,gpt3,subject-control,Avery,Joseph,False,threatened,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+14,gpt3,subject-control,Avery,Joseph,False,threatened,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: ', 'Joseph')"
+15,gpt3,subject-control,Avery,Joseph,False,offered,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to come.\n\nQuestion: Who came?\nAnswer: ', 'Joseph')"
+16,gpt3,subject-control,Avery,Joseph,False,offered,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+17,gpt3,subject-control,Avery,Joseph,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+18,gpt3,subject-control,Avery,Joseph,False,offered,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery offered Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+19,gpt3,subject-control,Avery,Joseph,False,offered,to call,Avery,other,"You will be given a context and a question.
+Context: Avery offered Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+20,gpt3,subject-control,Avery,Nicole,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: ', 'A')"
+21,gpt3,subject-control,Avery,Nicole,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+22,gpt3,subject-control,Avery,Nicole,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: ', 'A')"
+23,gpt3,subject-control,Avery,Nicole,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+24,gpt3,subject-control,Avery,Nicole,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+25,gpt3,subject-control,Avery,Nicole,False,offered,to come,Avery,other,"You will be given a context and a question.
+Context: Avery offered Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to come.\n\nQuestion: Who came?\nAnswer: ', 'Nic')"
+26,gpt3,subject-control,Avery,Nicole,False,offered,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+27,gpt3,subject-control,Avery,Nicole,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+28,gpt3,subject-control,Avery,Nicole,False,offered,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+29,gpt3,subject-control,Avery,Nicole,False,offered,to call,Avery,other,"You will be given a context and a question.
+Context: Avery offered Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+30,gpt3,subject-control,Avery,Stephanie,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'A')"
+31,gpt3,subject-control,Avery,Stephanie,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+32,gpt3,subject-control,Avery,Stephanie,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'A')"
+33,gpt3,subject-control,Avery,Stephanie,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+34,gpt3,subject-control,Avery,Stephanie,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'A')"
+35,gpt3,subject-control,Avery,Stephanie,False,offered,to come,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery offered Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+36,gpt3,subject-control,Avery,Stephanie,False,offered,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery offered Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+37,gpt3,subject-control,Avery,Stephanie,False,offered,to read,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery offered Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+38,gpt3,subject-control,Avery,Stephanie,False,offered,to run,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery offered Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+39,gpt3,subject-control,Avery,Stephanie,False,offered,to call,Avery,Stephanie,"You will be given a context and a question.
+Context: Avery offered Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+40,gpt3,subject-control,Avery,William,False,threatened,to come,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to come.\n\nQuestion: Who came?\nAnswer: ', 'William')"
+41,gpt3,subject-control,Avery,William,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+42,gpt3,subject-control,Avery,William,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+43,gpt3,subject-control,Avery,William,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+44,gpt3,subject-control,Avery,William,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery threatened William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+45,gpt3,subject-control,Avery,William,False,offered,to come,Avery,other,"You will be given a context and a question.
+Context: Avery offered William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+46,gpt3,subject-control,Avery,William,False,offered,to go,Avery,other,"You will be given a context and a question.
+Context: Avery offered William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+47,gpt3,subject-control,Avery,William,False,offered,to read,Avery,other,"You will be given a context and a question.
+Context: Avery offered William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+48,gpt3,subject-control,Avery,William,False,offered,to run,Avery,William,"You will be given a context and a question.
+Context: Avery offered William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+49,gpt3,subject-control,Avery,William,False,offered,to call,Avery,other,"You will be given a context and a question.
+Context: Avery offered William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Avery offered William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+50,gpt3,subject-control,Casey,Avery,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+51,gpt3,subject-control,Casey,Avery,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+52,gpt3,subject-control,Casey,Avery,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+53,gpt3,subject-control,Casey,Avery,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+54,gpt3,subject-control,Casey,Avery,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+55,gpt3,subject-control,Casey,Avery,False,offered,to come,Casey,other,"You will be given a context and a question.
+Context: Casey offered Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+56,gpt3,subject-control,Casey,Avery,False,offered,to go,Casey,other,"You will be given a context and a question.
+Context: Casey offered Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+57,gpt3,subject-control,Casey,Avery,False,offered,to read,Casey,other,"You will be given a context and a question.
+Context: Casey offered Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+58,gpt3,subject-control,Casey,Avery,False,offered,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey offered Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+59,gpt3,subject-control,Casey,Avery,False,offered,to call,Casey,other,"You will be given a context and a question.
+Context: Casey offered Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+60,gpt3,subject-control,Casey,Joseph,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+61,gpt3,subject-control,Casey,Joseph,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+62,gpt3,subject-control,Casey,Joseph,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+63,gpt3,subject-control,Casey,Joseph,False,threatened,to run,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+64,gpt3,subject-control,Casey,Joseph,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+65,gpt3,subject-control,Casey,Joseph,False,offered,to come,Casey,other,"You will be given a context and a question.
+Context: Casey offered Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+66,gpt3,subject-control,Casey,Joseph,False,offered,to go,Casey,other,"You will be given a context and a question.
+Context: Casey offered Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+67,gpt3,subject-control,Casey,Joseph,False,offered,to read,Casey,other,"You will be given a context and a question.
+Context: Casey offered Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+68,gpt3,subject-control,Casey,Joseph,False,offered,to run,Casey,Joseph,"You will be given a context and a question.
+Context: Casey offered Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+69,gpt3,subject-control,Casey,Joseph,False,offered,to call,Casey,other,"You will be given a context and a question.
+Context: Casey offered Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+70,gpt3,subject-control,Casey,Nicole,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+71,gpt3,subject-control,Casey,Nicole,False,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'Case')"
+72,gpt3,subject-control,Casey,Nicole,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: ', 'Case')"
+73,gpt3,subject-control,Casey,Nicole,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+74,gpt3,subject-control,Casey,Nicole,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+75,gpt3,subject-control,Casey,Nicole,False,offered,to come,Casey,other,"You will be given a context and a question.
+Context: Casey offered Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+76,gpt3,subject-control,Casey,Nicole,False,offered,to go,Casey,other,"You will be given a context and a question.
+Context: Casey offered Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+77,gpt3,subject-control,Casey,Nicole,False,offered,to read,Casey,other,"You will be given a context and a question.
+Context: Casey offered Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+78,gpt3,subject-control,Casey,Nicole,False,offered,to run,Casey,other,"You will be given a context and a question.
+Context: Casey offered Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'Nic')"
+79,gpt3,subject-control,Casey,Nicole,False,offered,to call,Casey,other,"You will be given a context and a question.
+Context: Casey offered Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+80,gpt3,subject-control,Casey,Stephanie,False,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+81,gpt3,subject-control,Casey,Stephanie,False,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'Case')"
+82,gpt3,subject-control,Casey,Stephanie,False,threatened,to read,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey threatened Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+83,gpt3,subject-control,Casey,Stephanie,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+84,gpt3,subject-control,Casey,Stephanie,False,threatened,to call,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey threatened Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+85,gpt3,subject-control,Casey,Stephanie,False,offered,to come,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey offered Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+86,gpt3,subject-control,Casey,Stephanie,False,offered,to go,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey offered Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+87,gpt3,subject-control,Casey,Stephanie,False,offered,to read,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey offered Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+88,gpt3,subject-control,Casey,Stephanie,False,offered,to run,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey offered Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+89,gpt3,subject-control,Casey,Stephanie,False,offered,to call,Casey,Stephanie,"You will be given a context and a question.
+Context: Casey offered Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+90,gpt3,subject-control,Casey,William,False,threatened,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+91,gpt3,subject-control,Casey,William,False,threatened,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to go.\n\nQuestion: Who went?\nAnswer: ', 'Case')"
+92,gpt3,subject-control,Casey,William,False,threatened,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to read.\n\nQuestion: Who read?\nAnswer: ', 'Case')"
+93,gpt3,subject-control,Casey,William,False,threatened,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey threatened William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+94,gpt3,subject-control,Casey,William,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey threatened William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+95,gpt3,subject-control,Casey,William,False,offered,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey offered William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+96,gpt3,subject-control,Casey,William,False,offered,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey offered William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to go.\n\nQuestion: Who went?\nAnswer: ', 'Case')"
+97,gpt3,subject-control,Casey,William,False,offered,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey offered William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to read.\n\nQuestion: Who read?\nAnswer: ', 'Case')"
+98,gpt3,subject-control,Casey,William,False,offered,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey offered William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+99,gpt3,subject-control,Casey,William,False,offered,to call,Casey,other,"You will be given a context and a question.
+Context: Casey offered William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Casey offered William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+100,gpt3,subject-control,Joseph,Avery,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to come.\n\nQuestion: Who came?\nAnswer: ', 'Joseph')"
+101,gpt3,subject-control,Joseph,Avery,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+102,gpt3,subject-control,Joseph,Avery,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+103,gpt3,subject-control,Joseph,Avery,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+104,gpt3,subject-control,Joseph,Avery,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+105,gpt3,subject-control,Joseph,Avery,False,offered,to come,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph offered Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to come.\n\nQuestion: Who came?\nAnswer: ', 'A')"
+106,gpt3,subject-control,Joseph,Avery,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+107,gpt3,subject-control,Joseph,Avery,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+108,gpt3,subject-control,Joseph,Avery,False,offered,to run,Joseph,Avery,"You will be given a context and a question.
+Context: Joseph offered Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+109,gpt3,subject-control,Joseph,Avery,False,offered,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Avery to call.\n\nQuestion: Who called?\nAnswer: ', 'Joseph')"
+110,gpt3,subject-control,Joseph,Casey,False,threatened,to come,Joseph,Casey,"You will be given a context and a question.
+Context: Joseph threatened Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+111,gpt3,subject-control,Joseph,Casey,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+112,gpt3,subject-control,Joseph,Casey,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+113,gpt3,subject-control,Joseph,Casey,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+114,gpt3,subject-control,Joseph,Casey,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+115,gpt3,subject-control,Joseph,Casey,False,offered,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+116,gpt3,subject-control,Joseph,Casey,False,offered,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+117,gpt3,subject-control,Joseph,Casey,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+118,gpt3,subject-control,Joseph,Casey,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+119,gpt3,subject-control,Joseph,Casey,False,offered,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+120,gpt3,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: ', 'Joseph')"
+121,gpt3,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+122,gpt3,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+123,gpt3,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+124,gpt3,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Nicole to call.\n\nQuestion: Who called?\nAnswer: ', 'Joseph')"
+125,gpt3,subject-control,Joseph,Nicole,False,offered,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+126,gpt3,subject-control,Joseph,Nicole,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+127,gpt3,subject-control,Joseph,Nicole,False,offered,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+128,gpt3,subject-control,Joseph,Nicole,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+129,gpt3,subject-control,Joseph,Nicole,False,offered,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+130,gpt3,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Joseph')"
+131,gpt3,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+132,gpt3,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+133,gpt3,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+134,gpt3,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,Stephanie,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+135,gpt3,subject-control,Joseph,Stephanie,False,offered,to come,Joseph,Stephanie,"You will be given a context and a question.
+Context: Joseph offered Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+136,gpt3,subject-control,Joseph,Stephanie,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+137,gpt3,subject-control,Joseph,Stephanie,False,offered,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+138,gpt3,subject-control,Joseph,Stephanie,False,offered,to run,Joseph,Stephanie,"You will be given a context and a question.
+Context: Joseph offered Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+139,gpt3,subject-control,Joseph,Stephanie,False,offered,to call,Joseph,Stephanie,"You will be given a context and a question.
+Context: Joseph offered Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+140,gpt3,subject-control,Joseph,William,False,threatened,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+141,gpt3,subject-control,Joseph,William,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+142,gpt3,subject-control,Joseph,William,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+143,gpt3,subject-control,Joseph,William,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+144,gpt3,subject-control,Joseph,William,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph threatened William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+145,gpt3,subject-control,Joseph,William,False,offered,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+146,gpt3,subject-control,Joseph,William,False,offered,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+147,gpt3,subject-control,Joseph,William,False,offered,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+148,gpt3,subject-control,Joseph,William,False,offered,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph offered William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+149,gpt3,subject-control,Joseph,William,False,offered,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph offered William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Joseph offered William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+150,gpt3,subject-control,Nicole,Avery,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+151,gpt3,subject-control,Nicole,Avery,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+152,gpt3,subject-control,Nicole,Avery,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+153,gpt3,subject-control,Nicole,Avery,False,threatened,to run,Nicole,Avery,"You will be given a context and a question.
+Context: Nicole threatened Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+154,gpt3,subject-control,Nicole,Avery,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+155,gpt3,subject-control,Nicole,Avery,False,offered,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+156,gpt3,subject-control,Nicole,Avery,False,offered,to go,Nicole,Avery,"You will be given a context and a question.
+Context: Nicole offered Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+157,gpt3,subject-control,Nicole,Avery,False,offered,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+158,gpt3,subject-control,Nicole,Avery,False,offered,to run,Nicole,Avery,"You will be given a context and a question.
+Context: Nicole offered Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+159,gpt3,subject-control,Nicole,Avery,False,offered,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+160,gpt3,subject-control,Nicole,Casey,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+161,gpt3,subject-control,Nicole,Casey,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+162,gpt3,subject-control,Nicole,Casey,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+163,gpt3,subject-control,Nicole,Casey,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Nic')"
+164,gpt3,subject-control,Nicole,Casey,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+165,gpt3,subject-control,Nicole,Casey,False,offered,to come,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole offered Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+166,gpt3,subject-control,Nicole,Casey,False,offered,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+167,gpt3,subject-control,Nicole,Casey,False,offered,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+168,gpt3,subject-control,Nicole,Casey,False,offered,to run,Nicole,Casey,"You will be given a context and a question.
+Context: Nicole offered Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+169,gpt3,subject-control,Nicole,Casey,False,offered,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+170,gpt3,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+171,gpt3,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+172,gpt3,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+173,gpt3,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+174,gpt3,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+175,gpt3,subject-control,Nicole,Joseph,False,offered,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+176,gpt3,subject-control,Nicole,Joseph,False,offered,to go,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole offered Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+177,gpt3,subject-control,Nicole,Joseph,False,offered,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+178,gpt3,subject-control,Nicole,Joseph,False,offered,to run,Nicole,Joseph,"You will be given a context and a question.
+Context: Nicole offered Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+179,gpt3,subject-control,Nicole,Joseph,False,offered,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+180,gpt3,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+181,gpt3,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+182,gpt3,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+183,gpt3,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+184,gpt3,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+185,gpt3,subject-control,Nicole,Stephanie,False,offered,to come,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole offered Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+186,gpt3,subject-control,Nicole,Stephanie,False,offered,to go,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole offered Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+187,gpt3,subject-control,Nicole,Stephanie,False,offered,to read,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole offered Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+188,gpt3,subject-control,Nicole,Stephanie,False,offered,to run,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole offered Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+189,gpt3,subject-control,Nicole,Stephanie,False,offered,to call,Nicole,Stephanie,"You will be given a context and a question.
+Context: Nicole offered Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+190,gpt3,subject-control,Nicole,William,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+191,gpt3,subject-control,Nicole,William,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+192,gpt3,subject-control,Nicole,William,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+193,gpt3,subject-control,Nicole,William,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to run.\n\nQuestion: Who ran?\nAnswer: ', 'Nic')"
+194,gpt3,subject-control,Nicole,William,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole threatened William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+195,gpt3,subject-control,Nicole,William,False,offered,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+196,gpt3,subject-control,Nicole,William,False,offered,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+197,gpt3,subject-control,Nicole,William,False,offered,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+198,gpt3,subject-control,Nicole,William,False,offered,to run,Nicole,William,"You will be given a context and a question.
+Context: Nicole offered William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+199,gpt3,subject-control,Nicole,William,False,offered,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole offered William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Nicole offered William to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+200,gpt3,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+201,gpt3,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+202,gpt3,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+203,gpt3,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+204,gpt3,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Avery to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+205,gpt3,subject-control,Stephanie,Avery,False,offered,to come,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie offered Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to come.\n\nQuestion: Who came?\nAnswer: ', 'A')"
+206,gpt3,subject-control,Stephanie,Avery,False,offered,to go,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie offered Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to go.\n\nQuestion: Who went?\nAnswer: ', 'A')"
+207,gpt3,subject-control,Stephanie,Avery,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+208,gpt3,subject-control,Stephanie,Avery,False,offered,to run,Stephanie,Avery,"You will be given a context and a question.
+Context: Stephanie offered Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'A')"
+209,gpt3,subject-control,Stephanie,Avery,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Avery to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+210,gpt3,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+211,gpt3,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+212,gpt3,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+213,gpt3,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+214,gpt3,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Casey to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+215,gpt3,subject-control,Stephanie,Casey,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+216,gpt3,subject-control,Stephanie,Casey,False,offered,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+217,gpt3,subject-control,Stephanie,Casey,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+218,gpt3,subject-control,Stephanie,Casey,False,offered,to run,Stephanie,Casey,"You will be given a context and a question.
+Context: Stephanie offered Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+219,gpt3,subject-control,Stephanie,Casey,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Casey to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+220,gpt3,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: ', 'Joseph')"
+221,gpt3,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+222,gpt3,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+223,gpt3,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+224,gpt3,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+225,gpt3,subject-control,Stephanie,Joseph,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+226,gpt3,subject-control,Stephanie,Joseph,False,offered,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+227,gpt3,subject-control,Stephanie,Joseph,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+228,gpt3,subject-control,Stephanie,Joseph,False,offered,to run,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie offered Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+229,gpt3,subject-control,Stephanie,Joseph,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Joseph to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+230,gpt3,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+231,gpt3,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+232,gpt3,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+233,gpt3,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+234,gpt3,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened Nicole to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+235,gpt3,subject-control,Stephanie,Nicole,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+236,gpt3,subject-control,Stephanie,Nicole,False,offered,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+237,gpt3,subject-control,Stephanie,Nicole,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+238,gpt3,subject-control,Stephanie,Nicole,False,offered,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie offered Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'Nic')"
+239,gpt3,subject-control,Stephanie,Nicole,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered Nicole to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+240,gpt3,subject-control,Stephanie,William,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+241,gpt3,subject-control,Stephanie,William,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to go.\n\nQuestion: Who went?\nAnswer: ', 'Step')"
+242,gpt3,subject-control,Stephanie,William,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+243,gpt3,subject-control,Stephanie,William,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to run.\n\nQuestion: Who ran?\nAnswer: ', 'Step')"
+244,gpt3,subject-control,Stephanie,William,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie threatened William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie threatened William to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+245,gpt3,subject-control,Stephanie,William,False,offered,to come,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered William to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+246,gpt3,subject-control,Stephanie,William,False,offered,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to go.\n\nQuestion: Who went?\nAnswer: ', 'William')"
+247,gpt3,subject-control,Stephanie,William,False,offered,to read,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered William to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+248,gpt3,subject-control,Stephanie,William,False,offered,to run,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie offered William to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+249,gpt3,subject-control,Stephanie,William,False,offered,to call,Stephanie,Stephanie,"You will be given a context and a question.
+Context: Stephanie offered William to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: Stephanie offered William to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+250,gpt3,subject-control,William,Avery,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+251,gpt3,subject-control,William,Avery,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+252,gpt3,subject-control,William,Avery,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to read.\n\nQuestion: Who read?\nAnswer: ', 'William')"
+253,gpt3,subject-control,William,Avery,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+254,gpt3,subject-control,William,Avery,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+255,gpt3,subject-control,William,Avery,False,offered,to come,William,other,"You will be given a context and a question.
+Context: William offered Avery to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+256,gpt3,subject-control,William,Avery,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Avery to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to go.\n\nQuestion: Who went?\nAnswer: ', 'William')"
+257,gpt3,subject-control,William,Avery,False,offered,to read,William,other,"You will be given a context and a question.
+Context: William offered Avery to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+258,gpt3,subject-control,William,Avery,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Avery to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+259,gpt3,subject-control,William,Avery,False,offered,to call,William,other,"You will be given a context and a question.
+Context: William offered Avery to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Avery to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+260,gpt3,subject-control,William,Casey,False,threatened,to come,William,Casey,"You will be given a context and a question.
+Context: William threatened Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+261,gpt3,subject-control,William,Casey,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+262,gpt3,subject-control,William,Casey,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+263,gpt3,subject-control,William,Casey,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+264,gpt3,subject-control,William,Casey,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+265,gpt3,subject-control,William,Casey,False,offered,to come,William,Casey,"You will be given a context and a question.
+Context: William offered Casey to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to come.\n\nQuestion: Who came?\nAnswer: ', 'Case')"
+266,gpt3,subject-control,William,Casey,False,offered,to go,William,Casey,"You will be given a context and a question.
+Context: William offered Casey to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to go.\n\nQuestion: Who went?\nAnswer: ', 'Case')"
+267,gpt3,subject-control,William,Casey,False,offered,to read,William,Casey,"You will be given a context and a question.
+Context: William offered Casey to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to read.\n\nQuestion: Who read?\nAnswer: ', 'Case')"
+268,gpt3,subject-control,William,Casey,False,offered,to run,William,Casey,"You will be given a context and a question.
+Context: William offered Casey to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to run.\n\nQuestion: Who ran?\nAnswer: ', 'Case')"
+269,gpt3,subject-control,William,Casey,False,offered,to call,William,other,"You will be given a context and a question.
+Context: William offered Casey to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Casey to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+270,gpt3,subject-control,William,Joseph,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+271,gpt3,subject-control,William,Joseph,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to go.\n\nQuestion: Who went?\nAnswer: ', '\n')"
+272,gpt3,subject-control,William,Joseph,False,threatened,to read,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to read.\n\nQuestion: Who read?\nAnswer: ', 'Joseph')"
+273,gpt3,subject-control,William,Joseph,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+274,gpt3,subject-control,William,Joseph,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+275,gpt3,subject-control,William,Joseph,False,offered,to come,William,other,"You will be given a context and a question.
+Context: William offered Joseph to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+276,gpt3,subject-control,William,Joseph,False,offered,to go,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to go.\n\nQuestion: Who went?\nAnswer: ', 'Joseph')"
+277,gpt3,subject-control,William,Joseph,False,offered,to read,William,other,"You will be given a context and a question.
+Context: William offered Joseph to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+278,gpt3,subject-control,William,Joseph,False,offered,to run,William,Joseph,"You will be given a context and a question.
+Context: William offered Joseph to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to run.\n\nQuestion: Who ran?\nAnswer: ', 'Joseph')"
+279,gpt3,subject-control,William,Joseph,False,offered,to call,William,other,"You will be given a context and a question.
+Context: William offered Joseph to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Joseph to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+280,gpt3,subject-control,William,Nicole,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to come.\n\nQuestion: Who came?\nAnswer: ', 'William')"
+281,gpt3,subject-control,William,Nicole,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'William')"
+282,gpt3,subject-control,William,Nicole,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to read.\n\nQuestion: Who read?\nAnswer: ', 'William')"
+283,gpt3,subject-control,William,Nicole,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+284,gpt3,subject-control,William,Nicole,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+285,gpt3,subject-control,William,Nicole,False,offered,to come,William,other,"You will be given a context and a question.
+Context: William offered Nicole to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to come.\n\nQuestion: Who came?\nAnswer: ', '\n')"
+286,gpt3,subject-control,William,Nicole,False,offered,to go,William,other,"You will be given a context and a question.
+Context: William offered Nicole to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to go.\n\nQuestion: Who went?\nAnswer: ', 'Nic')"
+287,gpt3,subject-control,William,Nicole,False,offered,to read,William,other,"You will be given a context and a question.
+Context: William offered Nicole to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to read.\n\nQuestion: Who read?\nAnswer: ', '\n')"
+288,gpt3,subject-control,William,Nicole,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Nicole to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+289,gpt3,subject-control,William,Nicole,False,offered,to call,William,other,"You will be given a context and a question.
+Context: William offered Nicole to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Nicole to call.\n\nQuestion: Who called?\nAnswer: ', '\n')"
+290,gpt3,subject-control,William,Stephanie,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'William')"
+291,gpt3,subject-control,William,Stephanie,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'William')"
+292,gpt3,subject-control,William,Stephanie,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'William')"
+293,gpt3,subject-control,William,Stephanie,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+294,gpt3,subject-control,William,Stephanie,False,threatened,to call,William,Stephanie,"You will be given a context and a question.
+Context: William threatened Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William threatened Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"
+295,gpt3,subject-control,William,Stephanie,False,offered,to come,William,Stephanie,"You will be given a context and a question.
+Context: William offered Stephanie to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to come.\n\nQuestion: Who came?\nAnswer: ', 'Step')"
+296,gpt3,subject-control,William,Stephanie,False,offered,to go,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to go.\n\nQuestion: Who went?\nAnswer: ', 'William')"
+297,gpt3,subject-control,William,Stephanie,False,offered,to read,William,Stephanie,"You will be given a context and a question.
+Context: William offered Stephanie to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to read.\n\nQuestion: Who read?\nAnswer: ', 'Step')"
+298,gpt3,subject-control,William,Stephanie,False,offered,to run,William,William,"You will be given a context and a question.
+Context: William offered Stephanie to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to run.\n\nQuestion: Who ran?\nAnswer: ', 'William')"
+299,gpt3,subject-control,William,Stephanie,False,offered,to call,William,Stephanie,"You will be given a context and a question.
+Context: William offered Stephanie to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: William offered Stephanie to call.\n\nQuestion: Who called?\nAnswer: ', 'Step')"

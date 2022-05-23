@@ -1,0 +1,1501 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,t0,subject-control,Avery,Casey,True,threatened,to come,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to come.
+
+Question: Who came, Avery or Casey?
+Answer: ", 'Casey'),0.0
+1,t0,subject-control,Avery,Casey,False,threatened,to come,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to come.
+
+Question: Who came, Avery or Casey?
+Answer: ", 'Casey'),1.0
+2,t0,subject-control,Avery,Casey,True,threatened,to go,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery threatened Casey to go.
+
+Question: Who went, Casey or Avery?
+Answer: ", 'Casey'),2.0
+3,t0,subject-control,Avery,Casey,False,threatened,to go,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to go.
+
+Question: Who went, Avery or Casey?
+Answer: ", 'Casey'),3.0
+4,t0,subject-control,Avery,Casey,True,threatened,to read,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to read.
+
+Question: Who read, Avery or Casey?
+Answer: ", 'Casey'),4.0
+5,t0,subject-control,Avery,Casey,False,threatened,to read,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to read.
+
+Question: Who read, Avery or Casey?
+Answer: ", 'Casey'),5.0
+6,t0,subject-control,Avery,Casey,True,threatened,to run,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to run.
+
+Question: Who ran, Avery or Casey?
+Answer: ", 'Casey'),6.0
+7,t0,subject-control,Avery,Casey,False,threatened,to run,Avery,Casey,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to run.
+
+Question: Who ran, Avery or Casey?
+Answer: ", 'Casey'),7.0
+8,t0,subject-control,Avery,Casey,True,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Avery threatened Casey to call.
+
+Question: Who called, Casey or Avery?
+Answer: ", 'Avery'),8.0
+9,t0,subject-control,Avery,Casey,False,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to call.
+
+Question: Who called, Avery or Casey?
+Answer: ", 'Avery'),9.0
+10,t0,subject-control,Avery,Joseph,True,threatened,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery threatened Joseph to come.
+
+Question: Who came, Joseph or Avery?
+Answer: ", 'Avery'),20.0
+11,t0,subject-control,Avery,Joseph,False,threatened,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to come.
+
+Question: Who came, Avery or Joseph?
+Answer: ", 'Avery'),21.0
+12,t0,subject-control,Avery,Joseph,True,threatened,to go,Avery,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery threatened Joseph to go.
+
+Question: Who went, Joseph or Avery?
+Answer: ", 'Joseph'),22.0
+13,t0,subject-control,Avery,Joseph,False,threatened,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to go.
+
+Question: Who went, Avery or Joseph?
+Answer: ", 'Avery'),23.0
+14,t0,subject-control,Avery,Joseph,True,threatened,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to read.
+
+Question: Who read, Avery or Joseph?
+Answer: ", 'Avery'),24.0
+15,t0,subject-control,Avery,Joseph,False,threatened,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to read.
+
+Question: Who read, Avery or Joseph?
+Answer: ", 'Avery'),25.0
+16,t0,subject-control,Avery,Joseph,True,threatened,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to run.
+
+Question: Who ran, Avery or Joseph?
+Answer: ", 'Avery'),26.0
+17,t0,subject-control,Avery,Joseph,False,threatened,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to run.
+
+Question: Who ran, Avery or Joseph?
+Answer: ", 'Avery'),27.0
+18,t0,subject-control,Avery,Joseph,True,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Avery threatened Joseph to call.
+
+Question: Who called, Joseph or Avery?
+Answer: ", 'Avery'),28.0
+19,t0,subject-control,Avery,Joseph,False,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to call.
+
+Question: Who called, Avery or Joseph?
+Answer: ", 'Avery'),29.0
+20,t0,subject-control,Avery,Nicole,True,threatened,to come,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery threatened Nicole to come.
+
+Question: Who came, Nicole or Avery?
+Answer: ", 'Nicole'),40.0
+21,t0,subject-control,Avery,Nicole,False,threatened,to come,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to come.
+
+Question: Who came, Avery or Nicole?
+Answer: ", 'Nicole'),41.0
+22,t0,subject-control,Avery,Nicole,True,threatened,to go,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to go.
+
+Question: Who went, Avery or Nicole?
+Answer: ", 'Nicole'),42.0
+23,t0,subject-control,Avery,Nicole,False,threatened,to go,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to go.
+
+Question: Who went, Avery or Nicole?
+Answer: ", 'Nicole'),43.0
+24,t0,subject-control,Avery,Nicole,True,threatened,to read,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to read.
+
+Question: Who read, Avery or Nicole?
+Answer: ", 'Nicole'),44.0
+25,t0,subject-control,Avery,Nicole,False,threatened,to read,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to read.
+
+Question: Who read, Avery or Nicole?
+Answer: ", 'Nicole'),45.0
+26,t0,subject-control,Avery,Nicole,True,threatened,to run,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery threatened Nicole to run.
+
+Question: Who ran, Nicole or Avery?
+Answer: ", 'Nicole'),46.0
+27,t0,subject-control,Avery,Nicole,False,threatened,to run,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to run.
+
+Question: Who ran, Avery or Nicole?
+Answer: ", 'Nicole'),47.0
+28,t0,subject-control,Avery,Nicole,True,threatened,to call,Avery,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Avery threatened Nicole to call.
+
+Question: Who called, Nicole or Avery?
+Answer: ", 'Nicole'),48.0
+29,t0,subject-control,Avery,Nicole,False,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to call.
+
+Question: Who called, Avery or Nicole?
+Answer: ", 'Avery'),49.0
+30,t0,subject-control,Avery,Stephanie,True,threatened,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery threatened Stephanie to come.
+
+Question: Who came, Stephanie or Avery?
+Answer: ", 'Avery'),60.0
+31,t0,subject-control,Avery,Stephanie,False,threatened,to come,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to come.
+
+Question: Who came, Avery or Stephanie?
+Answer: ", 'Stephanie'),61.0
+32,t0,subject-control,Avery,Stephanie,True,threatened,to go,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Avery threatened Stephanie to go.
+
+Question: Who went, Stephanie or Avery?
+Answer: ", 'Stephanie'),62.0
+33,t0,subject-control,Avery,Stephanie,False,threatened,to go,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to go.
+
+Question: Who went, Avery or Stephanie?
+Answer: ", 'Stephanie'),63.0
+34,t0,subject-control,Avery,Stephanie,True,threatened,to read,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: ", 'Stephanie'),64.0
+35,t0,subject-control,Avery,Stephanie,False,threatened,to read,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: ", 'Stephanie'),65.0
+36,t0,subject-control,Avery,Stephanie,True,threatened,to run,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran, Avery or Stephanie?
+Answer: ", 'Stephanie'),66.0
+37,t0,subject-control,Avery,Stephanie,False,threatened,to run,Avery,Stephanie,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran, Avery or Stephanie?
+Answer: ", 'Stephanie'),67.0
+38,t0,subject-control,Avery,Stephanie,True,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to call.
+
+Question: Who called, Avery or Stephanie?
+Answer: ", 'Avery'),68.0
+39,t0,subject-control,Avery,Stephanie,False,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to call.
+
+Question: Who called, Avery or Stephanie?
+Answer: ", 'Avery'),69.0
+40,t0,subject-control,Avery,William,True,threatened,to come,Avery,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery threatened William to come.
+
+Question: Who came, William or Avery?
+Answer: ", 'William'),80.0
+41,t0,subject-control,Avery,William,False,threatened,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to come.
+
+Question: Who came, Avery or William?
+Answer: ", 'Avery'),81.0
+42,t0,subject-control,Avery,William,True,threatened,to go,Avery,William,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to go.
+
+Question: Who went, Avery or William?
+Answer: ", 'William'),82.0
+43,t0,subject-control,Avery,William,False,threatened,to go,Avery,William,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to go.
+
+Question: Who went, Avery or William?
+Answer: ", 'William'),83.0
+44,t0,subject-control,Avery,William,True,threatened,to read,Avery,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery threatened William to read.
+
+Question: Who read, William or Avery?
+Answer: ", 'William'),84.0
+45,t0,subject-control,Avery,William,False,threatened,to read,Avery,William,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to read.
+
+Question: Who read, Avery or William?
+Answer: ", 'William'),85.0
+46,t0,subject-control,Avery,William,True,threatened,to run,Avery,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery threatened William to run.
+
+Question: Who ran, William or Avery?
+Answer: ", 'William'),86.0
+47,t0,subject-control,Avery,William,False,threatened,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to run.
+
+Question: Who ran, Avery or William?
+Answer: ", 'Avery'),87.0
+48,t0,subject-control,Avery,William,True,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: Avery threatened William to call.
+
+Question: Who called, William or Avery?
+Answer: ", 'Avery'),88.0
+49,t0,subject-control,Avery,William,False,threatened,to call,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to call.
+
+Question: Who called, Avery or William?
+Answer: ", 'Avery'),89.0
+50,t0,subject-control,Casey,Avery,True,threatened,to come,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to come.
+
+Question: Who came, Casey or Avery?
+Answer: ", 'Avery'),100.0
+51,t0,subject-control,Casey,Avery,False,threatened,to come,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to come.
+
+Question: Who came, Casey or Avery?
+Answer: ", 'Avery'),101.0
+52,t0,subject-control,Casey,Avery,True,threatened,to go,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to go.
+
+Question: Who went, Casey or Avery?
+Answer: ", 'Avery'),102.0
+53,t0,subject-control,Casey,Avery,False,threatened,to go,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to go.
+
+Question: Who went, Casey or Avery?
+Answer: ", 'Avery'),103.0
+54,t0,subject-control,Casey,Avery,True,threatened,to read,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey threatened Avery to read.
+
+Question: Who read, Avery or Casey?
+Answer: ", 'Avery'),104.0
+55,t0,subject-control,Casey,Avery,False,threatened,to read,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to read.
+
+Question: Who read, Casey or Avery?
+Answer: ", 'Avery'),105.0
+56,t0,subject-control,Casey,Avery,True,threatened,to run,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Casey threatened Avery to run.
+
+Question: Who ran, Avery or Casey?
+Answer: ", 'Avery'),106.0
+57,t0,subject-control,Casey,Avery,False,threatened,to run,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to run.
+
+Question: Who ran, Casey or Avery?
+Answer: ", 'Avery'),107.0
+58,t0,subject-control,Casey,Avery,True,threatened,to call,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to call.
+
+Question: Who called, Casey or Avery?
+Answer: ", 'Avery'),108.0
+59,t0,subject-control,Casey,Avery,False,threatened,to call,Casey,Avery,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to call.
+
+Question: Who called, Casey or Avery?
+Answer: ", 'Avery'),109.0
+60,t0,subject-control,Casey,Joseph,True,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey threatened Joseph to come.
+
+Question: Who came, Joseph or Casey?
+Answer: ", 'Casey'),120.0
+61,t0,subject-control,Casey,Joseph,False,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to come.
+
+Question: Who came, Casey or Joseph?
+Answer: ", 'Casey'),121.0
+62,t0,subject-control,Casey,Joseph,True,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey threatened Joseph to go.
+
+Question: Who went, Joseph or Casey?
+Answer: ", 'Casey'),122.0
+63,t0,subject-control,Casey,Joseph,False,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to go.
+
+Question: Who went, Casey or Joseph?
+Answer: ", 'Casey'),123.0
+64,t0,subject-control,Casey,Joseph,True,threatened,to read,Casey,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey threatened Joseph to read.
+
+Question: Who read, Joseph or Casey?
+Answer: ", 'Joseph'),124.0
+65,t0,subject-control,Casey,Joseph,False,threatened,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to read.
+
+Question: Who read, Casey or Joseph?
+Answer: ", 'Casey'),125.0
+66,t0,subject-control,Casey,Joseph,True,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Casey threatened Joseph to run.
+
+Question: Who ran, Joseph or Casey?
+Answer: ", 'Casey'),126.0
+67,t0,subject-control,Casey,Joseph,False,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to run.
+
+Question: Who ran, Casey or Joseph?
+Answer: ", 'Casey'),127.0
+68,t0,subject-control,Casey,Joseph,True,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to call.
+
+Question: Who called, Casey or Joseph?
+Answer: ", 'Casey'),128.0
+69,t0,subject-control,Casey,Joseph,False,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to call.
+
+Question: Who called, Casey or Joseph?
+Answer: ", 'Casey'),129.0
+70,t0,subject-control,Casey,Nicole,True,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to come.
+
+Question: Who came, Casey or Nicole?
+Answer: ", 'Casey'),140.0
+71,t0,subject-control,Casey,Nicole,False,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to come.
+
+Question: Who came, Casey or Nicole?
+Answer: ", 'Casey'),141.0
+72,t0,subject-control,Casey,Nicole,True,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to go.
+
+Question: Who went, Casey or Nicole?
+Answer: ", 'Casey'),142.0
+73,t0,subject-control,Casey,Nicole,False,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to go.
+
+Question: Who went, Casey or Nicole?
+Answer: ", 'Casey'),143.0
+74,t0,subject-control,Casey,Nicole,True,threatened,to read,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to read.
+
+Question: Who read, Casey or Nicole?
+Answer: ", 'Nicole'),144.0
+75,t0,subject-control,Casey,Nicole,False,threatened,to read,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to read.
+
+Question: Who read, Casey or Nicole?
+Answer: ", 'Nicole'),145.0
+76,t0,subject-control,Casey,Nicole,True,threatened,to run,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey threatened Nicole to run.
+
+Question: Who ran, Nicole or Casey?
+Answer: ", 'Nicole'),146.0
+77,t0,subject-control,Casey,Nicole,False,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to run.
+
+Question: Who ran, Casey or Nicole?
+Answer: ", 'Casey'),147.0
+78,t0,subject-control,Casey,Nicole,True,threatened,to call,Casey,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Casey threatened Nicole to call.
+
+Question: Who called, Nicole or Casey?
+Answer: ", 'Nicole'),148.0
+79,t0,subject-control,Casey,Nicole,False,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to call.
+
+Question: Who called, Casey or Nicole?
+Answer: ", 'Casey'),149.0
+80,t0,subject-control,Casey,Stephanie,True,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey threatened Stephanie to come.
+
+Question: Who came, Stephanie or Casey?
+Answer: ", 'Casey'),160.0
+81,t0,subject-control,Casey,Stephanie,False,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to come.
+
+Question: Who came, Casey or Stephanie?
+Answer: ", 'Casey'),161.0
+82,t0,subject-control,Casey,Stephanie,True,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey threatened Stephanie to go.
+
+Question: Who went, Stephanie or Casey?
+Answer: ", 'Casey'),162.0
+83,t0,subject-control,Casey,Stephanie,False,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to go.
+
+Question: Who went, Casey or Stephanie?
+Answer: ", 'Casey'),163.0
+84,t0,subject-control,Casey,Stephanie,True,threatened,to read,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey threatened Stephanie to read.
+
+Question: Who read, Stephanie or Casey?
+Answer: ", 'Stephanie'),164.0
+85,t0,subject-control,Casey,Stephanie,False,threatened,to read,Casey,Stephanie,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to read.
+
+Question: Who read, Casey or Stephanie?
+Answer: ", 'Stephanie'),165.0
+86,t0,subject-control,Casey,Stephanie,True,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran, Stephanie or Casey?
+Answer: ", 'Casey'),166.0
+87,t0,subject-control,Casey,Stephanie,False,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran, Casey or Stephanie?
+Answer: ", 'Casey'),167.0
+88,t0,subject-control,Casey,Stephanie,True,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to call.
+
+Question: Who called, Casey or Stephanie?
+Answer: ", 'Casey'),168.0
+89,t0,subject-control,Casey,Stephanie,False,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to call.
+
+Question: Who called, Casey or Stephanie?
+Answer: ", 'Casey'),169.0
+90,t0,subject-control,Casey,William,True,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to come.
+
+Question: Who came, Casey or William?
+Answer: ", 'Casey'),180.0
+91,t0,subject-control,Casey,William,False,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to come.
+
+Question: Who came, Casey or William?
+Answer: ", 'Casey'),181.0
+92,t0,subject-control,Casey,William,True,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to go.
+
+Question: Who went, Casey or William?
+Answer: ", 'Casey'),182.0
+93,t0,subject-control,Casey,William,False,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to go.
+
+Question: Who went, Casey or William?
+Answer: ", 'Casey'),183.0
+94,t0,subject-control,Casey,William,True,threatened,to read,Casey,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: Casey threatened William to read.
+
+Question: Who read, William or Casey?
+Answer: ", 'William'),184.0
+95,t0,subject-control,Casey,William,False,threatened,to read,Casey,William,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to read.
+
+Question: Who read, Casey or William?
+Answer: ", 'William'),185.0
+96,t0,subject-control,Casey,William,True,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to run.
+
+Question: Who ran, Casey or William?
+Answer: ", 'Casey'),186.0
+97,t0,subject-control,Casey,William,False,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to run.
+
+Question: Who ran, Casey or William?
+Answer: ", 'Casey'),187.0
+98,t0,subject-control,Casey,William,True,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to call.
+
+Question: Who called, Casey or William?
+Answer: ", 'Casey'),188.0
+99,t0,subject-control,Casey,William,False,threatened,to call,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to call.
+
+Question: Who called, Casey or William?
+Answer: ", 'Casey'),189.0
+100,t0,subject-control,Joseph,Avery,True,threatened,to come,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Joseph threatened Avery to come.
+
+Question: Who came, Avery or Joseph?
+Answer: ", 'Avery'),200.0
+101,t0,subject-control,Joseph,Avery,False,threatened,to come,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to come.
+
+Question: Who came, Joseph or Avery?
+Answer: ", 'Avery'),201.0
+102,t0,subject-control,Joseph,Avery,True,threatened,to go,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to go.
+
+Question: Who went, Joseph or Avery?
+Answer: ", 'Avery'),202.0
+103,t0,subject-control,Joseph,Avery,False,threatened,to go,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to go.
+
+Question: Who went, Joseph or Avery?
+Answer: ", 'Avery'),203.0
+104,t0,subject-control,Joseph,Avery,True,threatened,to read,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to read.
+
+Question: Who read, Joseph or Avery?
+Answer: ", 'Avery'),204.0
+105,t0,subject-control,Joseph,Avery,False,threatened,to read,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to read.
+
+Question: Who read, Joseph or Avery?
+Answer: ", 'Avery'),205.0
+106,t0,subject-control,Joseph,Avery,True,threatened,to run,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Joseph threatened Avery to run.
+
+Question: Who ran, Avery or Joseph?
+Answer: ", 'Avery'),206.0
+107,t0,subject-control,Joseph,Avery,False,threatened,to run,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to run.
+
+Question: Who ran, Joseph or Avery?
+Answer: ", 'Avery'),207.0
+108,t0,subject-control,Joseph,Avery,True,threatened,to call,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to call.
+
+Question: Who called, Joseph or Avery?
+Answer: ", 'Avery'),208.0
+109,t0,subject-control,Joseph,Avery,False,threatened,to call,Joseph,Avery,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to call.
+
+Question: Who called, Joseph or Avery?
+Answer: ", 'Avery'),209.0
+110,t0,subject-control,Joseph,Casey,True,threatened,to come,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph threatened Casey to come.
+
+Question: Who came, Casey or Joseph?
+Answer: ", 'Casey'),220.0
+111,t0,subject-control,Joseph,Casey,False,threatened,to come,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to come.
+
+Question: Who came, Joseph or Casey?
+Answer: ", 'Casey'),221.0
+112,t0,subject-control,Joseph,Casey,True,threatened,to go,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph threatened Casey to go.
+
+Question: Who went, Casey or Joseph?
+Answer: ", 'Casey'),222.0
+113,t0,subject-control,Joseph,Casey,False,threatened,to go,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to go.
+
+Question: Who went, Joseph or Casey?
+Answer: ", 'Casey'),223.0
+114,t0,subject-control,Joseph,Casey,True,threatened,to read,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph threatened Casey to read.
+
+Question: Who read, Casey or Joseph?
+Answer: ", 'Casey'),224.0
+115,t0,subject-control,Joseph,Casey,False,threatened,to read,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to read.
+
+Question: Who read, Joseph or Casey?
+Answer: ", 'Casey'),225.0
+116,t0,subject-control,Joseph,Casey,True,threatened,to run,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph threatened Casey to run.
+
+Question: Who ran, Casey or Joseph?
+Answer: ", 'Casey'),226.0
+117,t0,subject-control,Joseph,Casey,False,threatened,to run,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to run.
+
+Question: Who ran, Joseph or Casey?
+Answer: ", 'Casey'),227.0
+118,t0,subject-control,Joseph,Casey,True,threatened,to call,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Joseph threatened Casey to call.
+
+Question: Who called, Casey or Joseph?
+Answer: ", 'Casey'),228.0
+119,t0,subject-control,Joseph,Casey,False,threatened,to call,Joseph,Casey,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to call.
+
+Question: Who called, Joseph or Casey?
+Answer: ", 'Casey'),229.0
+120,t0,subject-control,Joseph,Nicole,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to come.
+
+Question: Who came, Joseph or Nicole?
+Answer: ", 'Joseph'),240.0
+121,t0,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to come.
+
+Question: Who came, Joseph or Nicole?
+Answer: ", 'Joseph'),241.0
+122,t0,subject-control,Joseph,Nicole,True,threatened,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to go.
+
+Question: Who went, Joseph or Nicole?
+Answer: ", 'Joseph'),242.0
+123,t0,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to go.
+
+Question: Who went, Joseph or Nicole?
+Answer: ", 'Joseph'),243.0
+124,t0,subject-control,Joseph,Nicole,True,threatened,to read,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to read.
+
+Question: Who read, Joseph or Nicole?
+Answer: ", 'Nicole'),244.0
+125,t0,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,Nicole,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to read.
+
+Question: Who read, Joseph or Nicole?
+Answer: ", 'Nicole'),245.0
+126,t0,subject-control,Joseph,Nicole,True,threatened,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran, Joseph or Nicole?
+Answer: ", 'Joseph'),246.0
+127,t0,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran, Joseph or Nicole?
+Answer: ", 'Joseph'),247.0
+128,t0,subject-control,Joseph,Nicole,True,threatened,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to call.
+
+Question: Who called, Joseph or Nicole?
+Answer: ", 'Joseph'),248.0
+129,t0,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to call.
+
+Question: Who called, Joseph or Nicole?
+Answer: ", 'Joseph'),249.0
+130,t0,subject-control,Joseph,Stephanie,True,threatened,to come,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came, Stephanie or Joseph?
+Answer: ", 'Stephanie'),260.0
+131,t0,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came, Joseph or Stephanie?
+Answer: ", 'Stephanie'),261.0
+132,t0,subject-control,Joseph,Stephanie,True,threatened,to go,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: ", 'Stephanie'),262.0
+133,t0,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: ", 'Stephanie'),263.0
+134,t0,subject-control,Joseph,Stephanie,True,threatened,to read,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read, Joseph or Stephanie?
+Answer: ", 'Stephanie'),264.0
+135,t0,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read, Joseph or Stephanie?
+Answer: ", 'Stephanie'),265.0
+136,t0,subject-control,Joseph,Stephanie,True,threatened,to run,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran, Joseph or Stephanie?
+Answer: ", 'Stephanie'),266.0
+137,t0,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran, Joseph or Stephanie?
+Answer: ", 'Stephanie'),267.0
+138,t0,subject-control,Joseph,Stephanie,True,threatened,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called, Joseph or Stephanie?
+Answer: ", 'Stephanie'),268.0
+139,t0,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called, Joseph or Stephanie?
+Answer: ", 'Stephanie'),269.0
+140,t0,subject-control,Joseph,William,True,threatened,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph threatened William to come.
+
+Question: Who came, William or Joseph?
+Answer: ", 'Joseph'),280.0
+141,t0,subject-control,Joseph,William,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to come.
+
+Question: Who came, Joseph or William?
+Answer: ", 'Joseph'),281.0
+142,t0,subject-control,Joseph,William,True,threatened,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph threatened William to go.
+
+Question: Who went, William or Joseph?
+Answer: ", 'Joseph'),282.0
+143,t0,subject-control,Joseph,William,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to go.
+
+Question: Who went, Joseph or William?
+Answer: ", 'Joseph'),283.0
+144,t0,subject-control,Joseph,William,True,threatened,to read,Joseph,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph threatened William to read.
+
+Question: Who read, William or Joseph?
+Answer: ", 'William'),284.0
+145,t0,subject-control,Joseph,William,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to read.
+
+Question: Who read, Joseph or William?
+Answer: ", 'Joseph'),285.0
+146,t0,subject-control,Joseph,William,True,threatened,to run,Joseph,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: Joseph threatened William to run.
+
+Question: Who ran, William or Joseph?
+Answer: ", 'William'),286.0
+147,t0,subject-control,Joseph,William,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to run.
+
+Question: Who ran, Joseph or William?
+Answer: ", 'Joseph'),287.0
+148,t0,subject-control,Joseph,William,True,threatened,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to call.
+
+Question: Who called, Joseph or William?
+Answer: ", 'Joseph'),288.0
+149,t0,subject-control,Joseph,William,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to call.
+
+Question: Who called, Joseph or William?
+Answer: ", 'Joseph'),289.0
+150,t0,subject-control,Nicole,Avery,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole threatened Avery to come.
+
+Question: Who came, Avery or Nicole?
+Answer: ", 'Nicole'),300.0
+151,t0,subject-control,Nicole,Avery,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to come.
+
+Question: Who came, Nicole or Avery?
+Answer: ", 'Nicole'),301.0
+152,t0,subject-control,Nicole,Avery,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole threatened Avery to go.
+
+Question: Who went, Avery or Nicole?
+Answer: ", 'Nicole'),302.0
+153,t0,subject-control,Nicole,Avery,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to go.
+
+Question: Who went, Nicole or Avery?
+Answer: ", 'Nicole'),303.0
+154,t0,subject-control,Nicole,Avery,True,threatened,to read,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Nicole threatened Avery to read.
+
+Question: Who read, Avery or Nicole?
+Answer: ", 'Avery'),304.0
+155,t0,subject-control,Nicole,Avery,False,threatened,to read,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to read.
+
+Question: Who read, Nicole or Avery?
+Answer: ", 'Avery'),305.0
+156,t0,subject-control,Nicole,Avery,True,threatened,to run,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to run.
+
+Question: Who ran, Nicole or Avery?
+Answer: ", 'Avery'),306.0
+157,t0,subject-control,Nicole,Avery,False,threatened,to run,Nicole,Avery,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to run.
+
+Question: Who ran, Nicole or Avery?
+Answer: ", 'Avery'),307.0
+158,t0,subject-control,Nicole,Avery,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to call.
+
+Question: Who called, Nicole or Avery?
+Answer: ", 'Nicole'),308.0
+159,t0,subject-control,Nicole,Avery,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to call.
+
+Question: Who called, Nicole or Avery?
+Answer: ", 'Nicole'),309.0
+160,t0,subject-control,Nicole,Casey,True,threatened,to come,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to come.
+
+Question: Who came, Nicole or Casey?
+Answer: ", 'Casey'),320.0
+161,t0,subject-control,Nicole,Casey,False,threatened,to come,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to come.
+
+Question: Who came, Nicole or Casey?
+Answer: ", 'Casey'),321.0
+162,t0,subject-control,Nicole,Casey,True,threatened,to go,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to go.
+
+Question: Who went, Nicole or Casey?
+Answer: ", 'Casey'),322.0
+163,t0,subject-control,Nicole,Casey,False,threatened,to go,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to go.
+
+Question: Who went, Nicole or Casey?
+Answer: ", 'Casey'),323.0
+164,t0,subject-control,Nicole,Casey,True,threatened,to read,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole threatened Casey to read.
+
+Question: Who read, Casey or Nicole?
+Answer: ", 'Casey'),324.0
+165,t0,subject-control,Nicole,Casey,False,threatened,to read,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to read.
+
+Question: Who read, Nicole or Casey?
+Answer: ", 'Casey'),325.0
+166,t0,subject-control,Nicole,Casey,True,threatened,to run,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Nicole threatened Casey to run.
+
+Question: Who ran, Casey or Nicole?
+Answer: ", 'Casey'),326.0
+167,t0,subject-control,Nicole,Casey,False,threatened,to run,Nicole,Casey,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to run.
+
+Question: Who ran, Nicole or Casey?
+Answer: ", 'Casey'),327.0
+168,t0,subject-control,Nicole,Casey,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to call.
+
+Question: Who called, Nicole or Casey?
+Answer: ", 'Nicole'),328.0
+169,t0,subject-control,Nicole,Casey,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to call.
+
+Question: Who called, Nicole or Casey?
+Answer: ", 'Nicole'),329.0
+170,t0,subject-control,Nicole,Joseph,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to come.
+
+Question: Who came, Nicole or Joseph?
+Answer: ", 'Nicole'),340.0
+171,t0,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to come.
+
+Question: Who came, Nicole or Joseph?
+Answer: ", 'Nicole'),341.0
+172,t0,subject-control,Nicole,Joseph,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to go.
+
+Question: Who went, Nicole or Joseph?
+Answer: ", 'Nicole'),342.0
+173,t0,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to go.
+
+Question: Who went, Nicole or Joseph?
+Answer: ", 'Nicole'),343.0
+174,t0,subject-control,Nicole,Joseph,True,threatened,to read,Nicole,Joseph,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to read.
+
+Question: Who read, Nicole or Joseph?
+Answer: ", 'Joseph'),344.0
+175,t0,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,Joseph,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to read.
+
+Question: Who read, Nicole or Joseph?
+Answer: ", 'Joseph'),345.0
+176,t0,subject-control,Nicole,Joseph,True,threatened,to run,Nicole,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran, Joseph or Nicole?
+Answer: ", 'Joseph'),346.0
+177,t0,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,Joseph,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran, Nicole or Joseph?
+Answer: ", 'Joseph'),347.0
+178,t0,subject-control,Nicole,Joseph,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to call.
+
+Question: Who called, Nicole or Joseph?
+Answer: ", 'Nicole'),348.0
+179,t0,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to call.
+
+Question: Who called, Nicole or Joseph?
+Answer: ", 'Nicole'),349.0
+180,t0,subject-control,Nicole,Stephanie,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came, Stephanie or Nicole?
+Answer: ", 'Nicole'),360.0
+181,t0,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came, Nicole or Stephanie?
+Answer: ", 'Nicole'),361.0
+182,t0,subject-control,Nicole,Stephanie,True,threatened,to go,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went, Nicole or Stephanie?
+Answer: ", 'Stephanie'),362.0
+183,t0,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went, Nicole or Stephanie?
+Answer: ", 'Stephanie'),363.0
+184,t0,subject-control,Nicole,Stephanie,True,threatened,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read, Stephanie or Nicole?
+Answer: ", 'Stephanie'),364.0
+185,t0,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read, Nicole or Stephanie?
+Answer: ", 'Stephanie'),365.0
+186,t0,subject-control,Nicole,Stephanie,True,threatened,to run,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran, Nicole or Stephanie?
+Answer: ", 'Stephanie'),366.0
+187,t0,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran, Nicole or Stephanie?
+Answer: ", 'Stephanie'),367.0
+188,t0,subject-control,Nicole,Stephanie,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called, Nicole or Stephanie?
+Answer: ", 'Nicole'),368.0
+189,t0,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called, Nicole or Stephanie?
+Answer: ", 'Nicole'),369.0
+190,t0,subject-control,Nicole,William,True,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole threatened William to come.
+
+Question: Who came, William or Nicole?
+Answer: ", 'Nicole'),380.0
+191,t0,subject-control,Nicole,William,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to come.
+
+Question: Who came, Nicole or William?
+Answer: ", 'Nicole'),381.0
+192,t0,subject-control,Nicole,William,True,threatened,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole threatened William to go.
+
+Question: Who went, William or Nicole?
+Answer: ", 'Nicole'),382.0
+193,t0,subject-control,Nicole,William,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to go.
+
+Question: Who went, Nicole or William?
+Answer: ", 'Nicole'),383.0
+194,t0,subject-control,Nicole,William,True,threatened,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole threatened William to read.
+
+Question: Who read, William or Nicole?
+Answer: ", 'Nicole'),384.0
+195,t0,subject-control,Nicole,William,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to read.
+
+Question: Who read, Nicole or William?
+Answer: ", 'Nicole'),385.0
+196,t0,subject-control,Nicole,William,True,threatened,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole threatened William to run.
+
+Question: Who ran, William or Nicole?
+Answer: ", 'Nicole'),386.0
+197,t0,subject-control,Nicole,William,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to run.
+
+Question: Who ran, Nicole or William?
+Answer: ", 'Nicole'),387.0
+198,t0,subject-control,Nicole,William,True,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: Nicole threatened William to call.
+
+Question: Who called, William or Nicole?
+Answer: ", 'Nicole'),388.0
+199,t0,subject-control,Nicole,William,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to call.
+
+Question: Who called, Nicole or William?
+Answer: ", 'Nicole'),389.0
+200,t0,subject-control,Stephanie,Avery,True,threatened,to come,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie threatened Avery to come.
+
+Question: Who came, Avery or Stephanie?
+Answer: ", 'Avery'),400.0
+201,t0,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to come.
+
+Question: Who came, Stephanie or Avery?
+Answer: ", 'Avery'),401.0
+202,t0,subject-control,Stephanie,Avery,True,threatened,to go,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to go.
+
+Question: Who went, Stephanie or Avery?
+Answer: ", 'Avery'),402.0
+203,t0,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to go.
+
+Question: Who went, Stephanie or Avery?
+Answer: ", 'Avery'),403.0
+204,t0,subject-control,Stephanie,Avery,True,threatened,to read,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Stephanie threatened Avery to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: ", 'Avery'),404.0
+205,t0,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to read.
+
+Question: Who read, Stephanie or Avery?
+Answer: ", 'Avery'),405.0
+206,t0,subject-control,Stephanie,Avery,True,threatened,to run,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran, Stephanie or Avery?
+Answer: ", 'Avery'),406.0
+207,t0,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran, Stephanie or Avery?
+Answer: ", 'Avery'),407.0
+208,t0,subject-control,Stephanie,Avery,True,threatened,to call,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to call.
+
+Question: Who called, Stephanie or Avery?
+Answer: ", 'Avery'),408.0
+209,t0,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,Avery,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to call.
+
+Question: Who called, Stephanie or Avery?
+Answer: ", 'Avery'),409.0
+210,t0,subject-control,Stephanie,Casey,True,threatened,to come,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to come.
+
+Question: Who came, Stephanie or Casey?
+Answer: ", 'Casey'),420.0
+211,t0,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to come.
+
+Question: Who came, Stephanie or Casey?
+Answer: ", 'Casey'),421.0
+212,t0,subject-control,Stephanie,Casey,True,threatened,to go,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to go.
+
+Question: Who went, Stephanie or Casey?
+Answer: ", 'Casey'),422.0
+213,t0,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to go.
+
+Question: Who went, Stephanie or Casey?
+Answer: ", 'Casey'),423.0
+214,t0,subject-control,Stephanie,Casey,True,threatened,to read,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to read.
+
+Question: Who read, Stephanie or Casey?
+Answer: ", 'Casey'),424.0
+215,t0,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to read.
+
+Question: Who read, Stephanie or Casey?
+Answer: ", 'Casey'),425.0
+216,t0,subject-control,Stephanie,Casey,True,threatened,to run,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran, Casey or Stephanie?
+Answer: ", 'Casey'),426.0
+217,t0,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran, Stephanie or Casey?
+Answer: ", 'Casey'),427.0
+218,t0,subject-control,Stephanie,Casey,True,threatened,to call,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to call.
+
+Question: Who called, Stephanie or Casey?
+Answer: ", 'Casey'),428.0
+219,t0,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,Casey,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to call.
+
+Question: Who called, Stephanie or Casey?
+Answer: ", 'Casey'),429.0
+220,t0,subject-control,Stephanie,Joseph,True,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came, Stephanie or Joseph?
+Answer: ", 'Stephanie'),440.0
+221,t0,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came, Stephanie or Joseph?
+Answer: ", 'Stephanie'),441.0
+222,t0,subject-control,Stephanie,Joseph,True,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: ", 'Stephanie'),442.0
+223,t0,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went, Stephanie or Joseph?
+Answer: ", 'Stephanie'),443.0
+224,t0,subject-control,Stephanie,Joseph,True,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read, Stephanie or Joseph?
+Answer: ", 'Stephanie'),444.0
+225,t0,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read, Stephanie or Joseph?
+Answer: ", 'Stephanie'),445.0
+226,t0,subject-control,Stephanie,Joseph,True,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran, Stephanie or Joseph?
+Answer: ", 'Stephanie'),446.0
+227,t0,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran, Stephanie or Joseph?
+Answer: ", 'Stephanie'),447.0
+228,t0,subject-control,Stephanie,Joseph,True,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called, Stephanie or Joseph?
+Answer: ", 'Stephanie'),448.0
+229,t0,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called, Stephanie or Joseph?
+Answer: ", 'Stephanie'),449.0
+230,t0,subject-control,Stephanie,Nicole,True,threatened,to come,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came, Nicole or Stephanie?
+Answer: ", 'Nicole'),460.0
+231,t0,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came, Stephanie or Nicole?
+Answer: ", 'Nicole'),461.0
+232,t0,subject-control,Stephanie,Nicole,True,threatened,to go,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went, Stephanie or Nicole?
+Answer: ", 'Nicole'),462.0
+233,t0,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went, Stephanie or Nicole?
+Answer: ", 'Nicole'),463.0
+234,t0,subject-control,Stephanie,Nicole,True,threatened,to read,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read, Stephanie or Nicole?
+Answer: ", 'Nicole'),464.0
+235,t0,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read, Stephanie or Nicole?
+Answer: ", 'Nicole'),465.0
+236,t0,subject-control,Stephanie,Nicole,True,threatened,to run,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran, Stephanie or Nicole?
+Answer: ", 'Nicole'),466.0
+237,t0,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran, Stephanie or Nicole?
+Answer: ", 'Nicole'),467.0
+238,t0,subject-control,Stephanie,Nicole,True,threatened,to call,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called, Nicole or Stephanie?
+Answer: ", 'Nicole'),468.0
+239,t0,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,Nicole,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called, Stephanie or Nicole?
+Answer: ", 'Nicole'),469.0
+240,t0,subject-control,Stephanie,William,True,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to come.
+
+Question: Who came, Stephanie or William?
+Answer: ", 'Stephanie'),480.0
+241,t0,subject-control,Stephanie,William,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to come.
+
+Question: Who came, Stephanie or William?
+Answer: ", 'Stephanie'),481.0
+242,t0,subject-control,Stephanie,William,True,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to go.
+
+Question: Who went, Stephanie or William?
+Answer: ", 'Stephanie'),482.0
+243,t0,subject-control,Stephanie,William,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to go.
+
+Question: Who went, Stephanie or William?
+Answer: ", 'Stephanie'),483.0
+244,t0,subject-control,Stephanie,William,True,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to read.
+
+Question: Who read, Stephanie or William?
+Answer: ", 'Stephanie'),484.0
+245,t0,subject-control,Stephanie,William,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to read.
+
+Question: Who read, Stephanie or William?
+Answer: ", 'Stephanie'),485.0
+246,t0,subject-control,Stephanie,William,True,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: Stephanie threatened William to run.
+
+Question: Who ran, William or Stephanie?
+Answer: ", 'Stephanie'),486.0
+247,t0,subject-control,Stephanie,William,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to run.
+
+Question: Who ran, Stephanie or William?
+Answer: ", 'Stephanie'),487.0
+248,t0,subject-control,Stephanie,William,True,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: Stephanie threatened William to call.
+
+Question: Who called, William or Stephanie?
+Answer: ", 'Stephanie'),488.0
+249,t0,subject-control,Stephanie,William,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to call.
+
+Question: Who called, Stephanie or William?
+Answer: ", 'Stephanie'),489.0
+250,t0,subject-control,William,Avery,True,threatened,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to come.
+
+Question: Who came, William or Avery?
+Answer: ", 'William'),500.0
+251,t0,subject-control,William,Avery,False,threatened,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to come.
+
+Question: Who came, William or Avery?
+Answer: ", 'William'),501.0
+252,t0,subject-control,William,Avery,True,threatened,to go,William,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William threatened Avery to go.
+
+Question: Who went, Avery or William?
+Answer: ", 'Avery'),502.0
+253,t0,subject-control,William,Avery,False,threatened,to go,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to go.
+
+Question: Who went, William or Avery?
+Answer: ", 'William'),503.0
+254,t0,subject-control,William,Avery,True,threatened,to read,William,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William threatened Avery to read.
+
+Question: Who read, Avery or William?
+Answer: ", 'Avery'),504.0
+255,t0,subject-control,William,Avery,False,threatened,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to read.
+
+Question: Who read, William or Avery?
+Answer: ", 'William'),505.0
+256,t0,subject-control,William,Avery,True,threatened,to run,William,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: William threatened Avery to run.
+
+Question: Who ran, Avery or William?
+Answer: ", 'Avery'),506.0
+257,t0,subject-control,William,Avery,False,threatened,to run,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to run.
+
+Question: Who ran, William or Avery?
+Answer: ", 'William'),507.0
+258,t0,subject-control,William,Avery,True,threatened,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to call.
+
+Question: Who called, William or Avery?
+Answer: ", 'William'),508.0
+259,t0,subject-control,William,Avery,False,threatened,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to call.
+
+Question: Who called, William or Avery?
+Answer: ", 'William'),509.0
+260,t0,subject-control,William,Casey,True,threatened,to come,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to come.
+
+Question: Who came, William or Casey?
+Answer: ", 'Casey'),520.0
+261,t0,subject-control,William,Casey,False,threatened,to come,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to come.
+
+Question: Who came, William or Casey?
+Answer: ", 'Casey'),521.0
+262,t0,subject-control,William,Casey,True,threatened,to go,William,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William threatened Casey to go.
+
+Question: Who went, Casey or William?
+Answer: ", 'Casey'),522.0
+263,t0,subject-control,William,Casey,False,threatened,to go,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to go.
+
+Question: Who went, William or Casey?
+Answer: ", 'Casey'),523.0
+264,t0,subject-control,William,Casey,True,threatened,to read,William,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William threatened Casey to read.
+
+Question: Who read, Casey or William?
+Answer: ", 'Casey'),524.0
+265,t0,subject-control,William,Casey,False,threatened,to read,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to read.
+
+Question: Who read, William or Casey?
+Answer: ", 'Casey'),525.0
+266,t0,subject-control,William,Casey,True,threatened,to run,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to run.
+
+Question: Who ran, William or Casey?
+Answer: ", 'Casey'),526.0
+267,t0,subject-control,William,Casey,False,threatened,to run,William,Casey,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to run.
+
+Question: Who ran, William or Casey?
+Answer: ", 'Casey'),527.0
+268,t0,subject-control,William,Casey,True,threatened,to call,William,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: William threatened Casey to call.
+
+Question: Who called, Casey or William?
+Answer: ", 'Casey'),528.0
+269,t0,subject-control,William,Casey,False,threatened,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to call.
+
+Question: Who called, William or Casey?
+Answer: ", 'William'),529.0
+270,t0,subject-control,William,Joseph,True,threatened,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to come.
+
+Question: Who came, William or Joseph?
+Answer: ", 'William'),540.0
+271,t0,subject-control,William,Joseph,False,threatened,to come,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to come.
+
+Question: Who came, William or Joseph?
+Answer: ", 'William'),541.0
+272,t0,subject-control,William,Joseph,True,threatened,to go,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William threatened Joseph to go.
+
+Question: Who went, Joseph or William?
+Answer: ", 'Joseph'),542.0
+273,t0,subject-control,William,Joseph,False,threatened,to go,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to go.
+
+Question: Who went, William or Joseph?
+Answer: ", 'Joseph'),543.0
+274,t0,subject-control,William,Joseph,True,threatened,to read,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to read.
+
+Question: Who read, William or Joseph?
+Answer: ", 'Joseph'),544.0
+275,t0,subject-control,William,Joseph,False,threatened,to read,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to read.
+
+Question: Who read, William or Joseph?
+Answer: ", 'Joseph'),545.0
+276,t0,subject-control,William,Joseph,True,threatened,to run,William,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: William threatened Joseph to run.
+
+Question: Who ran, Joseph or William?
+Answer: ", 'Joseph'),546.0
+277,t0,subject-control,William,Joseph,False,threatened,to run,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to run.
+
+Question: Who ran, William or Joseph?
+Answer: ", 'Joseph'),547.0
+278,t0,subject-control,William,Joseph,True,threatened,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to call.
+
+Question: Who called, William or Joseph?
+Answer: ", 'William'),548.0
+279,t0,subject-control,William,Joseph,False,threatened,to call,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to call.
+
+Question: Who called, William or Joseph?
+Answer: ", 'William'),549.0
+280,t0,subject-control,William,Nicole,True,threatened,to come,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to come.
+
+Question: Who came, William or Nicole?
+Answer: ", 'Nicole'),560.0
+281,t0,subject-control,William,Nicole,False,threatened,to come,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to come.
+
+Question: Who came, William or Nicole?
+Answer: ", 'Nicole'),561.0
+282,t0,subject-control,William,Nicole,True,threatened,to go,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to go.
+
+Question: Who went, William or Nicole?
+Answer: ", 'Nicole'),562.0
+283,t0,subject-control,William,Nicole,False,threatened,to go,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to go.
+
+Question: Who went, William or Nicole?
+Answer: ", 'Nicole'),563.0
+284,t0,subject-control,William,Nicole,True,threatened,to read,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to read.
+
+Question: Who read, William or Nicole?
+Answer: ", 'Nicole'),564.0
+285,t0,subject-control,William,Nicole,False,threatened,to read,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to read.
+
+Question: Who read, William or Nicole?
+Answer: ", 'Nicole'),565.0
+286,t0,subject-control,William,Nicole,True,threatened,to run,William,Nicole,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: William threatened Nicole to run.
+
+Question: Who ran, Nicole or William?
+Answer: ", 'Nicole'),566.0
+287,t0,subject-control,William,Nicole,False,threatened,to run,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to run.
+
+Question: Who ran, William or Nicole?
+Answer: ", 'Nicole'),567.0
+288,t0,subject-control,William,Nicole,True,threatened,to call,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to call.
+
+Question: Who called, William or Nicole?
+Answer: ", 'Nicole'),568.0
+289,t0,subject-control,William,Nicole,False,threatened,to call,William,Nicole,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to call.
+
+Question: Who called, William or Nicole?
+Answer: ", 'Nicole'),569.0
+290,t0,subject-control,William,Stephanie,True,threatened,to come,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to come.
+
+Question: Who came, William or Stephanie?
+Answer: ", 'Stephanie'),580.0
+291,t0,subject-control,William,Stephanie,False,threatened,to come,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to come.
+
+Question: Who came, William or Stephanie?
+Answer: ", 'Stephanie'),581.0
+292,t0,subject-control,William,Stephanie,True,threatened,to go,William,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William threatened Stephanie to go.
+
+Question: Who went, Stephanie or William?
+Answer: ", 'Stephanie'),582.0
+293,t0,subject-control,William,Stephanie,False,threatened,to go,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to go.
+
+Question: Who went, William or Stephanie?
+Answer: ", 'Stephanie'),583.0
+294,t0,subject-control,William,Stephanie,True,threatened,to read,William,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: William threatened Stephanie to read.
+
+Question: Who read, Stephanie or William?
+Answer: ", 'Stephanie'),584.0
+295,t0,subject-control,William,Stephanie,False,threatened,to read,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to read.
+
+Question: Who read, William or Stephanie?
+Answer: ", 'Stephanie'),585.0
+296,t0,subject-control,William,Stephanie,True,threatened,to run,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to run.
+
+Question: Who ran, William or Stephanie?
+Answer: ", 'Stephanie'),586.0
+297,t0,subject-control,William,Stephanie,False,threatened,to run,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to run.
+
+Question: Who ran, William or Stephanie?
+Answer: ", 'Stephanie'),587.0
+298,t0,subject-control,William,Stephanie,True,threatened,to call,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to call.
+
+Question: Who called, William or Stephanie?
+Answer: ", 'Stephanie'),588.0
+299,t0,subject-control,William,Stephanie,False,threatened,to call,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to call.
+
+Question: Who called, William or Stephanie?
+Answer: ", 'Stephanie'),589.0

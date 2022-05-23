@@ -1,0 +1,751 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,gpt3,subject-control,Avery,Casey,False,threatened,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to come.
+
+Question: Who came, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery threatened Casey to come.\n\nQuestion: Who came, Avery or Casey?\nAnswer: ', '\n')"
+1,gpt3,subject-control,Avery,Casey,False,threatened,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to go.
+
+Question: Who went, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery threatened Casey to go.\n\nQuestion: Who went, Avery or Casey?\nAnswer: ', '\n')"
+2,gpt3,subject-control,Avery,Casey,False,threatened,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to read.
+
+Question: Who read, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery threatened Casey to read.\n\nQuestion: Who read, Avery or Casey?\nAnswer: ', '\n')"
+3,gpt3,subject-control,Avery,Casey,False,threatened,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to run.
+
+Question: Who ran, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery threatened Casey to run.\n\nQuestion: Who ran, Avery or Casey?\nAnswer: ', '\n')"
+4,gpt3,subject-control,Avery,Casey,False,threatened,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".
+Context: Avery threatened Casey to call.
+
+Question: Who called, Avery or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Casey"".\nContext: Avery threatened Casey to call.\n\nQuestion: Who called, Avery or Casey?\nAnswer: ', '\n')"
+10,gpt3,subject-control,Avery,Joseph,False,threatened,to come,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to come.
+
+Question: Who came, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery threatened Joseph to come.\n\nQuestion: Who came, Avery or Joseph?\nAnswer: ', 'A')"
+11,gpt3,subject-control,Avery,Joseph,False,threatened,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to go.
+
+Question: Who went, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery threatened Joseph to go.\n\nQuestion: Who went, Avery or Joseph?\nAnswer: ', 'A')"
+12,gpt3,subject-control,Avery,Joseph,False,threatened,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to read.
+
+Question: Who read, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery threatened Joseph to read.\n\nQuestion: Who read, Avery or Joseph?\nAnswer: ', '___')"
+13,gpt3,subject-control,Avery,Joseph,False,threatened,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to run.
+
+Question: Who ran, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery threatened Joseph to run.\n\nQuestion: Who ran, Avery or Joseph?\nAnswer: ', '_')"
+14,gpt3,subject-control,Avery,Joseph,False,threatened,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".
+Context: Avery threatened Joseph to call.
+
+Question: Who called, Avery or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Joseph"".\nContext: Avery threatened Joseph to call.\n\nQuestion: Who called, Avery or Joseph?\nAnswer: ', '\n')"
+20,gpt3,subject-control,Avery,Nicole,False,threatened,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to come.
+
+Question: Who came, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery threatened Nicole to come.\n\nQuestion: Who came, Avery or Nicole?\nAnswer: ', '\n')"
+21,gpt3,subject-control,Avery,Nicole,False,threatened,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to go.
+
+Question: Who went, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery threatened Nicole to go.\n\nQuestion: Who went, Avery or Nicole?\nAnswer: ', 'A')"
+22,gpt3,subject-control,Avery,Nicole,False,threatened,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to read.
+
+Question: Who read, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery threatened Nicole to read.\n\nQuestion: Who read, Avery or Nicole?\nAnswer: ', '___')"
+23,gpt3,subject-control,Avery,Nicole,False,threatened,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to run.
+
+Question: Who ran, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery threatened Nicole to run.\n\nQuestion: Who ran, Avery or Nicole?\nAnswer: ', '_')"
+24,gpt3,subject-control,Avery,Nicole,False,threatened,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".
+Context: Avery threatened Nicole to call.
+
+Question: Who called, Avery or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Nicole"".\nContext: Avery threatened Nicole to call.\n\nQuestion: Who called, Avery or Nicole?\nAnswer: ', '\n')"
+30,gpt3,subject-control,Avery,Stephanie,False,threatened,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to come.
+
+Question: Who came, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery threatened Stephanie to come.\n\nQuestion: Who came, Avery or Stephanie?\nAnswer: ', '\n')"
+31,gpt3,subject-control,Avery,Stephanie,False,threatened,to go,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to go.
+
+Question: Who went, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery threatened Stephanie to go.\n\nQuestion: Who went, Avery or Stephanie?\nAnswer: ', 'A')"
+32,gpt3,subject-control,Avery,Stephanie,False,threatened,to read,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to read.
+
+Question: Who read, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery threatened Stephanie to read.\n\nQuestion: Who read, Avery or Stephanie?\nAnswer: ', 'A')"
+33,gpt3,subject-control,Avery,Stephanie,False,threatened,to run,Avery,Avery,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery threatened Stephanie to run.\n\nQuestion: Who ran, Avery or Stephanie?\nAnswer: ', 'A')"
+34,gpt3,subject-control,Avery,Stephanie,False,threatened,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".
+Context: Avery threatened Stephanie to call.
+
+Question: Who called, Avery or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""Stephanie"".\nContext: Avery threatened Stephanie to call.\n\nQuestion: Who called, Avery or Stephanie?\nAnswer: ', '\n')"
+40,gpt3,subject-control,Avery,William,False,threatened,to come,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to come.
+
+Question: Who came, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery threatened William to come.\n\nQuestion: Who came, Avery or William?\nAnswer: ', '\n')"
+41,gpt3,subject-control,Avery,William,False,threatened,to go,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to go.
+
+Question: Who went, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery threatened William to go.\n\nQuestion: Who went, Avery or William?\nAnswer: ', '\n')"
+42,gpt3,subject-control,Avery,William,False,threatened,to read,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to read.
+
+Question: Who read, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery threatened William to read.\n\nQuestion: Who read, Avery or William?\nAnswer: ', '\n')"
+43,gpt3,subject-control,Avery,William,False,threatened,to run,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to run.
+
+Question: Who ran, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery threatened William to run.\n\nQuestion: Who ran, Avery or William?\nAnswer: ', '\n')"
+44,gpt3,subject-control,Avery,William,False,threatened,to call,Avery,other,"You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".
+Context: Avery threatened William to call.
+
+Question: Who called, Avery or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Avery"" or ""William"".\nContext: Avery threatened William to call.\n\nQuestion: Who called, Avery or William?\nAnswer: ', '\n')"
+50,gpt3,subject-control,Casey,Avery,False,threatened,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to come.
+
+Question: Who came, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey threatened Avery to come.\n\nQuestion: Who came, Casey or Avery?\nAnswer: ', '\n')"
+51,gpt3,subject-control,Casey,Avery,False,threatened,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to go.
+
+Question: Who went, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey threatened Avery to go.\n\nQuestion: Who went, Casey or Avery?\nAnswer: ', '\n')"
+52,gpt3,subject-control,Casey,Avery,False,threatened,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to read.
+
+Question: Who read, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey threatened Avery to read.\n\nQuestion: Who read, Casey or Avery?\nAnswer: ', '\n')"
+53,gpt3,subject-control,Casey,Avery,False,threatened,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to run.
+
+Question: Who ran, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey threatened Avery to run.\n\nQuestion: Who ran, Casey or Avery?\nAnswer: ', '\n')"
+54,gpt3,subject-control,Casey,Avery,False,threatened,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".
+Context: Casey threatened Avery to call.
+
+Question: Who called, Casey or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Avery"".\nContext: Casey threatened Avery to call.\n\nQuestion: Who called, Casey or Avery?\nAnswer: ', '\n')"
+60,gpt3,subject-control,Casey,Joseph,False,threatened,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to come.
+
+Question: Who came, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey threatened Joseph to come.\n\nQuestion: Who came, Casey or Joseph?\nAnswer: ', '\n')"
+61,gpt3,subject-control,Casey,Joseph,False,threatened,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to go.
+
+Question: Who went, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey threatened Joseph to go.\n\nQuestion: Who went, Casey or Joseph?\nAnswer: ', '\n')"
+62,gpt3,subject-control,Casey,Joseph,False,threatened,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to read.
+
+Question: Who read, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey threatened Joseph to read.\n\nQuestion: Who read, Casey or Joseph?\nAnswer: ', '\n')"
+63,gpt3,subject-control,Casey,Joseph,False,threatened,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to run.
+
+Question: Who ran, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey threatened Joseph to run.\n\nQuestion: Who ran, Casey or Joseph?\nAnswer: ', '\n')"
+64,gpt3,subject-control,Casey,Joseph,False,threatened,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".
+Context: Casey threatened Joseph to call.
+
+Question: Who called, Casey or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Joseph"".\nContext: Casey threatened Joseph to call.\n\nQuestion: Who called, Casey or Joseph?\nAnswer: ', '\n')"
+70,gpt3,subject-control,Casey,Nicole,False,threatened,to come,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to come.
+
+Question: Who came, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey threatened Nicole to come.\n\nQuestion: Who came, Casey or Nicole?\nAnswer: ', '\n')"
+71,gpt3,subject-control,Casey,Nicole,False,threatened,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to go.
+
+Question: Who went, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey threatened Nicole to go.\n\nQuestion: Who went, Casey or Nicole?\nAnswer: ', '\n')"
+72,gpt3,subject-control,Casey,Nicole,False,threatened,to read,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to read.
+
+Question: Who read, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey threatened Nicole to read.\n\nQuestion: Who read, Casey or Nicole?\nAnswer: ', 'Case')"
+73,gpt3,subject-control,Casey,Nicole,False,threatened,to run,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to run.
+
+Question: Who ran, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey threatened Nicole to run.\n\nQuestion: Who ran, Casey or Nicole?\nAnswer: ', '\n')"
+74,gpt3,subject-control,Casey,Nicole,False,threatened,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".
+Context: Casey threatened Nicole to call.
+
+Question: Who called, Casey or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Nicole"".\nContext: Casey threatened Nicole to call.\n\nQuestion: Who called, Casey or Nicole?\nAnswer: ', '\n')"
+80,gpt3,subject-control,Casey,Stephanie,False,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to come.
+
+Question: Who came, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey threatened Stephanie to come.\n\nQuestion: Who came, Casey or Stephanie?\nAnswer: ', 'Case')"
+81,gpt3,subject-control,Casey,Stephanie,False,threatened,to go,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to go.
+
+Question: Who went, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey threatened Stephanie to go.\n\nQuestion: Who went, Casey or Stephanie?\nAnswer: ', 'Case')"
+82,gpt3,subject-control,Casey,Stephanie,False,threatened,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to read.
+
+Question: Who read, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey threatened Stephanie to read.\n\nQuestion: Who read, Casey or Stephanie?\nAnswer: ', '\n')"
+83,gpt3,subject-control,Casey,Stephanie,False,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey threatened Stephanie to run.\n\nQuestion: Who ran, Casey or Stephanie?\nAnswer: ', 'Case')"
+84,gpt3,subject-control,Casey,Stephanie,False,threatened,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".
+Context: Casey threatened Stephanie to call.
+
+Question: Who called, Casey or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""Stephanie"".\nContext: Casey threatened Stephanie to call.\n\nQuestion: Who called, Casey or Stephanie?\nAnswer: ', '\n')"
+90,gpt3,subject-control,Casey,William,False,threatened,to come,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to come.
+
+Question: Who came, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey threatened William to come.\n\nQuestion: Who came, Casey or William?\nAnswer: ', 'Case')"
+91,gpt3,subject-control,Casey,William,False,threatened,to go,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to go.
+
+Question: Who went, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey threatened William to go.\n\nQuestion: Who went, Casey or William?\nAnswer: ', '\n')"
+92,gpt3,subject-control,Casey,William,False,threatened,to read,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to read.
+
+Question: Who read, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey threatened William to read.\n\nQuestion: Who read, Casey or William?\nAnswer: ', '\n')"
+93,gpt3,subject-control,Casey,William,False,threatened,to run,Casey,Casey,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to run.
+
+Question: Who ran, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey threatened William to run.\n\nQuestion: Who ran, Casey or William?\nAnswer: ', 'Case')"
+94,gpt3,subject-control,Casey,William,False,threatened,to call,Casey,other,"You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".
+Context: Casey threatened William to call.
+
+Question: Who called, Casey or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Casey"" or ""William"".\nContext: Casey threatened William to call.\n\nQuestion: Who called, Casey or William?\nAnswer: ', '\n')"
+100,gpt3,subject-control,Joseph,Avery,False,threatened,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to come.
+
+Question: Who came, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph threatened Avery to come.\n\nQuestion: Who came, Joseph or Avery?\nAnswer: ', '\n')"
+101,gpt3,subject-control,Joseph,Avery,False,threatened,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to go.
+
+Question: Who went, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph threatened Avery to go.\n\nQuestion: Who went, Joseph or Avery?\nAnswer: ', '\n')"
+102,gpt3,subject-control,Joseph,Avery,False,threatened,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to read.
+
+Question: Who read, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph threatened Avery to read.\n\nQuestion: Who read, Joseph or Avery?\nAnswer: ', '\n')"
+103,gpt3,subject-control,Joseph,Avery,False,threatened,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to run.
+
+Question: Who ran, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph threatened Avery to run.\n\nQuestion: Who ran, Joseph or Avery?\nAnswer: ', '\n')"
+104,gpt3,subject-control,Joseph,Avery,False,threatened,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".
+Context: Joseph threatened Avery to call.
+
+Question: Who called, Joseph or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Avery"".\nContext: Joseph threatened Avery to call.\n\nQuestion: Who called, Joseph or Avery?\nAnswer: ', '\n')"
+110,gpt3,subject-control,Joseph,Casey,False,threatened,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to come.
+
+Question: Who came, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph threatened Casey to come.\n\nQuestion: Who came, Joseph or Casey?\nAnswer: ', '\n')"
+111,gpt3,subject-control,Joseph,Casey,False,threatened,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to go.
+
+Question: Who went, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph threatened Casey to go.\n\nQuestion: Who went, Joseph or Casey?\nAnswer: ', '\n')"
+112,gpt3,subject-control,Joseph,Casey,False,threatened,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to read.
+
+Question: Who read, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph threatened Casey to read.\n\nQuestion: Who read, Joseph or Casey?\nAnswer: ', '\n')"
+113,gpt3,subject-control,Joseph,Casey,False,threatened,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to run.
+
+Question: Who ran, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph threatened Casey to run.\n\nQuestion: Who ran, Joseph or Casey?\nAnswer: ', '\n')"
+114,gpt3,subject-control,Joseph,Casey,False,threatened,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".
+Context: Joseph threatened Casey to call.
+
+Question: Who called, Joseph or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Casey"".\nContext: Joseph threatened Casey to call.\n\nQuestion: Who called, Joseph or Casey?\nAnswer: ', '\n')"
+120,gpt3,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to come.
+
+Question: Who came, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph threatened Nicole to come.\n\nQuestion: Who came, Joseph or Nicole?\nAnswer: ', '\n')"
+121,gpt3,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to go.
+
+Question: Who went, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph threatened Nicole to go.\n\nQuestion: Who went, Joseph or Nicole?\nAnswer: ', '\n')"
+122,gpt3,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to read.
+
+Question: Who read, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph threatened Nicole to read.\n\nQuestion: Who read, Joseph or Nicole?\nAnswer: ', 'Joseph')"
+123,gpt3,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph threatened Nicole to run.\n\nQuestion: Who ran, Joseph or Nicole?\nAnswer: ', '_')"
+124,gpt3,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".
+Context: Joseph threatened Nicole to call.
+
+Question: Who called, Joseph or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Nicole"".\nContext: Joseph threatened Nicole to call.\n\nQuestion: Who called, Joseph or Nicole?\nAnswer: ', '\n')"
+130,gpt3,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph threatened Stephanie to come.\n\nQuestion: Who came, Joseph or Stephanie?\nAnswer: ', '\n')"
+131,gpt3,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph threatened Stephanie to go.\n\nQuestion: Who went, Joseph or Stephanie?\nAnswer: ', 'Step')"
+132,gpt3,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph threatened Stephanie to read.\n\nQuestion: Who read, Joseph or Stephanie?\nAnswer: ', 'Step')"
+133,gpt3,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph threatened Stephanie to run.\n\nQuestion: Who ran, Joseph or Stephanie?\nAnswer: ', 'Step')"
+134,gpt3,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,Stephanie,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called, Joseph or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""Stephanie"".\nContext: Joseph threatened Stephanie to call.\n\nQuestion: Who called, Joseph or Stephanie?\nAnswer: ', 'Step')"
+140,gpt3,subject-control,Joseph,William,False,threatened,to come,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to come.
+
+Question: Who came, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph threatened William to come.\n\nQuestion: Who came, Joseph or William?\nAnswer: ', '\n')"
+141,gpt3,subject-control,Joseph,William,False,threatened,to go,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to go.
+
+Question: Who went, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph threatened William to go.\n\nQuestion: Who went, Joseph or William?\nAnswer: ', '\n')"
+142,gpt3,subject-control,Joseph,William,False,threatened,to read,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to read.
+
+Question: Who read, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph threatened William to read.\n\nQuestion: Who read, Joseph or William?\nAnswer: ', '\n')"
+143,gpt3,subject-control,Joseph,William,False,threatened,to run,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to run.
+
+Question: Who ran, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph threatened William to run.\n\nQuestion: Who ran, Joseph or William?\nAnswer: ', '\n')"
+144,gpt3,subject-control,Joseph,William,False,threatened,to call,Joseph,other,"You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".
+Context: Joseph threatened William to call.
+
+Question: Who called, Joseph or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Joseph"" or ""William"".\nContext: Joseph threatened William to call.\n\nQuestion: Who called, Joseph or William?\nAnswer: ', '\n')"
+150,gpt3,subject-control,Nicole,Avery,False,threatened,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to come.
+
+Question: Who came, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole threatened Avery to come.\n\nQuestion: Who came, Nicole or Avery?\nAnswer: ', '_')"
+151,gpt3,subject-control,Nicole,Avery,False,threatened,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to go.
+
+Question: Who went, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole threatened Avery to go.\n\nQuestion: Who went, Nicole or Avery?\nAnswer: ', '_')"
+152,gpt3,subject-control,Nicole,Avery,False,threatened,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to read.
+
+Question: Who read, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole threatened Avery to read.\n\nQuestion: Who read, Nicole or Avery?\nAnswer: ', '_')"
+153,gpt3,subject-control,Nicole,Avery,False,threatened,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to run.
+
+Question: Who ran, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole threatened Avery to run.\n\nQuestion: Who ran, Nicole or Avery?\nAnswer: ', '_')"
+154,gpt3,subject-control,Nicole,Avery,False,threatened,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".
+Context: Nicole threatened Avery to call.
+
+Question: Who called, Nicole or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Avery"".\nContext: Nicole threatened Avery to call.\n\nQuestion: Who called, Nicole or Avery?\nAnswer: ', '\n')"
+160,gpt3,subject-control,Nicole,Casey,False,threatened,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to come.
+
+Question: Who came, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole threatened Casey to come.\n\nQuestion: Who came, Nicole or Casey?\nAnswer: ', '\n')"
+161,gpt3,subject-control,Nicole,Casey,False,threatened,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to go.
+
+Question: Who went, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole threatened Casey to go.\n\nQuestion: Who went, Nicole or Casey?\nAnswer: ', '\n')"
+162,gpt3,subject-control,Nicole,Casey,False,threatened,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to read.
+
+Question: Who read, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole threatened Casey to read.\n\nQuestion: Who read, Nicole or Casey?\nAnswer: ', '\n')"
+163,gpt3,subject-control,Nicole,Casey,False,threatened,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to run.
+
+Question: Who ran, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole threatened Casey to run.\n\nQuestion: Who ran, Nicole or Casey?\nAnswer: ', '\n')"
+164,gpt3,subject-control,Nicole,Casey,False,threatened,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".
+Context: Nicole threatened Casey to call.
+
+Question: Who called, Nicole or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Casey"".\nContext: Nicole threatened Casey to call.\n\nQuestion: Who called, Nicole or Casey?\nAnswer: ', '\n')"
+170,gpt3,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to come.
+
+Question: Who came, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole threatened Joseph to come.\n\nQuestion: Who came, Nicole or Joseph?\nAnswer: ', '\n')"
+171,gpt3,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to go.
+
+Question: Who went, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole threatened Joseph to go.\n\nQuestion: Who went, Nicole or Joseph?\nAnswer: ', '\n')"
+172,gpt3,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to read.
+
+Question: Who read, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole threatened Joseph to read.\n\nQuestion: Who read, Nicole or Joseph?\nAnswer: ', '\n')"
+173,gpt3,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole threatened Joseph to run.\n\nQuestion: Who ran, Nicole or Joseph?\nAnswer: ', '\n')"
+174,gpt3,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".
+Context: Nicole threatened Joseph to call.
+
+Question: Who called, Nicole or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Joseph"".\nContext: Nicole threatened Joseph to call.\n\nQuestion: Who called, Nicole or Joseph?\nAnswer: ', '\n')"
+180,gpt3,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole threatened Stephanie to come.\n\nQuestion: Who came, Nicole or Stephanie?\nAnswer: ', '\n')"
+181,gpt3,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole threatened Stephanie to go.\n\nQuestion: Who went, Nicole or Stephanie?\nAnswer: ', '\n')"
+182,gpt3,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,Stephanie,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole threatened Stephanie to read.\n\nQuestion: Who read, Nicole or Stephanie?\nAnswer: ', 'Step')"
+183,gpt3,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole threatened Stephanie to run.\n\nQuestion: Who ran, Nicole or Stephanie?\nAnswer: ', '\n')"
+184,gpt3,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called, Nicole or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""Stephanie"".\nContext: Nicole threatened Stephanie to call.\n\nQuestion: Who called, Nicole or Stephanie?\nAnswer: ', '\n')"
+190,gpt3,subject-control,Nicole,William,False,threatened,to come,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to come.
+
+Question: Who came, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole threatened William to come.\n\nQuestion: Who came, Nicole or William?\nAnswer: ', '\n')"
+191,gpt3,subject-control,Nicole,William,False,threatened,to go,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to go.
+
+Question: Who went, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole threatened William to go.\n\nQuestion: Who went, Nicole or William?\nAnswer: ', '\n')"
+192,gpt3,subject-control,Nicole,William,False,threatened,to read,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to read.
+
+Question: Who read, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole threatened William to read.\n\nQuestion: Who read, Nicole or William?\nAnswer: ', '\n')"
+193,gpt3,subject-control,Nicole,William,False,threatened,to run,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to run.
+
+Question: Who ran, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole threatened William to run.\n\nQuestion: Who ran, Nicole or William?\nAnswer: ', '\n')"
+194,gpt3,subject-control,Nicole,William,False,threatened,to call,Nicole,other,"You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".
+Context: Nicole threatened William to call.
+
+Question: Who called, Nicole or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Nicole"" or ""William"".\nContext: Nicole threatened William to call.\n\nQuestion: Who called, Nicole or William?\nAnswer: ', '\n')"
+200,gpt3,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to come.
+
+Question: Who came, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie threatened Avery to come.\n\nQuestion: Who came, Stephanie or Avery?\nAnswer: ', 'Step')"
+201,gpt3,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to go.
+
+Question: Who went, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie threatened Avery to go.\n\nQuestion: Who went, Stephanie or Avery?\nAnswer: ', 'Step')"
+202,gpt3,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to read.
+
+Question: Who read, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie threatened Avery to read.\n\nQuestion: Who read, Stephanie or Avery?\nAnswer: ', 'Step')"
+203,gpt3,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie threatened Avery to run.\n\nQuestion: Who ran, Stephanie or Avery?\nAnswer: ', 'Step')"
+204,gpt3,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".
+Context: Stephanie threatened Avery to call.
+
+Question: Who called, Stephanie or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Avery"".\nContext: Stephanie threatened Avery to call.\n\nQuestion: Who called, Stephanie or Avery?\nAnswer: ', 'Step')"
+210,gpt3,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to come.
+
+Question: Who came, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie threatened Casey to come.\n\nQuestion: Who came, Stephanie or Casey?\nAnswer: ', 'Step')"
+211,gpt3,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to go.
+
+Question: Who went, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie threatened Casey to go.\n\nQuestion: Who went, Stephanie or Casey?\nAnswer: ', 'Step')"
+212,gpt3,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to read.
+
+Question: Who read, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie threatened Casey to read.\n\nQuestion: Who read, Stephanie or Casey?\nAnswer: ', 'Step')"
+213,gpt3,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie threatened Casey to run.\n\nQuestion: Who ran, Stephanie or Casey?\nAnswer: ', 'Step')"
+214,gpt3,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".
+Context: Stephanie threatened Casey to call.
+
+Question: Who called, Stephanie or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Casey"".\nContext: Stephanie threatened Casey to call.\n\nQuestion: Who called, Stephanie or Casey?\nAnswer: ', 'Step')"
+220,gpt3,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie threatened Joseph to come.\n\nQuestion: Who came, Stephanie or Joseph?\nAnswer: ', 'Step')"
+221,gpt3,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie threatened Joseph to go.\n\nQuestion: Who went, Stephanie or Joseph?\nAnswer: ', 'Step')"
+222,gpt3,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie threatened Joseph to read.\n\nQuestion: Who read, Stephanie or Joseph?\nAnswer: ', 'Step')"
+223,gpt3,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie threatened Joseph to run.\n\nQuestion: Who ran, Stephanie or Joseph?\nAnswer: ', 'Step')"
+224,gpt3,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called, Stephanie or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Joseph"".\nContext: Stephanie threatened Joseph to call.\n\nQuestion: Who called, Stephanie or Joseph?\nAnswer: ', 'Step')"
+230,gpt3,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie threatened Nicole to come.\n\nQuestion: Who came, Stephanie or Nicole?\nAnswer: ', 'Step')"
+231,gpt3,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie threatened Nicole to go.\n\nQuestion: Who went, Stephanie or Nicole?\nAnswer: ', 'Step')"
+232,gpt3,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie threatened Nicole to read.\n\nQuestion: Who read, Stephanie or Nicole?\nAnswer: ', 'Step')"
+233,gpt3,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie threatened Nicole to run.\n\nQuestion: Who ran, Stephanie or Nicole?\nAnswer: ', 'Step')"
+234,gpt3,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called, Stephanie or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""Nicole"".\nContext: Stephanie threatened Nicole to call.\n\nQuestion: Who called, Stephanie or Nicole?\nAnswer: ', 'Step')"
+240,gpt3,subject-control,Stephanie,William,False,threatened,to come,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to come.
+
+Question: Who came, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie threatened William to come.\n\nQuestion: Who came, Stephanie or William?\nAnswer: ', 'Step')"
+241,gpt3,subject-control,Stephanie,William,False,threatened,to go,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to go.
+
+Question: Who went, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie threatened William to go.\n\nQuestion: Who went, Stephanie or William?\nAnswer: ', 'Step')"
+242,gpt3,subject-control,Stephanie,William,False,threatened,to read,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to read.
+
+Question: Who read, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie threatened William to read.\n\nQuestion: Who read, Stephanie or William?\nAnswer: ', 'Step')"
+243,gpt3,subject-control,Stephanie,William,False,threatened,to run,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to run.
+
+Question: Who ran, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie threatened William to run.\n\nQuestion: Who ran, Stephanie or William?\nAnswer: ', 'Step')"
+244,gpt3,subject-control,Stephanie,William,False,threatened,to call,Stephanie,Stephanie,"You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".
+Context: Stephanie threatened William to call.
+
+Question: Who called, Stephanie or William?
+Answer: ","('You will be given a context and a question. Answer the question with either ""Stephanie"" or ""William"".\nContext: Stephanie threatened William to call.\n\nQuestion: Who called, Stephanie or William?\nAnswer: ', 'Step')"
+250,gpt3,subject-control,William,Avery,False,threatened,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to come.
+
+Question: Who came, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William threatened Avery to come.\n\nQuestion: Who came, William or Avery?\nAnswer: ', '\n')"
+251,gpt3,subject-control,William,Avery,False,threatened,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to go.
+
+Question: Who went, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William threatened Avery to go.\n\nQuestion: Who went, William or Avery?\nAnswer: ', '\n')"
+252,gpt3,subject-control,William,Avery,False,threatened,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to read.
+
+Question: Who read, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William threatened Avery to read.\n\nQuestion: Who read, William or Avery?\nAnswer: ', '_')"
+253,gpt3,subject-control,William,Avery,False,threatened,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to run.
+
+Question: Who ran, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William threatened Avery to run.\n\nQuestion: Who ran, William or Avery?\nAnswer: ', '\n')"
+254,gpt3,subject-control,William,Avery,False,threatened,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".
+Context: William threatened Avery to call.
+
+Question: Who called, William or Avery?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Avery"".\nContext: William threatened Avery to call.\n\nQuestion: Who called, William or Avery?\nAnswer: ', '\n')"
+260,gpt3,subject-control,William,Casey,False,threatened,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to come.
+
+Question: Who came, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William threatened Casey to come.\n\nQuestion: Who came, William or Casey?\nAnswer: ', '\n')"
+261,gpt3,subject-control,William,Casey,False,threatened,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to go.
+
+Question: Who went, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William threatened Casey to go.\n\nQuestion: Who went, William or Casey?\nAnswer: ', '\n')"
+262,gpt3,subject-control,William,Casey,False,threatened,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to read.
+
+Question: Who read, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William threatened Casey to read.\n\nQuestion: Who read, William or Casey?\nAnswer: ', '\n')"
+263,gpt3,subject-control,William,Casey,False,threatened,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to run.
+
+Question: Who ran, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William threatened Casey to run.\n\nQuestion: Who ran, William or Casey?\nAnswer: ', '\n')"
+264,gpt3,subject-control,William,Casey,False,threatened,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".
+Context: William threatened Casey to call.
+
+Question: Who called, William or Casey?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Casey"".\nContext: William threatened Casey to call.\n\nQuestion: Who called, William or Casey?\nAnswer: ', '\n')"
+270,gpt3,subject-control,William,Joseph,False,threatened,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to come.
+
+Question: Who came, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William threatened Joseph to come.\n\nQuestion: Who came, William or Joseph?\nAnswer: ', '\n')"
+271,gpt3,subject-control,William,Joseph,False,threatened,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to go.
+
+Question: Who went, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William threatened Joseph to go.\n\nQuestion: Who went, William or Joseph?\nAnswer: ', '\n')"
+272,gpt3,subject-control,William,Joseph,False,threatened,to read,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to read.
+
+Question: Who read, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William threatened Joseph to read.\n\nQuestion: Who read, William or Joseph?\nAnswer: ', '\n')"
+273,gpt3,subject-control,William,Joseph,False,threatened,to run,William,Joseph,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to run.
+
+Question: Who ran, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William threatened Joseph to run.\n\nQuestion: Who ran, William or Joseph?\nAnswer: ', 'Joseph')"
+274,gpt3,subject-control,William,Joseph,False,threatened,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".
+Context: William threatened Joseph to call.
+
+Question: Who called, William or Joseph?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Joseph"".\nContext: William threatened Joseph to call.\n\nQuestion: Who called, William or Joseph?\nAnswer: ', '\n')"
+280,gpt3,subject-control,William,Nicole,False,threatened,to come,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to come.
+
+Question: Who came, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William threatened Nicole to come.\n\nQuestion: Who came, William or Nicole?\nAnswer: ', '\n')"
+281,gpt3,subject-control,William,Nicole,False,threatened,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to go.
+
+Question: Who went, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William threatened Nicole to go.\n\nQuestion: Who went, William or Nicole?\nAnswer: ', '_')"
+282,gpt3,subject-control,William,Nicole,False,threatened,to read,William,William,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to read.
+
+Question: Who read, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William threatened Nicole to read.\n\nQuestion: Who read, William or Nicole?\nAnswer: ', 'William')"
+283,gpt3,subject-control,William,Nicole,False,threatened,to run,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to run.
+
+Question: Who ran, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William threatened Nicole to run.\n\nQuestion: Who ran, William or Nicole?\nAnswer: ', '_')"
+284,gpt3,subject-control,William,Nicole,False,threatened,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".
+Context: William threatened Nicole to call.
+
+Question: Who called, William or Nicole?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Nicole"".\nContext: William threatened Nicole to call.\n\nQuestion: Who called, William or Nicole?\nAnswer: ', '\n')"
+290,gpt3,subject-control,William,Stephanie,False,threatened,to come,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to come.
+
+Question: Who came, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William threatened Stephanie to come.\n\nQuestion: Who came, William or Stephanie?\nAnswer: ', 'Step')"
+291,gpt3,subject-control,William,Stephanie,False,threatened,to go,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to go.
+
+Question: Who went, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William threatened Stephanie to go.\n\nQuestion: Who went, William or Stephanie?\nAnswer: ', '\n')"
+292,gpt3,subject-control,William,Stephanie,False,threatened,to read,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to read.
+
+Question: Who read, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William threatened Stephanie to read.\n\nQuestion: Who read, William or Stephanie?\nAnswer: ', 'Step')"
+293,gpt3,subject-control,William,Stephanie,False,threatened,to run,William,Stephanie,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to run.
+
+Question: Who ran, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William threatened Stephanie to run.\n\nQuestion: Who ran, William or Stephanie?\nAnswer: ', 'Step')"
+294,gpt3,subject-control,William,Stephanie,False,threatened,to call,William,other,"You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".
+Context: William threatened Stephanie to call.
+
+Question: Who called, William or Stephanie?
+Answer: ","('You will be given a context and a question. Answer the question with either ""William"" or ""Stephanie"".\nContext: William threatened Stephanie to call.\n\nQuestion: Who called, William or Stephanie?\nAnswer: ', '\n')"

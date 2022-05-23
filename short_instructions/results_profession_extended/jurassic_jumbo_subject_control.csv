@@ -1,0 +1,751 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response
+0,jurassic-jumbo,subject-control,the doctor,the lawyer,True,threatened,to come,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the lawyer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+1,jurassic-jumbo,subject-control,the doctor,the lawyer,True,threatened,to go,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the lawyer to go.\n\nQuestion: Who went?\nAnswer: ', '(a')"
+2,jurassic-jumbo,subject-control,the doctor,the lawyer,True,threatened,to read,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the lawyer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+3,jurassic-jumbo,subject-control,the doctor,the lawyer,True,threatened,to run,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the lawyer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+4,jurassic-jumbo,subject-control,the doctor,the lawyer,True,threatened,to call,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the lawyer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+5,jurassic-jumbo,subject-control,the doctor,the engineer,True,threatened,to come,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the engineer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the engineer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+6,jurassic-jumbo,subject-control,the doctor,the engineer,True,threatened,to go,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the engineer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the engineer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+7,jurassic-jumbo,subject-control,the doctor,the engineer,True,threatened,to read,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the engineer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the engineer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+8,jurassic-jumbo,subject-control,the doctor,the engineer,True,threatened,to run,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the engineer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the engineer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+9,jurassic-jumbo,subject-control,the doctor,the engineer,True,threatened,to call,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the engineer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the engineer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+10,jurassic-jumbo,subject-control,the doctor,the writer,True,threatened,to come,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the writer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the writer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+11,jurassic-jumbo,subject-control,the doctor,the writer,True,threatened,to go,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the writer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the writer to go.\n\nQuestion: Who went?\nAnswer: ', '(a')"
+12,jurassic-jumbo,subject-control,the doctor,the writer,True,threatened,to read,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the writer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the writer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+13,jurassic-jumbo,subject-control,the doctor,the writer,True,threatened,to run,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the writer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the writer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+14,jurassic-jumbo,subject-control,the doctor,the writer,True,threatened,to call,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the writer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the writer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+15,jurassic-jumbo,subject-control,the doctor,the janitor,True,threatened,to come,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the janitor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the janitor to come.\n\nQuestion: Who came?\nAnswer: ', '(the')"
+16,jurassic-jumbo,subject-control,the doctor,the janitor,True,threatened,to go,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the janitor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the janitor to go.\n\nQuestion: Who went?\nAnswer: ', '(the')"
+17,jurassic-jumbo,subject-control,the doctor,the janitor,True,threatened,to read,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the janitor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the janitor to read.\n\nQuestion: Who read?\nAnswer: ', '(the')"
+18,jurassic-jumbo,subject-control,the doctor,the janitor,True,threatened,to run,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the janitor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the janitor to run.\n\nQuestion: Who ran?\nAnswer: ', '(the')"
+19,jurassic-jumbo,subject-control,the doctor,the janitor,True,threatened,to call,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the janitor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the janitor to call.\n\nQuestion: Who called?\nAnswer: ', '(the')"
+20,jurassic-jumbo,subject-control,the doctor,the bartender,True,threatened,to come,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the bartender to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the bartender to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+21,jurassic-jumbo,subject-control,the doctor,the bartender,True,threatened,to go,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the bartender to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the bartender to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+22,jurassic-jumbo,subject-control,the doctor,the bartender,True,threatened,to read,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the bartender to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the bartender to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+23,jurassic-jumbo,subject-control,the doctor,the bartender,True,threatened,to run,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the bartender to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the bartender to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+24,jurassic-jumbo,subject-control,the doctor,the bartender,True,threatened,to call,the doctor,other,"You will be given a context and a question.
+Context: the doctor threatened the bartender to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the doctor threatened the bartender to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+25,jurassic-jumbo,subject-control,the lawyer,the doctor,True,threatened,to come,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the doctor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+26,jurassic-jumbo,subject-control,the lawyer,the doctor,True,threatened,to go,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the doctor to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+27,jurassic-jumbo,subject-control,the lawyer,the doctor,True,threatened,to read,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the doctor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+28,jurassic-jumbo,subject-control,the lawyer,the doctor,True,threatened,to run,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the doctor to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+29,jurassic-jumbo,subject-control,the lawyer,the doctor,True,threatened,to call,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the doctor to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+30,jurassic-jumbo,subject-control,the lawyer,the engineer,True,threatened,to come,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the engineer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+31,jurassic-jumbo,subject-control,the lawyer,the engineer,True,threatened,to go,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the engineer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+32,jurassic-jumbo,subject-control,the lawyer,the engineer,True,threatened,to read,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the engineer to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+33,jurassic-jumbo,subject-control,the lawyer,the engineer,True,threatened,to run,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the engineer to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+34,jurassic-jumbo,subject-control,the lawyer,the engineer,True,threatened,to call,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the engineer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+35,jurassic-jumbo,subject-control,the lawyer,the writer,True,threatened,to come,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the writer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the writer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+36,jurassic-jumbo,subject-control,the lawyer,the writer,True,threatened,to go,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the writer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the writer to go.\n\nQuestion: Who went?\nAnswer: ', '(a')"
+37,jurassic-jumbo,subject-control,the lawyer,the writer,True,threatened,to read,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the writer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the writer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+38,jurassic-jumbo,subject-control,the lawyer,the writer,True,threatened,to run,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the writer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the writer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+39,jurassic-jumbo,subject-control,the lawyer,the writer,True,threatened,to call,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the writer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the writer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+40,jurassic-jumbo,subject-control,the lawyer,the janitor,True,threatened,to come,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the janitor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+41,jurassic-jumbo,subject-control,the lawyer,the janitor,True,threatened,to go,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the janitor to go.\n\nQuestion: Who went?\nAnswer: ', '(lawyer')"
+42,jurassic-jumbo,subject-control,the lawyer,the janitor,True,threatened,to read,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the janitor to read.\n\nQuestion: Who read?\nAnswer: ', '(lawyer')"
+43,jurassic-jumbo,subject-control,the lawyer,the janitor,True,threatened,to run,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the janitor to run.\n\nQuestion: Who ran?\nAnswer: ', '(the')"
+44,jurassic-jumbo,subject-control,the lawyer,the janitor,True,threatened,to call,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the janitor to call.\n\nQuestion: Who called?\nAnswer: ', '(lawyer')"
+45,jurassic-jumbo,subject-control,the lawyer,the bartender,True,threatened,to come,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the bartender to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+46,jurassic-jumbo,subject-control,the lawyer,the bartender,True,threatened,to go,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the bartender to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+47,jurassic-jumbo,subject-control,the lawyer,the bartender,True,threatened,to read,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the bartender to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+48,jurassic-jumbo,subject-control,the lawyer,the bartender,True,threatened,to run,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the bartender to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+49,jurassic-jumbo,subject-control,the lawyer,the bartender,True,threatened,to call,the lawyer,other,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the lawyer threatened the bartender to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+50,jurassic-jumbo,subject-control,the engineer,the doctor,True,threatened,to come,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the doctor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the doctor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+51,jurassic-jumbo,subject-control,the engineer,the doctor,True,threatened,to go,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the doctor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the doctor to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+52,jurassic-jumbo,subject-control,the engineer,the doctor,True,threatened,to read,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the doctor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the doctor to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+53,jurassic-jumbo,subject-control,the engineer,the doctor,True,threatened,to run,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the doctor to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+54,jurassic-jumbo,subject-control,the engineer,the doctor,True,threatened,to call,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the doctor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the doctor to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+55,jurassic-jumbo,subject-control,the engineer,the lawyer,True,threatened,to come,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the lawyer to come.\n\nQuestion: Who came?\nAnswer: ', '(A')"
+56,jurassic-jumbo,subject-control,the engineer,the lawyer,True,threatened,to go,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the lawyer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+57,jurassic-jumbo,subject-control,the engineer,the lawyer,True,threatened,to read,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the lawyer to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+58,jurassic-jumbo,subject-control,the engineer,the lawyer,True,threatened,to run,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the lawyer to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+59,jurassic-jumbo,subject-control,the engineer,the lawyer,True,threatened,to call,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the lawyer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+60,jurassic-jumbo,subject-control,the engineer,the writer,True,threatened,to come,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the writer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the writer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+61,jurassic-jumbo,subject-control,the engineer,the writer,True,threatened,to go,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the writer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the writer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+62,jurassic-jumbo,subject-control,the engineer,the writer,True,threatened,to read,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the writer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the writer to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+63,jurassic-jumbo,subject-control,the engineer,the writer,True,threatened,to run,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the writer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the writer to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+64,jurassic-jumbo,subject-control,the engineer,the writer,True,threatened,to call,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the writer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the writer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+65,jurassic-jumbo,subject-control,the engineer,the janitor,True,threatened,to come,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the janitor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the janitor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+66,jurassic-jumbo,subject-control,the engineer,the janitor,True,threatened,to go,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the janitor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the janitor to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+67,jurassic-jumbo,subject-control,the engineer,the janitor,True,threatened,to read,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the janitor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the janitor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+68,jurassic-jumbo,subject-control,the engineer,the janitor,True,threatened,to run,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the janitor to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+69,jurassic-jumbo,subject-control,the engineer,the janitor,True,threatened,to call,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the janitor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the janitor to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+70,jurassic-jumbo,subject-control,the engineer,the bartender,True,threatened,to come,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the bartender to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the bartender to come.\n\nQuestion: Who came?\nAnswer: ', '(A')"
+71,jurassic-jumbo,subject-control,the engineer,the bartender,True,threatened,to go,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the bartender to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the bartender to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+72,jurassic-jumbo,subject-control,the engineer,the bartender,True,threatened,to read,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the bartender to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the bartender to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+73,jurassic-jumbo,subject-control,the engineer,the bartender,True,threatened,to run,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the bartender to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+74,jurassic-jumbo,subject-control,the engineer,the bartender,True,threatened,to call,the engineer,other,"You will be given a context and a question.
+Context: the engineer threatened the bartender to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the engineer threatened the bartender to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+75,jurassic-jumbo,subject-control,the writer,the doctor,True,threatened,to come,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the doctor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the doctor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+76,jurassic-jumbo,subject-control,the writer,the doctor,True,threatened,to go,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the doctor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the doctor to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+77,jurassic-jumbo,subject-control,the writer,the doctor,True,threatened,to read,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the doctor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the doctor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+78,jurassic-jumbo,subject-control,the writer,the doctor,True,threatened,to run,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the doctor to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+79,jurassic-jumbo,subject-control,the writer,the doctor,True,threatened,to call,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the doctor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the doctor to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+80,jurassic-jumbo,subject-control,the writer,the lawyer,True,threatened,to come,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the lawyer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the lawyer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+81,jurassic-jumbo,subject-control,the writer,the lawyer,True,threatened,to go,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the lawyer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the lawyer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+82,jurassic-jumbo,subject-control,the writer,the lawyer,True,threatened,to read,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the lawyer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the lawyer to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+83,jurassic-jumbo,subject-control,the writer,the lawyer,True,threatened,to run,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the lawyer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+84,jurassic-jumbo,subject-control,the writer,the lawyer,True,threatened,to call,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the lawyer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the lawyer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+85,jurassic-jumbo,subject-control,the writer,the engineer,True,threatened,to come,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the engineer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the engineer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+86,jurassic-jumbo,subject-control,the writer,the engineer,True,threatened,to go,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the engineer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the engineer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+87,jurassic-jumbo,subject-control,the writer,the engineer,True,threatened,to read,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the engineer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the engineer to read.\n\nQuestion: Who read?\nAnswer: ', '(A')"
+88,jurassic-jumbo,subject-control,the writer,the engineer,True,threatened,to run,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the engineer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the engineer to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+89,jurassic-jumbo,subject-control,the writer,the engineer,True,threatened,to call,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the engineer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the engineer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+90,jurassic-jumbo,subject-control,the writer,the janitor,True,threatened,to come,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the janitor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the janitor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+91,jurassic-jumbo,subject-control,the writer,the janitor,True,threatened,to go,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the janitor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the janitor to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+92,jurassic-jumbo,subject-control,the writer,the janitor,True,threatened,to read,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the janitor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the janitor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+93,jurassic-jumbo,subject-control,the writer,the janitor,True,threatened,to run,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the janitor to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+94,jurassic-jumbo,subject-control,the writer,the janitor,True,threatened,to call,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the janitor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the janitor to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+95,jurassic-jumbo,subject-control,the writer,the bartender,True,threatened,to come,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the bartender to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the bartender to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+96,jurassic-jumbo,subject-control,the writer,the bartender,True,threatened,to go,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the bartender to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the bartender to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+97,jurassic-jumbo,subject-control,the writer,the bartender,True,threatened,to read,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the bartender to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the bartender to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+98,jurassic-jumbo,subject-control,the writer,the bartender,True,threatened,to run,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the bartender to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+99,jurassic-jumbo,subject-control,the writer,the bartender,True,threatened,to call,the writer,other,"You will be given a context and a question.
+Context: the writer threatened the bartender to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the writer threatened the bartender to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+100,jurassic-jumbo,subject-control,the janitor,the doctor,True,threatened,to come,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the doctor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the doctor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+101,jurassic-jumbo,subject-control,the janitor,the doctor,True,threatened,to go,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the doctor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the doctor to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+102,jurassic-jumbo,subject-control,the janitor,the doctor,True,threatened,to read,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the doctor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the doctor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+103,jurassic-jumbo,subject-control,the janitor,the doctor,True,threatened,to run,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the doctor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the doctor to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+104,jurassic-jumbo,subject-control,the janitor,the doctor,True,threatened,to call,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the doctor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the doctor to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+105,jurassic-jumbo,subject-control,the janitor,the lawyer,True,threatened,to come,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the lawyer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+106,jurassic-jumbo,subject-control,the janitor,the lawyer,True,threatened,to go,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the lawyer to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+107,jurassic-jumbo,subject-control,the janitor,the lawyer,True,threatened,to read,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the lawyer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+108,jurassic-jumbo,subject-control,the janitor,the lawyer,True,threatened,to run,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the lawyer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+109,jurassic-jumbo,subject-control,the janitor,the lawyer,True,threatened,to call,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the lawyer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+110,jurassic-jumbo,subject-control,the janitor,the engineer,True,threatened,to come,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the engineer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the engineer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+111,jurassic-jumbo,subject-control,the janitor,the engineer,True,threatened,to go,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the engineer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the engineer to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+112,jurassic-jumbo,subject-control,the janitor,the engineer,True,threatened,to read,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the engineer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the engineer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+113,jurassic-jumbo,subject-control,the janitor,the engineer,True,threatened,to run,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the engineer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the engineer to run.\n\nQuestion: Who ran?\nAnswer: ', '(The')"
+114,jurassic-jumbo,subject-control,the janitor,the engineer,True,threatened,to call,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the engineer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the engineer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+115,jurassic-jumbo,subject-control,the janitor,the writer,True,threatened,to come,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the writer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the writer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+116,jurassic-jumbo,subject-control,the janitor,the writer,True,threatened,to go,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the writer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the writer to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+117,jurassic-jumbo,subject-control,the janitor,the writer,True,threatened,to read,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the writer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the writer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+118,jurassic-jumbo,subject-control,the janitor,the writer,True,threatened,to run,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the writer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the writer to run.\n\nQuestion: Who ran?\nAnswer: ', '(The')"
+119,jurassic-jumbo,subject-control,the janitor,the writer,True,threatened,to call,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the writer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the writer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+120,jurassic-jumbo,subject-control,the janitor,the bartender,True,threatened,to come,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the bartender to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the bartender to come.\n\nQuestion: Who came?\nAnswer: ', '(The')"
+121,jurassic-jumbo,subject-control,the janitor,the bartender,True,threatened,to go,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the bartender to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the bartender to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+122,jurassic-jumbo,subject-control,the janitor,the bartender,True,threatened,to read,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the bartender to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the bartender to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+123,jurassic-jumbo,subject-control,the janitor,the bartender,True,threatened,to run,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the bartender to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the bartender to run.\n\nQuestion: Who ran?\nAnswer: ', '(The')"
+124,jurassic-jumbo,subject-control,the janitor,the bartender,True,threatened,to call,the janitor,other,"You will be given a context and a question.
+Context: the janitor threatened the bartender to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the janitor threatened the bartender to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+125,jurassic-jumbo,subject-control,the bartender,the doctor,True,threatened,to come,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the doctor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the doctor to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+126,jurassic-jumbo,subject-control,the bartender,the doctor,True,threatened,to go,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the doctor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the doctor to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+127,jurassic-jumbo,subject-control,the bartender,the doctor,True,threatened,to read,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the doctor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the doctor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+128,jurassic-jumbo,subject-control,the bartender,the doctor,True,threatened,to run,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the doctor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the doctor to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+129,jurassic-jumbo,subject-control,the bartender,the doctor,True,threatened,to call,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the doctor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the doctor to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+130,jurassic-jumbo,subject-control,the bartender,the lawyer,True,threatened,to come,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the lawyer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+131,jurassic-jumbo,subject-control,the bartender,the lawyer,True,threatened,to go,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the lawyer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+132,jurassic-jumbo,subject-control,the bartender,the lawyer,True,threatened,to read,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the lawyer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+133,jurassic-jumbo,subject-control,the bartender,the lawyer,True,threatened,to run,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the lawyer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+134,jurassic-jumbo,subject-control,the bartender,the lawyer,True,threatened,to call,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the lawyer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+135,jurassic-jumbo,subject-control,the bartender,the engineer,True,threatened,to come,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the engineer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the engineer to come.\n\nQuestion: Who came?\nAnswer: ', '(A')"
+136,jurassic-jumbo,subject-control,the bartender,the engineer,True,threatened,to go,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the engineer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the engineer to go.\n\nQuestion: Who went?\nAnswer: ', '(A')"
+137,jurassic-jumbo,subject-control,the bartender,the engineer,True,threatened,to read,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the engineer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the engineer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+138,jurassic-jumbo,subject-control,the bartender,the engineer,True,threatened,to run,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the engineer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the engineer to run.\n\nQuestion: Who ran?\nAnswer: ', '(A')"
+139,jurassic-jumbo,subject-control,the bartender,the engineer,True,threatened,to call,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the engineer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the engineer to call.\n\nQuestion: Who called?\nAnswer: ', '(A')"
+140,jurassic-jumbo,subject-control,the bartender,the writer,True,threatened,to come,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the writer to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the writer to come.\n\nQuestion: Who came?\nAnswer: ', '(a')"
+141,jurassic-jumbo,subject-control,the bartender,the writer,True,threatened,to go,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the writer to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the writer to go.\n\nQuestion: Who went?\nAnswer: ', '(a')"
+142,jurassic-jumbo,subject-control,the bartender,the writer,True,threatened,to read,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the writer to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the writer to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+143,jurassic-jumbo,subject-control,the bartender,the writer,True,threatened,to run,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the writer to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the writer to run.\n\nQuestion: Who ran?\nAnswer: ', '(a')"
+144,jurassic-jumbo,subject-control,the bartender,the writer,True,threatened,to call,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the writer to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the writer to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"
+145,jurassic-jumbo,subject-control,the bartender,the janitor,True,threatened,to come,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the janitor to come.
+
+Question: Who came?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the janitor to come.\n\nQuestion: Who came?\nAnswer: ', '(The')"
+146,jurassic-jumbo,subject-control,the bartender,the janitor,True,threatened,to go,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the janitor to go.
+
+Question: Who went?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the janitor to go.\n\nQuestion: Who went?\nAnswer: ', '(The')"
+147,jurassic-jumbo,subject-control,the bartender,the janitor,True,threatened,to read,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the janitor to read.
+
+Question: Who read?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the janitor to read.\n\nQuestion: Who read?\nAnswer: ', '(a')"
+148,jurassic-jumbo,subject-control,the bartender,the janitor,True,threatened,to run,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the janitor to run.
+
+Question: Who ran?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the janitor to run.\n\nQuestion: Who ran?\nAnswer: ', '(The')"
+149,jurassic-jumbo,subject-control,the bartender,the janitor,True,threatened,to call,the bartender,other,"You will be given a context and a question.
+Context: the bartender threatened the janitor to call.
+
+Question: Who called?
+Answer: ","('You will be given a context and a question.\nContext: the bartender threatened the janitor to call.\n\nQuestion: Who called?\nAnswer: ', '(a')"

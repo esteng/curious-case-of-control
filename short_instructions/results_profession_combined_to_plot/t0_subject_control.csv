@@ -1,0 +1,3001 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,t0,subject-control,the doctor,the lawyer,True,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),0.0
+1,t0,subject-control,the doctor,the lawyer,False,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),1.0
+2,t0,subject-control,the doctor,the lawyer,True,threatened,to go,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),2.0
+3,t0,subject-control,the doctor,the lawyer,False,threatened,to go,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),3.0
+4,t0,subject-control,the doctor,the lawyer,True,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),4.0
+5,t0,subject-control,the doctor,the lawyer,False,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),5.0
+6,t0,subject-control,the doctor,the lawyer,True,threatened,to run,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),6.0
+7,t0,subject-control,the doctor,the lawyer,False,threatened,to run,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),7.0
+8,t0,subject-control,the doctor,the lawyer,True,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),8.0
+9,t0,subject-control,the doctor,the lawyer,False,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),9.0
+10,t0,subject-control,the doctor,the engineer,True,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),10.0
+11,t0,subject-control,the doctor,the engineer,False,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),11.0
+12,t0,subject-control,the doctor,the engineer,True,threatened,to go,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),12.0
+13,t0,subject-control,the doctor,the engineer,False,threatened,to go,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),13.0
+14,t0,subject-control,the doctor,the engineer,True,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),14.0
+15,t0,subject-control,the doctor,the engineer,False,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),15.0
+16,t0,subject-control,the doctor,the engineer,True,threatened,to run,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),16.0
+17,t0,subject-control,the doctor,the engineer,False,threatened,to run,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),17.0
+18,t0,subject-control,the doctor,the engineer,True,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),18.0
+19,t0,subject-control,the doctor,the engineer,False,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),19.0
+20,t0,subject-control,the doctor,the writer,True,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),20.0
+21,t0,subject-control,the doctor,the writer,False,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),21.0
+22,t0,subject-control,the doctor,the writer,True,threatened,to go,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),22.0
+23,t0,subject-control,the doctor,the writer,False,threatened,to go,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),23.0
+24,t0,subject-control,the doctor,the writer,True,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),24.0
+25,t0,subject-control,the doctor,the writer,False,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),25.0
+26,t0,subject-control,the doctor,the writer,True,threatened,to run,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),26.0
+27,t0,subject-control,the doctor,the writer,False,threatened,to run,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),27.0
+28,t0,subject-control,the doctor,the writer,True,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),28.0
+29,t0,subject-control,the doctor,the writer,False,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),29.0
+30,t0,subject-control,the doctor,the janitor,True,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),30.0
+31,t0,subject-control,the doctor,the janitor,False,threatened,to come,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),31.0
+32,t0,subject-control,the doctor,the janitor,True,threatened,to go,the doctor,the janitor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),32.0
+33,t0,subject-control,the doctor,the janitor,False,threatened,to go,the doctor,the janitor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),33.0
+34,t0,subject-control,the doctor,the janitor,True,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),34.0
+35,t0,subject-control,the doctor,the janitor,False,threatened,to read,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),35.0
+36,t0,subject-control,the doctor,the janitor,True,threatened,to run,the doctor,the janitor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),36.0
+37,t0,subject-control,the doctor,the janitor,False,threatened,to run,the doctor,the janitor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),37.0
+38,t0,subject-control,the doctor,the janitor,True,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),38.0
+39,t0,subject-control,the doctor,the janitor,False,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),39.0
+40,t0,subject-control,the doctor,the bartender,True,threatened,to come,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),40.0
+41,t0,subject-control,the doctor,the bartender,False,threatened,to come,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),41.0
+42,t0,subject-control,the doctor,the bartender,True,threatened,to go,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),42.0
+43,t0,subject-control,the doctor,the bartender,False,threatened,to go,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),43.0
+44,t0,subject-control,the doctor,the bartender,True,threatened,to read,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),44.0
+45,t0,subject-control,the doctor,the bartender,False,threatened,to read,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),45.0
+46,t0,subject-control,the doctor,the bartender,True,threatened,to run,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),46.0
+47,t0,subject-control,the doctor,the bartender,False,threatened,to run,the doctor,the bartender,"You will be given a context and a question.
+Context: the doctor threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),47.0
+48,t0,subject-control,the doctor,the bartender,True,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),48.0
+49,t0,subject-control,the doctor,the bartender,False,threatened,to call,the doctor,the doctor,"You will be given a context and a question.
+Context: the doctor threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),49.0
+50,t0,subject-control,the lawyer,the doctor,True,threatened,to come,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),50.0
+51,t0,subject-control,the lawyer,the doctor,False,threatened,to come,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),51.0
+52,t0,subject-control,the lawyer,the doctor,True,threatened,to go,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),52.0
+53,t0,subject-control,the lawyer,the doctor,False,threatened,to go,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),53.0
+54,t0,subject-control,the lawyer,the doctor,True,threatened,to read,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),54.0
+55,t0,subject-control,the lawyer,the doctor,False,threatened,to read,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),55.0
+56,t0,subject-control,the lawyer,the doctor,True,threatened,to run,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),56.0
+57,t0,subject-control,the lawyer,the doctor,False,threatened,to run,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),57.0
+58,t0,subject-control,the lawyer,the doctor,True,threatened,to call,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),58.0
+59,t0,subject-control,the lawyer,the doctor,False,threatened,to call,the lawyer,the doctor,"You will be given a context and a question.
+Context: the lawyer threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),59.0
+60,t0,subject-control,the lawyer,the engineer,True,threatened,to come,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),60.0
+61,t0,subject-control,the lawyer,the engineer,False,threatened,to come,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),61.0
+62,t0,subject-control,the lawyer,the engineer,True,threatened,to go,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Lawyer'),62.0
+63,t0,subject-control,the lawyer,the engineer,False,threatened,to go,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Lawyer'),63.0
+64,t0,subject-control,the lawyer,the engineer,True,threatened,to read,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Lawyer'),64.0
+65,t0,subject-control,the lawyer,the engineer,False,threatened,to read,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Lawyer'),65.0
+66,t0,subject-control,the lawyer,the engineer,True,threatened,to run,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),66.0
+67,t0,subject-control,the lawyer,the engineer,False,threatened,to run,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),67.0
+68,t0,subject-control,the lawyer,the engineer,True,threatened,to call,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Lawyer'),68.0
+69,t0,subject-control,the lawyer,the engineer,False,threatened,to call,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Lawyer'),69.0
+70,t0,subject-control,the lawyer,the writer,True,threatened,to come,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),70.0
+71,t0,subject-control,the lawyer,the writer,False,threatened,to come,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),71.0
+72,t0,subject-control,the lawyer,the writer,True,threatened,to go,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Lawyer'),72.0
+73,t0,subject-control,the lawyer,the writer,False,threatened,to go,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Lawyer'),73.0
+74,t0,subject-control,the lawyer,the writer,True,threatened,to read,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Lawyer'),74.0
+75,t0,subject-control,the lawyer,the writer,False,threatened,to read,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Lawyer'),75.0
+76,t0,subject-control,the lawyer,the writer,True,threatened,to run,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),76.0
+77,t0,subject-control,the lawyer,the writer,False,threatened,to run,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),77.0
+78,t0,subject-control,the lawyer,the writer,True,threatened,to call,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Lawyer'),78.0
+79,t0,subject-control,the lawyer,the writer,False,threatened,to call,the lawyer,the lawyer,"You will be given a context and a question.
+Context: the lawyer threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Lawyer'),79.0
+80,t0,subject-control,the lawyer,the janitor,True,threatened,to come,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),80.0
+81,t0,subject-control,the lawyer,the janitor,False,threatened,to come,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),81.0
+82,t0,subject-control,the lawyer,the janitor,True,threatened,to go,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),82.0
+83,t0,subject-control,the lawyer,the janitor,False,threatened,to go,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),83.0
+84,t0,subject-control,the lawyer,the janitor,True,threatened,to read,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),84.0
+85,t0,subject-control,the lawyer,the janitor,False,threatened,to read,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),85.0
+86,t0,subject-control,the lawyer,the janitor,True,threatened,to run,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),86.0
+87,t0,subject-control,the lawyer,the janitor,False,threatened,to run,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),87.0
+88,t0,subject-control,the lawyer,the janitor,True,threatened,to call,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),88.0
+89,t0,subject-control,the lawyer,the janitor,False,threatened,to call,the lawyer,the janitor,"You will be given a context and a question.
+Context: the lawyer threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),89.0
+90,t0,subject-control,the lawyer,the bartender,True,threatened,to come,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),90.0
+91,t0,subject-control,the lawyer,the bartender,False,threatened,to come,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),91.0
+92,t0,subject-control,the lawyer,the bartender,True,threatened,to go,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),92.0
+93,t0,subject-control,the lawyer,the bartender,False,threatened,to go,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),93.0
+94,t0,subject-control,the lawyer,the bartender,True,threatened,to read,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),94.0
+95,t0,subject-control,the lawyer,the bartender,False,threatened,to read,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),95.0
+96,t0,subject-control,the lawyer,the bartender,True,threatened,to run,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),96.0
+97,t0,subject-control,the lawyer,the bartender,False,threatened,to run,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),97.0
+98,t0,subject-control,the lawyer,the bartender,True,threatened,to call,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),98.0
+99,t0,subject-control,the lawyer,the bartender,False,threatened,to call,the lawyer,the bartender,"You will be given a context and a question.
+Context: the lawyer threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),99.0
+100,t0,subject-control,the engineer,the doctor,True,threatened,to come,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),100.0
+101,t0,subject-control,the engineer,the doctor,False,threatened,to come,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),101.0
+102,t0,subject-control,the engineer,the doctor,True,threatened,to go,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),102.0
+103,t0,subject-control,the engineer,the doctor,False,threatened,to go,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),103.0
+104,t0,subject-control,the engineer,the doctor,True,threatened,to read,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),104.0
+105,t0,subject-control,the engineer,the doctor,False,threatened,to read,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),105.0
+106,t0,subject-control,the engineer,the doctor,True,threatened,to run,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),106.0
+107,t0,subject-control,the engineer,the doctor,False,threatened,to run,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),107.0
+108,t0,subject-control,the engineer,the doctor,True,threatened,to call,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),108.0
+109,t0,subject-control,the engineer,the doctor,False,threatened,to call,the engineer,the doctor,"You will be given a context and a question.
+Context: the engineer threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),109.0
+110,t0,subject-control,the engineer,the lawyer,True,threatened,to come,the engineer,the lawyer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),110.0
+111,t0,subject-control,the engineer,the lawyer,False,threatened,to come,the engineer,the lawyer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),111.0
+112,t0,subject-control,the engineer,the lawyer,True,threatened,to go,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Engineer'),112.0
+113,t0,subject-control,the engineer,the lawyer,False,threatened,to go,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Engineer'),113.0
+114,t0,subject-control,the engineer,the lawyer,True,threatened,to read,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Engineer'),114.0
+115,t0,subject-control,the engineer,the lawyer,False,threatened,to read,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Engineer'),115.0
+116,t0,subject-control,the engineer,the lawyer,True,threatened,to run,the engineer,the lawyer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),116.0
+117,t0,subject-control,the engineer,the lawyer,False,threatened,to run,the engineer,the lawyer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),117.0
+118,t0,subject-control,the engineer,the lawyer,True,threatened,to call,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Engineer'),118.0
+119,t0,subject-control,the engineer,the lawyer,False,threatened,to call,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Engineer'),119.0
+120,t0,subject-control,the engineer,the writer,True,threatened,to come,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Engineer'),120.0
+121,t0,subject-control,the engineer,the writer,False,threatened,to come,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Engineer'),121.0
+122,t0,subject-control,the engineer,the writer,True,threatened,to go,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Engineer'),122.0
+123,t0,subject-control,the engineer,the writer,False,threatened,to go,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Engineer'),123.0
+124,t0,subject-control,the engineer,the writer,True,threatened,to read,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Engineer'),124.0
+125,t0,subject-control,the engineer,the writer,False,threatened,to read,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Engineer'),125.0
+126,t0,subject-control,the engineer,the writer,True,threatened,to run,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Engineer'),126.0
+127,t0,subject-control,the engineer,the writer,False,threatened,to run,the engineer,the engineer,"You will be given a context and a question.
+Context: the engineer threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Engineer'),127.0
+128,t0,subject-control,the engineer,the writer,True,threatened,to call,the engineer,the writer,"You will be given a context and a question.
+Context: the engineer threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Writer'),128.0
+129,t0,subject-control,the engineer,the writer,False,threatened,to call,the engineer,the writer,"You will be given a context and a question.
+Context: the engineer threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Writer'),129.0
+130,t0,subject-control,the engineer,the janitor,True,threatened,to come,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),130.0
+131,t0,subject-control,the engineer,the janitor,False,threatened,to come,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),131.0
+132,t0,subject-control,the engineer,the janitor,True,threatened,to go,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),132.0
+133,t0,subject-control,the engineer,the janitor,False,threatened,to go,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),133.0
+134,t0,subject-control,the engineer,the janitor,True,threatened,to read,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),134.0
+135,t0,subject-control,the engineer,the janitor,False,threatened,to read,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),135.0
+136,t0,subject-control,the engineer,the janitor,True,threatened,to run,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),136.0
+137,t0,subject-control,the engineer,the janitor,False,threatened,to run,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),137.0
+138,t0,subject-control,the engineer,the janitor,True,threatened,to call,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),138.0
+139,t0,subject-control,the engineer,the janitor,False,threatened,to call,the engineer,the janitor,"You will be given a context and a question.
+Context: the engineer threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),139.0
+140,t0,subject-control,the engineer,the bartender,True,threatened,to come,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),140.0
+141,t0,subject-control,the engineer,the bartender,False,threatened,to come,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),141.0
+142,t0,subject-control,the engineer,the bartender,True,threatened,to go,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),142.0
+143,t0,subject-control,the engineer,the bartender,False,threatened,to go,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),143.0
+144,t0,subject-control,the engineer,the bartender,True,threatened,to read,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),144.0
+145,t0,subject-control,the engineer,the bartender,False,threatened,to read,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),145.0
+146,t0,subject-control,the engineer,the bartender,True,threatened,to run,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),146.0
+147,t0,subject-control,the engineer,the bartender,False,threatened,to run,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),147.0
+148,t0,subject-control,the engineer,the bartender,True,threatened,to call,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The bartender'),148.0
+149,t0,subject-control,the engineer,the bartender,False,threatened,to call,the engineer,the bartender,"You will be given a context and a question.
+Context: the engineer threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The bartender'),149.0
+150,t0,subject-control,the writer,the doctor,True,threatened,to come,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),150.0
+151,t0,subject-control,the writer,the doctor,False,threatened,to come,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),151.0
+152,t0,subject-control,the writer,the doctor,True,threatened,to go,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),152.0
+153,t0,subject-control,the writer,the doctor,False,threatened,to go,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Doctor'),153.0
+154,t0,subject-control,the writer,the doctor,True,threatened,to read,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),154.0
+155,t0,subject-control,the writer,the doctor,False,threatened,to read,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Doctor'),155.0
+156,t0,subject-control,the writer,the doctor,True,threatened,to run,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),156.0
+157,t0,subject-control,the writer,the doctor,False,threatened,to run,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),157.0
+158,t0,subject-control,the writer,the doctor,True,threatened,to call,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),158.0
+159,t0,subject-control,the writer,the doctor,False,threatened,to call,the writer,the doctor,"You will be given a context and a question.
+Context: the writer threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Doctor'),159.0
+160,t0,subject-control,the writer,the lawyer,True,threatened,to come,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),160.0
+161,t0,subject-control,the writer,the lawyer,False,threatened,to come,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Lawyer'),161.0
+162,t0,subject-control,the writer,the lawyer,True,threatened,to go,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Lawyer'),162.0
+163,t0,subject-control,the writer,the lawyer,False,threatened,to go,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Lawyer'),163.0
+164,t0,subject-control,the writer,the lawyer,True,threatened,to read,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Lawyer'),164.0
+165,t0,subject-control,the writer,the lawyer,False,threatened,to read,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Lawyer'),165.0
+166,t0,subject-control,the writer,the lawyer,True,threatened,to run,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),166.0
+167,t0,subject-control,the writer,the lawyer,False,threatened,to run,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Lawyer'),167.0
+168,t0,subject-control,the writer,the lawyer,True,threatened,to call,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Lawyer'),168.0
+169,t0,subject-control,the writer,the lawyer,False,threatened,to call,the writer,the lawyer,"You will be given a context and a question.
+Context: the writer threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Lawyer'),169.0
+170,t0,subject-control,the writer,the engineer,True,threatened,to come,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Engineer'),170.0
+171,t0,subject-control,the writer,the engineer,False,threatened,to come,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Engineer'),171.0
+172,t0,subject-control,the writer,the engineer,True,threatened,to go,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Engineer'),172.0
+173,t0,subject-control,the writer,the engineer,False,threatened,to go,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Engineer'),173.0
+174,t0,subject-control,the writer,the engineer,True,threatened,to read,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Engineer'),174.0
+175,t0,subject-control,the writer,the engineer,False,threatened,to read,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Engineer'),175.0
+176,t0,subject-control,the writer,the engineer,True,threatened,to run,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Engineer'),176.0
+177,t0,subject-control,the writer,the engineer,False,threatened,to run,the writer,the engineer,"You will be given a context and a question.
+Context: the writer threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Engineer'),177.0
+178,t0,subject-control,the writer,the engineer,True,threatened,to call,the writer,the writer,"You will be given a context and a question.
+Context: the writer threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Writer'),178.0
+179,t0,subject-control,the writer,the engineer,False,threatened,to call,the writer,the writer,"You will be given a context and a question.
+Context: the writer threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Writer'),179.0
+180,t0,subject-control,the writer,the janitor,True,threatened,to come,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),180.0
+181,t0,subject-control,the writer,the janitor,False,threatened,to come,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),181.0
+182,t0,subject-control,the writer,the janitor,True,threatened,to go,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),182.0
+183,t0,subject-control,the writer,the janitor,False,threatened,to go,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),183.0
+184,t0,subject-control,the writer,the janitor,True,threatened,to read,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),184.0
+185,t0,subject-control,the writer,the janitor,False,threatened,to read,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),185.0
+186,t0,subject-control,the writer,the janitor,True,threatened,to run,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),186.0
+187,t0,subject-control,the writer,the janitor,False,threatened,to run,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),187.0
+188,t0,subject-control,the writer,the janitor,True,threatened,to call,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),188.0
+189,t0,subject-control,the writer,the janitor,False,threatened,to call,the writer,the janitor,"You will be given a context and a question.
+Context: the writer threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),189.0
+190,t0,subject-control,the writer,the bartender,True,threatened,to come,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),190.0
+191,t0,subject-control,the writer,the bartender,False,threatened,to come,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),191.0
+192,t0,subject-control,the writer,the bartender,True,threatened,to go,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),192.0
+193,t0,subject-control,the writer,the bartender,False,threatened,to go,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),193.0
+194,t0,subject-control,the writer,the bartender,True,threatened,to read,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),194.0
+195,t0,subject-control,the writer,the bartender,False,threatened,to read,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),195.0
+196,t0,subject-control,the writer,the bartender,True,threatened,to run,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),196.0
+197,t0,subject-control,the writer,the bartender,False,threatened,to run,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),197.0
+198,t0,subject-control,the writer,the bartender,True,threatened,to call,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),198.0
+199,t0,subject-control,the writer,the bartender,False,threatened,to call,the writer,the bartender,"You will be given a context and a question.
+Context: the writer threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),199.0
+200,t0,subject-control,the janitor,the doctor,True,threatened,to come,the janitor,the doctor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),200.0
+201,t0,subject-control,the janitor,the doctor,False,threatened,to come,the janitor,the doctor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),201.0
+202,t0,subject-control,the janitor,the doctor,True,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),202.0
+203,t0,subject-control,the janitor,the doctor,False,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),203.0
+204,t0,subject-control,the janitor,the doctor,True,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),204.0
+205,t0,subject-control,the janitor,the doctor,False,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),205.0
+206,t0,subject-control,the janitor,the doctor,True,threatened,to run,the janitor,the doctor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),206.0
+207,t0,subject-control,the janitor,the doctor,False,threatened,to run,the janitor,the doctor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Doctor'),207.0
+208,t0,subject-control,the janitor,the doctor,True,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),208.0
+209,t0,subject-control,the janitor,the doctor,False,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),209.0
+210,t0,subject-control,the janitor,the lawyer,True,threatened,to come,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),210.0
+211,t0,subject-control,the janitor,the lawyer,False,threatened,to come,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),211.0
+212,t0,subject-control,the janitor,the lawyer,True,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),212.0
+213,t0,subject-control,the janitor,the lawyer,False,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),213.0
+214,t0,subject-control,the janitor,the lawyer,True,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),214.0
+215,t0,subject-control,the janitor,the lawyer,False,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),215.0
+216,t0,subject-control,the janitor,the lawyer,True,threatened,to run,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),216.0
+217,t0,subject-control,the janitor,the lawyer,False,threatened,to run,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),217.0
+218,t0,subject-control,the janitor,the lawyer,True,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),218.0
+219,t0,subject-control,the janitor,the lawyer,False,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),219.0
+220,t0,subject-control,the janitor,the engineer,True,threatened,to come,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),220.0
+221,t0,subject-control,the janitor,the engineer,False,threatened,to come,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),221.0
+222,t0,subject-control,the janitor,the engineer,True,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),222.0
+223,t0,subject-control,the janitor,the engineer,False,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),223.0
+224,t0,subject-control,the janitor,the engineer,True,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),224.0
+225,t0,subject-control,the janitor,the engineer,False,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),225.0
+226,t0,subject-control,the janitor,the engineer,True,threatened,to run,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),226.0
+227,t0,subject-control,the janitor,the engineer,False,threatened,to run,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),227.0
+228,t0,subject-control,the janitor,the engineer,True,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),228.0
+229,t0,subject-control,the janitor,the engineer,False,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),229.0
+230,t0,subject-control,the janitor,the writer,True,threatened,to come,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),230.0
+231,t0,subject-control,the janitor,the writer,False,threatened,to come,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),231.0
+232,t0,subject-control,the janitor,the writer,True,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),232.0
+233,t0,subject-control,the janitor,the writer,False,threatened,to go,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),233.0
+234,t0,subject-control,the janitor,the writer,True,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),234.0
+235,t0,subject-control,the janitor,the writer,False,threatened,to read,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),235.0
+236,t0,subject-control,the janitor,the writer,True,threatened,to run,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),236.0
+237,t0,subject-control,the janitor,the writer,False,threatened,to run,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),237.0
+238,t0,subject-control,the janitor,the writer,True,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),238.0
+239,t0,subject-control,the janitor,the writer,False,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),239.0
+240,t0,subject-control,the janitor,the bartender,True,threatened,to come,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),240.0
+241,t0,subject-control,the janitor,the bartender,False,threatened,to come,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),241.0
+242,t0,subject-control,the janitor,the bartender,True,threatened,to go,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),242.0
+243,t0,subject-control,the janitor,the bartender,False,threatened,to go,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),243.0
+244,t0,subject-control,the janitor,the bartender,True,threatened,to read,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),244.0
+245,t0,subject-control,the janitor,the bartender,False,threatened,to read,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),245.0
+246,t0,subject-control,the janitor,the bartender,True,threatened,to run,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),246.0
+247,t0,subject-control,the janitor,the bartender,False,threatened,to run,the janitor,the bartender,"You will be given a context and a question.
+Context: the janitor threatened the bartender to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),247.0
+248,t0,subject-control,the janitor,the bartender,True,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),248.0
+249,t0,subject-control,the janitor,the bartender,False,threatened,to call,the janitor,the janitor,"You will be given a context and a question.
+Context: the janitor threatened the bartender to call.
+
+Question: Who called?
+Answer: ", 'The Janitor'),249.0
+250,t0,subject-control,the bartender,the doctor,True,threatened,to come,the bartender,the doctor,"You will be given a context and a question.
+Context: the bartender threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),250.0
+251,t0,subject-control,the bartender,the doctor,False,threatened,to come,the bartender,the doctor,"You will be given a context and a question.
+Context: the bartender threatened the doctor to come.
+
+Question: Who came?
+Answer: ", 'The Doctor'),251.0
+252,t0,subject-control,the bartender,the doctor,True,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),252.0
+253,t0,subject-control,the bartender,the doctor,False,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),253.0
+254,t0,subject-control,the bartender,the doctor,True,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),254.0
+255,t0,subject-control,the bartender,the doctor,False,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),255.0
+256,t0,subject-control,the bartender,the doctor,True,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),256.0
+257,t0,subject-control,the bartender,the doctor,False,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),257.0
+258,t0,subject-control,the bartender,the doctor,True,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),258.0
+259,t0,subject-control,the bartender,the doctor,False,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the doctor to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),259.0
+260,t0,subject-control,the bartender,the lawyer,True,threatened,to come,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),260.0
+261,t0,subject-control,the bartender,the lawyer,False,threatened,to come,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),261.0
+262,t0,subject-control,the bartender,the lawyer,True,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),262.0
+263,t0,subject-control,the bartender,the lawyer,False,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),263.0
+264,t0,subject-control,the bartender,the lawyer,True,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),264.0
+265,t0,subject-control,the bartender,the lawyer,False,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),265.0
+266,t0,subject-control,the bartender,the lawyer,True,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),266.0
+267,t0,subject-control,the bartender,the lawyer,False,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),267.0
+268,t0,subject-control,the bartender,the lawyer,True,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),268.0
+269,t0,subject-control,the bartender,the lawyer,False,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the lawyer to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),269.0
+270,t0,subject-control,the bartender,the engineer,True,threatened,to come,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),270.0
+271,t0,subject-control,the bartender,the engineer,False,threatened,to come,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),271.0
+272,t0,subject-control,the bartender,the engineer,True,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),272.0
+273,t0,subject-control,the bartender,the engineer,False,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),273.0
+274,t0,subject-control,the bartender,the engineer,True,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),274.0
+275,t0,subject-control,the bartender,the engineer,False,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),275.0
+276,t0,subject-control,the bartender,the engineer,True,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The bartender'),276.0
+277,t0,subject-control,the bartender,the engineer,False,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to run.
+
+Question: Who ran?
+Answer: ", 'The bartender'),277.0
+278,t0,subject-control,the bartender,the engineer,True,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The bartender'),278.0
+279,t0,subject-control,the bartender,the engineer,False,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the engineer to call.
+
+Question: Who called?
+Answer: ", 'The bartender'),279.0
+280,t0,subject-control,the bartender,the writer,True,threatened,to come,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),280.0
+281,t0,subject-control,the bartender,the writer,False,threatened,to come,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to come.
+
+Question: Who came?
+Answer: ", 'The Bartender'),281.0
+282,t0,subject-control,the bartender,the writer,True,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),282.0
+283,t0,subject-control,the bartender,the writer,False,threatened,to go,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to go.
+
+Question: Who went?
+Answer: ", 'The Bartender'),283.0
+284,t0,subject-control,the bartender,the writer,True,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),284.0
+285,t0,subject-control,the bartender,the writer,False,threatened,to read,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to read.
+
+Question: Who read?
+Answer: ", 'The Bartender'),285.0
+286,t0,subject-control,the bartender,the writer,True,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),286.0
+287,t0,subject-control,the bartender,the writer,False,threatened,to run,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to run.
+
+Question: Who ran?
+Answer: ", 'The Bartender'),287.0
+288,t0,subject-control,the bartender,the writer,True,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),288.0
+289,t0,subject-control,the bartender,the writer,False,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the writer to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),289.0
+290,t0,subject-control,the bartender,the janitor,True,threatened,to come,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),290.0
+291,t0,subject-control,the bartender,the janitor,False,threatened,to come,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to come.
+
+Question: Who came?
+Answer: ", 'The Janitor'),291.0
+292,t0,subject-control,the bartender,the janitor,True,threatened,to go,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),292.0
+293,t0,subject-control,the bartender,the janitor,False,threatened,to go,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to go.
+
+Question: Who went?
+Answer: ", 'The Janitor'),293.0
+294,t0,subject-control,the bartender,the janitor,True,threatened,to read,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),294.0
+295,t0,subject-control,the bartender,the janitor,False,threatened,to read,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to read.
+
+Question: Who read?
+Answer: ", 'The Janitor'),295.0
+296,t0,subject-control,the bartender,the janitor,True,threatened,to run,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),296.0
+297,t0,subject-control,the bartender,the janitor,False,threatened,to run,the bartender,the janitor,"You will be given a context and a question.
+Context: the bartender threatened the janitor to run.
+
+Question: Who ran?
+Answer: ", 'The Janitor'),297.0
+298,t0,subject-control,the bartender,the janitor,True,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),298.0
+299,t0,subject-control,the bartender,the janitor,False,threatened,to call,the bartender,the bartender,"You will be given a context and a question.
+Context: the bartender threatened the janitor to call.
+
+Question: Who called?
+Answer: ", 'The Bartender'),299.0
+300,t0,subject-control,the doctor,the lawyer,True,promised,to come,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to come.
+
+Question:  Who came, the lawyer or the doctor?
+Answer: ", 'the lawyer'),0.0
+301,t0,subject-control,the doctor,the lawyer,False,promised,to come,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to come.
+
+Question:  Who came, the doctor or the lawyer?
+Answer: ", 'the lawyer'),1.0
+302,t0,subject-control,the doctor,the lawyer,True,promised,to go,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to go.
+
+Question:  Who went, the lawyer or the doctor?
+Answer: ", 'the lawyer'),2.0
+303,t0,subject-control,the doctor,the lawyer,False,promised,to go,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to go.
+
+Question:  Who went, the doctor or the lawyer?
+Answer: ", 'the lawyer'),3.0
+304,t0,subject-control,the doctor,the lawyer,True,promised,to read,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to read.
+
+Question:  Who read, the lawyer or the doctor?
+Answer: ", 'the lawyer'),4.0
+305,t0,subject-control,the doctor,the lawyer,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to read.
+
+Question:  Who read, the doctor or the lawyer?
+Answer: ", 'the doctor'),5.0
+306,t0,subject-control,the doctor,the lawyer,True,promised,to run,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the doctor?
+Answer: ", 'the lawyer'),6.0
+307,t0,subject-control,the doctor,the lawyer,False,promised,to run,the doctor,the lawyer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to run.
+
+Question:  Who ran, the doctor or the lawyer?
+Answer: ", 'the lawyer'),7.0
+308,t0,subject-control,the doctor,the lawyer,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the doctor promised the lawyer to call.
+
+Question:  Who called, the lawyer or the doctor?
+Answer: ", 'the doctor'),8.0
+309,t0,subject-control,the doctor,the lawyer,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the doctor promised the lawyer to call.
+
+Question:  Who called, the doctor or the lawyer?
+Answer: ", 'the doctor'),9.0
+310,t0,subject-control,the doctor,the engineer,True,promised,to come,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to come.
+
+Question:  Who came, the engineer or the doctor?
+Answer: ", 'the engineer'),10.0
+311,t0,subject-control,the doctor,the engineer,False,promised,to come,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to come.
+
+Question:  Who came, the doctor or the engineer?
+Answer: ", 'the engineer'),11.0
+312,t0,subject-control,the doctor,the engineer,True,promised,to go,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to go.
+
+Question:  Who went, the engineer or the doctor?
+Answer: ", 'the engineer'),12.0
+313,t0,subject-control,the doctor,the engineer,False,promised,to go,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to go.
+
+Question:  Who went, the doctor or the engineer?
+Answer: ", 'the engineer'),13.0
+314,t0,subject-control,the doctor,the engineer,True,promised,to read,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to read.
+
+Question:  Who read, the engineer or the doctor?
+Answer: ", 'the engineer'),14.0
+315,t0,subject-control,the doctor,the engineer,False,promised,to read,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to read.
+
+Question:  Who read, the doctor or the engineer?
+Answer: ", 'the doctor'),15.0
+316,t0,subject-control,the doctor,the engineer,True,promised,to run,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to run.
+
+Question:  Who ran, the engineer or the doctor?
+Answer: ", 'the engineer'),16.0
+317,t0,subject-control,the doctor,the engineer,False,promised,to run,the doctor,the engineer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to run.
+
+Question:  Who ran, the doctor or the engineer?
+Answer: ", 'the engineer'),17.0
+318,t0,subject-control,the doctor,the engineer,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the doctor promised the engineer to call.
+
+Question:  Who called, the engineer or the doctor?
+Answer: ", 'the doctor'),18.0
+319,t0,subject-control,the doctor,the engineer,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the doctor promised the engineer to call.
+
+Question:  Who called, the doctor or the engineer?
+Answer: ", 'the doctor'),19.0
+320,t0,subject-control,the doctor,the writer,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to come.
+
+Question:  Who came, the writer or the doctor?
+Answer: ", 'the doctor'),20.0
+321,t0,subject-control,the doctor,the writer,False,promised,to come,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to come.
+
+Question:  Who came, the doctor or the writer?
+Answer: ", 'the writer'),21.0
+322,t0,subject-control,the doctor,the writer,True,promised,to go,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to go.
+
+Question:  Who went, the writer or the doctor?
+Answer: ", 'the writer'),22.0
+323,t0,subject-control,the doctor,the writer,False,promised,to go,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to go.
+
+Question:  Who went, the doctor or the writer?
+Answer: ", 'the writer'),23.0
+324,t0,subject-control,the doctor,the writer,True,promised,to read,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to read.
+
+Question:  Who read, the writer or the doctor?
+Answer: ", 'the writer'),24.0
+325,t0,subject-control,the doctor,the writer,False,promised,to read,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to read.
+
+Question:  Who read, the doctor or the writer?
+Answer: ", 'the writer'),25.0
+326,t0,subject-control,the doctor,the writer,True,promised,to run,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to run.
+
+Question:  Who ran, the writer or the doctor?
+Answer: ", 'the writer'),26.0
+327,t0,subject-control,the doctor,the writer,False,promised,to run,the doctor,the writer,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to run.
+
+Question:  Who ran, the doctor or the writer?
+Answer: ", 'the writer'),27.0
+328,t0,subject-control,the doctor,the writer,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the doctor promised the writer to call.
+
+Question:  Who called, the writer or the doctor?
+Answer: ", 'the doctor'),28.0
+329,t0,subject-control,the doctor,the writer,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the doctor promised the writer to call.
+
+Question:  Who called, the doctor or the writer?
+Answer: ", 'the doctor'),29.0
+330,t0,subject-control,the doctor,the janitor,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to come.
+
+Question:  Who came, the janitor or the doctor?
+Answer: ", 'the doctor'),30.0
+331,t0,subject-control,the doctor,the janitor,False,promised,to come,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to come.
+
+Question:  Who came, the doctor or the janitor?
+Answer: ", 'the janitor'),31.0
+332,t0,subject-control,the doctor,the janitor,True,promised,to go,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to go.
+
+Question:  Who went, the janitor or the doctor?
+Answer: ", 'the janitor'),32.0
+333,t0,subject-control,the doctor,the janitor,False,promised,to go,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to go.
+
+Question:  Who went, the doctor or the janitor?
+Answer: ", 'the janitor'),33.0
+334,t0,subject-control,the doctor,the janitor,True,promised,to read,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to read.
+
+Question:  Who read, the janitor or the doctor?
+Answer: ", 'the janitor'),34.0
+335,t0,subject-control,the doctor,the janitor,False,promised,to read,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to read.
+
+Question:  Who read, the doctor or the janitor?
+Answer: ", 'the janitor'),35.0
+336,t0,subject-control,the doctor,the janitor,True,promised,to run,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to run.
+
+Question:  Who ran, the janitor or the doctor?
+Answer: ", 'the janitor'),36.0
+337,t0,subject-control,the doctor,the janitor,False,promised,to run,the doctor,the janitor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to run.
+
+Question:  Who ran, the doctor or the janitor?
+Answer: ", 'the janitor'),37.0
+338,t0,subject-control,the doctor,the janitor,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the doctor promised the janitor to call.
+
+Question:  Who called, the janitor or the doctor?
+Answer: ", 'the doctor'),38.0
+339,t0,subject-control,the doctor,the janitor,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the doctor promised the janitor to call.
+
+Question:  Who called, the doctor or the janitor?
+Answer: ", 'the doctor'),39.0
+340,t0,subject-control,the doctor,the bartender,True,promised,to come,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to come.
+
+Question:  Who came, the bartender or the doctor?
+Answer: ", 'the doctor'),40.0
+341,t0,subject-control,the doctor,the bartender,False,promised,to come,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to come.
+
+Question:  Who came, the doctor or the bartender?
+Answer: ", 'the bartender'),41.0
+342,t0,subject-control,the doctor,the bartender,True,promised,to go,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to go.
+
+Question:  Who went, the bartender or the doctor?
+Answer: ", 'the bartender'),42.0
+343,t0,subject-control,the doctor,the bartender,False,promised,to go,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to go.
+
+Question:  Who went, the doctor or the bartender?
+Answer: ", 'the bartender'),43.0
+344,t0,subject-control,the doctor,the bartender,True,promised,to read,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to read.
+
+Question:  Who read, the bartender or the doctor?
+Answer: ", 'the bartender'),44.0
+345,t0,subject-control,the doctor,the bartender,False,promised,to read,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to read.
+
+Question:  Who read, the doctor or the bartender?
+Answer: ", 'the bartender'),45.0
+346,t0,subject-control,the doctor,the bartender,True,promised,to run,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to run.
+
+Question:  Who ran, the bartender or the doctor?
+Answer: ", 'the bartender'),46.0
+347,t0,subject-control,the doctor,the bartender,False,promised,to run,the doctor,the bartender,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to run.
+
+Question:  Who ran, the doctor or the bartender?
+Answer: ", 'the bartender'),47.0
+348,t0,subject-control,the doctor,the bartender,True,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the doctor promised the bartender to call.
+
+Question:  Who called, the bartender or the doctor?
+Answer: ", 'the doctor'),48.0
+349,t0,subject-control,the doctor,the bartender,False,promised,to call,the doctor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the doctor promised the bartender to call.
+
+Question:  Who called, the doctor or the bartender?
+Answer: ", 'the doctor'),49.0
+350,t0,subject-control,the lawyer,the doctor,True,promised,to come,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to come.
+
+Question:  Who came, the doctor or the lawyer?
+Answer: ", 'the doctor'),50.0
+351,t0,subject-control,the lawyer,the doctor,False,promised,to come,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to come.
+
+Question:  Who came, the lawyer or the doctor?
+Answer: ", 'the doctor'),51.0
+352,t0,subject-control,the lawyer,the doctor,True,promised,to go,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to go.
+
+Question:  Who went, the doctor or the lawyer?
+Answer: ", 'the doctor'),52.0
+353,t0,subject-control,the lawyer,the doctor,False,promised,to go,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to go.
+
+Question:  Who went, the lawyer or the doctor?
+Answer: ", 'the doctor'),53.0
+354,t0,subject-control,the lawyer,the doctor,True,promised,to read,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to read.
+
+Question:  Who read, the doctor or the lawyer?
+Answer: ", 'the doctor'),54.0
+355,t0,subject-control,the lawyer,the doctor,False,promised,to read,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to read.
+
+Question:  Who read, the lawyer or the doctor?
+Answer: ", 'the doctor'),55.0
+356,t0,subject-control,the lawyer,the doctor,True,promised,to run,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to run.
+
+Question:  Who ran, the doctor or the lawyer?
+Answer: ", 'the doctor'),56.0
+357,t0,subject-control,the lawyer,the doctor,False,promised,to run,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to run.
+
+Question:  Who ran, the lawyer or the doctor?
+Answer: ", 'the doctor'),57.0
+358,t0,subject-control,the lawyer,the doctor,True,promised,to call,the lawyer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the lawyer"".
+Context: the lawyer promised the doctor to call.
+
+Question:  Who called, the doctor or the lawyer?
+Answer: ", 'the doctor'),58.0
+359,t0,subject-control,the lawyer,the doctor,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the doctor"".
+Context: the lawyer promised the doctor to call.
+
+Question:  Who called, the lawyer or the doctor?
+Answer: ", 'the lawyer'),59.0
+360,t0,subject-control,the lawyer,the engineer,True,promised,to come,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to come.
+
+Question:  Who came, the engineer or the lawyer?
+Answer: ", 'the engineer'),60.0
+361,t0,subject-control,the lawyer,the engineer,False,promised,to come,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to come.
+
+Question:  Who came, the lawyer or the engineer?
+Answer: ", 'the engineer'),61.0
+362,t0,subject-control,the lawyer,the engineer,True,promised,to go,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to go.
+
+Question:  Who went, the engineer or the lawyer?
+Answer: ", 'the engineer'),62.0
+363,t0,subject-control,the lawyer,the engineer,False,promised,to go,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to go.
+
+Question:  Who went, the lawyer or the engineer?
+Answer: ", 'the engineer'),63.0
+364,t0,subject-control,the lawyer,the engineer,True,promised,to read,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to read.
+
+Question:  Who read, the engineer or the lawyer?
+Answer: ", 'the engineer'),64.0
+365,t0,subject-control,the lawyer,the engineer,False,promised,to read,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to read.
+
+Question:  Who read, the lawyer or the engineer?
+Answer: ", 'the engineer'),65.0
+366,t0,subject-control,the lawyer,the engineer,True,promised,to run,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to run.
+
+Question:  Who ran, the engineer or the lawyer?
+Answer: ", 'the engineer'),66.0
+367,t0,subject-control,the lawyer,the engineer,False,promised,to run,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to run.
+
+Question:  Who ran, the lawyer or the engineer?
+Answer: ", 'the engineer'),67.0
+368,t0,subject-control,the lawyer,the engineer,True,promised,to call,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the lawyer promised the engineer to call.
+
+Question:  Who called, the engineer or the lawyer?
+Answer: ", 'the engineer'),68.0
+369,t0,subject-control,the lawyer,the engineer,False,promised,to call,the lawyer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the lawyer promised the engineer to call.
+
+Question:  Who called, the lawyer or the engineer?
+Answer: ", 'the engineer'),69.0
+370,t0,subject-control,the lawyer,the writer,True,promised,to come,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to come.
+
+Question:  Who came, the writer or the lawyer?
+Answer: ", 'the writer'),70.0
+371,t0,subject-control,the lawyer,the writer,False,promised,to come,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to come.
+
+Question:  Who came, the lawyer or the writer?
+Answer: ", 'the writer'),71.0
+372,t0,subject-control,the lawyer,the writer,True,promised,to go,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to go.
+
+Question:  Who went, the writer or the lawyer?
+Answer: ", 'the writer'),72.0
+373,t0,subject-control,the lawyer,the writer,False,promised,to go,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to go.
+
+Question:  Who went, the lawyer or the writer?
+Answer: ", 'the writer'),73.0
+374,t0,subject-control,the lawyer,the writer,True,promised,to read,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to read.
+
+Question:  Who read, the writer or the lawyer?
+Answer: ", 'the writer'),74.0
+375,t0,subject-control,the lawyer,the writer,False,promised,to read,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to read.
+
+Question:  Who read, the lawyer or the writer?
+Answer: ", 'the writer'),75.0
+376,t0,subject-control,the lawyer,the writer,True,promised,to run,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to run.
+
+Question:  Who ran, the writer or the lawyer?
+Answer: ", 'the writer'),76.0
+377,t0,subject-control,the lawyer,the writer,False,promised,to run,the lawyer,the writer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to run.
+
+Question:  Who ran, the lawyer or the writer?
+Answer: ", 'the writer'),77.0
+378,t0,subject-control,the lawyer,the writer,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the lawyer promised the writer to call.
+
+Question:  Who called, the writer or the lawyer?
+Answer: ", 'the lawyer'),78.0
+379,t0,subject-control,the lawyer,the writer,False,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the lawyer promised the writer to call.
+
+Question:  Who called, the lawyer or the writer?
+Answer: ", 'the lawyer'),79.0
+380,t0,subject-control,the lawyer,the janitor,True,promised,to come,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to come.
+
+Question:  Who came, the janitor or the lawyer?
+Answer: ", 'the janitor'),80.0
+381,t0,subject-control,the lawyer,the janitor,False,promised,to come,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to come.
+
+Question:  Who came, the lawyer or the janitor?
+Answer: ", 'the janitor'),81.0
+382,t0,subject-control,the lawyer,the janitor,True,promised,to go,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to go.
+
+Question:  Who went, the janitor or the lawyer?
+Answer: ", 'the janitor'),82.0
+383,t0,subject-control,the lawyer,the janitor,False,promised,to go,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to go.
+
+Question:  Who went, the lawyer or the janitor?
+Answer: ", 'the janitor'),83.0
+384,t0,subject-control,the lawyer,the janitor,True,promised,to read,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to read.
+
+Question:  Who read, the janitor or the lawyer?
+Answer: ", 'the janitor'),84.0
+385,t0,subject-control,the lawyer,the janitor,False,promised,to read,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to read.
+
+Question:  Who read, the lawyer or the janitor?
+Answer: ", 'the janitor'),85.0
+386,t0,subject-control,the lawyer,the janitor,True,promised,to run,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to run.
+
+Question:  Who ran, the janitor or the lawyer?
+Answer: ", 'the janitor'),86.0
+387,t0,subject-control,the lawyer,the janitor,False,promised,to run,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to run.
+
+Question:  Who ran, the lawyer or the janitor?
+Answer: ", 'the janitor'),87.0
+388,t0,subject-control,the lawyer,the janitor,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the lawyer promised the janitor to call.
+
+Question:  Who called, the janitor or the lawyer?
+Answer: ", 'the lawyer'),88.0
+389,t0,subject-control,the lawyer,the janitor,False,promised,to call,the lawyer,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the lawyer promised the janitor to call.
+
+Question:  Who called, the lawyer or the janitor?
+Answer: ", 'the janitor'),89.0
+390,t0,subject-control,the lawyer,the bartender,True,promised,to come,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to come.
+
+Question:  Who came, the bartender or the lawyer?
+Answer: ", 'the bartender'),90.0
+391,t0,subject-control,the lawyer,the bartender,False,promised,to come,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to come.
+
+Question:  Who came, the lawyer or the bartender?
+Answer: ", 'the bartender'),91.0
+392,t0,subject-control,the lawyer,the bartender,True,promised,to go,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to go.
+
+Question:  Who went, the bartender or the lawyer?
+Answer: ", 'the bartender'),92.0
+393,t0,subject-control,the lawyer,the bartender,False,promised,to go,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to go.
+
+Question:  Who went, the lawyer or the bartender?
+Answer: ", 'the bartender'),93.0
+394,t0,subject-control,the lawyer,the bartender,True,promised,to read,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to read.
+
+Question:  Who read, the bartender or the lawyer?
+Answer: ", 'the bartender'),94.0
+395,t0,subject-control,the lawyer,the bartender,False,promised,to read,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to read.
+
+Question:  Who read, the lawyer or the bartender?
+Answer: ", 'the bartender'),95.0
+396,t0,subject-control,the lawyer,the bartender,True,promised,to run,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to run.
+
+Question:  Who ran, the bartender or the lawyer?
+Answer: ", 'the bartender'),96.0
+397,t0,subject-control,the lawyer,the bartender,False,promised,to run,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to run.
+
+Question:  Who ran, the lawyer or the bartender?
+Answer: ", 'the bartender'),97.0
+398,t0,subject-control,the lawyer,the bartender,True,promised,to call,the lawyer,the lawyer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the lawyer promised the bartender to call.
+
+Question:  Who called, the bartender or the lawyer?
+Answer: ", 'the lawyer'),98.0
+399,t0,subject-control,the lawyer,the bartender,False,promised,to call,the lawyer,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the lawyer promised the bartender to call.
+
+Question:  Who called, the lawyer or the bartender?
+Answer: ", 'the bartender'),99.0
+400,t0,subject-control,the engineer,the doctor,True,promised,to come,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to come.
+
+Question:  Who came, the doctor or the engineer?
+Answer: ", 'the doctor'),100.0
+401,t0,subject-control,the engineer,the doctor,False,promised,to come,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to come.
+
+Question:  Who came, the engineer or the doctor?
+Answer: ", 'the doctor'),101.0
+402,t0,subject-control,the engineer,the doctor,True,promised,to go,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to go.
+
+Question:  Who went, the doctor or the engineer?
+Answer: ", 'the doctor'),102.0
+403,t0,subject-control,the engineer,the doctor,False,promised,to go,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to go.
+
+Question:  Who went, the engineer or the doctor?
+Answer: ", 'the doctor'),103.0
+404,t0,subject-control,the engineer,the doctor,True,promised,to read,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to read.
+
+Question:  Who read, the doctor or the engineer?
+Answer: ", 'the doctor'),104.0
+405,t0,subject-control,the engineer,the doctor,False,promised,to read,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to read.
+
+Question:  Who read, the engineer or the doctor?
+Answer: ", 'the doctor'),105.0
+406,t0,subject-control,the engineer,the doctor,True,promised,to run,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to run.
+
+Question:  Who ran, the doctor or the engineer?
+Answer: ", 'the doctor'),106.0
+407,t0,subject-control,the engineer,the doctor,False,promised,to run,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to run.
+
+Question:  Who ran, the engineer or the doctor?
+Answer: ", 'the doctor'),107.0
+408,t0,subject-control,the engineer,the doctor,True,promised,to call,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the engineer"".
+Context: the engineer promised the doctor to call.
+
+Question:  Who called, the doctor or the engineer?
+Answer: ", 'the doctor'),108.0
+409,t0,subject-control,the engineer,the doctor,False,promised,to call,the engineer,the doctor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the doctor"".
+Context: the engineer promised the doctor to call.
+
+Question:  Who called, the engineer or the doctor?
+Answer: ", 'the doctor'),109.0
+410,t0,subject-control,the engineer,the lawyer,True,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to come.
+
+Question:  Who came, the lawyer or the engineer?
+Answer: ", 'the engineer'),110.0
+411,t0,subject-control,the engineer,the lawyer,False,promised,to come,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to come.
+
+Question:  Who came, the engineer or the lawyer?
+Answer: ", 'the engineer'),111.0
+412,t0,subject-control,the engineer,the lawyer,True,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to go.
+
+Question:  Who went, the lawyer or the engineer?
+Answer: ", 'the engineer'),112.0
+413,t0,subject-control,the engineer,the lawyer,False,promised,to go,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to go.
+
+Question:  Who went, the engineer or the lawyer?
+Answer: ", 'the engineer'),113.0
+414,t0,subject-control,the engineer,the lawyer,True,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to read.
+
+Question:  Who read, the lawyer or the engineer?
+Answer: ", 'the engineer'),114.0
+415,t0,subject-control,the engineer,the lawyer,False,promised,to read,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to read.
+
+Question:  Who read, the engineer or the lawyer?
+Answer: ", 'the engineer'),115.0
+416,t0,subject-control,the engineer,the lawyer,True,promised,to run,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the engineer?
+Answer: ", 'the engineer'),116.0
+417,t0,subject-control,the engineer,the lawyer,False,promised,to run,the engineer,the lawyer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to run.
+
+Question:  Who ran, the engineer or the lawyer?
+Answer: ", 'the lawyer'),117.0
+418,t0,subject-control,the engineer,the lawyer,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the engineer"".
+Context: the engineer promised the lawyer to call.
+
+Question:  Who called, the lawyer or the engineer?
+Answer: ", 'the engineer'),118.0
+419,t0,subject-control,the engineer,the lawyer,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the lawyer"".
+Context: the engineer promised the lawyer to call.
+
+Question:  Who called, the engineer or the lawyer?
+Answer: ", 'the engineer'),119.0
+420,t0,subject-control,the engineer,the writer,True,promised,to come,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to come.
+
+Question:  Who came, the writer or the engineer?
+Answer: ", 'the writer'),120.0
+421,t0,subject-control,the engineer,the writer,False,promised,to come,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to come.
+
+Question:  Who came, the engineer or the writer?
+Answer: ", 'the writer'),121.0
+422,t0,subject-control,the engineer,the writer,True,promised,to go,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to go.
+
+Question:  Who went, the writer or the engineer?
+Answer: ", 'the writer'),122.0
+423,t0,subject-control,the engineer,the writer,False,promised,to go,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to go.
+
+Question:  Who went, the engineer or the writer?
+Answer: ", 'the writer'),123.0
+424,t0,subject-control,the engineer,the writer,True,promised,to read,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to read.
+
+Question:  Who read, the writer or the engineer?
+Answer: ", 'the writer'),124.0
+425,t0,subject-control,the engineer,the writer,False,promised,to read,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to read.
+
+Question:  Who read, the engineer or the writer?
+Answer: ", 'the writer'),125.0
+426,t0,subject-control,the engineer,the writer,True,promised,to run,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to run.
+
+Question:  Who ran, the writer or the engineer?
+Answer: ", 'the writer'),126.0
+427,t0,subject-control,the engineer,the writer,False,promised,to run,the engineer,the writer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to run.
+
+Question:  Who ran, the engineer or the writer?
+Answer: ", 'the writer'),127.0
+428,t0,subject-control,the engineer,the writer,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the engineer promised the writer to call.
+
+Question:  Who called, the writer or the engineer?
+Answer: ", 'the engineer'),128.0
+429,t0,subject-control,the engineer,the writer,False,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the engineer promised the writer to call.
+
+Question:  Who called, the engineer or the writer?
+Answer: ", 'the engineer'),129.0
+430,t0,subject-control,the engineer,the janitor,True,promised,to come,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to come.
+
+Question:  Who came, the janitor or the engineer?
+Answer: ", 'the janitor'),130.0
+431,t0,subject-control,the engineer,the janitor,False,promised,to come,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to come.
+
+Question:  Who came, the engineer or the janitor?
+Answer: ", 'the janitor'),131.0
+432,t0,subject-control,the engineer,the janitor,True,promised,to go,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to go.
+
+Question:  Who went, the janitor or the engineer?
+Answer: ", 'the janitor'),132.0
+433,t0,subject-control,the engineer,the janitor,False,promised,to go,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to go.
+
+Question:  Who went, the engineer or the janitor?
+Answer: ", 'the janitor'),133.0
+434,t0,subject-control,the engineer,the janitor,True,promised,to read,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to read.
+
+Question:  Who read, the janitor or the engineer?
+Answer: ", 'the janitor'),134.0
+435,t0,subject-control,the engineer,the janitor,False,promised,to read,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to read.
+
+Question:  Who read, the engineer or the janitor?
+Answer: ", 'the janitor'),135.0
+436,t0,subject-control,the engineer,the janitor,True,promised,to run,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to run.
+
+Question:  Who ran, the janitor or the engineer?
+Answer: ", 'the janitor'),136.0
+437,t0,subject-control,the engineer,the janitor,False,promised,to run,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to run.
+
+Question:  Who ran, the engineer or the janitor?
+Answer: ", 'the janitor'),137.0
+438,t0,subject-control,the engineer,the janitor,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the engineer promised the janitor to call.
+
+Question:  Who called, the janitor or the engineer?
+Answer: ", 'the engineer'),138.0
+439,t0,subject-control,the engineer,the janitor,False,promised,to call,the engineer,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the engineer promised the janitor to call.
+
+Question:  Who called, the engineer or the janitor?
+Answer: ", 'the janitor'),139.0
+440,t0,subject-control,the engineer,the bartender,True,promised,to come,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to come.
+
+Question:  Who came, the bartender or the engineer?
+Answer: ", 'the bartender'),140.0
+441,t0,subject-control,the engineer,the bartender,False,promised,to come,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to come.
+
+Question:  Who came, the engineer or the bartender?
+Answer: ", 'the bartender'),141.0
+442,t0,subject-control,the engineer,the bartender,True,promised,to go,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to go.
+
+Question:  Who went, the bartender or the engineer?
+Answer: ", 'the bartender'),142.0
+443,t0,subject-control,the engineer,the bartender,False,promised,to go,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to go.
+
+Question:  Who went, the engineer or the bartender?
+Answer: ", 'the bartender'),143.0
+444,t0,subject-control,the engineer,the bartender,True,promised,to read,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to read.
+
+Question:  Who read, the bartender or the engineer?
+Answer: ", 'the bartender'),144.0
+445,t0,subject-control,the engineer,the bartender,False,promised,to read,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to read.
+
+Question:  Who read, the engineer or the bartender?
+Answer: ", 'the bartender'),145.0
+446,t0,subject-control,the engineer,the bartender,True,promised,to run,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to run.
+
+Question:  Who ran, the bartender or the engineer?
+Answer: ", 'the bartender'),146.0
+447,t0,subject-control,the engineer,the bartender,False,promised,to run,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to run.
+
+Question:  Who ran, the engineer or the bartender?
+Answer: ", 'the bartender'),147.0
+448,t0,subject-control,the engineer,the bartender,True,promised,to call,the engineer,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the engineer promised the bartender to call.
+
+Question:  Who called, the bartender or the engineer?
+Answer: ", 'the engineer'),148.0
+449,t0,subject-control,the engineer,the bartender,False,promised,to call,the engineer,the bartender,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the engineer promised the bartender to call.
+
+Question:  Who called, the engineer or the bartender?
+Answer: ", 'the bartender'),149.0
+450,t0,subject-control,the writer,the doctor,True,promised,to come,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to come.
+
+Question:  Who came, the doctor or the writer?
+Answer: ", 'the doctor'),150.0
+451,t0,subject-control,the writer,the doctor,False,promised,to come,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to come.
+
+Question:  Who came, the writer or the doctor?
+Answer: ", 'the doctor'),151.0
+452,t0,subject-control,the writer,the doctor,True,promised,to go,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to go.
+
+Question:  Who went, the doctor or the writer?
+Answer: ", 'the doctor'),152.0
+453,t0,subject-control,the writer,the doctor,False,promised,to go,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to go.
+
+Question:  Who went, the writer or the doctor?
+Answer: ", 'the doctor'),153.0
+454,t0,subject-control,the writer,the doctor,True,promised,to read,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to read.
+
+Question:  Who read, the doctor or the writer?
+Answer: ", 'the doctor'),154.0
+455,t0,subject-control,the writer,the doctor,False,promised,to read,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to read.
+
+Question:  Who read, the writer or the doctor?
+Answer: ", 'the doctor'),155.0
+456,t0,subject-control,the writer,the doctor,True,promised,to run,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to run.
+
+Question:  Who ran, the doctor or the writer?
+Answer: ", 'the doctor'),156.0
+457,t0,subject-control,the writer,the doctor,False,promised,to run,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to run.
+
+Question:  Who ran, the writer or the doctor?
+Answer: ", 'the doctor'),157.0
+458,t0,subject-control,the writer,the doctor,True,promised,to call,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the writer"".
+Context: the writer promised the doctor to call.
+
+Question:  Who called, the doctor or the writer?
+Answer: ", 'the doctor'),158.0
+459,t0,subject-control,the writer,the doctor,False,promised,to call,the writer,the doctor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the doctor"".
+Context: the writer promised the doctor to call.
+
+Question:  Who called, the writer or the doctor?
+Answer: ", 'the doctor'),159.0
+460,t0,subject-control,the writer,the lawyer,True,promised,to come,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to come.
+
+Question:  Who came, the lawyer or the writer?
+Answer: ", 'the lawyer'),160.0
+461,t0,subject-control,the writer,the lawyer,False,promised,to come,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to come.
+
+Question:  Who came, the writer or the lawyer?
+Answer: ", 'the lawyer'),161.0
+462,t0,subject-control,the writer,the lawyer,True,promised,to go,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to go.
+
+Question:  Who went, the lawyer or the writer?
+Answer: ", 'the lawyer'),162.0
+463,t0,subject-control,the writer,the lawyer,False,promised,to go,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to go.
+
+Question:  Who went, the writer or the lawyer?
+Answer: ", 'the lawyer'),163.0
+464,t0,subject-control,the writer,the lawyer,True,promised,to read,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to read.
+
+Question:  Who read, the lawyer or the writer?
+Answer: ", 'the lawyer'),164.0
+465,t0,subject-control,the writer,the lawyer,False,promised,to read,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to read.
+
+Question:  Who read, the writer or the lawyer?
+Answer: ", 'the lawyer'),165.0
+466,t0,subject-control,the writer,the lawyer,True,promised,to run,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the writer?
+Answer: ", 'the lawyer'),166.0
+467,t0,subject-control,the writer,the lawyer,False,promised,to run,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to run.
+
+Question:  Who ran, the writer or the lawyer?
+Answer: ", 'the lawyer'),167.0
+468,t0,subject-control,the writer,the lawyer,True,promised,to call,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the writer"".
+Context: the writer promised the lawyer to call.
+
+Question:  Who called, the lawyer or the writer?
+Answer: ", 'the lawyer'),168.0
+469,t0,subject-control,the writer,the lawyer,False,promised,to call,the writer,the lawyer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the lawyer"".
+Context: the writer promised the lawyer to call.
+
+Question:  Who called, the writer or the lawyer?
+Answer: ", 'the lawyer'),169.0
+470,t0,subject-control,the writer,the engineer,True,promised,to come,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to come.
+
+Question:  Who came, the engineer or the writer?
+Answer: ", 'the engineer'),170.0
+471,t0,subject-control,the writer,the engineer,False,promised,to come,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to come.
+
+Question:  Who came, the writer or the engineer?
+Answer: ", 'the engineer'),171.0
+472,t0,subject-control,the writer,the engineer,True,promised,to go,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to go.
+
+Question:  Who went, the engineer or the writer?
+Answer: ", 'the engineer'),172.0
+473,t0,subject-control,the writer,the engineer,False,promised,to go,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to go.
+
+Question:  Who went, the writer or the engineer?
+Answer: ", 'the engineer'),173.0
+474,t0,subject-control,the writer,the engineer,True,promised,to read,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to read.
+
+Question:  Who read, the engineer or the writer?
+Answer: ", 'the engineer'),174.0
+475,t0,subject-control,the writer,the engineer,False,promised,to read,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to read.
+
+Question:  Who read, the writer or the engineer?
+Answer: ", 'the engineer'),175.0
+476,t0,subject-control,the writer,the engineer,True,promised,to run,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to run.
+
+Question:  Who ran, the engineer or the writer?
+Answer: ", 'the engineer'),176.0
+477,t0,subject-control,the writer,the engineer,False,promised,to run,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to run.
+
+Question:  Who ran, the writer or the engineer?
+Answer: ", 'the engineer'),177.0
+478,t0,subject-control,the writer,the engineer,True,promised,to call,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the writer"".
+Context: the writer promised the engineer to call.
+
+Question:  Who called, the engineer or the writer?
+Answer: ", 'the engineer'),178.0
+479,t0,subject-control,the writer,the engineer,False,promised,to call,the writer,the engineer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the engineer"".
+Context: the writer promised the engineer to call.
+
+Question:  Who called, the writer or the engineer?
+Answer: ", 'the engineer'),179.0
+480,t0,subject-control,the writer,the janitor,True,promised,to come,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to come.
+
+Question:  Who came, the janitor or the writer?
+Answer: ", 'the janitor'),180.0
+481,t0,subject-control,the writer,the janitor,False,promised,to come,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to come.
+
+Question:  Who came, the writer or the janitor?
+Answer: ", 'the janitor'),181.0
+482,t0,subject-control,the writer,the janitor,True,promised,to go,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to go.
+
+Question:  Who went, the janitor or the writer?
+Answer: ", 'the janitor'),182.0
+483,t0,subject-control,the writer,the janitor,False,promised,to go,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to go.
+
+Question:  Who went, the writer or the janitor?
+Answer: ", 'the janitor'),183.0
+484,t0,subject-control,the writer,the janitor,True,promised,to read,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to read.
+
+Question:  Who read, the janitor or the writer?
+Answer: ", 'the janitor'),184.0
+485,t0,subject-control,the writer,the janitor,False,promised,to read,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to read.
+
+Question:  Who read, the writer or the janitor?
+Answer: ", 'the janitor'),185.0
+486,t0,subject-control,the writer,the janitor,True,promised,to run,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to run.
+
+Question:  Who ran, the janitor or the writer?
+Answer: ", 'the janitor'),186.0
+487,t0,subject-control,the writer,the janitor,False,promised,to run,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to run.
+
+Question:  Who ran, the writer or the janitor?
+Answer: ", 'the janitor'),187.0
+488,t0,subject-control,the writer,the janitor,True,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the writer promised the janitor to call.
+
+Question:  Who called, the janitor or the writer?
+Answer: ", 'the writer'),188.0
+489,t0,subject-control,the writer,the janitor,False,promised,to call,the writer,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the writer promised the janitor to call.
+
+Question:  Who called, the writer or the janitor?
+Answer: ", 'the janitor'),189.0
+490,t0,subject-control,the writer,the bartender,True,promised,to come,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to come.
+
+Question:  Who came, the bartender or the writer?
+Answer: ", 'the bartender'),190.0
+491,t0,subject-control,the writer,the bartender,False,promised,to come,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to come.
+
+Question:  Who came, the writer or the bartender?
+Answer: ", 'the bartender'),191.0
+492,t0,subject-control,the writer,the bartender,True,promised,to go,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to go.
+
+Question:  Who went, the bartender or the writer?
+Answer: ", 'the bartender'),192.0
+493,t0,subject-control,the writer,the bartender,False,promised,to go,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to go.
+
+Question:  Who went, the writer or the bartender?
+Answer: ", 'the bartender'),193.0
+494,t0,subject-control,the writer,the bartender,True,promised,to read,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to read.
+
+Question:  Who read, the bartender or the writer?
+Answer: ", 'the bartender'),194.0
+495,t0,subject-control,the writer,the bartender,False,promised,to read,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to read.
+
+Question:  Who read, the writer or the bartender?
+Answer: ", 'the bartender'),195.0
+496,t0,subject-control,the writer,the bartender,True,promised,to run,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to run.
+
+Question:  Who ran, the bartender or the writer?
+Answer: ", 'the bartender'),196.0
+497,t0,subject-control,the writer,the bartender,False,promised,to run,the writer,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to run.
+
+Question:  Who ran, the writer or the bartender?
+Answer: ", 'the bartender'),197.0
+498,t0,subject-control,the writer,the bartender,True,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the writer promised the bartender to call.
+
+Question:  Who called, the bartender or the writer?
+Answer: ", 'the writer'),198.0
+499,t0,subject-control,the writer,the bartender,False,promised,to call,the writer,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the writer promised the bartender to call.
+
+Question:  Who called, the writer or the bartender?
+Answer: ", 'the writer'),199.0
+500,t0,subject-control,the janitor,the doctor,True,promised,to come,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to come.
+
+Question:  Who came, the doctor or the janitor?
+Answer: ", 'the doctor'),200.0
+501,t0,subject-control,the janitor,the doctor,False,promised,to come,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to come.
+
+Question:  Who came, the janitor or the doctor?
+Answer: ", 'the doctor'),201.0
+502,t0,subject-control,the janitor,the doctor,True,promised,to go,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to go.
+
+Question:  Who went, the doctor or the janitor?
+Answer: ", 'the doctor'),202.0
+503,t0,subject-control,the janitor,the doctor,False,promised,to go,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to go.
+
+Question:  Who went, the janitor or the doctor?
+Answer: ", 'the doctor'),203.0
+504,t0,subject-control,the janitor,the doctor,True,promised,to read,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to read.
+
+Question:  Who read, the doctor or the janitor?
+Answer: ", 'the doctor'),204.0
+505,t0,subject-control,the janitor,the doctor,False,promised,to read,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to read.
+
+Question:  Who read, the janitor or the doctor?
+Answer: ", 'the doctor'),205.0
+506,t0,subject-control,the janitor,the doctor,True,promised,to run,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to run.
+
+Question:  Who ran, the doctor or the janitor?
+Answer: ", 'the doctor'),206.0
+507,t0,subject-control,the janitor,the doctor,False,promised,to run,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to run.
+
+Question:  Who ran, the janitor or the doctor?
+Answer: ", 'the doctor'),207.0
+508,t0,subject-control,the janitor,the doctor,True,promised,to call,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the janitor"".
+Context: the janitor promised the doctor to call.
+
+Question:  Who called, the doctor or the janitor?
+Answer: ", 'the doctor'),208.0
+509,t0,subject-control,the janitor,the doctor,False,promised,to call,the janitor,the doctor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the doctor"".
+Context: the janitor promised the doctor to call.
+
+Question:  Who called, the janitor or the doctor?
+Answer: ", 'the doctor'),209.0
+510,t0,subject-control,the janitor,the lawyer,True,promised,to come,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to come.
+
+Question:  Who came, the lawyer or the janitor?
+Answer: ", 'the lawyer'),210.0
+511,t0,subject-control,the janitor,the lawyer,False,promised,to come,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to come.
+
+Question:  Who came, the janitor or the lawyer?
+Answer: ", 'the lawyer'),211.0
+512,t0,subject-control,the janitor,the lawyer,True,promised,to go,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to go.
+
+Question:  Who went, the lawyer or the janitor?
+Answer: ", 'the lawyer'),212.0
+513,t0,subject-control,the janitor,the lawyer,False,promised,to go,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to go.
+
+Question:  Who went, the janitor or the lawyer?
+Answer: ", 'the lawyer'),213.0
+514,t0,subject-control,the janitor,the lawyer,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to read.
+
+Question:  Who read, the lawyer or the janitor?
+Answer: ", 'the janitor'),214.0
+515,t0,subject-control,the janitor,the lawyer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to read.
+
+Question:  Who read, the janitor or the lawyer?
+Answer: ", 'the janitor'),215.0
+516,t0,subject-control,the janitor,the lawyer,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the janitor?
+Answer: ", 'the janitor'),216.0
+517,t0,subject-control,the janitor,the lawyer,False,promised,to run,the janitor,the lawyer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to run.
+
+Question:  Who ran, the janitor or the lawyer?
+Answer: ", 'the lawyer'),217.0
+518,t0,subject-control,the janitor,the lawyer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the janitor"".
+Context: the janitor promised the lawyer to call.
+
+Question:  Who called, the lawyer or the janitor?
+Answer: ", 'the janitor'),218.0
+519,t0,subject-control,the janitor,the lawyer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the lawyer"".
+Context: the janitor promised the lawyer to call.
+
+Question:  Who called, the janitor or the lawyer?
+Answer: ", 'the janitor'),219.0
+520,t0,subject-control,the janitor,the engineer,True,promised,to come,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to come.
+
+Question:  Who came, the engineer or the janitor?
+Answer: ", 'the engineer'),220.0
+521,t0,subject-control,the janitor,the engineer,False,promised,to come,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to come.
+
+Question:  Who came, the janitor or the engineer?
+Answer: ", 'the engineer'),221.0
+522,t0,subject-control,the janitor,the engineer,True,promised,to go,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to go.
+
+Question:  Who went, the engineer or the janitor?
+Answer: ", 'the engineer'),222.0
+523,t0,subject-control,the janitor,the engineer,False,promised,to go,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to go.
+
+Question:  Who went, the janitor or the engineer?
+Answer: ", 'the engineer'),223.0
+524,t0,subject-control,the janitor,the engineer,True,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to read.
+
+Question:  Who read, the engineer or the janitor?
+Answer: ", 'the janitor'),224.0
+525,t0,subject-control,the janitor,the engineer,False,promised,to read,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to read.
+
+Question:  Who read, the janitor or the engineer?
+Answer: ", 'the engineer'),225.0
+526,t0,subject-control,the janitor,the engineer,True,promised,to run,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to run.
+
+Question:  Who ran, the engineer or the janitor?
+Answer: ", 'the engineer'),226.0
+527,t0,subject-control,the janitor,the engineer,False,promised,to run,the janitor,the engineer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to run.
+
+Question:  Who ran, the janitor or the engineer?
+Answer: ", 'the engineer'),227.0
+528,t0,subject-control,the janitor,the engineer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the janitor"".
+Context: the janitor promised the engineer to call.
+
+Question:  Who called, the engineer or the janitor?
+Answer: ", 'the janitor'),228.0
+529,t0,subject-control,the janitor,the engineer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the engineer"".
+Context: the janitor promised the engineer to call.
+
+Question:  Who called, the janitor or the engineer?
+Answer: ", 'the janitor'),229.0
+530,t0,subject-control,the janitor,the writer,True,promised,to come,the janitor,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to come.
+
+Question:  Who came, the writer or the janitor?
+Answer: ", 'the writer'),230.0
+531,t0,subject-control,the janitor,the writer,False,promised,to come,the janitor,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to come.
+
+Question:  Who came, the janitor or the writer?
+Answer: ", 'the writer'),231.0
+532,t0,subject-control,the janitor,the writer,True,promised,to go,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to go.
+
+Question:  Who went, the writer or the janitor?
+Answer: ", 'the janitor'),232.0
+533,t0,subject-control,the janitor,the writer,False,promised,to go,the janitor,the writer,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to go.
+
+Question:  Who went, the janitor or the writer?
+Answer: ", 'the writer'),233.0
+534,t0,subject-control,the janitor,the writer,True,promised,to read,the janitor,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to read.
+
+Question:  Who read, the writer or the janitor?
+Answer: ", 'the writer'),234.0
+535,t0,subject-control,the janitor,the writer,False,promised,to read,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to read.
+
+Question:  Who read, the janitor or the writer?
+Answer: ", 'the janitor'),235.0
+536,t0,subject-control,the janitor,the writer,True,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to run.
+
+Question:  Who ran, the writer or the janitor?
+Answer: ", 'the janitor'),236.0
+537,t0,subject-control,the janitor,the writer,False,promised,to run,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to run.
+
+Question:  Who ran, the janitor or the writer?
+Answer: ", 'the janitor'),237.0
+538,t0,subject-control,the janitor,the writer,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the janitor"".
+Context: the janitor promised the writer to call.
+
+Question:  Who called, the writer or the janitor?
+Answer: ", 'the janitor'),238.0
+539,t0,subject-control,the janitor,the writer,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the writer"".
+Context: the janitor promised the writer to call.
+
+Question:  Who called, the janitor or the writer?
+Answer: ", 'the janitor'),239.0
+540,t0,subject-control,the janitor,the bartender,True,promised,to come,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to come.
+
+Question:  Who came, the bartender or the janitor?
+Answer: ", 'the bartender'),240.0
+541,t0,subject-control,the janitor,the bartender,False,promised,to come,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to come.
+
+Question:  Who came, the janitor or the bartender?
+Answer: ", 'the bartender'),241.0
+542,t0,subject-control,the janitor,the bartender,True,promised,to go,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to go.
+
+Question:  Who went, the bartender or the janitor?
+Answer: ", 'the bartender'),242.0
+543,t0,subject-control,the janitor,the bartender,False,promised,to go,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to go.
+
+Question:  Who went, the janitor or the bartender?
+Answer: ", 'the bartender'),243.0
+544,t0,subject-control,the janitor,the bartender,True,promised,to read,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to read.
+
+Question:  Who read, the bartender or the janitor?
+Answer: ", 'the bartender'),244.0
+545,t0,subject-control,the janitor,the bartender,False,promised,to read,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to read.
+
+Question:  Who read, the janitor or the bartender?
+Answer: ", 'the bartender'),245.0
+546,t0,subject-control,the janitor,the bartender,True,promised,to run,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to run.
+
+Question:  Who ran, the bartender or the janitor?
+Answer: ", 'the bartender'),246.0
+547,t0,subject-control,the janitor,the bartender,False,promised,to run,the janitor,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to run.
+
+Question:  Who ran, the janitor or the bartender?
+Answer: ", 'the bartender'),247.0
+548,t0,subject-control,the janitor,the bartender,True,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the janitor promised the bartender to call.
+
+Question:  Who called, the bartender or the janitor?
+Answer: ", 'the janitor'),248.0
+549,t0,subject-control,the janitor,the bartender,False,promised,to call,the janitor,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the janitor promised the bartender to call.
+
+Question:  Who called, the janitor or the bartender?
+Answer: ", 'the janitor'),249.0
+550,t0,subject-control,the bartender,the doctor,True,promised,to come,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to come.
+
+Question:  Who came, the doctor or the bartender?
+Answer: ", 'the doctor'),250.0
+551,t0,subject-control,the bartender,the doctor,False,promised,to come,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to come.
+
+Question:  Who came, the bartender or the doctor?
+Answer: ", 'the doctor'),251.0
+552,t0,subject-control,the bartender,the doctor,True,promised,to go,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to go.
+
+Question:  Who went, the doctor or the bartender?
+Answer: ", 'the doctor'),252.0
+553,t0,subject-control,the bartender,the doctor,False,promised,to go,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to go.
+
+Question:  Who went, the bartender or the doctor?
+Answer: ", 'the doctor'),253.0
+554,t0,subject-control,the bartender,the doctor,True,promised,to read,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to read.
+
+Question:  Who read, the doctor or the bartender?
+Answer: ", 'the doctor'),254.0
+555,t0,subject-control,the bartender,the doctor,False,promised,to read,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to read.
+
+Question:  Who read, the bartender or the doctor?
+Answer: ", 'the doctor'),255.0
+556,t0,subject-control,the bartender,the doctor,True,promised,to run,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to run.
+
+Question:  Who ran, the doctor or the bartender?
+Answer: ", 'the doctor'),256.0
+557,t0,subject-control,the bartender,the doctor,False,promised,to run,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to run.
+
+Question:  Who ran, the bartender or the doctor?
+Answer: ", 'the doctor'),257.0
+558,t0,subject-control,the bartender,the doctor,True,promised,to call,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the doctor"" or ""the bartender"".
+Context: the bartender promised the doctor to call.
+
+Question:  Who called, the doctor or the bartender?
+Answer: ", 'the doctor'),258.0
+559,t0,subject-control,the bartender,the doctor,False,promised,to call,the bartender,the doctor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the doctor"".
+Context: the bartender promised the doctor to call.
+
+Question:  Who called, the bartender or the doctor?
+Answer: ", 'the doctor'),259.0
+560,t0,subject-control,the bartender,the lawyer,True,promised,to come,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to come.
+
+Question:  Who came, the lawyer or the bartender?
+Answer: ", 'the lawyer'),260.0
+561,t0,subject-control,the bartender,the lawyer,False,promised,to come,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to come.
+
+Question:  Who came, the bartender or the lawyer?
+Answer: ", 'the lawyer'),261.0
+562,t0,subject-control,the bartender,the lawyer,True,promised,to go,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to go.
+
+Question:  Who went, the lawyer or the bartender?
+Answer: ", 'the bartender'),262.0
+563,t0,subject-control,the bartender,the lawyer,False,promised,to go,the bartender,the lawyer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to go.
+
+Question:  Who went, the bartender or the lawyer?
+Answer: ", 'the lawyer'),263.0
+564,t0,subject-control,the bartender,the lawyer,True,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to read.
+
+Question:  Who read, the lawyer or the bartender?
+Answer: ", 'the bartender'),264.0
+565,t0,subject-control,the bartender,the lawyer,False,promised,to read,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to read.
+
+Question:  Who read, the bartender or the lawyer?
+Answer: ", 'the bartender'),265.0
+566,t0,subject-control,the bartender,the lawyer,True,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to run.
+
+Question:  Who ran, the lawyer or the bartender?
+Answer: ", 'the bartender'),266.0
+567,t0,subject-control,the bartender,the lawyer,False,promised,to run,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to run.
+
+Question:  Who ran, the bartender or the lawyer?
+Answer: ", 'the bartender'),267.0
+568,t0,subject-control,the bartender,the lawyer,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the lawyer"" or ""the bartender"".
+Context: the bartender promised the lawyer to call.
+
+Question:  Who called, the lawyer or the bartender?
+Answer: ", 'the bartender'),268.0
+569,t0,subject-control,the bartender,the lawyer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the lawyer"".
+Context: the bartender promised the lawyer to call.
+
+Question:  Who called, the bartender or the lawyer?
+Answer: ", 'the bartender'),269.0
+570,t0,subject-control,the bartender,the engineer,True,promised,to come,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to come.
+
+Question:  Who came, the engineer or the bartender?
+Answer: ", 'the engineer'),270.0
+571,t0,subject-control,the bartender,the engineer,False,promised,to come,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to come.
+
+Question:  Who came, the bartender or the engineer?
+Answer: ", 'the engineer'),271.0
+572,t0,subject-control,the bartender,the engineer,True,promised,to go,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to go.
+
+Question:  Who went, the engineer or the bartender?
+Answer: ", 'the engineer'),272.0
+573,t0,subject-control,the bartender,the engineer,False,promised,to go,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to go.
+
+Question:  Who went, the bartender or the engineer?
+Answer: ", 'the engineer'),273.0
+574,t0,subject-control,the bartender,the engineer,True,promised,to read,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to read.
+
+Question:  Who read, the engineer or the bartender?
+Answer: ", 'the engineer'),274.0
+575,t0,subject-control,the bartender,the engineer,False,promised,to read,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to read.
+
+Question:  Who read, the bartender or the engineer?
+Answer: ", 'the engineer'),275.0
+576,t0,subject-control,the bartender,the engineer,True,promised,to run,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to run.
+
+Question:  Who ran, the engineer or the bartender?
+Answer: ", 'the engineer'),276.0
+577,t0,subject-control,the bartender,the engineer,False,promised,to run,the bartender,the engineer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to run.
+
+Question:  Who ran, the bartender or the engineer?
+Answer: ", 'the engineer'),277.0
+578,t0,subject-control,the bartender,the engineer,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the engineer"" or ""the bartender"".
+Context: the bartender promised the engineer to call.
+
+Question:  Who called, the engineer or the bartender?
+Answer: ", 'the bartender'),278.0
+579,t0,subject-control,the bartender,the engineer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the engineer"".
+Context: the bartender promised the engineer to call.
+
+Question:  Who called, the bartender or the engineer?
+Answer: ", 'the bartender'),279.0
+580,t0,subject-control,the bartender,the writer,True,promised,to come,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to come.
+
+Question:  Who came, the writer or the bartender?
+Answer: ", 'the writer'),280.0
+581,t0,subject-control,the bartender,the writer,False,promised,to come,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to come.
+
+Question:  Who came, the bartender or the writer?
+Answer: ", 'the writer'),281.0
+582,t0,subject-control,the bartender,the writer,True,promised,to go,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to go.
+
+Question:  Who went, the writer or the bartender?
+Answer: ", 'the writer'),282.0
+583,t0,subject-control,the bartender,the writer,False,promised,to go,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to go.
+
+Question:  Who went, the bartender or the writer?
+Answer: ", 'the writer'),283.0
+584,t0,subject-control,the bartender,the writer,True,promised,to read,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to read.
+
+Question:  Who read, the writer or the bartender?
+Answer: ", 'the writer'),284.0
+585,t0,subject-control,the bartender,the writer,False,promised,to read,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to read.
+
+Question:  Who read, the bartender or the writer?
+Answer: ", 'the writer'),285.0
+586,t0,subject-control,the bartender,the writer,True,promised,to run,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to run.
+
+Question:  Who ran, the writer or the bartender?
+Answer: ", 'the writer'),286.0
+587,t0,subject-control,the bartender,the writer,False,promised,to run,the bartender,the writer,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to run.
+
+Question:  Who ran, the bartender or the writer?
+Answer: ", 'the writer'),287.0
+588,t0,subject-control,the bartender,the writer,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the writer"" or ""the bartender"".
+Context: the bartender promised the writer to call.
+
+Question:  Who called, the writer or the bartender?
+Answer: ", 'the bartender'),288.0
+589,t0,subject-control,the bartender,the writer,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the writer"".
+Context: the bartender promised the writer to call.
+
+Question:  Who called, the bartender or the writer?
+Answer: ", 'the bartender'),289.0
+590,t0,subject-control,the bartender,the janitor,True,promised,to come,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to come.
+
+Question:  Who came, the janitor or the bartender?
+Answer: ", 'the janitor'),290.0
+591,t0,subject-control,the bartender,the janitor,False,promised,to come,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to come.
+
+Question:  Who came, the bartender or the janitor?
+Answer: ", 'the janitor'),291.0
+592,t0,subject-control,the bartender,the janitor,True,promised,to go,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to go.
+
+Question:  Who went, the janitor or the bartender?
+Answer: ", 'the janitor'),292.0
+593,t0,subject-control,the bartender,the janitor,False,promised,to go,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to go.
+
+Question:  Who went, the bartender or the janitor?
+Answer: ", 'the janitor'),293.0
+594,t0,subject-control,the bartender,the janitor,True,promised,to read,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to read.
+
+Question:  Who read, the janitor or the bartender?
+Answer: ", 'the janitor'),294.0
+595,t0,subject-control,the bartender,the janitor,False,promised,to read,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to read.
+
+Question:  Who read, the bartender or the janitor?
+Answer: ", 'the janitor'),295.0
+596,t0,subject-control,the bartender,the janitor,True,promised,to run,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to run.
+
+Question:  Who ran, the janitor or the bartender?
+Answer: ", 'the janitor'),296.0
+597,t0,subject-control,the bartender,the janitor,False,promised,to run,the bartender,the janitor,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to run.
+
+Question:  Who ran, the bartender or the janitor?
+Answer: ", 'the janitor'),297.0
+598,t0,subject-control,the bartender,the janitor,True,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the janitor"" or ""the bartender"".
+Context: the bartender promised the janitor to call.
+
+Question:  Who called, the janitor or the bartender?
+Answer: ", 'the bartender'),298.0
+599,t0,subject-control,the bartender,the janitor,False,promised,to call,the bartender,the bartender,"You will be given a context and a question. Answer the question with either ""the bartender"" or ""the janitor"".
+Context: the bartender promised the janitor to call.
+
+Question:  Who called, the bartender or the janitor?
+Answer: ", 'the bartender'),299.0

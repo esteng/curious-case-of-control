@@ -1,0 +1,2701 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,jurassic-jumbo,subject-control,Avery,Casey,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to come.
+
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '(A'),0.0
+1,jurassic-jumbo,subject-control,Avery,Casey,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Casey to go.
+
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '?\n'),1.0
+2,jurassic-jumbo,subject-control,Avery,Casey,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Casey to read.
+
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '(No'),2.0
+3,jurassic-jumbo,subject-control,Avery,Casey,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to run.
+
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ", '(A'),3.0
+4,jurassic-jumbo,subject-control,Avery,Casey,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Casey to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),4.0
+5,jurassic-jumbo,subject-control,Avery,Joseph,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '(A'),10.0
+6,jurassic-jumbo,subject-control,Avery,Joseph,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '?\n'),11.0
+7,jurassic-jumbo,subject-control,Avery,Joseph,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Joseph to read.
+
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '?\n'),12.0
+8,jurassic-jumbo,subject-control,Avery,Joseph,False,threatened,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to run.
+
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '(Joseph'),13.0
+9,jurassic-jumbo,subject-control,Avery,Joseph,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Joseph to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),14.0
+10,jurassic-jumbo,subject-control,Avery,Nicole,False,threatened,to come,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to come.
+
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),20.0
+11,jurassic-jumbo,subject-control,Avery,Nicole,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),21.0
+12,jurassic-jumbo,subject-control,Avery,Nicole,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '?\n'),22.0
+13,jurassic-jumbo,subject-control,Avery,Nicole,False,threatened,to run,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to run.
+
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ", '?\n'),23.0
+14,jurassic-jumbo,subject-control,Avery,Nicole,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Nicole to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),24.0
+15,jurassic-jumbo,subject-control,Avery,Stephanie,False,threatened,to come,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to come.
+
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '?\n'),30.0
+16,jurassic-jumbo,subject-control,Avery,Stephanie,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),31.0
+17,jurassic-jumbo,subject-control,Avery,Stephanie,False,threatened,to read,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to read.
+
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '?\n'),32.0
+18,jurassic-jumbo,subject-control,Avery,Stephanie,False,threatened,to run,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to run.
+
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ", '?\n'),33.0
+19,jurassic-jumbo,subject-control,Avery,Stephanie,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened Stephanie to call.
+
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ", '?\n'),34.0
+20,jurassic-jumbo,subject-control,Avery,William,False,threatened,to come,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to come.
+
+Question: Who threatened someone to come?
+Answer: Avery
+Question: Who was threatened to come?
+Answer: William
+Question: Who came?
+Answer: ", '(William'),40.0
+21,jurassic-jumbo,subject-control,Avery,William,False,threatened,to go,Avery,other,"You will be given a context and a question.
+Context: Avery threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Avery
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ", '?\n'),41.0
+22,jurassic-jumbo,subject-control,Avery,William,False,threatened,to read,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '(William'),42.0
+23,jurassic-jumbo,subject-control,Avery,William,False,threatened,to run,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to run.
+
+Question: Who threatened someone to run?
+Answer: Avery
+Question: Who was threatened to run?
+Answer: William
+Question: Who ran?
+Answer: ", '(William'),43.0
+24,jurassic-jumbo,subject-control,Avery,William,False,threatened,to call,Avery,other,"You will be given a context and a question.
+Context: Avery threatened William to call.
+
+Question: Who threatened someone to call?
+Answer: Avery
+Question: Who was threatened to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),44.0
+25,jurassic-jumbo,subject-control,Casey,Avery,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to come.
+
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ", '?\n'),50.0
+26,jurassic-jumbo,subject-control,Casey,Avery,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to go.
+
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '?\n'),51.0
+27,jurassic-jumbo,subject-control,Casey,Avery,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to read.
+
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '?\n'),52.0
+28,jurassic-jumbo,subject-control,Casey,Avery,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to run.
+
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),53.0
+29,jurassic-jumbo,subject-control,Casey,Avery,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Avery to call.
+
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),54.0
+30,jurassic-jumbo,subject-control,Casey,Joseph,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),60.0
+31,jurassic-jumbo,subject-control,Casey,Joseph,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ", '?\n'),61.0
+32,jurassic-jumbo,subject-control,Casey,Joseph,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to read.
+
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '?\n'),62.0
+33,jurassic-jumbo,subject-control,Casey,Joseph,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to run.
+
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),63.0
+34,jurassic-jumbo,subject-control,Casey,Joseph,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Joseph to call.
+
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),64.0
+35,jurassic-jumbo,subject-control,Casey,Nicole,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to come.
+
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ", '?\n'),70.0
+36,jurassic-jumbo,subject-control,Casey,Nicole,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),71.0
+37,jurassic-jumbo,subject-control,Casey,Nicole,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ", '?\n'),72.0
+38,jurassic-jumbo,subject-control,Casey,Nicole,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to run.
+
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),73.0
+39,jurassic-jumbo,subject-control,Casey,Nicole,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Nicole to call.
+
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),74.0
+40,jurassic-jumbo,subject-control,Casey,Stephanie,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to come.
+
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ", '?\n'),80.0
+41,jurassic-jumbo,subject-control,Casey,Stephanie,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to go.
+
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ", '?\n'),81.0
+42,jurassic-jumbo,subject-control,Casey,Stephanie,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to read.
+
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),82.0
+43,jurassic-jumbo,subject-control,Casey,Stephanie,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to run.
+
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),83.0
+44,jurassic-jumbo,subject-control,Casey,Stephanie,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to call.
+
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),84.0
+45,jurassic-jumbo,subject-control,Casey,William,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened William to come.
+
+Question: Who threatened someone to come?
+Answer: Casey
+Question: Who was threatened to come?
+Answer: William
+Question: Who came?
+Answer: ", '?\n'),90.0
+46,jurassic-jumbo,subject-control,Casey,William,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Casey
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ", '?\n'),91.0
+47,jurassic-jumbo,subject-control,Casey,William,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ", '?\n'),92.0
+48,jurassic-jumbo,subject-control,Casey,William,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened William to run.
+
+Question: Who threatened someone to run?
+Answer: Casey
+Question: Who was threatened to run?
+Answer: William
+Question: Who ran?
+Answer: ", '?\n'),93.0
+49,jurassic-jumbo,subject-control,Casey,William,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened William to call.
+
+Question: Who was threatened to call?
+Answer: William
+Question: Who threatened someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),94.0
+50,jurassic-jumbo,subject-control,Joseph,Avery,False,threatened,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '?\n'),100.0
+51,jurassic-jumbo,subject-control,Joseph,Avery,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to go.
+
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),101.0
+52,jurassic-jumbo,subject-control,Joseph,Avery,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to read.
+
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '?\n'),102.0
+53,jurassic-jumbo,subject-control,Joseph,Avery,False,threatened,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to run.
+
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who ran?
+Answer: ", '?\n'),103.0
+54,jurassic-jumbo,subject-control,Joseph,Avery,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Avery to call.
+
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),104.0
+55,jurassic-jumbo,subject-control,Joseph,Casey,False,threatened,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to come.
+
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),110.0
+56,jurassic-jumbo,subject-control,Joseph,Casey,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to go.
+
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who went?
+Answer: ", '?\n'),111.0
+57,jurassic-jumbo,subject-control,Joseph,Casey,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to read.
+
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who read?
+Answer: ", '?\n'),112.0
+58,jurassic-jumbo,subject-control,Joseph,Casey,False,threatened,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to run.
+
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),113.0
+59,jurassic-jumbo,subject-control,Joseph,Casey,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Casey to call.
+
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),114.0
+60,jurassic-jumbo,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Nicole to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),120.0
+61,jurassic-jumbo,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Nicole to go.
+
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),121.0
+62,jurassic-jumbo,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '?\n'),122.0
+63,jurassic-jumbo,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Nicole to run.
+
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),123.0
+64,jurassic-jumbo,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Nicole to call.
+
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),124.0
+65,jurassic-jumbo,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to come.
+
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '?\n'),130.0
+66,jurassic-jumbo,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to go.
+
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),131.0
+67,jurassic-jumbo,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to read.
+
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '?\n'),132.0
+68,jurassic-jumbo,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to run.
+
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),133.0
+69,jurassic-jumbo,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to call.
+
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '?\n'),134.0
+70,jurassic-jumbo,subject-control,Joseph,William,False,threatened,to come,Joseph,William,"You will be given a context and a question.
+Context: Joseph threatened William to come.
+
+Question: Who was threatened to come?
+Answer: William
+Question: Who threatened someone to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '(William'),140.0
+71,jurassic-jumbo,subject-control,Joseph,William,False,threatened,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to go.
+
+Question: Who was threatened to go?
+Answer: William
+Question: Who threatened someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),141.0
+72,jurassic-jumbo,subject-control,Joseph,William,False,threatened,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '?\n'),142.0
+73,jurassic-jumbo,subject-control,Joseph,William,False,threatened,to run,Joseph,William,"You will be given a context and a question.
+Context: Joseph threatened William to run.
+
+Question: Who threatened someone to run?
+Answer: Joseph
+Question: Who was threatened to run?
+Answer: William
+Question: Who ran?
+Answer: ", '(William'),143.0
+74,jurassic-jumbo,subject-control,Joseph,William,False,threatened,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph threatened William to call.
+
+Question: Who was threatened to call?
+Answer: William
+Question: Who threatened someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),144.0
+75,jurassic-jumbo,subject-control,Nicole,Avery,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to come.
+
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),150.0
+76,jurassic-jumbo,subject-control,Nicole,Avery,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to go.
+
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '?\n'),151.0
+77,jurassic-jumbo,subject-control,Nicole,Avery,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to read.
+
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),152.0
+78,jurassic-jumbo,subject-control,Nicole,Avery,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to run.
+
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),153.0
+79,jurassic-jumbo,subject-control,Nicole,Avery,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Avery to call.
+
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),154.0
+80,jurassic-jumbo,subject-control,Nicole,Casey,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to come.
+
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),160.0
+81,jurassic-jumbo,subject-control,Nicole,Casey,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to go.
+
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),161.0
+82,jurassic-jumbo,subject-control,Nicole,Casey,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to read.
+
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who read?
+Answer: ", '?\n'),162.0
+83,jurassic-jumbo,subject-control,Nicole,Casey,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),163.0
+84,jurassic-jumbo,subject-control,Nicole,Casey,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Casey to call.
+
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),164.0
+85,jurassic-jumbo,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),170.0
+86,jurassic-jumbo,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to go.
+
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),171.0
+87,jurassic-jumbo,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to read.
+
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),172.0
+88,jurassic-jumbo,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to run.
+
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),173.0
+89,jurassic-jumbo,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Joseph to call.
+
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),174.0
+90,jurassic-jumbo,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to come.
+
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '?\n'),180.0
+91,jurassic-jumbo,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to go.
+
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),181.0
+92,jurassic-jumbo,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to read.
+
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),182.0
+93,jurassic-jumbo,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),183.0
+94,jurassic-jumbo,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to call.
+
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '?\n'),184.0
+95,jurassic-jumbo,subject-control,Nicole,William,False,threatened,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to come.
+
+Question: Who was threatened to come?
+Answer: William
+Question: Who threatened someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),190.0
+96,jurassic-jumbo,subject-control,Nicole,William,False,threatened,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to go.
+
+Question: Who was threatened to go?
+Answer: William
+Question: Who threatened someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),191.0
+97,jurassic-jumbo,subject-control,Nicole,William,False,threatened,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),192.0
+98,jurassic-jumbo,subject-control,Nicole,William,False,threatened,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to run.
+
+Question: Who threatened someone to run?
+Answer: Nicole
+Question: Who was threatened to run?
+Answer: William
+Question: Who ran?
+Answer: ", '?\n'),193.0
+99,jurassic-jumbo,subject-control,Nicole,William,False,threatened,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole threatened William to call.
+
+Question: Who was threatened to call?
+Answer: William
+Question: Who threatened someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),194.0
+100,jurassic-jumbo,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to come.
+
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '?\n'),200.0
+101,jurassic-jumbo,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to go.
+
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),201.0
+102,jurassic-jumbo,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to read.
+
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '?\n'),202.0
+103,jurassic-jumbo,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to run.
+
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),203.0
+104,jurassic-jumbo,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to call.
+
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who called?
+Answer: ", '?\n'),204.0
+105,jurassic-jumbo,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to come.
+
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '?\n'),210.0
+106,jurassic-jumbo,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to go.
+
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),211.0
+107,jurassic-jumbo,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to read.
+
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),212.0
+108,jurassic-jumbo,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to run.
+
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),213.0
+109,jurassic-jumbo,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to call.
+
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),214.0
+110,jurassic-jumbo,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),220.0
+111,jurassic-jumbo,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to go.
+
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),221.0
+112,jurassic-jumbo,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to read.
+
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),222.0
+113,jurassic-jumbo,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to run.
+
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),223.0
+114,jurassic-jumbo,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to call.
+
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),224.0
+115,jurassic-jumbo,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to come.
+
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),230.0
+116,jurassic-jumbo,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to go.
+
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),231.0
+117,jurassic-jumbo,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),232.0
+118,jurassic-jumbo,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to run.
+
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),233.0
+119,jurassic-jumbo,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to call.
+
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '?\n'),234.0
+120,jurassic-jumbo,subject-control,Stephanie,William,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to come.
+
+Question: Who threatened someone to come?
+Answer: Stephanie
+Question: Who was threatened to come?
+Answer: William
+Question: Who came?
+Answer: ", '?\n'),240.0
+121,jurassic-jumbo,subject-control,Stephanie,William,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to go.
+
+Question: Who threatened someone to go?
+Answer: Stephanie
+Question: Who was threatened to go?
+Answer: William
+Question: Who went?
+Answer: ", '?\n'),241.0
+122,jurassic-jumbo,subject-control,Stephanie,William,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to read.
+
+Question: Who was threatened to read?
+Answer: William
+Question: Who threatened someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),242.0
+123,jurassic-jumbo,subject-control,Stephanie,William,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to run.
+
+Question: Who was threatened to run?
+Answer: William
+Question: Who threatened someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),243.0
+124,jurassic-jumbo,subject-control,Stephanie,William,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to call.
+
+Question: Who threatened someone to call?
+Answer: Stephanie
+Question: Who was threatened to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),244.0
+125,jurassic-jumbo,subject-control,William,Avery,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Avery to come.
+
+Question: Who threatened someone to come?
+Answer: William
+Question: Who was threatened to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '?\n'),250.0
+126,jurassic-jumbo,subject-control,William,Avery,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Avery to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '?\n'),251.0
+127,jurassic-jumbo,subject-control,William,Avery,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Avery to read.
+
+Question: Who was threatened to read?
+Answer: Avery
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),252.0
+128,jurassic-jumbo,subject-control,William,Avery,False,threatened,to run,William,other,"You will be given a context and a question.
+Context: William threatened Avery to run.
+
+Question: Who was threatened to run?
+Answer: Avery
+Question: Who threatened someone to run?
+Answer: William
+Question: Who ran?
+Answer: ", '?\n'),253.0
+129,jurassic-jumbo,subject-control,William,Avery,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Avery to call.
+
+Question: Who threatened someone to call?
+Answer: William
+Question: Who was threatened to call?
+Answer: Avery
+Question: Who called?
+Answer: ", '?\n'),254.0
+130,jurassic-jumbo,subject-control,William,Casey,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Casey to come.
+
+Question: Who threatened someone to come?
+Answer: William
+Question: Who was threatened to come?
+Answer: Casey
+Question: Who came?
+Answer: ", '?\n'),260.0
+131,jurassic-jumbo,subject-control,William,Casey,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Casey to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Casey
+Question: Who went?
+Answer: ", '?\n'),261.0
+132,jurassic-jumbo,subject-control,William,Casey,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Casey to read.
+
+Question: Who was threatened to read?
+Answer: Casey
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),262.0
+133,jurassic-jumbo,subject-control,William,Casey,False,threatened,to run,William,other,"You will be given a context and a question.
+Context: William threatened Casey to run.
+
+Question: Who was threatened to run?
+Answer: Casey
+Question: Who threatened someone to run?
+Answer: William
+Question: Who ran?
+Answer: ", '?\n'),263.0
+134,jurassic-jumbo,subject-control,William,Casey,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Casey to call.
+
+Question: Who was threatened to call?
+Answer: Casey
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),264.0
+135,jurassic-jumbo,subject-control,William,Joseph,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to come.
+
+Question: Who threatened someone to come?
+Answer: William
+Question: Who was threatened to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),270.0
+136,jurassic-jumbo,subject-control,William,Joseph,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),271.0
+137,jurassic-jumbo,subject-control,William,Joseph,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to read.
+
+Question: Who was threatened to read?
+Answer: Joseph
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),272.0
+138,jurassic-jumbo,subject-control,William,Joseph,False,threatened,to run,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to run.
+
+Question: Who threatened someone to run?
+Answer: William
+Question: Who was threatened to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),273.0
+139,jurassic-jumbo,subject-control,William,Joseph,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Joseph to call.
+
+Question: Who threatened someone to call?
+Answer: William
+Question: Who was threatened to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),274.0
+140,jurassic-jumbo,subject-control,William,Nicole,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Nicole to come.
+
+Question: Who was threatened to come?
+Answer: Nicole
+Question: Who threatened someone to come?
+Answer: William
+Question: Who came?
+Answer: ", '?\n'),280.0
+141,jurassic-jumbo,subject-control,William,Nicole,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Nicole to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),281.0
+142,jurassic-jumbo,subject-control,William,Nicole,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Nicole to read.
+
+Question: Who was threatened to read?
+Answer: Nicole
+Question: Who threatened someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),282.0
+143,jurassic-jumbo,subject-control,William,Nicole,False,threatened,to run,William,other,"You will be given a context and a question.
+Context: William threatened Nicole to run.
+
+Question: Who threatened someone to run?
+Answer: William
+Question: Who was threatened to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),283.0
+144,jurassic-jumbo,subject-control,William,Nicole,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Nicole to call.
+
+Question: Who was threatened to call?
+Answer: Nicole
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),284.0
+145,jurassic-jumbo,subject-control,William,Stephanie,False,threatened,to come,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to come.
+
+Question: Who was threatened to come?
+Answer: Stephanie
+Question: Who threatened someone to come?
+Answer: William
+Question: Who came?
+Answer: ", '?\n'),290.0
+146,jurassic-jumbo,subject-control,William,Stephanie,False,threatened,to go,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to go.
+
+Question: Who threatened someone to go?
+Answer: William
+Question: Who was threatened to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),291.0
+147,jurassic-jumbo,subject-control,William,Stephanie,False,threatened,to read,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to read.
+
+Question: Who threatened someone to read?
+Answer: William
+Question: Who was threatened to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),292.0
+148,jurassic-jumbo,subject-control,William,Stephanie,False,threatened,to run,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to run.
+
+Question: Who threatened someone to run?
+Answer: William
+Question: Who was threatened to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),293.0
+149,jurassic-jumbo,subject-control,William,Stephanie,False,threatened,to call,William,other,"You will be given a context and a question.
+Context: William threatened Stephanie to call.
+
+Question: Who was threatened to call?
+Answer: Stephanie
+Question: Who threatened someone to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),294.0
+150,jurassic-jumbo,subject-control,Avery,Casey,False,promised,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Casey to come.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '(A'),0.0
+151,jurassic-jumbo,subject-control,Avery,Casey,False,promised,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Casey to go.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '(A'),1.0
+152,jurassic-jumbo,subject-control,Avery,Casey,False,promised,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Casey to read.
+
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who was promised something?
+Answer: Casey
+Question: Who read?
+Answer: ", '(A'),2.0
+153,jurassic-jumbo,subject-control,Avery,Casey,False,promised,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Casey to run.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ", '(A'),3.0
+154,jurassic-jumbo,subject-control,Avery,Casey,False,promised,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Casey to call.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ", '(A'),4.0
+155,jurassic-jumbo,subject-control,Avery,Joseph,False,promised,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Joseph to come.
+
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who was promised something?
+Answer: Joseph
+Question: Who came?
+Answer: ", '(A'),5.0
+156,jurassic-jumbo,subject-control,Avery,Joseph,False,promised,to go,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to go.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '____'),6.0
+157,jurassic-jumbo,subject-control,Avery,Joseph,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to read.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '____'),7.0
+158,jurassic-jumbo,subject-control,Avery,Joseph,False,promised,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who was promised something?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '(A'),8.0
+159,jurassic-jumbo,subject-control,Avery,Joseph,False,promised,to call,Avery,other,"You will be given a context and a question.
+Context: Avery promised Joseph to call.
+
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who was promised something?
+Answer: Joseph
+Question: Who called?
+Answer: ", '____'),9.0
+160,jurassic-jumbo,subject-control,Avery,Nicole,False,promised,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Nicole to come.
+
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who was promised something?
+Answer: Nicole
+Question: Who came?
+Answer: ", '(A'),10.0
+161,jurassic-jumbo,subject-control,Avery,Nicole,False,promised,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to go.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '(Nicole'),11.0
+162,jurassic-jumbo,subject-control,Avery,Nicole,False,promised,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who was promised something?
+Answer: Nicole
+Question: Who read?
+Answer: ", '(A'),12.0
+163,jurassic-jumbo,subject-control,Avery,Nicole,False,promised,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to run.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who ran?
+Answer: ", '(Nicole'),13.0
+164,jurassic-jumbo,subject-control,Avery,Nicole,False,promised,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery promised Nicole to call.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ", '(Nicole'),14.0
+165,jurassic-jumbo,subject-control,Avery,Stephanie,False,promised,to come,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to come.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who came?
+Answer: ", '(S'),15.0
+166,jurassic-jumbo,subject-control,Avery,Stephanie,False,promised,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: Avery
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '(A'),16.0
+167,jurassic-jumbo,subject-control,Avery,Stephanie,False,promised,to read,Avery,other,"You will be given a context and a question.
+Context: Avery promised Stephanie to read.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who read?
+Answer: ", '(S'),17.0
+168,jurassic-jumbo,subject-control,Avery,Stephanie,False,promised,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Stephanie to run.
+
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '(A'),18.0
+169,jurassic-jumbo,subject-control,Avery,Stephanie,False,promised,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised Stephanie to call.
+
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '(A'),19.0
+170,jurassic-jumbo,subject-control,Avery,William,False,promised,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised William to come.
+
+Question: Who promised someone to come?
+Answer: Avery
+Question: Who was promised something?
+Answer: William
+Question: Who came?
+Answer: ", '(A'),20.0
+171,jurassic-jumbo,subject-control,Avery,William,False,promised,to go,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to go.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to go?
+Answer: Avery
+Question: Who went?
+Answer: ", '(William'),21.0
+172,jurassic-jumbo,subject-control,Avery,William,False,promised,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised William to read.
+
+Question: Who promised someone to read?
+Answer: Avery
+Question: Who was promised something?
+Answer: William
+Question: Who read?
+Answer: ", '(A'),22.0
+173,jurassic-jumbo,subject-control,Avery,William,False,promised,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery promised William to run.
+
+Question: Who promised someone to run?
+Answer: Avery
+Question: Who was promised something?
+Answer: William
+Question: Who ran?
+Answer: ", '(A'),23.0
+174,jurassic-jumbo,subject-control,Avery,William,False,promised,to call,Avery,William,"You will be given a context and a question.
+Context: Avery promised William to call.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to call?
+Answer: Avery
+Question: Who called?
+Answer: ", '(William'),24.0
+175,jurassic-jumbo,subject-control,Casey,Avery,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to come.
+
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who was promised something?
+Answer: Avery
+Question: Who came?
+Answer: ", '(Case'),25.0
+176,jurassic-jumbo,subject-control,Casey,Avery,False,promised,to go,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to go.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ", '(Case'),26.0
+177,jurassic-jumbo,subject-control,Casey,Avery,False,promised,to read,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to read.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ", '(Case'),27.0
+178,jurassic-jumbo,subject-control,Casey,Avery,False,promised,to run,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Avery to run.
+
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who was promised something?
+Answer: Avery
+Question: Who ran?
+Answer: ", '(Case'),28.0
+179,jurassic-jumbo,subject-control,Casey,Avery,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who was promised something?
+Answer: Avery
+Question: Who called?
+Answer: ", '?\n'),29.0
+180,jurassic-jumbo,subject-control,Casey,Joseph,False,promised,to come,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to come.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ", '____'),30.0
+181,jurassic-jumbo,subject-control,Casey,Joseph,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to go.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who went?
+Answer: ", '____'),31.0
+182,jurassic-jumbo,subject-control,Casey,Joseph,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to read.
+
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who was promised something?
+Answer: Joseph
+Question: Who read?
+Answer: ", '____'),32.0
+183,jurassic-jumbo,subject-control,Casey,Joseph,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to run.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '____'),33.0
+184,jurassic-jumbo,subject-control,Casey,Joseph,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Joseph to call.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '____'),34.0
+185,jurassic-jumbo,subject-control,Casey,Nicole,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Nicole to come.
+
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who was promised something?
+Answer: Nicole
+Question: Who came?
+Answer: ", '(Case'),35.0
+186,jurassic-jumbo,subject-control,Casey,Nicole,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who was promised something?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),36.0
+187,jurassic-jumbo,subject-control,Casey,Nicole,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who was promised something?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),37.0
+188,jurassic-jumbo,subject-control,Casey,Nicole,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to run.
+
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who was promised something?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),38.0
+189,jurassic-jumbo,subject-control,Casey,Nicole,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Nicole to call.
+
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who was promised something?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),39.0
+190,jurassic-jumbo,subject-control,Casey,Stephanie,False,promised,to come,Casey,Casey,"You will be given a context and a question.
+Context: Casey promised Stephanie to come.
+
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '(Case'),40.0
+191,jurassic-jumbo,subject-control,Casey,Stephanie,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),41.0
+192,jurassic-jumbo,subject-control,Casey,Stephanie,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to read.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who read?
+Answer: ", '?\n'),42.0
+193,jurassic-jumbo,subject-control,Casey,Stephanie,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to run.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),43.0
+194,jurassic-jumbo,subject-control,Casey,Stephanie,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised Stephanie to call.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),44.0
+195,jurassic-jumbo,subject-control,Casey,William,False,promised,to come,Casey,William,"You will be given a context and a question.
+Context: Casey promised William to come.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to come?
+Answer: Casey
+Question: Who came?
+Answer: ", '(William'),45.0
+196,jurassic-jumbo,subject-control,Casey,William,False,promised,to go,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to go.
+
+Question: Who promised someone to go?
+Answer: Casey
+Question: Who was promised something?
+Answer: William
+Question: Who went?
+Answer: ", '?\n'),46.0
+197,jurassic-jumbo,subject-control,Casey,William,False,promised,to read,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to read.
+
+Question: Who promised someone to read?
+Answer: Casey
+Question: Who was promised something?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),47.0
+198,jurassic-jumbo,subject-control,Casey,William,False,promised,to run,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to run.
+
+Question: Who promised someone to run?
+Answer: Casey
+Question: Who was promised something?
+Answer: William
+Question: Who ran?
+Answer: ", '?\n'),48.0
+199,jurassic-jumbo,subject-control,Casey,William,False,promised,to call,Casey,other,"You will be given a context and a question.
+Context: Casey promised William to call.
+
+Question: Who promised someone to call?
+Answer: Casey
+Question: Who was promised something?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),49.0
+200,jurassic-jumbo,subject-control,Joseph,Avery,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to come.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '(Joseph'),50.0
+201,jurassic-jumbo,subject-control,Joseph,Avery,False,promised,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to go.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '(Joseph'),51.0
+202,jurassic-jumbo,subject-control,Joseph,Avery,False,promised,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to read.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '(Joseph'),52.0
+203,jurassic-jumbo,subject-control,Joseph,Avery,False,promised,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Avery to run.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '(Joseph'),53.0
+204,jurassic-jumbo,subject-control,Joseph,Avery,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Avery
+Question: Who called?
+Answer: ", '____'),54.0
+205,jurassic-jumbo,subject-control,Joseph,Casey,False,promised,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to come.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who came?
+Answer: ", '____'),55.0
+206,jurassic-jumbo,subject-control,Joseph,Casey,False,promised,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to go.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '____'),56.0
+207,jurassic-jumbo,subject-control,Joseph,Casey,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to read.
+
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Casey
+Question: Who read?
+Answer: ", '____'),57.0
+208,jurassic-jumbo,subject-control,Joseph,Casey,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to run.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '____'),58.0
+209,jurassic-jumbo,subject-control,Joseph,Casey,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Casey to call.
+
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Casey
+Question: Who called?
+Answer: ", '____'),59.0
+210,jurassic-jumbo,subject-control,Joseph,Nicole,False,promised,to come,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to come.
+
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Nicole
+Question: Who came?
+Answer: ", '?\n'),60.0
+211,jurassic-jumbo,subject-control,Joseph,Nicole,False,promised,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),61.0
+212,jurassic-jumbo,subject-control,Joseph,Nicole,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),62.0
+213,jurassic-jumbo,subject-control,Joseph,Nicole,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to run.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),63.0
+214,jurassic-jumbo,subject-control,Joseph,Nicole,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Nicole to call.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),64.0
+215,jurassic-jumbo,subject-control,Joseph,Stephanie,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised Stephanie to come.
+
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '(Joseph'),65.0
+216,jurassic-jumbo,subject-control,Joseph,Stephanie,False,promised,to go,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Stephanie to go.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),66.0
+217,jurassic-jumbo,subject-control,Joseph,Stephanie,False,promised,to read,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Stephanie to read.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '?\n'),67.0
+218,jurassic-jumbo,subject-control,Joseph,Stephanie,False,promised,to run,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Stephanie to run.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),68.0
+219,jurassic-jumbo,subject-control,Joseph,Stephanie,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised Stephanie to call.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),69.0
+220,jurassic-jumbo,subject-control,Joseph,William,False,promised,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph promised William to come.
+
+Question: Who promised someone to come?
+Answer: Joseph
+Question: Who was promised something?
+Answer: William
+Question: Who came?
+Answer: ", '(Joseph'),70.0
+221,jurassic-jumbo,subject-control,Joseph,William,False,promised,to go,Joseph,William,"You will be given a context and a question.
+Context: Joseph promised William to go.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to go?
+Answer: Joseph
+Question: Who went?
+Answer: ", '(William'),71.0
+222,jurassic-jumbo,subject-control,Joseph,William,False,promised,to read,Joseph,William,"You will be given a context and a question.
+Context: Joseph promised William to read.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to read?
+Answer: Joseph
+Question: Who read?
+Answer: ", '(William'),72.0
+223,jurassic-jumbo,subject-control,Joseph,William,False,promised,to run,Joseph,William,"You will be given a context and a question.
+Context: Joseph promised William to run.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to run?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '(William'),73.0
+224,jurassic-jumbo,subject-control,Joseph,William,False,promised,to call,Joseph,other,"You will be given a context and a question.
+Context: Joseph promised William to call.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to call?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),74.0
+225,jurassic-jumbo,subject-control,Nicole,Avery,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to come.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '(Nicole'),75.0
+226,jurassic-jumbo,subject-control,Nicole,Avery,False,promised,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to go.
+
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Avery
+Question: Who went?
+Answer: ", '(Nicole'),76.0
+227,jurassic-jumbo,subject-control,Nicole,Avery,False,promised,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to read.
+
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Avery
+Question: Who read?
+Answer: ", '(Nicole'),77.0
+228,jurassic-jumbo,subject-control,Nicole,Avery,False,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Avery to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Avery
+Question: Who ran?
+Answer: ", '(Nicole'),78.0
+229,jurassic-jumbo,subject-control,Nicole,Avery,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Avery
+Question: Who called?
+Answer: ", '?\n'),79.0
+230,jurassic-jumbo,subject-control,Nicole,Casey,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Casey to come.
+
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Casey
+Question: Who came?
+Answer: ", '(Nicole'),80.0
+231,jurassic-jumbo,subject-control,Nicole,Casey,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to go.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),81.0
+232,jurassic-jumbo,subject-control,Nicole,Casey,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to read.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),82.0
+233,jurassic-jumbo,subject-control,Nicole,Casey,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),83.0
+234,jurassic-jumbo,subject-control,Nicole,Casey,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Casey to call.
+
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),84.0
+235,jurassic-jumbo,subject-control,Nicole,Joseph,False,promised,to come,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to come.
+
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),85.0
+236,jurassic-jumbo,subject-control,Nicole,Joseph,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to go.
+
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),86.0
+237,jurassic-jumbo,subject-control,Nicole,Joseph,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to read.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),87.0
+238,jurassic-jumbo,subject-control,Nicole,Joseph,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),88.0
+239,jurassic-jumbo,subject-control,Nicole,Joseph,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Joseph to call.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '____'),89.0
+240,jurassic-jumbo,subject-control,Nicole,Stephanie,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised Stephanie to come.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '(Nicole'),90.0
+241,jurassic-jumbo,subject-control,Nicole,Stephanie,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),91.0
+242,jurassic-jumbo,subject-control,Nicole,Stephanie,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to read.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),92.0
+243,jurassic-jumbo,subject-control,Nicole,Stephanie,False,promised,to run,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to run.
+
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),93.0
+244,jurassic-jumbo,subject-control,Nicole,Stephanie,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised Stephanie to call.
+
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),94.0
+245,jurassic-jumbo,subject-control,Nicole,William,False,promised,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to come.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to come?
+Answer: Nicole
+Question: Who came?
+Answer: ", '(Nicole'),95.0
+246,jurassic-jumbo,subject-control,Nicole,William,False,promised,to go,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to go.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to go?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),96.0
+247,jurassic-jumbo,subject-control,Nicole,William,False,promised,to read,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to read.
+
+Question: Who promised someone to read?
+Answer: Nicole
+Question: Who was promised something?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),97.0
+248,jurassic-jumbo,subject-control,Nicole,William,False,promised,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole promised William to run.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to run?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '(Nicole'),98.0
+249,jurassic-jumbo,subject-control,Nicole,William,False,promised,to call,Nicole,other,"You will be given a context and a question.
+Context: Nicole promised William to call.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to call?
+Answer: Nicole
+Question: Who called?
+Answer: ", '?\n'),99.0
+250,jurassic-jumbo,subject-control,Stephanie,Avery,False,promised,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Avery to come.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '(S'),100.0
+251,jurassic-jumbo,subject-control,Stephanie,Avery,False,promised,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Avery to go.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '(S'),101.0
+252,jurassic-jumbo,subject-control,Stephanie,Avery,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Avery to read.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '(S'),102.0
+253,jurassic-jumbo,subject-control,Stephanie,Avery,False,promised,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Avery to run.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '(S'),103.0
+254,jurassic-jumbo,subject-control,Stephanie,Avery,False,promised,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Avery to call.
+
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Avery
+Question: Who called?
+Answer: ", '?\n'),104.0
+255,jurassic-jumbo,subject-control,Stephanie,Casey,False,promised,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Casey to come.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '(S'),105.0
+256,jurassic-jumbo,subject-control,Stephanie,Casey,False,promised,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Casey to go.
+
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Casey
+Question: Who went?
+Answer: ", '?\n'),106.0
+257,jurassic-jumbo,subject-control,Stephanie,Casey,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Casey to read.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),107.0
+258,jurassic-jumbo,subject-control,Stephanie,Casey,False,promised,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Casey to run.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),108.0
+259,jurassic-jumbo,subject-control,Stephanie,Casey,False,promised,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Casey to call.
+
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Casey
+Question: Who called?
+Answer: ", '?\n'),109.0
+260,jurassic-jumbo,subject-control,Stephanie,Joseph,False,promised,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Joseph to come.
+
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Joseph
+Question: Who came?
+Answer: ", '?\n'),110.0
+261,jurassic-jumbo,subject-control,Stephanie,Joseph,False,promised,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Joseph to go.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),111.0
+262,jurassic-jumbo,subject-control,Stephanie,Joseph,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Joseph to read.
+
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Joseph
+Question: Who read?
+Answer: ", '?\n'),112.0
+263,jurassic-jumbo,subject-control,Stephanie,Joseph,False,promised,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),113.0
+264,jurassic-jumbo,subject-control,Stephanie,Joseph,False,promised,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Joseph to call.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '?\n'),114.0
+265,jurassic-jumbo,subject-control,Stephanie,Nicole,False,promised,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to come.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '(S'),115.0
+266,jurassic-jumbo,subject-control,Stephanie,Nicole,False,promised,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),116.0
+267,jurassic-jumbo,subject-control,Stephanie,Nicole,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to read.
+
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Nicole
+Question: Who read?
+Answer: ", '?\n'),117.0
+268,jurassic-jumbo,subject-control,Stephanie,Nicole,False,promised,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to run.
+
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: Nicole
+Question: Who ran?
+Answer: ", '?\n'),118.0
+269,jurassic-jumbo,subject-control,Stephanie,Nicole,False,promised,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised Nicole to call.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '?\n'),119.0
+270,jurassic-jumbo,subject-control,Stephanie,William,False,promised,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised William to come.
+
+Question: Who promised someone to come?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: William
+Question: Who came?
+Answer: ", '?\n'),120.0
+271,jurassic-jumbo,subject-control,Stephanie,William,False,promised,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised William to go.
+
+Question: Who promised someone to go?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: William
+Question: Who went?
+Answer: ", '?\n'),121.0
+272,jurassic-jumbo,subject-control,Stephanie,William,False,promised,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised William to read.
+
+Question: Who promised someone to read?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),122.0
+273,jurassic-jumbo,subject-control,Stephanie,William,False,promised,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised William to run.
+
+Question: Who was promised something?
+Answer: William
+Question: Who promised someone to run?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),123.0
+274,jurassic-jumbo,subject-control,Stephanie,William,False,promised,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie promised William to call.
+
+Question: Who promised someone to call?
+Answer: Stephanie
+Question: Who was promised something?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),124.0
+275,jurassic-jumbo,subject-control,William,Avery,False,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Avery to come.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to come?
+Answer: William
+Question: Who came?
+Answer: ", '(William'),125.0
+276,jurassic-jumbo,subject-control,William,Avery,False,promised,to go,William,William,"You will be given a context and a question.
+Context: William promised Avery to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something?
+Answer: Avery
+Question: Who went?
+Answer: ", '(William'),126.0
+277,jurassic-jumbo,subject-control,William,Avery,False,promised,to read,William,William,"You will be given a context and a question.
+Context: William promised Avery to read.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '(William'),127.0
+278,jurassic-jumbo,subject-control,William,Avery,False,promised,to run,William,William,"You will be given a context and a question.
+Context: William promised Avery to run.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to run?
+Answer: William
+Question: Who ran?
+Answer: ", '(William'),128.0
+279,jurassic-jumbo,subject-control,William,Avery,False,promised,to call,William,William,"You will be given a context and a question.
+Context: William promised Avery to call.
+
+Question: Who was promised something?
+Answer: Avery
+Question: Who promised someone to call?
+Answer: William
+Question: Who called?
+Answer: ", '(William'),129.0
+280,jurassic-jumbo,subject-control,William,Casey,False,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Casey to come.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to come?
+Answer: William
+Question: Who came?
+Answer: ", '(William'),130.0
+281,jurassic-jumbo,subject-control,William,Casey,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Casey to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something?
+Answer: Casey
+Question: Who went?
+Answer: ", '?\n'),131.0
+282,jurassic-jumbo,subject-control,William,Casey,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Casey to read.
+
+Question: Who promised someone to read?
+Answer: William
+Question: Who was promised something?
+Answer: Casey
+Question: Who read?
+Answer: ", '?\n'),132.0
+283,jurassic-jumbo,subject-control,William,Casey,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Casey to run.
+
+Question: Who promised someone to run?
+Answer: William
+Question: Who was promised something?
+Answer: Casey
+Question: Who ran?
+Answer: ", '?\n'),133.0
+284,jurassic-jumbo,subject-control,William,Casey,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Casey to call.
+
+Question: Who was promised something?
+Answer: Casey
+Question: Who promised someone to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),134.0
+285,jurassic-jumbo,subject-control,William,Joseph,False,promised,to come,William,William,"You will be given a context and a question.
+Context: William promised Joseph to come.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to come?
+Answer: William
+Question: Who came?
+Answer: ", '(William'),135.0
+286,jurassic-jumbo,subject-control,William,Joseph,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Joseph to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something?
+Answer: Joseph
+Question: Who went?
+Answer: ", '?\n'),136.0
+287,jurassic-jumbo,subject-control,William,Joseph,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Joseph to read.
+
+Question: Who was promised something?
+Answer: Joseph
+Question: Who promised someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),137.0
+288,jurassic-jumbo,subject-control,William,Joseph,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Joseph to run.
+
+Question: Who promised someone to run?
+Answer: William
+Question: Who was promised something?
+Answer: Joseph
+Question: Who ran?
+Answer: ", '?\n'),138.0
+289,jurassic-jumbo,subject-control,William,Joseph,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Joseph to call.
+
+Question: Who promised someone to call?
+Answer: William
+Question: Who was promised something?
+Answer: Joseph
+Question: Who called?
+Answer: ", '?\n'),139.0
+290,jurassic-jumbo,subject-control,William,Nicole,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Nicole to come.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to come?
+Answer: William
+Question: Who came?
+Answer: ", '?\n'),140.0
+291,jurassic-jumbo,subject-control,William,Nicole,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Nicole to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something?
+Answer: Nicole
+Question: Who went?
+Answer: ", '?\n'),141.0
+292,jurassic-jumbo,subject-control,William,Nicole,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Nicole to read.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to read?
+Answer: William
+Question: Who read?
+Answer: ", '?\n'),142.0
+293,jurassic-jumbo,subject-control,William,Nicole,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Nicole to run.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to run?
+Answer: William
+Question: Who ran?
+Answer: ", '?\n'),143.0
+294,jurassic-jumbo,subject-control,William,Nicole,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Nicole to call.
+
+Question: Who was promised something?
+Answer: Nicole
+Question: Who promised someone to call?
+Answer: William
+Question: Who called?
+Answer: ", '?\n'),144.0
+295,jurassic-jumbo,subject-control,William,Stephanie,False,promised,to come,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to come.
+
+Question: Who promised someone to come?
+Answer: William
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who came?
+Answer: ", '?\n'),145.0
+296,jurassic-jumbo,subject-control,William,Stephanie,False,promised,to go,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to go.
+
+Question: Who promised someone to go?
+Answer: William
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who went?
+Answer: ", '?\n'),146.0
+297,jurassic-jumbo,subject-control,William,Stephanie,False,promised,to read,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to read.
+
+Question: Who promised someone to read?
+Answer: William
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who read?
+Answer: ", '?\n'),147.0
+298,jurassic-jumbo,subject-control,William,Stephanie,False,promised,to run,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to run.
+
+Question: Who promised someone to run?
+Answer: William
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who ran?
+Answer: ", '?\n'),148.0
+299,jurassic-jumbo,subject-control,William,Stephanie,False,promised,to call,William,other,"You will be given a context and a question.
+Context: William promised Stephanie to call.
+
+Question: Who promised someone to call?
+Answer: William
+Question: Who was promised something?
+Answer: Stephanie
+Question: Who called?
+Answer: ", '?\n'),149.0

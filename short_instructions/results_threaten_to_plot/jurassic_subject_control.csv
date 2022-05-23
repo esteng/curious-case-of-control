@@ -1,0 +1,751 @@
+,model,exp_type,name1,name2,swap_names,verb,action,true,pred,prompt,response,Unnamed: 0
+0,jurassic-large,subject-control,Avery,Casey,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to come.
+
+Question: Who came?
+Answer: ", '(A'),0.0
+1,jurassic-large,subject-control,Avery,Casey,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to go.
+
+Question: Who went?
+Answer: ", '(A'),1.0
+2,jurassic-large,subject-control,Avery,Casey,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to read.
+
+Question: Who read?
+Answer: ", '(A'),2.0
+3,jurassic-large,subject-control,Avery,Casey,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to run.
+
+Question: Who ran?
+Answer: ", '(A'),3.0
+4,jurassic-large,subject-control,Avery,Casey,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Casey to call.
+
+Question: Who called?
+Answer: ", '(A'),4.0
+5,jurassic-large,subject-control,Avery,Joseph,False,threatened,to come,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),10.0
+6,jurassic-large,subject-control,Avery,Joseph,False,threatened,to go,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),11.0
+7,jurassic-large,subject-control,Avery,Joseph,False,threatened,to read,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),12.0
+8,jurassic-large,subject-control,Avery,Joseph,False,threatened,to run,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),13.0
+9,jurassic-large,subject-control,Avery,Joseph,False,threatened,to call,Avery,Joseph,"You will be given a context and a question.
+Context: Avery threatened Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),14.0
+10,jurassic-large,subject-control,Avery,Nicole,False,threatened,to come,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),20.0
+11,jurassic-large,subject-control,Avery,Nicole,False,threatened,to go,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),21.0
+12,jurassic-large,subject-control,Avery,Nicole,False,threatened,to read,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),22.0
+13,jurassic-large,subject-control,Avery,Nicole,False,threatened,to run,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),23.0
+14,jurassic-large,subject-control,Avery,Nicole,False,threatened,to call,Avery,Nicole,"You will be given a context and a question.
+Context: Avery threatened Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),24.0
+15,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to come,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", '(A'),30.0
+16,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to go,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", '(A'),31.0
+17,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to read,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", '(A'),32.0
+18,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to run,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(A'),33.0
+19,jurassic-large,subject-control,Avery,Stephanie,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", '(A'),34.0
+20,jurassic-large,subject-control,Avery,William,False,threatened,to come,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to come.
+
+Question: Who came?
+Answer: ", '(William'),40.0
+21,jurassic-large,subject-control,Avery,William,False,threatened,to go,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to go.
+
+Question: Who went?
+Answer: ", '(William'),41.0
+22,jurassic-large,subject-control,Avery,William,False,threatened,to read,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to read.
+
+Question: Who read?
+Answer: ", '(William'),42.0
+23,jurassic-large,subject-control,Avery,William,False,threatened,to run,Avery,William,"You will be given a context and a question.
+Context: Avery threatened William to run.
+
+Question: Who ran?
+Answer: ", '(William'),43.0
+24,jurassic-large,subject-control,Avery,William,False,threatened,to call,Avery,Avery,"You will be given a context and a question.
+Context: Avery threatened William to call.
+
+Question: Who called?
+Answer: ", '(A'),44.0
+25,jurassic-large,subject-control,Casey,Avery,False,threatened,to come,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to come.
+
+Question: Who came?
+Answer: ", '(A'),50.0
+26,jurassic-large,subject-control,Casey,Avery,False,threatened,to go,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to go.
+
+Question: Who went?
+Answer: ", '(A'),51.0
+27,jurassic-large,subject-control,Casey,Avery,False,threatened,to read,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to read.
+
+Question: Who read?
+Answer: ", '(A'),52.0
+28,jurassic-large,subject-control,Casey,Avery,False,threatened,to run,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to run.
+
+Question: Who ran?
+Answer: ", '(A'),53.0
+29,jurassic-large,subject-control,Casey,Avery,False,threatened,to call,Casey,Avery,"You will be given a context and a question.
+Context: Casey threatened Avery to call.
+
+Question: Who called?
+Answer: ", '(A'),54.0
+30,jurassic-large,subject-control,Casey,Joseph,False,threatened,to come,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),60.0
+31,jurassic-large,subject-control,Casey,Joseph,False,threatened,to go,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),61.0
+32,jurassic-large,subject-control,Casey,Joseph,False,threatened,to read,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),62.0
+33,jurassic-large,subject-control,Casey,Joseph,False,threatened,to run,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),63.0
+34,jurassic-large,subject-control,Casey,Joseph,False,threatened,to call,Casey,Joseph,"You will be given a context and a question.
+Context: Casey threatened Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),64.0
+35,jurassic-large,subject-control,Casey,Nicole,False,threatened,to come,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),70.0
+36,jurassic-large,subject-control,Casey,Nicole,False,threatened,to go,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),71.0
+37,jurassic-large,subject-control,Casey,Nicole,False,threatened,to read,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),72.0
+38,jurassic-large,subject-control,Casey,Nicole,False,threatened,to run,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),73.0
+39,jurassic-large,subject-control,Casey,Nicole,False,threatened,to call,Casey,Nicole,"You will be given a context and a question.
+Context: Casey threatened Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),74.0
+40,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to come,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", '(S'),80.0
+41,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to go,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", '(S'),81.0
+42,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to read,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", '(S'),82.0
+43,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to run,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(S'),83.0
+44,jurassic-large,subject-control,Casey,Stephanie,False,threatened,to call,Casey,other,"You will be given a context and a question.
+Context: Casey threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", '(S'),84.0
+45,jurassic-large,subject-control,Casey,William,False,threatened,to come,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to come.
+
+Question: Who came?
+Answer: ", '(William'),90.0
+46,jurassic-large,subject-control,Casey,William,False,threatened,to go,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to go.
+
+Question: Who went?
+Answer: ", '(William'),91.0
+47,jurassic-large,subject-control,Casey,William,False,threatened,to read,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to read.
+
+Question: Who read?
+Answer: ", '(William'),92.0
+48,jurassic-large,subject-control,Casey,William,False,threatened,to run,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to run.
+
+Question: Who ran?
+Answer: ", '(William'),93.0
+49,jurassic-large,subject-control,Casey,William,False,threatened,to call,Casey,William,"You will be given a context and a question.
+Context: Casey threatened William to call.
+
+Question: Who called?
+Answer: ", '(William'),94.0
+50,jurassic-large,subject-control,Joseph,Avery,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),100.0
+51,jurassic-large,subject-control,Joseph,Avery,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),101.0
+52,jurassic-large,subject-control,Joseph,Avery,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),102.0
+53,jurassic-large,subject-control,Joseph,Avery,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),103.0
+54,jurassic-large,subject-control,Joseph,Avery,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Avery to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),104.0
+55,jurassic-large,subject-control,Joseph,Casey,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),110.0
+56,jurassic-large,subject-control,Joseph,Casey,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),111.0
+57,jurassic-large,subject-control,Joseph,Casey,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),112.0
+58,jurassic-large,subject-control,Joseph,Casey,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),113.0
+59,jurassic-large,subject-control,Joseph,Casey,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Casey to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),114.0
+60,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to come,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),120.0
+61,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to go,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),121.0
+62,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to read,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),122.0
+63,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to run,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),123.0
+64,jurassic-large,subject-control,Joseph,Nicole,False,threatened,to call,Joseph,Nicole,"You will be given a context and a question.
+Context: Joseph threatened Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),124.0
+65,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),130.0
+66,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),131.0
+67,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),132.0
+68,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),133.0
+69,jurassic-large,subject-control,Joseph,Stephanie,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),134.0
+70,jurassic-large,subject-control,Joseph,William,False,threatened,to come,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),140.0
+71,jurassic-large,subject-control,Joseph,William,False,threatened,to go,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),141.0
+72,jurassic-large,subject-control,Joseph,William,False,threatened,to read,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),142.0
+73,jurassic-large,subject-control,Joseph,William,False,threatened,to run,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),143.0
+74,jurassic-large,subject-control,Joseph,William,False,threatened,to call,Joseph,Joseph,"You will be given a context and a question.
+Context: Joseph threatened William to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),144.0
+75,jurassic-large,subject-control,Nicole,Avery,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),150.0
+76,jurassic-large,subject-control,Nicole,Avery,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),151.0
+77,jurassic-large,subject-control,Nicole,Avery,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),152.0
+78,jurassic-large,subject-control,Nicole,Avery,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),153.0
+79,jurassic-large,subject-control,Nicole,Avery,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Avery to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),154.0
+80,jurassic-large,subject-control,Nicole,Casey,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),160.0
+81,jurassic-large,subject-control,Nicole,Casey,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),161.0
+82,jurassic-large,subject-control,Nicole,Casey,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),162.0
+83,jurassic-large,subject-control,Nicole,Casey,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),163.0
+84,jurassic-large,subject-control,Nicole,Casey,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Casey to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),164.0
+85,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),170.0
+86,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),171.0
+87,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),172.0
+88,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),173.0
+89,jurassic-large,subject-control,Nicole,Joseph,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Joseph to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),174.0
+90,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),180.0
+91,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),181.0
+92,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),182.0
+93,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),183.0
+94,jurassic-large,subject-control,Nicole,Stephanie,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),184.0
+95,jurassic-large,subject-control,Nicole,William,False,threatened,to come,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),190.0
+96,jurassic-large,subject-control,Nicole,William,False,threatened,to go,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),191.0
+97,jurassic-large,subject-control,Nicole,William,False,threatened,to read,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),192.0
+98,jurassic-large,subject-control,Nicole,William,False,threatened,to run,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),193.0
+99,jurassic-large,subject-control,Nicole,William,False,threatened,to call,Nicole,Nicole,"You will be given a context and a question.
+Context: Nicole threatened William to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),194.0
+100,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to come.
+
+Question: Who came?
+Answer: ", '(S'),200.0
+101,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to go.
+
+Question: Who went?
+Answer: ", '(S'),201.0
+102,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to read.
+
+Question: Who read?
+Answer: ", '(S'),202.0
+103,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to run.
+
+Question: Who ran?
+Answer: ", '(S'),203.0
+104,jurassic-large,subject-control,Stephanie,Avery,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Avery to call.
+
+Question: Who called?
+Answer: ", '(S'),204.0
+105,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to come,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to come.
+
+Question: Who came?
+Answer: ", '(S'),210.0
+106,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to go.
+
+Question: Who went?
+Answer: ", '(S'),211.0
+107,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to read,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to read.
+
+Question: Who read?
+Answer: ", '(S'),212.0
+108,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to run.
+
+Question: Who ran?
+Answer: ", '(S'),213.0
+109,jurassic-large,subject-control,Stephanie,Casey,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Casey to call.
+
+Question: Who called?
+Answer: ", '(S'),214.0
+110,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to come,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),220.0
+111,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to go,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),221.0
+112,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to read,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),222.0
+113,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", '(S'),223.0
+114,jurassic-large,subject-control,Stephanie,Joseph,False,threatened,to call,Stephanie,Joseph,"You will be given a context and a question.
+Context: Stephanie threatened Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),224.0
+115,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to come,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),230.0
+116,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to go,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to go.
+
+Question: Who went?
+Answer: ", '(S'),231.0
+117,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to read,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),232.0
+118,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", '(S'),233.0
+119,jurassic-large,subject-control,Stephanie,Nicole,False,threatened,to call,Stephanie,Nicole,"You will be given a context and a question.
+Context: Stephanie threatened Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),234.0
+120,jurassic-large,subject-control,Stephanie,William,False,threatened,to come,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to come.
+
+Question: Who came?
+Answer: ", '(William'),240.0
+121,jurassic-large,subject-control,Stephanie,William,False,threatened,to go,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to go.
+
+Question: Who went?
+Answer: ", '(William'),241.0
+122,jurassic-large,subject-control,Stephanie,William,False,threatened,to read,Stephanie,William,"You will be given a context and a question.
+Context: Stephanie threatened William to read.
+
+Question: Who read?
+Answer: ", '(William'),242.0
+123,jurassic-large,subject-control,Stephanie,William,False,threatened,to run,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to run.
+
+Question: Who ran?
+Answer: ", '(S'),243.0
+124,jurassic-large,subject-control,Stephanie,William,False,threatened,to call,Stephanie,other,"You will be given a context and a question.
+Context: Stephanie threatened William to call.
+
+Question: Who called?
+Answer: ", '(S'),244.0
+125,jurassic-large,subject-control,William,Avery,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Avery to come.
+
+Question: Who came?
+Answer: ", '(William'),250.0
+126,jurassic-large,subject-control,William,Avery,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Avery to go.
+
+Question: Who went?
+Answer: ", '(William'),251.0
+127,jurassic-large,subject-control,William,Avery,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Avery to read.
+
+Question: Who read?
+Answer: ", '(William'),252.0
+128,jurassic-large,subject-control,William,Avery,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Avery to run.
+
+Question: Who ran?
+Answer: ", '(William'),253.0
+129,jurassic-large,subject-control,William,Avery,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Avery to call.
+
+Question: Who called?
+Answer: ", '(William'),254.0
+130,jurassic-large,subject-control,William,Casey,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Casey to come.
+
+Question: Who came?
+Answer: ", '(William'),260.0
+131,jurassic-large,subject-control,William,Casey,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Casey to go.
+
+Question: Who went?
+Answer: ", '(William'),261.0
+132,jurassic-large,subject-control,William,Casey,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Casey to read.
+
+Question: Who read?
+Answer: ", '(William'),262.0
+133,jurassic-large,subject-control,William,Casey,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Casey to run.
+
+Question: Who ran?
+Answer: ", '(William'),263.0
+134,jurassic-large,subject-control,William,Casey,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Casey to call.
+
+Question: Who called?
+Answer: ", '(William'),264.0
+135,jurassic-large,subject-control,William,Joseph,False,threatened,to come,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to come.
+
+Question: Who came?
+Answer: ", '(Joseph'),270.0
+136,jurassic-large,subject-control,William,Joseph,False,threatened,to go,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to go.
+
+Question: Who went?
+Answer: ", '(Joseph'),271.0
+137,jurassic-large,subject-control,William,Joseph,False,threatened,to read,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to read.
+
+Question: Who read?
+Answer: ", '(Joseph'),272.0
+138,jurassic-large,subject-control,William,Joseph,False,threatened,to run,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to run.
+
+Question: Who ran?
+Answer: ", '(Joseph'),273.0
+139,jurassic-large,subject-control,William,Joseph,False,threatened,to call,William,Joseph,"You will be given a context and a question.
+Context: William threatened Joseph to call.
+
+Question: Who called?
+Answer: ", '(Joseph'),274.0
+140,jurassic-large,subject-control,William,Nicole,False,threatened,to come,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to come.
+
+Question: Who came?
+Answer: ", '(Nicole'),280.0
+141,jurassic-large,subject-control,William,Nicole,False,threatened,to go,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to go.
+
+Question: Who went?
+Answer: ", '(Nicole'),281.0
+142,jurassic-large,subject-control,William,Nicole,False,threatened,to read,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to read.
+
+Question: Who read?
+Answer: ", '(Nicole'),282.0
+143,jurassic-large,subject-control,William,Nicole,False,threatened,to run,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to run.
+
+Question: Who ran?
+Answer: ", '(Nicole'),283.0
+144,jurassic-large,subject-control,William,Nicole,False,threatened,to call,William,Nicole,"You will be given a context and a question.
+Context: William threatened Nicole to call.
+
+Question: Who called?
+Answer: ", '(Nicole'),284.0
+145,jurassic-large,subject-control,William,Stephanie,False,threatened,to come,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to come.
+
+Question: Who came?
+Answer: ", '(William'),290.0
+146,jurassic-large,subject-control,William,Stephanie,False,threatened,to go,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to go.
+
+Question: Who went?
+Answer: ", '(William'),291.0
+147,jurassic-large,subject-control,William,Stephanie,False,threatened,to read,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to read.
+
+Question: Who read?
+Answer: ", '(William'),292.0
+148,jurassic-large,subject-control,William,Stephanie,False,threatened,to run,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to run.
+
+Question: Who ran?
+Answer: ", '(William'),293.0
+149,jurassic-large,subject-control,William,Stephanie,False,threatened,to call,William,William,"You will be given a context and a question.
+Context: William threatened Stephanie to call.
+
+Question: Who called?
+Answer: ", '(William'),294.0
